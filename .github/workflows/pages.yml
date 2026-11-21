@@ -1,49 +1,31 @@
-name: Build and deploy SAMA Encyclopedia
+name: Build and publish SAMA Encyclopedia
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - name: Checkout main
+      - name: Checkout source
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Import verified SAMA 0.4 source
-        shell: bash
-        run: |
-          if [ -f .bootstrap/sama-v0.4-source.tar.xz.b64 ]; then
-            base64 --decode .bootstrap/sama-v0.4-source.tar.xz.b64 | tar -xJ --strip-components=1 -C .
-            python3 scripts/generate-wordbank.py
-            rm -rf .bootstrap
-            # GitHub Actions cannot modify workflow files using its built-in token.
-            git restore .github/workflows/pages.yml
-            rm -f .github/workflows/validate.yml
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add -A
-            git commit -m 'feat: import full SAMA 0.4 encyclopedia and 5000-word editorial corpus [skip ci]'
-            git push origin HEAD:main
-          fi
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-      - name: Build and test
+      - name: Validate, compile and test
         run: npm test
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -51,6 +33,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-      - name: Deploy
-        id: deployment
+      - name: Deploy site
+        id: deploy
         uses: actions/deploy-pages@v4
