@@ -1,10 +1,10 @@
-name: Deploy SAMA to GitHub Pages
+name: Build and deploy SAMA Encyclopedia
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -12,21 +12,44 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
-      - name: Configure Pages (enable if needed)
-        uses: actions/configure-pages@v5
         with:
-          enablement: true
-      - name: Upload static website
+          persist-credentials: true
+      - name: Import verified SAMA 0.4 source
+        shell: bash
+        run: |
+          if [ -f .bootstrap/sama-v0.4-source.tar.xz.b64 ]; then
+            base64 --decode .bootstrap/sama-v0.4-source.tar.xz.b64 | tar -xJ --strip-components=1 -C .
+            python3 scripts/generate-wordbank.py
+            rm -rf .bootstrap
+            # Pages is already enabled. Future pushes use the normal build-only workflow.
+            sed -i '/^[[:space:]]*enablement: true[[:space:]]*$/d' .github/workflows/pages.yml
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -A
+            git commit -m 'feat: import full SAMA 0.4 encyclopedia and 5000-word editorial corpus [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build and test
+        run: npm test
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload built website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: ./dist
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
