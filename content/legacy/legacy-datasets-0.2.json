@@ -1,0 +1,5193 @@
+{
+  "LETTERS": [
+    {
+      "char": "A",
+      "ipa": "[a]",
+      "how": "Открытое «а», как в «мама».",
+      "example": "ama",
+      "hint": "Русское а"
+    },
+    {
+      "char": "E",
+      "ipa": "[e]",
+      "how": "Чистое «э» без скольжения к «й».",
+      "example": "pema",
+      "hint": "Русское э"
+    },
+    {
+      "char": "I",
+      "ipa": "[i]",
+      "how": "Чёткое «и».",
+      "example": "mi",
+      "hint": "Русское и"
+    },
+    {
+      "char": "O",
+      "ipa": "[o]",
+      "how": "Чёткое «о» даже без ударения.",
+      "example": "doma",
+      "hint": "Русское о"
+    },
+    {
+      "char": "U",
+      "ipa": "[u]",
+      "how": "Чёткое «у».",
+      "example": "su",
+      "hint": "Русское у"
+    },
+    {
+      "char": "B",
+      "ipa": "[b]",
+      "how": "Звонкое «б».",
+      "example": "basa",
+      "hint": "Русское б"
+    },
+    {
+      "char": "D",
+      "ipa": "[d]",
+      "how": "Звонкое «д».",
+      "example": "doma",
+      "hint": "Русское д"
+    },
+    {
+      "char": "H",
+      "ipa": "[h]~[x]",
+      "how": "Лёгкое выдыхание «х»; оба варианта допустимы.",
+      "example": "hama",
+      "hint": "Английское h / русское х"
+    },
+    {
+      "char": "K",
+      "ipa": "[k]",
+      "how": "Глухое «к», без придыхания как обязательного правила.",
+      "example": "kula",
+      "hint": "Русское к"
+    },
+    {
+      "char": "L",
+      "ipa": "[l]~[ɾ]",
+      "how": "«Л» или короткое «р»; для этого звука нет противопоставления.",
+      "example": "lena",
+      "hint": "Русское л или короткое р"
+    },
+    {
+      "char": "M",
+      "ipa": "[m]",
+      "how": "Губное «м».",
+      "example": "mama",
+      "hint": "Русское м"
+    },
+    {
+      "char": "N",
+      "ipa": "[n]",
+      "how": "Звук «н».",
+      "example": "nami",
+      "hint": "Русское н"
+    },
+    {
+      "char": "P",
+      "ipa": "[p]",
+      "how": "Глухое «п».",
+      "example": "pina",
+      "hint": "Русское п"
+    },
+    {
+      "char": "S",
+      "ipa": "[s]",
+      "how": "Чёткий звук «с», как в русском «сок».",
+      "example": "sama",
+      "hint": "Русское с"
+    },
+    {
+      "char": "T",
+      "ipa": "[t]",
+      "how": "Глухое «т».",
+      "example": "ta",
+      "hint": "Русское т"
+    },
+    {
+      "char": "W",
+      "ipa": "[w]~[ʋ]",
+      "how": "Губной полугласный; близкое к «в» произношение допустимо.",
+      "example": "wa",
+      "hint": "Английское w / мягкое в"
+    },
+    {
+      "char": "Y",
+      "ipa": "[j]",
+      "how": "Короткое «й».",
+      "example": "yu",
+      "hint": "Русское й"
+    }
+  ],
+  "COUNTS": [
+    [
+      "nula",
+      "0"
+    ],
+    [
+      "una",
+      "1"
+    ],
+    [
+      "dua",
+      "2"
+    ],
+    [
+      "tia",
+      "3"
+    ],
+    [
+      "pala",
+      "4"
+    ],
+    [
+      "pema",
+      "5"
+    ],
+    [
+      "sika",
+      "6"
+    ],
+    [
+      "seta",
+      "7"
+    ],
+    [
+      "oto",
+      "8"
+    ],
+    [
+      "naya",
+      "9"
+    ],
+    [
+      "tena",
+      "10"
+    ],
+    [
+      "sena",
+      "100"
+    ],
+    [
+      "mila",
+      "1000"
+    ]
+  ],
+  "LEXICON": [
+    {
+      "w": "aka",
+      "ru": "но",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "ama",
+      "ru": "любить",
+      "tag": "Действия",
+      "proposed": false
+    },
+    {
+      "w": "ami",
+      "ru": "друг",
+      "tag": "Люди и отношения",
+      "proposed": false
+    },
+    {
+      "w": "amiko",
+      "ru": "приятель",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "amiya",
+      "ru": "дружба",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "ani",
+      "ru": "если",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "apa",
+      "ru": "яблоко",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "baba",
+      "ru": "папа",
+      "tag": "Люди и отношения",
+      "proposed": false
+    },
+    {
+      "w": "babi",
+      "ru": "младенец",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "bali",
+      "ru": "красивый",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "balo",
+      "ru": "сумка",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "bama",
+      "ru": "работа",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "bama-soma",
+      "ru": "работник",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "bana",
+      "ru": "банан",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "bano",
+      "ru": "город",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "bano-mato",
+      "ru": "парк",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "bano-mini",
+      "ru": "посёлок",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "basa",
+      "ru": "язык",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "basa-doma",
+      "ru": "школа языка",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "basa-koma-talo",
+      "ru": "языковая сеть",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "basa-lena",
+      "ru": "изучение языка",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "basa-toka",
+      "ru": "речь",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "beto",
+      "ru": "кровать",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "bi",
+      "ru": "быть, являться",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "bina",
+      "ru": "спина",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "bisi",
+      "ru": "болеть",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "biso",
+      "ru": "боль",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "bodu",
+      "ru": "тело",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "boma",
+      "ru": "брат",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "bona",
+      "ru": "хороший",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "bona-sami",
+      "ru": "хорошая погода",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "bona-tima",
+      "ru": "удачный момент",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "bulu",
+      "ru": "синий",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "daba",
+      "ru": "большой",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "daba-koma",
+      "ru": "цивилизация",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "daba-tima",
+      "ru": "длинный по времени",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "dama",
+      "ru": "строить",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "dami",
+      "ru": "палец",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "dani",
+      "ru": "ученик",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "dano",
+      "ru": "зуб",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "dasa",
+      "ru": "станция",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "dasi",
+      "ru": "покупать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "de",
+      "ru": "принадлежность, «чей»",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "deta",
+      "ru": "правый",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "dina",
+      "ru": "день",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "dina-ena",
+      "ru": "сегодня",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "dina-nawa",
+      "ru": "завтра",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "dina-palae",
+      "ru": "вчера",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "doma",
+      "ru": "дом",
+      "tag": "Дом и быт",
+      "proposed": false
+    },
+    {
+      "w": "doma-daba",
+      "ru": "большое здание",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "doma-kato",
+      "ru": "домашний кот",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "doma-koma",
+      "ru": "общественное здание",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "doma-kula",
+      "ru": "кухня",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "doma-lako",
+      "ru": "спальня",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "doma-lato",
+      "ru": "освещение",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "doma-nana",
+      "ru": "внутри дома",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "doma-nina",
+      "ru": "детская комната",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "doma-pano",
+      "ru": "этаж",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "doma-siba",
+      "ru": "домашняя собака",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "doma-soma",
+      "ru": "житель",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "doma-su",
+      "ru": "ванная",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "doma-tota",
+      "ru": "снаружи дома",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "doma-wato",
+      "ru": "розетка",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "dua",
+      "ru": "два",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "duni",
+      "ru": "дикое животное",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "duniya",
+      "ru": "мир, Земля",
+      "tag": "Природа и погода",
+      "proposed": false
+    },
+    {
+      "w": "duniya-koma-talo",
+      "ru": "интернет (описательное)",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "ena",
+      "ru": "этот, здесь",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "hama",
+      "ru": "надежда",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "ka",
+      "ru": "частица общего вопроса",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kala",
+      "ru": "место",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "kala-ena",
+      "ru": "это место",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "kala-ona",
+      "ru": "то место",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "kalo",
+      "ru": "где",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kalo-doma",
+      "ru": "место проживания",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "kama",
+      "ru": "хотеть",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "kami",
+      "ru": "помогать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "kamo",
+      "ru": "как",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kano",
+      "ru": "ухо",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "kano-saya",
+      "ru": "слушать внимательно",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "kasa",
+      "ru": "почему",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kaso",
+      "ru": "книга",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "kaso-lena",
+      "ru": "учебник",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "kaso-nima",
+      "ru": "справочник",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "kate",
+      "ru": "когда",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kato",
+      "ru": "кот",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "kawa",
+      "ru": "кофе",
+      "tag": "Еда и напитки",
+      "proposed": false
+    },
+    {
+      "w": "ki",
+      "ru": "кто",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kita",
+      "ru": "бежать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "ko",
+      "ru": "с, вместе с",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "koka",
+      "ru": "курица",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "koko",
+      "ru": "какао",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "koma",
+      "ru": "сообщество",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "koma-ama",
+      "ru": "солидарность",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "koma-talo",
+      "ru": "сеть",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "koma-toka",
+      "ru": "общественная дискуссия",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "kopa",
+      "ru": "чашка",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "koso",
+      "ru": "кривой",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "kowa",
+      "ru": "громкий",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "ku",
+      "ru": "что",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "kula",
+      "ru": "есть, кушать",
+      "tag": "Еда и напитки",
+      "proposed": false
+    },
+    {
+      "w": "kula-bona",
+      "ru": "вкусная еда",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "kula-doma",
+      "ru": "столовая",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "la",
+      "ru": "маркер будущего времени",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "laka",
+      "ru": "озеро",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "lako",
+      "ru": "спать",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "lali",
+      "ru": "рядом",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "lami",
+      "ru": "семья",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "lapa",
+      "ru": "рука",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "lapa-mato",
+      "ru": "ветка",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "lasa",
+      "ru": "волосы",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "lasi",
+      "ru": "лёгкий",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "lata",
+      "ru": "автомобиль",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "lata-daba",
+      "ru": "автобус",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "lata-mini",
+      "ru": "велосипед (условное)",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "lato",
+      "ru": "лампа",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "lawi",
+      "ru": "закон",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "lawi-bona",
+      "ru": "справедливый закон",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "lawi-doma",
+      "ru": "суд",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "lawi-soma",
+      "ru": "юрист",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "lena",
+      "ru": "учить, изучать",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "lena-doma",
+      "ru": "школа",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "lena-soma",
+      "ru": "учитель",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "li",
+      "ru": "показатель множественного числа",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "lilu",
+      "ru": "зелёный",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "lima",
+      "ru": "лес",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "limo",
+      "ru": "лимон",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "lina",
+      "ru": "голод",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "lino",
+      "ru": "партнёр",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "lino-doma",
+      "ru": "квартира",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "lita",
+      "ru": "читать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "lita-doma",
+      "ru": "библиотека",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "lita-pano",
+      "ru": "страница",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "lolo",
+      "ru": "медленный",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "loma",
+      "ru": "ложка",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "lopo",
+      "ru": "волк",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "luma",
+      "ru": "комната",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "luma-bulu",
+      "ru": "голубой (составное)",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "luma-suna",
+      "ru": "дневной свет",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "luna",
+      "ru": "луна",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "mado",
+      "ru": "руководитель",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "mado-doma",
+      "ru": "административное здание",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "mala",
+      "ru": "тихий",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "mali",
+      "ru": "грязный",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "malo",
+      "ru": "плохой",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "malo-kula",
+      "ru": "невкусная еда",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "malo-pami",
+      "ru": "конфликт",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "malo-sami",
+      "ru": "плохая погода",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "malo-su",
+      "ru": "грязная вода",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "mama",
+      "ru": "мама",
+      "tag": "Люди и отношения",
+      "proposed": false
+    },
+    {
+      "w": "mami",
+      "ru": "родитель",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "mato",
+      "ru": "дерево",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "mato-pano",
+      "ru": "аллея",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "matu",
+      "ru": "взрослый",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "mawa",
+      "ru": "сильный",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "mawi",
+      "ru": "гость",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "mawi-doma",
+      "ru": "гостевой дом",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "meda",
+      "ru": "лекарство",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "meda-doma",
+      "ru": "аптека",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "medo",
+      "ru": "лечить",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "meka",
+      "ru": "врач",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "meka-doma",
+      "ru": "больница",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "melo",
+      "ru": "мёд",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "mesa",
+      "ru": "стол",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "mi",
+      "ru": "я",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "mika",
+      "ru": "смотреть внимательно",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "miku",
+      "ru": "молоко",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "mila",
+      "ru": "тысяча",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "mili",
+      "ru": "глаз",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "mima",
+      "ru": "помнить",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "mimi",
+      "ru": "насекомое",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "mini",
+      "ru": "маленький",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "misa",
+      "ru": "ключ",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "misa-nini",
+      "ru": "маленькая птица",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "misi",
+      "ru": "думать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "misi-bona",
+      "ru": "логичный",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "miso",
+      "ru": "суп",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "mita",
+      "ru": "мышь",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "moko",
+      "ru": "короткий",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "mona",
+      "ru": "кожа",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "mona-duniya",
+      "ru": "почва",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "mona-nini",
+      "ru": "бабочка",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "mona-tima",
+      "ru": "месяц",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "mono",
+      "ru": "мужчина",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "mosa",
+      "ru": "мочь",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "muka",
+      "ru": "корова",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "mumu",
+      "ru": "коричневый",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "muna",
+      "ru": "жёлтый",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "muto",
+      "ru": "рот",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "na",
+      "ru": "в, на, у",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "na-tima",
+      "ru": "вовремя",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "nado",
+      "ru": "камень",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "naka",
+      "ru": "делать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "naka-doma",
+      "ru": "мастерская",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "naki",
+      "ru": "ответ для исследования",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "nalo",
+      "ru": "апельсин",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "nami",
+      "ru": "имя",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "nami-bano",
+      "ru": "название города",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "nami-doma",
+      "ru": "адрес, название дома",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "nami-koma",
+      "ru": "название сообщества",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "nami-pisi",
+      "ru": "вид рыбы",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "nami-talo",
+      "ru": "идентификатор",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "namiwa",
+      "ru": "сосед",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "namiya",
+      "ru": "знакомый человек",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "nana",
+      "ru": "внутри",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "napa",
+      "ru": "живот",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "napa-pisi",
+      "ru": "кит",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "nasa",
+      "ru": "страна происхождения",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "nasi",
+      "ru": "рис",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "naso",
+      "ru": "нос",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "nato",
+      "ru": "народ",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "nawa",
+      "ru": "новый",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "nawa-dina",
+      "ru": "утро",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "nawa-soma",
+      "ru": "новичок",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "nawa-suna",
+      "ru": "рассвет",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "nawi",
+      "ru": "начинать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "naya",
+      "ru": "девять",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "nema",
+      "ru": "шея",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "nemi",
+      "ru": "слабый",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "nemo",
+      "ru": "забывать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "nilo",
+      "ru": "далёкий",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "nima",
+      "ru": "знать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "nima-doma",
+      "ru": "центр знаний",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "nima-nawa",
+      "ru": "новое знание",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "nima-talo",
+      "ru": "система знаний",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "nina",
+      "ru": "ребёнок",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "nina-koma",
+      "ru": "детское сообщество",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "nini",
+      "ru": "птица",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "nipa",
+      "ru": "открывать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "no",
+      "ru": "не, отрицание",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "noba",
+      "ru": "над",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "noka",
+      "ru": "ночь",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "noki",
+      "ru": "тёмный",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "noki-suna",
+      "ru": "тень",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "noki-tima",
+      "ru": "поздно",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "noko",
+      "ru": "нож",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "nono",
+      "ru": "нет",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "nopa",
+      "ru": "искать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "nula",
+      "ru": "ноль",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "nuta",
+      "ru": "орех",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "o",
+      "ru": "или",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "ona",
+      "ru": "тот, там",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "oto",
+      "ru": "восемь",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "pa",
+      "ru": "маркер прошедшего времени",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "paba",
+      "ru": "некрасивый",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "pado",
+      "ru": "нога",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "paka",
+      "ru": "стена",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "paka-mimi",
+      "ru": "паук",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "paki",
+      "ru": "закрывать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "pako",
+      "ru": "давать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "pako-dasi",
+      "ru": "продавать (описательное)",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "pala",
+      "ru": "четыре",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "pala-doma",
+      "ru": "старое здание",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "pala-mato",
+      "ru": "старое дерево",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "palae",
+      "ru": "старый (о предмете)",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "palao",
+      "ru": "пожалуйста",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "pali",
+      "ru": "чистый",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "pali-telo",
+      "ru": "ровный круг",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "palo",
+      "ru": "чистить",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "pami",
+      "ru": "мир, отсутствие войны",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "pami-lena",
+      "ru": "совместное обучение",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "pana",
+      "ru": "хлеб",
+      "tag": "Еда и напитки",
+      "proposed": false
+    },
+    {
+      "w": "pana-doma",
+      "ru": "пекарня",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "pana-suka",
+      "ru": "сладкая выпечка",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "pano",
+      "ru": "пол",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "pano-bano",
+      "ru": "улица",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "pano-dasa",
+      "ru": "остановка",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "pano-wako",
+      "ru": "дорога",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "papa",
+      "ru": "красный",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "pasa",
+      "ru": "грустный",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "pasi",
+      "ru": "усталый",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "pasi-tima",
+      "ru": "долгое ожидание",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "pata",
+      "ru": "перед",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "pema",
+      "ru": "пять",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "peta",
+      "ru": "дверь",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "peta-pano",
+      "ru": "ворота",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "pila",
+      "ru": "тарелка",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "pilo",
+      "ru": "самолёт",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "pina",
+      "ru": "пить",
+      "tag": "Еда и напитки",
+      "proposed": false
+    },
+    {
+      "w": "pina-lina",
+      "ru": "жажда",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "pino",
+      "ru": "трава",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "pipo",
+      "ru": "перец",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "pisi",
+      "ru": "рыба",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "poba",
+      "ru": "под",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "poko",
+      "ru": "мало",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "polo",
+      "ru": "лошадь",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "poma",
+      "ru": "фрукт",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "pota",
+      "ru": "картофель",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "puma",
+      "ru": "лёгкое",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "sadi",
+      "ru": "прямой",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "sado",
+      "ru": "квадратный",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "saki",
+      "ru": "вопрос для исследования",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "sala",
+      "ru": "привет",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "sali",
+      "ru": "соль",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "sama",
+      "ru": "одинаковый, равный",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "sama-duniya",
+      "ru": "общий мир",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sama-soma",
+      "ru": "равный человек",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "sami",
+      "ru": "небо",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sana",
+      "ru": "лист",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sani",
+      "ru": "спасибо",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "sano",
+      "ru": "сердце",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "sano-bona",
+      "ru": "спокойствие, хорошее самочувствие",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "sapo",
+      "ru": "голова",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "sapo-kula",
+      "ru": "приём пищи",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "sasa",
+      "ru": "быстрый",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "sasa-lena",
+      "ru": "быстрое обучение",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "sawa",
+      "ru": "крыша",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "saya",
+      "ru": "слушать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "sayo",
+      "ru": "до свидания",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "se",
+      "ru": "сам, самостоятельно",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "seda",
+      "ru": "стул",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "sela",
+      "ru": "море",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sela-daba",
+      "ru": "океан",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sela-lata",
+      "ru": "корабль",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "sela-nini",
+      "ru": "морская птица",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "selo",
+      "ru": "другой",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "selo-dina",
+      "ru": "другой день",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "selo-kaso",
+      "ru": "другая книга",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "sena",
+      "ru": "сто",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "sena-soma",
+      "ru": "группа людей из ста (условное)",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "seta",
+      "ru": "семь",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "si",
+      "ru": "видеть",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "siba",
+      "ru": "собака",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "sidi",
+      "ru": "левый",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "sika",
+      "ru": "шесть",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "sila",
+      "ru": "сестра",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "sili",
+      "ru": "вежливый",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "silo",
+      "ru": "счастливый",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "sima",
+      "ru": "холод",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sima-nini",
+      "ru": "пингвин",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "sima-sami",
+      "ru": "снег",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sima-su",
+      "ru": "лёд",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sino",
+      "ru": "дышать",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "sisa",
+      "ru": "змея",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "sisi",
+      "ru": "серый",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "sita",
+      "ru": "звезда",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "sita li",
+      "ru": "звёзды",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "soma",
+      "ru": "человек",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "soma li",
+      "ru": "люди",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "soma-ama",
+      "ru": "заботиться",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "soma-biso",
+      "ru": "больной",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "soma-bona",
+      "ru": "добрый человек",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "soma-kula",
+      "ru": "едок",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "soma-pano",
+      "ru": "площадь",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "soma-sano",
+      "ru": "здоровый человек",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "soma-toka",
+      "ru": "общаться",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "soma-wako",
+      "ru": "путешествовать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "sopa",
+      "ru": "ждать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "su",
+      "ru": "вода",
+      "tag": "Еда и напитки",
+      "proposed": false
+    },
+    {
+      "w": "su-doma",
+      "ru": "водозабор",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "su-sami",
+      "ru": "дождь",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "suka",
+      "ru": "сахар",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "suna",
+      "ru": "солнце",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "suna-dina",
+      "ru": "дневное время",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "suna-noka",
+      "ru": "вечер",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "suna-pado",
+      "ru": "закат",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "suni",
+      "ru": "светлый",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "suno",
+      "ru": "светить",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "ta",
+      "ru": "он, она, оно",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "tadi",
+      "ru": "трудный",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "tako",
+      "ru": "брать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "talo",
+      "ru": "инструмент",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-basa",
+      "ru": "переводчик (инструмент)",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-bona",
+      "ru": "исправное устройство",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-lato",
+      "ru": "фонарь",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-lena",
+      "ru": "обучающая программа",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-malo",
+      "ru": "неисправное устройство",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-nima",
+      "ru": "компьютер (рабочее)",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-si",
+      "ru": "экран (рабочее)",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-toka",
+      "ru": "телефон (рабочее)",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "talo-wima",
+      "ru": "средство письма",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "tami",
+      "ru": "проверять",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "tami-nima",
+      "ru": "проверка знания",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "tamo",
+      "ru": "кровь",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "tana",
+      "ru": "цветок",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "tano",
+      "ru": "гора",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "tapa",
+      "ru": "тепло",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "tawi",
+      "ru": "заканчивать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "telo",
+      "ru": "круглый",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "tena",
+      "ru": "десять",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "teya",
+      "ru": "чай",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "tia",
+      "ru": "три",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "tika",
+      "ru": "тигр",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "tima",
+      "ru": "время",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "tima-daba",
+      "ru": "долгое время",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "tima-ena",
+      "ru": "сейчас",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "tima-kate",
+      "ru": "вопрос о времени",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "tima-la",
+      "ru": "позже",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "tima-lata",
+      "ru": "расписание транспорта",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "tima-mini",
+      "ru": "мгновение",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "tima-pa",
+      "ru": "раньше",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "to",
+      "ru": "к, в направлении",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "toka",
+      "ru": "говорить",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "toma",
+      "ru": "помидор",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "toso",
+      "ru": "овца",
+      "tag": "Животные",
+      "proposed": true
+    },
+    {
+      "w": "tota",
+      "ru": "снаружи",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "una",
+      "ru": "один",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "wa",
+      "ru": "и",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "wada",
+      "ru": "река",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "wada-lata",
+      "ru": "лодка",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "wako",
+      "ru": "идти",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "wako-doma",
+      "ru": "вокзал",
+      "tag": "Город и транспорт",
+      "proposed": true
+    },
+    {
+      "w": "wama",
+      "ru": "мясо",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "wasa",
+      "ru": "просыпаться",
+      "tag": "Тело и здоровье",
+      "proposed": true
+    },
+    {
+      "w": "wasi",
+      "ru": "песок",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "wata",
+      "ru": "находить",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "wato",
+      "ru": "электричество",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "wato-doma",
+      "ru": "электростанция (контекстное)",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "wato-nawa",
+      "ru": "новая технология",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "wato-sami",
+      "ru": "гроза",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "wawa",
+      "ru": "белый",
+      "tag": "Цвета, числа и формы",
+      "proposed": true
+    },
+    {
+      "w": "wema",
+      "ru": "культура",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "wena",
+      "ru": "женщина",
+      "tag": "Люди и отношения",
+      "proposed": true
+    },
+    {
+      "w": "weno",
+      "ru": "одежда",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "weta",
+      "ru": "овощ",
+      "tag": "Еда и напитки",
+      "proposed": true
+    },
+    {
+      "w": "widi",
+      "ru": "ветер",
+      "tag": "Природа и погода",
+      "proposed": true
+    },
+    {
+      "w": "wika",
+      "ru": "неделя",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "wima",
+      "ru": "писать",
+      "tag": "Действия",
+      "proposed": true
+    },
+    {
+      "w": "wima-doma",
+      "ru": "архив",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "wima-nami",
+      "ru": "подпись",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "wima-pano",
+      "ru": "письменная страница",
+      "tag": "Образование и наука",
+      "proposed": true
+    },
+    {
+      "w": "wima-talo",
+      "ru": "программа",
+      "tag": "Технологии и связь",
+      "proposed": true
+    },
+    {
+      "w": "wina",
+      "ru": "окно",
+      "tag": "Дом и быт",
+      "proposed": true
+    },
+    {
+      "w": "yala",
+      "ru": "год",
+      "tag": "Время",
+      "proposed": true
+    },
+    {
+      "w": "yalo",
+      "ru": "вокруг",
+      "tag": "Пространство и связь",
+      "proposed": true
+    },
+    {
+      "w": "yesa",
+      "ru": "да",
+      "tag": "Основы языка",
+      "proposed": true
+    },
+    {
+      "w": "yoma",
+      "ru": "важный",
+      "tag": "Чувства и качества",
+      "proposed": true
+    },
+    {
+      "w": "yoma-lawi",
+      "ru": "основное право",
+      "tag": "Общество и культура",
+      "proposed": true
+    },
+    {
+      "w": "yu",
+      "ru": "ты, вы (один человек)",
+      "tag": "Основы языка",
+      "proposed": false
+    },
+    {
+      "w": "yuma",
+      "ru": "юноша, девушка",
+      "tag": "Люди и отношения",
+      "proposed": true
+    }
+  ],
+  "PHRASES": [
+    {
+      "sama": "Sala!",
+      "ru": "Привет!",
+      "topic": "Приветствия"
+    },
+    {
+      "sama": "Sayo!",
+      "ru": "До свидания!",
+      "topic": "Приветствия"
+    },
+    {
+      "sama": "Sani.",
+      "ru": "Спасибо.",
+      "topic": "Приветствия"
+    },
+    {
+      "sama": "Palao.",
+      "ru": "Пожалуйста.",
+      "topic": "Приветствия"
+    },
+    {
+      "sama": "Mi bi Danila.",
+      "ru": "Меня зовут Данила.",
+      "topic": "Знакомство"
+    },
+    {
+      "sama": "Yu bi ki?",
+      "ru": "Кто ты?",
+      "topic": "Знакомство"
+    },
+    {
+      "sama": "Yu nami bi ku?",
+      "ru": "Как тебя зовут? (букв. твоё имя — что?)",
+      "topic": "Знакомство"
+    },
+    {
+      "sama": "Mi bi soma.",
+      "ru": "Я человек.",
+      "topic": "Знакомство"
+    },
+    {
+      "sama": "Mi ama yu.",
+      "ru": "Я люблю тебя.",
+      "topic": "Чувства"
+    },
+    {
+      "sama": "Mi ama lami de mi.",
+      "ru": "Я люблю свою семью.",
+      "topic": "Чувства"
+    },
+    {
+      "sama": "Mi bi silo.",
+      "ru": "Я счастлив.",
+      "topic": "Чувства"
+    },
+    {
+      "sama": "Ta bi pasa.",
+      "ru": "Он/она грустит.",
+      "topic": "Чувства"
+    },
+    {
+      "sama": "Mi si yu.",
+      "ru": "Я вижу тебя.",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Mi no si yu.",
+      "ru": "Я не вижу тебя.",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Yu toka basa SAMA ka?",
+      "ru": "Ты говоришь на языке SAMA?",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Mi lena basa SAMA.",
+      "ru": "Я изучаю SAMA.",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Yu toka kamo?",
+      "ru": "Как ты говоришь?",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Mi no nima.",
+      "ru": "Я не знаю.",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Yu mosa kami mi ka?",
+      "ru": "Ты можешь мне помочь?",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Mi pa si ta.",
+      "ru": "Я видел его / её.",
+      "topic": "Время"
+    },
+    {
+      "sama": "Mi la si ta.",
+      "ru": "Я увижу его / её.",
+      "topic": "Время"
+    },
+    {
+      "sama": "Ta pa no si mi.",
+      "ru": "Он / она меня не видел(а).",
+      "topic": "Время"
+    },
+    {
+      "sama": "Mi la wako to doma.",
+      "ru": "Я пойду домой.",
+      "topic": "Движение"
+    },
+    {
+      "sama": "Yu bi kalo?",
+      "ru": "Где ты?",
+      "topic": "Ориентация"
+    },
+    {
+      "sama": "Mi bi na doma.",
+      "ru": "Я дома.",
+      "topic": "Ориентация"
+    },
+    {
+      "sama": "Doma bi kalo?",
+      "ru": "Где дом?",
+      "topic": "Ориентация"
+    },
+    {
+      "sama": "Mi wako ko ami.",
+      "ru": "Я иду с другом.",
+      "topic": "Движение"
+    },
+    {
+      "sama": "Mi no kama wako.",
+      "ru": "Я не хочу идти.",
+      "topic": "Движение"
+    },
+    {
+      "sama": "Mi kama su.",
+      "ru": "Я хочу воды.",
+      "topic": "Еда"
+    },
+    {
+      "sama": "Mi pina su.",
+      "ru": "Я пью воду.",
+      "topic": "Еда"
+    },
+    {
+      "sama": "Ta kula pana.",
+      "ru": "Он / она ест хлеб.",
+      "topic": "Еда"
+    },
+    {
+      "sama": "Mi la pina kawa.",
+      "ru": "Я буду пить кофе.",
+      "topic": "Еда"
+    },
+    {
+      "sama": "Mi no kula wama.",
+      "ru": "Я не ем мясо.",
+      "topic": "Еда"
+    },
+    {
+      "sama": "Su bi kalo?",
+      "ru": "Где вода?",
+      "topic": "Еда"
+    },
+    {
+      "sama": "Ena bi doma bona.",
+      "ru": "Это хороший дом.",
+      "topic": "Описание"
+    },
+    {
+      "sama": "Doma bi daba.",
+      "ru": "Дом большой.",
+      "topic": "Описание"
+    },
+    {
+      "sama": "Dua ami bi na doma.",
+      "ru": "Два друга находятся дома.",
+      "topic": "Числа"
+    },
+    {
+      "sama": "Mi si tia nini.",
+      "ru": "Я вижу трёх птиц.",
+      "topic": "Числа"
+    },
+    {
+      "sama": "Ta li bi ami de mi.",
+      "ru": "Они мои друзья.",
+      "topic": "Отношения"
+    },
+    {
+      "sama": "Mi ko yu.",
+      "ru": "Я с тобой.",
+      "topic": "Отношения"
+    },
+    {
+      "sama": "Mi no bi meka.",
+      "ru": "Я не врач.",
+      "topic": "Профессии"
+    },
+    {
+      "sama": "Mi bi dani.",
+      "ru": "Я ученик.",
+      "topic": "Обучение"
+    },
+    {
+      "sama": "Ta bi lena-soma.",
+      "ru": "Он / она учитель.",
+      "topic": "Обучение"
+    },
+    {
+      "sama": "Mi lita kaso.",
+      "ru": "Я читаю книгу.",
+      "topic": "Обучение"
+    },
+    {
+      "sama": "Mi wima nami.",
+      "ru": "Я пишу имя.",
+      "topic": "Обучение"
+    },
+    {
+      "sama": "Yu bi bona ka?",
+      "ru": "У тебя всё хорошо? (букв. ты хороший?)",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Yesa, mi bi bona.",
+      "ru": "Да, у меня всё хорошо.",
+      "topic": "Общение"
+    },
+    {
+      "sama": "Mi la nawi.",
+      "ru": "Я начну.",
+      "topic": "Действия"
+    },
+    {
+      "sama": "Mi pa tawi.",
+      "ru": "Я закончил.",
+      "topic": "Действия"
+    },
+    {
+      "sama": "Mi kama lena.",
+      "ru": "Я хочу учиться.",
+      "topic": "Обучение"
+    }
+  ],
+  "LESSONS": [
+    {
+      "title": "Знакомство с SAMA",
+      "level": "Начало",
+      "intro": "Как устроен язык и почему слово не изменяется при склонении.",
+      "rules": [
+        "SAMA — экспериментальный второй язык.",
+        "Одна форма слова используется в разных контекстах.",
+        "Не нужно знать грамматический род."
+      ],
+      "examples": [
+        [
+          "Sala!",
+          "Привет!"
+        ],
+        [
+          "Mi bi Danila.",
+          "Я Данила."
+        ]
+      ],
+      "task": "Переведи: «Я Данила».",
+      "answer": "Mi bi Danila."
+    },
+    {
+      "title": "Пять гласных",
+      "level": "Начало",
+      "intro": "Произносим A, E, I, O, U без редукции.",
+      "rules": [
+        "В каждой гласной один устойчивый звук.",
+        "Безударное O остаётся O.",
+        "Каждый слог произносится ясно."
+      ],
+      "examples": [
+        [
+          "mama",
+          "мама"
+        ],
+        [
+          "doma",
+          "дом"
+        ]
+      ],
+      "task": "Какая гласная в слове su?",
+      "answer": "u"
+    },
+    {
+      "title": "Двенадцать согласных",
+      "level": "Начало",
+      "intro": "Звуки B D H K L M N P S T W Y.",
+      "rules": [
+        "L разрешается произносить близко к короткому R.",
+        "W допускает приближение к V.",
+        "Точные минимальные пары пока уточняются."
+      ],
+      "examples": [
+        [
+          "lena",
+          "учиться"
+        ],
+        [
+          "wato",
+          "электричество"
+        ]
+      ],
+      "task": "Какой согласной в алфавите нет: R или L?",
+      "answer": "R"
+    },
+    {
+      "title": "Личные местоимения",
+      "level": "Начало",
+      "intro": "Я, ты, он/она/оно — без грамматического рода.",
+      "rules": [
+        "mi — я; yu — ты; ta — третье лицо.",
+        "li после местоимения означает несколько людей.",
+        "ta не обозначает пол."
+      ],
+      "examples": [
+        [
+          "Mi si yu.",
+          "Я вижу тебя."
+        ],
+        [
+          "Ta li bi ami.",
+          "Они друзья."
+        ]
+      ],
+      "task": "Переведи «ты».",
+      "answer": "yu"
+    },
+    {
+      "title": "Глагол bi",
+      "level": "Начало",
+      "intro": "Как сказать «есть», «быть» или «являться».",
+      "rules": [
+        "bi не изменяется по лицам.",
+        "В простом нейтральном предложении bi сохраняется.",
+        "После bi можно указать имя или качество."
+      ],
+      "examples": [
+        [
+          "Mi bi dani.",
+          "Я ученик."
+        ],
+        [
+          "Ta bi bona.",
+          "Он / она хороший(-ая)."
+        ]
+      ],
+      "task": "Как сказать «Я ученик»?",
+      "answer": "Mi bi dani."
+    },
+    {
+      "title": "Порядок слов",
+      "level": "Начало",
+      "intro": "Кто совершает действие, что делает и над чем.",
+      "rules": [
+        "Нейтральный порядок: субъект — глагол — объект (SVO).",
+        "Определение ставится после существительного.",
+        "Смысл вопроса может менять порядок только в установленных правилах."
+      ],
+      "examples": [
+        [
+          "Mi ama yu.",
+          "Я люблю тебя."
+        ],
+        [
+          "Doma bona.",
+          "Хороший дом."
+        ]
+      ],
+      "task": "Переведи «Я вижу тебя».",
+      "answer": "Mi si yu."
+    },
+    {
+      "title": "Нет и отрицание",
+      "level": "Начало",
+      "intro": "Одна частица no перед глаголом или связкой.",
+      "rules": [
+        "mi no si — я не вижу.",
+        "no не изменяется.",
+        "Для отдельного отрицательного ответа используется nono."
+      ],
+      "examples": [
+        [
+          "Mi no si ta.",
+          "Я не вижу его / её."
+        ],
+        [
+          "Mi no bi meka.",
+          "Я не врач."
+        ]
+      ],
+      "task": "Переведи «Я не вижу тебя».",
+      "answer": "Mi no si yu."
+    },
+    {
+      "title": "Вопрос с ka",
+      "level": "Начало",
+      "intro": "Превращаем утверждение в вопрос без перестановки слов.",
+      "rules": [
+        "В общий вопрос добавьте ka в конце.",
+        "В письменной речи используйте знак ?.",
+        "С вопросительным словом ka необязательна."
+      ],
+      "examples": [
+        [
+          "Yu bi dani ka?",
+          "Ты ученик?"
+        ],
+        [
+          "Yu si mi ka?",
+          "Ты меня видишь?"
+        ]
+      ],
+      "task": "Спроси «Ты видишь меня?»",
+      "answer": "Yu si mi ka?"
+    },
+    {
+      "title": "Кто, что, где",
+      "level": "Начало",
+      "intro": "Вопросительные слова ki, ku, kalo, kate, kasa, kamo.",
+      "rules": [
+        "ki — кто; ku — что; kalo — где.",
+        "kate — когда; kasa — почему; kamo — как.",
+        "Вопросительное слово занимает место неизвестного элемента."
+      ],
+      "examples": [
+        [
+          "Yu bi kalo?",
+          "Где ты?"
+        ],
+        [
+          "Ki bi na doma?",
+          "Кто дома?"
+        ]
+      ],
+      "task": "Как будет «где»?",
+      "answer": "kalo"
+    },
+    {
+      "title": "Прошедшее время",
+      "level": "Основы",
+      "intro": "Одна частица pa — никаких спряжений.",
+      "rules": [
+        "pa ставится перед сказуемым.",
+        "Если есть no, порядок pa no + глагол.",
+        "Можно опустить время, если оно понятно из контекста."
+      ],
+      "examples": [
+        [
+          "Mi pa si yu.",
+          "Я видел тебя."
+        ],
+        [
+          "Ta pa no kula.",
+          "Он/она не ел(а)."
+        ]
+      ],
+      "task": "«Я видел тебя» — ?",
+      "answer": "Mi pa si yu."
+    },
+    {
+      "title": "Будущее время",
+      "level": "Основы",
+      "intro": "Одна частица la перед глаголом.",
+      "rules": [
+        "la не зависит от лица.",
+        "la no — «не буду».",
+        "Слова времени могут уточнять будущее."
+      ],
+      "examples": [
+        [
+          "Mi la si yu.",
+          "Я увижу тебя."
+        ],
+        [
+          "Ta la no wako.",
+          "Он / она не пойдёт."
+        ]
+      ],
+      "task": "«Я увижу тебя» — ?",
+      "answer": "Mi la si yu."
+    },
+    {
+      "title": "Множественное число",
+      "level": "Основы",
+      "intro": "Множество обозначается через li при необходимости.",
+      "rules": [
+        "ami — друг; ami li — друзья.",
+        "mi li — мы; yu li — вы; ta li — они.",
+        "Число можно обозначить числительным."
+      ],
+      "examples": [
+        [
+          "Ami li bi na doma.",
+          "Друзья дома."
+        ],
+        [
+          "Ta li si mi.",
+          "Они меня видят."
+        ]
+      ],
+      "task": "Как сказать «мы»?",
+      "answer": "mi li"
+    },
+    {
+      "title": "Прилагательные",
+      "level": "Основы",
+      "intro": "Свойства без рода и согласования.",
+      "rules": [
+        "После существительного: doma bona.",
+        "В сказуемом: doma bi bona.",
+        "Слова не меняются: ami bona, ami li bona."
+      ],
+      "examples": [
+        [
+          "Doma daba.",
+          "Большой дом."
+        ],
+        [
+          "Ta bi silo.",
+          "Он / она счастлив(-а)."
+        ]
+      ],
+      "task": "Как сказать «большой дом»?",
+      "answer": "doma daba"
+    },
+    {
+      "title": "Принадлежность de",
+      "level": "Основы",
+      "intro": "Порядок: предмет + de + владелец.",
+      "rules": [
+        "doma de mi — мой дом.",
+        "ami de yu — твой друг.",
+        "Правило одинаково для всех лиц."
+      ],
+      "examples": [
+        [
+          "Ena bi doma de mi.",
+          "Это мой дом."
+        ],
+        [
+          "Ta bi ami de yu.",
+          "Это твой друг."
+        ]
+      ],
+      "task": "Как сказать «мой дом»?",
+      "answer": "doma de mi"
+    },
+    {
+      "title": "Предлоги",
+      "level": "Основы",
+      "intro": "Место, направление и совместность.",
+      "rules": [
+        "na — внутри / на / у.",
+        "to — движение к.",
+        "ko — вместе с."
+      ],
+      "examples": [
+        [
+          "Mi bi na doma.",
+          "Я дома."
+        ],
+        [
+          "Mi wako to bano.",
+          "Я иду в город."
+        ]
+      ],
+      "task": "Какой предлог означает «вместе с»?",
+      "answer": "ko"
+    },
+    {
+      "title": "Числа 0–10",
+      "level": "Основы",
+      "intro": "Счёт без родов и падежей.",
+      "rules": [
+        "una, dua, tia — 1, 2, 3.",
+        "Число располагается перед существительным.",
+        "Слова числительных не склоняются."
+      ],
+      "examples": [
+        [
+          "dua ami",
+          "два друга"
+        ],
+        [
+          "tia nini",
+          "три птицы"
+        ]
+      ],
+      "task": "Как сказать «два»?",
+      "answer": "dua"
+    },
+    {
+      "title": "Десятки и сотни",
+      "level": "Основы",
+      "intro": "Составляем числа сверху вниз.",
+      "rules": [
+        "dua tena — двадцать.",
+        "dua tena una — двадцать один.",
+        "sena dua tena tia — сто двадцать три."
+      ],
+      "examples": [
+        [
+          "pema tena",
+          "пятьдесят"
+        ],
+        [
+          "dua sena",
+          "двести"
+        ]
+      ],
+      "task": "Как сказать «21»?",
+      "answer": "dua tena una"
+    },
+    {
+      "title": "В магазине",
+      "level": "Практика",
+      "intro": "Просьба о воде, еде и покупке.",
+      "rules": [
+        "kama — хотеть.",
+        "dasi — покупать.",
+        "Выражение просьбы: palao в конце или начале."
+      ],
+      "examples": [
+        [
+          "Mi kama su, palao.",
+          "Я хочу воды, пожалуйста."
+        ],
+        [
+          "Mi la dasi pana.",
+          "Я куплю хлеб."
+        ]
+      ],
+      "task": "Как сказать «Я хочу воды»?",
+      "answer": "Mi kama su."
+    },
+    {
+      "title": "Знакомства и семья",
+      "level": "Практика",
+      "intro": "Как говорить о друзьях и близких.",
+      "rules": [
+        "ami — друг.",
+        "lami — семья.",
+        "de обозначает принадлежность или отношение."
+      ],
+      "examples": [
+        [
+          "Ena bi ami de mi.",
+          "Это мой друг."
+        ],
+        [
+          "Mi ama lami de mi.",
+          "Я люблю свою семью."
+        ]
+      ],
+      "task": "«Мой друг» — ?",
+      "answer": "ami de mi"
+    },
+    {
+      "title": "Дорога и город",
+      "level": "Практика",
+      "intro": "Сказать где вы и куда идёте.",
+      "rules": [
+        "bano — город.",
+        "kalo — где.",
+        "wako to — идти к."
+      ],
+      "examples": [
+        [
+          "Yu bi kalo?",
+          "Где ты?"
+        ],
+        [
+          "Mi la wako to bano.",
+          "Я пойду в город."
+        ]
+      ],
+      "task": "Как сказать «город»?",
+      "answer": "bano"
+    },
+    {
+      "title": "Учёба и работа",
+      "level": "Практика",
+      "intro": "Слова для изучения и профессии.",
+      "rules": [
+        "lena — учиться.",
+        "bama — работа.",
+        "lena-soma — учитель (описательный термин)."
+      ],
+      "examples": [
+        [
+          "Mi lena basa SAMA.",
+          "Я изучаю SAMA."
+        ],
+        [
+          "Ta bi lena-soma.",
+          "Он / она учитель."
+        ]
+      ],
+      "task": "«Я изучаю SAMA» — ?",
+      "answer": "Mi lena basa SAMA."
+    },
+    {
+      "title": "Составные слова",
+      "level": "Развитие",
+      "intro": "Когда не хватает слова, используем комбинацию известных основ.",
+      "rules": [
+        "Через дефис обозначаем временное понятие.",
+        "Первый корень — основной, второй уточняет.",
+        "Не все сочетания уже однозначны: сверяйтесь со словарём."
+      ],
+      "examples": [
+        [
+          "lena-doma",
+          "учебное заведение"
+        ],
+        [
+          "talo-toka",
+          "телефон, устройство речи"
+        ]
+      ],
+      "task": "Как назвать школу описательно?",
+      "answer": "lena-doma"
+    },
+    {
+      "title": "Диалоги",
+      "level": "Развитие",
+      "intro": "Связываем знакомство, вопрос и ответ.",
+      "rules": [
+        "Вопросительная частица ka — только для общего вопроса.",
+        "Слова не склоняются.",
+        "При необходимости повторяем существительное для ясности."
+      ],
+      "examples": [
+        [
+          "Sala! Yu bi ki?",
+          "Привет! Кто ты?"
+        ],
+        [
+          "Mi bi Alex. Mi lena SAMA.",
+          "Я Алекс. Я изучаю SAMA."
+        ]
+      ],
+      "task": "Как сказать «Привет!»?",
+      "answer": "Sala!"
+    },
+    {
+      "title": "Что ещё не стандартизировано",
+      "level": "Развитие",
+      "intro": "Учимся пользоваться проектом без ложной уверенности.",
+      "rules": [
+        "Синтаксис сложных предложений пока в разработке.",
+        "Лексика с пометой «предложение» может измениться.",
+        "Записи звукаря — технические, а не нормативные."
+      ],
+      "examples": [
+        [
+          "Mi no nima.",
+          "Я не знаю."
+        ],
+        [
+          "Mi kama lena.",
+          "Я хочу учиться."
+        ]
+      ],
+      "task": "Что делать при двусмысленности составного слова?",
+      "answer": "Уточнить значение в словаре или переформулировать предложение."
+    }
+  ],
+  "ARTICLE_SECTIONS": [
+    {
+      "id": "principles",
+      "name": "Замысел и принципы"
+    },
+    {
+      "id": "writing",
+      "name": "Письменность"
+    },
+    {
+      "id": "pronunciation",
+      "name": "Звуки и фонетика"
+    },
+    {
+      "id": "grammar",
+      "name": "Грамматический строй"
+    },
+    {
+      "id": "words",
+      "name": "Словообразование"
+    },
+    {
+      "id": "usage",
+      "name": "Речь и употребление"
+    },
+    {
+      "id": "culture",
+      "name": "Культура и сообщество"
+    }
+  ],
+  "ARTICLES": [
+    {
+      "id": "mission",
+      "title": "Зачем нужен SAMA",
+      "area": "principles",
+      "desc": "Роль нейтрального второго языка.",
+      "paragraphs": [
+        "SAMA — экспериментальный международный вспомогательный язык. Он не предлагает отказаться от родных языков. Его задача — дать простую дополнительную систему общения людям, чьи языки не совпадают.",
+        "Главное мерило качества — скорость понимания новых выражений, а не число рекламных лозунгов. Проект разрабатывается открыто, с возможностью пересмотра решений.",
+        "Первая редакция — учебная. Она не является общепризнанным международным стандартом."
+      ],
+      "related": [
+        "accessibility",
+        "testing",
+        "governance"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Доступность для разных языковых семей",
+      "area": "principles",
+      "desc": "Почему абсолютная простота недостижима.",
+      "paragraphs": [
+        "Носители славянских, германских, тюркских, семитских, сино-тибетских, японского и других языков имеют разные фонетические и грамматические привычки. Одинаково простой язык для всех — недостижимый идеал, но его можно искать экспериментально.",
+        "Измеряем, сколько времени уходит на освоение, какие слова запоминаются и какие звуки вызывают смешение. Если преимущество одной языковой группы слишком велико, пересматриваем правило.",
+        "SAMA стремится к последовательности, устойчивой орфографии и минимуму грамматических исключений."
+      ],
+      "related": [
+        "alphabet-policy",
+        "testing"
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Как испытывать новый язык",
+      "area": "principles",
+      "desc": "Проверка скорости и точности изучения.",
+      "paragraphs": [
+        "Создаём одинаковый учебный модуль, оцениваем понимание известных и новых предложений до и после урока, фиксируем ответы анонимно и по согласованию участников.",
+        "В исследовании нужны носители разных языковых семей. Сравнивают не только процент правильных ответов, но и время реакции, ошибки произношения, удержание слов через неделю.",
+        "Пока международного испытания не было, заявления об одинаковой простоте остаются гипотезой."
+      ],
+      "related": [
+        "accessibility",
+        "mission"
+      ]
+    },
+    {
+      "id": "alphabet-policy",
+      "title": "Принципы алфавита",
+      "area": "writing",
+      "desc": "Семнадцать букв и одна базовая латиница.",
+      "paragraphs": [
+        "Алфавит редакции 0.1: A, E, I, O, U, B, D, H, K, L, M, N, P, S, T, W, Y. Отсутствуют C, F, G, J, Q, R, V, X, Z.",
+        "Письменность использует строчные буквы в обычной речи и прописные в именах собственных. Диакритика не нужна.",
+        "Слова, содержащие другие латинские буквы, не считаются словарными формами SAMA, если это не имя собственное или цитата."
+      ],
+      "related": [
+        "syllables",
+        "transliteration",
+        "spelling"
+      ]
+    },
+    {
+      "id": "spelling",
+      "title": "Орфография и пунктуация",
+      "area": "writing",
+      "desc": "Правописание без скрытых букв.",
+      "paragraphs": [
+        "Каждая буква должна соответствовать устойчивому звуковому классу. Не пишем непроизносимые буквы, не сокращаем гласные без явного правила.",
+        "Вопрос заканчивается знаком ?, восклицание — !. Составные экспериментальные термины разделяются дефисом.",
+        "Имена собственные сохраняют исходную запись, если человек этого желает; для учебного чтения допускается приблизительная транскрипция."
+      ],
+      "examples": [
+        [
+          "Mi si yu.",
+          "Я вижу тебя."
+        ],
+        [
+          "Yu si mi ka?",
+          "Ты видишь меня?"
+        ]
+      ],
+      "related": [
+        "alphabet-policy",
+        "transliteration"
+      ]
+    },
+    {
+      "id": "transliteration",
+      "title": "Транслитерация и другие письменности",
+      "area": "writing",
+      "desc": "Как записывать SAMA вне латиницы.",
+      "paragraphs": [
+        "Базовая письменность — латиница. Кириллическая подсказка: a—а, e—э, i—и, o—о, u—у, b—б, d—д, h—х, k—к, l—л, m—м, n—н, p—п, s—с, t—т, w—ў/в, y—й.",
+        "Это учебная подсказка для произношения, а не официальный равноправный стандарт письма: некоторые соответствия остаются неоднозначными.",
+        "Нормативные таблицы арабской графики, деванагари, ханьцзы и других систем потребуют отдельной разработки с носителями."
+      ],
+      "related": [
+        "alphabet-policy",
+        "vowels",
+        "consonants"
+      ]
+    },
+    {
+      "id": "syllables",
+      "title": "Строение слога",
+      "area": "pronunciation",
+      "desc": "Простые слоги вместо групп согласных.",
+      "paragraphs": [
+        "Базовая модель слога — CV (согласный + гласный): ma, pa, ki, su. Возможен отдельный гласный слог: a, i, o.",
+        "Сочетания двух или более согласных внутри корня нежелательны. В составных словах дефис помогает увидеть границу.",
+        "Отдельные предложения словаря пока могут не полностью соответствовать фонологической модели. Перед стандартизацией их проверяют автоматически."
+      ],
+      "related": [
+        "vowels",
+        "consonants",
+        "stress"
+      ]
+    },
+    {
+      "id": "vowels",
+      "title": "Пять гласных",
+      "area": "pronunciation",
+      "desc": "A E I O U и отсутствие редукции.",
+      "paragraphs": [
+        "Гласные: A [a], E [e], I [i], O [o], U [u]. В учебной норме они остаются узнаваемыми и в безударном положении.",
+        "Отсутствуют фонематическая долгота гласных и смыслоразличительные тоны. Небольшое отличие акцента не должно создавать новое слово.",
+        "Прослушивание на сайте производится системным синтезатором речи браузера и не является эталонной записью."
+      ],
+      "examples": [
+        [
+          "mama",
+          "ма-ма"
+        ],
+        [
+          "doma",
+          "до-ма"
+        ],
+        [
+          "su",
+          "су"
+        ]
+      ],
+      "related": [
+        "consonants",
+        "stress"
+      ]
+    },
+    {
+      "id": "consonants",
+      "title": "Двенадцать согласных",
+      "area": "pronunciation",
+      "desc": "B D H K L M N P S T W Y.",
+      "paragraphs": [
+        "Набор согласных минимален и избегает многих типологически редких звуков. Звуки L и краткое R-подобное произношение не противопоставляются; это один звуковой класс.",
+        "W можно произнести губно, близко к английской w, или приближённо как мягкое v. H допускает [h] или [x]. Такие варианты должны тестироваться на разборчивость.",
+        "В проекте пока нет официальной записи речи носителей: диктор в звукаре помогает тренироваться, но не устанавливает стандарт."
+      ],
+      "related": [
+        "vowels",
+        "stress",
+        "syllables"
+      ]
+    },
+    {
+      "id": "stress",
+      "title": "Ударение и ритм",
+      "area": "pronunciation",
+      "desc": "Предпоследний слог — ориентир.",
+      "paragraphs": [
+        "По умолчанию ударным считается предпоследний слог: SA-ma, DO-ma, LE-na. У слова из трёх слогов ударение обычно на втором: du-NI-ya.",
+        "Коррекция: в двусложном слове предпоследний слог — первый. Ударение не должно менять лексическое значение.",
+        "Чтение в целом слоговое. Различия темпа, интонации и интенсивности допустимы."
+      ],
+      "related": [
+        "syllables",
+        "vowels"
+      ]
+    },
+    {
+      "id": "pronunciation-variants",
+      "title": "Допустимые варианты произношения",
+      "area": "pronunciation",
+      "desc": "Как учитывать разные акценты.",
+      "paragraphs": [
+        "Ключевой принцип: акцент не должен мешать общению. Различия [l]~[ɾ], [w]~[ʋ] и [h]~[x] рассматриваются как допустимые произносительные варианты.",
+        "Окончательно закреплять варианты можно только после проверки взаимной разборчивости — иначе лишняя свобода сама создаст двусмысленность.",
+        "Формальный дикторский стандарт и образцы речи разных групп будут опубликованы в последующих версиях."
+      ],
+      "related": [
+        "consonants",
+        "testing"
+      ]
+    },
+    {
+      "id": "svo",
+      "title": "Порядок слов SVO",
+      "area": "grammar",
+      "desc": "Подлежащее — действие — дополнение.",
+      "paragraphs": [
+        "Обычное повествовательное предложение строится по схеме «кто — действие — объект». Такой порядок легко фиксировать и использовать без падежных окончаний.",
+        "Слова не склоняются, поэтому перестановка участников действия может изменить смысл.",
+        "Например, Mi si yu — «Я вижу тебя»; Yu si mi — «Ты видишь меня»."
+      ],
+      "examples": [
+        [
+          "Mi ama yu.",
+          "Я люблю тебя."
+        ],
+        [
+          "Yu si mi.",
+          "Ты видишь меня."
+        ]
+      ],
+      "related": [
+        "pronouns",
+        "verbs",
+        "questions"
+      ]
+    },
+    {
+      "id": "pronouns",
+      "title": "Местоимения",
+      "area": "grammar",
+      "desc": "Три лица без грамматического рода.",
+      "paragraphs": [
+        "mi означает «я», yu — «ты», ta — третье лицо независимо от пола и одушевлённости.",
+        "Для множественности добавляется li: mi li — мы, yu li — вы, ta li — они.",
+        "Предполагаемое значение mi li — группа, включающая говорящего. Отдельного обязательного противопоставления «мы с тобой / мы без тебя» в версии 0.1 нет."
+      ],
+      "examples": [
+        [
+          "Ta bi ami de mi.",
+          "Он/она — мой друг."
+        ],
+        [
+          "Ta li bi na doma.",
+          "Они дома."
+        ]
+      ],
+      "related": [
+        "plural",
+        "possession"
+      ]
+    },
+    {
+      "id": "verbs",
+      "title": "Глаголы без спряжения",
+      "area": "grammar",
+      "desc": "Одинаковое слово с любым лицом.",
+      "paragraphs": [
+        "Глагол имеет неизменяемую форму: mi si, yu si, ta si.",
+        "Грамматическое время, отрицание и вопрос выражаются отдельными частицами, а не изменением конца глагола.",
+        "Вспомогательная связка bi употребляется для «является» и «находится»."
+      ],
+      "examples": [
+        [
+          "Mi lena.",
+          "Я учусь."
+        ],
+        [
+          "Ta lena.",
+          "Он/она учится."
+        ]
+      ],
+      "related": [
+        "past",
+        "future",
+        "negation"
+      ]
+    },
+    {
+      "id": "past",
+      "title": "Прошедшее время pa",
+      "area": "grammar",
+      "desc": "Частица pa перед сказуемым.",
+      "paragraphs": [
+        "Частица pa перед глаголом указывает на прошедшее время. Без неё настоящее или время, известное из контекста, остаётся нейтральным.",
+        "Отрицание стоит после pa: mi pa no si.",
+        "Границы видовременной системы (завершённость и длительность) пока отдельно не кодифицированы."
+      ],
+      "examples": [
+        [
+          "Mi pa si yu.",
+          "Я видел тебя."
+        ],
+        [
+          "Mi pa no si yu.",
+          "Я не видел тебя."
+        ]
+      ],
+      "related": [
+        "future",
+        "negation",
+        "verbs"
+      ]
+    },
+    {
+      "id": "future",
+      "title": "Будущее время la",
+      "area": "grammar",
+      "desc": "Частица la для будущего.",
+      "paragraphs": [
+        "Частица la маркирует действие, относящееся к будущему моменту.",
+        "Возможны сочетания la no + глагол.",
+        "Будущие условные и модальные формы ещё не описаны как единая система."
+      ],
+      "examples": [
+        [
+          "Mi la si yu.",
+          "Я увижу тебя."
+        ],
+        [
+          "Mi la no si yu.",
+          "Я не увижу тебя."
+        ]
+      ],
+      "related": [
+        "past",
+        "negation"
+      ]
+    },
+    {
+      "id": "negation",
+      "title": "Отрицание no",
+      "area": "grammar",
+      "desc": "Отрицательная частица не требует согласования.",
+      "paragraphs": [
+        "no непосредственно предшествует глаголу или связке bi.",
+        "Не смешивайте no (частица внутри предложения) и nono (отдельный ответ «нет»).",
+        "Если есть указание времени, порядок: лицо + время + no + глагол."
+      ],
+      "examples": [
+        [
+          "Mi no bi meka.",
+          "Я не врач."
+        ],
+        [
+          "Mi pa no kula.",
+          "Я не ел."
+        ]
+      ],
+      "related": [
+        "past",
+        "future",
+        "questions"
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Общие вопросы с ka",
+      "area": "grammar",
+      "desc": "Вопрос без перестановки слов.",
+      "paragraphs": [
+        "Для вопроса, на который можно ответить «да» или «нет», ставим ka в конце.",
+        "Тон может повышаться по интонации, но грамматическим сигналом остаётся ka.",
+        "С вопросительными словами употребление ka обычно не нужно."
+      ],
+      "examples": [
+        [
+          "Yu si mi ka?",
+          "Ты меня видишь?"
+        ],
+        [
+          "Yu bi bona ka?",
+          "Ты в порядке?"
+        ]
+      ],
+      "related": [
+        "question-words",
+        "svo"
+      ]
+    },
+    {
+      "id": "question-words",
+      "title": "Специальные вопросы",
+      "area": "grammar",
+      "desc": "ki, ku, kalo, kate, kasa, kamo.",
+      "paragraphs": [
+        "ki — кто; ku — что; kalo — где; kate — когда; kasa — почему; kamo — как.",
+        "Вопросительное слово употребляется в той позиции, значение которой неизвестно. Для определения места: Yu bi kalo?",
+        "Для причин и образа действия возможны дополнительные синтаксические правила в будущей редакции."
+      ],
+      "examples": [
+        [
+          "Ki bi na doma?",
+          "Кто дома?"
+        ],
+        [
+          "Yu bi kalo?",
+          "Где ты?"
+        ]
+      ],
+      "related": [
+        "questions",
+        "prepositions"
+      ]
+    },
+    {
+      "id": "plural",
+      "title": "Множественное число li",
+      "area": "grammar",
+      "desc": "Маркер после существительного.",
+      "paragraphs": [
+        "Если важно указать множество, добавляем li непосредственно после существительного: ami li — друзья.",
+        "Без li существительное может обозначать понятие вообще, а числительное укажет количество, если оно известно.",
+        "Прилагательное следует после показателя множественности: ami li bona."
+      ],
+      "examples": [
+        [
+          "Mi li bi ami.",
+          "Мы друзья."
+        ],
+        [
+          "Ami li bona.",
+          "Хорошие друзья."
+        ]
+      ],
+      "related": [
+        "pronouns",
+        "adjectives",
+        "numbers-syntax"
+      ]
+    },
+    {
+      "id": "adjectives",
+      "title": "Определения и свойства",
+      "area": "grammar",
+      "desc": "Прилагательное обычно после существительного.",
+      "paragraphs": [
+        "Внутри именной группы используем порядок существительное + прилагательное: doma daba — большой дом.",
+        "После связки bi слово обозначает признак предмета: Doma bi daba — Дом большой.",
+        "Согласования по числу или роду не существует."
+      ],
+      "examples": [
+        [
+          "doma bona",
+          "хороший дом"
+        ],
+        [
+          "mi bi silo",
+          "я счастлив(-а)"
+        ]
+      ],
+      "related": [
+        "plural",
+        "svo"
+      ]
+    },
+    {
+      "id": "possession",
+      "title": "Притяжательность de",
+      "area": "grammar",
+      "desc": "Предмет + de + владелец.",
+      "paragraphs": [
+        "de связывает предмет с тем, кому он принадлежит. Дословно doma de mi — дом меня, то есть мой дом.",
+        "Для родственных и иных отношений можно использовать тот же порядок: ami de mi — мой друг.",
+        "Тонкости принадлежности, отчуждения и связи между предметами пока не специфицированы."
+      ],
+      "examples": [
+        [
+          "Doma de mi.",
+          "Мой дом."
+        ],
+        [
+          "Ami de yu.",
+          "Твой друг."
+        ]
+      ],
+      "related": [
+        "pronouns",
+        "prepositions"
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Предлоги na, to, ko",
+      "area": "grammar",
+      "desc": "Место, направление, совместность.",
+      "paragraphs": [
+        "na описывает пребывание или местоположение (в/на/у), to — направление движения, ko — совместность.",
+        "Контекст определяет точное русское соответствие предлога, поэтому сложные отношения могут потребовать более конкретных конструкций.",
+        "В конце версии 0.1 предлоги не изменяются."
+      ],
+      "examples": [
+        [
+          "Mi bi na doma.",
+          "Я дома."
+        ],
+        [
+          "Mi wako to bano.",
+          "Я иду в город."
+        ],
+        [
+          "Mi wako ko ami.",
+          "Я иду с другом."
+        ]
+      ],
+      "related": [
+        "question-words",
+        "possession"
+      ]
+    },
+    {
+      "id": "numbers-syntax",
+      "title": "Числительные",
+      "area": "grammar",
+      "desc": "Количество перед существительным.",
+      "paragraphs": [
+        "Числа не согласуются с существительными. Общий порядок: числительное + существительное.",
+        "Десятки составляются множителем перед tena: dua tena = двадцать. Единицы следуют после десятка: dua tena una = двадцать один.",
+        "Система простая, но формальные правила для больших чисел, дробей и денежных сумм ещё подлежат тестированию."
+      ],
+      "examples": [
+        [
+          "dua ami",
+          "два друга"
+        ],
+        [
+          "sena",
+          "сто"
+        ],
+        [
+          "sena dua tena tia",
+          "сто двадцать три"
+        ]
+      ],
+      "related": [
+        "plural",
+        "number-formation"
+      ]
+    },
+    {
+      "id": "number-formation",
+      "title": "Счёт от 0 до 1000",
+      "area": "words",
+      "desc": "Продуктивный способ построить число.",
+      "paragraphs": [
+        "В этой версии: nula (0), una (1), dua (2), tia (3), pala (4), pema (5), sika (6), seta (7), oto (8), naya (9), tena (10), sena (100), mila (1000).",
+        "Порядок компонентов — от старшего разряда к младшему. Например, dua sena tia tena pala = 234.",
+        "Перед фиксацией стандарта числительные проходят отдельную проверку на сходство с другими корнями и ошибки восприятия на слух."
+      ],
+      "related": [
+        "numbers-syntax",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "compounds",
+      "title": "Составные понятия через дефис",
+      "area": "words",
+      "desc": "Описательные слова без заимствований.",
+      "paragraphs": [
+        "В черновом словаре допускаются составные обозначения: lena-doma («место учёбы») или talo-toka («инструмент речи»). Дефис помогает увидеть границу морфем.",
+        "Смысл сложного слова не всегда сводится к сумме частей. Важные понятия должны быть отдельно определены и проверены на однозначность.",
+        "Общий продуктивный порядок: основной предмет, затем уточняющая основа."
+      ],
+      "examples": [
+        [
+          "lena-doma",
+          "школа"
+        ],
+        [
+          "meda-doma",
+          "аптека"
+        ]
+      ],
+      "related": [
+        "lexical-quality",
+        "spelling"
+      ]
+    },
+    {
+      "id": "lexical-quality",
+      "title": "Как утверждается словарь",
+      "area": "words",
+      "desc": "От предложений к стабильной норме.",
+      "paragraphs": [
+        "В словаре базовые корни и экспериментальные предложения различаются статусом. Новый термин нельзя объявить официальным без проверки на омонимию, фонетическую допустимость и межъязыковую узнаваемость.",
+        "Опасные случаи: одно написание с двумя несвязанными значениями, длинное непрозрачное соединение, трудноразличимые на слух короткие слова.",
+        "Приоритет — ясность смысла. Если слово не работает, его заменяют с фиксацией изменения в истории версий."
+      ],
+      "related": [
+        "testing",
+        "compounds",
+        "governance"
+      ]
+    },
+    {
+      "id": "borrowing",
+      "title": "Заимствования из языков мира",
+      "area": "words",
+      "desc": "Нейтральный, а не только европейский словарь.",
+      "paragraphs": [
+        "Источники будущей лексики должны включать языки разных регионов мира. Однако даже распространённое в одном регионе слово может быть неудобным для другой аудитории.",
+        "Проверять нужно звучание, узнаваемость, культурные ассоциации, повторения и конфликт с уже существующими корнями.",
+        "Детальные этимологии появятся только после отдельной проверки, чтобы не приписывать словам неподтверждённое происхождение."
+      ],
+      "related": [
+        "lexical-quality",
+        "accessibility"
+      ]
+    },
+    {
+      "id": "word-classes",
+      "title": "Части речи",
+      "area": "grammar",
+      "desc": "Почему неизменяемость не означает отсутствие структуры.",
+      "paragraphs": [
+        "В SAMA нет грамматического рода и сложной системы окончаний, но смысловые категории слова сохраняются: предмет, действие, качество, отношение.",
+        "Одно и то же слово может использоваться в близких функциях, если контекст позволяет однозначно определить смысл.",
+        "Точные границы конверсии (например, существительное ↔ глагол) ещё предстоит стандартизировать."
+      ],
+      "related": [
+        "svo",
+        "adjectives",
+        "compounds"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "title": "Как построить разговор",
+      "area": "usage",
+      "desc": "Приветствие, представление и вопрос.",
+      "paragraphs": [
+        "Начните с sala, назовите себя с помощью mi bi, затем спросите человека о нём: Yu bi ki?",
+        "Не нужно запоминать отдельные формы «ты был» или «ты будешь»: применяется одна связка bi с временной частицей.",
+        "В живой речи повторяйте важное слово, если собеседник может понять фразу двояко."
+      ],
+      "examples": [
+        [
+          "Sala! Mi bi Alex.",
+          "Привет! Я Алекс."
+        ],
+        [
+          "Yu toka basa SAMA ka?",
+          "Ты говоришь на SAMA?"
+        ]
+      ],
+      "related": [
+        "questions",
+        "pronouns"
+      ]
+    },
+    {
+      "id": "introductions",
+      "title": "Знакомство",
+      "area": "usage",
+      "desc": "Простые фразы о себе.",
+      "paragraphs": [
+        "Имя собственное может сохранять привычное человеку написание. Его не нужно переводить.",
+        "Форма mi bi ... используется, чтобы назвать себя. Для собеседника — yu bi ..., для третьего лица — ta bi ... .",
+        "В письменной речи предложения отделяют точками."
+      ],
+      "examples": [
+        [
+          "Mi bi Danila.",
+          "Я Данила."
+        ],
+        [
+          "Ena bi ami de mi.",
+          "Это мой друг."
+        ]
+      ],
+      "related": [
+        "dialogue",
+        "pronouns"
+      ]
+    },
+    {
+      "id": "politeness",
+      "title": "Вежливость без титулов",
+      "area": "usage",
+      "desc": "Простая система обращения.",
+      "paragraphs": [
+        "Слово yu одинаково подходит для обращения к одному человеку независимо от социального статуса. Специальной обязательной формы вежливого «Вы» нет.",
+        "sani означает благодарность; palao — пожалуйста. Вежливость передаётся лексикой и контекстом.",
+        "В сложных социальных ситуациях языковое сообщество должно обсудить нейтральные формулы без культурных исключений."
+      ],
+      "examples": [
+        [
+          "Sani.",
+          "Спасибо."
+        ],
+        [
+          "Palao.",
+          "Пожалуйста."
+        ]
+      ],
+      "related": [
+        "dialogue",
+        "mission"
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Поездки и ориентирование",
+      "area": "usage",
+      "desc": "Задаём вопросы о месте.",
+      "paragraphs": [
+        "Используйте kalo, когда нужно узнать местоположение. Предлог to обозначает движение к цели, na — нахождение на месте.",
+        "Топонимы остаются именами собственными и не требуют склонения.",
+        "Пока для очень подробных пространственных отношений лучше строить короткие предложения."
+      ],
+      "examples": [
+        [
+          "Yu bi kalo?",
+          "Где ты?"
+        ],
+        [
+          "Mi wako to bano.",
+          "Я иду в город."
+        ]
+      ],
+      "related": [
+        "prepositions",
+        "question-words"
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Семья и друзья",
+      "area": "usage",
+      "desc": "Простые социальные связи.",
+      "paragraphs": [
+        "В раннем словаре mama, baba, ami и lami относятся к семье и близким отношениям.",
+        "Конструкция ami de mi буквально «друг меня», то есть мой друг. Так же образуются другие сочетания с de.",
+        "Пол человека в местоимениях не маркируется."
+      ],
+      "examples": [
+        [
+          "Mi ama lami de mi.",
+          "Я люблю свою семью."
+        ],
+        [
+          "Ta bi ami de mi.",
+          "Он/она мой друг."
+        ]
+      ],
+      "related": [
+        "possession",
+        "pronouns"
+      ]
+    },
+    {
+      "id": "learning-strategy",
+      "title": "Как изучить SAMA",
+      "area": "usage",
+      "desc": "Путь от звуков к свободной фразе.",
+      "paragraphs": [
+        "Начните с букваря и звукаря. Затем выучите около двадцати служебных и частотных слов. После этого составляйте фразы по схеме SVO.",
+        "Проходите уроки по очереди, используйте тренажёр и разговорник. Повторение полезнее, чем заучивание длинного списка без контекста.",
+        "Изучайте экспериментальную лексику осторожно: формы ещё могут поменяться."
+      ],
+      "related": [
+        "alphabet-policy",
+        "dialogue",
+        "testing"
+      ]
+    },
+    {
+      "id": "dictionary-help",
+      "title": "Как пользоваться словарём",
+      "area": "usage",
+      "desc": "Поиск по слову и русскому переводу.",
+      "paragraphs": [
+        "Введите слово SAMA или русский перевод. Фильтр по темам помогает найти лексику для еды, учёбы, дороги и других ситуаций.",
+        "Значение с пометой «проект» — предложение, требующее будущей лингвистической проверки. Базовые корни также не являются международно признанной нормой.",
+        "Для особенно важных разговоров сверяйте значения с собеседником: этот язык находится в разработке."
+      ],
+      "related": [
+        "lexical-quality",
+        "compounds"
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "SAMA в цифровой среде",
+      "area": "culture",
+      "desc": "Переводчики, клавиатуры, API и озвучивание.",
+      "paragraphs": [
+        "Латинский алфавит без диакритики удобно вводить на большинстве клавиатур. Можно создавать онлайн-словарь, тренажёр, синтез речи и инструменты проверки текстов.",
+        "Автоматический перевод появится только после стабильного словаря и серьёзного параллельного корпуса. До этого машинная генерация требует проверки.",
+        "Этот сайт уже служит прототипом цифрового справочника: умеет искать слова, хранить локальный прогресс и озвучивать примеры средствами браузера."
+      ],
+      "related": [
+        "spelling",
+        "governance"
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "Открытый стандарт и версии",
+      "area": "culture",
+      "desc": "Как не потерять стабильность языка.",
+      "paragraphs": [
+        "Лексикон, грамматика и произношение должны публиковаться с номерами редакций и историей изменений.",
+        "Предложения обсуждаются публично, но в утверждённую версию попадают после тестирования. Старые документы сохраняются для совместимости.",
+        "Цель — языковое сообщество с участием представителей разных регионов, а не единоличное диктование норм."
+      ],
+      "related": [
+        "testing",
+        "lexical-quality",
+        "mission"
+      ]
+    },
+    {
+      "id": "ethics",
+      "title": "Культурная нейтральность и уважение",
+      "area": "culture",
+      "desc": "Новый язык не должен вытеснять существующие.",
+      "paragraphs": [
+        "Международный вспомогательный язык не заменяет право человека пользоваться родным языком, собственной письменностью и культурными традициями.",
+        "Нейтральность требует участия разных сообществ в выборе слов и проверке интонаций.",
+        "Особенно важно учитывать языки с небольшим числом носителей, чтобы проект не воспроизводил доминирование нескольких крупных языков."
+      ],
+      "related": [
+        "mission",
+        "accessibility",
+        "borrowing"
+      ]
+    },
+    {
+      "id": "design-metrics",
+      "title": "Как измерять простоту языка",
+      "area": "principles",
+      "desc": "Метрики вместо впечатлений.",
+      "paragraphs": [
+        "В проектировании SAMA нельзя ограничиваться утверждением «это легко». Нужно отдельно измерять фонетическую разборчивость, точность письма, скорость усвоения слов, успешность понимания новых текстов и число ошибок.",
+        "Один язык может быть очень прост для чтения, но неудобен для слуха; другой может иметь короткую грамматику, но трудно запоминающиеся корни. Поэтому решение принимается по набору метрик, а не по одному показателю.",
+        "Сравнения проводят при одинаковой длительности обучения и на нескольких группах участников."
+      ],
+      "related": [
+        "testing",
+        "accessibility",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "language-families",
+      "title": "Языковые семьи и нейтральность",
+      "area": "principles",
+      "desc": "Почему слова не должны происходить только из одной традиции.",
+      "paragraphs": [
+        "Международный язык должен учитывать не только родственные европейские языки, но и языки Восточной и Южной Азии, Ближнего Востока, Африки, Америки и Океании.",
+        "Прямое копирование слов из разных языков ещё не гарантирует нейтральности. Нужно сравнивать фонетическую доступность, узнаваемость и возможность перепутать слово с другим.",
+        "Словарь должен проходить независимую экспертизу, при которой ни одна большая группа носителей не получает автоматического преимущества во всех областях."
+      ],
+      "related": [
+        "accessibility",
+        "borrowing",
+        "testing"
+      ]
+    },
+    {
+      "id": "universality-limits",
+      "title": "Границы универсальности",
+      "area": "principles",
+      "desc": "Что нельзя обещать слушателям и учащимся.",
+      "paragraphs": [
+        "Даже простые звуки по-разному воспринимаются носителями различных языков. Аналогично привычность порядка слов зависит от родного языка учащегося.",
+        "Универсальность здесь означает сравнительную доступность и возможность международного использования, а не отсутствие любых ошибок и не гарантированное изучение за один день.",
+        "Проверяемое обещание SAMA: после ограниченного периода обучения учащийся способен прочитать и самостоятельно составить новые базовые фразы."
+      ],
+      "related": [
+        "design-metrics",
+        "mission",
+        "testing"
+      ]
+    },
+    {
+      "id": "case-and-role",
+      "title": "Почему нет падежных окончаний",
+      "area": "grammar",
+      "desc": "Роли участников задаются порядком слов.",
+      "paragraphs": [
+        "Вместо изменения формы слова грамматические отношения во многих базовых конструкциях передаются последовательностью слов. Поэтому «Mi si yu» и «Yu si mi» имеют разные значения.",
+        "Это делает заучивание форм проще, но повышает требования к стабильности порядка слов и ясности сложных конструкций.",
+        "Будущие редакции должны определить способы выражения косвенных дополнений, получателя действия и неоднозначных конструкций."
+      ],
+      "examples": [
+        [
+          "Mi si yu.",
+          "Я вижу тебя."
+        ],
+        [
+          "Yu si mi.",
+          "Ты видишь меня."
+        ]
+      ],
+      "related": [
+        "svo",
+        "prepositions",
+        "verbs"
+      ]
+    },
+    {
+      "id": "time-and-context",
+      "title": "Время и контекст",
+      "area": "grammar",
+      "desc": "Когда частицы pa и la нужны, а когда можно обойтись без них.",
+      "paragraphs": [
+        "В нейтральном предложении время может определяться общим контекстом. Если нужно явно сообщить о прошлом, ставьте pa, о будущем — la.",
+        "В отличие от языков со спряжением, эти частицы одинаковы независимо от лица и числа говорящего.",
+        "Система пока не различает грамматически длительное, повторяющееся и завершённое действие; все эти значения требуют дальнейшей разработки."
+      ],
+      "examples": [
+        [
+          "Mi si yu.",
+          "Я вижу тебя / вижу по контексту."
+        ],
+        [
+          "Mi pa si yu.",
+          "Я видел тебя."
+        ],
+        [
+          "Mi la si yu.",
+          "Я увижу тебя."
+        ]
+      ],
+      "related": [
+        "past",
+        "future",
+        "verbs"
+      ]
+    },
+    {
+      "id": "modality",
+      "title": "Желание и возможность",
+      "area": "grammar",
+      "desc": "kama и mosa как отдельные неизменяемые слова.",
+      "paragraphs": [
+        "В начальном словаре kama означает «хотеть», mosa — «мочь». Они позволяют строить короткие фразы с другим действием: Mi kama lena — «Я хочу учиться».",
+        "Окончательный статус таких слов — полноценные глаголы или специальные модальные элементы — ещё не установлен.",
+        "До формализации сложных модальных конструкций рекомендуется использовать короткие и прозрачные предложения."
+      ],
+      "examples": [
+        [
+          "Mi kama su.",
+          "Я хочу воды."
+        ],
+        [
+          "Mi kama lena.",
+          "Я хочу учиться."
+        ],
+        [
+          "Yu mosa kami mi ka?",
+          "Ты можешь мне помочь?"
+        ]
+      ],
+      "related": [
+        "verbs",
+        "questions",
+        "time-and-context"
+      ]
+    },
+    {
+      "id": "coordination",
+      "title": "Союзы и соединение фраз",
+      "area": "grammar",
+      "desc": "wa, o, aka и условное ani.",
+      "paragraphs": [
+        "В начальном варианте wa связывает однородные элементы и простые фразы как русское «и». o соответствует выбору «или», aka — противопоставлению «но».",
+        "ani предложено для значения «если». Полный синтаксис условных и сложносочинённых предложений ещё не утверждён.",
+        "Для международного общения на раннем этапе лучше использовать два коротких предложения, чем одно большое со множеством зависимых частей."
+      ],
+      "examples": [
+        [
+          "Mi ko yu.",
+          "Я с тобой."
+        ]
+      ],
+      "related": [
+        "word-classes",
+        "svo",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "names",
+      "title": "Имена собственные и географические названия",
+      "area": "writing",
+      "desc": "Как писать имена людей и названия мест.",
+      "paragraphs": [
+        "Имена собственные не обязаны переводиться. Сохраняйте исходное написание имени, если так удобно человеку.",
+        "Для автоматического чтения можно использовать адаптированную запись буквами SAMA, однако такие варианты требуют согласования с носителем имени.",
+        "Границы имён можно обозначать прописными буквами без введения новых грамматических окончаний."
+      ],
+      "examples": [
+        [
+          "Mi bi Danila.",
+          "Меня зовут Данила."
+        ],
+        [
+          "Mi bi Alex.",
+          "Меня зовут Алекс."
+        ]
+      ],
+      "related": [
+        "spelling",
+        "transliteration",
+        "introductions"
+      ]
+    },
+    {
+      "id": "minimal-pairs",
+      "title": "Различение похожих звуков",
+      "area": "pronunciation",
+      "desc": "Почему короткий алфавит тоже надо проверять.",
+      "paragraphs": [
+        "Если число звуков невелико, некоторые слова оказываются очень похожими. Для изучения недостаточно только произнести буквы: нужно тестировать распознавание слов в реальной речи и на шумном фоне.",
+        "Особое внимание заслуживают близкие формы, а также акцентные варианты L, W и H.",
+        "План испытаний включает прослушивание минимальных различий, запись услышанного слова и сравнение результатов носителей разных языков."
+      ],
+      "related": [
+        "consonants",
+        "testing",
+        "design-metrics"
+      ]
+    },
+    {
+      "id": "phonetic-audio",
+      "title": "Звуковые эталоны и записи",
+      "area": "pronunciation",
+      "desc": "Что нужно для настоящего нормативного звукаря.",
+      "paragraphs": [
+        "Нынешняя озвучка создаётся системным синтезатором речи устройства. Она полезна как интерактивная иллюстрация, но может неверно ставить ударение и интерпретировать незнакомые слова.",
+        "Для нормативного звукаря понадобится единый набор записей звуков, слогов, минимальных пар и коротких фраз с проверенной транскрипцией.",
+        "Дополнительно полезно хранить записи нескольких дикторов с разными родными языками, чтобы проверить, насколько хорошо слушатели понимают допустимые варианты."
+      ],
+      "related": [
+        "pronunciation-variants",
+        "stress",
+        "testing"
+      ]
+    },
+    {
+      "id": "syllable-drills",
+      "title": "Практика чтения по слогам",
+      "area": "pronunciation",
+      "desc": "Слоги ma, me, mi и простые слова.",
+      "paragraphs": [
+        "Начните с пяти гласных: a, e, i, o, u. Затем соедините с одной согласной и прочитайте ma, me, mi, mo, mu.",
+        "Повторите тот же приём для p, t, k и s. Когда слоги становятся автоматическими, переходите к словам mama, sama, doma, lena.",
+        "Важнее ясность каждого звука, чем скорость чтения. Слишком быстрое произношение поначалу мешает распознаванию границ слога."
+      ],
+      "examples": [
+        [
+          "mama",
+          "ма-ма"
+        ],
+        [
+          "sama",
+          "са-ма"
+        ],
+        [
+          "doma",
+          "до-ма"
+        ]
+      ],
+      "related": [
+        "syllables",
+        "vowels",
+        "stress"
+      ]
+    },
+    {
+      "id": "time-vocabulary",
+      "title": "Дни, недели и годы",
+      "area": "words",
+      "desc": "Временные слова и календарные пробелы.",
+      "paragraphs": [
+        "В лексиконе предлагаются dina (день), wika (неделя), yala (год), tima (время) и noka (ночь).",
+        "Это рабочие корни. Правила записи конкретных календарных дат, часовых поясов и названий месяцев ещё не готовы, поэтому не стоит использовать систему для юридически значимого расписания без уточнений.",
+        "Для учебных фраз можно комбинировать основные слова времени с pa и la, но такие сочетания не заменяют точный календарный стандарт."
+      ],
+      "related": [
+        "time-and-context",
+        "numbers-syntax",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "color-vocabulary",
+      "title": "Цвета и признаки",
+      "area": "words",
+      "desc": "Обозначаем цвета без согласования с существительным.",
+      "paragraphs": [
+        "В словаре предложены bulu (синий), lilu (зелёный), papa (красный), wawa (белый), noki (чёрный), muna (жёлтый).",
+        "Признак следует за существительным; для полного предложения можно использовать bi.",
+        "Точные категории цветов различаются между языками и культурами, поэтому будущая стандартизация должна включать визуальные образцы и тесты узнаваемости."
+      ],
+      "examples": [
+        [
+          "doma bona",
+          "хороший дом"
+        ],
+        [
+          "doma daba",
+          "большой дом"
+        ]
+      ],
+      "related": [
+        "adjectives",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "food-vocabulary",
+      "title": "Еда, вода и просьбы",
+      "area": "usage",
+      "desc": "Слова, которые пригодятся в путешествии.",
+      "paragraphs": [
+        "su — вода, pana — хлеб, kula — есть, pina — пить, kawa — кофе. На этих словах можно строить самые простые просьбы.",
+        "При просьбе добавьте palao («пожалуйста»). Желание передаётся словом kama.",
+        "Слова об аллергиях, ингредиентах, запретах и медицинских рисках пока недостаточно разработаны: для критически важных ситуаций нельзя полагаться только на черновой словарь."
+      ],
+      "examples": [
+        [
+          "Mi kama su, palao.",
+          "Я хочу воды, пожалуйста."
+        ],
+        [
+          "Mi pina su.",
+          "Я пью воду."
+        ]
+      ],
+      "related": [
+        "politeness",
+        "dialogue",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "online-messages",
+      "title": "Сообщения и переписка",
+      "area": "usage",
+      "desc": "Пишем простые фразы в интернете.",
+      "paragraphs": [
+        "В коротких сообщениях особенно полезны неизменяемые местоимения, отсутствие сложных окончаний и прямая пунктуация.",
+        "Поскольку у SAMA пока нет полноценного корпуса живой речи, не следует вводить десятки необязательных сокращений: они осложняют чтение начинающим.",
+        "Пишите слова полностью, отделяйте предложения и при неоднозначности повторяйте предмет разговора."
+      ],
+      "examples": [
+        [
+          "Sala!",
+          "Привет!"
+        ],
+        [
+          "Mi lena basa SAMA.",
+          "Я учу SAMA."
+        ]
+      ],
+      "related": [
+        "spelling",
+        "dialogue",
+        "technology"
+      ]
+    },
+    {
+      "id": "translation-limits",
+      "title": "Ограничения перевода",
+      "area": "usage",
+      "desc": "Почему автоматический перевод пока ненадёжен.",
+      "paragraphs": [
+        "Малый экспериментальный словарь может передавать только часть смысловых оттенков, встречающихся в естественных языках. Поэтому одинаковое слово SAMA иногда соответствует нескольким русским переводам.",
+        "В юридических, медицинских, технических и других ответственных сообщениях нельзя полагаться на SAMA 0.1 как на полный эквивалент исходного языка.",
+        "При разработке переводчика потребуются размеченный корпус, согласованный словарь и систематическая оценка ошибок."
+      ],
+      "related": [
+        "technology",
+        "lexical-quality",
+        "universality-limits"
+      ]
+    },
+    {
+      "id": "study-plan",
+      "title": "План обучения на семь дней",
+      "area": "usage",
+      "desc": "Первое знакомство без зубрёжки.",
+      "paragraphs": [
+        "День 1: алфавит и пять гласных. День 2: местоимения и связка bi. День 3: простые предложения SVO. День 4: no, pa, la.",
+        "День 5: вопросы с ka и вопросительные слова. День 6: числа, движение и семейные слова. День 7: повторение, разговорник и тренажёр.",
+        "Это пример учебной последовательности, а не научно подтверждённое обещание свободного владения за неделю."
+      ],
+      "related": [
+        "learning-strategy",
+        "testing",
+        "dialogue"
+      ]
+    },
+    {
+      "id": "community-review",
+      "title": "Как сообщество может улучшать язык",
+      "area": "culture",
+      "desc": "Принцип обсуждения и принятия правок.",
+      "paragraphs": [
+        "Любой участник может предложить новое слово, указать на двусмысленность или описать трудности произношения. Предложение должно содержать значение, примеры и объяснение причины изменения.",
+        "Правки рассматриваются с учётом фонетики, совместимости с предыдущими версиями и результатов тестирования на разных языковых группах.",
+        "Принятая правка получает номер версии; отклонённая остаётся в архиве для прозрачности процесса."
+      ],
+      "related": [
+        "governance",
+        "testing",
+        "lexical-quality"
+      ]
+    },
+    {
+      "id": "license",
+      "title": "Лицензия и участие",
+      "area": "culture",
+      "desc": "Как использовать материалы проекта.",
+      "paragraphs": [
+        "Программный код этого сайта подготовлен для открытого использования по лицензии MIT. Для учебных текстов рекомендовано сохранять обозначение экспериментальной редакции и авторство проекта при переработке.",
+        "При распространении материалов не следует утверждать, что SAMA уже стал официальным языком международной организации или что его фонетика полностью стандартизирована.",
+        "Формальные правила совместного редактирования будут определены в будущем."
+      ],
+      "related": [
+        "governance",
+        "technology"
+      ]
+    }
+  ],
+  "QUIZ": [
+    {
+      "q": "Что означает mi?",
+      "options": [
+        "ты",
+        "я",
+        "они",
+        "кто"
+      ],
+      "correct": 1,
+      "explain": "mi = я."
+    },
+    {
+      "q": "Что означает yu?",
+      "options": [
+        "я",
+        "дом",
+        "ты",
+        "время"
+      ],
+      "correct": 2,
+      "explain": "yu = ты."
+    },
+    {
+      "q": "Как сказать «он / она»?",
+      "options": [
+        "ta",
+        "mi",
+        "ki",
+        "li"
+      ],
+      "correct": 0,
+      "explain": "ta не кодирует пол."
+    },
+    {
+      "q": "Как будет «вода»?",
+      "options": [
+        "su",
+        "sa",
+        "si",
+        "sama"
+      ],
+      "correct": 0,
+      "explain": "su = вода."
+    },
+    {
+      "q": "Как будет «я люблю тебя»?",
+      "options": [
+        "Yu ama mi.",
+        "Mi ama yu.",
+        "Mi ama ta.",
+        "Mi pa yu."
+      ],
+      "correct": 1,
+      "explain": "Нейтральный порядок SVO."
+    },
+    {
+      "q": "Что обозначает pa?",
+      "options": [
+        "будущее",
+        "вопрос",
+        "отрицание",
+        "прошедшее"
+      ],
+      "correct": 3,
+      "explain": "pa ставится перед глаголом."
+    },
+    {
+      "q": "Что обозначает la?",
+      "options": [
+        "настоящее",
+        "будущее",
+        "отрицание",
+        "место"
+      ],
+      "correct": 1,
+      "explain": "la маркирует будущее."
+    },
+    {
+      "q": "Как сделать общий вопрос?",
+      "options": [
+        "Добавить ka в конце",
+        "Склонять глагол",
+        "Убрать подлежащее",
+        "Поставить li"
+      ],
+      "correct": 0,
+      "explain": "ka — вопросительная частица."
+    },
+    {
+      "q": "Как будет «я не вижу тебя»?",
+      "options": [
+        "Mi no si yu.",
+        "Mi si no yu.",
+        "No mi si yu.",
+        "Mi pa yu."
+      ],
+      "correct": 0,
+      "explain": "no перед глаголом."
+    },
+    {
+      "q": "Как будет «мы»?",
+      "options": [
+        "mi ka",
+        "mi li",
+        "ta li",
+        "yu la"
+      ],
+      "correct": 1,
+      "explain": "li делает местоимение множественным."
+    },
+    {
+      "q": "Как будет «где»?",
+      "options": [
+        "kasa",
+        "ku",
+        "kalo",
+        "kamo"
+      ],
+      "correct": 2,
+      "explain": "kalo = где."
+    },
+    {
+      "q": "Как будет «кто»?",
+      "options": [
+        "ki",
+        "ku",
+        "ka",
+        "ko"
+      ],
+      "correct": 0,
+      "explain": "ki = кто."
+    },
+    {
+      "q": "Как будет «как»?",
+      "options": [
+        "kamo",
+        "kate",
+        "kasa",
+        "kalo"
+      ],
+      "correct": 0,
+      "explain": "kamo = как."
+    },
+    {
+      "q": "Как будет «почему»?",
+      "options": [
+        "kalo",
+        "kasa",
+        "ku",
+        "ka"
+      ],
+      "correct": 1,
+      "explain": "kasa = почему."
+    },
+    {
+      "q": "Как будет «когда»?",
+      "options": [
+        "kate",
+        "kasa",
+        "kamo",
+        "ki"
+      ],
+      "correct": 0,
+      "explain": "kate = когда."
+    },
+    {
+      "q": "Как сказать «два друга»?",
+      "options": [
+        "ami dua",
+        "dua ami",
+        "dua de ami",
+        "ami li dua"
+      ],
+      "correct": 1,
+      "explain": "Число ставится перед словом."
+    },
+    {
+      "q": "Какое слово обозначает дом?",
+      "options": [
+        "doma",
+        "nami",
+        "duniya",
+        "sama"
+      ],
+      "correct": 0,
+      "explain": "doma = дом."
+    },
+    {
+      "q": "Сколько букв в учебном алфавите?",
+      "options": [
+        "12",
+        "17",
+        "21",
+        "26"
+      ],
+      "correct": 1,
+      "explain": "Пять гласных и двенадцать согласных."
+    },
+    {
+      "q": "Какая буква отсутствует в алфавите?",
+      "options": [
+        "L",
+        "Y",
+        "R",
+        "W"
+      ],
+      "correct": 2,
+      "explain": "R не отдельная буква SAMA."
+    },
+    {
+      "q": "Как будет «мой дом»?",
+      "options": [
+        "mi de doma",
+        "doma de mi",
+        "doma ko mi",
+        "mi na doma"
+      ],
+      "correct": 1,
+      "explain": "Предмет + de + владелец."
+    },
+    {
+      "q": "Как сказать «находиться дома»?",
+      "options": [
+        "bi na doma",
+        "wako to doma",
+        "no de doma",
+        "kula na doma"
+      ],
+      "correct": 0,
+      "explain": "bi na doma."
+    },
+    {
+      "q": "Чему соответствует tena?",
+      "options": [
+        "3",
+        "9",
+        "10",
+        "100"
+      ],
+      "correct": 2,
+      "explain": "tena = 10."
+    },
+    {
+      "q": "Чему соответствует sena?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "7"
+      ],
+      "correct": 1,
+      "explain": "sena = 100."
+    },
+    {
+      "q": "Как сказать «21»?",
+      "options": [
+        "dua tena una",
+        "tena dua una",
+        "dua sena una",
+        "una dua tena"
+      ],
+      "correct": 0,
+      "explain": "Старший разряд прежде младшего."
+    },
+    {
+      "q": "Как сказать «спасибо»?",
+      "options": [
+        "sala",
+        "sani",
+        "sayo",
+        "palao"
+      ],
+      "correct": 1,
+      "explain": "sani — спасибо."
+    },
+    {
+      "q": "Как сказать «до свидания»?",
+      "options": [
+        "sayo",
+        "sama",
+        "pana",
+        "daba"
+      ],
+      "correct": 0,
+      "explain": "sayo — до свидания."
+    },
+    {
+      "q": "Как будет «есть хлеб»?",
+      "options": [
+        "pina pana",
+        "si pana",
+        "kula pana",
+        "ama pana"
+      ],
+      "correct": 2,
+      "explain": "kula — есть, pana — хлеб."
+    },
+    {
+      "q": "Как будет «я изучаю язык SAMA»?",
+      "options": [
+        "Mi lena basa SAMA.",
+        "Yu lena basa SAMA.",
+        "Mi si SAMA.",
+        "SAMA bi mi."
+      ],
+      "correct": 0,
+      "explain": "lena — изучать; basa — язык."
+    },
+    {
+      "q": "Что означает li после существительного?",
+      "options": [
+        "вопрос",
+        "прошедшее",
+        "множественность",
+        "отрицание"
+      ],
+      "correct": 2,
+      "explain": "ami li — друзья."
+    },
+    {
+      "q": "В какой позиции располагается прилагательное?",
+      "options": [
+        "Перед существительным",
+        "После существительного",
+        "Всегда в начале",
+        "После точки"
+      ],
+      "correct": 1,
+      "explain": "doma bona — хороший дом."
+    },
+    {
+      "q": "Какая частица обозначает «вместе с»?",
+      "options": [
+        "de",
+        "to",
+        "ko",
+        "na"
+      ],
+      "correct": 2,
+      "explain": "ko — вместе с."
+    },
+    {
+      "q": "Какая частица обозначает направление «к»?",
+      "options": [
+        "to",
+        "li",
+        "no",
+        "pa"
+      ],
+      "correct": 0,
+      "explain": "to — к, по направлению."
+    },
+    {
+      "q": "Как будет «Я видел тебя»?",
+      "options": [
+        "Mi la si yu.",
+        "Mi pa si yu.",
+        "Mi si ka yu.",
+        "Mi no si yu."
+      ],
+      "correct": 1,
+      "explain": "pa — прошедшее время."
+    },
+    {
+      "q": "Как будет «Я увижу тебя»?",
+      "options": [
+        "Mi la si yu.",
+        "Mi pa si yu.",
+        "Mi si yu ka.",
+        "Mi no si yu."
+      ],
+      "correct": 0,
+      "explain": "la — будущее время."
+    },
+    {
+      "q": "Для чего служит связка bi?",
+      "options": [
+        "Отрицание",
+        "Принадлежность",
+        "Быть, являться",
+        "Множество"
+      ],
+      "correct": 2,
+      "explain": "bi — быть, являться."
+    },
+    {
+      "q": "Какой статус у расширенного словаря?",
+      "options": [
+        "Общепринятый международный",
+        "Черновой, требует проверки",
+        "Государственный",
+        "Незыблемый"
+      ],
+      "correct": 1,
+      "explain": "Редакция 0.1 экспериментальная."
+    }
+  ]
+}

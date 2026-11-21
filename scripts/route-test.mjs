@@ -1,0 +1,62 @@
+// Route-level checks with a strict, lightweight DOM model. This is not a visual browser test.
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const source=readFileSync('dist/assets/site.js','utf8');
+const dom=new Map();
+function element(id){
+ if(!dom.has(id))dom.set(id,{
+   id,innerHTML:'',textContent:'',value:'',dataset:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},
+   addEventListener(){},querySelectorAll(){return []},querySelector(sel){
+     if(sel==='h1'){const html=this.innerHTML.match(/<h1[^>]*>(.*?)<\/h1>/s)?.[1];return html?{textContent:html.replace(/<[^>]+>/g,'')}:null;}
+     return null;
+   },insertAdjacentHTML(position,html){this.innerHTML=position==='afterbegin'?html+this.innerHTML:this.innerHTML+html;},
+   setAttribute(){},removeAttribute(){},getAttribute(){return ''},focus(){},scrollIntoView(){}
+ });
+ return dom.get(id);
+}
+const location={hash:'#/'};
+const document={title:'',getElementById:element,querySelectorAll(){return []},querySelector(){return null},body:{classList:{add(){},remove(){},toggle(){},contains(){return false}}}};
+const window={addEventListener(){},scrollTo(){},setTimeout,clearTimeout};
+const context=vm.createContext({document,window,location,localStorage:{getItem(){return null},setItem(){}},
+ URLSearchParams,Date,Math,Set,Array,String,Number,console});
+vm.runInContext(source,context,{timeout:12000});
+const evalIn=(s)=>vm.runInContext(s,context,{timeout:12000});
+const routes=[
+ ['/', 'Добро пожаловать в SAMA'],['/start','С чего начать'],['/alphabet','Букварь'],
+ ['/sounds','Звукарь'],['/grammar','Грамматика'],['/dictionary','Большой словарь'],
+ ['/phrases','Разговорник'],['/numbers','Числа'],['/lessons','Самоучитель'],
+ ['/lesson/0','01.'],['/library','Энциклопедия'],['/article/svo','Порядок'],
+ ['/trainer','Тренажёр'],['/favorites','Избранное'],['/about','О проекте'],
+ ['/changelog','История версий'],['/search?q=sala','Поиск'],
+ ['/standard','спецификация языка 0.3'],['/audit','Аудит и журнал исправлений'],
+ ['/word/mi','mi'],['/word/meya','meya'],['/word/selo','selo'],['/word/seli','seli'],
+ ['/article/standard-content-clause','Изъяснительное'],['/unknown','не найдена']
+];
+function checkRoute(path,title){
+ location.hash='#'+path;
+ evalIn('render()');
+ const html=element('app').innerHTML;
+ assert.ok(html.includes('<h1>')&&html.toLowerCase().includes(title.toLowerCase()),`Не найдено: ${path} / ${title}`);
+ assert.ok(!html.includes('undefined'),`На странице ${path} значение undefined`);
+ assert.ok(html.length>100,`Пустая страница ${path}`);
+ return html;
+}
+for(const [route,expect] of routes)checkRoute(route,expect);
+const articleIds=JSON.parse(evalIn('JSON.stringify(ARTICLES.map(a=>[a.id,a.title]))'));
+for(const [id,title] of articleIds)checkRoute('/article/'+id,title);
+const words=JSON.parse(evalIn('JSON.stringify(LEXICON.map(w=>w.w))'));
+for(const word of words)checkRoute('/word/'+word,word);
+checkRoute('/dictionary','Большой словарь');
+element('dictQuery').value='meya'; element('dictTag').value=''; element('dictStatus').value='candidate';
+evalIn('refreshDictionary(1)');
+assert.ok(element('dictionaryResults').innerHTML.includes('meya'),'Фильтрация по слову meya');
+element('dictStatus').value='core';evalIn('refreshDictionary(1)');
+assert.ok(!element('dictionaryResults').innerHTML.includes('class="lex-word"'),'Кандидат meya не должен присутствовать в выдаче ядра');
+const audit=checkRoute('/audit','Аудит');
+assert.ok(audit.includes('pala-doma')&&audit.includes('mona-tima'),'История ошибок отсутствует');
+const spec=checkRoute('/standard','спецификация языка 0.3');
+assert.ok(spec.includes('ke +')||spec.includes('ke'), 'Не загружены сложноподчинённые конструкции');
+console.log(`✓ Проверено: ${routes.length} маршрутов, ${articleIds.length} статей, ${words.length} карточек слов`);
+console.log('✓ Проверены фильтр статуса, поиск по словарю и журнал ошибок');
+console.log(`✓ Всего проверено ${routes.length+articleIds.length+words.length} маршрутов (без визуального браузера)`);

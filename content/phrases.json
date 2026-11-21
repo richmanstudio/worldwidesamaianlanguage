@@ -1,0 +1,252 @@
+[
+  {
+    "sama": "Sala!",
+    "ru": "Привет!",
+    "topic": "Приветствия"
+  },
+  {
+    "sama": "Sayo!",
+    "ru": "До свидания!",
+    "topic": "Приветствия"
+  },
+  {
+    "sama": "Sani.",
+    "ru": "Спасибо.",
+    "topic": "Приветствия"
+  },
+  {
+    "sama": "Palao.",
+    "ru": "Пожалуйста.",
+    "topic": "Приветствия"
+  },
+  {
+    "sama": "Mi bi Danila.",
+    "ru": "Меня зовут Данила.",
+    "topic": "Знакомство"
+  },
+  {
+    "sama": "Yu bi ki?",
+    "ru": "Кто ты?",
+    "topic": "Знакомство"
+  },
+  {
+    "sama": "Yu nami bi ku?",
+    "ru": "Как тебя зовут? (букв. твоё имя — что?)",
+    "topic": "Знакомство"
+  },
+  {
+    "sama": "Mi bi soma.",
+    "ru": "Я человек.",
+    "topic": "Знакомство"
+  },
+  {
+    "sama": "Mi ama yu.",
+    "ru": "Я люблю тебя.",
+    "topic": "Чувства"
+  },
+  {
+    "sama": "Mi ama lami de mi.",
+    "ru": "Я люблю свою семью.",
+    "topic": "Чувства"
+  },
+  {
+    "sama": "Mi bi silo.",
+    "ru": "Я счастлив.",
+    "topic": "Чувства"
+  },
+  {
+    "sama": "Ta bi pasa.",
+    "ru": "Он/она грустит.",
+    "topic": "Чувства"
+  },
+  {
+    "sama": "Mi si yu.",
+    "ru": "Я вижу тебя.",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Mi no si yu.",
+    "ru": "Я не вижу тебя.",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Yu toka basa SAMA ka?",
+    "ru": "Ты говоришь на языке SAMA?",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Mi lena basa SAMA.",
+    "ru": "Я изучаю SAMA.",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Yu toka kamo?",
+    "ru": "Как ты говоришь?",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Mi no nima.",
+    "ru": "Я не знаю.",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Yu mosa kami mi ka?",
+    "ru": "Ты можешь мне помочь?",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Mi pa si ta.",
+    "ru": "Я видел его / её.",
+    "topic": "Время"
+  },
+  {
+    "sama": "Mi la si ta.",
+    "ru": "Я увижу его / её.",
+    "topic": "Время"
+  },
+  {
+    "sama": "Ta pa no si mi.",
+    "ru": "Он / она меня не видел(а).",
+    "topic": "Время"
+  },
+  {
+    "sama": "Mi la wako to doma.",
+    "ru": "Я пойду домой.",
+    "topic": "Движение"
+  },
+  {
+    "sama": "Yu bi kalo?",
+    "ru": "Где ты?",
+    "topic": "Ориентация"
+  },
+  {
+    "sama": "Mi bi na doma.",
+    "ru": "Я дома.",
+    "topic": "Ориентация"
+  },
+  {
+    "sama": "Doma bi kalo?",
+    "ru": "Где дом?",
+    "topic": "Ориентация"
+  },
+  {
+    "sama": "Mi wako ko ami.",
+    "ru": "Я иду с другом.",
+    "topic": "Движение"
+  },
+  {
+    "sama": "Mi no kama wako.",
+    "ru": "Я не хочу идти.",
+    "topic": "Движение"
+  },
+  {
+    "sama": "Mi kama su.",
+    "ru": "Я хочу воды.",
+    "topic": "Еда"
+  },
+  {
+    "sama": "Mi pina su.",
+    "ru": "Я пью воду.",
+    "topic": "Еда"
+  },
+  {
+    "sama": "Ta kula pana.",
+    "ru": "Он / она ест хлеб.",
+    "topic": "Еда"
+  },
+  {
+    "sama": "Mi la pina kawa.",
+    "ru": "Я буду пить кофе.",
+    "topic": "Еда"
+  },
+  {
+    "sama": "Mi no kula wama.",
+    "ru": "Я не ем мясо.",
+    "topic": "Еда"
+  },
+  {
+    "sama": "Su bi kalo?",
+    "ru": "Где вода?",
+    "topic": "Еда"
+  },
+  {
+    "sama": "Ena bi doma bona.",
+    "ru": "Это хороший дом.",
+    "topic": "Описание"
+  },
+  {
+    "sama": "Doma bi daba.",
+    "ru": "Дом большой.",
+    "topic": "Описание"
+  },
+  {
+    "sama": "Dua ami bi na doma.",
+    "ru": "Два друга находятся дома.",
+    "topic": "Числа"
+  },
+  {
+    "sama": "Mi si tia nini.",
+    "ru": "Я вижу трёх птиц.",
+    "topic": "Числа"
+  },
+  {
+    "sama": "Ta li bi ami de mi.",
+    "ru": "Они мои друзья.",
+    "topic": "Отношения"
+  },
+  {
+    "sama": "Mi ko yu.",
+    "ru": "Я с тобой.",
+    "topic": "Отношения"
+  },
+  {
+    "sama": "Mi no bi meka.",
+    "ru": "Я не врач.",
+    "topic": "Профессии"
+  },
+  {
+    "sama": "Mi bi dani.",
+    "ru": "Я ученик.",
+    "topic": "Обучение"
+  },
+  {
+    "sama": "Ta bi dani.",
+    "ru": "Он / она ученик.",
+    "topic": "Обучение"
+  },
+  {
+    "sama": "Mi lita kaso.",
+    "ru": "Я читаю книгу.",
+    "topic": "Обучение"
+  },
+  {
+    "sama": "Mi wima nami.",
+    "ru": "Я пишу имя.",
+    "topic": "Обучение"
+  },
+  {
+    "sama": "Yu bi bona ka?",
+    "ru": "У тебя всё хорошо? (букв. ты хороший?)",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Yesa, mi bi bona.",
+    "ru": "Да, у меня всё хорошо.",
+    "topic": "Общение"
+  },
+  {
+    "sama": "Mi la nawi.",
+    "ru": "Я начну.",
+    "topic": "Действия"
+  },
+  {
+    "sama": "Mi pa tawi.",
+    "ru": "Я закончил.",
+    "topic": "Действия"
+  },
+  {
+    "sama": "Mi kama lena.",
+    "ru": "Я хочу учиться.",
+    "topic": "Обучение"
+  }
+]

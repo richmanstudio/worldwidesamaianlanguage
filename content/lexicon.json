@@ -1,0 +1,2271 @@
+[
+  {
+    "w": "aka",
+    "ru": "но",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ama",
+    "ru": "любить; любовь (значение определяется синтаксисом)",
+    "tag": "Действия",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "ami",
+    "ru": "друг",
+    "tag": "Люди и отношения",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "amiko",
+    "ru": "приятель",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "amiya",
+    "ru": "дружба",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ani",
+    "ru": "если",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "apa",
+    "ru": "яблоко",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "baba",
+    "ru": "папа",
+    "tag": "Люди и отношения",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "babi",
+    "ru": "младенец",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bali",
+    "ru": "красивый",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "balo",
+    "ru": "сумка",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bama",
+    "ru": "работа",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bama-soma",
+    "ru": "работник",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bana",
+    "ru": "банан",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bano",
+    "ru": "город",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "bano-mato",
+    "ru": "парк",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "basa",
+    "ru": "язык",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "beto",
+    "ru": "кровать",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bi",
+    "ru": "быть, являться",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "bina",
+    "ru": "спина",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bisi",
+    "ru": "болеть",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "biso",
+    "ru": "боль",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bodu",
+    "ru": "тело",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "boma",
+    "ru": "брат",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "bona",
+    "ru": "хороший",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "bulu",
+    "ru": "синий",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "daba",
+    "ru": "большой",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "dama",
+    "ru": "строить",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "dami",
+    "ru": "палец",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "dani",
+    "ru": "ученик",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "dano",
+    "ru": "зуб",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "dasa",
+    "ru": "станция",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "dasi",
+    "ru": "покупать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "de",
+    "ru": "принадлежность; родительная связь",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "deta",
+    "ru": "правый",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "dina",
+    "ru": "день",
+    "tag": "Время",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "doma",
+    "ru": "дом",
+    "tag": "Дом и быт",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "doma-kato",
+    "ru": "домашний кот",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "doma-koma",
+    "ru": "общественное здание (проект)",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "doma-siba",
+    "ru": "домашняя собака",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "dua",
+    "ru": "два",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "duni",
+    "ru": "дикое животное",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "duniya",
+    "ru": "мир (планета Земля; не мир как отсутствие войны)",
+    "tag": "Природа и погода",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "ena",
+    "ru": "этот, здесь",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "hama",
+    "ru": "надежда",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ka",
+    "ru": "частица общего вопроса",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "kala",
+    "ru": "место",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kalo",
+    "ru": "где",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "kama",
+    "ru": "хотеть",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kami",
+    "ru": "помогать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kamo",
+    "ru": "как",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "kano",
+    "ru": "ухо",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kasa",
+    "ru": "почему",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "kaso",
+    "ru": "книга",
+    "tag": "Образование и наука",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kaso-lena",
+    "ru": "учебник",
+    "tag": "Образование и наука",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kate",
+    "ru": "когда",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "kato",
+    "ru": "кот",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kawa",
+    "ru": "кофе",
+    "tag": "Еда и напитки",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "ke",
+    "ru": "что (союз, вводит придаточное изъяснительное)",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ki",
+    "ru": "кто",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "kita",
+    "ru": "бежать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ko",
+    "ru": "с, вместе с",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "koka",
+    "ru": "курица",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "koko",
+    "ru": "какао",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "koma",
+    "ru": "сообщество, общество",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "koma-toka",
+    "ru": "общественная беседа, дискуссия (в интернете — по контексту)",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Значение условно; не использовать без контекста. Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "kopa",
+    "ru": "чашка",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "koso",
+    "ru": "кривой",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "kowa",
+    "ru": "громкий",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ku",
+    "ru": "что",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "kula",
+    "ru": "есть, кушать",
+    "tag": "Еда и напитки",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "kula-doma",
+    "ru": "место приёма пищи (проект)",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "la",
+    "ru": "маркер будущего времени",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "laka",
+    "ru": "озеро",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lako",
+    "ru": "спать",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "lali",
+    "ru": "рядом",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lami",
+    "ru": "семья",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lapa",
+    "ru": "рука",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lasa",
+    "ru": "волосы",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lasi",
+    "ru": "лёгкий",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lata",
+    "ru": "автомобиль",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lato",
+    "ru": "лампа",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lawi",
+    "ru": "закон",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lawi-doma",
+    "ru": "здание суда (проект)",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lawi-soma",
+    "ru": "юрист",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lena",
+    "ru": "учиться; изучать; учить (требуется уточнение объекта)",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "lena-doma",
+    "ru": "учебное здание, школа (проект)",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "lena-soma",
+    "ru": "человек, связанный с обучением (учитель или ученик; неоднозначно)",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Значение условно; не использовать без контекста. Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "li",
+    "ru": "показатель множественного числа",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "lilu",
+    "ru": "зелёный",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lima",
+    "ru": "лес",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "limo",
+    "ru": "лимон",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lina",
+    "ru": "голод",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lino",
+    "ru": "партнёр",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lita",
+    "ru": "читать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "lita-doma",
+    "ru": "библиотека / место для чтения (проект)",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lolo",
+    "ru": "медленный",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "loma",
+    "ru": "ложка",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "lopo",
+    "ru": "волк",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "luma",
+    "ru": "комната",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "luna",
+    "ru": "луна",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mado",
+    "ru": "руководитель; руководство (контекст)",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "mala",
+    "ru": "тихий",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mali",
+    "ru": "грязный",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "malo",
+    "ru": "плохой",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "mama",
+    "ru": "мама",
+    "tag": "Люди и отношения",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "mami",
+    "ru": "родитель",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mato",
+    "ru": "дерево",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mato-pano",
+    "ru": "аллея",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "matu",
+    "ru": "взрослый",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mawa",
+    "ru": "сильный",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mawi",
+    "ru": "гость",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "meda",
+    "ru": "лекарство",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "medo",
+    "ru": "лечить",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "meka",
+    "ru": "врач",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "meka-doma",
+    "ru": "медицинское учреждение (проект)",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "melo",
+    "ru": "мёд",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mesa",
+    "ru": "стол",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "meya",
+    "ru": "календарный месяц",
+    "tag": "Время",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Новый корень вместо непрозрачного mona-tima."
+  },
+  {
+    "w": "mi",
+    "ru": "я",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "mika",
+    "ru": "смотреть внимательно",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "miku",
+    "ru": "молоко",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mila",
+    "ru": "тысяча",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mili",
+    "ru": "глаз",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mima",
+    "ru": "помнить",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mimi",
+    "ru": "насекомое",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mini",
+    "ru": "маленький",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "misa",
+    "ru": "ключ",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "misi",
+    "ru": "думать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "miso",
+    "ru": "суп",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mita",
+    "ru": "мышь",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "moko",
+    "ru": "короткий",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mona",
+    "ru": "кожа",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mono",
+    "ru": "мужчина",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mosa",
+    "ru": "мочь",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "muka",
+    "ru": "корова",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "mumu",
+    "ru": "коричневый",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "muna",
+    "ru": "жёлтый",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "muto",
+    "ru": "рот",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "na",
+    "ru": "в, на, у",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "nado",
+    "ru": "камень",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "naka",
+    "ru": "делать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "naki",
+    "ru": "ответ для исследования",
+    "tag": "Образование и наука",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nalo",
+    "ru": "апельсин",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nami",
+    "ru": "имя",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "nami-bano",
+    "ru": "название города",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nami-koma",
+    "ru": "название сообщества",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "namiwa",
+    "ru": "сосед",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "namiya",
+    "ru": "знакомый человек",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nana",
+    "ru": "внутри",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "napa",
+    "ru": "живот",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nasa",
+    "ru": "родина, страна происхождения",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "nasi",
+    "ru": "рис",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "naso",
+    "ru": "нос",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nato",
+    "ru": "народ",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "nawa",
+    "ru": "новый",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "nawa-soma",
+    "ru": "новичок",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nawa-suna",
+    "ru": "рассвет",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nawi",
+    "ru": "начинать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "naya",
+    "ru": "девять",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nema",
+    "ru": "шея",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nemi",
+    "ru": "слабый",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nemo",
+    "ru": "забывать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nilo",
+    "ru": "далёкий; далеко (в соответствующем контексте)",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "nima",
+    "ru": "знать; знание (в соответствующем контексте)",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "nina",
+    "ru": "ребёнок",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nini",
+    "ru": "птица",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nipa",
+    "ru": "открывать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "no",
+    "ru": "не, отрицание",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "noba",
+    "ru": "над",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "noka",
+    "ru": "ночь",
+    "tag": "Время",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "noki",
+    "ru": "тёмный; чёрный (значение уточняется контекстом)",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "noko",
+    "ru": "нож",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nono",
+    "ru": "нет",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nopa",
+    "ru": "искать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nula",
+    "ru": "ноль",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "nuta",
+    "ru": "орех",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "o",
+    "ru": "или",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ona",
+    "ru": "тот, там",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "oto",
+    "ru": "восемь",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pa",
+    "ru": "маркер прошедшего времени",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "paba",
+    "ru": "некрасивый",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pado",
+    "ru": "нога",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "paka",
+    "ru": "стена",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "paki",
+    "ru": "закрывать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pako",
+    "ru": "давать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pala",
+    "ru": "четыре",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "palae",
+    "ru": "старый (о предмете)",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "palao",
+    "ru": "пожалуйста",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pali",
+    "ru": "чистый",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "palo",
+    "ru": "чистить",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pami",
+    "ru": "мир, отсутствие войны",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pana",
+    "ru": "хлеб",
+    "tag": "Еда и напитки",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "pana-doma",
+    "ru": "пекарня (проект)",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pano",
+    "ru": "пол",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pano-bano",
+    "ru": "улица",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "papa",
+    "ru": "красный",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pasa",
+    "ru": "грустный",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pasi",
+    "ru": "усталый",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pata",
+    "ru": "перед",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pema",
+    "ru": "пять",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "peta",
+    "ru": "дверь",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pila",
+    "ru": "тарелка",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pilo",
+    "ru": "самолёт",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pina",
+    "ru": "пить",
+    "tag": "Еда и напитки",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "pino",
+    "ru": "трава",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pipo",
+    "ru": "перец",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pisi",
+    "ru": "рыба",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "poba",
+    "ru": "под",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "poko",
+    "ru": "мало",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "polo",
+    "ru": "лошадь",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "poma",
+    "ru": "фрукт",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "pota",
+    "ru": "картофель",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "puma",
+    "ru": "лёгкое",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sadi",
+    "ru": "прямой",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sado",
+    "ru": "квадратный",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "saki",
+    "ru": "вопрос для исследования",
+    "tag": "Образование и наука",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sala",
+    "ru": "привет",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "sali",
+    "ru": "соль",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sama",
+    "ru": "одинаковый, равный",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "sama-soma",
+    "ru": "равный человек",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sami",
+    "ru": "небо",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sana",
+    "ru": "лист",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sani",
+    "ru": "спасибо; благодарность (в соответствующем контексте)",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "sano",
+    "ru": "сердце",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sapo",
+    "ru": "голова",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sasa",
+    "ru": "быстрый",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sawa",
+    "ru": "крыша",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "saya",
+    "ru": "слушать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sayo",
+    "ru": "до свидания",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "se",
+    "ru": "сам, самостоятельно",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "seda",
+    "ru": "стул",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sela",
+    "ru": "море",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sela-lata",
+    "ru": "корабль",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "seli",
+    "ru": "олень (вместо ошибочного омонима selo)",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Новый корень; международная проверка не проводилась."
+  },
+  {
+    "w": "selo",
+    "ru": "другой",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "sena",
+    "ru": "сто",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "seta",
+    "ru": "семь",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "si",
+    "ru": "видеть",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "siba",
+    "ru": "собака",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sidi",
+    "ru": "левый",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sika",
+    "ru": "шесть",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sila",
+    "ru": "сестра",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sili",
+    "ru": "вежливый",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "silo",
+    "ru": "счастливый",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sima",
+    "ru": "холодный; холод (в соответствующем контексте)",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "sima-sami",
+    "ru": "снег",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sima-su",
+    "ru": "лёд",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sino",
+    "ru": "дышать",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sisa",
+    "ru": "змея",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sisi",
+    "ru": "серый",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sita",
+    "ru": "звезда",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "soma",
+    "ru": "человек",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "sopa",
+    "ru": "ждать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "su",
+    "ru": "вода",
+    "tag": "Еда и напитки",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "su-sami",
+    "ru": "дождь",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "suka",
+    "ru": "сахар",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "suna",
+    "ru": "солнце",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "suni",
+    "ru": "светлый",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "suno",
+    "ru": "светить",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ta",
+    "ru": "он, она, оно",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "tadi",
+    "ru": "трудный",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tako",
+    "ru": "брать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo",
+    "ru": "инструмент",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo-basa",
+    "ru": "переводчик (инструмент)",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo-lato",
+    "ru": "фонарь",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo-lena",
+    "ru": "обучающая программа",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo-si",
+    "ru": "экран (рабочее)",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo-toka",
+    "ru": "устройство для разговора (условно: телефон)",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "talo-wima",
+    "ru": "средство письма",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tami",
+    "ru": "проверять",
+    "tag": "Образование и наука",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tamo",
+    "ru": "кровь",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tana",
+    "ru": "цветок",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tano",
+    "ru": "гора",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tapa",
+    "ru": "тёплый; тепло (в соответствующем контексте)",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "tawi",
+    "ru": "заканчивать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "telo",
+    "ru": "круглый",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tena",
+    "ru": "десять",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "teya",
+    "ru": "чай",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tia",
+    "ru": "три",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tika",
+    "ru": "тигр",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tima",
+    "ru": "время",
+    "tag": "Время",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tima-lata",
+    "ru": "расписание транспорта",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "to",
+    "ru": "направление к, в сторону",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "toka",
+    "ru": "говорить",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "toma",
+    "ru": "помидор",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "toso",
+    "ru": "овца",
+    "tag": "Животные",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "tota",
+    "ru": "снаружи",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "una",
+    "ru": "один",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wa",
+    "ru": "и",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "wada",
+    "ru": "река",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wada-lata",
+    "ru": "лодка",
+    "tag": "Город и транспорт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wako",
+    "ru": "идти",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wama",
+    "ru": "мясо",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wasa",
+    "ru": "просыпаться",
+    "tag": "Тело и здоровье",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "wasi",
+    "ru": "песок",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wata",
+    "ru": "находить",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wato",
+    "ru": "электричество",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 2 записей."
+  },
+  {
+    "w": "wato-doma",
+    "ru": "электростанция (контекстное)",
+    "tag": "Технологии и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wawa",
+    "ru": "белый",
+    "tag": "Цвета, числа и формы",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wema",
+    "ru": "культура",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wena",
+    "ru": "женщина",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "weno",
+    "ru": "одежда",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "weta",
+    "ru": "овощ",
+    "tag": "Еда и напитки",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "widi",
+    "ru": "ветер",
+    "tag": "Природа и погода",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wika",
+    "ru": "неделя",
+    "tag": "Время",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wima",
+    "ru": "писать",
+    "tag": "Действия",
+    "proposed": true,
+    "status": "candidate",
+    "note": "Сведены исходные значения 3 записей."
+  },
+  {
+    "w": "wima-doma",
+    "ru": "архив",
+    "tag": "Общество и культура",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "wina",
+    "ru": "окно",
+    "tag": "Дом и быт",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ya",
+    "ru": "конец относительного придаточного",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "yala",
+    "ru": "год",
+    "tag": "Время",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "yalo",
+    "ru": "вокруг",
+    "tag": "Пространство и связь",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "ye",
+    "ru": "начало относительного придаточного",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "yesa",
+    "ru": "да",
+    "tag": "Основы языка",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "yoma",
+    "ru": "важный",
+    "tag": "Чувства и качества",
+    "proposed": true,
+    "status": "candidate"
+  },
+  {
+    "w": "yu",
+    "ru": "ты, вы (один человек)",
+    "tag": "Основы языка",
+    "proposed": false,
+    "status": "core"
+  },
+  {
+    "w": "yuma",
+    "ru": "юноша, девушка",
+    "tag": "Люди и отношения",
+    "proposed": true,
+    "status": "candidate"
+  }
+]

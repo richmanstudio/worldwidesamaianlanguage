@@ -1,0 +1,12 @@
+{
+  "target": 5000,
+  "published_existing": 317,
+  "existing_core": 43,
+  "existing_candidates": 274,
+  "compositional_proposals": 4683,
+  "approval_notice": "NOT 5000 independently reviewed words; proposal corpus",
+  "alphabet_valid": true,
+  "unique_forms": true,
+  "scope": "draft nouns, conservative A-B compounds",
+  "policy": "Quality-first: only 317 prior entries appear in the public canonical dictionary; 4683 compounds are searchable draft workbench entries."
+}
