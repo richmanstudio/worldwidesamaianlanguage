@@ -33,6 +33,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+      # Avoid eventual-consistency races in GitHub's artifact API.
+      - name: Wait for Pages artifact indexing
+        run: sleep 15
       - name: Deploy site
         id: deploy
         uses: actions/deploy-pages@v4
