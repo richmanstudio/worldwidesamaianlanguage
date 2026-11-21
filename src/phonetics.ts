@@ -34,7 +34,7 @@ function transcribeSama(input:string):IPAResult {
  const segments:string[]=[];const notes:string[]=[];const syllables:string[]=[];
  let valid=true;
  for(const chunk of chunks){
-  if(/^[\s.,!?;:()—–]+$/.test(chunk)){segments.push(chunk);continue;}
+  if(/^[\s.,!?;:()—–]+$/.test(chunk)){segments.push(chunk.replace(/[.,!?;:()—–]/g,''));continue;}
   const parts=chunk.split('-');const transParts:string[]=[];
   for(const part of parts){
    if(!part||![...part].every(c=>c in IPA_PHONEMES)){
@@ -51,7 +51,8 @@ function transcribeSama(input:string):IPAResult {
   segments.push(transParts.join('‿'));
  }
  if(!clean)valid=false;
- const result=segments.join('');
+ // Punctuation belongs to orthography/prosody, not to the phoneme string.
+ const result=segments.join('').replace(/\s+/g,' ').trim();
  return {input,valid,phonemic:valid?`/${result}/`:'—',syllables,
   stress:syllables.length>1?'Предпоследний слог каждого компонента (рабочая гипотеза)':'Односложная форма',
   notes:[...new Set(notes)],segments};
