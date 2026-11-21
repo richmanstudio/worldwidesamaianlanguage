@@ -76,3 +76,15 @@ for(const w of bank){
 }
 ok(bank.filter(w=>w.status==='proposal').length===4683,'Неверный счётчик новых предложений');
 console.log('✓ Лаборатория 5000: 317 существующих, 4683 составных кандидата; 0 утверждённых новых форм');
+
+// SAMA 0.5 grammar atlas: proposals must not be silently promoted to core.
+const atlas=read(C+'grammar-atlas.json');
+ok(atlas.chapters.length===45,'Атлас должен содержать 45 качественно описанных разделов');
+const atlasIds=new Set();
+for(const ch of atlas.chapters){
+ ok(!atlasIds.has(ch.id),'Дублирована грамматическая глава '+ch.id);atlasIds.add(ch.id);
+ ok(Boolean(atlas.sections[ch.group]),'Неизвестная группа грамматики '+ch.group);
+ ok(['core','proposal'].includes(ch.status),'Неверный статус грамматики '+ch.id);
+ ok(ch.title&&ch.principle&&ch.rules.length>=4&&ch.examples.length>=1&&ch.pitfall&&ch.open_questions.length>0,'Неполный грамматический модуль '+ch.id);
+}
+console.log(`✓ Атлас грамматики 0.5: ${atlas.chapters.length} глав, ${atlas.chapters.reduce((n,c)=>n+c.rules.length,0)} положений; чёткое разделение ядра и гипотез`);

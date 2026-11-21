@@ -18,3 +18,7 @@ declare const ARTICLES: Article[];
 declare const QUIZ: QuizItem[];
 declare const HANDBOOK: HandbookChapter[];
 declare const AUDIT: AuditData;
+
+interface GrammarAtlasChapter {id:string;title:string;group:string;status:"core"|"proposal";principle:string;rules:string[];examples:{sama:string;ru:string;note:string}[];pitfall:string;open_questions:string[];}
+interface GrammarAtlasData {version:string;note:string;sections:Record<string,string>;chapters:GrammarAtlasChapter[];}
+declare const GRAMMAR_ATLAS:GrammarAtlasData;

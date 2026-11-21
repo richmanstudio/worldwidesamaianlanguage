@@ -8,11 +8,11 @@ const datasets={
  LETTERS:read(dir+'letters.json'),COUNTS:read(dir+'numbers.json'),
  LEXICON:read(dir+'lexicon.json'),PHRASES:read(dir+'phrases.json'),
  LESSONS:read(dir+'lessons.json'),ARTICLE_SECTIONS,ARTICLES,
- QUIZ:read(dir+'quiz.json'),HANDBOOK:read(dir+'specification.json'),AUDIT:read(dir+'audit.json')
+ QUIZ:read(dir+'quiz.json'),HANDBOOK:read(dir+'specification.json'),AUDIT:read(dir+'audit.json'),GRAMMAR_ATLAS:read(dir+'grammar-atlas.json')
 };
 mkdirSync('dist/assets',{recursive:true});
 const serial=Object.entries(datasets).map(([k,v])=>`const ${k} = ${JSON.stringify(v)};`).join('\n');
-const js=readFileSync('.sama-build/app.js','utf8');
+const js=readFileSync('.sama-build/phonetics.js','utf8')+'\n'+readFileSync('.sama-build/app.js','utf8');
 writeFileSync('dist/assets/site.js', `${serial}\nconst VOWELS=new Set(['a','e','i','o','u']);\n;\n${js}\n`,'utf8');
 copyFileSync('content/wordbank-5000.json','dist/assets/wordbank-5000.json');copyFileSync('content/wordbank-report.json','dist/assets/wordbank-report.json');copyFileSync('index.html','dist/index.html');copyFileSync('src/style.css','dist/assets/style.css');copyFileSync('src/favicon.svg','dist/favicon.svg');
 rmSync('.sama-build',{recursive:true,force:true});

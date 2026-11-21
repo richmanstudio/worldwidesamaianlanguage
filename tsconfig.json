@@ -11,5 +11,5 @@
     "skipLibCheck": true,
     "sourceMap": false
   },
-  "files": ["src/data.ts", "src/app.ts"]
+  "files": ["src/data.ts", "src/phonetics.ts", "src/app.ts"]
 }

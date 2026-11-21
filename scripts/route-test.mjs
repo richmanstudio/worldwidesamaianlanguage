@@ -23,8 +23,8 @@ const context=vm.createContext({document,window,location,localStorage:{getItem()
 vm.runInContext(source,context,{timeout:12000});
 const evalIn=(s)=>vm.runInContext(s,context,{timeout:12000});
 const routes=[
- ['/', 'Добро пожаловать в SAMA'],['/start','С чего начать'],['/alphabet','Букварь'],
- ['/sounds','Звукарь'],['/grammar','Грамматика'],['/dictionary','Большой словарь'],
+ ['/', 'Миллиарды'],['/start','С чего начать'],['/alphabet','Букварь'],
+ ['/sounds','Атлас звуков'],['/grammar','Грамматика'],['/dictionary','Словарь SAMA'],
  ['/phrases','Разговорник'],['/numbers','Числа'],['/lessons','Самоучитель'],
  ['/lesson/0','01.'],['/library','Энциклопедия'],['/article/svo','Порядок'],
  ['/trainer','Тренажёр'],['/favorites','Избранное'],['/about','О проекте'],
@@ -37,7 +37,7 @@ function checkRoute(path,title){
  location.hash='#'+path;
  evalIn('render()');
  const html=element('app').innerHTML;
- assert.ok(html.includes('<h1>')&&html.toLowerCase().includes(title.toLowerCase()),`Не найдено: ${path} / ${title}`);
+ assert.ok(/<h1\b/.test(html)&&html.toLowerCase().includes(title.toLowerCase()),`Не найдено: ${path} / ${title}`);
  assert.ok(!html.includes('undefined'),`На странице ${path} значение undefined`);
  assert.ok(html.length>100,`Пустая страница ${path}`);
  return html;
@@ -47,7 +47,7 @@ const articleIds=JSON.parse(evalIn('JSON.stringify(ARTICLES.map(a=>[a.id,a.title
 for(const [id,title] of articleIds)checkRoute('/article/'+id,title);
 const words=JSON.parse(evalIn('JSON.stringify(LEXICON.map(w=>w.w))'));
 for(const word of words)checkRoute('/word/'+word,word);
-checkRoute('/dictionary','Большой словарь');
+checkRoute('/core-dictionary','Большой словарь');
 element('dictQuery').value='meya'; element('dictTag').value=''; element('dictStatus').value='candidate';
 evalIn('refreshDictionary(1)');
 assert.ok(element('dictionaryResults').innerHTML.includes('meya'),'Фильтрация по слову meya');
@@ -55,8 +55,10 @@ element('dictStatus').value='core';evalIn('refreshDictionary(1)');
 assert.ok(!element('dictionaryResults').innerHTML.includes('class="lex-word"'),'Кандидат meya не должен присутствовать в выдаче ядра');
 const audit=checkRoute('/audit','Аудит');
 assert.ok(audit.includes('pala-doma')&&audit.includes('mona-tima'),'История ошибок отсутствует');
+const atlas=checkRoute('/grammar','Грамматика');assert.ok(atlas.includes('grammar-chapter-link'),'Новый атлас грамматики отсутствует');
+for(const ch of JSON.parse(evalIn('JSON.stringify(GRAMMAR_ATLAS.chapters.map(c=>c.id))')))checkRoute('/grammar/chapter/'+ch,'Принцип и правила');
 const spec=checkRoute('/standard','спецификация языка 0.3');
 assert.ok(spec.includes('ke +')||spec.includes('ke'), 'Не загружены сложноподчинённые конструкции');
 console.log(`✓ Проверено: ${routes.length} маршрутов, ${articleIds.length} статей, ${words.length} карточек слов`);
 console.log('✓ Проверены фильтр статуса, поиск по словарю и журнал ошибок');
-console.log(`✓ Всего проверено ${routes.length+articleIds.length+words.length} маршрутов (без визуального браузера)`);
+console.log(`✓ Всего проверено ${routes.length+articleIds.length+words.length+45} маршрутов (без визуального браузера)`);
