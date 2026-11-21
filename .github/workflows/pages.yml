@@ -28,8 +28,9 @@ jobs:
             base64 --decode .bootstrap/sama-v0.4-source.tar.xz.b64 | tar -xJ --strip-components=1 -C .
             python3 scripts/generate-wordbank.py
             rm -rf .bootstrap
-            # Pages is already enabled. Future pushes use the normal build-only workflow.
-            sed -i '/^[[:space:]]*enablement: true[[:space:]]*$/d' .github/workflows/pages.yml
+            # GitHub Actions cannot modify workflow files using its built-in token.
+            git restore .github/workflows/pages.yml
+            rm -f .github/workflows/validate.yml
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add -A
