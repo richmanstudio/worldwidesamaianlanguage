@@ -1,4 +1,4 @@
-/** SAMA 0.11: executable grammar of the adopted foundation, not a universal translator. */
+/** SAMA 0.16: executable grammar of the adopted foundation, not a universal translator. */
 interface SamaLexicalSense{part_of_speech:string;frame?:{minimum_objects:number;maximum_objects:number;required_adpositions:string[];aspect_class?:string;allowed_aspects?:string[]};}
 interface SamaLexicalEntry{form:string;senses:SamaLexicalSense[];}
 interface SamaDiagnostic{code:string;token:number;message:string;}
@@ -36,11 +36,21 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
  const take=()=>tokens[i++];
  const expect=(word:string)=>{if(take()!==word)fail('EXPECTED_'+word.toUpperCase(),'Ожидается '+word);};
  const numberStart=(w:string)=>pos(w)==='numeral'||/^\d+$/.test(w||'');
+ const quantifierStart=(w:string|undefined)=>pos(w)==='quantifier';
  const nounStart=(w:string)=>['noun','pronoun','demonstrative','reflexive'].includes(pos(w)||'')||w==='ki'||w==='ku'||numberStart(w);
  const locatives=new Set(['na','nana','tota','noba','poba','pata','yalo','lali']);
  const prepositions=new Set([...dict.entries()].filter(([w,s])=>s.part_of_speech==='adposition'&&w!=='de').map(([w])=>w));
  const isArgumentQuestion=(w:string)=>w==='ki'||w==='ku';
- function atom(allowPossession=true,allowRelative=true):SamaTree{
+ function atom(allowPossession=true,allowRelative=true,allowQuantifier=false):SamaTree{
+  let quantifier:string|null=null,quantifierNegated=false;
+  if(peek()==='no'&&quantifierStart(tokens[i+1])){
+   if(!allowQuantifier)fail('QUANTIFIER_SCOPE','no перед квантором допускается только в начале клаузы');
+   take();quantifierNegated=true;
+  }
+  if(quantifierStart(peek())){
+   if(!allowQuantifier)fail('QUANTIFIER_SCOPE','Кванторы действуют только на подлежащее в редакции 0.16');
+   quantifier=take();
+  }
   const start=i;let demonstrative:string|null=null,numeral:number|null=null;
   if(pos(peek())==='demonstrative')demonstrative=take();
   if(numberStart(peek())){
@@ -48,12 +58,15 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
    try{numeral=samaReadInteger(words);}catch{fail('NUMERAL_FORM','Неправильное десятичное число');}
   }
   const word=peek(),category=pos(word);
+  if(quantifier&&(demonstrative||numeral!==null))fail('QUANTIFIER_ORDER','Квантор не сочетается с указателем или числительным перед одним именем');
   if(numeral!==null&&!['noun','pronoun'].includes(category||''))return {kind:'number',value:numeral};
   if(!['noun','pronoun','reflexive'].includes(category||'')&&!isArgumentQuestion(word))fail('EXPECTED_NP','Ожидается имя или местоимение');
   take();if(category!=='noun'&&(demonstrative||numeral!==null))fail('NP_HEAD','Определитель требует существительного');
+  if(quantifier&&category!=='noun')fail('QUANTIFIER_HEAD','Квантор требует существительное в множественном числе');
   if(word==='se'&&!allowPossession)fail('REFLEXIVE_ROLE','se допускается только как прямой объект');
   if(word==='se'&&start===0)fail('REFLEXIVE_SUBJECT','se не является самостоятельным субъектом');
   const plural=peek()==='li';if(plural){take();if(numeral!==null)fail('NUMBER_AND_LI','Числительное и li не совмещаются');if(category==='reflexive')fail('REFLEXIVE_PLURAL','se получает число от субъекта');}
+  if(quantifier&&!plural)fail('QUANTIFIER_PLURAL','tawa, somi и mowa требуют имя с li');
   const qualities:string[]=[];while(pos(peek())==='adjective')qualities.push(take());
   if(qualities.length&&category!=='noun')fail('PRONOUN_QUALITY','Качество в этой позиции требует существительного');
   let possessor:SamaTree|null=null;
@@ -72,17 +85,25 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
    if(count!==1||(!subjectBound&&!objectBound))fail('RELATIVE_BINDING','Ровно один ta должен быть субъектом или прямым объектом');
    relative.boundRole=subjectBound?'subject':'object';relative.headReference='relative-head';
   }
-  return {kind:'np',head:word,demonstrative,numeral,plural,qualities,possessor,relative};
+  let exception:SamaTree|null=null;
+  if(peek()==='sule'){
+   if(quantifier!=='tawa'||quantifierNegated||!allowQuantifier)fail('QUANTIFIER_EXCEPTION','sule допускается после положительного tawa');
+   take();exception=atom(false,false,false);
+   if(exception.kind!=='np'||(exception.head!==word&&exception.head!=='ta')||exception.plural||exception.possessor||exception.relative||exception.numeral!==null)
+    fail('QUANTIFIER_EXCEPTION','Исключение должно указывать на одного участника того же класса или ta');
+  }
+  return {kind:'np',head:word,demonstrative,numeral,plural,qualities,possessor,relative,quantifier,quantifierNegated,exception};
  }
- function np(allowRelative=true):SamaTree{
-  const members=[atom(true,allowRelative)];let coordinator:string|null=null;
+ function np(allowRelative=true,allowQuantifier=false):SamaTree{
+  const members=[atom(true,allowRelative,allowQuantifier)];let coordinator:string|null=null;
   while(peek()==='wa'||peek()==='o'){
-   const next=take();if(coordinator&&coordinator!==next)fail('MIXED_COORDINATION','Смешанная негруппированная цепочка исключена');coordinator=next;members.push(atom(true,allowRelative));
+   if(members[0].quantifier)fail('QUANTIFIER_COORDINATION','Квантор в редакции 0.16 не распространяется на координацию именных групп');
+   const next=take();if(coordinator&&coordinator!==next)fail('MIXED_COORDINATION','Смешанная негруппированная цепочка исключена');coordinator=next;members.push(atom(true,allowRelative,false));
   }
   return members.length===1?members[0]:{kind:'np-coordination',coordinator,members};
  }
  function clause(inRelative=false):SamaTree{
-  const subject=np(!inRelative);if(subject.head==='se'||(subject.kind==='np-coordination'&&(subject.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_SUBJECT','se относится к субъекту и не заменяет его');
+  const subject=np(!inRelative,!inRelative);if(subject.head==='se'||(subject.kind==='np-coordination'&&(subject.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_SUBJECT','se относится к субъекту и не заменяет его');
   const tense=peek()==='pa'||peek()==='la'?take():null;
   const outerNegation=peek()==='no';if(outerNegation)take();
   const modal=pos(peek())==='modal'?take():null;
@@ -99,6 +120,7 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
    else if(!locatives.has(peek()))complement=np(!inRelative);
   }else{
    const frame=entry!.frame!;
+   if(quantifierStart(peek())||(peek()==='no'&&quantifierStart(tokens[i+1])))fail('QUANTIFIER_SCOPE','Квантор прямого объекта пока не нормирован');
    if(nounStart(peek())){if(frame.maximum_objects===0)fail('UNEXPECTED_OBJECT','Глагол не допускает прямого объекта');object=np(!inRelative);}
    if(frame.minimum_objects&&!object)fail('MISSING_OBJECT','Отсутствует обязательный прямой объект');
   }
