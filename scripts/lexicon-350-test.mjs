@@ -31,7 +31,7 @@ for(const old of read('content/standards/0.11.0/lexicon.json').entries){
  assert.deepEqual(now.senses[0].definition,old.senses[0].definition);
 }
 assert.equal(lex.entries.filter(x=>x.accepted_in==='0.13.0').length,50);
-const usage=read('content/usage-examples.json');assert.equal(usage.version,'0.13.0');assert.equal(usage.examples.length,1500);
+const usage=read('content/usage-examples.json');assert.equal(usage.version,'0.14.0');assert.equal(usage.examples.length,1500);
 const lessons=read('content/learning/lessons-v1.json'),reader=read('content/learning/reader-v1.json');
 assert.equal(lessons.lessons.length,35);assert.equal(reader.texts.length,23);
 console.log('✓ R07-10: 50 authored lexical entries and '+examples+' parsed examples; 350 accepted entries total');
