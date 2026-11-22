@@ -89,3 +89,7 @@ R00-04 остаётся in progress. R07-05 и R07-09 завершены: все
 - **R10-04/07 — in progress:** 25 уроков и 13 текстов; 140 предложений в примерах, заданиях и чтении. Полный курс и аудио впереди.
 - Источники: [ADR-0006](decisions/0006-lexicon-350.md), [авторские статьи](../content/editorial/lexicon-350.tsv), [тесты](../scripts/lexicon-350-test.mjs), [отчёт покрытия](../reports/coverage.md).
 - 24 текущих грамматических правила — редакция 0.12.0; лексика — 0.13.0. Предыдущие 300 значений не заменены. Внешняя лингвистическая экспертиза, обучение людей, исследование частотности не проводились; полный релиз 1.0 не объявлен.
+
+## Подтверждение SAMA 0.13.0 · 2026-11-22
+
+**R-ID:** R07-10/17, R09-01/13, R10-04/07. Pull request [#3](https://github.com/richmanstudio/worldwidesamaianlanguage/pull/3) объединён в `main`: коммит [789c0c2](https://github.com/richmanstudio/worldwidesamaianlanguage/commit/789c0c2bfc42877ab22c2e37578f102484cb6b7e). Проверки PR [44998239312](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44998239312) и [44998242834](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44998242834) выполнены успешно. Build/deploy основного сайта [44998320872](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44998320872) — `completed/success`, включая `npm test`, сборку и шаг Deploy site. Это подтверждение GitHub Actions, не отдельное исследование доступности на всех устройствах. Независимое обучение языку людьми и реальные аудиозаписи остаются непроверенными.

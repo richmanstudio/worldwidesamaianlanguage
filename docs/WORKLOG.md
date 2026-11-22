@@ -83,3 +83,7 @@
 **Доказательства:** `content/editorial/lexicon-350.tsv`, `content/lexicon-v1.json`, `content/usage-examples.json`, `scripts/lexicon-350-test.mjs`, `reports/coverage.md`. **Верификация:** результаты полного npm test и публикации фиксируются после GitHub Actions; до проверки их прохождение не утверждается.
 
 **Не проверено:** международная частотность, независимая редактура людьми, восприятие учащимися, озвучка. **Next:** пройти CI, исправить ошибки и далее довести словарь до 750, затем 1500/5000; расширить грамматику и учебное покрытие. Gates не закрыты.
+
+## Подтверждение SAMA 0.13.0 · 2026-11-22
+
+**R-ID:** R07-10/17, R09-01/13, R10-04/07. Pull request [#3](https://github.com/richmanstudio/worldwidesamaianlanguage/pull/3) объединён в `main`: коммит [789c0c2](https://github.com/richmanstudio/worldwidesamaianlanguage/commit/789c0c2bfc42877ab22c2e37578f102484cb6b7e). Проверки PR [44998239312](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44998239312) и [44998242834](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44998242834) выполнены успешно. Build/deploy основного сайта [44998320872](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44998320872) — `completed/success`, включая `npm test`, сборку и шаг Deploy site. Это подтверждение GitHub Actions, не отдельное исследование доступности на всех устройствах. Независимое обучение языку людьми и реальные аудиозаписи остаются непроверенными.
