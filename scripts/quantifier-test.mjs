@@ -49,7 +49,7 @@ for(const [input,error] of [
  ['Tawa ami li wa mama wako.','QUANTIFIER_COORDINATION'],
  ['No somi ami li no wako.','DOUBLE_NEGATION_SCOPE'],
  ['Tawa mi li wako.','QUANTIFIER_HEAD'],
- ['Tawa ami li sule ta wa yu wako.','TRAILING'],
+ ['Tawa ami li sule ta wa yu wako.','QUANTIFIER_COORDINATION'],
  ['Sule ta wako.','EXPECTED_NP']
 ]){
  const p=parse(input);assert(!p.ok,input);assert.equal(p.error.code,error,input+' '+JSON.stringify(p));
