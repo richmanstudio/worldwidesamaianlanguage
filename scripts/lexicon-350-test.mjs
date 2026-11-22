@@ -6,8 +6,8 @@ import ts from 'typescript';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const lex=read('content/lexicon-v1.json'),release=read('content/standard-release.json');
 const rows=readFileSync('content/editorial/lexicon-350.tsv','utf8').trim().split("\n").map(x=>x.split('|'));
-assert.equal(lex.version,'0.13.0');assert.equal(release.accepted_lexemes,350);
-assert.equal(rows.length,50);assert.equal(new Set(rows.map(x=>x[0])).size,50);assert.equal(lex.entries.length,350);
+assert.equal(lex.version,'0.14.0');assert.equal(release.accepted_lexemes,750);
+assert.equal(rows.length,50);assert.equal(new Set(rows.map(x=>x[0])).size,50);assert.equal(lex.entries.length,750);
 const context=vm.createContext({});
 for(const p of ['src/linguistics/phonology.ts','src/linguistics/parser.ts'])
   vm.runInContext(ts.transpileModule(readFileSync(p,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2020}}).outputText,context);
@@ -31,8 +31,8 @@ for(const old of read('content/standards/0.11.0/lexicon.json').entries){
  assert.deepEqual(now.senses[0].definition,old.senses[0].definition);
 }
 assert.equal(lex.entries.filter(x=>x.accepted_in==='0.13.0').length,50);
-const usage=read('content/usage-examples.json');assert.equal(usage.version,'0.13.0');assert.equal(usage.examples.length,700);
+const usage=read('content/usage-examples.json');assert.equal(usage.version,'0.13.0');assert.equal(usage.examples.length,1500);
 const lessons=read('content/learning/lessons-v1.json'),reader=read('content/learning/reader-v1.json');
-assert.equal(lessons.lessons.length,25);assert.equal(reader.texts.length,13);
+assert.equal(lessons.lessons.length,35);assert.equal(reader.texts.length,23);
 console.log('✓ R07-10: 50 authored lexical entries and '+examples+' parsed examples; 350 accepted entries total');
 console.log('✓ R10-04/07: 25 lessons and 13 reader texts; 700 usage-example links');
