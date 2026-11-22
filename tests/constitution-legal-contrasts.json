@@ -1,0 +1,316 @@
+{
+  "schema": "sama-legal-contrasts/v1",
+  "version": "0.1.0",
+  "count": 14,
+  "notice": "These are author-prepared contrast probes involving candidate lexemes. They are NOT accepted linguistic proofs or constitutional translations.",
+  "entries": [
+    {
+      "id": "constitution_vs_statute",
+      "left": {
+        "form": "konitusa",
+        "example": {
+          "sama": "Mi lita konitusa.",
+          "ru": "Я читаю Конституцию."
+        }
+      },
+      "right": {
+        "form": "lawi",
+        "example": {
+          "sama": "Mi lita lawi.",
+          "ru": "Я читаю закон."
+        }
+      },
+      "distinction": {
+        "ru": "Основной закон устанавливает устройство власти; обычный закон принимается по процедуре и должен ему соответствовать.",
+        "en": "A constitution structures public authority while a statute is subordinate legislation."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "legal_right_vs_permission",
+      "left": {
+        "form": "dilewa",
+        "example": {
+          "sama": "Dilewa bi yoma.",
+          "ru": "Юридическое право важно."
+        }
+      },
+      "right": {
+        "form": "paku",
+        "example": {
+          "sama": "Paku bi yoma.",
+          "ru": "Разрешение важно."
+        }
+      },
+      "distinction": {
+        "ru": "Юридическое притязание может требовать защиты от государства; разрешение лишь допускает действие.",
+        "en": "An entitlement can found a legal claim; permission merely authorizes an act."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "ability_vs_right",
+      "left": {
+        "form": "mosa",
+        "example": {
+          "sama": "Mi mosa wako.",
+          "ru": "Я способен идти."
+        }
+      },
+      "right": {
+        "form": "dilewa",
+        "example": {
+          "sama": "Dilewa bi yoma.",
+          "ru": "Юридическое право важно."
+        }
+      },
+      "distinction": {
+        "ru": "Возможность физически выполнить действие не означает законное право на него.",
+        "en": "Physical ability does not imply an enforceable right."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "republic_vs_democracy",
+      "left": {
+        "form": "lepubika",
+        "example": {
+          "sama": "Lepubika bi yoma.",
+          "ru": "Республиканская форма важна."
+        }
+      },
+      "right": {
+        "form": "demokata",
+        "example": {
+          "sama": "Demokata bi yoma.",
+          "ru": "Демократия важна."
+        }
+      },
+      "distinction": {
+        "ru": "Республиканская форма не гарантирует полноценного народовластия.",
+        "en": "A republic is not necessarily a democracy."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "state_vs_community",
+      "left": {
+        "form": "esitata",
+        "example": {
+          "sama": "Esitata bi yoma.",
+          "ru": "Государство важно."
+        }
+      },
+      "right": {
+        "form": "koma",
+        "example": {
+          "sama": "Koma bi yoma.",
+          "ru": "Сообщество важно."
+        }
+      },
+      "distinction": {
+        "ru": "Государственность предполагает территорию и публично-правовой статус, общество может возникнуть без них.",
+        "en": "A state is distinct from a voluntary association."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "citizen_vs_citizenship",
+      "left": {
+        "form": "sitano",
+        "example": {
+          "sama": "Sitano bi soma.",
+          "ru": "Гражданин является человеком."
+        }
+      },
+      "right": {
+        "form": "sitawena",
+        "example": {
+          "sama": "Sitawena bi yoma.",
+          "ru": "Гражданство важно."
+        }
+      },
+      "distinction": {
+        "ru": "Носитель статуса гражданина не равен юридической связи гражданства.",
+        "en": "A person holding nationality is not the nationality status itself."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "president_vs_leader",
+      "left": {
+        "form": "pesidena",
+        "example": {
+          "sama": "Pesidena bi mado.",
+          "ru": "Президент является руководителем."
+        }
+      },
+      "right": {
+        "form": "mado",
+        "example": {
+          "sama": "Mado bi yoma.",
+          "ru": "Руководитель важен."
+        }
+      },
+      "distinction": {
+        "ru": "Руководитель не всегда президент и не имеет автоматически президентских полномочий.",
+        "en": "A leader does not automatically hold constitutional presidential powers."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "tax_vs_taxi",
+      "left": {
+        "form": "takisala",
+        "example": {
+          "sama": "Takisala bi yoma.",
+          "ru": "Налог важен."
+        }
+      },
+      "right": {
+        "form": "takisa",
+        "example": {
+          "sama": "Mi si takisa.",
+          "ru": "Я вижу такси."
+        }
+      },
+      "distinction": {
+        "ru": "Налог — обязательный публичный платёж, такси — транспортная услуга; формы близки фонетически.",
+        "en": "A tax is a levy, a taxi is a transport service; forms need phonetic review."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "emergency_regime_vs_hotline",
+      "left": {
+        "form": "emewalena",
+        "example": {
+          "sama": "Emewalena bi yoma.",
+          "ru": "Чрезвычайное положение важно."
+        }
+      },
+      "right": {
+        "form": "emelena",
+        "example": {
+          "sama": "Mi tami emelena.",
+          "ru": "Я проверяю экстренную линию."
+        }
+      },
+      "distinction": {
+        "ru": "Чрезвычайное положение является особым правовым режимом, а экстренная линия — телефонной службой.",
+        "en": "A state of emergency is a legal regime, unlike an emergency hotline."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "treasury_vs_central_bank",
+      "left": {
+        "form": "tesolena",
+        "example": {
+          "sama": "Tesolena bi yoma.",
+          "ru": "Казначейство важно."
+        }
+      },
+      "right": {
+        "form": "senatabanaka",
+        "example": {
+          "sama": "Senatabanaka bi yoma.",
+          "ru": "Центральный банк важен."
+        }
+      },
+      "distinction": {
+        "ru": "Казначейство исполняет бюджет, центральный банк управляет определёнными денежно-кредитными функциями.",
+        "en": "A treasury executes budgets; a central bank has monetary authority."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "entry_into_force_vs_publication",
+      "left": {
+        "form": "enitulena",
+        "example": {
+          "sama": "Enitulena bi yoma.",
+          "ru": "Вступление в силу важно."
+        }
+      },
+      "right": {
+        "form": "pubilita",
+        "example": {
+          "sama": "Pubilita bi yoma.",
+          "ru": "Официальное опубликование важно."
+        }
+      },
+      "distinction": {
+        "ru": "Опубликование документа и момент возникновения его юридической силы могут различаться.",
+        "en": "Publication and legal effectiveness can occur at distinct times."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "ballot_vs_voter",
+      "left": {
+        "form": "wotalapa",
+        "example": {
+          "sama": "Wotalapa bi yoma.",
+          "ru": "Бюллетень важен."
+        }
+      },
+      "right": {
+        "form": "wotano",
+        "example": {
+          "sama": "Wotano bi soma.",
+          "ru": "Избиратель — человек."
+        }
+      },
+      "distinction": {
+        "ru": "Бюллетень фиксирует голос, избиратель обладает правом участия в голосовании.",
+        "en": "A ballot records a vote; a voter is an eligible person."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "bank_deposit_vs_fiat_currency",
+      "left": {
+        "form": "deposita",
+        "example": {
+          "sama": "Deposita bi yoma.",
+          "ru": "Банковский вклад важен."
+        }
+      },
+      "right": {
+        "form": "walutapina",
+        "example": {
+          "sama": "Walutapina bi yoma.",
+          "ru": "Фиатная валюта важна."
+        }
+      },
+      "distinction": {
+        "ru": "Банковский вклад есть требование к банку, а фиатная валюта — денежная единица.",
+        "en": "A bank deposit is a claim on a bank, while fiat currency is money."
+      },
+      "status": "editorial_probes_unvalidated"
+    },
+    {
+      "id": "bill_vs_law",
+      "left": {
+        "form": "lawipota",
+        "example": {
+          "sama": "Mi lita lawipota.",
+          "ru": "Я читаю законопроект."
+        }
+      },
+      "right": {
+        "form": "lawi",
+        "example": {
+          "sama": "Mi lita lawi.",
+          "ru": "Я читаю закон."
+        }
+      },
+      "distinction": {
+        "ru": "Законопроект не приобретает силу закона до завершения процедуры принятия.",
+        "en": "A bill is not an enacted law until adoption."
+      },
+      "status": "editorial_probes_unvalidated"
+    }
+  ]
+}
