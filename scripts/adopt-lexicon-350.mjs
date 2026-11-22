@@ -17,6 +17,6 @@ for(const row of rows){
 assert.equal(lex.entries.length,350);
 lex.version='0.13.0';lex.authority='ADR-0003 / ADR-0004 / ADR-0005 / ADR-0006';
 release.version=lex.version;release.accepted_lexemes=350;release.authority=lex.authority;
-writeFileSync(file,JSON.stringify(lex,null,2)+'\\n');
-writeFileSync(relfile,JSON.stringify(release,null,2)+'\\n');
+writeFileSync(file,JSON.stringify(lex,null,2)+'\n');
+writeFileSync(relfile,JSON.stringify(release,null,2)+'\n');
 console.log('✓ R07-10: 50 entries match ADR-0006; adoption is idempotent');
