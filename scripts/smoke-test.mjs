@@ -44,7 +44,7 @@ try {
     ['/favicon.svg', '<svg', 'image/svg+xml'],
     ['/static-index.html','Справочники SAMA','text/html'],
     ['/standard.html','Грамматика SAMA','text/html'],
-    ['/dictionary.html','300 принятых слов','text/html'],
+    ['/dictionary.html','350 принятых слов','text/html'],
     ['/pages/words/su.html','Water as a substance','text/html'],
     ['/pages/words/meya.html','календарный месяц','text/html'],
     ['/pages/articles/standard-status.html','Что такое стандарт','text/html']

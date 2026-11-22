@@ -6,7 +6,7 @@ import ts from 'typescript';
 import Ajv from 'ajv';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const lex=read('content/lexicon-v1.json'),entries=lex.entries,byForm=new Map(entries.map(e=>[e.form,e]));
-assert.equal(lex.version,'0.12.0');assert.equal(entries.length,300);
+assert.equal(lex.version,'0.13.0');assert.equal(entries.length,350);
 const old=read('content/standards/0.11.0/lexicon.json');assert.equal(old.entries.length,94);
 for(const entry of old.entries){
  const now=byForm.get(entry.form);assert(now,'Removed previous entry '+entry.form);
@@ -62,12 +62,12 @@ for(const [path,sha] of Object.entries(manifest.files)){
 assert(existsSync('docs/decisions/0005-lexicon-300.md'));
 const validate=new Ajv({allErrors:true}).compile(read('content/schemas/lexeme.schema.json'));
 const bad=structuredClone(lex);delete bad.entries.find(x=>x.senses[0].frame).senses[0].frame.allowed_aspects;assert.equal(validate(bad),false);
-console.log('✓ R07-09: 300 entries, 600 examples, 206 authored rows; prior 94 meanings and IDs preserved');
+console.log('✓ R07-09/10: 350 entries, 700 examples; 206 prior authored rows and 50 new; prior 94 meanings and IDs preserved');
 console.log('✓ R04-01/R07-12: 37 verb frames, 74 aspect compatibility cases, spatial and lexical-role regressions');
 console.log('✓ R07-05: 274 individual candidate decisions; 236 approve / 38 defer; historic archive hashes intact');
 
-const usage=read('content/usage-examples.json');assert.equal(usage.version,lex.version);assert.equal(usage.examples.length,600);
+const usage=read('content/usage-examples.json');assert.equal(usage.version,lex.version);assert.equal(usage.examples.length,700);
 const usageIds=new Set();
 for(const entry of entries){const sense=entry.senses[0];assert.equal(new Set(sense.examples.map(x=>x.sama)).size,2);assert(sense.examples.every(x=>(x.sama.toLowerCase().match(/[a-z]+/g)||[]).includes(entry.form)),'Lemma absent from its examples '+entry.form);}
 for(const example of usage.examples){assert(!usageIds.has(example.id));usageIds.add(example.id);const entry=entries.find(e=>e.id===example.lexeme_id);const sense=entry.senses.find(s=>s.id===example.sense_id);assert(sense.examples.some(x=>x.sama===example.sama&&x.ru===example.ru));}
-assert(readFileSync('reports/coverage.md','utf8').includes('300 / 300'));
+assert(readFileSync('reports/coverage.md','utf8').includes('350 / 350'));
