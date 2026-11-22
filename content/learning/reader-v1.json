@@ -1,5 +1,5 @@
 {
-  "version": "0.14.0",
+  "version": "0.15.0",
   "texts": [
     {
       "id": 1,
@@ -596,6 +596,266 @@
         {
           "sama": "Mi ponila ami.",
           "ru": "Я доверяю другу."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "После завтрака",
+      "sentences": [
+        {
+          "sama": "Mi bi na kulala.",
+          "ru": "Я на кухне."
+        },
+        {
+          "sama": "Mama kotina polisa.",
+          "ru": "Мама готовит кашу."
+        },
+        {
+          "sama": "Mi wemasa pila.",
+          "ru": "Я мою тарелку."
+        },
+        {
+          "sama": "Mi duwina wakena.",
+          "ru": "Я ополаскиваю стакан."
+        },
+        {
+          "sama": "Mi sulina tawela.",
+          "ru": "Я сушу полотенце."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Ремонт велосипеда",
+      "sentences": [
+        {
+          "sama": "Bisikela bi na kawalo.",
+          "ru": "Велосипед в гараже."
+        },
+        {
+          "sama": "Mi tako sidena.",
+          "ru": "Я беру отвёртку."
+        },
+        {
+          "sama": "Mi tami talipena.",
+          "ru": "Я проверяю винт."
+        },
+        {
+          "sama": "Mi lakema bisikela.",
+          "ru": "Я чиню велосипед."
+        },
+        {
+          "sama": "Ta si bisikela nawa.",
+          "ru": "Он видит новый велосипед."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Поездка на поезде",
+      "sentences": [
+        {
+          "sama": "Mi bi na dasa.",
+          "ru": "Я на станции."
+        },
+        {
+          "sama": "Mi tako tiketa.",
+          "ru": "Я беру билет."
+        },
+        {
+          "sama": "Mi bisena telena.",
+          "ru": "Я сажусь в поезд."
+        },
+        {
+          "sama": "Mi pawasa na telena.",
+          "ru": "Я еду пассажиром в поезде."
+        },
+        {
+          "sama": "Telena lotema na dasa.",
+          "ru": "Поезд прибывает на станцию."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Письмо и документы",
+      "sentences": [
+        {
+          "sama": "Mi wima imeila.",
+          "ru": "Я пишу электронное письмо."
+        },
+        {
+          "sama": "Mi tami atamena.",
+          "ru": "Я проверяю вложение."
+        },
+        {
+          "sama": "Mi nayina dibo.",
+          "ru": "Я сохраняю файл."
+        },
+        {
+          "sama": "Mi satena dibo.",
+          "ru": "Я загружаю файл."
+        },
+        {
+          "sama": "Mi tami sesiyona.",
+          "ru": "Я проверяю сеанс входа."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Покупка и оплата",
+      "sentences": [
+        {
+          "sama": "Mi bi na maketa.",
+          "ru": "Я на рынке."
+        },
+        {
+          "sama": "Mi si salatena.",
+          "ru": "Я вижу скидку."
+        },
+        {
+          "sama": "Mi pasesa tiketa.",
+          "ru": "Я оплачиваю билет."
+        },
+        {
+          "sama": "Mi lita tatela.",
+          "ru": "Я читаю квитанцию."
+        },
+        {
+          "sama": "Mi tami inewasa.",
+          "ru": "Я проверяю доход."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Врач и пациент",
+      "sentences": [
+        {
+          "sama": "Pasiyena bi na nasila.",
+          "ru": "Пациент в палате."
+        },
+        {
+          "sama": "Wuna bi na pamena.",
+          "ru": "Рана на ладони."
+        },
+        {
+          "sama": "Meka tako tememeta.",
+          "ru": "Врач берёт термометр."
+        },
+        {
+          "sama": "Meka tami tesinata.",
+          "ru": "Врач проверяет анализ."
+        },
+        {
+          "sama": "Mi lita tesawena.",
+          "ru": "Я читаю результат анализа."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Домашняя мастерская",
+      "sentences": [
+        {
+          "sama": "Mi bi na suwina.",
+          "ru": "Я в мастерской."
+        },
+        {
+          "sama": "Hamela bi na mesa.",
+          "ru": "Молоток на столе."
+        },
+        {
+          "sama": "Mi tako lisawina.",
+          "ru": "Я беру линейку."
+        },
+        {
+          "sama": "Mi sakawa disatana.",
+          "ru": "Я измеряю расстояние."
+        },
+        {
+          "sama": "Mi te lakema kiwato.",
+          "ru": "Я починил клавиатуру."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Сад и погода",
+      "sentences": [
+        {
+          "sama": "Mi bi na hanasela.",
+          "ru": "Я в саду."
+        },
+        {
+          "sama": "Samina bi na solima.",
+          "ru": "Сеянец в почве."
+        },
+        {
+          "sama": "Mi walisa matela.",
+          "ru": "Я поливаю кустарник."
+        },
+        {
+          "sama": "Mi tami kasiyona.",
+          "ru": "Я проверяю орошение."
+        },
+        {
+          "sama": "Sunela bi noba doma.",
+          "ru": "Солнечная панель над домом."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Программа и сервер",
+      "sentences": [
+        {
+          "sama": "Ademina tami sewa.",
+          "ru": "Администратор проверяет сервер."
+        },
+        {
+          "sama": "Mi tami awatena.",
+          "ru": "Я проверяю аутентификацию."
+        },
+        {
+          "sama": "Mi lita lokala.",
+          "ru": "Я читаю журнал событий."
+        },
+        {
+          "sama": "Mi tami bukala.",
+          "ru": "Я проверяю ошибку."
+        },
+        {
+          "sama": "Mi nayina bakupela.",
+          "ru": "Я сохраняю резервную копию."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "В суде",
+      "sentences": [
+        {
+          "sama": "Lawiya bi na kota.",
+          "ru": "Юрист находится в суде."
+        },
+        {
+          "sama": "Lawiya wima dakisena.",
+          "ru": "Юрист пишет иск."
+        },
+        {
+          "sama": "Yudi lita dakisena.",
+          "ru": "Судья читает иск."
+        },
+        {
+          "sama": "Yudi tami ewida.",
+          "ru": "Судья проверяет доказательство."
+        },
+        {
+          "sama": "Mi lita senatena.",
+          "ru": "Я читаю судебное решение."
         }
       ]
     }
