@@ -1,5 +1,5 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "texts": [
     {
       "id": 1,
@@ -102,6 +102,110 @@
         {
           "sama": "Ani yu la wako, mi la wako.",
           "ru": "Если ты пойдёшь, я пойду."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Рабочий день",
+      "sentences": [
+        {
+          "sama": "Mi bi na kapo.",
+          "ru": "Я в офисе."
+        },
+        {
+          "sama": "Kome bi na mesa.",
+          "ru": "Компьютер на столе."
+        },
+        {
+          "sama": "Mi nawi bama.",
+          "ru": "Я начинаю работу."
+        },
+        {
+          "sama": "Mi tami doku.",
+          "ru": "Я проверяю документ."
+        },
+        {
+          "sama": "Mi tawi delo.",
+          "ru": "Я заканчиваю задачу."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Покупка книги",
+      "sentences": [
+        {
+          "sama": "Mi bi na bote.",
+          "ru": "Я в магазине."
+        },
+        {
+          "sama": "Mi si kaso nawa.",
+          "ru": "Я вижу новую книгу."
+        },
+        {
+          "sama": "Mi nima pese de kaso.",
+          "ru": "Я знаю цену книги."
+        },
+        {
+          "sama": "Mi dasi kaso.",
+          "ru": "Я покупаю книгу."
+        },
+        {
+          "sama": "Kaso bi nana balo de mi.",
+          "ru": "Книга внутри моей сумки."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ключ под столом",
+      "sentences": [
+        {
+          "sama": "Mi no nima kala de misa.",
+          "ru": "Я не знаю место ключа."
+        },
+        {
+          "sama": "Mi nopa misa.",
+          "ru": "Я ищу ключ."
+        },
+        {
+          "sama": "Misa bi poba mesa.",
+          "ru": "Ключ под столом."
+        },
+        {
+          "sama": "Mi wata misa.",
+          "ru": "Я нахожу ключ."
+        },
+        {
+          "sama": "Mi tako misa.",
+          "ru": "Я беру ключ."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Семья дома",
+      "sentences": [
+        {
+          "sama": "Lami de mi bi na doma.",
+          "ru": "Моя семья дома."
+        },
+        {
+          "sama": "Mama pina teya.",
+          "ru": "Мама пьёт чай."
+        },
+        {
+          "sama": "Boma lita kaso.",
+          "ru": "Брат читает книгу."
+        },
+        {
+          "sama": "Sila lena basa.",
+          "ru": "Сестра изучает язык."
+        },
+        {
+          "sama": "Mi toka ko mami li.",
+          "ru": "Я говорю с родителями."
         }
       ]
     }

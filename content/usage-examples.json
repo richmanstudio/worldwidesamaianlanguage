@@ -1,0 +1,4206 @@
+{
+  "version": "0.12.0",
+  "source": "content/lexicon-v1.json",
+  "examples": [
+    {
+      "id": "SAMA-SENSE/mi/1/example/1",
+      "lexeme_id": "SAMA-LEX/mi",
+      "sense_id": "SAMA-SENSE/mi/1",
+      "sama": "Mi si yu.",
+      "ru": "Я вижу тебя."
+    },
+    {
+      "id": "SAMA-SENSE/mi/1/example/2",
+      "lexeme_id": "SAMA-LEX/mi",
+      "sense_id": "SAMA-SENSE/mi/1",
+      "sama": "Yu si mi.",
+      "ru": "Ты видишь меня."
+    },
+    {
+      "id": "SAMA-SENSE/yu/1/example/1",
+      "lexeme_id": "SAMA-LEX/yu",
+      "sense_id": "SAMA-SENSE/yu/1",
+      "sama": "Yu bi ami.",
+      "ru": "Ты друг."
+    },
+    {
+      "id": "SAMA-SENSE/yu/1/example/2",
+      "lexeme_id": "SAMA-LEX/yu",
+      "sense_id": "SAMA-SENSE/yu/1",
+      "sama": "Mi ama yu.",
+      "ru": "Я люблю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/ta/1/example/1",
+      "lexeme_id": "SAMA-LEX/ta",
+      "sense_id": "SAMA-SENSE/ta/1",
+      "sama": "Ta si mi.",
+      "ru": "Он или она видит меня."
+    },
+    {
+      "id": "SAMA-SENSE/ta/1/example/2",
+      "lexeme_id": "SAMA-LEX/ta",
+      "sense_id": "SAMA-SENSE/ta/1",
+      "sama": "Mi si ta.",
+      "ru": "Я вижу его или её."
+    },
+    {
+      "id": "SAMA-SENSE/bi/1/example/1",
+      "lexeme_id": "SAMA-LEX/bi",
+      "sense_id": "SAMA-SENSE/bi/1",
+      "sama": "Doma bi bona.",
+      "ru": "Дом хороший."
+    },
+    {
+      "id": "SAMA-SENSE/bi/1/example/2",
+      "lexeme_id": "SAMA-LEX/bi",
+      "sense_id": "SAMA-SENSE/bi/1",
+      "sama": "Mi bi na doma.",
+      "ru": "Я дома."
+    },
+    {
+      "id": "SAMA-SENSE/pa/1/example/1",
+      "lexeme_id": "SAMA-LEX/pa",
+      "sense_id": "SAMA-SENSE/pa/1",
+      "sama": "Mi pa si yu.",
+      "ru": "Я видел тебя."
+    },
+    {
+      "id": "SAMA-SENSE/pa/1/example/2",
+      "lexeme_id": "SAMA-LEX/pa",
+      "sense_id": "SAMA-SENSE/pa/1",
+      "sama": "Doma pa bi mini.",
+      "ru": "Дом был маленьким."
+    },
+    {
+      "id": "SAMA-SENSE/la/1/example/1",
+      "lexeme_id": "SAMA-LEX/la",
+      "sense_id": "SAMA-SENSE/la/1",
+      "sama": "Mi la si yu.",
+      "ru": "Я увижу тебя."
+    },
+    {
+      "id": "SAMA-SENSE/la/1/example/2",
+      "lexeme_id": "SAMA-LEX/la",
+      "sense_id": "SAMA-SENSE/la/1",
+      "sama": "Ta la bi na doma.",
+      "ru": "Он или она будет дома."
+    },
+    {
+      "id": "SAMA-SENSE/no/1/example/1",
+      "lexeme_id": "SAMA-LEX/no",
+      "sense_id": "SAMA-SENSE/no/1",
+      "sama": "Mi no si yu.",
+      "ru": "Я не вижу тебя."
+    },
+    {
+      "id": "SAMA-SENSE/no/1/example/2",
+      "lexeme_id": "SAMA-LEX/no",
+      "sense_id": "SAMA-SENSE/no/1",
+      "sama": "Mi no kama pina su.",
+      "ru": "Я не хочу пить воду."
+    },
+    {
+      "id": "SAMA-SENSE/ka/1/example/1",
+      "lexeme_id": "SAMA-LEX/ka",
+      "sense_id": "SAMA-SENSE/ka/1",
+      "sama": "Yu si mi ka?",
+      "ru": "Ты видишь меня?"
+    },
+    {
+      "id": "SAMA-SENSE/ka/1/example/2",
+      "lexeme_id": "SAMA-LEX/ka",
+      "sense_id": "SAMA-SENSE/ka/1",
+      "sama": "Doma bi bona ka?",
+      "ru": "Дом хороший?"
+    },
+    {
+      "id": "SAMA-SENSE/li/1/example/1",
+      "lexeme_id": "SAMA-LEX/li",
+      "sense_id": "SAMA-SENSE/li/1",
+      "sama": "Ami li si mi.",
+      "ru": "Друзья видят меня."
+    },
+    {
+      "id": "SAMA-SENSE/li/1/example/2",
+      "lexeme_id": "SAMA-LEX/li",
+      "sense_id": "SAMA-SENSE/li/1",
+      "sama": "Mi li pina su.",
+      "ru": "Мы пьём воду."
+    },
+    {
+      "id": "SAMA-SENSE/de/1/example/1",
+      "lexeme_id": "SAMA-LEX/de",
+      "sense_id": "SAMA-SENSE/de/1",
+      "sama": "Doma de mi bi mini.",
+      "ru": "Мой дом маленький."
+    },
+    {
+      "id": "SAMA-SENSE/de/1/example/2",
+      "lexeme_id": "SAMA-LEX/de",
+      "sense_id": "SAMA-SENSE/de/1",
+      "sama": "Mi si ami de yu.",
+      "ru": "Я вижу твоего друга."
+    },
+    {
+      "id": "SAMA-SENSE/na/1/example/1",
+      "lexeme_id": "SAMA-LEX/na",
+      "sense_id": "SAMA-SENSE/na/1",
+      "sama": "Mi bi na doma.",
+      "ru": "Я дома."
+    },
+    {
+      "id": "SAMA-SENSE/na/1/example/2",
+      "lexeme_id": "SAMA-LEX/na",
+      "sense_id": "SAMA-SENSE/na/1",
+      "sama": "Kaso bi na mesa.",
+      "ru": "Книга на столе."
+    },
+    {
+      "id": "SAMA-SENSE/to/1/example/1",
+      "lexeme_id": "SAMA-LEX/to",
+      "sense_id": "SAMA-SENSE/to/1",
+      "sama": "Mi wako to doma.",
+      "ru": "Я иду к дому."
+    },
+    {
+      "id": "SAMA-SENSE/to/1/example/2",
+      "lexeme_id": "SAMA-LEX/to",
+      "sense_id": "SAMA-SENSE/to/1",
+      "sama": "Mi pako kaso to yu.",
+      "ru": "Я даю тебе книгу."
+    },
+    {
+      "id": "SAMA-SENSE/ko/1/example/1",
+      "lexeme_id": "SAMA-LEX/ko",
+      "sense_id": "SAMA-SENSE/ko/1",
+      "sama": "Mi wako ko yu.",
+      "ru": "Я иду с тобой."
+    },
+    {
+      "id": "SAMA-SENSE/ko/1/example/2",
+      "lexeme_id": "SAMA-LEX/ko",
+      "sense_id": "SAMA-SENSE/ko/1",
+      "sama": "Ta bi na doma ko mama.",
+      "ru": "Он или она дома с мамой."
+    },
+    {
+      "id": "SAMA-SENSE/wa/1/example/1",
+      "lexeme_id": "SAMA-LEX/wa",
+      "sense_id": "SAMA-SENSE/wa/1",
+      "sama": "Mi wa yu pina su.",
+      "ru": "Я и ты пьём воду."
+    },
+    {
+      "id": "SAMA-SENSE/wa/1/example/2",
+      "lexeme_id": "SAMA-LEX/wa",
+      "sense_id": "SAMA-SENSE/wa/1",
+      "sama": "Mi pina su, wa yu kula pana.",
+      "ru": "Я пью воду, и ты ешь хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/aka/1/example/1",
+      "lexeme_id": "SAMA-LEX/aka",
+      "sense_id": "SAMA-SENSE/aka/1",
+      "sama": "Mi kama wako, aka mi no mosa wako.",
+      "ru": "Я хочу идти, но не могу идти."
+    },
+    {
+      "id": "SAMA-SENSE/aka/1/example/2",
+      "lexeme_id": "SAMA-LEX/aka",
+      "sense_id": "SAMA-SENSE/aka/1",
+      "sama": "Doma bi mini, aka doma bi bona.",
+      "ru": "Дом маленький, но хороший."
+    },
+    {
+      "id": "SAMA-SENSE/o/1/example/1",
+      "lexeme_id": "SAMA-LEX/o",
+      "sense_id": "SAMA-SENSE/o/1",
+      "sama": "Mi pina su o kawa.",
+      "ru": "Я пью воду или кофе, возможно и то и другое."
+    },
+    {
+      "id": "SAMA-SENSE/o/1/example/2",
+      "lexeme_id": "SAMA-LEX/o",
+      "sense_id": "SAMA-SENSE/o/1",
+      "sama": "Mi la wako, o yu la wako.",
+      "ru": "Пойду я или пойдёшь ты, возможно оба."
+    },
+    {
+      "id": "SAMA-SENSE/ye/1/example/1",
+      "lexeme_id": "SAMA-LEX/ye",
+      "sense_id": "SAMA-SENSE/ye/1",
+      "sama": "Ami ye ta si mi ya bi na doma.",
+      "ru": "Друг, который видит меня, дома."
+    },
+    {
+      "id": "SAMA-SENSE/ye/1/example/2",
+      "lexeme_id": "SAMA-LEX/ye",
+      "sense_id": "SAMA-SENSE/ye/1",
+      "sama": "Mi si ami ye mi ama ta ya.",
+      "ru": "Я вижу друга, которого люблю."
+    },
+    {
+      "id": "SAMA-SENSE/ya/1/example/1",
+      "lexeme_id": "SAMA-LEX/ya",
+      "sense_id": "SAMA-SENSE/ya/1",
+      "sama": "Ami ye mi si ta ya bi bona.",
+      "ru": "Друг, которого я вижу, хороший."
+    },
+    {
+      "id": "SAMA-SENSE/ya/1/example/2",
+      "lexeme_id": "SAMA-LEX/ya",
+      "sense_id": "SAMA-SENSE/ya/1",
+      "sama": "Soma ye ta ama yu ya si mi.",
+      "ru": "Человек, который любит тебя, видит меня."
+    },
+    {
+      "id": "SAMA-SENSE/ani/1/example/1",
+      "lexeme_id": "SAMA-LEX/ani",
+      "sense_id": "SAMA-SENSE/ani/1",
+      "sama": "Ani yu wako, mi wako.",
+      "ru": "Если ты идёшь, я иду."
+    },
+    {
+      "id": "SAMA-SENSE/ani/1/example/2",
+      "lexeme_id": "SAMA-LEX/ani",
+      "sense_id": "SAMA-SENSE/ani/1",
+      "sama": "Ani mi la si yu, mi la toka.",
+      "ru": "Если я увижу тебя, я буду говорить."
+    },
+    {
+      "id": "SAMA-SENSE/ki/1/example/1",
+      "lexeme_id": "SAMA-LEX/ki",
+      "sense_id": "SAMA-SENSE/ki/1",
+      "sama": "Ki si yu?",
+      "ru": "Кто видит тебя?"
+    },
+    {
+      "id": "SAMA-SENSE/ki/1/example/2",
+      "lexeme_id": "SAMA-LEX/ki",
+      "sense_id": "SAMA-SENSE/ki/1",
+      "sama": "Yu si ki?",
+      "ru": "Кого ты видишь?"
+    },
+    {
+      "id": "SAMA-SENSE/ku/1/example/1",
+      "lexeme_id": "SAMA-LEX/ku",
+      "sense_id": "SAMA-SENSE/ku/1",
+      "sama": "Yu pina ku?",
+      "ru": "Что ты пьёшь?"
+    },
+    {
+      "id": "SAMA-SENSE/ku/1/example/2",
+      "lexeme_id": "SAMA-LEX/ku",
+      "sense_id": "SAMA-SENSE/ku/1",
+      "sama": "Ku bi na mesa?",
+      "ru": "Что на столе?"
+    },
+    {
+      "id": "SAMA-SENSE/kalo/1/example/1",
+      "lexeme_id": "SAMA-LEX/kalo",
+      "sense_id": "SAMA-SENSE/kalo/1",
+      "sama": "Yu bi kalo?",
+      "ru": "Где ты?"
+    },
+    {
+      "id": "SAMA-SENSE/kalo/1/example/2",
+      "lexeme_id": "SAMA-LEX/kalo",
+      "sense_id": "SAMA-SENSE/kalo/1",
+      "sama": "Kaso bi kalo?",
+      "ru": "Где книга?"
+    },
+    {
+      "id": "SAMA-SENSE/kate/1/example/1",
+      "lexeme_id": "SAMA-LEX/kate",
+      "sense_id": "SAMA-SENSE/kate/1",
+      "sama": "Yu la wako kate?",
+      "ru": "Когда ты пойдёшь?"
+    },
+    {
+      "id": "SAMA-SENSE/kate/1/example/2",
+      "lexeme_id": "SAMA-LEX/kate",
+      "sense_id": "SAMA-SENSE/kate/1",
+      "sama": "Yu pa si mi kate?",
+      "ru": "Когда ты видел меня?"
+    },
+    {
+      "id": "SAMA-SENSE/kasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kasa",
+      "sense_id": "SAMA-SENSE/kasa/1",
+      "sama": "Yu no wako kasa?",
+      "ru": "Почему ты не идёшь?"
+    },
+    {
+      "id": "SAMA-SENSE/kasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kasa",
+      "sense_id": "SAMA-SENSE/kasa/1",
+      "sama": "Ta pa toka kasa?",
+      "ru": "Почему он или она говорил?"
+    },
+    {
+      "id": "SAMA-SENSE/kamo/1/example/1",
+      "lexeme_id": "SAMA-LEX/kamo",
+      "sense_id": "SAMA-SENSE/kamo/1",
+      "sama": "Yu lita kamo?",
+      "ru": "Как ты читаешь?"
+    },
+    {
+      "id": "SAMA-SENSE/kamo/1/example/2",
+      "lexeme_id": "SAMA-LEX/kamo",
+      "sense_id": "SAMA-SENSE/kamo/1",
+      "sama": "Yu pa wako kamo?",
+      "ru": "Как ты шёл?"
+    },
+    {
+      "id": "SAMA-SENSE/kama/1/example/1",
+      "lexeme_id": "SAMA-LEX/kama",
+      "sense_id": "SAMA-SENSE/kama/1",
+      "sama": "Mi kama pina su.",
+      "ru": "Я хочу пить воду."
+    },
+    {
+      "id": "SAMA-SENSE/kama/1/example/2",
+      "lexeme_id": "SAMA-LEX/kama",
+      "sense_id": "SAMA-SENSE/kama/1",
+      "sama": "Mi kama no wako.",
+      "ru": "Я хочу не идти."
+    },
+    {
+      "id": "SAMA-SENSE/mosa/1/example/1",
+      "lexeme_id": "SAMA-LEX/mosa",
+      "sense_id": "SAMA-SENSE/mosa/1",
+      "sama": "Mi mosa lita kaso.",
+      "ru": "Я могу читать книгу."
+    },
+    {
+      "id": "SAMA-SENSE/mosa/1/example/2",
+      "lexeme_id": "SAMA-LEX/mosa",
+      "sense_id": "SAMA-SENSE/mosa/1",
+      "sama": "Mi no mosa wako.",
+      "ru": "Я не способен идти."
+    },
+    {
+      "id": "SAMA-SENSE/musa/1/example/1",
+      "lexeme_id": "SAMA-LEX/musa",
+      "sense_id": "SAMA-SENSE/musa/1",
+      "sama": "Mi musa wako.",
+      "ru": "Я обязан идти."
+    },
+    {
+      "id": "SAMA-SENSE/musa/1/example/2",
+      "lexeme_id": "SAMA-LEX/musa",
+      "sense_id": "SAMA-SENSE/musa/1",
+      "sama": "Mi no musa wako.",
+      "ru": "Я не обязан идти."
+    },
+    {
+      "id": "SAMA-SENSE/hu/1/example/1",
+      "lexeme_id": "SAMA-LEX/hu",
+      "sense_id": "SAMA-SENSE/hu/1",
+      "sama": "Mi hu pina su.",
+      "ru": "Я сейчас пью воду, нахожусь в процессе."
+    },
+    {
+      "id": "SAMA-SENSE/hu/1/example/2",
+      "lexeme_id": "SAMA-LEX/hu",
+      "sense_id": "SAMA-SENSE/hu/1",
+      "sama": "Mi pa hu lita kaso.",
+      "ru": "Я был в процессе чтения книги."
+    },
+    {
+      "id": "SAMA-SENSE/te/1/example/1",
+      "lexeme_id": "SAMA-LEX/te",
+      "sense_id": "SAMA-SENSE/te/1",
+      "sama": "Mi pa te lita kaso.",
+      "ru": "Я закончил чтение книги."
+    },
+    {
+      "id": "SAMA-SENSE/te/1/example/2",
+      "lexeme_id": "SAMA-LEX/te",
+      "sense_id": "SAMA-SENSE/te/1",
+      "sama": "Mi pa te kula pana.",
+      "ru": "Я закончил есть хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/se/1/example/1",
+      "lexeme_id": "SAMA-LEX/se",
+      "sense_id": "SAMA-SENSE/se/1",
+      "sama": "Mi si se.",
+      "ru": "Я вижу себя."
+    },
+    {
+      "id": "SAMA-SENSE/se/1/example/2",
+      "lexeme_id": "SAMA-LEX/se",
+      "sense_id": "SAMA-SENSE/se/1",
+      "sama": "Ta ama se.",
+      "ru": "Он или она любит себя."
+    },
+    {
+      "id": "SAMA-SENSE/yesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/yesa",
+      "sense_id": "SAMA-SENSE/yesa/1",
+      "sama": "Yesa.",
+      "ru": "Да."
+    },
+    {
+      "id": "SAMA-SENSE/yesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/yesa",
+      "sense_id": "SAMA-SENSE/yesa/1",
+      "sama": "Yesa, mi si yu.",
+      "ru": "Да, я вижу тебя."
+    },
+    {
+      "id": "SAMA-SENSE/nono/1/example/1",
+      "lexeme_id": "SAMA-LEX/nono",
+      "sense_id": "SAMA-SENSE/nono/1",
+      "sama": "Nono.",
+      "ru": "Нет."
+    },
+    {
+      "id": "SAMA-SENSE/nono/1/example/2",
+      "lexeme_id": "SAMA-LEX/nono",
+      "sense_id": "SAMA-SENSE/nono/1",
+      "sama": "Nono, mi no si yu.",
+      "ru": "Нет, я не вижу тебя."
+    },
+    {
+      "id": "SAMA-SENSE/sala/1/example/1",
+      "lexeme_id": "SAMA-LEX/sala",
+      "sense_id": "SAMA-SENSE/sala/1",
+      "sama": "Sala!",
+      "ru": "Привет!"
+    },
+    {
+      "id": "SAMA-SENSE/sala/1/example/2",
+      "lexeme_id": "SAMA-LEX/sala",
+      "sense_id": "SAMA-SENSE/sala/1",
+      "sama": "Sala, ami!",
+      "ru": "Привет, друг!"
+    },
+    {
+      "id": "SAMA-SENSE/sayo/1/example/1",
+      "lexeme_id": "SAMA-LEX/sayo",
+      "sense_id": "SAMA-SENSE/sayo/1",
+      "sama": "Sayo!",
+      "ru": "До свидания!"
+    },
+    {
+      "id": "SAMA-SENSE/sayo/1/example/2",
+      "lexeme_id": "SAMA-LEX/sayo",
+      "sense_id": "SAMA-SENSE/sayo/1",
+      "sama": "Sayo, mama!",
+      "ru": "До свидания, мама!"
+    },
+    {
+      "id": "SAMA-SENSE/sani/1/example/1",
+      "lexeme_id": "SAMA-LEX/sani",
+      "sense_id": "SAMA-SENSE/sani/1",
+      "sama": "Sani!",
+      "ru": "Спасибо!"
+    },
+    {
+      "id": "SAMA-SENSE/sani/1/example/2",
+      "lexeme_id": "SAMA-LEX/sani",
+      "sense_id": "SAMA-SENSE/sani/1",
+      "sama": "Sani, ami!",
+      "ru": "Спасибо, друг!"
+    },
+    {
+      "id": "SAMA-SENSE/palao/1/example/1",
+      "lexeme_id": "SAMA-LEX/palao",
+      "sense_id": "SAMA-SENSE/palao/1",
+      "sama": "Yu pako su to mi, palao.",
+      "ru": "Дай мне воды, пожалуйста."
+    },
+    {
+      "id": "SAMA-SENSE/palao/1/example/2",
+      "lexeme_id": "SAMA-LEX/palao",
+      "sense_id": "SAMA-SENSE/palao/1",
+      "sama": "Palao, yu toka.",
+      "ru": "Пожалуйста, говори."
+    },
+    {
+      "id": "SAMA-SENSE/si/1/example/1",
+      "lexeme_id": "SAMA-LEX/si",
+      "sense_id": "SAMA-SENSE/si/1",
+      "sama": "Mi si yu.",
+      "ru": "Я вижу тебя."
+    },
+    {
+      "id": "SAMA-SENSE/si/1/example/2",
+      "lexeme_id": "SAMA-LEX/si",
+      "sense_id": "SAMA-SENSE/si/1",
+      "sama": "Mama pa si ami.",
+      "ru": "Мама видела друга."
+    },
+    {
+      "id": "SAMA-SENSE/ama/1/example/1",
+      "lexeme_id": "SAMA-LEX/ama",
+      "sense_id": "SAMA-SENSE/ama/1",
+      "sama": "Mi ama mama.",
+      "ru": "Я люблю маму."
+    },
+    {
+      "id": "SAMA-SENSE/ama/1/example/2",
+      "lexeme_id": "SAMA-LEX/ama",
+      "sense_id": "SAMA-SENSE/ama/1",
+      "sama": "Ta ama yu.",
+      "ru": "Он или она любит тебя."
+    },
+    {
+      "id": "SAMA-SENSE/pina/1/example/1",
+      "lexeme_id": "SAMA-LEX/pina",
+      "sense_id": "SAMA-SENSE/pina/1",
+      "sama": "Mi pina su.",
+      "ru": "Я пью воду."
+    },
+    {
+      "id": "SAMA-SENSE/pina/1/example/2",
+      "lexeme_id": "SAMA-LEX/pina",
+      "sense_id": "SAMA-SENSE/pina/1",
+      "sama": "Yu pa pina kawa.",
+      "ru": "Ты пил кофе."
+    },
+    {
+      "id": "SAMA-SENSE/kula/1/example/1",
+      "lexeme_id": "SAMA-LEX/kula",
+      "sense_id": "SAMA-SENSE/kula/1",
+      "sama": "Mi kula pana.",
+      "ru": "Я ем хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/kula/1/example/2",
+      "lexeme_id": "SAMA-LEX/kula",
+      "sense_id": "SAMA-SENSE/kula/1",
+      "sama": "Mama pa kula.",
+      "ru": "Мама ела."
+    },
+    {
+      "id": "SAMA-SENSE/lena/1/example/1",
+      "lexeme_id": "SAMA-LEX/lena",
+      "sense_id": "SAMA-SENSE/lena/1",
+      "sama": "Mi lena basa.",
+      "ru": "Я изучаю язык."
+    },
+    {
+      "id": "SAMA-SENSE/lena/1/example/2",
+      "lexeme_id": "SAMA-LEX/lena",
+      "sense_id": "SAMA-SENSE/lena/1",
+      "sama": "Ami la lena.",
+      "ru": "Друг будет учиться."
+    },
+    {
+      "id": "SAMA-SENSE/lita/1/example/1",
+      "lexeme_id": "SAMA-LEX/lita",
+      "sense_id": "SAMA-SENSE/lita/1",
+      "sama": "Mi lita kaso.",
+      "ru": "Я читаю книгу."
+    },
+    {
+      "id": "SAMA-SENSE/lita/1/example/2",
+      "lexeme_id": "SAMA-LEX/lita",
+      "sense_id": "SAMA-SENSE/lita/1",
+      "sama": "Yu pa lita.",
+      "ru": "Ты читал."
+    },
+    {
+      "id": "SAMA-SENSE/wima/1/example/1",
+      "lexeme_id": "SAMA-LEX/wima",
+      "sense_id": "SAMA-SENSE/wima/1",
+      "sama": "Mi wima.",
+      "ru": "Я пишу."
+    },
+    {
+      "id": "SAMA-SENSE/wima/1/example/2",
+      "lexeme_id": "SAMA-LEX/wima",
+      "sense_id": "SAMA-SENSE/wima/1",
+      "sama": "Ta pa wima nami de mi.",
+      "ru": "Он или она написал моё имя."
+    },
+    {
+      "id": "SAMA-SENSE/wako/1/example/1",
+      "lexeme_id": "SAMA-LEX/wako",
+      "sense_id": "SAMA-SENSE/wako/1",
+      "sama": "Mi wako to doma.",
+      "ru": "Я иду к дому."
+    },
+    {
+      "id": "SAMA-SENSE/wako/1/example/2",
+      "lexeme_id": "SAMA-LEX/wako",
+      "sense_id": "SAMA-SENSE/wako/1",
+      "sama": "Yu la wako ko ami.",
+      "ru": "Ты пойдёшь с другом."
+    },
+    {
+      "id": "SAMA-SENSE/lako/1/example/1",
+      "lexeme_id": "SAMA-LEX/lako",
+      "sense_id": "SAMA-SENSE/lako/1",
+      "sama": "Mi lako.",
+      "ru": "Я сплю."
+    },
+    {
+      "id": "SAMA-SENSE/lako/1/example/2",
+      "lexeme_id": "SAMA-LEX/lako",
+      "sense_id": "SAMA-SENSE/lako/1",
+      "sama": "Mama pa lako na doma.",
+      "ru": "Мама спала дома."
+    },
+    {
+      "id": "SAMA-SENSE/toka/1/example/1",
+      "lexeme_id": "SAMA-LEX/toka",
+      "sense_id": "SAMA-SENSE/toka/1",
+      "sama": "Mi toka ko yu.",
+      "ru": "Я говорю с тобой."
+    },
+    {
+      "id": "SAMA-SENSE/toka/1/example/2",
+      "lexeme_id": "SAMA-LEX/toka",
+      "sense_id": "SAMA-SENSE/toka/1",
+      "sama": "Ta la toka.",
+      "ru": "Он или она будет говорить."
+    },
+    {
+      "id": "SAMA-SENSE/tako/1/example/1",
+      "lexeme_id": "SAMA-LEX/tako",
+      "sense_id": "SAMA-SENSE/tako/1",
+      "sama": "Mi tako kaso.",
+      "ru": "Я беру книгу."
+    },
+    {
+      "id": "SAMA-SENSE/tako/1/example/2",
+      "lexeme_id": "SAMA-LEX/tako",
+      "sense_id": "SAMA-SENSE/tako/1",
+      "sama": "Yu pa tako kopa.",
+      "ru": "Ты взял чашку."
+    },
+    {
+      "id": "SAMA-SENSE/pako/1/example/1",
+      "lexeme_id": "SAMA-LEX/pako",
+      "sense_id": "SAMA-SENSE/pako/1",
+      "sama": "Mi pako kaso to yu.",
+      "ru": "Я даю тебе книгу."
+    },
+    {
+      "id": "SAMA-SENSE/pako/1/example/2",
+      "lexeme_id": "SAMA-LEX/pako",
+      "sense_id": "SAMA-SENSE/pako/1",
+      "sama": "Mama pa pako pana to mi.",
+      "ru": "Мама дала мне хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/nima/1/example/1",
+      "lexeme_id": "SAMA-LEX/nima",
+      "sense_id": "SAMA-SENSE/nima/1",
+      "sama": "Mi nima basa.",
+      "ru": "Я знаю язык."
+    },
+    {
+      "id": "SAMA-SENSE/nima/1/example/2",
+      "lexeme_id": "SAMA-LEX/nima",
+      "sense_id": "SAMA-SENSE/nima/1",
+      "sama": "Yu no nima nami de mi.",
+      "ru": "Ты не знаешь моего имени."
+    },
+    {
+      "id": "SAMA-SENSE/misi/1/example/1",
+      "lexeme_id": "SAMA-LEX/misi",
+      "sense_id": "SAMA-SENSE/misi/1",
+      "sama": "Mi misi.",
+      "ru": "Я думаю."
+    },
+    {
+      "id": "SAMA-SENSE/misi/1/example/2",
+      "lexeme_id": "SAMA-LEX/misi",
+      "sense_id": "SAMA-SENSE/misi/1",
+      "sama": "Ta pa misi na doma.",
+      "ru": "Он или она думал дома."
+    },
+    {
+      "id": "SAMA-SENSE/bona/1/example/1",
+      "lexeme_id": "SAMA-LEX/bona",
+      "sense_id": "SAMA-SENSE/bona/1",
+      "sama": "Doma bi bona.",
+      "ru": "Дом хороший."
+    },
+    {
+      "id": "SAMA-SENSE/bona/1/example/2",
+      "lexeme_id": "SAMA-LEX/bona",
+      "sense_id": "SAMA-SENSE/bona/1",
+      "sama": "Mi si ami bona.",
+      "ru": "Я вижу хорошего друга."
+    },
+    {
+      "id": "SAMA-SENSE/malo/1/example/1",
+      "lexeme_id": "SAMA-LEX/malo",
+      "sense_id": "SAMA-SENSE/malo/1",
+      "sama": "Kawa bi malo.",
+      "ru": "Кофе плохой."
+    },
+    {
+      "id": "SAMA-SENSE/malo/1/example/2",
+      "lexeme_id": "SAMA-LEX/malo",
+      "sense_id": "SAMA-SENSE/malo/1",
+      "sama": "Su bi malo.",
+      "ru": "Вода плохая."
+    },
+    {
+      "id": "SAMA-SENSE/daba/1/example/1",
+      "lexeme_id": "SAMA-LEX/daba",
+      "sense_id": "SAMA-SENSE/daba/1",
+      "sama": "Doma bi daba.",
+      "ru": "Дом большой."
+    },
+    {
+      "id": "SAMA-SENSE/daba/1/example/2",
+      "lexeme_id": "SAMA-LEX/daba",
+      "sense_id": "SAMA-SENSE/daba/1",
+      "sama": "Mi si kaso daba.",
+      "ru": "Я вижу большую книгу."
+    },
+    {
+      "id": "SAMA-SENSE/mini/1/example/1",
+      "lexeme_id": "SAMA-LEX/mini",
+      "sense_id": "SAMA-SENSE/mini/1",
+      "sama": "Kopa bi mini.",
+      "ru": "Чашка маленькая."
+    },
+    {
+      "id": "SAMA-SENSE/mini/1/example/2",
+      "lexeme_id": "SAMA-LEX/mini",
+      "sense_id": "SAMA-SENSE/mini/1",
+      "sama": "Mi si doma mini.",
+      "ru": "Я вижу маленький дом."
+    },
+    {
+      "id": "SAMA-SENSE/nawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/nawa",
+      "sense_id": "SAMA-SENSE/nawa/1",
+      "sama": "Kaso bi nawa.",
+      "ru": "Книга новая."
+    },
+    {
+      "id": "SAMA-SENSE/nawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/nawa",
+      "sense_id": "SAMA-SENSE/nawa/1",
+      "sama": "Mi lita kaso nawa.",
+      "ru": "Я читаю новую книгу."
+    },
+    {
+      "id": "SAMA-SENSE/sama/1/example/1",
+      "lexeme_id": "SAMA-LEX/sama",
+      "sense_id": "SAMA-SENSE/sama/1",
+      "sama": "Kopa li bi sama.",
+      "ru": "Чашки одинаковые."
+    },
+    {
+      "id": "SAMA-SENSE/sama/1/example/2",
+      "lexeme_id": "SAMA-LEX/sama",
+      "sense_id": "SAMA-SENSE/sama/1",
+      "sama": "Doma li bi sama.",
+      "ru": "Дома одинаковые."
+    },
+    {
+      "id": "SAMA-SENSE/selo/1/example/1",
+      "lexeme_id": "SAMA-LEX/selo",
+      "sense_id": "SAMA-SENSE/selo/1",
+      "sama": "Mi si ami selo.",
+      "ru": "Я вижу другого друга."
+    },
+    {
+      "id": "SAMA-SENSE/selo/1/example/2",
+      "lexeme_id": "SAMA-LEX/selo",
+      "sense_id": "SAMA-SENSE/selo/1",
+      "sama": "Mi lita kaso selo.",
+      "ru": "Я читаю другую книгу."
+    },
+    {
+      "id": "SAMA-SENSE/sili/1/example/1",
+      "lexeme_id": "SAMA-LEX/sili",
+      "sense_id": "SAMA-SENSE/sili/1",
+      "sama": "Ami bi sili.",
+      "ru": "Друг вежливый."
+    },
+    {
+      "id": "SAMA-SENSE/sili/1/example/2",
+      "lexeme_id": "SAMA-LEX/sili",
+      "sense_id": "SAMA-SENSE/sili/1",
+      "sama": "Mama si soma sili.",
+      "ru": "Мама видит вежливого человека."
+    },
+    {
+      "id": "SAMA-SENSE/ena/1/example/1",
+      "lexeme_id": "SAMA-LEX/ena",
+      "sense_id": "SAMA-SENSE/ena/1",
+      "sama": "Ena kaso bi bona.",
+      "ru": "Эта книга хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/ena/1/example/2",
+      "lexeme_id": "SAMA-LEX/ena",
+      "sense_id": "SAMA-SENSE/ena/1",
+      "sama": "Mi si ena doma.",
+      "ru": "Я вижу этот дом."
+    },
+    {
+      "id": "SAMA-SENSE/ona/1/example/1",
+      "lexeme_id": "SAMA-LEX/ona",
+      "sense_id": "SAMA-SENSE/ona/1",
+      "sama": "Ona doma bi daba.",
+      "ru": "Тот дом большой."
+    },
+    {
+      "id": "SAMA-SENSE/ona/1/example/2",
+      "lexeme_id": "SAMA-LEX/ona",
+      "sense_id": "SAMA-SENSE/ona/1",
+      "sama": "Mi tako ona kaso.",
+      "ru": "Я беру ту книгу."
+    },
+    {
+      "id": "SAMA-SENSE/ami/1/example/1",
+      "lexeme_id": "SAMA-LEX/ami",
+      "sense_id": "SAMA-SENSE/ami/1",
+      "sama": "Ami de mi bi na doma.",
+      "ru": "Мой друг дома."
+    },
+    {
+      "id": "SAMA-SENSE/ami/1/example/2",
+      "lexeme_id": "SAMA-LEX/ami",
+      "sense_id": "SAMA-SENSE/ami/1",
+      "sama": "Mi si ami li.",
+      "ru": "Я вижу друзей."
+    },
+    {
+      "id": "SAMA-SENSE/soma/1/example/1",
+      "lexeme_id": "SAMA-LEX/soma",
+      "sense_id": "SAMA-SENSE/soma/1",
+      "sama": "Soma si mi.",
+      "ru": "Человек видит меня."
+    },
+    {
+      "id": "SAMA-SENSE/soma/1/example/2",
+      "lexeme_id": "SAMA-LEX/soma",
+      "sense_id": "SAMA-SENSE/soma/1",
+      "sama": "Mi wa soma pina su.",
+      "ru": "Я и человек пьём воду."
+    },
+    {
+      "id": "SAMA-SENSE/mama/1/example/1",
+      "lexeme_id": "SAMA-LEX/mama",
+      "sense_id": "SAMA-SENSE/mama/1",
+      "sama": "Mama ama mi.",
+      "ru": "Мама любит меня."
+    },
+    {
+      "id": "SAMA-SENSE/mama/1/example/2",
+      "lexeme_id": "SAMA-LEX/mama",
+      "sense_id": "SAMA-SENSE/mama/1",
+      "sama": "Mi pa si mama.",
+      "ru": "Я видел маму."
+    },
+    {
+      "id": "SAMA-SENSE/baba/1/example/1",
+      "lexeme_id": "SAMA-LEX/baba",
+      "sense_id": "SAMA-SENSE/baba/1",
+      "sama": "Baba lita kaso.",
+      "ru": "Папа читает книгу."
+    },
+    {
+      "id": "SAMA-SENSE/baba/1/example/2",
+      "lexeme_id": "SAMA-LEX/baba",
+      "sense_id": "SAMA-SENSE/baba/1",
+      "sama": "Mi wako ko baba.",
+      "ru": "Я иду с папой."
+    },
+    {
+      "id": "SAMA-SENSE/nina/1/example/1",
+      "lexeme_id": "SAMA-LEX/nina",
+      "sense_id": "SAMA-SENSE/nina/1",
+      "sama": "Nina pina su.",
+      "ru": "Ребёнок пьёт воду."
+    },
+    {
+      "id": "SAMA-SENSE/nina/1/example/2",
+      "lexeme_id": "SAMA-LEX/nina",
+      "sense_id": "SAMA-SENSE/nina/1",
+      "sama": "Mama ama nina.",
+      "ru": "Мама любит ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/doma/1/example/1",
+      "lexeme_id": "SAMA-LEX/doma",
+      "sense_id": "SAMA-SENSE/doma/1",
+      "sama": "Doma bi mini.",
+      "ru": "Дом маленький."
+    },
+    {
+      "id": "SAMA-SENSE/doma/1/example/2",
+      "lexeme_id": "SAMA-LEX/doma",
+      "sense_id": "SAMA-SENSE/doma/1",
+      "sama": "Mi bi na doma.",
+      "ru": "Я дома."
+    },
+    {
+      "id": "SAMA-SENSE/luma/1/example/1",
+      "lexeme_id": "SAMA-LEX/luma",
+      "sense_id": "SAMA-SENSE/luma/1",
+      "sama": "Luma bi daba.",
+      "ru": "Комната большая."
+    },
+    {
+      "id": "SAMA-SENSE/luma/1/example/2",
+      "lexeme_id": "SAMA-LEX/luma",
+      "sense_id": "SAMA-SENSE/luma/1",
+      "sama": "Mi lita na luma.",
+      "ru": "Я читаю в комнате."
+    },
+    {
+      "id": "SAMA-SENSE/mesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/mesa",
+      "sense_id": "SAMA-SENSE/mesa/1",
+      "sama": "Kaso bi na mesa.",
+      "ru": "Книга на столе."
+    },
+    {
+      "id": "SAMA-SENSE/mesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/mesa",
+      "sense_id": "SAMA-SENSE/mesa/1",
+      "sama": "Mi si mesa nawa.",
+      "ru": "Я вижу новый стол."
+    },
+    {
+      "id": "SAMA-SENSE/kopa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kopa",
+      "sense_id": "SAMA-SENSE/kopa/1",
+      "sama": "Kopa bi na mesa.",
+      "ru": "Чашка на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kopa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kopa",
+      "sense_id": "SAMA-SENSE/kopa/1",
+      "sama": "Mi tako kopa.",
+      "ru": "Я беру чашку."
+    },
+    {
+      "id": "SAMA-SENSE/kaso/1/example/1",
+      "lexeme_id": "SAMA-LEX/kaso",
+      "sense_id": "SAMA-SENSE/kaso/1",
+      "sama": "Mi lita kaso.",
+      "ru": "Я читаю книгу."
+    },
+    {
+      "id": "SAMA-SENSE/kaso/1/example/2",
+      "lexeme_id": "SAMA-LEX/kaso",
+      "sense_id": "SAMA-SENSE/kaso/1",
+      "sama": "Kaso de yu bi bona.",
+      "ru": "Твоя книга хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/basa/1/example/1",
+      "lexeme_id": "SAMA-LEX/basa",
+      "sense_id": "SAMA-SENSE/basa/1",
+      "sama": "Mi lena basa.",
+      "ru": "Я изучаю язык."
+    },
+    {
+      "id": "SAMA-SENSE/basa/1/example/2",
+      "lexeme_id": "SAMA-LEX/basa",
+      "sense_id": "SAMA-SENSE/basa/1",
+      "sama": "Yu nima basa ka?",
+      "ru": "Ты знаешь язык?"
+    },
+    {
+      "id": "SAMA-SENSE/nami/1/example/1",
+      "lexeme_id": "SAMA-LEX/nami",
+      "sense_id": "SAMA-SENSE/nami/1",
+      "sama": "Mi wima nami de yu.",
+      "ru": "Я пишу твоё имя."
+    },
+    {
+      "id": "SAMA-SENSE/nami/1/example/2",
+      "lexeme_id": "SAMA-LEX/nami",
+      "sense_id": "SAMA-SENSE/nami/1",
+      "sama": "Yu nima nami de mi ka?",
+      "ru": "Ты знаешь моё имя?"
+    },
+    {
+      "id": "SAMA-SENSE/su/1/example/1",
+      "lexeme_id": "SAMA-LEX/su",
+      "sense_id": "SAMA-SENSE/su/1",
+      "sama": "Mi pina su.",
+      "ru": "Я пью воду."
+    },
+    {
+      "id": "SAMA-SENSE/su/1/example/2",
+      "lexeme_id": "SAMA-LEX/su",
+      "sense_id": "SAMA-SENSE/su/1",
+      "sama": "Su bi na kopa.",
+      "ru": "Вода в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/pana/1/example/1",
+      "lexeme_id": "SAMA-LEX/pana",
+      "sense_id": "SAMA-SENSE/pana/1",
+      "sama": "Mi kula pana.",
+      "ru": "Я ем хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/pana/1/example/2",
+      "lexeme_id": "SAMA-LEX/pana",
+      "sense_id": "SAMA-SENSE/pana/1",
+      "sama": "Pana bi na mesa.",
+      "ru": "Хлеб на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kawa",
+      "sense_id": "SAMA-SENSE/kawa/1",
+      "sama": "Yu pina kawa.",
+      "ru": "Ты пьёшь кофе."
+    },
+    {
+      "id": "SAMA-SENSE/kawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kawa",
+      "sense_id": "SAMA-SENSE/kawa/1",
+      "sama": "Kawa bi na kopa.",
+      "ru": "Кофе в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/duniya/1/example/1",
+      "lexeme_id": "SAMA-LEX/duniya",
+      "sense_id": "SAMA-SENSE/duniya/1",
+      "sama": "Duniya bi daba.",
+      "ru": "Мир большой."
+    },
+    {
+      "id": "SAMA-SENSE/duniya/1/example/2",
+      "lexeme_id": "SAMA-LEX/duniya",
+      "sense_id": "SAMA-SENSE/duniya/1",
+      "sama": "Mi lita kaso de duniya.",
+      "ru": "Я читаю книгу, связанную с миром."
+    },
+    {
+      "id": "SAMA-SENSE/dina/1/example/1",
+      "lexeme_id": "SAMA-LEX/dina",
+      "sense_id": "SAMA-SENSE/dina/1",
+      "sama": "Mi lita kaso na ena dina.",
+      "ru": "Я читаю книгу в этот день."
+    },
+    {
+      "id": "SAMA-SENSE/dina/1/example/2",
+      "lexeme_id": "SAMA-LEX/dina",
+      "sense_id": "SAMA-SENSE/dina/1",
+      "sama": "Yu la wako na ona dina.",
+      "ru": "Ты пойдёшь в тот день."
+    },
+    {
+      "id": "SAMA-SENSE/yala/1/example/1",
+      "lexeme_id": "SAMA-LEX/yala",
+      "sense_id": "SAMA-SENSE/yala/1",
+      "sama": "Mi pa lena na ona yala.",
+      "ru": "Я учился в тот год."
+    },
+    {
+      "id": "SAMA-SENSE/yala/1/example/2",
+      "lexeme_id": "SAMA-LEX/yala",
+      "sense_id": "SAMA-SENSE/yala/1",
+      "sama": "Yu la lena na ena yala.",
+      "ru": "Ты будешь учиться в этом году."
+    },
+    {
+      "id": "SAMA-SENSE/tima/1/example/1",
+      "lexeme_id": "SAMA-LEX/tima",
+      "sense_id": "SAMA-SENSE/tima/1",
+      "sama": "Mi nima tima.",
+      "ru": "Я знаю время."
+    },
+    {
+      "id": "SAMA-SENSE/tima/1/example/2",
+      "lexeme_id": "SAMA-LEX/tima",
+      "sense_id": "SAMA-SENSE/tima/1",
+      "sama": "Tima bi yoma.",
+      "ru": "Время важно."
+    },
+    {
+      "id": "SAMA-SENSE/yoma/1/example/1",
+      "lexeme_id": "SAMA-LEX/yoma",
+      "sense_id": "SAMA-SENSE/yoma/1",
+      "sama": "Basa bi yoma.",
+      "ru": "Язык важен."
+    },
+    {
+      "id": "SAMA-SENSE/yoma/1/example/2",
+      "lexeme_id": "SAMA-LEX/yoma",
+      "sense_id": "SAMA-SENSE/yoma/1",
+      "sama": "Mi lita kaso yoma.",
+      "ru": "Я читаю важную книгу."
+    },
+    {
+      "id": "SAMA-SENSE/nula/1/example/1",
+      "lexeme_id": "SAMA-LEX/nula",
+      "sense_id": "SAMA-SENSE/nula/1",
+      "sama": "Mi si nula kaso.",
+      "ru": "Я вижу ноль книг."
+    },
+    {
+      "id": "SAMA-SENSE/nula/1/example/2",
+      "lexeme_id": "SAMA-LEX/nula",
+      "sense_id": "SAMA-SENSE/nula/1",
+      "sama": "Nula bi nula.",
+      "ru": "Ноль равен нулю."
+    },
+    {
+      "id": "SAMA-SENSE/una/1/example/1",
+      "lexeme_id": "SAMA-LEX/una",
+      "sense_id": "SAMA-SENSE/una/1",
+      "sama": "Mi si una kaso.",
+      "ru": "Я вижу одну книгу."
+    },
+    {
+      "id": "SAMA-SENSE/una/1/example/2",
+      "lexeme_id": "SAMA-LEX/una",
+      "sense_id": "SAMA-SENSE/una/1",
+      "sama": "Una soma pina su.",
+      "ru": "Один человек пьёт воду."
+    },
+    {
+      "id": "SAMA-SENSE/dua/1/example/1",
+      "lexeme_id": "SAMA-LEX/dua",
+      "sense_id": "SAMA-SENSE/dua/1",
+      "sama": "Mi si dua kaso.",
+      "ru": "Я вижу две книги."
+    },
+    {
+      "id": "SAMA-SENSE/dua/1/example/2",
+      "lexeme_id": "SAMA-LEX/dua",
+      "sense_id": "SAMA-SENSE/dua/1",
+      "sama": "Dua ami si mi.",
+      "ru": "Два друга видят меня."
+    },
+    {
+      "id": "SAMA-SENSE/tia/1/example/1",
+      "lexeme_id": "SAMA-LEX/tia",
+      "sense_id": "SAMA-SENSE/tia/1",
+      "sama": "Mi si tia kaso.",
+      "ru": "Я вижу три книги."
+    },
+    {
+      "id": "SAMA-SENSE/tia/1/example/2",
+      "lexeme_id": "SAMA-LEX/tia",
+      "sense_id": "SAMA-SENSE/tia/1",
+      "sama": "Tia soma pina su.",
+      "ru": "Три человека пьют воду."
+    },
+    {
+      "id": "SAMA-SENSE/pala/1/example/1",
+      "lexeme_id": "SAMA-LEX/pala",
+      "sense_id": "SAMA-SENSE/pala/1",
+      "sama": "Mi si pala kaso.",
+      "ru": "Я вижу четыре книги."
+    },
+    {
+      "id": "SAMA-SENSE/pala/1/example/2",
+      "lexeme_id": "SAMA-LEX/pala",
+      "sense_id": "SAMA-SENSE/pala/1",
+      "sama": "Pala kopa bi na mesa.",
+      "ru": "Четыре чашки на столе."
+    },
+    {
+      "id": "SAMA-SENSE/pema/1/example/1",
+      "lexeme_id": "SAMA-LEX/pema",
+      "sense_id": "SAMA-SENSE/pema/1",
+      "sama": "Mi si pema kaso.",
+      "ru": "Я вижу пять книг."
+    },
+    {
+      "id": "SAMA-SENSE/pema/1/example/2",
+      "lexeme_id": "SAMA-LEX/pema",
+      "sense_id": "SAMA-SENSE/pema/1",
+      "sama": "Pema soma bi na doma.",
+      "ru": "Пять человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/sika/1/example/1",
+      "lexeme_id": "SAMA-LEX/sika",
+      "sense_id": "SAMA-SENSE/sika/1",
+      "sama": "Mi si sika kaso.",
+      "ru": "Я вижу шесть книг."
+    },
+    {
+      "id": "SAMA-SENSE/sika/1/example/2",
+      "lexeme_id": "SAMA-LEX/sika",
+      "sense_id": "SAMA-SENSE/sika/1",
+      "sama": "Sika kopa bi na mesa.",
+      "ru": "Шесть чашек на столе."
+    },
+    {
+      "id": "SAMA-SENSE/seta/1/example/1",
+      "lexeme_id": "SAMA-LEX/seta",
+      "sense_id": "SAMA-SENSE/seta/1",
+      "sama": "Mi si seta kaso.",
+      "ru": "Я вижу семь книг."
+    },
+    {
+      "id": "SAMA-SENSE/seta/1/example/2",
+      "lexeme_id": "SAMA-LEX/seta",
+      "sense_id": "SAMA-SENSE/seta/1",
+      "sama": "Seta soma bi na doma.",
+      "ru": "Семь человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/oto/1/example/1",
+      "lexeme_id": "SAMA-LEX/oto",
+      "sense_id": "SAMA-SENSE/oto/1",
+      "sama": "Mi si oto kaso.",
+      "ru": "Я вижу восемь книг."
+    },
+    {
+      "id": "SAMA-SENSE/oto/1/example/2",
+      "lexeme_id": "SAMA-LEX/oto",
+      "sense_id": "SAMA-SENSE/oto/1",
+      "sama": "Oto kopa bi na mesa.",
+      "ru": "Восемь чашек на столе."
+    },
+    {
+      "id": "SAMA-SENSE/naya/1/example/1",
+      "lexeme_id": "SAMA-LEX/naya",
+      "sense_id": "SAMA-SENSE/naya/1",
+      "sama": "Mi si naya kaso.",
+      "ru": "Я вижу девять книг."
+    },
+    {
+      "id": "SAMA-SENSE/naya/1/example/2",
+      "lexeme_id": "SAMA-LEX/naya",
+      "sense_id": "SAMA-SENSE/naya/1",
+      "sama": "Naya soma bi na doma.",
+      "ru": "Девять человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/tena/1/example/1",
+      "lexeme_id": "SAMA-LEX/tena",
+      "sense_id": "SAMA-SENSE/tena/1",
+      "sama": "Mi si tena kaso.",
+      "ru": "Я вижу десять книг."
+    },
+    {
+      "id": "SAMA-SENSE/tena/1/example/2",
+      "lexeme_id": "SAMA-LEX/tena",
+      "sense_id": "SAMA-SENSE/tena/1",
+      "sama": "Dua tena soma bi na doma.",
+      "ru": "Двадцать человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/sena/1/example/1",
+      "lexeme_id": "SAMA-LEX/sena",
+      "sense_id": "SAMA-SENSE/sena/1",
+      "sama": "Mi si sena kaso.",
+      "ru": "Я вижу сто книг."
+    },
+    {
+      "id": "SAMA-SENSE/sena/1/example/2",
+      "lexeme_id": "SAMA-LEX/sena",
+      "sense_id": "SAMA-SENSE/sena/1",
+      "sama": "Dua sena soma bi na doma.",
+      "ru": "Двести человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/mila/1/example/1",
+      "lexeme_id": "SAMA-LEX/mila",
+      "sense_id": "SAMA-SENSE/mila/1",
+      "sama": "Mi si mila kaso.",
+      "ru": "Я вижу тысячу книг."
+    },
+    {
+      "id": "SAMA-SENSE/mila/1/example/2",
+      "lexeme_id": "SAMA-LEX/mila",
+      "sense_id": "SAMA-SENSE/mila/1",
+      "sama": "Dua mila soma bi na doma.",
+      "ru": "Две тысячи человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/amiko/1/example/1",
+      "lexeme_id": "SAMA-LEX/amiko",
+      "sense_id": "SAMA-SENSE/amiko/1",
+      "sama": "Amiko de mi bi na bano.",
+      "ru": "Мой приятель в городе."
+    },
+    {
+      "id": "SAMA-SENSE/amiko/1/example/2",
+      "lexeme_id": "SAMA-LEX/amiko",
+      "sense_id": "SAMA-SENSE/amiko/1",
+      "sama": "Mi toka ko amiko.",
+      "ru": "Я говорю с приятелем."
+    },
+    {
+      "id": "SAMA-SENSE/amiya/1/example/1",
+      "lexeme_id": "SAMA-LEX/amiya",
+      "sense_id": "SAMA-SENSE/amiya/1",
+      "sama": "Amiya bi yoma.",
+      "ru": "Дружба важна."
+    },
+    {
+      "id": "SAMA-SENSE/amiya/1/example/2",
+      "lexeme_id": "SAMA-LEX/amiya",
+      "sense_id": "SAMA-SENSE/amiya/1",
+      "sama": "Amiya de mi bi bona.",
+      "ru": "Моя дружба хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/apa/1/example/1",
+      "lexeme_id": "SAMA-LEX/apa",
+      "sense_id": "SAMA-SENSE/apa/1",
+      "sama": "Mi kula apa.",
+      "ru": "Я ем яблоко."
+    },
+    {
+      "id": "SAMA-SENSE/apa/1/example/2",
+      "lexeme_id": "SAMA-LEX/apa",
+      "sense_id": "SAMA-SENSE/apa/1",
+      "sama": "Apa bi na mesa.",
+      "ru": "Яблоко на столе."
+    },
+    {
+      "id": "SAMA-SENSE/babi/1/example/1",
+      "lexeme_id": "SAMA-LEX/babi",
+      "sense_id": "SAMA-SENSE/babi/1",
+      "sama": "Babi lako.",
+      "ru": "Младенец спит."
+    },
+    {
+      "id": "SAMA-SENSE/babi/1/example/2",
+      "lexeme_id": "SAMA-LEX/babi",
+      "sense_id": "SAMA-SENSE/babi/1",
+      "sama": "Mama si babi.",
+      "ru": "Мама видит младенца."
+    },
+    {
+      "id": "SAMA-SENSE/bali/1/example/1",
+      "lexeme_id": "SAMA-LEX/bali",
+      "sense_id": "SAMA-SENSE/bali/1",
+      "sama": "Tana bi bali.",
+      "ru": "Цветок красивый."
+    },
+    {
+      "id": "SAMA-SENSE/bali/1/example/2",
+      "lexeme_id": "SAMA-LEX/bali",
+      "sense_id": "SAMA-SENSE/bali/1",
+      "sama": "Mi si doma bali.",
+      "ru": "Я вижу красивый дом."
+    },
+    {
+      "id": "SAMA-SENSE/balo/1/example/1",
+      "lexeme_id": "SAMA-LEX/balo",
+      "sense_id": "SAMA-SENSE/balo/1",
+      "sama": "Kaso bi nana balo.",
+      "ru": "Книга внутри сумки."
+    },
+    {
+      "id": "SAMA-SENSE/balo/1/example/2",
+      "lexeme_id": "SAMA-LEX/balo",
+      "sense_id": "SAMA-SENSE/balo/1",
+      "sama": "Mi tako balo de mi.",
+      "ru": "Я беру свою сумку."
+    },
+    {
+      "id": "SAMA-SENSE/bama/1/example/1",
+      "lexeme_id": "SAMA-LEX/bama",
+      "sense_id": "SAMA-SENSE/bama/1",
+      "sama": "Mi naka bama.",
+      "ru": "Я выполняю работу."
+    },
+    {
+      "id": "SAMA-SENSE/bama/1/example/2",
+      "lexeme_id": "SAMA-LEX/bama",
+      "sense_id": "SAMA-SENSE/bama/1",
+      "sama": "Bama de yu bi yoma.",
+      "ru": "Твоя работа важна."
+    },
+    {
+      "id": "SAMA-SENSE/bana/1/example/1",
+      "lexeme_id": "SAMA-LEX/bana",
+      "sense_id": "SAMA-SENSE/bana/1",
+      "sama": "Nina kula bana.",
+      "ru": "Ребёнок ест банан."
+    },
+    {
+      "id": "SAMA-SENSE/bana/1/example/2",
+      "lexeme_id": "SAMA-LEX/bana",
+      "sense_id": "SAMA-SENSE/bana/1",
+      "sama": "Bana bi na pila.",
+      "ru": "Банан на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/bano/1/example/1",
+      "lexeme_id": "SAMA-LEX/bano",
+      "sense_id": "SAMA-SENSE/bano/1",
+      "sama": "Mi bi na bano.",
+      "ru": "Я в городе."
+    },
+    {
+      "id": "SAMA-SENSE/bano/1/example/2",
+      "lexeme_id": "SAMA-LEX/bano",
+      "sense_id": "SAMA-SENSE/bano/1",
+      "sama": "Bano bi daba.",
+      "ru": "Город большой."
+    },
+    {
+      "id": "SAMA-SENSE/beto/1/example/1",
+      "lexeme_id": "SAMA-LEX/beto",
+      "sense_id": "SAMA-SENSE/beto/1",
+      "sama": "Nina lako na beto.",
+      "ru": "Ребёнок спит на кровати."
+    },
+    {
+      "id": "SAMA-SENSE/beto/1/example/2",
+      "lexeme_id": "SAMA-LEX/beto",
+      "sense_id": "SAMA-SENSE/beto/1",
+      "sama": "Beto bi nana luma.",
+      "ru": "Кровать внутри комнаты."
+    },
+    {
+      "id": "SAMA-SENSE/bina/1/example/1",
+      "lexeme_id": "SAMA-LEX/bina",
+      "sense_id": "SAMA-SENSE/bina/1",
+      "sama": "Bina de mi bi mawa.",
+      "ru": "Моя спина сильная."
+    },
+    {
+      "id": "SAMA-SENSE/bina/1/example/2",
+      "lexeme_id": "SAMA-LEX/bina",
+      "sense_id": "SAMA-SENSE/bina/1",
+      "sama": "Mi si bina de yu.",
+      "ru": "Я вижу твою спину."
+    },
+    {
+      "id": "SAMA-SENSE/bisi/1/example/1",
+      "lexeme_id": "SAMA-LEX/bisi",
+      "sense_id": "SAMA-SENSE/bisi/1",
+      "sama": "Mi bisi.",
+      "ru": "Я болею."
+    },
+    {
+      "id": "SAMA-SENSE/bisi/1/example/2",
+      "lexeme_id": "SAMA-LEX/bisi",
+      "sense_id": "SAMA-SENSE/bisi/1",
+      "sama": "Babi pa bisi.",
+      "ru": "Младенец болел."
+    },
+    {
+      "id": "SAMA-SENSE/biso/1/example/1",
+      "lexeme_id": "SAMA-LEX/biso",
+      "sense_id": "SAMA-SENSE/biso/1",
+      "sama": "Biso bi malo.",
+      "ru": "Боль — это плохо."
+    },
+    {
+      "id": "SAMA-SENSE/biso/1/example/2",
+      "lexeme_id": "SAMA-LEX/biso",
+      "sense_id": "SAMA-SENSE/biso/1",
+      "sama": "Mi nima biso de yu.",
+      "ru": "Я знаю о твоей боли."
+    },
+    {
+      "id": "SAMA-SENSE/bodu/1/example/1",
+      "lexeme_id": "SAMA-LEX/bodu",
+      "sense_id": "SAMA-SENSE/bodu/1",
+      "sama": "Bodu de mi bi mawa.",
+      "ru": "Моё тело сильное."
+    },
+    {
+      "id": "SAMA-SENSE/bodu/1/example/2",
+      "lexeme_id": "SAMA-LEX/bodu",
+      "sense_id": "SAMA-SENSE/bodu/1",
+      "sama": "Mi si bodu de kato.",
+      "ru": "Я вижу тело кота."
+    },
+    {
+      "id": "SAMA-SENSE/boma/1/example/1",
+      "lexeme_id": "SAMA-LEX/boma",
+      "sense_id": "SAMA-SENSE/boma/1",
+      "sama": "Boma de mi lita kaso.",
+      "ru": "Мой брат читает книгу."
+    },
+    {
+      "id": "SAMA-SENSE/boma/1/example/2",
+      "lexeme_id": "SAMA-LEX/boma",
+      "sense_id": "SAMA-SENSE/boma/1",
+      "sama": "Mi wako ko boma.",
+      "ru": "Я иду с братом."
+    },
+    {
+      "id": "SAMA-SENSE/bulu/1/example/1",
+      "lexeme_id": "SAMA-LEX/bulu",
+      "sense_id": "SAMA-SENSE/bulu/1",
+      "sama": "Kopa bi bulu.",
+      "ru": "Чашка синяя."
+    },
+    {
+      "id": "SAMA-SENSE/bulu/1/example/2",
+      "lexeme_id": "SAMA-LEX/bulu",
+      "sense_id": "SAMA-SENSE/bulu/1",
+      "sama": "Mi si balo bulu.",
+      "ru": "Я вижу синюю сумку."
+    },
+    {
+      "id": "SAMA-SENSE/dama/1/example/1",
+      "lexeme_id": "SAMA-LEX/dama",
+      "sense_id": "SAMA-SENSE/dama/1",
+      "sama": "Mi dama doma.",
+      "ru": "Я строю дом."
+    },
+    {
+      "id": "SAMA-SENSE/dama/1/example/2",
+      "lexeme_id": "SAMA-LEX/dama",
+      "sense_id": "SAMA-SENSE/dama/1",
+      "sama": "Ta pa te dama luma.",
+      "ru": "Он или она закончил строительство комнаты."
+    },
+    {
+      "id": "SAMA-SENSE/dami/1/example/1",
+      "lexeme_id": "SAMA-LEX/dami",
+      "sense_id": "SAMA-SENSE/dami/1",
+      "sama": "Dami de mi bi moko.",
+      "ru": "Мой палец короткий."
+    },
+    {
+      "id": "SAMA-SENSE/dami/1/example/2",
+      "lexeme_id": "SAMA-LEX/dami",
+      "sense_id": "SAMA-SENSE/dami/1",
+      "sama": "Mi si dami li de nina.",
+      "ru": "Я вижу пальцы ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/dani/1/example/1",
+      "lexeme_id": "SAMA-LEX/dani",
+      "sense_id": "SAMA-SENSE/dani/1",
+      "sama": "Dani lena basa.",
+      "ru": "Ученик изучает язык."
+    },
+    {
+      "id": "SAMA-SENSE/dani/1/example/2",
+      "lexeme_id": "SAMA-LEX/dani",
+      "sense_id": "SAMA-SENSE/dani/1",
+      "sama": "Mi si dani na bano.",
+      "ru": "Я вижу ученика в городе."
+    },
+    {
+      "id": "SAMA-SENSE/dano/1/example/1",
+      "lexeme_id": "SAMA-LEX/dano",
+      "sense_id": "SAMA-SENSE/dano/1",
+      "sama": "Dano bi wawa.",
+      "ru": "Зуб белый."
+    },
+    {
+      "id": "SAMA-SENSE/dano/1/example/2",
+      "lexeme_id": "SAMA-LEX/dano",
+      "sense_id": "SAMA-SENSE/dano/1",
+      "sama": "Mi si dano de nina.",
+      "ru": "Я вижу зуб ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/dasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/dasa",
+      "sense_id": "SAMA-SENSE/dasa/1",
+      "sama": "Mi bi na dasa.",
+      "ru": "Я на станции."
+    },
+    {
+      "id": "SAMA-SENSE/dasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/dasa",
+      "sense_id": "SAMA-SENSE/dasa/1",
+      "sama": "Lata bi lali dasa.",
+      "ru": "Автомобиль рядом со станцией."
+    },
+    {
+      "id": "SAMA-SENSE/dasi/1/example/1",
+      "lexeme_id": "SAMA-LEX/dasi",
+      "sense_id": "SAMA-SENSE/dasi/1",
+      "sama": "Mi dasi kaso.",
+      "ru": "Я покупаю книгу."
+    },
+    {
+      "id": "SAMA-SENSE/dasi/1/example/2",
+      "lexeme_id": "SAMA-LEX/dasi",
+      "sense_id": "SAMA-SENSE/dasi/1",
+      "sama": "Mama pa dasi pana.",
+      "ru": "Мама купила хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/deta/1/example/1",
+      "lexeme_id": "SAMA-LEX/deta",
+      "sense_id": "SAMA-SENSE/deta/1",
+      "sama": "Lapa deta bi mawa.",
+      "ru": "Правая рука сильная."
+    },
+    {
+      "id": "SAMA-SENSE/deta/1/example/2",
+      "lexeme_id": "SAMA-LEX/deta",
+      "sense_id": "SAMA-SENSE/deta/1",
+      "sama": "Mi si wina deta.",
+      "ru": "Я вижу правое окно."
+    },
+    {
+      "id": "SAMA-SENSE/duni/1/example/1",
+      "lexeme_id": "SAMA-LEX/duni",
+      "sense_id": "SAMA-SENSE/duni/1",
+      "sama": "Mi si duni.",
+      "ru": "Я вижу дикое животное."
+    },
+    {
+      "id": "SAMA-SENSE/duni/1/example/2",
+      "lexeme_id": "SAMA-LEX/duni",
+      "sense_id": "SAMA-SENSE/duni/1",
+      "sama": "Duni bi na lima.",
+      "ru": "Дикое животное в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/hama/1/example/1",
+      "lexeme_id": "SAMA-LEX/hama",
+      "sense_id": "SAMA-SENSE/hama/1",
+      "sama": "Hama bi yoma.",
+      "ru": "Надежда важна."
+    },
+    {
+      "id": "SAMA-SENSE/hama/1/example/2",
+      "lexeme_id": "SAMA-LEX/hama",
+      "sense_id": "SAMA-SENSE/hama/1",
+      "sama": "Hama de mi bi bona.",
+      "ru": "Моя надежда хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/kala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kala",
+      "sense_id": "SAMA-SENSE/kala/1",
+      "sama": "Ena kala bi bona.",
+      "ru": "Это место хорошее."
+    },
+    {
+      "id": "SAMA-SENSE/kala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kala",
+      "sense_id": "SAMA-SENSE/kala/1",
+      "sama": "Mi bi na ona kala.",
+      "ru": "Я в том месте."
+    },
+    {
+      "id": "SAMA-SENSE/kami/1/example/1",
+      "lexeme_id": "SAMA-LEX/kami",
+      "sense_id": "SAMA-SENSE/kami/1",
+      "sama": "Mi kami yu.",
+      "ru": "Я помогаю тебе."
+    },
+    {
+      "id": "SAMA-SENSE/kami/1/example/2",
+      "lexeme_id": "SAMA-LEX/kami",
+      "sense_id": "SAMA-SENSE/kami/1",
+      "sama": "Mama pa kami nina.",
+      "ru": "Мама помогала ребёнку."
+    },
+    {
+      "id": "SAMA-SENSE/kano/1/example/1",
+      "lexeme_id": "SAMA-LEX/kano",
+      "sense_id": "SAMA-SENSE/kano/1",
+      "sama": "Kano de siba bi daba.",
+      "ru": "Ухо собаки большое."
+    },
+    {
+      "id": "SAMA-SENSE/kano/1/example/2",
+      "lexeme_id": "SAMA-LEX/kano",
+      "sense_id": "SAMA-SENSE/kano/1",
+      "sama": "Mi si kano de babi.",
+      "ru": "Я вижу ухо младенца."
+    },
+    {
+      "id": "SAMA-SENSE/kato/1/example/1",
+      "lexeme_id": "SAMA-LEX/kato",
+      "sense_id": "SAMA-SENSE/kato/1",
+      "sama": "Kato lako na beto.",
+      "ru": "Кошка спит на кровати."
+    },
+    {
+      "id": "SAMA-SENSE/kato/1/example/2",
+      "lexeme_id": "SAMA-LEX/kato",
+      "sense_id": "SAMA-SENSE/kato/1",
+      "sama": "Mi si kato mini.",
+      "ru": "Я вижу маленькую кошку."
+    },
+    {
+      "id": "SAMA-SENSE/kita/1/example/1",
+      "lexeme_id": "SAMA-LEX/kita",
+      "sense_id": "SAMA-SENSE/kita/1",
+      "sama": "Mi kita to doma.",
+      "ru": "Я бегу к дому."
+    },
+    {
+      "id": "SAMA-SENSE/kita/1/example/2",
+      "lexeme_id": "SAMA-LEX/kita",
+      "sense_id": "SAMA-SENSE/kita/1",
+      "sama": "Siba pa kita ko mi.",
+      "ru": "Собака бежала со мной."
+    },
+    {
+      "id": "SAMA-SENSE/koka/1/example/1",
+      "lexeme_id": "SAMA-LEX/koka",
+      "sense_id": "SAMA-SENSE/koka/1",
+      "sama": "Koka bi na pano.",
+      "ru": "Курица на полу."
+    },
+    {
+      "id": "SAMA-SENSE/koka/1/example/2",
+      "lexeme_id": "SAMA-LEX/koka",
+      "sense_id": "SAMA-SENSE/koka/1",
+      "sama": "Nina si koka.",
+      "ru": "Ребёнок видит курицу."
+    },
+    {
+      "id": "SAMA-SENSE/koko/1/example/1",
+      "lexeme_id": "SAMA-LEX/koko",
+      "sense_id": "SAMA-SENSE/koko/1",
+      "sama": "Mi pina koko.",
+      "ru": "Я пью какао."
+    },
+    {
+      "id": "SAMA-SENSE/koko/1/example/2",
+      "lexeme_id": "SAMA-LEX/koko",
+      "sense_id": "SAMA-SENSE/koko/1",
+      "sama": "Koko bi na kopa.",
+      "ru": "Какао в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/koma/1/example/1",
+      "lexeme_id": "SAMA-LEX/koma",
+      "sense_id": "SAMA-SENSE/koma/1",
+      "sama": "Koma de mi bi daba.",
+      "ru": "Моё сообщество большое."
+    },
+    {
+      "id": "SAMA-SENSE/koma/1/example/2",
+      "lexeme_id": "SAMA-LEX/koma",
+      "sense_id": "SAMA-SENSE/koma/1",
+      "sama": "Amiya bi yoma na koma.",
+      "ru": "Дружба важна в сообществе."
+    },
+    {
+      "id": "SAMA-SENSE/koso/1/example/1",
+      "lexeme_id": "SAMA-LEX/koso",
+      "sense_id": "SAMA-SENSE/koso/1",
+      "sama": "Loma bi koso.",
+      "ru": "Ложка изогнутая."
+    },
+    {
+      "id": "SAMA-SENSE/koso/1/example/2",
+      "lexeme_id": "SAMA-LEX/koso",
+      "sense_id": "SAMA-SENSE/koso/1",
+      "sama": "Mi si mato koso.",
+      "ru": "Я вижу кривое дерево."
+    },
+    {
+      "id": "SAMA-SENSE/kowa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kowa",
+      "sense_id": "SAMA-SENSE/kowa/1",
+      "sama": "Tele bi kowa.",
+      "ru": "Телефон громкий."
+    },
+    {
+      "id": "SAMA-SENSE/kowa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kowa",
+      "sense_id": "SAMA-SENSE/kowa/1",
+      "sama": "Siba bi kowa.",
+      "ru": "Собака громкая."
+    },
+    {
+      "id": "SAMA-SENSE/laka/1/example/1",
+      "lexeme_id": "SAMA-LEX/laka",
+      "sense_id": "SAMA-SENSE/laka/1",
+      "sama": "Laka bi daba.",
+      "ru": "Озеро большое."
+    },
+    {
+      "id": "SAMA-SENSE/laka/1/example/2",
+      "lexeme_id": "SAMA-LEX/laka",
+      "sense_id": "SAMA-SENSE/laka/1",
+      "sama": "Mi bi lali laka.",
+      "ru": "Я рядом с озером."
+    },
+    {
+      "id": "SAMA-SENSE/lali/1/example/1",
+      "lexeme_id": "SAMA-LEX/lali",
+      "sense_id": "SAMA-SENSE/lali/1",
+      "sama": "Mi bi lali doma.",
+      "ru": "Я рядом с домом."
+    },
+    {
+      "id": "SAMA-SENSE/lali/1/example/2",
+      "lexeme_id": "SAMA-LEX/lali",
+      "sense_id": "SAMA-SENSE/lali/1",
+      "sama": "Kopa bi lali kaso.",
+      "ru": "Чашка рядом с книгой."
+    },
+    {
+      "id": "SAMA-SENSE/lami/1/example/1",
+      "lexeme_id": "SAMA-LEX/lami",
+      "sense_id": "SAMA-SENSE/lami/1",
+      "sama": "Lami de mi bi daba.",
+      "ru": "Моя семья большая."
+    },
+    {
+      "id": "SAMA-SENSE/lami/1/example/2",
+      "lexeme_id": "SAMA-LEX/lami",
+      "sense_id": "SAMA-SENSE/lami/1",
+      "sama": "Mi ama lami de mi.",
+      "ru": "Я люблю свою семью."
+    },
+    {
+      "id": "SAMA-SENSE/lapa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lapa",
+      "sense_id": "SAMA-SENSE/lapa/1",
+      "sama": "Lapa de mi bi pali.",
+      "ru": "Моя рука чистая."
+    },
+    {
+      "id": "SAMA-SENSE/lapa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lapa",
+      "sense_id": "SAMA-SENSE/lapa/1",
+      "sama": "Mi si lapa de yu.",
+      "ru": "Я вижу твою руку."
+    },
+    {
+      "id": "SAMA-SENSE/lasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lasa",
+      "sense_id": "SAMA-SENSE/lasa/1",
+      "sama": "Lasa de mama bi moko.",
+      "ru": "Мамины волосы короткие."
+    },
+    {
+      "id": "SAMA-SENSE/lasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lasa",
+      "sense_id": "SAMA-SENSE/lasa/1",
+      "sama": "Mi si lasa de yu.",
+      "ru": "Я вижу твои волосы."
+    },
+    {
+      "id": "SAMA-SENSE/lasi/1/example/1",
+      "lexeme_id": "SAMA-LEX/lasi",
+      "sense_id": "SAMA-SENSE/lasi/1",
+      "sama": "Balo bi lasi.",
+      "ru": "Сумка лёгкая."
+    },
+    {
+      "id": "SAMA-SENSE/lasi/1/example/2",
+      "lexeme_id": "SAMA-LEX/lasi",
+      "sense_id": "SAMA-SENSE/lasi/1",
+      "sama": "Mi tako kopa lasi.",
+      "ru": "Я беру лёгкую чашку."
+    },
+    {
+      "id": "SAMA-SENSE/lata/1/example/1",
+      "lexeme_id": "SAMA-LEX/lata",
+      "sense_id": "SAMA-SENSE/lata/1",
+      "sama": "Lata bi na bano.",
+      "ru": "Автомобиль в городе."
+    },
+    {
+      "id": "SAMA-SENSE/lata/1/example/2",
+      "lexeme_id": "SAMA-LEX/lata",
+      "sense_id": "SAMA-SENSE/lata/1",
+      "sama": "Mi si lata nawa.",
+      "ru": "Я вижу новый автомобиль."
+    },
+    {
+      "id": "SAMA-SENSE/lato/1/example/1",
+      "lexeme_id": "SAMA-LEX/lato",
+      "sense_id": "SAMA-SENSE/lato/1",
+      "sama": "Lato suno.",
+      "ru": "Лампа светит."
+    },
+    {
+      "id": "SAMA-SENSE/lato/1/example/2",
+      "lexeme_id": "SAMA-LEX/lato",
+      "sense_id": "SAMA-SENSE/lato/1",
+      "sama": "Lato bi noba mesa.",
+      "ru": "Лампа над столом."
+    },
+    {
+      "id": "SAMA-SENSE/lawi/1/example/1",
+      "lexeme_id": "SAMA-LEX/lawi",
+      "sense_id": "SAMA-SENSE/lawi/1",
+      "sama": "Lawi bi yoma.",
+      "ru": "Закон важен."
+    },
+    {
+      "id": "SAMA-SENSE/lawi/1/example/2",
+      "lexeme_id": "SAMA-LEX/lawi",
+      "sense_id": "SAMA-SENSE/lawi/1",
+      "sama": "Mi lita lawi.",
+      "ru": "Я читаю закон."
+    },
+    {
+      "id": "SAMA-SENSE/lilu/1/example/1",
+      "lexeme_id": "SAMA-LEX/lilu",
+      "sense_id": "SAMA-SENSE/lilu/1",
+      "sama": "Pino bi lilu.",
+      "ru": "Трава зелёная."
+    },
+    {
+      "id": "SAMA-SENSE/lilu/1/example/2",
+      "lexeme_id": "SAMA-LEX/lilu",
+      "sense_id": "SAMA-SENSE/lilu/1",
+      "sama": "Mi si balo lilu.",
+      "ru": "Я вижу зелёную сумку."
+    },
+    {
+      "id": "SAMA-SENSE/lima/1/example/1",
+      "lexeme_id": "SAMA-LEX/lima",
+      "sense_id": "SAMA-SENSE/lima/1",
+      "sama": "Lima bi daba.",
+      "ru": "Лес большой."
+    },
+    {
+      "id": "SAMA-SENSE/lima/1/example/2",
+      "lexeme_id": "SAMA-LEX/lima",
+      "sense_id": "SAMA-SENSE/lima/1",
+      "sama": "Duni bi na lima.",
+      "ru": "Дикое животное в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/limo/1/example/1",
+      "lexeme_id": "SAMA-LEX/limo",
+      "sense_id": "SAMA-SENSE/limo/1",
+      "sama": "Limo bi muna.",
+      "ru": "Лимон жёлтый."
+    },
+    {
+      "id": "SAMA-SENSE/limo/1/example/2",
+      "lexeme_id": "SAMA-LEX/limo",
+      "sense_id": "SAMA-SENSE/limo/1",
+      "sama": "Mi tako limo.",
+      "ru": "Я беру лимон."
+    },
+    {
+      "id": "SAMA-SENSE/lina/1/example/1",
+      "lexeme_id": "SAMA-LEX/lina",
+      "sense_id": "SAMA-SENSE/lina/1",
+      "sama": "Lina bi malo.",
+      "ru": "Голод — это плохо."
+    },
+    {
+      "id": "SAMA-SENSE/lina/1/example/2",
+      "lexeme_id": "SAMA-LEX/lina",
+      "sense_id": "SAMA-SENSE/lina/1",
+      "sama": "Lina de nina bi yoma.",
+      "ru": "Голод ребёнка важен."
+    },
+    {
+      "id": "SAMA-SENSE/lino/1/example/1",
+      "lexeme_id": "SAMA-LEX/lino",
+      "sense_id": "SAMA-SENSE/lino/1",
+      "sama": "Lino de mi bi sili.",
+      "ru": "Мой партнёр вежливый."
+    },
+    {
+      "id": "SAMA-SENSE/lino/1/example/2",
+      "lexeme_id": "SAMA-LEX/lino",
+      "sense_id": "SAMA-SENSE/lino/1",
+      "sama": "Mi toka ko lino.",
+      "ru": "Я говорю с партнёром."
+    },
+    {
+      "id": "SAMA-SENSE/lolo/1/example/1",
+      "lexeme_id": "SAMA-LEX/lolo",
+      "sense_id": "SAMA-SENSE/lolo/1",
+      "sama": "Lata bi lolo.",
+      "ru": "Автомобиль медленный."
+    },
+    {
+      "id": "SAMA-SENSE/lolo/1/example/2",
+      "lexeme_id": "SAMA-LEX/lolo",
+      "sense_id": "SAMA-SENSE/lolo/1",
+      "sama": "Mi si polo lolo.",
+      "ru": "Я вижу медленную лошадь."
+    },
+    {
+      "id": "SAMA-SENSE/loma/1/example/1",
+      "lexeme_id": "SAMA-LEX/loma",
+      "sense_id": "SAMA-SENSE/loma/1",
+      "sama": "Loma bi na mesa.",
+      "ru": "Ложка на столе."
+    },
+    {
+      "id": "SAMA-SENSE/loma/1/example/2",
+      "lexeme_id": "SAMA-LEX/loma",
+      "sense_id": "SAMA-SENSE/loma/1",
+      "sama": "Mi tako loma.",
+      "ru": "Я беру ложку."
+    },
+    {
+      "id": "SAMA-SENSE/lopo/1/example/1",
+      "lexeme_id": "SAMA-LEX/lopo",
+      "sense_id": "SAMA-SENSE/lopo/1",
+      "sama": "Lopo bi na lima.",
+      "ru": "Волк в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/lopo/1/example/2",
+      "lexeme_id": "SAMA-LEX/lopo",
+      "sense_id": "SAMA-SENSE/lopo/1",
+      "sama": "Mi si lopo.",
+      "ru": "Я вижу волка."
+    },
+    {
+      "id": "SAMA-SENSE/luna/1/example/1",
+      "lexeme_id": "SAMA-LEX/luna",
+      "sense_id": "SAMA-SENSE/luna/1",
+      "sama": "Mi si luna.",
+      "ru": "Я вижу Луну."
+    },
+    {
+      "id": "SAMA-SENSE/luna/1/example/2",
+      "lexeme_id": "SAMA-LEX/luna",
+      "sense_id": "SAMA-SENSE/luna/1",
+      "sama": "Luna bi na sami.",
+      "ru": "Луна на небе."
+    },
+    {
+      "id": "SAMA-SENSE/mado/1/example/1",
+      "lexeme_id": "SAMA-LEX/mado",
+      "sense_id": "SAMA-SENSE/mado/1",
+      "sama": "Mado de koma bi sili.",
+      "ru": "Руководитель сообщества вежливый."
+    },
+    {
+      "id": "SAMA-SENSE/mado/1/example/2",
+      "lexeme_id": "SAMA-LEX/mado",
+      "sense_id": "SAMA-SENSE/mado/1",
+      "sama": "Mi toka ko mado.",
+      "ru": "Я говорю с руководителем."
+    },
+    {
+      "id": "SAMA-SENSE/mala/1/example/1",
+      "lexeme_id": "SAMA-LEX/mala",
+      "sense_id": "SAMA-SENSE/mala/1",
+      "sama": "Luma bi mala.",
+      "ru": "Комната тихая."
+    },
+    {
+      "id": "SAMA-SENSE/mala/1/example/2",
+      "lexeme_id": "SAMA-LEX/mala",
+      "sense_id": "SAMA-SENSE/mala/1",
+      "sama": "Babi bi mala.",
+      "ru": "Младенец тихий."
+    },
+    {
+      "id": "SAMA-SENSE/mali/1/example/1",
+      "lexeme_id": "SAMA-LEX/mali",
+      "sense_id": "SAMA-SENSE/mali/1",
+      "sama": "Kopa bi mali.",
+      "ru": "Чашка грязная."
+    },
+    {
+      "id": "SAMA-SENSE/mali/1/example/2",
+      "lexeme_id": "SAMA-LEX/mali",
+      "sense_id": "SAMA-SENSE/mali/1",
+      "sama": "Mi si weno mali.",
+      "ru": "Я вижу грязную одежду."
+    },
+    {
+      "id": "SAMA-SENSE/mami/1/example/1",
+      "lexeme_id": "SAMA-LEX/mami",
+      "sense_id": "SAMA-SENSE/mami/1",
+      "sama": "Mami ama nina.",
+      "ru": "Родитель любит ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/mami/1/example/2",
+      "lexeme_id": "SAMA-LEX/mami",
+      "sense_id": "SAMA-SENSE/mami/1",
+      "sama": "Mi si mami li.",
+      "ru": "Я вижу родителей."
+    },
+    {
+      "id": "SAMA-SENSE/mato/1/example/1",
+      "lexeme_id": "SAMA-LEX/mato",
+      "sense_id": "SAMA-SENSE/mato/1",
+      "sama": "Mato bi daba.",
+      "ru": "Дерево большое."
+    },
+    {
+      "id": "SAMA-SENSE/mato/1/example/2",
+      "lexeme_id": "SAMA-LEX/mato",
+      "sense_id": "SAMA-SENSE/mato/1",
+      "sama": "Mi si mato nana lima.",
+      "ru": "Я вижу дерево внутри леса."
+    },
+    {
+      "id": "SAMA-SENSE/matu/1/example/1",
+      "lexeme_id": "SAMA-LEX/matu",
+      "sense_id": "SAMA-SENSE/matu/1",
+      "sama": "Matu kami nina.",
+      "ru": "Взрослый помогает ребёнку."
+    },
+    {
+      "id": "SAMA-SENSE/matu/1/example/2",
+      "lexeme_id": "SAMA-LEX/matu",
+      "sense_id": "SAMA-SENSE/matu/1",
+      "sama": "Mi si matu na doma.",
+      "ru": "Я вижу взрослого дома."
+    },
+    {
+      "id": "SAMA-SENSE/mawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/mawa",
+      "sense_id": "SAMA-SENSE/mawa/1",
+      "sama": "Bodu de mi bi mawa.",
+      "ru": "Моё тело сильное."
+    },
+    {
+      "id": "SAMA-SENSE/mawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/mawa",
+      "sense_id": "SAMA-SENSE/mawa/1",
+      "sama": "Mi si polo mawa.",
+      "ru": "Я вижу сильную лошадь."
+    },
+    {
+      "id": "SAMA-SENSE/mawi/1/example/1",
+      "lexeme_id": "SAMA-LEX/mawi",
+      "sense_id": "SAMA-SENSE/mawi/1",
+      "sama": "Mawi bi na doma.",
+      "ru": "Гость дома."
+    },
+    {
+      "id": "SAMA-SENSE/mawi/1/example/2",
+      "lexeme_id": "SAMA-LEX/mawi",
+      "sense_id": "SAMA-SENSE/mawi/1",
+      "sama": "Mama pako su to mawi.",
+      "ru": "Мама даёт гостю воду."
+    },
+    {
+      "id": "SAMA-SENSE/meda/1/example/1",
+      "lexeme_id": "SAMA-LEX/meda",
+      "sense_id": "SAMA-SENSE/meda/1",
+      "sama": "Meda bi na mesa.",
+      "ru": "Лекарство на столе."
+    },
+    {
+      "id": "SAMA-SENSE/meda/1/example/2",
+      "lexeme_id": "SAMA-LEX/meda",
+      "sense_id": "SAMA-SENSE/meda/1",
+      "sama": "Mi si meda.",
+      "ru": "Я вижу лекарство."
+    },
+    {
+      "id": "SAMA-SENSE/medo/1/example/1",
+      "lexeme_id": "SAMA-LEX/medo",
+      "sense_id": "SAMA-SENSE/medo/1",
+      "sama": "Meka medo nina.",
+      "ru": "Врач лечит ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/medo/1/example/2",
+      "lexeme_id": "SAMA-LEX/medo",
+      "sense_id": "SAMA-SENSE/medo/1",
+      "sama": "Meka pa medo mi.",
+      "ru": "Врач лечил меня."
+    },
+    {
+      "id": "SAMA-SENSE/meka/1/example/1",
+      "lexeme_id": "SAMA-LEX/meka",
+      "sense_id": "SAMA-SENSE/meka/1",
+      "sama": "Meka bi na luma.",
+      "ru": "Врач в комнате."
+    },
+    {
+      "id": "SAMA-SENSE/meka/1/example/2",
+      "lexeme_id": "SAMA-LEX/meka",
+      "sense_id": "SAMA-SENSE/meka/1",
+      "sama": "Mi toka ko meka.",
+      "ru": "Я говорю с врачом."
+    },
+    {
+      "id": "SAMA-SENSE/melo/1/example/1",
+      "lexeme_id": "SAMA-LEX/melo",
+      "sense_id": "SAMA-SENSE/melo/1",
+      "sama": "Melo bi na kopa.",
+      "ru": "Мёд в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/melo/1/example/2",
+      "lexeme_id": "SAMA-LEX/melo",
+      "sense_id": "SAMA-SENSE/melo/1",
+      "sama": "Mi kula melo.",
+      "ru": "Я ем мёд."
+    },
+    {
+      "id": "SAMA-SENSE/meya/1/example/1",
+      "lexeme_id": "SAMA-LEX/meya",
+      "sense_id": "SAMA-SENSE/meya/1",
+      "sama": "Ena meya bi yoma.",
+      "ru": "Этот месяц важен."
+    },
+    {
+      "id": "SAMA-SENSE/meya/1/example/2",
+      "lexeme_id": "SAMA-LEX/meya",
+      "sense_id": "SAMA-SENSE/meya/1",
+      "sama": "Mi la lena na ona meya.",
+      "ru": "Я буду учиться в тот месяц."
+    },
+    {
+      "id": "SAMA-SENSE/mika/1/example/1",
+      "lexeme_id": "SAMA-LEX/mika",
+      "sense_id": "SAMA-SENSE/mika/1",
+      "sama": "Mi mika wina.",
+      "ru": "Я внимательно смотрю на окно."
+    },
+    {
+      "id": "SAMA-SENSE/mika/1/example/2",
+      "lexeme_id": "SAMA-LEX/mika",
+      "sense_id": "SAMA-SENSE/mika/1",
+      "sama": "Nina pa mika kato.",
+      "ru": "Ребёнок внимательно смотрел на кошку."
+    },
+    {
+      "id": "SAMA-SENSE/miku/1/example/1",
+      "lexeme_id": "SAMA-LEX/miku",
+      "sense_id": "SAMA-SENSE/miku/1",
+      "sama": "Nina pina miku.",
+      "ru": "Ребёнок пьёт молоко."
+    },
+    {
+      "id": "SAMA-SENSE/miku/1/example/2",
+      "lexeme_id": "SAMA-LEX/miku",
+      "sense_id": "SAMA-SENSE/miku/1",
+      "sama": "Miku bi na kopa.",
+      "ru": "Молоко в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/mili/1/example/1",
+      "lexeme_id": "SAMA-LEX/mili",
+      "sense_id": "SAMA-SENSE/mili/1",
+      "sama": "Mili de nina bi bulu.",
+      "ru": "Глаз ребёнка синий."
+    },
+    {
+      "id": "SAMA-SENSE/mili/1/example/2",
+      "lexeme_id": "SAMA-LEX/mili",
+      "sense_id": "SAMA-SENSE/mili/1",
+      "sama": "Mi si mili li de yu.",
+      "ru": "Я вижу твои глаза."
+    },
+    {
+      "id": "SAMA-SENSE/mima/1/example/1",
+      "lexeme_id": "SAMA-LEX/mima",
+      "sense_id": "SAMA-SENSE/mima/1",
+      "sama": "Mi mima nami de yu.",
+      "ru": "Я помню твоё имя."
+    },
+    {
+      "id": "SAMA-SENSE/mima/1/example/2",
+      "lexeme_id": "SAMA-LEX/mima",
+      "sense_id": "SAMA-SENSE/mima/1",
+      "sama": "Yu mima mi ka?",
+      "ru": "Ты помнишь меня?"
+    },
+    {
+      "id": "SAMA-SENSE/mimi/1/example/1",
+      "lexeme_id": "SAMA-LEX/mimi",
+      "sense_id": "SAMA-SENSE/mimi/1",
+      "sama": "Mimi bi mini.",
+      "ru": "Насекомое маленькое."
+    },
+    {
+      "id": "SAMA-SENSE/mimi/1/example/2",
+      "lexeme_id": "SAMA-LEX/mimi",
+      "sense_id": "SAMA-SENSE/mimi/1",
+      "sama": "Mi si mimi na tana.",
+      "ru": "Я вижу насекомое на цветке."
+    },
+    {
+      "id": "SAMA-SENSE/misa/1/example/1",
+      "lexeme_id": "SAMA-LEX/misa",
+      "sense_id": "SAMA-SENSE/misa/1",
+      "sama": "Misa bi na mesa.",
+      "ru": "Ключ на столе."
+    },
+    {
+      "id": "SAMA-SENSE/misa/1/example/2",
+      "lexeme_id": "SAMA-LEX/misa",
+      "sense_id": "SAMA-SENSE/misa/1",
+      "sama": "Mi tako misa de mi.",
+      "ru": "Я беру свой ключ."
+    },
+    {
+      "id": "SAMA-SENSE/miso/1/example/1",
+      "lexeme_id": "SAMA-LEX/miso",
+      "sense_id": "SAMA-SENSE/miso/1",
+      "sama": "Mi kula miso.",
+      "ru": "Я ем суп."
+    },
+    {
+      "id": "SAMA-SENSE/miso/1/example/2",
+      "lexeme_id": "SAMA-LEX/miso",
+      "sense_id": "SAMA-SENSE/miso/1",
+      "sama": "Miso bi tapa.",
+      "ru": "Суп тёплый."
+    },
+    {
+      "id": "SAMA-SENSE/mita/1/example/1",
+      "lexeme_id": "SAMA-LEX/mita",
+      "sense_id": "SAMA-SENSE/mita/1",
+      "sama": "Mita bi mini.",
+      "ru": "Мышь маленькая."
+    },
+    {
+      "id": "SAMA-SENSE/mita/1/example/2",
+      "lexeme_id": "SAMA-LEX/mita",
+      "sense_id": "SAMA-SENSE/mita/1",
+      "sama": "Kato si mita.",
+      "ru": "Кошка видит мышь."
+    },
+    {
+      "id": "SAMA-SENSE/moko/1/example/1",
+      "lexeme_id": "SAMA-LEX/moko",
+      "sense_id": "SAMA-SENSE/moko/1",
+      "sama": "Lasa bi moko.",
+      "ru": "Волосы короткие."
+    },
+    {
+      "id": "SAMA-SENSE/moko/1/example/2",
+      "lexeme_id": "SAMA-LEX/moko",
+      "sense_id": "SAMA-SENSE/moko/1",
+      "sama": "Mi si loma moko.",
+      "ru": "Я вижу короткую ложку."
+    },
+    {
+      "id": "SAMA-SENSE/mona/1/example/1",
+      "lexeme_id": "SAMA-LEX/mona",
+      "sense_id": "SAMA-SENSE/mona/1",
+      "sama": "Mona de mi bi pali.",
+      "ru": "Моя кожа чистая."
+    },
+    {
+      "id": "SAMA-SENSE/mona/1/example/2",
+      "lexeme_id": "SAMA-LEX/mona",
+      "sense_id": "SAMA-SENSE/mona/1",
+      "sama": "Mona bi yoma.",
+      "ru": "Кожа важна."
+    },
+    {
+      "id": "SAMA-SENSE/mono/1/example/1",
+      "lexeme_id": "SAMA-LEX/mono",
+      "sense_id": "SAMA-SENSE/mono/1",
+      "sama": "Mono bi na bano.",
+      "ru": "Мужчина в городе."
+    },
+    {
+      "id": "SAMA-SENSE/mono/1/example/2",
+      "lexeme_id": "SAMA-LEX/mono",
+      "sense_id": "SAMA-SENSE/mono/1",
+      "sama": "Mi si mono sili.",
+      "ru": "Я вижу вежливого мужчину."
+    },
+    {
+      "id": "SAMA-SENSE/muka/1/example/1",
+      "lexeme_id": "SAMA-LEX/muka",
+      "sense_id": "SAMA-SENSE/muka/1",
+      "sama": "Muka bi na kala.",
+      "ru": "Корова на месте."
+    },
+    {
+      "id": "SAMA-SENSE/muka/1/example/2",
+      "lexeme_id": "SAMA-LEX/muka",
+      "sense_id": "SAMA-SENSE/muka/1",
+      "sama": "Nina si muka.",
+      "ru": "Ребёнок видит корову."
+    },
+    {
+      "id": "SAMA-SENSE/mumu/1/example/1",
+      "lexeme_id": "SAMA-LEX/mumu",
+      "sense_id": "SAMA-SENSE/mumu/1",
+      "sama": "Balo bi mumu.",
+      "ru": "Сумка коричневая."
+    },
+    {
+      "id": "SAMA-SENSE/mumu/1/example/2",
+      "lexeme_id": "SAMA-LEX/mumu",
+      "sense_id": "SAMA-SENSE/mumu/1",
+      "sama": "Mi si beto mumu.",
+      "ru": "Я вижу коричневую кровать."
+    },
+    {
+      "id": "SAMA-SENSE/muna/1/example/1",
+      "lexeme_id": "SAMA-LEX/muna",
+      "sense_id": "SAMA-SENSE/muna/1",
+      "sama": "Limo bi muna.",
+      "ru": "Лимон жёлтый."
+    },
+    {
+      "id": "SAMA-SENSE/muna/1/example/2",
+      "lexeme_id": "SAMA-LEX/muna",
+      "sense_id": "SAMA-SENSE/muna/1",
+      "sama": "Mi tako kopa muna.",
+      "ru": "Я беру жёлтую чашку."
+    },
+    {
+      "id": "SAMA-SENSE/muto/1/example/1",
+      "lexeme_id": "SAMA-LEX/muto",
+      "sense_id": "SAMA-SENSE/muto/1",
+      "sama": "Muto de nina bi pali.",
+      "ru": "Рот ребёнка чистый."
+    },
+    {
+      "id": "SAMA-SENSE/muto/1/example/2",
+      "lexeme_id": "SAMA-LEX/muto",
+      "sense_id": "SAMA-SENSE/muto/1",
+      "sama": "Mi si muto de yu.",
+      "ru": "Я вижу твой рот."
+    },
+    {
+      "id": "SAMA-SENSE/nado/1/example/1",
+      "lexeme_id": "SAMA-LEX/nado",
+      "sense_id": "SAMA-SENSE/nado/1",
+      "sama": "Nado bi lali doma.",
+      "ru": "Камень рядом с домом."
+    },
+    {
+      "id": "SAMA-SENSE/nado/1/example/2",
+      "lexeme_id": "SAMA-LEX/nado",
+      "sense_id": "SAMA-SENSE/nado/1",
+      "sama": "Mi tako nado mini.",
+      "ru": "Я беру маленький камень."
+    },
+    {
+      "id": "SAMA-SENSE/naka/1/example/1",
+      "lexeme_id": "SAMA-LEX/naka",
+      "sense_id": "SAMA-SENSE/naka/1",
+      "sama": "Mi naka bama.",
+      "ru": "Я выполняю работу."
+    },
+    {
+      "id": "SAMA-SENSE/naka/1/example/2",
+      "lexeme_id": "SAMA-LEX/naka",
+      "sense_id": "SAMA-SENSE/naka/1",
+      "sama": "Yu pa te naka delo.",
+      "ru": "Ты закончил выполнение задачи."
+    },
+    {
+      "id": "SAMA-SENSE/naki/1/example/1",
+      "lexeme_id": "SAMA-LEX/naki",
+      "sense_id": "SAMA-SENSE/naki/1",
+      "sama": "Naki de yu bi bona.",
+      "ru": "Твой ответ хороший."
+    },
+    {
+      "id": "SAMA-SENSE/naki/1/example/2",
+      "lexeme_id": "SAMA-LEX/naki",
+      "sense_id": "SAMA-SENSE/naki/1",
+      "sama": "Mi pako naki to yu.",
+      "ru": "Я даю тебе ответ."
+    },
+    {
+      "id": "SAMA-SENSE/nalo/1/example/1",
+      "lexeme_id": "SAMA-LEX/nalo",
+      "sense_id": "SAMA-SENSE/nalo/1",
+      "sama": "Mi kula nalo.",
+      "ru": "Я ем апельсин."
+    },
+    {
+      "id": "SAMA-SENSE/nalo/1/example/2",
+      "lexeme_id": "SAMA-LEX/nalo",
+      "sense_id": "SAMA-SENSE/nalo/1",
+      "sama": "Nalo bi na pila.",
+      "ru": "Апельсин на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/namiwa/1/example/1",
+      "lexeme_id": "SAMA-LEX/namiwa",
+      "sense_id": "SAMA-SENSE/namiwa/1",
+      "sama": "Namiwa de mi bi sili.",
+      "ru": "Мой сосед вежливый."
+    },
+    {
+      "id": "SAMA-SENSE/namiwa/1/example/2",
+      "lexeme_id": "SAMA-LEX/namiwa",
+      "sense_id": "SAMA-SENSE/namiwa/1",
+      "sama": "Mi toka ko namiwa.",
+      "ru": "Я говорю с соседом."
+    },
+    {
+      "id": "SAMA-SENSE/namiya/1/example/1",
+      "lexeme_id": "SAMA-LEX/namiya",
+      "sense_id": "SAMA-SENSE/namiya/1",
+      "sama": "Namiya de mi bi na bano.",
+      "ru": "Мой знакомый в городе."
+    },
+    {
+      "id": "SAMA-SENSE/namiya/1/example/2",
+      "lexeme_id": "SAMA-LEX/namiya",
+      "sense_id": "SAMA-SENSE/namiya/1",
+      "sama": "Mi si namiya.",
+      "ru": "Я вижу знакомого."
+    },
+    {
+      "id": "SAMA-SENSE/nana/1/example/1",
+      "lexeme_id": "SAMA-LEX/nana",
+      "sense_id": "SAMA-SENSE/nana/1",
+      "sama": "Kaso bi nana balo.",
+      "ru": "Книга внутри сумки."
+    },
+    {
+      "id": "SAMA-SENSE/nana/1/example/2",
+      "lexeme_id": "SAMA-LEX/nana",
+      "sense_id": "SAMA-SENSE/nana/1",
+      "sama": "Kato lako nana doma.",
+      "ru": "Кошка спит внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/napa/1/example/1",
+      "lexeme_id": "SAMA-LEX/napa",
+      "sense_id": "SAMA-SENSE/napa/1",
+      "sama": "Napa de babi bi mini.",
+      "ru": "Живот младенца маленький."
+    },
+    {
+      "id": "SAMA-SENSE/napa/1/example/2",
+      "lexeme_id": "SAMA-LEX/napa",
+      "sense_id": "SAMA-SENSE/napa/1",
+      "sama": "Mi si napa de kato.",
+      "ru": "Я вижу живот кошки."
+    },
+    {
+      "id": "SAMA-SENSE/nasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/nasa",
+      "sense_id": "SAMA-SENSE/nasa/1",
+      "sama": "Nasa de mi bi yoma.",
+      "ru": "Моя родина важна."
+    },
+    {
+      "id": "SAMA-SENSE/nasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/nasa",
+      "sense_id": "SAMA-SENSE/nasa/1",
+      "sama": "Mi ama nasa de mi.",
+      "ru": "Я люблю свою родину."
+    },
+    {
+      "id": "SAMA-SENSE/nasi/1/example/1",
+      "lexeme_id": "SAMA-LEX/nasi",
+      "sense_id": "SAMA-SENSE/nasi/1",
+      "sama": "Mi kula nasi.",
+      "ru": "Я ем рис."
+    },
+    {
+      "id": "SAMA-SENSE/nasi/1/example/2",
+      "lexeme_id": "SAMA-LEX/nasi",
+      "sense_id": "SAMA-SENSE/nasi/1",
+      "sama": "Nasi bi na pila.",
+      "ru": "Рис на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/naso/1/example/1",
+      "lexeme_id": "SAMA-LEX/naso",
+      "sense_id": "SAMA-SENSE/naso/1",
+      "sama": "Naso de nina bi mini.",
+      "ru": "Нос ребёнка маленький."
+    },
+    {
+      "id": "SAMA-SENSE/naso/1/example/2",
+      "lexeme_id": "SAMA-LEX/naso",
+      "sense_id": "SAMA-SENSE/naso/1",
+      "sama": "Mi si naso de yu.",
+      "ru": "Я вижу твой нос."
+    },
+    {
+      "id": "SAMA-SENSE/nato/1/example/1",
+      "lexeme_id": "SAMA-LEX/nato",
+      "sense_id": "SAMA-SENSE/nato/1",
+      "sama": "Nato de mi bi daba.",
+      "ru": "Мой народ большой."
+    },
+    {
+      "id": "SAMA-SENSE/nato/1/example/2",
+      "lexeme_id": "SAMA-LEX/nato",
+      "sense_id": "SAMA-SENSE/nato/1",
+      "sama": "Wema de nato bi yoma.",
+      "ru": "Культура народа важна."
+    },
+    {
+      "id": "SAMA-SENSE/nawi/1/example/1",
+      "lexeme_id": "SAMA-LEX/nawi",
+      "sense_id": "SAMA-SENSE/nawi/1",
+      "sama": "Mi nawi bama.",
+      "ru": "Я начинаю работу."
+    },
+    {
+      "id": "SAMA-SENSE/nawi/1/example/2",
+      "lexeme_id": "SAMA-LEX/nawi",
+      "sense_id": "SAMA-SENSE/nawi/1",
+      "sama": "Yu pa nawi delo.",
+      "ru": "Ты начал задачу."
+    },
+    {
+      "id": "SAMA-SENSE/nema/1/example/1",
+      "lexeme_id": "SAMA-LEX/nema",
+      "sense_id": "SAMA-SENSE/nema/1",
+      "sama": "Nema de mi bi mawa.",
+      "ru": "Моя шея сильная."
+    },
+    {
+      "id": "SAMA-SENSE/nema/1/example/2",
+      "lexeme_id": "SAMA-LEX/nema",
+      "sense_id": "SAMA-SENSE/nema/1",
+      "sama": "Mi si nema de polo.",
+      "ru": "Я вижу шею лошади."
+    },
+    {
+      "id": "SAMA-SENSE/nemi/1/example/1",
+      "lexeme_id": "SAMA-LEX/nemi",
+      "sense_id": "SAMA-SENSE/nemi/1",
+      "sama": "Bodu de mi bi nemi.",
+      "ru": "Моё тело слабое."
+    },
+    {
+      "id": "SAMA-SENSE/nemi/1/example/2",
+      "lexeme_id": "SAMA-LEX/nemi",
+      "sense_id": "SAMA-SENSE/nemi/1",
+      "sama": "Mi si siba nemi.",
+      "ru": "Я вижу слабую собаку."
+    },
+    {
+      "id": "SAMA-SENSE/nemo/1/example/1",
+      "lexeme_id": "SAMA-LEX/nemo",
+      "sense_id": "SAMA-SENSE/nemo/1",
+      "sama": "Mi nemo nami de yu.",
+      "ru": "Я забываю твоё имя."
+    },
+    {
+      "id": "SAMA-SENSE/nemo/1/example/2",
+      "lexeme_id": "SAMA-LEX/nemo",
+      "sense_id": "SAMA-SENSE/nemo/1",
+      "sama": "Yu pa nemo mi ka?",
+      "ru": "Ты забыл меня?"
+    },
+    {
+      "id": "SAMA-SENSE/nilo/1/example/1",
+      "lexeme_id": "SAMA-LEX/nilo",
+      "sense_id": "SAMA-SENSE/nilo/1",
+      "sama": "Bano bi nilo.",
+      "ru": "Город далёкий."
+    },
+    {
+      "id": "SAMA-SENSE/nilo/1/example/2",
+      "lexeme_id": "SAMA-LEX/nilo",
+      "sense_id": "SAMA-SENSE/nilo/1",
+      "sama": "Mi si tano nilo.",
+      "ru": "Я вижу далёкую гору."
+    },
+    {
+      "id": "SAMA-SENSE/nini/1/example/1",
+      "lexeme_id": "SAMA-LEX/nini",
+      "sense_id": "SAMA-SENSE/nini/1",
+      "sama": "Nini bi na mato.",
+      "ru": "Птица на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/nini/1/example/2",
+      "lexeme_id": "SAMA-LEX/nini",
+      "sense_id": "SAMA-SENSE/nini/1",
+      "sama": "Nina si nini.",
+      "ru": "Ребёнок видит птицу."
+    },
+    {
+      "id": "SAMA-SENSE/nipa/1/example/1",
+      "lexeme_id": "SAMA-LEX/nipa",
+      "sense_id": "SAMA-SENSE/nipa/1",
+      "sama": "Mi nipa peta.",
+      "ru": "Я открываю дверь."
+    },
+    {
+      "id": "SAMA-SENSE/nipa/1/example/2",
+      "lexeme_id": "SAMA-LEX/nipa",
+      "sense_id": "SAMA-SENSE/nipa/1",
+      "sama": "Yu pa te nipa wina.",
+      "ru": "Ты закончил открывать окно."
+    },
+    {
+      "id": "SAMA-SENSE/noba/1/example/1",
+      "lexeme_id": "SAMA-LEX/noba",
+      "sense_id": "SAMA-SENSE/noba/1",
+      "sama": "Lato bi noba mesa.",
+      "ru": "Лампа над столом."
+    },
+    {
+      "id": "SAMA-SENSE/noba/1/example/2",
+      "lexeme_id": "SAMA-LEX/noba",
+      "sense_id": "SAMA-SENSE/noba/1",
+      "sama": "Nini bi noba doma.",
+      "ru": "Птица над домом."
+    },
+    {
+      "id": "SAMA-SENSE/noka/1/example/1",
+      "lexeme_id": "SAMA-LEX/noka",
+      "sense_id": "SAMA-SENSE/noka/1",
+      "sama": "Mi lako na ena noka.",
+      "ru": "Я сплю этой ночью."
+    },
+    {
+      "id": "SAMA-SENSE/noka/1/example/2",
+      "lexeme_id": "SAMA-LEX/noka",
+      "sense_id": "SAMA-SENSE/noka/1",
+      "sama": "Noka bi sima.",
+      "ru": "Ночь холодная."
+    },
+    {
+      "id": "SAMA-SENSE/noki/1/example/1",
+      "lexeme_id": "SAMA-LEX/noki",
+      "sense_id": "SAMA-SENSE/noki/1",
+      "sama": "Kato bi noki.",
+      "ru": "Кошка чёрная."
+    },
+    {
+      "id": "SAMA-SENSE/noki/1/example/2",
+      "lexeme_id": "SAMA-LEX/noki",
+      "sense_id": "SAMA-SENSE/noki/1",
+      "sama": "Mi tako balo noki.",
+      "ru": "Я беру чёрную сумку."
+    },
+    {
+      "id": "SAMA-SENSE/noko/1/example/1",
+      "lexeme_id": "SAMA-LEX/noko",
+      "sense_id": "SAMA-SENSE/noko/1",
+      "sama": "Noko bi na mesa.",
+      "ru": "Нож на столе."
+    },
+    {
+      "id": "SAMA-SENSE/noko/1/example/2",
+      "lexeme_id": "SAMA-LEX/noko",
+      "sense_id": "SAMA-SENSE/noko/1",
+      "sama": "Mi si noko.",
+      "ru": "Я вижу нож."
+    },
+    {
+      "id": "SAMA-SENSE/nopa/1/example/1",
+      "lexeme_id": "SAMA-LEX/nopa",
+      "sense_id": "SAMA-SENSE/nopa/1",
+      "sama": "Mi nopa misa.",
+      "ru": "Я ищу ключ."
+    },
+    {
+      "id": "SAMA-SENSE/nopa/1/example/2",
+      "lexeme_id": "SAMA-LEX/nopa",
+      "sense_id": "SAMA-SENSE/nopa/1",
+      "sama": "Mama pa hu nopa kaso.",
+      "ru": "Мама искала книгу, находилась в процессе поиска."
+    },
+    {
+      "id": "SAMA-SENSE/nuta/1/example/1",
+      "lexeme_id": "SAMA-LEX/nuta",
+      "sense_id": "SAMA-SENSE/nuta/1",
+      "sama": "Mi kula nuta.",
+      "ru": "Я ем орех."
+    },
+    {
+      "id": "SAMA-SENSE/nuta/1/example/2",
+      "lexeme_id": "SAMA-LEX/nuta",
+      "sense_id": "SAMA-SENSE/nuta/1",
+      "sama": "Nuta li bi na pila.",
+      "ru": "Орехи на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/paba/1/example/1",
+      "lexeme_id": "SAMA-LEX/paba",
+      "sense_id": "SAMA-SENSE/paba/1",
+      "sama": "Balo bi paba.",
+      "ru": "Сумка некрасивая."
+    },
+    {
+      "id": "SAMA-SENSE/paba/1/example/2",
+      "lexeme_id": "SAMA-LEX/paba",
+      "sense_id": "SAMA-SENSE/paba/1",
+      "sama": "Mi si doma paba.",
+      "ru": "Я вижу некрасивый дом."
+    },
+    {
+      "id": "SAMA-SENSE/pado/1/example/1",
+      "lexeme_id": "SAMA-LEX/pado",
+      "sense_id": "SAMA-SENSE/pado/1",
+      "sama": "Pado de mi bi mawa.",
+      "ru": "Моя нога сильная."
+    },
+    {
+      "id": "SAMA-SENSE/pado/1/example/2",
+      "lexeme_id": "SAMA-LEX/pado",
+      "sense_id": "SAMA-SENSE/pado/1",
+      "sama": "Mi si pado de nina.",
+      "ru": "Я вижу ногу ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/paka/1/example/1",
+      "lexeme_id": "SAMA-LEX/paka",
+      "sense_id": "SAMA-SENSE/paka/1",
+      "sama": "Paka bi wawa.",
+      "ru": "Стена белая."
+    },
+    {
+      "id": "SAMA-SENSE/paka/1/example/2",
+      "lexeme_id": "SAMA-LEX/paka",
+      "sense_id": "SAMA-SENSE/paka/1",
+      "sama": "Mi si paka nawa.",
+      "ru": "Я вижу новую стену."
+    },
+    {
+      "id": "SAMA-SENSE/paki/1/example/1",
+      "lexeme_id": "SAMA-LEX/paki",
+      "sense_id": "SAMA-SENSE/paki/1",
+      "sama": "Mi paki peta.",
+      "ru": "Я закрываю дверь."
+    },
+    {
+      "id": "SAMA-SENSE/paki/1/example/2",
+      "lexeme_id": "SAMA-LEX/paki",
+      "sense_id": "SAMA-SENSE/paki/1",
+      "sama": "Yu pa paki wina.",
+      "ru": "Ты закрыл окно."
+    },
+    {
+      "id": "SAMA-SENSE/palae/1/example/1",
+      "lexeme_id": "SAMA-LEX/palae",
+      "sense_id": "SAMA-SENSE/palae/1",
+      "sama": "Kaso bi palae.",
+      "ru": "Книга старая."
+    },
+    {
+      "id": "SAMA-SENSE/palae/1/example/2",
+      "lexeme_id": "SAMA-LEX/palae",
+      "sense_id": "SAMA-SENSE/palae/1",
+      "sama": "Mi si doma palae.",
+      "ru": "Я вижу старый дом."
+    },
+    {
+      "id": "SAMA-SENSE/pali/1/example/1",
+      "lexeme_id": "SAMA-LEX/pali",
+      "sense_id": "SAMA-SENSE/pali/1",
+      "sama": "Kopa bi pali.",
+      "ru": "Чашка чистая."
+    },
+    {
+      "id": "SAMA-SENSE/pali/1/example/2",
+      "lexeme_id": "SAMA-LEX/pali",
+      "sense_id": "SAMA-SENSE/pali/1",
+      "sama": "Mi tako pila pali.",
+      "ru": "Я беру чистую тарелку."
+    },
+    {
+      "id": "SAMA-SENSE/palo/1/example/1",
+      "lexeme_id": "SAMA-LEX/palo",
+      "sense_id": "SAMA-SENSE/palo/1",
+      "sama": "Mi palo mesa.",
+      "ru": "Я чищу стол."
+    },
+    {
+      "id": "SAMA-SENSE/palo/1/example/2",
+      "lexeme_id": "SAMA-LEX/palo",
+      "sense_id": "SAMA-SENSE/palo/1",
+      "sama": "Yu pa te palo kopa.",
+      "ru": "Ты закончил чистить чашку."
+    },
+    {
+      "id": "SAMA-SENSE/pami/1/example/1",
+      "lexeme_id": "SAMA-LEX/pami",
+      "sense_id": "SAMA-SENSE/pami/1",
+      "sama": "Pami bi yoma.",
+      "ru": "Мир важен."
+    },
+    {
+      "id": "SAMA-SENSE/pami/1/example/2",
+      "lexeme_id": "SAMA-LEX/pami",
+      "sense_id": "SAMA-SENSE/pami/1",
+      "sama": "Mi mima pami.",
+      "ru": "Я помню мир."
+    },
+    {
+      "id": "SAMA-SENSE/pano/1/example/1",
+      "lexeme_id": "SAMA-LEX/pano",
+      "sense_id": "SAMA-SENSE/pano/1",
+      "sama": "Siba lako na pano.",
+      "ru": "Собака спит на полу."
+    },
+    {
+      "id": "SAMA-SENSE/pano/1/example/2",
+      "lexeme_id": "SAMA-LEX/pano",
+      "sense_id": "SAMA-SENSE/pano/1",
+      "sama": "Pano bi mali.",
+      "ru": "Пол грязный."
+    },
+    {
+      "id": "SAMA-SENSE/papa/1/example/1",
+      "lexeme_id": "SAMA-LEX/papa",
+      "sense_id": "SAMA-SENSE/papa/1",
+      "sama": "Apa bi papa.",
+      "ru": "Яблоко красное."
+    },
+    {
+      "id": "SAMA-SENSE/papa/1/example/2",
+      "lexeme_id": "SAMA-LEX/papa",
+      "sense_id": "SAMA-SENSE/papa/1",
+      "sama": "Mi si kopa papa.",
+      "ru": "Я вижу красную чашку."
+    },
+    {
+      "id": "SAMA-SENSE/pasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/pasa",
+      "sense_id": "SAMA-SENSE/pasa/1",
+      "sama": "Mi bi pasa.",
+      "ru": "Я грустный."
+    },
+    {
+      "id": "SAMA-SENSE/pasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/pasa",
+      "sense_id": "SAMA-SENSE/pasa/1",
+      "sama": "Mi si nina pasa.",
+      "ru": "Я вижу грустного ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/pasi/1/example/1",
+      "lexeme_id": "SAMA-LEX/pasi",
+      "sense_id": "SAMA-SENSE/pasi/1",
+      "sama": "Mi bi pasi.",
+      "ru": "Я усталый."
+    },
+    {
+      "id": "SAMA-SENSE/pasi/1/example/2",
+      "lexeme_id": "SAMA-LEX/pasi",
+      "sense_id": "SAMA-SENSE/pasi/1",
+      "sama": "Mama pa bi pasi.",
+      "ru": "Мама была уставшей."
+    },
+    {
+      "id": "SAMA-SENSE/pata/1/example/1",
+      "lexeme_id": "SAMA-LEX/pata",
+      "sense_id": "SAMA-SENSE/pata/1",
+      "sama": "Mi bi pata doma.",
+      "ru": "Я перед домом."
+    },
+    {
+      "id": "SAMA-SENSE/pata/1/example/2",
+      "lexeme_id": "SAMA-LEX/pata",
+      "sense_id": "SAMA-SENSE/pata/1",
+      "sama": "Lata bi pata dasa.",
+      "ru": "Автомобиль перед станцией."
+    },
+    {
+      "id": "SAMA-SENSE/peta/1/example/1",
+      "lexeme_id": "SAMA-LEX/peta",
+      "sense_id": "SAMA-SENSE/peta/1",
+      "sama": "Mi nipa peta.",
+      "ru": "Я открываю дверь."
+    },
+    {
+      "id": "SAMA-SENSE/peta/1/example/2",
+      "lexeme_id": "SAMA-LEX/peta",
+      "sense_id": "SAMA-SENSE/peta/1",
+      "sama": "Peta bi pali.",
+      "ru": "Дверь чистая."
+    },
+    {
+      "id": "SAMA-SENSE/pila/1/example/1",
+      "lexeme_id": "SAMA-LEX/pila",
+      "sense_id": "SAMA-SENSE/pila/1",
+      "sama": "Pana bi na pila.",
+      "ru": "Хлеб на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/pila/1/example/2",
+      "lexeme_id": "SAMA-LEX/pila",
+      "sense_id": "SAMA-SENSE/pila/1",
+      "sama": "Mi tako pila.",
+      "ru": "Я беру тарелку."
+    },
+    {
+      "id": "SAMA-SENSE/pilo/1/example/1",
+      "lexeme_id": "SAMA-LEX/pilo",
+      "sense_id": "SAMA-SENSE/pilo/1",
+      "sama": "Pilo bi na dasa.",
+      "ru": "Самолёт на станции."
+    },
+    {
+      "id": "SAMA-SENSE/pilo/1/example/2",
+      "lexeme_id": "SAMA-LEX/pilo",
+      "sense_id": "SAMA-SENSE/pilo/1",
+      "sama": "Mi si pilo na sami.",
+      "ru": "Я вижу самолёт в небе."
+    },
+    {
+      "id": "SAMA-SENSE/pino/1/example/1",
+      "lexeme_id": "SAMA-LEX/pino",
+      "sense_id": "SAMA-SENSE/pino/1",
+      "sama": "Pino bi lilu.",
+      "ru": "Трава зелёная."
+    },
+    {
+      "id": "SAMA-SENSE/pino/1/example/2",
+      "lexeme_id": "SAMA-LEX/pino",
+      "sense_id": "SAMA-SENSE/pino/1",
+      "sama": "Siba bi na pino.",
+      "ru": "Собака на траве."
+    },
+    {
+      "id": "SAMA-SENSE/pipo/1/example/1",
+      "lexeme_id": "SAMA-LEX/pipo",
+      "sense_id": "SAMA-SENSE/pipo/1",
+      "sama": "Pipo bi na mesa.",
+      "ru": "Перец на столе."
+    },
+    {
+      "id": "SAMA-SENSE/pipo/1/example/2",
+      "lexeme_id": "SAMA-LEX/pipo",
+      "sense_id": "SAMA-SENSE/pipo/1",
+      "sama": "Mi tako pipo.",
+      "ru": "Я беру перец."
+    },
+    {
+      "id": "SAMA-SENSE/pisi/1/example/1",
+      "lexeme_id": "SAMA-LEX/pisi",
+      "sense_id": "SAMA-SENSE/pisi/1",
+      "sama": "Pisi bi nana su.",
+      "ru": "Рыба в воде."
+    },
+    {
+      "id": "SAMA-SENSE/pisi/1/example/2",
+      "lexeme_id": "SAMA-LEX/pisi",
+      "sense_id": "SAMA-SENSE/pisi/1",
+      "sama": "Mi si pisi.",
+      "ru": "Я вижу рыбу."
+    },
+    {
+      "id": "SAMA-SENSE/poba/1/example/1",
+      "lexeme_id": "SAMA-LEX/poba",
+      "sense_id": "SAMA-SENSE/poba/1",
+      "sama": "Kato bi poba mesa.",
+      "ru": "Кошка под столом."
+    },
+    {
+      "id": "SAMA-SENSE/poba/1/example/2",
+      "lexeme_id": "SAMA-LEX/poba",
+      "sense_id": "SAMA-SENSE/poba/1",
+      "sama": "Balo bi poba seda.",
+      "ru": "Сумка под стулом."
+    },
+    {
+      "id": "SAMA-SENSE/polo/1/example/1",
+      "lexeme_id": "SAMA-LEX/polo",
+      "sense_id": "SAMA-SENSE/polo/1",
+      "sama": "Polo kita.",
+      "ru": "Лошадь бежит."
+    },
+    {
+      "id": "SAMA-SENSE/polo/1/example/2",
+      "lexeme_id": "SAMA-LEX/polo",
+      "sense_id": "SAMA-SENSE/polo/1",
+      "sama": "Mi si polo mawa.",
+      "ru": "Я вижу сильную лошадь."
+    },
+    {
+      "id": "SAMA-SENSE/poma/1/example/1",
+      "lexeme_id": "SAMA-LEX/poma",
+      "sense_id": "SAMA-SENSE/poma/1",
+      "sama": "Mi kula poma.",
+      "ru": "Я ем фрукт."
+    },
+    {
+      "id": "SAMA-SENSE/poma/1/example/2",
+      "lexeme_id": "SAMA-LEX/poma",
+      "sense_id": "SAMA-SENSE/poma/1",
+      "sama": "Poma li bi na pila.",
+      "ru": "Фрукты на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/pota/1/example/1",
+      "lexeme_id": "SAMA-LEX/pota",
+      "sense_id": "SAMA-SENSE/pota/1",
+      "sama": "Mi kula pota.",
+      "ru": "Я ем картофель."
+    },
+    {
+      "id": "SAMA-SENSE/pota/1/example/2",
+      "lexeme_id": "SAMA-LEX/pota",
+      "sense_id": "SAMA-SENSE/pota/1",
+      "sama": "Pota bi na pila.",
+      "ru": "Картофель на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/puma/1/example/1",
+      "lexeme_id": "SAMA-LEX/puma",
+      "sense_id": "SAMA-SENSE/puma/1",
+      "sama": "Puma bi yoma.",
+      "ru": "Лёгкое важно."
+    },
+    {
+      "id": "SAMA-SENSE/puma/1/example/2",
+      "lexeme_id": "SAMA-LEX/puma",
+      "sense_id": "SAMA-SENSE/puma/1",
+      "sama": "Mi lita kaso de puma.",
+      "ru": "Я читаю книгу, связанную с лёгким."
+    },
+    {
+      "id": "SAMA-SENSE/sadi/1/example/1",
+      "lexeme_id": "SAMA-LEX/sadi",
+      "sense_id": "SAMA-SENSE/sadi/1",
+      "sama": "Loma bi sadi.",
+      "ru": "Ложка прямая."
+    },
+    {
+      "id": "SAMA-SENSE/sadi/1/example/2",
+      "lexeme_id": "SAMA-LEX/sadi",
+      "sense_id": "SAMA-SENSE/sadi/1",
+      "sama": "Mi si mato sadi.",
+      "ru": "Я вижу прямое дерево."
+    },
+    {
+      "id": "SAMA-SENSE/sado/1/example/1",
+      "lexeme_id": "SAMA-LEX/sado",
+      "sense_id": "SAMA-SENSE/sado/1",
+      "sama": "Mesa bi sado.",
+      "ru": "Стол квадратный."
+    },
+    {
+      "id": "SAMA-SENSE/sado/1/example/2",
+      "lexeme_id": "SAMA-LEX/sado",
+      "sense_id": "SAMA-SENSE/sado/1",
+      "sama": "Mi si wina sado.",
+      "ru": "Я вижу квадратное окно."
+    },
+    {
+      "id": "SAMA-SENSE/saki/1/example/1",
+      "lexeme_id": "SAMA-LEX/saki",
+      "sense_id": "SAMA-SENSE/saki/1",
+      "sama": "Saki de yu bi yoma.",
+      "ru": "Твой вопрос важен."
+    },
+    {
+      "id": "SAMA-SENSE/saki/1/example/2",
+      "lexeme_id": "SAMA-LEX/saki",
+      "sense_id": "SAMA-SENSE/saki/1",
+      "sama": "Mi lita saki.",
+      "ru": "Я читаю вопрос."
+    },
+    {
+      "id": "SAMA-SENSE/sali/1/example/1",
+      "lexeme_id": "SAMA-LEX/sali",
+      "sense_id": "SAMA-SENSE/sali/1",
+      "sama": "Sali bi na mesa.",
+      "ru": "Соль на столе."
+    },
+    {
+      "id": "SAMA-SENSE/sali/1/example/2",
+      "lexeme_id": "SAMA-LEX/sali",
+      "sense_id": "SAMA-SENSE/sali/1",
+      "sama": "Mi tako sali.",
+      "ru": "Я беру соль."
+    },
+    {
+      "id": "SAMA-SENSE/sami/1/example/1",
+      "lexeme_id": "SAMA-LEX/sami",
+      "sense_id": "SAMA-SENSE/sami/1",
+      "sama": "Sami bi bulu.",
+      "ru": "Небо синее."
+    },
+    {
+      "id": "SAMA-SENSE/sami/1/example/2",
+      "lexeme_id": "SAMA-LEX/sami",
+      "sense_id": "SAMA-SENSE/sami/1",
+      "sama": "Mi si sita li na sami.",
+      "ru": "Я вижу звёзды на небе."
+    },
+    {
+      "id": "SAMA-SENSE/sana/1/example/1",
+      "lexeme_id": "SAMA-LEX/sana",
+      "sense_id": "SAMA-SENSE/sana/1",
+      "sama": "Sana bi lilu.",
+      "ru": "Лист зелёный."
+    },
+    {
+      "id": "SAMA-SENSE/sana/1/example/2",
+      "lexeme_id": "SAMA-LEX/sana",
+      "sense_id": "SAMA-SENSE/sana/1",
+      "sama": "Mi si sana na mato.",
+      "ru": "Я вижу лист на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/sano/1/example/1",
+      "lexeme_id": "SAMA-LEX/sano",
+      "sense_id": "SAMA-SENSE/sano/1",
+      "sama": "Sano bi yoma.",
+      "ru": "Сердце важно."
+    },
+    {
+      "id": "SAMA-SENSE/sano/1/example/2",
+      "lexeme_id": "SAMA-LEX/sano",
+      "sense_id": "SAMA-SENSE/sano/1",
+      "sama": "Mi lita kaso de sano.",
+      "ru": "Я читаю книгу, связанную с сердцем."
+    },
+    {
+      "id": "SAMA-SENSE/sapo/1/example/1",
+      "lexeme_id": "SAMA-LEX/sapo",
+      "sense_id": "SAMA-SENSE/sapo/1",
+      "sama": "Sapo de nina bi mini.",
+      "ru": "Голова ребёнка маленькая."
+    },
+    {
+      "id": "SAMA-SENSE/sapo/1/example/2",
+      "lexeme_id": "SAMA-LEX/sapo",
+      "sense_id": "SAMA-SENSE/sapo/1",
+      "sama": "Mi si sapo de siba.",
+      "ru": "Я вижу голову собаки."
+    },
+    {
+      "id": "SAMA-SENSE/sasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sasa",
+      "sense_id": "SAMA-SENSE/sasa/1",
+      "sama": "Lata bi sasa.",
+      "ru": "Автомобиль быстрый."
+    },
+    {
+      "id": "SAMA-SENSE/sasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sasa",
+      "sense_id": "SAMA-SENSE/sasa/1",
+      "sama": "Mi si polo sasa.",
+      "ru": "Я вижу быструю лошадь."
+    },
+    {
+      "id": "SAMA-SENSE/sawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sawa",
+      "sense_id": "SAMA-SENSE/sawa/1",
+      "sama": "Sawa bi papa.",
+      "ru": "Крыша красная."
+    },
+    {
+      "id": "SAMA-SENSE/sawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sawa",
+      "sense_id": "SAMA-SENSE/sawa/1",
+      "sama": "Nini bi na sawa.",
+      "ru": "Птица на крыше."
+    },
+    {
+      "id": "SAMA-SENSE/saya/1/example/1",
+      "lexeme_id": "SAMA-LEX/saya",
+      "sense_id": "SAMA-SENSE/saya/1",
+      "sama": "Mi saya yu.",
+      "ru": "Я слушаю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/saya/1/example/2",
+      "lexeme_id": "SAMA-LEX/saya",
+      "sense_id": "SAMA-SENSE/saya/1",
+      "sama": "Nina pa saya.",
+      "ru": "Ребёнок слушал."
+    },
+    {
+      "id": "SAMA-SENSE/seda/1/example/1",
+      "lexeme_id": "SAMA-LEX/seda",
+      "sense_id": "SAMA-SENSE/seda/1",
+      "sama": "Seda bi lali mesa.",
+      "ru": "Стул рядом со столом."
+    },
+    {
+      "id": "SAMA-SENSE/seda/1/example/2",
+      "lexeme_id": "SAMA-LEX/seda",
+      "sense_id": "SAMA-SENSE/seda/1",
+      "sama": "Mi si seda nawa.",
+      "ru": "Я вижу новый стул."
+    },
+    {
+      "id": "SAMA-SENSE/sela/1/example/1",
+      "lexeme_id": "SAMA-LEX/sela",
+      "sense_id": "SAMA-SENSE/sela/1",
+      "sama": "Sela bi daba.",
+      "ru": "Море большое."
+    },
+    {
+      "id": "SAMA-SENSE/sela/1/example/2",
+      "lexeme_id": "SAMA-LEX/sela",
+      "sense_id": "SAMA-SENSE/sela/1",
+      "sama": "Mi bi lali sela.",
+      "ru": "Я рядом с морем."
+    },
+    {
+      "id": "SAMA-SENSE/seli/1/example/1",
+      "lexeme_id": "SAMA-LEX/seli",
+      "sense_id": "SAMA-SENSE/seli/1",
+      "sama": "Seli bi na lima.",
+      "ru": "Олень в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/seli/1/example/2",
+      "lexeme_id": "SAMA-LEX/seli",
+      "sense_id": "SAMA-SENSE/seli/1",
+      "sama": "Mi si seli.",
+      "ru": "Я вижу оленя."
+    },
+    {
+      "id": "SAMA-SENSE/siba/1/example/1",
+      "lexeme_id": "SAMA-LEX/siba",
+      "sense_id": "SAMA-SENSE/siba/1",
+      "sama": "Siba lako na pano.",
+      "ru": "Собака спит на полу."
+    },
+    {
+      "id": "SAMA-SENSE/siba/1/example/2",
+      "lexeme_id": "SAMA-LEX/siba",
+      "sense_id": "SAMA-SENSE/siba/1",
+      "sama": "Mi wako ko siba.",
+      "ru": "Я иду с собакой."
+    },
+    {
+      "id": "SAMA-SENSE/sidi/1/example/1",
+      "lexeme_id": "SAMA-LEX/sidi",
+      "sense_id": "SAMA-SENSE/sidi/1",
+      "sama": "Lapa sidi bi pali.",
+      "ru": "Левая рука чистая."
+    },
+    {
+      "id": "SAMA-SENSE/sidi/1/example/2",
+      "lexeme_id": "SAMA-LEX/sidi",
+      "sense_id": "SAMA-SENSE/sidi/1",
+      "sama": "Mi si wina sidi.",
+      "ru": "Я вижу левое окно."
+    },
+    {
+      "id": "SAMA-SENSE/sila/1/example/1",
+      "lexeme_id": "SAMA-LEX/sila",
+      "sense_id": "SAMA-SENSE/sila/1",
+      "sama": "Sila de mi lena basa.",
+      "ru": "Моя сестра изучает язык."
+    },
+    {
+      "id": "SAMA-SENSE/sila/1/example/2",
+      "lexeme_id": "SAMA-LEX/sila",
+      "sense_id": "SAMA-SENSE/sila/1",
+      "sama": "Mi toka ko sila.",
+      "ru": "Я говорю с сестрой."
+    },
+    {
+      "id": "SAMA-SENSE/silo/1/example/1",
+      "lexeme_id": "SAMA-LEX/silo",
+      "sense_id": "SAMA-SENSE/silo/1",
+      "sama": "Mi bi silo.",
+      "ru": "Я счастлив."
+    },
+    {
+      "id": "SAMA-SENSE/silo/1/example/2",
+      "lexeme_id": "SAMA-LEX/silo",
+      "sense_id": "SAMA-SENSE/silo/1",
+      "sama": "Mi si nina silo.",
+      "ru": "Я вижу счастливого ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/sima/1/example/1",
+      "lexeme_id": "SAMA-LEX/sima",
+      "sense_id": "SAMA-SENSE/sima/1",
+      "sama": "Su bi sima.",
+      "ru": "Вода холодная."
+    },
+    {
+      "id": "SAMA-SENSE/sima/1/example/2",
+      "lexeme_id": "SAMA-LEX/sima",
+      "sense_id": "SAMA-SENSE/sima/1",
+      "sama": "Mi pina miku sima.",
+      "ru": "Я пью холодное молоко."
+    },
+    {
+      "id": "SAMA-SENSE/sino/1/example/1",
+      "lexeme_id": "SAMA-LEX/sino",
+      "sense_id": "SAMA-SENSE/sino/1",
+      "sama": "Mi sino.",
+      "ru": "Я дышу."
+    },
+    {
+      "id": "SAMA-SENSE/sino/1/example/2",
+      "lexeme_id": "SAMA-LEX/sino",
+      "sense_id": "SAMA-SENSE/sino/1",
+      "sama": "Babi pa sino.",
+      "ru": "Младенец дышал."
+    },
+    {
+      "id": "SAMA-SENSE/sisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sisa",
+      "sense_id": "SAMA-SENSE/sisa/1",
+      "sama": "Sisa bi na nado.",
+      "ru": "Змея на камне."
+    },
+    {
+      "id": "SAMA-SENSE/sisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sisa",
+      "sense_id": "SAMA-SENSE/sisa/1",
+      "sama": "Mi si sisa.",
+      "ru": "Я вижу змею."
+    },
+    {
+      "id": "SAMA-SENSE/sisi/1/example/1",
+      "lexeme_id": "SAMA-LEX/sisi",
+      "sense_id": "SAMA-SENSE/sisi/1",
+      "sama": "Seda bi sisi.",
+      "ru": "Стул серый."
+    },
+    {
+      "id": "SAMA-SENSE/sisi/1/example/2",
+      "lexeme_id": "SAMA-LEX/sisi",
+      "sense_id": "SAMA-SENSE/sisi/1",
+      "sama": "Mi si kato sisi.",
+      "ru": "Я вижу серую кошку."
+    },
+    {
+      "id": "SAMA-SENSE/sita/1/example/1",
+      "lexeme_id": "SAMA-LEX/sita",
+      "sense_id": "SAMA-SENSE/sita/1",
+      "sama": "Sita li bi na sami.",
+      "ru": "Звёзды на небе."
+    },
+    {
+      "id": "SAMA-SENSE/sita/1/example/2",
+      "lexeme_id": "SAMA-LEX/sita",
+      "sense_id": "SAMA-SENSE/sita/1",
+      "sama": "Mi si sita.",
+      "ru": "Я вижу звезду."
+    },
+    {
+      "id": "SAMA-SENSE/sopa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sopa",
+      "sense_id": "SAMA-SENSE/sopa/1",
+      "sama": "Mi sopa yu.",
+      "ru": "Я жду тебя."
+    },
+    {
+      "id": "SAMA-SENSE/sopa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sopa",
+      "sense_id": "SAMA-SENSE/sopa/1",
+      "sama": "Ami pa hu sopa.",
+      "ru": "Друг находился в процессе ожидания."
+    },
+    {
+      "id": "SAMA-SENSE/suka/1/example/1",
+      "lexeme_id": "SAMA-LEX/suka",
+      "sense_id": "SAMA-SENSE/suka/1",
+      "sama": "Suka bi na mesa.",
+      "ru": "Сахар на столе."
+    },
+    {
+      "id": "SAMA-SENSE/suka/1/example/2",
+      "lexeme_id": "SAMA-LEX/suka",
+      "sense_id": "SAMA-SENSE/suka/1",
+      "sama": "Mi tako suka.",
+      "ru": "Я беру сахар."
+    },
+    {
+      "id": "SAMA-SENSE/suna/1/example/1",
+      "lexeme_id": "SAMA-LEX/suna",
+      "sense_id": "SAMA-SENSE/suna/1",
+      "sama": "Suna suno.",
+      "ru": "Солнце светит."
+    },
+    {
+      "id": "SAMA-SENSE/suna/1/example/2",
+      "lexeme_id": "SAMA-LEX/suna",
+      "sense_id": "SAMA-SENSE/suna/1",
+      "sama": "Mi si suna.",
+      "ru": "Я вижу Солнце."
+    },
+    {
+      "id": "SAMA-SENSE/suni/1/example/1",
+      "lexeme_id": "SAMA-LEX/suni",
+      "sense_id": "SAMA-SENSE/suni/1",
+      "sama": "Weno bi suni.",
+      "ru": "Одежда светлая."
+    },
+    {
+      "id": "SAMA-SENSE/suni/1/example/2",
+      "lexeme_id": "SAMA-LEX/suni",
+      "sense_id": "SAMA-SENSE/suni/1",
+      "sama": "Mi tako balo suni.",
+      "ru": "Я беру светлую сумку."
+    },
+    {
+      "id": "SAMA-SENSE/suno/1/example/1",
+      "lexeme_id": "SAMA-LEX/suno",
+      "sense_id": "SAMA-SENSE/suno/1",
+      "sama": "Lato suno.",
+      "ru": "Лампа светит."
+    },
+    {
+      "id": "SAMA-SENSE/suno/1/example/2",
+      "lexeme_id": "SAMA-LEX/suno",
+      "sense_id": "SAMA-SENSE/suno/1",
+      "sama": "Suna pa suno.",
+      "ru": "Солнце светило."
+    },
+    {
+      "id": "SAMA-SENSE/tadi/1/example/1",
+      "lexeme_id": "SAMA-LEX/tadi",
+      "sense_id": "SAMA-SENSE/tadi/1",
+      "sama": "Delo bi tadi.",
+      "ru": "Задача трудная."
+    },
+    {
+      "id": "SAMA-SENSE/tadi/1/example/2",
+      "lexeme_id": "SAMA-LEX/tadi",
+      "sense_id": "SAMA-SENSE/tadi/1",
+      "sama": "Mi naka bama tadi.",
+      "ru": "Я выполняю трудную работу."
+    },
+    {
+      "id": "SAMA-SENSE/talo/1/example/1",
+      "lexeme_id": "SAMA-LEX/talo",
+      "sense_id": "SAMA-SENSE/talo/1",
+      "sama": "Talo bi na mesa.",
+      "ru": "Инструмент на столе."
+    },
+    {
+      "id": "SAMA-SENSE/talo/1/example/2",
+      "lexeme_id": "SAMA-LEX/talo",
+      "sense_id": "SAMA-SENSE/talo/1",
+      "sama": "Mi tako talo.",
+      "ru": "Я беру инструмент."
+    },
+    {
+      "id": "SAMA-SENSE/tami/1/example/1",
+      "lexeme_id": "SAMA-LEX/tami",
+      "sense_id": "SAMA-SENSE/tami/1",
+      "sama": "Mi tami doku.",
+      "ru": "Я проверяю документ."
+    },
+    {
+      "id": "SAMA-SENSE/tami/1/example/2",
+      "lexeme_id": "SAMA-LEX/tami",
+      "sense_id": "SAMA-SENSE/tami/1",
+      "sama": "Yu pa te tami delo.",
+      "ru": "Ты закончил проверку задачи."
+    },
+    {
+      "id": "SAMA-SENSE/tamo/1/example/1",
+      "lexeme_id": "SAMA-LEX/tamo",
+      "sense_id": "SAMA-SENSE/tamo/1",
+      "sama": "Tamo bi papa.",
+      "ru": "Кровь красная."
+    },
+    {
+      "id": "SAMA-SENSE/tamo/1/example/2",
+      "lexeme_id": "SAMA-LEX/tamo",
+      "sense_id": "SAMA-SENSE/tamo/1",
+      "sama": "Mi si tamo.",
+      "ru": "Я вижу кровь."
+    },
+    {
+      "id": "SAMA-SENSE/tana/1/example/1",
+      "lexeme_id": "SAMA-LEX/tana",
+      "sense_id": "SAMA-SENSE/tana/1",
+      "sama": "Tana bi bali.",
+      "ru": "Цветок красивый."
+    },
+    {
+      "id": "SAMA-SENSE/tana/1/example/2",
+      "lexeme_id": "SAMA-LEX/tana",
+      "sense_id": "SAMA-SENSE/tana/1",
+      "sama": "Mi tako tana.",
+      "ru": "Я беру цветок."
+    },
+    {
+      "id": "SAMA-SENSE/tano/1/example/1",
+      "lexeme_id": "SAMA-LEX/tano",
+      "sense_id": "SAMA-SENSE/tano/1",
+      "sama": "Tano bi daba.",
+      "ru": "Гора большая."
+    },
+    {
+      "id": "SAMA-SENSE/tano/1/example/2",
+      "lexeme_id": "SAMA-LEX/tano",
+      "sense_id": "SAMA-SENSE/tano/1",
+      "sama": "Mi si tano nilo.",
+      "ru": "Я вижу далёкую гору."
+    },
+    {
+      "id": "SAMA-SENSE/tapa/1/example/1",
+      "lexeme_id": "SAMA-LEX/tapa",
+      "sense_id": "SAMA-SENSE/tapa/1",
+      "sama": "Miso bi tapa.",
+      "ru": "Суп тёплый."
+    },
+    {
+      "id": "SAMA-SENSE/tapa/1/example/2",
+      "lexeme_id": "SAMA-LEX/tapa",
+      "sense_id": "SAMA-SENSE/tapa/1",
+      "sama": "Mi pina su tapa.",
+      "ru": "Я пью тёплую воду."
+    },
+    {
+      "id": "SAMA-SENSE/tawi/1/example/1",
+      "lexeme_id": "SAMA-LEX/tawi",
+      "sense_id": "SAMA-SENSE/tawi/1",
+      "sama": "Mi tawi bama.",
+      "ru": "Я заканчиваю работу."
+    },
+    {
+      "id": "SAMA-SENSE/tawi/1/example/2",
+      "lexeme_id": "SAMA-LEX/tawi",
+      "sense_id": "SAMA-SENSE/tawi/1",
+      "sama": "Yu pa tawi delo.",
+      "ru": "Ты закончил задачу."
+    },
+    {
+      "id": "SAMA-SENSE/telo/1/example/1",
+      "lexeme_id": "SAMA-LEX/telo",
+      "sense_id": "SAMA-SENSE/telo/1",
+      "sama": "Mesa bi telo.",
+      "ru": "Стол круглый."
+    },
+    {
+      "id": "SAMA-SENSE/telo/1/example/2",
+      "lexeme_id": "SAMA-LEX/telo",
+      "sense_id": "SAMA-SENSE/telo/1",
+      "sama": "Mi si wina telo.",
+      "ru": "Я вижу круглое окно."
+    },
+    {
+      "id": "SAMA-SENSE/teya/1/example/1",
+      "lexeme_id": "SAMA-LEX/teya",
+      "sense_id": "SAMA-SENSE/teya/1",
+      "sama": "Mi pina teya.",
+      "ru": "Я пью чай."
+    },
+    {
+      "id": "SAMA-SENSE/teya/1/example/2",
+      "lexeme_id": "SAMA-LEX/teya",
+      "sense_id": "SAMA-SENSE/teya/1",
+      "sama": "Teya bi na kopa.",
+      "ru": "Чай в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/tika/1/example/1",
+      "lexeme_id": "SAMA-LEX/tika",
+      "sense_id": "SAMA-SENSE/tika/1",
+      "sama": "Tika bi mawa.",
+      "ru": "Тигр сильный."
+    },
+    {
+      "id": "SAMA-SENSE/tika/1/example/2",
+      "lexeme_id": "SAMA-LEX/tika",
+      "sense_id": "SAMA-SENSE/tika/1",
+      "sama": "Mi si tika.",
+      "ru": "Я вижу тигра."
+    },
+    {
+      "id": "SAMA-SENSE/toma/1/example/1",
+      "lexeme_id": "SAMA-LEX/toma",
+      "sense_id": "SAMA-SENSE/toma/1",
+      "sama": "Toma bi papa.",
+      "ru": "Помидор красный."
+    },
+    {
+      "id": "SAMA-SENSE/toma/1/example/2",
+      "lexeme_id": "SAMA-LEX/toma",
+      "sense_id": "SAMA-SENSE/toma/1",
+      "sama": "Mi kula toma.",
+      "ru": "Я ем помидор."
+    },
+    {
+      "id": "SAMA-SENSE/toso/1/example/1",
+      "lexeme_id": "SAMA-LEX/toso",
+      "sense_id": "SAMA-SENSE/toso/1",
+      "sama": "Toso bi wawa.",
+      "ru": "Овца белая."
+    },
+    {
+      "id": "SAMA-SENSE/toso/1/example/2",
+      "lexeme_id": "SAMA-LEX/toso",
+      "sense_id": "SAMA-SENSE/toso/1",
+      "sama": "Mi si toso.",
+      "ru": "Я вижу овцу."
+    },
+    {
+      "id": "SAMA-SENSE/tota/1/example/1",
+      "lexeme_id": "SAMA-LEX/tota",
+      "sense_id": "SAMA-SENSE/tota/1",
+      "sama": "Mi bi tota doma.",
+      "ru": "Я снаружи дома."
+    },
+    {
+      "id": "SAMA-SENSE/tota/1/example/2",
+      "lexeme_id": "SAMA-LEX/tota",
+      "sense_id": "SAMA-SENSE/tota/1",
+      "sama": "Siba lako tota luma.",
+      "ru": "Собака спит снаружи комнаты."
+    },
+    {
+      "id": "SAMA-SENSE/wada/1/example/1",
+      "lexeme_id": "SAMA-LEX/wada",
+      "sense_id": "SAMA-SENSE/wada/1",
+      "sama": "Wada bi daba.",
+      "ru": "Река большая."
+    },
+    {
+      "id": "SAMA-SENSE/wada/1/example/2",
+      "lexeme_id": "SAMA-LEX/wada",
+      "sense_id": "SAMA-SENSE/wada/1",
+      "sama": "Mi bi lali wada.",
+      "ru": "Я рядом с рекой."
+    },
+    {
+      "id": "SAMA-SENSE/wama/1/example/1",
+      "lexeme_id": "SAMA-LEX/wama",
+      "sense_id": "SAMA-SENSE/wama/1",
+      "sama": "Mi kula wama.",
+      "ru": "Я ем мясо."
+    },
+    {
+      "id": "SAMA-SENSE/wama/1/example/2",
+      "lexeme_id": "SAMA-LEX/wama",
+      "sense_id": "SAMA-SENSE/wama/1",
+      "sama": "Wama bi na pila.",
+      "ru": "Мясо на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/wasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/wasa",
+      "sense_id": "SAMA-SENSE/wasa/1",
+      "sama": "Mi wasa.",
+      "ru": "Я просыпаюсь."
+    },
+    {
+      "id": "SAMA-SENSE/wasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/wasa",
+      "sense_id": "SAMA-SENSE/wasa/1",
+      "sama": "Babi pa wasa.",
+      "ru": "Младенец проснулся."
+    },
+    {
+      "id": "SAMA-SENSE/wasi/1/example/1",
+      "lexeme_id": "SAMA-LEX/wasi",
+      "sense_id": "SAMA-SENSE/wasi/1",
+      "sama": "Wasi bi lali sela.",
+      "ru": "Песок рядом с морем."
+    },
+    {
+      "id": "SAMA-SENSE/wasi/1/example/2",
+      "lexeme_id": "SAMA-LEX/wasi",
+      "sense_id": "SAMA-SENSE/wasi/1",
+      "sama": "Mi si wasi.",
+      "ru": "Я вижу песок."
+    },
+    {
+      "id": "SAMA-SENSE/wata/1/example/1",
+      "lexeme_id": "SAMA-LEX/wata",
+      "sense_id": "SAMA-SENSE/wata/1",
+      "sama": "Mi wata misa.",
+      "ru": "Я нахожу ключ."
+    },
+    {
+      "id": "SAMA-SENSE/wata/1/example/2",
+      "lexeme_id": "SAMA-LEX/wata",
+      "sense_id": "SAMA-SENSE/wata/1",
+      "sama": "Yu pa wata kaso.",
+      "ru": "Ты нашёл книгу."
+    },
+    {
+      "id": "SAMA-SENSE/wato/1/example/1",
+      "lexeme_id": "SAMA-LEX/wato",
+      "sense_id": "SAMA-SENSE/wato/1",
+      "sama": "Wato bi yoma.",
+      "ru": "Электричество важно."
+    },
+    {
+      "id": "SAMA-SENSE/wato/1/example/2",
+      "lexeme_id": "SAMA-LEX/wato",
+      "sense_id": "SAMA-SENSE/wato/1",
+      "sama": "Mi lena wato.",
+      "ru": "Я изучаю электричество."
+    },
+    {
+      "id": "SAMA-SENSE/wawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/wawa",
+      "sense_id": "SAMA-SENSE/wawa/1",
+      "sama": "Paka bi wawa.",
+      "ru": "Стена белая."
+    },
+    {
+      "id": "SAMA-SENSE/wawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/wawa",
+      "sense_id": "SAMA-SENSE/wawa/1",
+      "sama": "Mi si kopa wawa.",
+      "ru": "Я вижу белую чашку."
+    },
+    {
+      "id": "SAMA-SENSE/wema/1/example/1",
+      "lexeme_id": "SAMA-LEX/wema",
+      "sense_id": "SAMA-SENSE/wema/1",
+      "sama": "Wema bi yoma.",
+      "ru": "Культура важна."
+    },
+    {
+      "id": "SAMA-SENSE/wema/1/example/2",
+      "lexeme_id": "SAMA-LEX/wema",
+      "sense_id": "SAMA-SENSE/wema/1",
+      "sama": "Mi lena wema de nato.",
+      "ru": "Я изучаю культуру народа."
+    },
+    {
+      "id": "SAMA-SENSE/wena/1/example/1",
+      "lexeme_id": "SAMA-LEX/wena",
+      "sense_id": "SAMA-SENSE/wena/1",
+      "sama": "Wena bi na bano.",
+      "ru": "Женщина в городе."
+    },
+    {
+      "id": "SAMA-SENSE/wena/1/example/2",
+      "lexeme_id": "SAMA-LEX/wena",
+      "sense_id": "SAMA-SENSE/wena/1",
+      "sama": "Mi si wena sili.",
+      "ru": "Я вижу вежливую женщину."
+    },
+    {
+      "id": "SAMA-SENSE/weno/1/example/1",
+      "lexeme_id": "SAMA-LEX/weno",
+      "sense_id": "SAMA-SENSE/weno/1",
+      "sama": "Weno bi pali.",
+      "ru": "Одежда чистая."
+    },
+    {
+      "id": "SAMA-SENSE/weno/1/example/2",
+      "lexeme_id": "SAMA-LEX/weno",
+      "sense_id": "SAMA-SENSE/weno/1",
+      "sama": "Mi dasi weno.",
+      "ru": "Я покупаю одежду."
+    },
+    {
+      "id": "SAMA-SENSE/weta/1/example/1",
+      "lexeme_id": "SAMA-LEX/weta",
+      "sense_id": "SAMA-SENSE/weta/1",
+      "sama": "Mi kula weta.",
+      "ru": "Я ем овощ."
+    },
+    {
+      "id": "SAMA-SENSE/weta/1/example/2",
+      "lexeme_id": "SAMA-LEX/weta",
+      "sense_id": "SAMA-SENSE/weta/1",
+      "sama": "Weta li bi na pila.",
+      "ru": "Овощи на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/widi/1/example/1",
+      "lexeme_id": "SAMA-LEX/widi",
+      "sense_id": "SAMA-SENSE/widi/1",
+      "sama": "Widi bi mawa.",
+      "ru": "Ветер сильный."
+    },
+    {
+      "id": "SAMA-SENSE/widi/1/example/2",
+      "lexeme_id": "SAMA-LEX/widi",
+      "sense_id": "SAMA-SENSE/widi/1",
+      "sama": "Widi bi sima.",
+      "ru": "Ветер холодный."
+    },
+    {
+      "id": "SAMA-SENSE/wika/1/example/1",
+      "lexeme_id": "SAMA-LEX/wika",
+      "sense_id": "SAMA-SENSE/wika/1",
+      "sama": "Ena wika bi yoma.",
+      "ru": "Эта неделя важна."
+    },
+    {
+      "id": "SAMA-SENSE/wika/1/example/2",
+      "lexeme_id": "SAMA-LEX/wika",
+      "sense_id": "SAMA-SENSE/wika/1",
+      "sama": "Mi la lena na ona wika.",
+      "ru": "Я буду учиться в ту неделю."
+    },
+    {
+      "id": "SAMA-SENSE/wina/1/example/1",
+      "lexeme_id": "SAMA-LEX/wina",
+      "sense_id": "SAMA-SENSE/wina/1",
+      "sama": "Mi nipa wina.",
+      "ru": "Я открываю окно."
+    },
+    {
+      "id": "SAMA-SENSE/wina/1/example/2",
+      "lexeme_id": "SAMA-LEX/wina",
+      "sense_id": "SAMA-SENSE/wina/1",
+      "sama": "Wina bi pali.",
+      "ru": "Окно чистое."
+    },
+    {
+      "id": "SAMA-SENSE/yalo/1/example/1",
+      "lexeme_id": "SAMA-LEX/yalo",
+      "sense_id": "SAMA-SENSE/yalo/1",
+      "sama": "Mi wako yalo doma.",
+      "ru": "Я иду вокруг дома."
+    },
+    {
+      "id": "SAMA-SENSE/yalo/1/example/2",
+      "lexeme_id": "SAMA-LEX/yalo",
+      "sense_id": "SAMA-SENSE/yalo/1",
+      "sama": "Mato li bi yalo laka.",
+      "ru": "Деревья вокруг озера."
+    },
+    {
+      "id": "SAMA-SENSE/yuma/1/example/1",
+      "lexeme_id": "SAMA-LEX/yuma",
+      "sense_id": "SAMA-SENSE/yuma/1",
+      "sama": "Yuma lena basa.",
+      "ru": "Молодой человек изучает язык."
+    },
+    {
+      "id": "SAMA-SENSE/yuma/1/example/2",
+      "lexeme_id": "SAMA-LEX/yuma",
+      "sense_id": "SAMA-SENSE/yuma/1",
+      "sama": "Mi si yuma li.",
+      "ru": "Я вижу молодых людей."
+    },
+    {
+      "id": "SAMA-SENSE/tele/1/example/1",
+      "lexeme_id": "SAMA-LEX/tele",
+      "sense_id": "SAMA-SENSE/tele/1",
+      "sama": "Tele bi na mesa.",
+      "ru": "Телефон на столе."
+    },
+    {
+      "id": "SAMA-SENSE/tele/1/example/2",
+      "lexeme_id": "SAMA-LEX/tele",
+      "sense_id": "SAMA-SENSE/tele/1",
+      "sama": "Mi tako tele.",
+      "ru": "Я беру телефон."
+    },
+    {
+      "id": "SAMA-SENSE/kome/1/example/1",
+      "lexeme_id": "SAMA-LEX/kome",
+      "sense_id": "SAMA-SENSE/kome/1",
+      "sama": "Kome bi na mesa.",
+      "ru": "Компьютер на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kome/1/example/2",
+      "lexeme_id": "SAMA-LEX/kome",
+      "sense_id": "SAMA-SENSE/kome/1",
+      "sama": "Mi dasi kome.",
+      "ru": "Я покупаю компьютер."
+    },
+    {
+      "id": "SAMA-SENSE/neto/1/example/1",
+      "lexeme_id": "SAMA-LEX/neto",
+      "sense_id": "SAMA-SENSE/neto/1",
+      "sama": "Neto bi yoma.",
+      "ru": "Интернет важен."
+    },
+    {
+      "id": "SAMA-SENSE/neto/1/example/2",
+      "lexeme_id": "SAMA-LEX/neto",
+      "sense_id": "SAMA-SENSE/neto/1",
+      "sama": "Mi lena neto.",
+      "ru": "Я изучаю интернет."
+    },
+    {
+      "id": "SAMA-SENSE/mase/1/example/1",
+      "lexeme_id": "SAMA-LEX/mase",
+      "sense_id": "SAMA-SENSE/mase/1",
+      "sama": "Mi wima mase.",
+      "ru": "Я пишу сообщение."
+    },
+    {
+      "id": "SAMA-SENSE/mase/1/example/2",
+      "lexeme_id": "SAMA-LEX/mase",
+      "sense_id": "SAMA-SENSE/mase/1",
+      "sama": "Yu lita mase de mi.",
+      "ru": "Ты читаешь моё сообщение."
+    },
+    {
+      "id": "SAMA-SENSE/doku/1/example/1",
+      "lexeme_id": "SAMA-LEX/doku",
+      "sense_id": "SAMA-SENSE/doku/1",
+      "sama": "Mi lita doku.",
+      "ru": "Я читаю документ."
+    },
+    {
+      "id": "SAMA-SENSE/doku/1/example/2",
+      "lexeme_id": "SAMA-LEX/doku",
+      "sense_id": "SAMA-SENSE/doku/1",
+      "sama": "Doku bi nana balo.",
+      "ru": "Документ внутри сумки."
+    },
+    {
+      "id": "SAMA-SENSE/seno/1/example/1",
+      "lexeme_id": "SAMA-LEX/seno",
+      "sense_id": "SAMA-SENSE/seno/1",
+      "sama": "Seno bi na mesa.",
+      "ru": "Деньги на столе."
+    },
+    {
+      "id": "SAMA-SENSE/seno/1/example/2",
+      "lexeme_id": "SAMA-LEX/seno",
+      "sense_id": "SAMA-SENSE/seno/1",
+      "sama": "Mi pako seno to yu.",
+      "ru": "Я даю тебе деньги."
+    },
+    {
+      "id": "SAMA-SENSE/pese/1/example/1",
+      "lexeme_id": "SAMA-LEX/pese",
+      "sense_id": "SAMA-SENSE/pese/1",
+      "sama": "Pese de kaso bi yoma.",
+      "ru": "Цена книги важна."
+    },
+    {
+      "id": "SAMA-SENSE/pese/1/example/2",
+      "lexeme_id": "SAMA-LEX/pese",
+      "sense_id": "SAMA-SENSE/pese/1",
+      "sama": "Mi nima pese.",
+      "ru": "Я знаю цену."
+    },
+    {
+      "id": "SAMA-SENSE/delo/1/example/1",
+      "lexeme_id": "SAMA-LEX/delo",
+      "sense_id": "SAMA-SENSE/delo/1",
+      "sama": "Delo bi tadi.",
+      "ru": "Задача трудная."
+    },
+    {
+      "id": "SAMA-SENSE/delo/1/example/2",
+      "lexeme_id": "SAMA-LEX/delo",
+      "sense_id": "SAMA-SENSE/delo/1",
+      "sama": "Mi tawi delo.",
+      "ru": "Я заканчиваю задачу."
+    },
+    {
+      "id": "SAMA-SENSE/lenu/1/example/1",
+      "lexeme_id": "SAMA-LEX/lenu",
+      "sense_id": "SAMA-SENSE/lenu/1",
+      "sama": "Lenu kami dani.",
+      "ru": "Учитель помогает ученику."
+    },
+    {
+      "id": "SAMA-SENSE/lenu/1/example/2",
+      "lexeme_id": "SAMA-LEX/lenu",
+      "sense_id": "SAMA-SENSE/lenu/1",
+      "sama": "Mi toka ko lenu.",
+      "ru": "Я говорю с учителем."
+    },
+    {
+      "id": "SAMA-SENSE/kapo/1/example/1",
+      "lexeme_id": "SAMA-LEX/kapo",
+      "sense_id": "SAMA-SENSE/kapo/1",
+      "sama": "Mi bi na kapo.",
+      "ru": "Я в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/kapo/1/example/2",
+      "lexeme_id": "SAMA-LEX/kapo",
+      "sense_id": "SAMA-SENSE/kapo/1",
+      "sama": "Kapo bi lali doma.",
+      "ru": "Офис рядом с домом."
+    },
+    {
+      "id": "SAMA-SENSE/bote/1/example/1",
+      "lexeme_id": "SAMA-LEX/bote",
+      "sense_id": "SAMA-SENSE/bote/1",
+      "sama": "Mi dasi pana na bote.",
+      "ru": "Я покупаю хлеб в магазине."
+    },
+    {
+      "id": "SAMA-SENSE/bote/1/example/2",
+      "lexeme_id": "SAMA-LEX/bote",
+      "sense_id": "SAMA-SENSE/bote/1",
+      "sama": "Bote bi lali doma.",
+      "ru": "Магазин рядом с домом."
+    },
+    {
+      "id": "SAMA-SENSE/dibo/1/example/1",
+      "lexeme_id": "SAMA-LEX/dibo",
+      "sense_id": "SAMA-SENSE/dibo/1",
+      "sama": "Mi tami dibo.",
+      "ru": "Я проверяю файл."
+    },
+    {
+      "id": "SAMA-SENSE/dibo/1/example/2",
+      "lexeme_id": "SAMA-LEX/dibo",
+      "sense_id": "SAMA-SENSE/dibo/1",
+      "sama": "Dibo de mi bi nawa.",
+      "ru": "Мой файл новый."
+    },
+    {
+      "id": "SAMA-SENSE/pome/1/example/1",
+      "lexeme_id": "SAMA-LEX/pome",
+      "sense_id": "SAMA-SENSE/pome/1",
+      "sama": "Mi wima pome.",
+      "ru": "Я пишу план."
+    },
+    {
+      "id": "SAMA-SENSE/pome/1/example/2",
+      "lexeme_id": "SAMA-LEX/pome",
+      "sense_id": "SAMA-SENSE/pome/1",
+      "sama": "Pome de yu bi bona.",
+      "ru": "Твой план хороший."
+    },
+    {
+      "id": "SAMA-SENSE/hito/1/example/1",
+      "lexeme_id": "SAMA-LEX/hito",
+      "sense_id": "SAMA-SENSE/hito/1",
+      "sama": "Hito bi yoma.",
+      "ru": "Событие важно."
+    },
+    {
+      "id": "SAMA-SENSE/hito/1/example/2",
+      "lexeme_id": "SAMA-LEX/hito",
+      "sense_id": "SAMA-SENSE/hito/1",
+      "sama": "Mi mima hito.",
+      "ru": "Я помню событие."
+    },
+    {
+      "id": "SAMA-SENSE/nelo/1/example/1",
+      "lexeme_id": "SAMA-LEX/nelo",
+      "sense_id": "SAMA-SENSE/nelo/1",
+      "sama": "Nelo de yu bi bona.",
+      "ru": "Твоя идея хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/nelo/1/example/2",
+      "lexeme_id": "SAMA-LEX/nelo",
+      "sense_id": "SAMA-SENSE/nelo/1",
+      "sama": "Mi wima nelo.",
+      "ru": "Я записываю идею."
+    },
+    {
+      "id": "SAMA-SENSE/luso/1/example/1",
+      "lexeme_id": "SAMA-LEX/luso",
+      "sense_id": "SAMA-SENSE/luso/1",
+      "sama": "Mi no nima luso.",
+      "ru": "Я не знаю причину."
+    },
+    {
+      "id": "SAMA-SENSE/luso/1/example/2",
+      "lexeme_id": "SAMA-LEX/luso",
+      "sense_id": "SAMA-SENSE/luso/1",
+      "sama": "Luso de hito bi yoma.",
+      "ru": "Причина события важна."
+    },
+    {
+      "id": "SAMA-SENSE/senu/1/example/1",
+      "lexeme_id": "SAMA-LEX/senu",
+      "sense_id": "SAMA-SENSE/senu/1",
+      "sama": "Senu de bama bi bona.",
+      "ru": "Результат работы хороший."
+    },
+    {
+      "id": "SAMA-SENSE/senu/1/example/2",
+      "lexeme_id": "SAMA-LEX/senu",
+      "sense_id": "SAMA-SENSE/senu/1",
+      "sama": "Mi tami senu.",
+      "ru": "Я проверяю результат."
+    },
+    {
+      "id": "SAMA-SENSE/paku/1/example/1",
+      "lexeme_id": "SAMA-LEX/paku",
+      "sense_id": "SAMA-SENSE/paku/1",
+      "sama": "Paku bi yoma.",
+      "ru": "Разрешение важно."
+    },
+    {
+      "id": "SAMA-SENSE/paku/1/example/2",
+      "lexeme_id": "SAMA-LEX/paku",
+      "sense_id": "SAMA-SENSE/paku/1",
+      "sama": "Mi lita doku de paku.",
+      "ru": "Я читаю документ, связанный с разрешением."
+    }
+  ]
+}

@@ -47,7 +47,7 @@ for(const topic of reg.topics){
   const file=read(rev.path),source=rev.selector?file.rules.find(x=>x.id===rev.selector):file;assert.equal(source.revision||source.id,rev.id);assert.equal(source.status,rev.status);
  }
 }
-assert.equal(reg.topics.find(x=>x.topic==='relatives').active_revision,'SAMA-RULE/relatives@0.11.0');
+assert.equal(reg.topics.find(x=>x.topic==='relatives').active_revision,'SAMA-RULE/relatives@'+read('content/rules/core.json').version);
 const spec=read('content/specification.json').find(x=>x.id==='relative-core');
 const atlas=read('content/grammar-atlas.json').chapters.find(x=>x.id==='relative');
 const article=read('content/articles/standard-relative-core.json');

@@ -1,0 +1,11 @@
+{
+  "version": "0.11.0",
+  "source_commit": "70cf83ac5d19e8539346cf3cf03ba880f57aed9c",
+  "files": {
+    "lexicon.json": "a38980acc10f5f43c55841ce7a9ba4d16ff99ca2",
+    "core.json": "56b09f6ea5b1a187d854bca8f9fff0d4b1215b46",
+    "release.json": "b93f21b1bb410e44272194977a507129da6223e4",
+    "lexeme.schema.json": "5764457d7d6476307a04eba90fe0ef93cf33a4ea",
+    "rules.schema.json": "7bf2f27db9a37cef5baed09fd9176ae095141ce9"
+  }
+}

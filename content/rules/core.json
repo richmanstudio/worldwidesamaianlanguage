@@ -1,10 +1,10 @@
 {
   "schema": "sama-rules/v1",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "rules": [
     {
       "id": "SAMA-RULE/alphabet",
-      "revision": "SAMA-RULE/alphabet@0.11.0",
+      "revision": "SAMA-RULE/alphabet@0.12.0",
       "status": "core",
       "title": "Азбука",
       "area": "Письмо",
@@ -24,7 +24,7 @@
     },
     {
       "id": "SAMA-RULE/syllables",
-      "revision": "SAMA-RULE/syllables@0.11.0",
+      "revision": "SAMA-RULE/syllables@0.12.0",
       "status": "core",
       "title": "Слог и чтение",
       "area": "Произношение",
@@ -44,7 +44,7 @@
     },
     {
       "id": "SAMA-RULE/orthography",
-      "revision": "SAMA-RULE/orthography@0.11.0",
+      "revision": "SAMA-RULE/orthography@0.12.0",
       "status": "core",
       "title": "Ударение и знаки",
       "area": "Письмо",
@@ -64,7 +64,7 @@
     },
     {
       "id": "SAMA-RULE/wordclasses",
-      "revision": "SAMA-RULE/wordclasses@0.11.0",
+      "revision": "SAMA-RULE/wordclasses@0.12.0",
       "status": "core",
       "title": "Категории слов",
       "area": "Основа",
@@ -84,7 +84,7 @@
     },
     {
       "id": "SAMA-RULE/svo",
-      "revision": "SAMA-RULE/svo@0.11.0",
+      "revision": "SAMA-RULE/svo@0.12.0",
       "status": "core",
       "title": "Порядок предложения",
       "area": "Основа",
@@ -104,7 +104,7 @@
     },
     {
       "id": "SAMA-RULE/pronouns",
-      "revision": "SAMA-RULE/pronouns@0.11.0",
+      "revision": "SAMA-RULE/pronouns@0.12.0",
       "status": "core",
       "title": "Личные местоимения",
       "area": "Именная группа",
@@ -124,7 +124,7 @@
     },
     {
       "id": "SAMA-RULE/nounphrase",
-      "revision": "SAMA-RULE/nounphrase@0.11.0",
+      "revision": "SAMA-RULE/nounphrase@0.12.0",
       "status": "core",
       "title": "Порядок именной группы",
       "area": "Именная группа",
@@ -144,7 +144,7 @@
     },
     {
       "id": "SAMA-RULE/plural",
-      "revision": "SAMA-RULE/plural@0.11.0",
+      "revision": "SAMA-RULE/plural@0.12.0",
       "status": "core",
       "title": "Число",
       "area": "Именная группа",
@@ -164,7 +164,7 @@
     },
     {
       "id": "SAMA-RULE/quality",
-      "revision": "SAMA-RULE/quality@0.11.0",
+      "revision": "SAMA-RULE/quality@0.12.0",
       "status": "core",
       "title": "Качество и предикат",
       "area": "Именная группа",
@@ -184,7 +184,7 @@
     },
     {
       "id": "SAMA-RULE/copula",
-      "revision": "SAMA-RULE/copula@0.11.0",
+      "revision": "SAMA-RULE/copula@0.12.0",
       "status": "core",
       "title": "Связка bi",
       "area": "Предикат",
@@ -204,7 +204,7 @@
     },
     {
       "id": "SAMA-RULE/possession",
-      "revision": "SAMA-RULE/possession@0.11.0",
+      "revision": "SAMA-RULE/possession@0.12.0",
       "status": "core",
       "title": "Отношение de",
       "area": "Именная группа",
@@ -224,7 +224,7 @@
     },
     {
       "id": "SAMA-RULE/definiteness",
-      "revision": "SAMA-RULE/definiteness@0.11.0",
+      "revision": "SAMA-RULE/definiteness@0.12.0",
       "status": "core",
       "title": "Указание и определённость",
       "area": "Именная группа",
@@ -244,11 +244,11 @@
     },
     {
       "id": "SAMA-RULE/spatial",
-      "revision": "SAMA-RULE/spatial@0.11.0",
+      "revision": "SAMA-RULE/spatial@0.12.0",
       "status": "core",
       "title": "Место, направление и совместность",
       "area": "Предикат",
-      "text": "na задаёт местонахождение, to цель движения, ko сопровождающего. Временное na допускается только перед названием временного периода, например na ena dina. ko не означает инструмент. Несколько предложных групп идут после обязательных аргументов; их смысл уточняется выбором предлога.",
+      "text": "na задаёт общее местонахождение, nana внутреннюю область, tota внешнюю, noba положение выше, poba ниже, pata переднюю сторону, yalo расположение вокруг, lali близость. Все требуют именной ориентир. bi принимает любую из этих локативных групп. to задаёт цель движения или получателя pako, ko сопровождающего; они не заменяют статическое место после bi. na перед названием периода выражает время. Предложная группа относится к предикату; место объекта уточняют отдельным предложением.",
       "summary_en": "na marks location or a named time period; to marks goal and ko accompaniment.",
       "examples": [
         {
@@ -260,15 +260,15 @@
           "ru": "Я дома с мамой."
         }
       ],
-      "decision": "ADR-0004"
+      "decision": "ADR-0005"
     },
     {
       "id": "SAMA-RULE/valency",
-      "revision": "SAMA-RULE/valency@0.11.0",
+      "revision": "SAMA-RULE/valency@0.12.0",
       "status": "core",
       "title": "Глагольные рамки",
       "area": "Предикат",
-      "text": "Каждый глагол имеет число обязательных и допустимых участников. si/ama/pina/tako/nima требуют прямого объекта; kula/lena/lita/wima допускают его отсутствие; wako/lako/toka/misi не берут прямой объект. pako требует передаваемую тему и получателя to. Роли определяются позицией и предлогом, а не русским переводом.",
+      "text": "Число обязательных и допустимых участников задаёт рамка каждого словарного значения. Переходный глагол требует один прямой объект, непереходный его исключает, optional_object допускает отсутствие. pako требует тему и ровно одного получателя to. aspect_class различает состояние, деятельность, достижение и ограниченный процесс; allowed_aspects задаёт допустимые hu/te для конкретного глагола. Русский перевод не меняет рамку.",
       "summary_en": "The dictionary fixes each verb's obligatory arguments and optional complements.",
       "examples": [
         {
@@ -280,11 +280,11 @@
           "ru": "Ты даёшь мне воду."
         }
       ],
-      "decision": "ADR-0004"
+      "decision": "ADR-0005"
     },
     {
       "id": "SAMA-RULE/tense",
-      "revision": "SAMA-RULE/tense@0.11.0",
+      "revision": "SAMA-RULE/tense@0.12.0",
       "status": "core",
       "title": "Время",
       "area": "Предикат",
@@ -304,7 +304,7 @@
     },
     {
       "id": "SAMA-RULE/negation",
-      "revision": "SAMA-RULE/negation@0.11.0",
+      "revision": "SAMA-RULE/negation@0.12.0",
       "status": "core",
       "title": "Отрицание и область действия",
       "area": "Предикат",
@@ -324,7 +324,7 @@
     },
     {
       "id": "SAMA-RULE/modality",
-      "revision": "SAMA-RULE/modality@0.11.0",
+      "revision": "SAMA-RULE/modality@0.12.0",
       "status": "core",
       "title": "Желание, способность, обязанность",
       "area": "Предикат",
@@ -344,11 +344,11 @@
     },
     {
       "id": "SAMA-RULE/aspect",
-      "revision": "SAMA-RULE/aspect@0.11.0",
+      "revision": "SAMA-RULE/aspect@0.12.0",
       "status": "core",
       "title": "Процесс и завершение",
       "area": "Предикат",
-      "text": "hu означает процесс в точке отсчёта, te достижение конца ограниченного действия. hu допускается с pina/kula/lena/lita/wima/wako/toka, te с pina/kula/lita/wima/tako/pako. Со статичными bi/si/ama/nima операторы не применяются. Порядок: время, внешнее no, модальность, внутреннее no, вид, глагол. Один видовой оператор на группу.",
+      "text": "hu означает процесс в точке отсчёта, te достижение конца ограниченного действия. Совместимость задаётся allowed_aspects в словарной рамке глагола: одного класса действия недостаточно. te medo не допускается и из лечения не выводится выздоровление. Порядок: время, внешнее no, модальность, внутреннее no, вид, глагол. Один видовой оператор на группу; bi вид не принимает.",
       "summary_en": "hu marks an ongoing activity; te marks an endpoint and has restricted verb compatibility.",
       "examples": [
         {
@@ -360,11 +360,11 @@
           "ru": "Я закончил чтение книги."
         }
       ],
-      "decision": "ADR-0004"
+      "decision": "ADR-0005"
     },
     {
       "id": "SAMA-RULE/questions",
-      "revision": "SAMA-RULE/questions@0.11.0",
+      "revision": "SAMA-RULE/questions@0.12.0",
       "status": "core",
       "title": "Вопросы",
       "area": "Предложение",
@@ -384,7 +384,7 @@
     },
     {
       "id": "SAMA-RULE/coordination",
-      "revision": "SAMA-RULE/coordination@0.11.0",
+      "revision": "SAMA-RULE/coordination@0.12.0",
       "status": "core",
       "title": "Соединение и альтернатива",
       "area": "Сложная речь",
@@ -404,7 +404,7 @@
     },
     {
       "id": "SAMA-RULE/conditionals",
-      "revision": "SAMA-RULE/conditionals@0.11.0",
+      "revision": "SAMA-RULE/conditionals@0.12.0",
       "status": "core",
       "title": "Открытое условие",
       "area": "Сложная речь",
@@ -424,7 +424,7 @@
     },
     {
       "id": "SAMA-RULE/relatives",
-      "revision": "SAMA-RULE/relatives@0.11.0",
+      "revision": "SAMA-RULE/relatives@0.12.0",
       "status": "core",
       "title": "Относительное определение",
       "area": "Сложная речь",
@@ -444,7 +444,7 @@
     },
     {
       "id": "SAMA-RULE/numbers",
-      "revision": "SAMA-RULE/numbers@0.11.0",
+      "revision": "SAMA-RULE/numbers@0.12.0",
       "status": "core",
       "title": "Целые числа",
       "area": "Число и количество",
@@ -464,7 +464,7 @@
     },
     {
       "id": "SAMA-RULE/politeness",
-      "revision": "SAMA-RULE/politeness@0.11.0",
+      "revision": "SAMA-RULE/politeness@0.12.0",
       "status": "core",
       "title": "Ответы и вежливость",
       "area": "Общение",

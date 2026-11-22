@@ -1,5 +1,5 @@
 /** SAMA 0.11: executable grammar of the adopted foundation, not a universal translator. */
-interface SamaLexicalSense{part_of_speech:string;frame?:{minimum_objects:number;maximum_objects:number;required_adpositions:string[]};}
+interface SamaLexicalSense{part_of_speech:string;frame?:{minimum_objects:number;maximum_objects:number;required_adpositions:string[];aspect_class?:string;allowed_aspects?:string[]};}
 interface SamaLexicalEntry{form:string;senses:SamaLexicalSense[];}
 interface SamaDiagnostic{code:string;token:number;message:string;}
 type SamaTree={kind:string;[key:string]:unknown};
@@ -37,6 +37,8 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
  const expect=(word:string)=>{if(take()!==word)fail('EXPECTED_'+word.toUpperCase(),'Ожидается '+word);};
  const numberStart=(w:string)=>pos(w)==='numeral'||/^\d+$/.test(w||'');
  const nounStart=(w:string)=>['noun','pronoun','demonstrative','reflexive'].includes(pos(w)||'')||w==='ki'||w==='ku'||numberStart(w);
+ const locatives=new Set(['na','nana','tota','noba','poba','pata','yalo','lali']);
+ const prepositions=new Set([...dict.entries()].filter(([w,s])=>s.part_of_speech==='adposition'&&w!=='de').map(([w])=>w));
  const isArgumentQuestion=(w:string)=>w==='ki'||w==='ku';
  function atom(allowPossession=true,allowRelative=true):SamaTree{
   const start=i;let demonstrative:string|null=null,numeral:number|null=null;
@@ -94,17 +96,16 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
    if(aspect)fail('COPULA_OPERATOR','bi не принимает видовой оператор');
    if(pos(peek())==='adjective'){const values:string[]=[];while(pos(peek())==='adjective')values.push(take());complement={kind:'qualities',values};}
    else if(peek()==='kalo'){take();complement={kind:'location-question'};}
-   else if(peek()!=='na')complement=np(!inRelative);
+   else if(!locatives.has(peek()))complement=np(!inRelative);
   }else{
    const frame=entry!.frame!;
    if(nounStart(peek())){if(frame.maximum_objects===0)fail('UNEXPECTED_OBJECT','Глагол не допускает прямого объекта');object=np(!inRelative);}
    if(frame.minimum_objects&&!object)fail('MISSING_OBJECT','Отсутствует обязательный прямой объект');
   }
-  if(aspect==='hu'&&!['pina','kula','lena','lita','wima','wako','toka'].includes(verb))fail('ASPECT_COMPATIBILITY','hu требует динамического действия');
-  if(aspect==='te'&&!['pina','kula','lita','wima','tako','pako'].includes(verb))fail('ASPECT_COMPATIBILITY','te требует ограниченного действия');
+  if(aspect&&!entry!.frame?.allowed_aspects?.includes(aspect))fail('ASPECT_COMPATIBILITY','Видовой оператор не допускается словарной рамкой');
   const adjuncts:Array<{adposition:string;object:SamaTree}>=[];
-  while(['na','to','ko'].includes(peek())){const adposition=take(),referent=np(!inRelative);if(referent.head==='se'||(referent.kind==='np-coordination'&&(referent.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_ROLE','se допускается только как прямой объект');adjuncts.push({adposition,object:referent});}
-  if(verb==='bi'&&!complement&&!adjuncts.some(x=>x.adposition==='na'))fail('MISSING_COMPLEMENT','bi требует дополнения');
+  while(prepositions.has(peek())){const adposition=take(),referent=np(!inRelative);if(referent.head==='se'||(referent.kind==='np-coordination'&&(referent.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_ROLE','se допускается только как прямой объект');adjuncts.push({adposition,object:referent});}
+  if(verb==='bi'&&!complement&&!adjuncts.some(x=>locatives.has(x.adposition)))fail('MISSING_COMPLEMENT','bi требует дополнения');
   for(const prep of entry!.frame?.required_adpositions||[])if(adjuncts.filter(x=>x.adposition===prep).length!==1)fail('RECIPIENT','Требуется ровно один получатель '+prep);
   const question=['kate','kasa','kamo'].includes(peek())?take():null;
   if(inRelative&&question)fail('RELATIVE_QUESTION','Относительная клауза не является специальным вопросом');

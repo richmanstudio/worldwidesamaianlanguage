@@ -162,6 +162,8 @@
 
 `content/rule-registry.json` — редакционный crosswalk 128 позиций и 46 тем; НЕ утверждённый нормативный корпус. `docs/rule-crosswalk.md` — соответствия, `docs/conflicts.md` — открытые разногласия. Они появились после замороженного baseline 0.9 и не изменяют его содержимое.
 
-## Действующая нормативная редакция 0.11
+## Действующая нормативная редакция 0.12
 
 По ADR-0003/0004 авторитет текущей нормы перенесён в content/rules/core.json, content/lexicon-v1.json, content/phonology-v1.json и content/standard-release.json. Исторические источники, перечисленные выше, сохраняют происхождение и старые статусы; они не являются одновременно действующими редакциями. Курс: content/learning/lessons-v1.json и reader-v1.json.
+
+Редакция 0.12.0 принята ADR-0005; прежняя основа 0.11.0 сохранена в content/standards/0.11.0 с manifest Git blob SHA. Строки индивидуальной редакции: content/editorial/lexicon-300.tsv; применение решений воспроизводится scripts/adopt-lexicon-300.mjs.

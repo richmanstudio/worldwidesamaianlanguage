@@ -1,6 +1,6 @@
 {
   "schema": "sama-phonology/v1",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "status": "core",
   "letters": [
     {

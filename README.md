@@ -1,4 +1,4 @@
-> **Действующая нормативная основа: SAMA 0.11.0.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
+> **Действующая нормативная основа: SAMA 0.12.0 — 300 принятых слов.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
 
 # SAMA — International Auxiliary Language
 

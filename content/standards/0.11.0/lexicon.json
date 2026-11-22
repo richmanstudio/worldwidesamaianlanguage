@@ -1,0 +1,3140 @@
+{
+  "schema": "sama-lexicon/v1",
+  "version": "0.11.0",
+  "authority": "ADR-0003 / ADR-0004",
+  "entries": [
+    {
+      "id": "SAMA-LEX/mi",
+      "form": "mi",
+      "ipa": "/mi/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mi/1",
+          "part_of_speech": "pronoun",
+          "gloss": {
+            "ru": "я",
+            "en": "I"
+          },
+          "definition": {
+            "ru": "Говорящий в единственном числе; mi li обозначает группу, включающую говорящего.",
+            "en": "The singular speaker; mi li denotes a group including the speaker."
+          },
+          "examples": [
+            {
+              "sama": "Mi si yu.",
+              "ru": "Я вижу тебя."
+            },
+            {
+              "sama": "Yu si mi.",
+              "ru": "Ты видишь меня."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/yu",
+      "form": "yu",
+      "ipa": "/ju/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/yu/1",
+          "part_of_speech": "pronoun",
+          "gloss": {
+            "ru": "ты; Вы",
+            "en": "you singular"
+          },
+          "definition": {
+            "ru": "Один адресат независимо от степени вежливости; множественное yu li.",
+            "en": "One addressee regardless of politeness; yu li is plural."
+          },
+          "examples": [
+            {
+              "sama": "Yu bi ami.",
+              "ru": "Ты друг."
+            },
+            {
+              "sama": "Mi ama yu.",
+              "ru": "Я люблю тебя."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ta",
+      "form": "ta",
+      "ipa": "/ta/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ta/1",
+          "part_of_speech": "pronoun",
+          "gloss": {
+            "ru": "он; она; оно",
+            "en": "third person singular"
+          },
+          "definition": {
+            "ru": "Один ранее установленный участник без указания пола; ta li обозначает несколько участников.",
+            "en": "One established third-person referent without gender; ta li is plural."
+          },
+          "examples": [
+            {
+              "sama": "Ta si mi.",
+              "ru": "Он или она видит меня."
+            },
+            {
+              "sama": "Mi si ta.",
+              "ru": "Я вижу его или её."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/bi",
+      "form": "bi",
+      "ipa": "/bi/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/bi/1",
+          "part_of_speech": "copula",
+          "gloss": {
+            "ru": "быть; являться",
+            "en": "be"
+          },
+          "definition": {
+            "ru": "Связка между субъектом и его классом, качеством или местонахождением.",
+            "en": "A copula relating a subject to its class, quality or location."
+          },
+          "examples": [
+            {
+              "sama": "Doma bi bona.",
+              "ru": "Дом хороший."
+            },
+            {
+              "sama": "Mi bi na doma.",
+              "ru": "Я дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/pa",
+      "form": "pa",
+      "ipa": "/pa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/pa/1",
+          "part_of_speech": "tense",
+          "gloss": {
+            "ru": "прошедшее время",
+            "en": "past tense"
+          },
+          "definition": {
+            "ru": "Событие или состояние предшествует моменту речи; сама частица не означает завершённость.",
+            "en": "Places an event or state before speech time without asserting completion."
+          },
+          "examples": [
+            {
+              "sama": "Mi pa si yu.",
+              "ru": "Я видел тебя."
+            },
+            {
+              "sama": "Doma pa bi mini.",
+              "ru": "Дом был маленьким."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/la",
+      "form": "la",
+      "ipa": "/la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/la/1",
+          "part_of_speech": "tense",
+          "gloss": {
+            "ru": "будущее время",
+            "en": "future tense"
+          },
+          "definition": {
+            "ru": "Событие или состояние следует за моментом речи; обещание из одной частицы не следует.",
+            "en": "Places an event or state after speech time without making a promise."
+          },
+          "examples": [
+            {
+              "sama": "Mi la si yu.",
+              "ru": "Я увижу тебя."
+            },
+            {
+              "sama": "Ta la bi na doma.",
+              "ru": "Он или она будет дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/no",
+      "form": "no",
+      "ipa": "/no/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/no/1",
+          "part_of_speech": "negator",
+          "gloss": {
+            "ru": "не",
+            "en": "not"
+          },
+          "definition": {
+            "ru": "Отрицает непосредственно следующую предикативную или модальную группу.",
+            "en": "Negates the immediately following predicate or modal group."
+          },
+          "examples": [
+            {
+              "sama": "Mi no si yu.",
+              "ru": "Я не вижу тебя."
+            },
+            {
+              "sama": "Mi no kama pina su.",
+              "ru": "Я не хочу пить воду."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ka",
+      "form": "ka",
+      "ipa": "/ka/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ka/1",
+          "part_of_speech": "question",
+          "gloss": {
+            "ru": "частица общего вопроса",
+            "en": "polar question marker"
+          },
+          "definition": {
+            "ru": "Завершает общий вопрос, относящийся ко всему предложению.",
+            "en": "Ends a polar question with scope over the whole sentence."
+          },
+          "examples": [
+            {
+              "sama": "Yu si mi ka?",
+              "ru": "Ты видишь меня?"
+            },
+            {
+              "sama": "Doma bi bona ka?",
+              "ru": "Дом хороший?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/li",
+      "form": "li",
+      "ipa": "/li/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/li/1",
+          "part_of_speech": "plural",
+          "gloss": {
+            "ru": "множественное число",
+            "en": "plural marker"
+          },
+          "definition": {
+            "ru": "Следует непосредственно после имени или местоимения и обозначает более одного участника.",
+            "en": "Follows a noun or pronoun directly and denotes more than one referent."
+          },
+          "examples": [
+            {
+              "sama": "Ami li si mi.",
+              "ru": "Друзья видят меня."
+            },
+            {
+              "sama": "Mi li pina su.",
+              "ru": "Мы пьём воду."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/de",
+      "form": "de",
+      "ipa": "/de/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/de/1",
+          "part_of_speech": "adposition",
+          "gloss": {
+            "ru": "отношение к; принадлежность",
+            "en": "relation to; possession"
+          },
+          "definition": {
+            "ru": "Связывает имя с относящимся к нему участником; юридическую собственность само по себе не устанавливает.",
+            "en": "Relates a noun to another referent without itself establishing legal ownership."
+          },
+          "examples": [
+            {
+              "sama": "Doma de mi bi mini.",
+              "ru": "Мой дом маленький."
+            },
+            {
+              "sama": "Mi si ami de yu.",
+              "ru": "Я вижу твоего друга."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/na",
+      "form": "na",
+      "ipa": "/na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/na/1",
+          "part_of_speech": "adposition",
+          "gloss": {
+            "ru": "в; на; у",
+            "en": "at; in; on"
+          },
+          "definition": {
+            "ru": "Обозначает местонахождение относительно ориентира без точного выбора внутренней области или поверхности.",
+            "en": "Marks location relative to a landmark without specifying interior or surface."
+          },
+          "examples": [
+            {
+              "sama": "Mi bi na doma.",
+              "ru": "Я дома."
+            },
+            {
+              "sama": "Kaso bi na mesa.",
+              "ru": "Книга на столе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/to",
+      "form": "to",
+      "ipa": "/to/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/to/1",
+          "part_of_speech": "adposition",
+          "gloss": {
+            "ru": "к; в направлении",
+            "en": "toward; to"
+          },
+          "definition": {
+            "ru": "Обозначает цель движения; у pako обозначает получателя по его словарной рамке.",
+            "en": "Marks a movement goal; in the pako frame it marks the recipient."
+          },
+          "examples": [
+            {
+              "sama": "Mi wako to doma.",
+              "ru": "Я иду к дому."
+            },
+            {
+              "sama": "Mi pako kaso to yu.",
+              "ru": "Я даю тебе книгу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ko",
+      "form": "ko",
+      "ipa": "/ko/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ko/1",
+          "part_of_speech": "adposition",
+          "gloss": {
+            "ru": "вместе с",
+            "en": "together with"
+          },
+          "definition": {
+            "ru": "Обозначает сопровождающего участника, а не инструмент или причину действия.",
+            "en": "Marks an accompanying participant, not an instrument or cause."
+          },
+          "examples": [
+            {
+              "sama": "Mi wako ko yu.",
+              "ru": "Я иду с тобой."
+            },
+            {
+              "sama": "Ta bi na doma ko mama.",
+              "ru": "Он или она дома с мамой."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/wa",
+      "form": "wa",
+      "ipa": "/wa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/wa/1",
+          "part_of_speech": "coordinator",
+          "gloss": {
+            "ru": "и",
+            "en": "and"
+          },
+          "definition": {
+            "ru": "Соединяет равноправные именные группы; между полными предложениями требует границы запятой.",
+            "en": "Joins coordinate noun phrases; full-clause coordination requires a comma boundary."
+          },
+          "examples": [
+            {
+              "sama": "Mi wa yu pina su.",
+              "ru": "Я и ты пьём воду."
+            },
+            {
+              "sama": "Mi pina su, wa yu kula pana.",
+              "ru": "Я пью воду, и ты ешь хлеб."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/aka",
+      "form": "aka",
+      "ipa": "/ˈa.ka/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/aka/1",
+          "part_of_speech": "coordinator",
+          "gloss": {
+            "ru": "но",
+            "en": "but"
+          },
+          "definition": {
+            "ru": "Соединяет две полные клаузы с противопоставлением; первая клауза сама не отрицается.",
+            "en": "Joins complete clauses with contrast without cancelling the first clause."
+          },
+          "examples": [
+            {
+              "sama": "Mi kama wako, aka mi no mosa wako.",
+              "ru": "Я хочу идти, но не могу идти."
+            },
+            {
+              "sama": "Doma bi mini, aka doma bi bona.",
+              "ru": "Дом маленький, но хороший."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/o",
+      "form": "o",
+      "ipa": "/o/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/o/1",
+          "part_of_speech": "coordinator",
+          "gloss": {
+            "ru": "или",
+            "en": "inclusive or"
+          },
+          "definition": {
+            "ru": "Выражает включающую альтернативу: допускается истинность одного или обоих вариантов.",
+            "en": "Expresses inclusive alternatives: either alternative or both may hold."
+          },
+          "examples": [
+            {
+              "sama": "Mi pina su o kawa.",
+              "ru": "Я пью воду или кофе, возможно и то и другое."
+            },
+            {
+              "sama": "Mi la wako, o yu la wako.",
+              "ru": "Пойду я или пойдёшь ты, возможно оба."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ye",
+      "form": "ye",
+      "ipa": "/je/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ye/1",
+          "part_of_speech": "relative_open",
+          "gloss": {
+            "ru": "начало относительной клаузы",
+            "en": "relative clause opener"
+          },
+          "definition": {
+            "ru": "Открывает описание непосредственно предшествующего имени; один свободный ta внутри связан с этим именем.",
+            "en": "Opens a relative clause whose single free ta refers to the preceding noun."
+          },
+          "examples": [
+            {
+              "sama": "Ami ye ta si mi ya bi na doma.",
+              "ru": "Друг, который видит меня, дома."
+            },
+            {
+              "sama": "Mi si ami ye mi ama ta ya.",
+              "ru": "Я вижу друга, которого люблю."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ya",
+      "form": "ya",
+      "ipa": "/ja/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ya/1",
+          "part_of_speech": "relative_close",
+          "gloss": {
+            "ru": "конец относительной клаузы",
+            "en": "relative clause closer"
+          },
+          "definition": {
+            "ru": "Закрывает ближайшую открытую относительную клаузу ye, после чего продолжается внешняя структура.",
+            "en": "Closes the nearest open ye relative clause and resumes the outer structure."
+          },
+          "examples": [
+            {
+              "sama": "Ami ye mi si ta ya bi bona.",
+              "ru": "Друг, которого я вижу, хороший."
+            },
+            {
+              "sama": "Soma ye ta ama yu ya si mi.",
+              "ru": "Человек, который любит тебя, видит меня."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ani",
+      "form": "ani",
+      "ipa": "/ˈa.ni/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ani/1",
+          "part_of_speech": "conditional",
+          "gloss": {
+            "ru": "если",
+            "en": "if"
+          },
+          "definition": {
+            "ru": "Вводит открытое условие; после запятой следует следствие. Не утверждает истинность условия.",
+            "en": "Introduces an open condition followed by its consequence after a comma."
+          },
+          "examples": [
+            {
+              "sama": "Ani yu wako, mi wako.",
+              "ru": "Если ты идёшь, я иду."
+            },
+            {
+              "sama": "Ani mi la si yu, mi la toka.",
+              "ru": "Если я увижу тебя, я буду говорить."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ki",
+      "form": "ki",
+      "ipa": "/ki/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ki/1",
+          "part_of_speech": "interrogative",
+          "gloss": {
+            "ru": "кто",
+            "en": "who"
+          },
+          "definition": {
+            "ru": "Заменяет неизвестного человека в позиции именной группы.",
+            "en": "Stands for an unknown human participant in a noun-phrase position."
+          },
+          "examples": [
+            {
+              "sama": "Ki si yu?",
+              "ru": "Кто видит тебя?"
+            },
+            {
+              "sama": "Yu si ki?",
+              "ru": "Кого ты видишь?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ku",
+      "form": "ku",
+      "ipa": "/ku/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ku/1",
+          "part_of_speech": "interrogative",
+          "gloss": {
+            "ru": "что",
+            "en": "what"
+          },
+          "definition": {
+            "ru": "Заменяет неизвестный предмет или содержание в позиции именной группы; не является союзом.",
+            "en": "Stands for an unknown thing or content as a noun phrase; it is not a conjunction."
+          },
+          "examples": [
+            {
+              "sama": "Yu pina ku?",
+              "ru": "Что ты пьёшь?"
+            },
+            {
+              "sama": "Ku bi na mesa?",
+              "ru": "Что на столе?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kalo",
+      "form": "kalo",
+      "ipa": "/ˈka.lo/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kalo/1",
+          "part_of_speech": "interrogative",
+          "gloss": {
+            "ru": "где",
+            "en": "where"
+          },
+          "definition": {
+            "ru": "Спрашивает о местонахождении; в вопросе со связкой следует после bi.",
+            "en": "Asks for a location and follows bi in a copular location question."
+          },
+          "examples": [
+            {
+              "sama": "Yu bi kalo?",
+              "ru": "Где ты?"
+            },
+            {
+              "sama": "Kaso bi kalo?",
+              "ru": "Где книга?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kate",
+      "form": "kate",
+      "ipa": "/ˈka.te/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kate/1",
+          "part_of_speech": "interrogative",
+          "gloss": {
+            "ru": "когда",
+            "en": "when"
+          },
+          "definition": {
+            "ru": "Спрашивает о времени события и следует за полной предикативной группой.",
+            "en": "Asks when an event occurs and follows the complete predicate group."
+          },
+          "examples": [
+            {
+              "sama": "Yu la wako kate?",
+              "ru": "Когда ты пойдёшь?"
+            },
+            {
+              "sama": "Yu pa si mi kate?",
+              "ru": "Когда ты видел меня?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kasa",
+      "form": "kasa",
+      "ipa": "/ˈka.sa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kasa/1",
+          "part_of_speech": "interrogative",
+          "gloss": {
+            "ru": "почему",
+            "en": "why"
+          },
+          "definition": {
+            "ru": "Спрашивает о причине или объяснении; ответ должен уточнять характер причинной связи.",
+            "en": "Asks for a cause or explanation; the answer specifies which relation is intended."
+          },
+          "examples": [
+            {
+              "sama": "Yu no wako kasa?",
+              "ru": "Почему ты не идёшь?"
+            },
+            {
+              "sama": "Ta pa toka kasa?",
+              "ru": "Почему он или она говорил?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kamo",
+      "form": "kamo",
+      "ipa": "/ˈka.mo/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kamo/1",
+          "part_of_speech": "interrogative",
+          "gloss": {
+            "ru": "как",
+            "en": "how"
+          },
+          "definition": {
+            "ru": "Спрашивает о способе совершения действия, а не о его причине.",
+            "en": "Asks about the manner of an action rather than its cause."
+          },
+          "examples": [
+            {
+              "sama": "Yu lita kamo?",
+              "ru": "Как ты читаешь?"
+            },
+            {
+              "sama": "Yu pa wako kamo?",
+              "ru": "Как ты шёл?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kama",
+      "form": "kama",
+      "ipa": "/ˈka.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kama/1",
+          "part_of_speech": "modal",
+          "gloss": {
+            "ru": "хотеть совершить действие",
+            "en": "want to"
+          },
+          "definition": {
+            "ru": "Желание субъекта выполнить следующую глагольную группу; объектное желание через голое существительное не входит в эту рамку.",
+            "en": "The subject desires the following action; a bare nominal complement is not licensed."
+          },
+          "examples": [
+            {
+              "sama": "Mi kama pina su.",
+              "ru": "Я хочу пить воду."
+            },
+            {
+              "sama": "Mi kama no wako.",
+              "ru": "Я хочу не идти."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/mosa",
+      "form": "mosa",
+      "ipa": "/ˈmo.sa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mosa/1",
+          "part_of_speech": "modal",
+          "gloss": {
+            "ru": "быть способным",
+            "en": "be able to"
+          },
+          "definition": {
+            "ru": "Способность субъекта совершить действие, без значения социального разрешения.",
+            "en": "The subject has the ability to act; social permission is not asserted."
+          },
+          "examples": [
+            {
+              "sama": "Mi mosa lita kaso.",
+              "ru": "Я могу читать книгу."
+            },
+            {
+              "sama": "Mi no mosa wako.",
+              "ru": "Я не способен идти."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/musa",
+      "form": "musa",
+      "ipa": "/ˈmu.sa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/musa/1",
+          "part_of_speech": "modal",
+          "gloss": {
+            "ru": "быть обязанным",
+            "en": "be obliged to"
+          },
+          "definition": {
+            "ru": "Обязанность выполнить действие согласно установленному в контексте требованию; исполнения не утверждает.",
+            "en": "An obligation under a contextually established requirement, without asserting fulfilment."
+          },
+          "examples": [
+            {
+              "sama": "Mi musa wako.",
+              "ru": "Я обязан идти."
+            },
+            {
+              "sama": "Mi no musa wako.",
+              "ru": "Я не обязан идти."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/hu",
+      "form": "hu",
+      "ipa": "/hu/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/hu/1",
+          "part_of_speech": "aspect",
+          "gloss": {
+            "ru": "процесс действия",
+            "en": "progressive"
+          },
+          "definition": {
+            "ru": "Динамическое действие продолжается в указанной временной точке, не утверждая завершения.",
+            "en": "A dynamic action is ongoing at the reference time without asserting completion."
+          },
+          "examples": [
+            {
+              "sama": "Mi hu pina su.",
+              "ru": "Я сейчас пью воду, нахожусь в процессе."
+            },
+            {
+              "sama": "Mi pa hu lita kaso.",
+              "ru": "Я был в процессе чтения книги."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/te",
+      "form": "te",
+      "ipa": "/te/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/te/1",
+          "part_of_speech": "aspect",
+          "gloss": {
+            "ru": "завершение ограниченного действия",
+            "en": "bounded completion"
+          },
+          "definition": {
+            "ru": "Ограниченное действие достигло своей конечной точки; состояние результата отдельно не утверждается.",
+            "en": "A bounded action reached its endpoint; a continuing result state is not asserted."
+          },
+          "examples": [
+            {
+              "sama": "Mi pa te lita kaso.",
+              "ru": "Я закончил чтение книги."
+            },
+            {
+              "sama": "Mi pa te kula pana.",
+              "ru": "Я закончил есть хлеб."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/se",
+      "form": "se",
+      "ipa": "/se/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/se/1",
+          "part_of_speech": "reflexive",
+          "gloss": {
+            "ru": "себя",
+            "en": "self"
+          },
+          "definition": {
+            "ru": "В позиции прямого объекта отсылает к субъекту той же простой клаузы.",
+            "en": "As a direct object, refers back to the subject of the same simple clause."
+          },
+          "examples": [
+            {
+              "sama": "Mi si se.",
+              "ru": "Я вижу себя."
+            },
+            {
+              "sama": "Ta ama se.",
+              "ru": "Он или она любит себя."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/yesa",
+      "form": "yesa",
+      "ipa": "/ˈje.sa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/yesa/1",
+          "part_of_speech": "response",
+          "gloss": {
+            "ru": "да",
+            "en": "yes"
+          },
+          "definition": {
+            "ru": "Самостоятельное подтверждение положительной формы вопроса; для отрицательных вопросов предпочтителен полный ответ.",
+            "en": "A standalone affirmation of a positive question; negative questions favour a full reply."
+          },
+          "examples": [
+            {
+              "sama": "Yesa.",
+              "ru": "Да."
+            },
+            {
+              "sama": "Yesa, mi si yu.",
+              "ru": "Да, я вижу тебя."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nono",
+      "form": "nono",
+      "ipa": "/ˈno.no/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nono/1",
+          "part_of_speech": "response",
+          "gloss": {
+            "ru": "нет",
+            "en": "no response"
+          },
+          "definition": {
+            "ru": "Самостоятельный отрицательный ответ; отрицание внутри предложения выражается no.",
+            "en": "A standalone negative reply; sentence-internal negation uses no."
+          },
+          "examples": [
+            {
+              "sama": "Nono.",
+              "ru": "Нет."
+            },
+            {
+              "sama": "Nono, mi no si yu.",
+              "ru": "Нет, я не вижу тебя."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sala",
+      "form": "sala",
+      "ipa": "/ˈsa.la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sala/1",
+          "part_of_speech": "interjection",
+          "gloss": {
+            "ru": "привет",
+            "en": "hello"
+          },
+          "definition": {
+            "ru": "Нейтральное приветствие при начале общения.",
+            "en": "A neutral greeting used to begin an interaction."
+          },
+          "examples": [
+            {
+              "sama": "Sala!",
+              "ru": "Привет!"
+            },
+            {
+              "sama": "Sala, ami!",
+              "ru": "Привет, друг!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sayo",
+      "form": "sayo",
+      "ipa": "/ˈsa.jo/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sayo/1",
+          "part_of_speech": "interjection",
+          "gloss": {
+            "ru": "до свидания",
+            "en": "goodbye"
+          },
+          "definition": {
+            "ru": "Нейтральная формула завершения общения.",
+            "en": "A neutral expression used to end an interaction."
+          },
+          "examples": [
+            {
+              "sama": "Sayo!",
+              "ru": "До свидания!"
+            },
+            {
+              "sama": "Sayo, mama!",
+              "ru": "До свидания, мама!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sani",
+      "form": "sani",
+      "ipa": "/ˈsa.ni/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sani/1",
+          "part_of_speech": "interjection",
+          "gloss": {
+            "ru": "спасибо",
+            "en": "thank you"
+          },
+          "definition": {
+            "ru": "Формула благодарности; существительное благодарность требует отдельного словарного значения.",
+            "en": "An expression of thanks; the noun gratitude requires a separate lexical sense."
+          },
+          "examples": [
+            {
+              "sama": "Sani!",
+              "ru": "Спасибо!"
+            },
+            {
+              "sama": "Sani, ami!",
+              "ru": "Спасибо, друг!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/palao",
+      "form": "palao",
+      "ipa": "/pa.ˈla.o/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/palao/1",
+          "part_of_speech": "politeness",
+          "gloss": {
+            "ru": "пожалуйста",
+            "en": "please"
+          },
+          "definition": {
+            "ru": "Необязательная формула вежливой просьбы в начале или конце высказывания.",
+            "en": "An optional politeness expression at the start or end of a request."
+          },
+          "examples": [
+            {
+              "sama": "Yu pako su to mi, palao.",
+              "ru": "Дай мне воды, пожалуйста."
+            },
+            {
+              "sama": "Palao, yu toka.",
+              "ru": "Пожалуйста, говори."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/si",
+      "form": "si",
+      "ipa": "/si/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/si/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "видеть",
+            "en": "see"
+          },
+          "definition": {
+            "ru": "Зрительно воспринимать участника или предмет; субъект — воспринимающий, объект — воспринимаемое.",
+            "en": "To perceive a referent visually; the subject perceives the direct object."
+          },
+          "examples": [
+            {
+              "sama": "Mi si yu.",
+              "ru": "Я вижу тебя."
+            },
+            {
+              "sama": "Mama pa si ami.",
+              "ru": "Мама видела друга."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 1,
+            "maximum_objects": 1,
+            "roles": [
+              "agent_or_experiencer",
+              "theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ama",
+      "form": "ama",
+      "ipa": "/ˈa.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ama/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "любить",
+            "en": "love"
+          },
+          "definition": {
+            "ru": "Испытывать любовь к прямому объекту; сама форма в этой статье является глаголом.",
+            "en": "To feel love for the direct object; this entry licenses the verb sense."
+          },
+          "examples": [
+            {
+              "sama": "Mi ama mama.",
+              "ru": "Я люблю маму."
+            },
+            {
+              "sama": "Ta ama yu.",
+              "ru": "Он или она любит тебя."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 1,
+            "maximum_objects": 1,
+            "roles": [
+              "agent_or_experiencer",
+              "theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/pina",
+      "form": "pina",
+      "ipa": "/ˈpi.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/pina/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "пить",
+            "en": "drink"
+          },
+          "definition": {
+            "ru": "Принимать жидкость внутрь через рот; прямой объект — напиток.",
+            "en": "To take a liquid into the mouth and swallow it; the object is a drink."
+          },
+          "examples": [
+            {
+              "sama": "Mi pina su.",
+              "ru": "Я пью воду."
+            },
+            {
+              "sama": "Yu pa pina kawa.",
+              "ru": "Ты пил кофе."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 1,
+            "maximum_objects": 1,
+            "roles": [
+              "agent_or_experiencer",
+              "theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kula",
+      "form": "kula",
+      "ipa": "/ˈku.la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kula/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "есть; кушать",
+            "en": "eat"
+          },
+          "definition": {
+            "ru": "Принимать пищу; прямой объект обозначает пищу, при отсутствии объекта означает есть вообще.",
+            "en": "To consume food; a direct object specifies the food, while omission denotes eating generally."
+          },
+          "examples": [
+            {
+              "sama": "Mi kula pana.",
+              "ru": "Я ем хлеб."
+            },
+            {
+              "sama": "Mama pa kula.",
+              "ru": "Мама ела."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 1,
+            "roles": [
+              "agent",
+              "optional_theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lena",
+      "form": "lena",
+      "ipa": "/ˈle.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lena/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "учиться; изучать",
+            "en": "learn; study"
+          },
+          "definition": {
+            "ru": "Приобретать знания или навык; необязательный объект — изучаемая область. Значение преподавать исключено.",
+            "en": "To acquire knowledge or skill; an optional object names the subject studied. Teaching is excluded."
+          },
+          "examples": [
+            {
+              "sama": "Mi lena basa.",
+              "ru": "Я изучаю язык."
+            },
+            {
+              "sama": "Ami la lena.",
+              "ru": "Друг будет учиться."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 1,
+            "roles": [
+              "agent",
+              "optional_theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lita",
+      "form": "lita",
+      "ipa": "/ˈli.ta/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lita/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "читать",
+            "en": "read"
+          },
+          "definition": {
+            "ru": "Воспринимать письменный текст; необязательный объект обозначает читаемое произведение или носитель.",
+            "en": "To interpret written text; an optional object identifies the text or its carrier."
+          },
+          "examples": [
+            {
+              "sama": "Mi lita kaso.",
+              "ru": "Я читаю книгу."
+            },
+            {
+              "sama": "Yu pa lita.",
+              "ru": "Ты читал."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 1,
+            "roles": [
+              "agent",
+              "optional_theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/wima",
+      "form": "wima",
+      "ipa": "/ˈwi.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/wima/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "писать",
+            "en": "write"
+          },
+          "definition": {
+            "ru": "Создавать письменный текст; необязательный объект обозначает создаваемый текст.",
+            "en": "To produce written text; an optional object identifies the text being produced."
+          },
+          "examples": [
+            {
+              "sama": "Mi wima.",
+              "ru": "Я пишу."
+            },
+            {
+              "sama": "Ta pa wima nami de mi.",
+              "ru": "Он или она написал моё имя."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 1,
+            "roles": [
+              "agent",
+              "optional_theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/wako",
+      "form": "wako",
+      "ipa": "/ˈwa.ko/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/wako/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "идти пешком",
+            "en": "walk; go on foot"
+          },
+          "definition": {
+            "ru": "Перемещаться пешком; направление задаётся группой to, прямого объекта нет.",
+            "en": "To move on foot; a to phrase gives the destination and no direct object is licensed."
+          },
+          "examples": [
+            {
+              "sama": "Mi wako to doma.",
+              "ru": "Я иду к дому."
+            },
+            {
+              "sama": "Yu la wako ko ami.",
+              "ru": "Ты пойдёшь с другом."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 0,
+            "roles": [
+              "agent_or_experiencer"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lako",
+      "form": "lako",
+      "ipa": "/ˈla.ko/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lako/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "спать",
+            "en": "sleep"
+          },
+          "definition": {
+            "ru": "Находиться в состоянии сна; прямого объекта нет.",
+            "en": "To be in a state of sleep; no direct object is licensed."
+          },
+          "examples": [
+            {
+              "sama": "Mi lako.",
+              "ru": "Я сплю."
+            },
+            {
+              "sama": "Mama pa lako na doma.",
+              "ru": "Мама спала дома."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 0,
+            "roles": [
+              "agent_or_experiencer"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/toka",
+      "form": "toka",
+      "ipa": "/ˈto.ka/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/toka/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "говорить",
+            "en": "speak"
+          },
+          "definition": {
+            "ru": "Производить речь; тема передаётся отдельным высказыванием, спутник беседы — ko.",
+            "en": "To produce speech; a topic is stated separately and a conversation partner uses ko."
+          },
+          "examples": [
+            {
+              "sama": "Mi toka ko yu.",
+              "ru": "Я говорю с тобой."
+            },
+            {
+              "sama": "Ta la toka.",
+              "ru": "Он или она будет говорить."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 0,
+            "roles": [
+              "agent_or_experiencer"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tako",
+      "form": "tako",
+      "ipa": "/ˈta.ko/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tako/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "брать",
+            "en": "take"
+          },
+          "definition": {
+            "ru": "Принимать предмет под свой непосредственный контроль; прямой объект — предмет.",
+            "en": "To take a referent under immediate control; the referent is the direct object."
+          },
+          "examples": [
+            {
+              "sama": "Mi tako kaso.",
+              "ru": "Я беру книгу."
+            },
+            {
+              "sama": "Yu pa tako kopa.",
+              "ru": "Ты взял чашку."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 1,
+            "maximum_objects": 1,
+            "roles": [
+              "agent_or_experiencer",
+              "theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/pako",
+      "form": "pako",
+      "ipa": "/ˈpa.ko/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/pako/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "давать",
+            "en": "give"
+          },
+          "definition": {
+            "ru": "Передавать прямой объект получателю, обозначенному to; выражает передачу, а не только направление.",
+            "en": "To transfer the direct object to a recipient marked by to, rather than mere direction."
+          },
+          "examples": [
+            {
+              "sama": "Mi pako kaso to yu.",
+              "ru": "Я даю тебе книгу."
+            },
+            {
+              "sama": "Mama pa pako pana to mi.",
+              "ru": "Мама дала мне хлеб."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 1,
+            "maximum_objects": 1,
+            "roles": [
+              "agent",
+              "theme",
+              "recipient"
+            ],
+            "required_adpositions": [
+              "to"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nima",
+      "form": "nima",
+      "ipa": "/ˈni.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nima/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "знать",
+            "en": "know"
+          },
+          "definition": {
+            "ru": "Обладать знанием об объекте или области; знание отличается от предположения.",
+            "en": "To possess knowledge of a referent or subject, distinct from an assumption."
+          },
+          "examples": [
+            {
+              "sama": "Mi nima basa.",
+              "ru": "Я знаю язык."
+            },
+            {
+              "sama": "Yu no nima nami de mi.",
+              "ru": "Ты не знаешь моего имени."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 1,
+            "maximum_objects": 1,
+            "roles": [
+              "agent_or_experiencer",
+              "theme"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/misi",
+      "form": "misi",
+      "ipa": "/ˈmi.si/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/misi/1",
+          "part_of_speech": "verb",
+          "gloss": {
+            "ru": "думать",
+            "en": "think"
+          },
+          "definition": {
+            "ru": "Осуществлять мыслительную деятельность; в этой рамке прямой объект не вводится.",
+            "en": "To engage in thought; this frame does not license a direct object."
+          },
+          "examples": [
+            {
+              "sama": "Mi misi.",
+              "ru": "Я думаю."
+            },
+            {
+              "sama": "Ta pa misi na doma.",
+              "ru": "Он или она думал дома."
+            }
+          ],
+          "frame": {
+            "minimum_objects": 0,
+            "maximum_objects": 0,
+            "roles": [
+              "agent_or_experiencer"
+            ],
+            "required_adpositions": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/bona",
+      "form": "bona",
+      "ipa": "/ˈbo.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/bona/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "хороший",
+            "en": "good"
+          },
+          "definition": {
+            "ru": "Положительная оценка по контекстному критерию; объективное качество без критерия не предполагается.",
+            "en": "A favourable evaluation under a contextual criterion, not a criterion-free objective fact."
+          },
+          "examples": [
+            {
+              "sama": "Doma bi bona.",
+              "ru": "Дом хороший."
+            },
+            {
+              "sama": "Mi si ami bona.",
+              "ru": "Я вижу хорошего друга."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/malo",
+      "form": "malo",
+      "ipa": "/ˈma.lo/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/malo/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "плохой",
+            "en": "bad"
+          },
+          "definition": {
+            "ru": "Отрицательная оценка по указанному или подразумеваемому критерию.",
+            "en": "An unfavourable evaluation under an explicit or contextually understood criterion."
+          },
+          "examples": [
+            {
+              "sama": "Kawa bi malo.",
+              "ru": "Кофе плохой."
+            },
+            {
+              "sama": "Su bi malo.",
+              "ru": "Вода плохая."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/daba",
+      "form": "daba",
+      "ipa": "/ˈda.ba/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/daba/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "большой",
+            "en": "big"
+          },
+          "definition": {
+            "ru": "Имеющий большую величину относительно сравниваемого класса.",
+            "en": "Having a large size relative to the relevant comparison class."
+          },
+          "examples": [
+            {
+              "sama": "Doma bi daba.",
+              "ru": "Дом большой."
+            },
+            {
+              "sama": "Mi si kaso daba.",
+              "ru": "Я вижу большую книгу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/mini",
+      "form": "mini",
+      "ipa": "/ˈmi.ni/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mini/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "маленький",
+            "en": "small"
+          },
+          "definition": {
+            "ru": "Имеющий малую величину относительно сравниваемого класса.",
+            "en": "Having a small size relative to the relevant comparison class."
+          },
+          "examples": [
+            {
+              "sama": "Kopa bi mini.",
+              "ru": "Чашка маленькая."
+            },
+            {
+              "sama": "Mi si doma mini.",
+              "ru": "Я вижу маленький дом."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nawa",
+      "form": "nawa",
+      "ipa": "/ˈna.wa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nawa/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "новый",
+            "en": "new"
+          },
+          "definition": {
+            "ru": "Недавно созданный, полученный или введённый в употребление в данном контексте.",
+            "en": "Recently created, acquired or introduced into use in the given context."
+          },
+          "examples": [
+            {
+              "sama": "Kaso bi nawa.",
+              "ru": "Книга новая."
+            },
+            {
+              "sama": "Mi lita kaso nawa.",
+              "ru": "Я читаю новую книгу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sama",
+      "form": "sama",
+      "ipa": "/ˈsa.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sama/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "одинаковый; равный",
+            "en": "same; equal"
+          },
+          "definition": {
+            "ru": "Совпадающий по явно указанному или контекстному признаку; юридическое равноправие отдельно не задаётся.",
+            "en": "Matching under a stated or contextual property; legal equality is not separately encoded."
+          },
+          "examples": [
+            {
+              "sama": "Kopa li bi sama.",
+              "ru": "Чашки одинаковые."
+            },
+            {
+              "sama": "Doma li bi sama.",
+              "ru": "Дома одинаковые."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/selo",
+      "form": "selo",
+      "ipa": "/ˈse.lo/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/selo/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "другой",
+            "en": "other; different"
+          },
+          "definition": {
+            "ru": "Отличный от уже установленного участника; это значение не связано с названием оленя.",
+            "en": "Different from an established referent; this sense is unrelated to the animal deer."
+          },
+          "examples": [
+            {
+              "sama": "Mi si ami selo.",
+              "ru": "Я вижу другого друга."
+            },
+            {
+              "sama": "Mi lita kaso selo.",
+              "ru": "Я читаю другую книгу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sili",
+      "form": "sili",
+      "ipa": "/ˈsi.li/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sili/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "вежливый",
+            "en": "polite"
+          },
+          "definition": {
+            "ru": "Соблюдающий принятую в ситуации уважительную манеру общения.",
+            "en": "Following a respectful manner of interaction appropriate to the situation."
+          },
+          "examples": [
+            {
+              "sama": "Ami bi sili.",
+              "ru": "Друг вежливый."
+            },
+            {
+              "sama": "Mama si soma sili.",
+              "ru": "Мама видит вежливого человека."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ena",
+      "form": "ena",
+      "ipa": "/ˈe.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ena/1",
+          "part_of_speech": "demonstrative",
+          "gloss": {
+            "ru": "этот",
+            "en": "this"
+          },
+          "definition": {
+            "ru": "Указывает на близкий или непосредственно выделенный предмет; ставится перед именной группой.",
+            "en": "Points to a near or immediately selected referent and precedes the noun phrase."
+          },
+          "examples": [
+            {
+              "sama": "Ena kaso bi bona.",
+              "ru": "Эта книга хорошая."
+            },
+            {
+              "sama": "Mi si ena doma.",
+              "ru": "Я вижу этот дом."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ona",
+      "form": "ona",
+      "ipa": "/ˈo.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ona/1",
+          "part_of_speech": "demonstrative",
+          "gloss": {
+            "ru": "тот",
+            "en": "that"
+          },
+          "definition": {
+            "ru": "Указывает на более удалённый или ранее противопоставленный предмет; не означает наречие там.",
+            "en": "Points to a distant or contrasted referent; the adverb there is not this lexical sense."
+          },
+          "examples": [
+            {
+              "sama": "Ona doma bi daba.",
+              "ru": "Тот дом большой."
+            },
+            {
+              "sama": "Mi tako ona kaso.",
+              "ru": "Я беру ту книгу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ami",
+      "form": "ami",
+      "ipa": "/ˈa.mi/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ami/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "друг",
+            "en": "friend"
+          },
+          "definition": {
+            "ru": "Человек, с которым поддерживаются отношения личной привязанности и доверия.",
+            "en": "A person with whom one maintains personal affection and trust."
+          },
+          "examples": [
+            {
+              "sama": "Ami de mi bi na doma.",
+              "ru": "Мой друг дома."
+            },
+            {
+              "sama": "Mi si ami li.",
+              "ru": "Я вижу друзей."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/soma",
+      "form": "soma",
+      "ipa": "/ˈso.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/soma/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "человек",
+            "en": "person"
+          },
+          "definition": {
+            "ru": "Отдельный представитель человеческого вида независимо от пола и возраста.",
+            "en": "An individual human being regardless of gender or age."
+          },
+          "examples": [
+            {
+              "sama": "Soma si mi.",
+              "ru": "Человек видит меня."
+            },
+            {
+              "sama": "Mi wa soma pina su.",
+              "ru": "Я и человек пьём воду."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/mama",
+      "form": "mama",
+      "ipa": "/ˈma.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mama/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "мама",
+            "en": "mother"
+          },
+          "definition": {
+            "ru": "Женщина в родительском отношении к ребёнку; слово употребляется и как семейное обращение.",
+            "en": "A woman in a parental relation to a child, also used as a family form of address."
+          },
+          "examples": [
+            {
+              "sama": "Mama ama mi.",
+              "ru": "Мама любит меня."
+            },
+            {
+              "sama": "Mi pa si mama.",
+              "ru": "Я видел маму."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/baba",
+      "form": "baba",
+      "ipa": "/ˈba.ba/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/baba/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "папа",
+            "en": "father"
+          },
+          "definition": {
+            "ru": "Мужчина в родительском отношении к ребёнку; семейное обращение папа.",
+            "en": "A man in a parental relation to a child, also used as the family address dad."
+          },
+          "examples": [
+            {
+              "sama": "Baba lita kaso.",
+              "ru": "Папа читает книгу."
+            },
+            {
+              "sama": "Mi wako ko baba.",
+              "ru": "Я иду с папой."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nina",
+      "form": "nina",
+      "ipa": "/ˈni.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nina/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "ребёнок",
+            "en": "child"
+          },
+          "definition": {
+            "ru": "Человек, ещё не достигший взрослого возраста; юридическая граница возраста отдельно не задаётся.",
+            "en": "A person who has not reached adulthood; a legal age boundary is not specified."
+          },
+          "examples": [
+            {
+              "sama": "Nina pina su.",
+              "ru": "Ребёнок пьёт воду."
+            },
+            {
+              "sama": "Mama ama nina.",
+              "ru": "Мама любит ребёнка."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/doma",
+      "form": "doma",
+      "ipa": "/ˈdo.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/doma/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "дом",
+            "en": "house"
+          },
+          "definition": {
+            "ru": "Здание, предназначенное прежде всего для проживания людей.",
+            "en": "A building intended primarily for people to live in."
+          },
+          "examples": [
+            {
+              "sama": "Doma bi mini.",
+              "ru": "Дом маленький."
+            },
+            {
+              "sama": "Mi bi na doma.",
+              "ru": "Я дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/luma",
+      "form": "luma",
+      "ipa": "/ˈlu.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/luma/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "комната",
+            "en": "room"
+          },
+          "definition": {
+            "ru": "Отдельное внутреннее помещение здания, ограниченное стенами.",
+            "en": "A separate interior space of a building enclosed by walls."
+          },
+          "examples": [
+            {
+              "sama": "Luma bi daba.",
+              "ru": "Комната большая."
+            },
+            {
+              "sama": "Mi lita na luma.",
+              "ru": "Я читаю в комнате."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/mesa",
+      "form": "mesa",
+      "ipa": "/ˈme.sa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mesa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "стол",
+            "en": "table"
+          },
+          "definition": {
+            "ru": "Предмет мебели с горизонтальной поверхностью для размещения вещей или работы.",
+            "en": "Furniture with a horizontal surface for placing objects or working."
+          },
+          "examples": [
+            {
+              "sama": "Kaso bi na mesa.",
+              "ru": "Книга на столе."
+            },
+            {
+              "sama": "Mi si mesa nawa.",
+              "ru": "Я вижу новый стол."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kopa",
+      "form": "kopa",
+      "ipa": "/ˈko.pa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kopa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "чашка",
+            "en": "cup"
+          },
+          "definition": {
+            "ru": "Небольшой открытый сосуд для питья.",
+            "en": "A small open vessel used for drinking."
+          },
+          "examples": [
+            {
+              "sama": "Kopa bi na mesa.",
+              "ru": "Чашка на столе."
+            },
+            {
+              "sama": "Mi tako kopa.",
+              "ru": "Я беру чашку."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kaso",
+      "form": "kaso",
+      "ipa": "/ˈka.so/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kaso/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "книга",
+            "en": "book"
+          },
+          "definition": {
+            "ru": "Связное письменное произведение или его книжный экземпляр; носитель уточняется контекстом.",
+            "en": "A sustained written work or a book copy of it, with the medium supplied by context."
+          },
+          "examples": [
+            {
+              "sama": "Mi lita kaso.",
+              "ru": "Я читаю книгу."
+            },
+            {
+              "sama": "Kaso de yu bi bona.",
+              "ru": "Твоя книга хорошая."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/basa",
+      "form": "basa",
+      "ipa": "/ˈba.sa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/basa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "язык общения",
+            "en": "language"
+          },
+          "definition": {
+            "ru": "Система знаков и правил, которой люди пользуются для общения; не орган тела.",
+            "en": "A system of signs and rules used for communication, not the bodily organ."
+          },
+          "examples": [
+            {
+              "sama": "Mi lena basa.",
+              "ru": "Я изучаю язык."
+            },
+            {
+              "sama": "Yu nima basa ka?",
+              "ru": "Ты знаешь язык?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nami",
+      "form": "nami",
+      "ipa": "/ˈna.mi/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nami/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "имя; название",
+            "en": "name"
+          },
+          "definition": {
+            "ru": "Обозначение, присвоенное человеку, предмету или иному установленному референту.",
+            "en": "A designation assigned to a person, object or other established referent."
+          },
+          "examples": [
+            {
+              "sama": "Mi wima nami de yu.",
+              "ru": "Я пишу твоё имя."
+            },
+            {
+              "sama": "Yu nima nami de mi ka?",
+              "ru": "Ты знаешь моё имя?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/su",
+      "form": "su",
+      "ipa": "/su/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/su/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "вода",
+            "en": "water"
+          },
+          "definition": {
+            "ru": "Вода как вещество; степень чистоты и пригодность для питья требуют уточнения.",
+            "en": "Water as a substance; purity and suitability for drinking require qualification."
+          },
+          "examples": [
+            {
+              "sama": "Mi pina su.",
+              "ru": "Я пью воду."
+            },
+            {
+              "sama": "Su bi na kopa.",
+              "ru": "Вода в чашке."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/pana",
+      "form": "pana",
+      "ipa": "/ˈpa.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/pana/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "хлеб",
+            "en": "bread"
+          },
+          "definition": {
+            "ru": "Пищевой продукт из выпеченного теста; конкретный состав обозначается отдельно.",
+            "en": "Food made from baked dough; its particular ingredients are stated separately."
+          },
+          "examples": [
+            {
+              "sama": "Mi kula pana.",
+              "ru": "Я ем хлеб."
+            },
+            {
+              "sama": "Pana bi na mesa.",
+              "ru": "Хлеб на столе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kawa",
+      "form": "kawa",
+      "ipa": "/ˈka.wa/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kawa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "кофе",
+            "en": "coffee"
+          },
+          "definition": {
+            "ru": "Кофейный напиток; зерно, растение и порошок требуют отдельного уточнения.",
+            "en": "A coffee drink; beans, plants and powder require additional specification."
+          },
+          "examples": [
+            {
+              "sama": "Yu pina kawa.",
+              "ru": "Ты пьёшь кофе."
+            },
+            {
+              "sama": "Kawa bi na kopa.",
+              "ru": "Кофе в чашке."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/duniya",
+      "form": "duniya",
+      "ipa": "/du.ˈni.ja/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/duniya/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "Земля как мир людей",
+            "en": "Earth as the human world"
+          },
+          "definition": {
+            "ru": "Планета Земля как общая среда жизни людей; не отсутствие войны.",
+            "en": "Earth as the shared world inhabited by people, not the absence of war."
+          },
+          "examples": [
+            {
+              "sama": "Duniya bi daba.",
+              "ru": "Мир большой."
+            },
+            {
+              "sama": "Mi lita kaso de duniya.",
+              "ru": "Я читаю книгу, связанную с миром."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/dina",
+      "form": "dina",
+      "ipa": "/ˈdi.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/dina/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "сутки; день",
+            "en": "day"
+          },
+          "definition": {
+            "ru": "Период одних суток; светлая часть суток обозначается по контексту отдельно.",
+            "en": "A period of one day; daylight hours require a distinct contextual qualification."
+          },
+          "examples": [
+            {
+              "sama": "Mi lita kaso na ena dina.",
+              "ru": "Я читаю книгу в этот день."
+            },
+            {
+              "sama": "Yu la wako na ona dina.",
+              "ru": "Ты пойдёшь в тот день."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/yala",
+      "form": "yala",
+      "ipa": "/ˈja.la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/yala/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "год",
+            "en": "year"
+          },
+          "definition": {
+            "ru": "Год как единица календарного времени; календарная система указывается при необходимости.",
+            "en": "A year as a calendar unit, with the calendar system stated when necessary."
+          },
+          "examples": [
+            {
+              "sama": "Mi pa lena na ona yala.",
+              "ru": "Я учился в тот год."
+            },
+            {
+              "sama": "Yu la lena na ena yala.",
+              "ru": "Ты будешь учиться в этом году."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tima",
+      "form": "tima",
+      "ipa": "/ˈti.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tima/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "время",
+            "en": "time"
+          },
+          "definition": {
+            "ru": "Временная протяжённость или установленный момент; конкретная величина выражается числом и единицей.",
+            "en": "Temporal duration or an established moment, quantified using a number and unit."
+          },
+          "examples": [
+            {
+              "sama": "Mi nima tima.",
+              "ru": "Я знаю время."
+            },
+            {
+              "sama": "Tima bi yoma.",
+              "ru": "Время важно."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/yoma",
+      "form": "yoma",
+      "ipa": "/ˈjo.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/yoma/1",
+          "part_of_speech": "adjective",
+          "gloss": {
+            "ru": "важный",
+            "en": "important"
+          },
+          "definition": {
+            "ru": "Существенный для установленной цели или интересов участников.",
+            "en": "Significant for an established purpose or the interests of the participants."
+          },
+          "examples": [
+            {
+              "sama": "Basa bi yoma.",
+              "ru": "Язык важен."
+            },
+            {
+              "sama": "Mi lita kaso yoma.",
+              "ru": "Я читаю важную книгу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nula",
+      "form": "nula",
+      "ipa": "/ˈnu.la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nula/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "ноль",
+            "en": "zero"
+          },
+          "definition": {
+            "ru": "Кардинальное число 0; не является отрицательной частицей.",
+            "en": "The cardinal number zero, not a negative grammatical particle."
+          },
+          "examples": [
+            {
+              "sama": "Mi si nula kaso.",
+              "ru": "Я вижу ноль книг."
+            },
+            {
+              "sama": "Nula bi nula.",
+              "ru": "Ноль равен нулю."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/una",
+      "form": "una",
+      "ipa": "/ˈu.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/una/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "один",
+            "en": "one"
+          },
+          "definition": {
+            "ru": "Кардинальное число 1; само по себе не является неопределённым артиклем.",
+            "en": "The cardinal number one, not an indefinite article by itself."
+          },
+          "examples": [
+            {
+              "sama": "Mi si una kaso.",
+              "ru": "Я вижу одну книгу."
+            },
+            {
+              "sama": "Una soma pina su.",
+              "ru": "Один человек пьёт воду."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/dua",
+      "form": "dua",
+      "ipa": "/ˈdu.a/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/dua/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "два",
+            "en": "two"
+          },
+          "definition": {
+            "ru": "Кардинальное число 2; ставится перед исчисляемым именем.",
+            "en": "The cardinal number two, placed before a countable noun."
+          },
+          "examples": [
+            {
+              "sama": "Mi si dua kaso.",
+              "ru": "Я вижу две книги."
+            },
+            {
+              "sama": "Dua ami si mi.",
+              "ru": "Два друга видят меня."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tia",
+      "form": "tia",
+      "ipa": "/ˈti.a/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tia/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "три",
+            "en": "three"
+          },
+          "definition": {
+            "ru": "Кардинальное число 3; не изменяется по роду или падежу.",
+            "en": "The cardinal number three, without gender or case inflection."
+          },
+          "examples": [
+            {
+              "sama": "Mi si tia kaso.",
+              "ru": "Я вижу три книги."
+            },
+            {
+              "sama": "Tia soma pina su.",
+              "ru": "Три человека пьют воду."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/pala",
+      "form": "pala",
+      "ipa": "/ˈpa.la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/pala/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "четыре",
+            "en": "four"
+          },
+          "definition": {
+            "ru": "Кардинальное число 4; не означает старый.",
+            "en": "The cardinal number four; it does not mean old."
+          },
+          "examples": [
+            {
+              "sama": "Mi si pala kaso.",
+              "ru": "Я вижу четыре книги."
+            },
+            {
+              "sama": "Pala kopa bi na mesa.",
+              "ru": "Четыре чашки на столе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/pema",
+      "form": "pema",
+      "ipa": "/ˈpe.ma/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/pema/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "пять",
+            "en": "five"
+          },
+          "definition": {
+            "ru": "Кардинальное число 5; используется в десятичной записи чисел.",
+            "en": "The cardinal number five, used in decimal numeral construction."
+          },
+          "examples": [
+            {
+              "sama": "Mi si pema kaso.",
+              "ru": "Я вижу пять книг."
+            },
+            {
+              "sama": "Pema soma bi na doma.",
+              "ru": "Пять человек дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sika",
+      "form": "sika",
+      "ipa": "/ˈsi.ka/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sika/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "шесть",
+            "en": "six"
+          },
+          "definition": {
+            "ru": "Кардинальное число 6; записывается также цифрой 6.",
+            "en": "The cardinal number six, also represented by the digit 6."
+          },
+          "examples": [
+            {
+              "sama": "Mi si sika kaso.",
+              "ru": "Я вижу шесть книг."
+            },
+            {
+              "sama": "Sika kopa bi na mesa.",
+              "ru": "Шесть чашек на столе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/seta",
+      "form": "seta",
+      "ipa": "/ˈse.ta/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/seta/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "семь",
+            "en": "seven"
+          },
+          "definition": {
+            "ru": "Кардинальное число 7; записывается также цифрой 7.",
+            "en": "The cardinal number seven, also represented by the digit 7."
+          },
+          "examples": [
+            {
+              "sama": "Mi si seta kaso.",
+              "ru": "Я вижу семь книг."
+            },
+            {
+              "sama": "Seta soma bi na doma.",
+              "ru": "Семь человек дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/oto",
+      "form": "oto",
+      "ipa": "/ˈo.to/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/oto/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "восемь",
+            "en": "eight"
+          },
+          "definition": {
+            "ru": "Кардинальное число 8; записывается также цифрой 8.",
+            "en": "The cardinal number eight, also represented by the digit 8."
+          },
+          "examples": [
+            {
+              "sama": "Mi si oto kaso.",
+              "ru": "Я вижу восемь книг."
+            },
+            {
+              "sama": "Oto kopa bi na mesa.",
+              "ru": "Восемь чашек на столе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/naya",
+      "form": "naya",
+      "ipa": "/ˈna.ja/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/naya/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "девять",
+            "en": "nine"
+          },
+          "definition": {
+            "ru": "Кардинальное число 9; записывается также цифрой 9.",
+            "en": "The cardinal number nine, also represented by the digit 9."
+          },
+          "examples": [
+            {
+              "sama": "Mi si naya kaso.",
+              "ru": "Я вижу девять книг."
+            },
+            {
+              "sama": "Naya soma bi na doma.",
+              "ru": "Девять человек дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tena",
+      "form": "tena",
+      "ipa": "/ˈte.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tena/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "десять",
+            "en": "ten"
+          },
+          "definition": {
+            "ru": "Число 10 и множитель десятков в числительном.",
+            "en": "The number ten and the tens multiplier in compound numerals."
+          },
+          "examples": [
+            {
+              "sama": "Mi si tena kaso.",
+              "ru": "Я вижу десять книг."
+            },
+            {
+              "sama": "Dua tena soma bi na doma.",
+              "ru": "Двадцать человек дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sena",
+      "form": "sena",
+      "ipa": "/ˈse.na/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sena/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "сто",
+            "en": "hundred"
+          },
+          "definition": {
+            "ru": "Число 100 и множитель сотен в числительном.",
+            "en": "The number one hundred and the hundreds multiplier in compound numerals."
+          },
+          "examples": [
+            {
+              "sama": "Mi si sena kaso.",
+              "ru": "Я вижу сто книг."
+            },
+            {
+              "sama": "Dua sena soma bi na doma.",
+              "ru": "Двести человек дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/mila",
+      "form": "mila",
+      "ipa": "/ˈmi.la/",
+      "status": "core",
+      "accepted_in": "0.11.0",
+      "decision": "ADR-0004",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mila/1",
+          "part_of_speech": "numeral",
+          "gloss": {
+            "ru": "тысяча",
+            "en": "thousand"
+          },
+          "definition": {
+            "ru": "Число 1000 и множитель тысяч в числительном.",
+            "en": "The number one thousand and the thousands multiplier in compound numerals."
+          },
+          "examples": [
+            {
+              "sama": "Mi si mila kaso.",
+              "ru": "Я вижу тысячу книг."
+            },
+            {
+              "sama": "Dua mila soma bi na doma.",
+              "ru": "Две тысячи человек дома."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
