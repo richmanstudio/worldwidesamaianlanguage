@@ -4,7 +4,7 @@
   "private": true,
   "description": "SAMA: adopted language standard, dictionary, learning materials and historical archive",
   "scripts": {
-    "validate": "node scripts/validate.mjs && node scripts/standard-test.mjs && node scripts/lexicon-expansion-test.mjs && node scripts/lexicon-350-test.mjs && node scripts/lexicon-750-test.mjs && node scripts/lexicon-1000-test.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/standard-test.mjs && node scripts/lexicon-expansion-test.mjs && node scripts/lexicon-350-test.mjs && node scripts/lexicon-750-test.mjs && node scripts/lexicon-1000-test.mjs && node scripts/quantifier-test.mjs",
     "build": "npm run validate && tsc -p tsconfig.json && node scripts/build.mjs",
     "check": "npm run validate && tsc --noEmit -p tsconfig.json",
     "dev": "npm run build && node scripts/serve.mjs",
