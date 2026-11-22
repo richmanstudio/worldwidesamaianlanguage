@@ -1,0 +1,875 @@
+{
+  "version": "0.9-draft",
+  "issued": "2026-11-22",
+  "status": "research-proposal",
+  "external_validation": false,
+  "independent_reviewers": 0,
+  "lexicon_published_count_unchanged": true,
+  "summary": "Область аспекта, модальности и двух объяснительных связок. Новые морфемы не входят в утверждённый словарь.",
+  "morphemes": [
+    {
+      "form": "hu",
+      "ipa": "/hu/",
+      "category": "аспект",
+      "meaning": "процесс идёт в момент отсчёта, без утверждения завершения",
+      "restriction": "только деятельностные предикаты; не означает привычку или повторность",
+      "status": "experimental",
+      "lexicon_released": false,
+      "validated_on_speakers": false
+    },
+    {
+      "form": "te",
+      "ipa": "/te/",
+      "category": "аспект",
+      "meaning": "событие завершено к моменту отсчёта",
+      "restriction": "не означает перфект, сохраняющий результат сейчас; несовместим с чисто статичными предикатами",
+      "status": "experimental",
+      "lexicon_released": false,
+      "validated_on_speakers": false
+    },
+    {
+      "form": "musa",
+      "ipa": "/ˈmu.sa/",
+      "category": "модальность",
+      "meaning": "обязанность из требования, а не способность или желание",
+      "restriction": "обязанность не доказывает исполнение; источник требования пока не закодирован",
+      "status": "experimental",
+      "lexicon_released": false,
+      "validated_on_speakers": false
+    },
+    {
+      "form": "kisa",
+      "ipa": "/ˈki.sa/",
+      "category": "связь клауз",
+      "meaning": "объяснение / мотив, который приводит говорящий",
+      "restriction": "не гарантирует объективную причинность и не подтверждает факты",
+      "status": "experimental",
+      "lexicon_released": false,
+      "validated_on_speakers": false
+    },
+    {
+      "form": "saka",
+      "ipa": "/ˈsa.ka/",
+      "category": "связь клауз",
+      "meaning": "заявленная событийная причинность",
+      "restriction": "сильное утверждение причинной связи, но не доказательство её истинности",
+      "status": "experimental",
+      "lexicon_released": false,
+      "validated_on_speakers": false
+    }
+  ],
+  "rules": [
+    {
+      "id": "09-01",
+      "title": "Время и аспект",
+      "pattern": "S [pa|la] [hu|te] V O",
+      "meaning": "Время задаёт точку отсчёта; вид задаёт структуру события.",
+      "example": "Mi pa hu lita kaso.",
+      "ru": "Я читал книгу (процесс шёл).",
+      "restriction": "Прошедшее pa не сообщает о завершении; lita/kaso — кандидаты.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-02",
+      "title": "Значение hu",
+      "pattern": "S [T] hu ACTIVITY O",
+      "meaning": "Процесс наблюдается в точке отсчёта; завершение не следует.",
+      "example": "Mi hu pina su.",
+      "ru": "Я сейчас пью воду.",
+      "restriction": "hu применимо к деятельностным предикатам; не означает повторяемость.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-03",
+      "title": "Значение te",
+      "pattern": "S [T] te BOUNDED_EVENT O",
+      "meaning": "Завершённость ограниченного события к точке отсчёта.",
+      "example": "Mi pa te lita kaso.",
+      "ru": "Я закончил читать книгу.",
+      "restriction": "te не эквивалентно английскому present perfect.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-04",
+      "title": "Конкуренция аспектов",
+      "pattern": "*hu te / *te hu",
+      "meaning": "В пилотной норме допускается не более одного аспектуального оператора.",
+      "example": "Mi la te lita kaso.",
+      "ru": "Я закончу читать книгу.",
+      "restriction": "Комбинация двух аспектов недопустима до формализации.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-05",
+      "title": "Видовая сочетаемость",
+      "pattern": "hu: activity; te: bounded event",
+      "meaning": "У статичных si/ama/bi не утверждается естественная событийная граница.",
+      "example": "Ta pa hu toka.",
+      "ru": "Он/она говорил(а) в тот момент.",
+      "restriction": "Для состояний нужны отдельные лексико-аспектные операции.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-06",
+      "title": "Мочь: способность",
+      "pattern": "S [T] [no] mosa V O",
+      "meaning": "mosa — физическая или практическая способность, а не разрешение.",
+      "example": "Mi mosa pina su.",
+      "ru": "Я могу пить воду (имею возможность/способность).",
+      "restriction": "mosa — кандидат в существующем словаре, не является нормативным оператором.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-07",
+      "title": "Хотеть: желание",
+      "pattern": "S [T] [no] kama V O",
+      "meaning": "kama выражает желание действующего лица, не событие.",
+      "example": "Mi kama pina su.",
+      "ru": "Я хочу пить воду.",
+      "restriction": "Желание не влечёт действия; kama пока кандидат.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-08",
+      "title": "Должен: предписание",
+      "pattern": "S [T] [no] musa V O",
+      "meaning": "musa означает обязанность, а не вероятность или физическую возможность.",
+      "example": "Mi musa pina su.",
+      "ru": "Я обязан пить воду.",
+      "restriction": "Источники обязанности (закон, договор, приказ) ещё не различаются.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-09",
+      "title": "Отрицание всей модальности",
+      "pattern": "S [T] no MODAL V O",
+      "meaning": "no перед модальным словом снимает весь оператор.",
+      "example": "Mi no musa pina su.",
+      "ru": "Я не обязан пить воду.",
+      "restriction": "Отсутствие обязанности не означает запрет.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-10",
+      "title": "Отрицание вложенного действия",
+      "pattern": "S [T] MODAL no V O",
+      "meaning": "no после модальности относится только к действию.",
+      "example": "Mi musa no pina su.",
+      "ru": "Я обязан не пить воду.",
+      "restriction": "Это отличается от mi no musa pina su.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-11",
+      "title": "Время модальности",
+      "pattern": "S pa MODAL V O",
+      "meaning": "pa датирует обязанность/способность, а не выполнение действия.",
+      "example": "Ta pa musa kula pana.",
+      "ru": "Он/она должен(на) был(а) есть хлеб.",
+      "restriction": "Прошлая обязанность не доказывает фактического исполнения.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-12",
+      "title": "Модальность + аспект",
+      "pattern": "S [T] MODAL [hu|te] V O",
+      "meaning": "Аспект действует внутри области модального оператора.",
+      "example": "Mi musa te lita kaso.",
+      "ru": "Я должен закончить чтение книги.",
+      "restriction": "Нельзя переставлять аспект перед модальностью в экспериментальной модели.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-13",
+      "title": "Нейтральное отрицание",
+      "pattern": "S [T] no [hu|te] V O",
+      "meaning": "Без модальности отрицание относится к аспектированному предикату.",
+      "example": "Mi pa no te lita kaso.",
+      "ru": "Я не завершил чтение книги (в прошлом).",
+      "restriction": "Не следует делать вывод, что субъект вообще не читал.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-14",
+      "title": "Объясняющая причина kisa",
+      "pattern": "MAIN, kisa REASON",
+      "meaning": "Говорящий предоставляет основание для объяснения, а не доказательство механизма.",
+      "example": "Mi no pina su, kisa su bi malo.",
+      "ru": "Я не пью воду; объяснение: вода плохая.",
+      "restriction": "Истинность каждой части требует отдельной проверки.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-15",
+      "title": "Причинность saka",
+      "pattern": "MAIN, saka CAUSE",
+      "meaning": "Говорящий утверждает событийную причинную связь между двумя сообщениями.",
+      "example": "Mi no pina su, saka su bi malo.",
+      "ru": "Я не пью воду вследствие того, что вода плохая.",
+      "restriction": "Утверждение причинности не есть доказательство причинности.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-16",
+      "title": "Граница клаузы",
+      "pattern": "MAIN , CONNECTOR CLAUSE .",
+      "meaning": "В пилоте ровно две полные клаузы с собственными субъектами.",
+      "example": "Mi no kula pana, kisa mi no kama kula pana.",
+      "ru": "Я не ем хлеб, объясняя это отсутствием желания.",
+      "restriction": "Вложенность и иной порядок причинной клаузы пока недопустимы.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-17",
+      "title": "Сфера отрицания в сложной фразе",
+      "pattern": "MAIN [no], kisa|saka REASON [no]",
+      "meaning": "Отрицание внутри одной клаузы не отменяет другую автоматически.",
+      "example": "Mi no pina su, kisa ta no pina su.",
+      "ru": "Я не пью воду; объясняю тем, что он/она тоже не пьёт.",
+      "restriction": "Не утверждать полную логическую эквивалентность русской формулировке.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-18",
+      "title": "Предикаты и валентность",
+      "pattern": "V(agent,theme,recipient,proposition)",
+      "meaning": "Словарь обязан указывать число участников и допустимые типы дополнений.",
+      "example": "Mi pina su.",
+      "ru": "Я пью воду.",
+      "restriction": "Пилотный тест охватывает только фиксированную группу глаголов.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-19",
+      "title": "Запрет лексической подмены",
+      "pattern": "candidate ≠ approved",
+      "meaning": "Новое служебное слово не становится частью ядра только потому, что прошло тест.",
+      "example": "Mi musa pina su.",
+      "ru": "Я обязан пить воду.",
+      "restriction": "Новая морфема остаётся исследовательским предложением до внешней оценки.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    },
+    {
+      "id": "09-20",
+      "title": "Граница версии 0.9",
+      "pattern": "depth ≤ 1 (pilot)",
+      "meaning": "Не утверждаем контрфактические, пассив, перфект и логически глубокую вложенность.",
+      "example": "Ani yu si mi, mi si yu.",
+      "ru": "Если ты видишь меня, я вижу тебя.",
+      "restriction": "ani — кандидат из 0.8; этот пример лишь напоминает о прежнем эксперименте.",
+      "status": "experimental",
+      "source": "design proposal 0.9; no independent validation"
+    }
+  ],
+  "valencies": [
+    {
+      "word": "si",
+      "lexicon_status": "core",
+      "frame": "S perceive O",
+      "roles": "воспринимающий; воспринимаемый объект",
+      "note": "в тестовом наборе без te/hu"
+    },
+    {
+      "word": "ama",
+      "lexicon_status": "core",
+      "frame": "S love O",
+      "roles": "носитель чувства; объект чувства",
+      "note": "состояние, не допускает te в пилоте"
+    },
+    {
+      "word": "pina",
+      "lexicon_status": "core",
+      "frame": "S drink [O]",
+      "roles": "пьющий; напиток",
+      "note": "в тесте O=su/kawa"
+    },
+    {
+      "word": "kula",
+      "lexicon_status": "core",
+      "frame": "S eat [O]",
+      "roles": "едок; пища",
+      "note": "в тесте O=pana"
+    },
+    {
+      "word": "toka",
+      "lexicon_status": "core",
+      "frame": "S speak",
+      "roles": "говорящий; содержание пока не проверено",
+      "note": "процесс hu возможен без O"
+    },
+    {
+      "word": "bi",
+      "lexicon_status": "core",
+      "frame": "S be QUALITY",
+      "roles": "носитель признака; качество",
+      "note": "ху и те не допускаются"
+    },
+    {
+      "word": "lita",
+      "lexicon_status": "candidate",
+      "frame": "S read O",
+      "roles": "читающий; читаемый объект",
+      "note": "в тесте O=kaso"
+    },
+    {
+      "word": "kama",
+      "lexicon_status": "candidate",
+      "frame": "S desire VP",
+      "roles": "желающий; инфинитивный предикат",
+      "note": "не факт реализации желаемого"
+    },
+    {
+      "word": "mosa",
+      "lexicon_status": "candidate",
+      "frame": "S able VP",
+      "roles": "носитель способности; возможное действие",
+      "note": "в пилоте только practical ability"
+    },
+    {
+      "word": "wako",
+      "lexicon_status": "candidate",
+      "frame": "S go [to PLACE]",
+      "roles": "идущий; направление",
+      "note": "в пилоте не участвует в тестах 0.9"
+    },
+    {
+      "word": "pako",
+      "lexicon_status": "candidate",
+      "frame": "S give O to RECIPIENT",
+      "roles": "дающий, передаваемый объект, получатель",
+      "note": "полная валентность в 0.9 остаётся непроверенной"
+    },
+    {
+      "word": "nima",
+      "lexicon_status": "candidate",
+      "frame": "S know [ke CLAUSE]",
+      "roles": "знающий, содержание знания",
+      "note": "фактичность и вложения остаются нерешёнными"
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "C01",
+      "domain": "aspect",
+      "left": {
+        "sama": "Mi pa lita kaso.",
+        "ru": "Я читал книгу (в прошлом, исход не указан)."
+      },
+      "right": {
+        "sama": "Mi pa hu lita kaso.",
+        "ru": "Я читал книгу в тот момент (процесс)."
+      },
+      "distinction": "Немаркированное pa не передаёт прогрессивность.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C02",
+      "domain": "aspect",
+      "left": {
+        "sama": "Mi pa hu lita kaso.",
+        "ru": "Я читал книгу (в процессе)."
+      },
+      "right": {
+        "sama": "Mi pa te lita kaso.",
+        "ru": "Я закончил читать книгу."
+      },
+      "distinction": "Текущий процесс не означает завершённого события.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C03",
+      "domain": "aspect",
+      "left": {
+        "sama": "Mi hu pina su.",
+        "ru": "Я пью воду (процесс)."
+      },
+      "right": {
+        "sama": "Mi te pina su.",
+        "ru": "Я закончил пить воду."
+      },
+      "distinction": "Завершённость te отличается от продолжающегося hu.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C04",
+      "domain": "aspect",
+      "left": {
+        "sama": "Ta la kula pana.",
+        "ru": "Он/она будет есть хлеб (исход неизвестен)."
+      },
+      "right": {
+        "sama": "Ta la hu kula pana.",
+        "ru": "Он/она будет есть хлеб в процессе."
+      },
+      "distinction": "Будущее без аспекта не гарантирует прогрессивность.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C05",
+      "domain": "aspect",
+      "left": {
+        "sama": "Mi la lita kaso.",
+        "ru": "Я буду читать книгу."
+      },
+      "right": {
+        "sama": "Mi la te lita kaso.",
+        "ru": "Я закончу чтение книги."
+      },
+      "distinction": "te вводит ограниченное завершение.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C06",
+      "domain": "aspect",
+      "left": {
+        "sama": "Ta pa toka.",
+        "ru": "Он/она говорил(а)."
+      },
+      "right": {
+        "sama": "Ta pa hu toka.",
+        "ru": "Он/она говорил(а) в определённый момент."
+      },
+      "distinction": "Событие речи и наблюдаемый процесс — не одно и то же.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C07",
+      "domain": "aspect",
+      "left": {
+        "sama": "Mi pa no pina su.",
+        "ru": "Я не пил воду (в прошлом)."
+      },
+      "right": {
+        "sama": "Mi pa no hu pina su.",
+        "ru": "Я не находился в процессе питья воды."
+      },
+      "distinction": "Отрицание прогрессивности не доказывает отсутствия любого питья.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C08",
+      "domain": "aspect",
+      "left": {
+        "sama": "Mi no lita kaso.",
+        "ru": "Я не читаю книгу."
+      },
+      "right": {
+        "sama": "Mi no te lita kaso.",
+        "ru": "Я не завершил чтение книги."
+      },
+      "distinction": "Незавершённость не означает отсутствия чтения.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C09",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi mosa pina su.",
+        "ru": "Я способен пить воду."
+      },
+      "right": {
+        "sama": "Mi kama pina su.",
+        "ru": "Я хочу пить воду."
+      },
+      "distinction": "Способность не равна желанию.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C10",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi mosa pina su.",
+        "ru": "Я могу пить воду (способен)."
+      },
+      "right": {
+        "sama": "Mi musa pina su.",
+        "ru": "Я обязан пить воду."
+      },
+      "distinction": "Возможность не равна обязанности.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C11",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi no musa pina su.",
+        "ru": "Я не обязан пить воду."
+      },
+      "right": {
+        "sama": "Mi musa no pina su.",
+        "ru": "Я обязан не пить воду."
+      },
+      "distinction": "Нет обязанности и запрет — разные значения.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C12",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi no mosa pina su.",
+        "ru": "Я не способен пить воду."
+      },
+      "right": {
+        "sama": "Mi mosa no pina su.",
+        "ru": "Я способен не пить воду."
+      },
+      "distinction": "Отрицается возможность либо действие в её сфере.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C13",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi no kama pina su.",
+        "ru": "Я не хочу пить воду."
+      },
+      "right": {
+        "sama": "Mi kama no pina su.",
+        "ru": "Я хочу не пить воду (воздержаться)."
+      },
+      "distinction": "Нежелание пить и желание воздержаться логически различаются.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C14",
+      "domain": "modal",
+      "left": {
+        "sama": "Ta pa musa kula pana.",
+        "ru": "У него/неё была обязанность есть хлеб."
+      },
+      "right": {
+        "sama": "Ta pa kula pana.",
+        "ru": "Он/она ел(а) хлеб."
+      },
+      "distinction": "Предписание не доказывает исполнение.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C15",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi musa hu lita kaso.",
+        "ru": "Я должен находиться в процессе чтения книги."
+      },
+      "right": {
+        "sama": "Mi musa te lita kaso.",
+        "ru": "Я должен завершить чтение книги."
+      },
+      "distinction": "Обязанность совершать процесс и обязанность завершить его.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C16",
+      "domain": "modal",
+      "left": {
+        "sama": "Mi la mosa pina su.",
+        "ru": "В будущем я смогу пить воду."
+      },
+      "right": {
+        "sama": "Mi la musa pina su.",
+        "ru": "В будущем я буду обязан пить воду."
+      },
+      "distinction": "Временной ориентир не делает операторы одинаковыми.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C17",
+      "domain": "causation",
+      "left": {
+        "sama": "Mi no pina su, kisa su bi malo.",
+        "ru": "Я не пью воду; объясняю это её плохим качеством."
+      },
+      "right": {
+        "sama": "Mi no pina su, saka su bi malo.",
+        "ru": "Я утверждаю, что плохое качество воды стало причиной отказа."
+      },
+      "distinction": "Причина, заявленная как объективная, сильнее объяснения.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C18",
+      "domain": "causation",
+      "left": {
+        "sama": "Mi no kula pana, kisa mi no kama kula pana.",
+        "ru": "Я не ем хлеб: говорю, что не хочу."
+      },
+      "right": {
+        "sama": "Mi no kula pana, saka mi no kama kula pana.",
+        "ru": "Я утверждаю, что отсутствие желания стало причиной отказа от хлеба."
+      },
+      "distinction": "Мотив объяснения не равен доказанному механизму причинности.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C19",
+      "domain": "causation",
+      "left": {
+        "sama": "Ta no pina su, kisa ta no kama pina su.",
+        "ru": "Он/она не пьёт воду; объясняет это нежеланием."
+      },
+      "right": {
+        "sama": "Ta no pina su, saka ta no kama pina su.",
+        "ru": "Утверждается, что нежелание вызвало отказ от воды."
+      },
+      "distinction": "Различие статуса объяснения и причинного утверждения.",
+      "status": "experimental",
+      "independently_checked": false
+    },
+    {
+      "id": "C20",
+      "domain": "causation",
+      "left": {
+        "sama": "Mi no lita kaso, kisa kaso bi malo.",
+        "ru": "Я не читаю книгу, объясняя это её плохим качеством."
+      },
+      "right": {
+        "sama": "Mi no lita kaso, saka kaso bi malo.",
+        "ru": "Я утверждаю, что плохое качество книги вызвало отказ читать."
+      },
+      "distinction": "Субъективное объяснение против заявления причинной связи.",
+      "status": "experimental",
+      "independently_checked": false
+    }
+  ],
+  "blocked": [
+    {
+      "id": "B01",
+      "ru": "Контрфактическое «если бы я знал, я бы ушёл»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Нет правил нереального условия и согласования времён.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B02",
+      "ru": "«Мне разрешено пить воду»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "mosa фиксирует способность, а не социальное разрешение.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B03",
+      "ru": "«Возможно, он придёт»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Нет эпистемического оператора вероятности.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B04",
+      "ru": "«Я уже прочитал книгу, поэтому знаю содержание»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "te не выражает актуального результата (перфекта) и логического вывода.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B05",
+      "ru": "«Я заставил его прочитать книгу»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Нет нормативной каузативной конструкции с двумя агентами.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B06",
+      "ru": "«Суд установил причинную связь на основании доказательств»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "saka — утверждение причинности, не правило о доказанности юридического факта.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B07",
+      "ru": "«Все, кроме двоих, согласились»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Не нормированы универсальные кванторы и исключения.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B08",
+      "ru": "«Результат равен ровно 7,5%»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Нет полной нормы процентов и десятичных чисел.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B09",
+      "ru": "«Мне сказали, что он якобы подписал документ»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Нет эвиденциальности, пересказа и степени достоверности.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B10",
+      "ru": "«Вчера я знал, что завтра должен был уехать»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Не стандартизировано относительное время вложенных клауз.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B11",
+      "ru": "«Решение было отменено после обжалования»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "Нет устойчивой пассивной и юридической лексической нормы.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    },
+    {
+      "id": "B12",
+      "ru": "«Он почти закончил читать книгу»",
+      "sama": null,
+      "status": "blocked",
+      "reason": "te завершённость не выражает приблизительное достижение границы.",
+      "needed": "new tested grammar/lexicon; must not invent translation"
+    }
+  ],
+  "invalid": [
+    {
+      "id": "N01",
+      "sama": "Mi hu te pina su.",
+      "reason": "Двойной аспект в одной группе запрещён.",
+      "expected": "reject"
+    },
+    {
+      "id": "N02",
+      "sama": "Mi te hu pina su.",
+      "reason": "Двойной аспект.",
+      "expected": "reject"
+    },
+    {
+      "id": "N03",
+      "sama": "Mi pa la pina su.",
+      "reason": "Два показателя времени.",
+      "expected": "reject"
+    },
+    {
+      "id": "N04",
+      "sama": "Mi hu no pina su.",
+      "reason": "Отрицание после аспекта.",
+      "expected": "reject"
+    },
+    {
+      "id": "N05",
+      "sama": "Mi musa musa pina su.",
+      "reason": "Двойная модальность без правил стека.",
+      "expected": "reject"
+    },
+    {
+      "id": "N06",
+      "sama": "Mi no pa pina su.",
+      "reason": "Отрицание перед временем.",
+      "expected": "reject"
+    },
+    {
+      "id": "N07",
+      "sama": "Mi pa hu si yu.",
+      "reason": "Пилот не допускает hu с состоянием si.",
+      "expected": "reject"
+    },
+    {
+      "id": "N08",
+      "sama": "Mi pa te ama yu.",
+      "reason": "Пилот не допускает te с чувством ama.",
+      "expected": "reject"
+    },
+    {
+      "id": "N09",
+      "sama": "Mi no no musa pina su.",
+      "reason": "Двойное внешнее отрицание.",
+      "expected": "reject"
+    },
+    {
+      "id": "N10",
+      "sama": "Mi no musa no pina su.",
+      "reason": "В эксперименте запрещено сочетать внешнее и внутреннее no.",
+      "expected": "reject"
+    },
+    {
+      "id": "N11",
+      "sama": "Mi no pina su saka su bi malo.",
+      "reason": "Пропущена граница сложного предложения: запятая.",
+      "expected": "reject"
+    },
+    {
+      "id": "N12",
+      "sama": "Mi no pina su, kisa.",
+      "reason": "Нет самостоятельной причины.",
+      "expected": "reject"
+    },
+    {
+      "id": "N13",
+      "sama": "Mi no pina su, kisa su bi malo, saka mi si yu.",
+      "reason": "Две каузальные связки; пилот допускает только одну.",
+      "expected": "reject"
+    },
+    {
+      "id": "N14",
+      "sama": "Mi te si yu.",
+      "reason": "te не лицензировано для состояния si.",
+      "expected": "reject"
+    },
+    {
+      "id": "N15",
+      "sama": "Mi musa ka pina su?",
+      "reason": "ka внутри предиката.",
+      "expected": "reject"
+    },
+    {
+      "id": "N16",
+      "sama": "Mi hu bi bona.",
+      "reason": "hu не лицензировано со связкой bi.",
+      "expected": "reject"
+    }
+  ],
+  "metrics": {
+    "rules": 20,
+    "morphemes": 5,
+    "valencies": 12,
+    "contrast_pairs": 20,
+    "blocked": 12,
+    "invalid": 16
+  }
+}
