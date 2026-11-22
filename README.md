@@ -95,3 +95,7 @@ Workflow `.github/workflows/pages.yml` запускает `npm test`, собир
 ### Новое в SAMA 0.16.0
 
 Теперь можно однозначно сказать `No tawa ami li wako.` («Не все друзья идут») и `Tawa ami li no wako.` («Все друзья не идут»). [Описание грамматики](docs/grammar/quantifiers.md) · [40 проверенных контрастов](tests/quantifier-scopes.json) · [логическая семантика](docs/semantics/quantification.md). Охват пока ограничен подлежащим.
+
+## Конституционный юридический регистр для Республики Альба (в работе)
+
+По задаче [R08-07 / issue #7](https://github.com/richmanstudio/worldwidesamaianlanguage/issues/7) подготовлены [матрица 338 правовых понятий](content/terminology/constitution-coverage.json) для 14 глав, [81 индивидуально определённая новая форма-кандидат](content/terminology/law.json), [24 нерешённые юридические конструкции](docs/grammar/constitutional-law.md) и [14 смысловых пар](tests/constitution-legal-contrasts.json). **Это не 81 новое принятое слово и не законченная юридическая грамматика**: пока сохраняются SAMA 0.16.0 / 1004 принятых лексем. Главу I Конституции Альбы нельзя публиковать как юридически точный SAMA-оригинал до редакторского принятия терминов и грамматики.
