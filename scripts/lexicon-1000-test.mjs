@@ -73,3 +73,13 @@ assert.equal(near.version,'0.15.0');assert.equal(near.entries_new,250);
 assert.equal(near.items.length,near.near_pairs);assert(near.near_pairs>0);
 assert.equal(near.human_listening_reviews,0);
 console.log('✓ R07-08/11: 24 documented semantic contrasts; near-form risks explicitly flagged, not treated as human study');
+
+for(const lang of ['ru','en']){
+ const seen=new Map();
+ for(const entry of lex.entries){
+  const gloss=entry.senses[0].gloss[lang].trim().toLowerCase();
+  assert(!seen.has(gloss),'Unresolved identical '+lang+' gloss: '+entry.form+' / '+seen.get(gloss));
+  seen.set(gloss,entry.form);
+ }
+}
+console.log('✓ R07-08: no identical primary RU/EN glosses across 1000 adopted headwords');
