@@ -4,13 +4,21 @@
 
 > 🧭 **[ОФИЦИАЛЬНЫЙ ROADMAP / ГЕНЕРАЛЬНЫЙ ПЛАН SAMA](ROADMAP.md)** · [Текущая работа и блокеры](docs/ROADMAP-STATUS.md) · [Журнал изменений](docs/WORKLOG.md) · [Master Roadmap #1](https://github.com/richmanstudio/worldwidesamaianlanguage/issues/1) · [Правила вкладов и ИИ-помощников](AGENTS.md)
 >
-> **Правило проекта:** каждый новый языкозависимый коммит должен ссылаться на задачу `Rxx-yy`, проверять ограничения грамматики и обновлять статус. Детали и критерии «готово» — в ROADMAP.
+> **Правило разработки языка:** каждый новый языкозависимый коммит должен ссылаться на задачу `Rxx-yy`, проверять ограничения грамматики и обновлять статус. Детали и критерии «готово» — в ROADMAP.
 
 ---
 
-# SAMA 0.9 — модальность, аспект и причинность (эксперимент)
+## Изучение SAMA 0.15.0
 
-[Открыть новую лабораторию SAMA 0.9](https://richmanstudio.github.io/worldwidesamaianlanguage/#/language09) · [Редакторская спецификация](docs/SAMA-0.9-DECISIONS.md)
+[Начало обучения](https://richmanstudio.github.io/worldwidesamaianlanguage/#/start) · [Азбука](https://richmanstudio.github.io/worldwidesamaianlanguage/#/alphabet) · [Произношение](https://richmanstudio.github.io/worldwidesamaianlanguage/#/sounds) · [Грамматика](https://richmanstudio.github.io/worldwidesamaianlanguage/#/grammar) · [Словарь](https://richmanstudio.github.io/worldwidesamaianlanguage/#/dictionary) · [Уроки](https://richmanstudio.github.io/worldwidesamaianlanguage/#/lessons) · [Тренажёр](https://richmanstudio.github.io/worldwidesamaianlanguage/#/trainer).
+
+Нормативная редакция содержит 1000 индивидуально определённых слов и 24 правила действующего базового синтаксиса. Более сложная грамматика, человеческая озвучка и расширение до 5000 статей находятся в работе; старые исследования хранятся отдельно и не смешиваются с действующей нормой.
+
+---
+
+## Архив: редакция SAMA 0.9 (исторические исследования)
+
+[Открыть архивную редакцию SAMA 0.9](https://richmanstudio.github.io/worldwidesamaianlanguage/#/language09) · [Редакторская спецификация](docs/SAMA-0.9-DECISIONS.md)
 
 Добавлено: 20 экспериментальных грамматических положений, 5 новых **неутверждённых** морфем, 20 пар смысловых контрастов, 12 профилей валентности, 12 нерешённых заданий, 16 отрицательных тестов. `npm test` включает ограниченный структурный парсер `language09-test.mjs` и проверку веб-маршрута. **Международных испытаний и независимых обратных переводов нет.** 43 формы ядра и 5 000 записей прежнего корпуса не переименованы в нормативные.
 
