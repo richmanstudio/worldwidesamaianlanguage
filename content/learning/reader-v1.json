@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.14.0",
   "texts": [
     {
       "id": 1,
@@ -336,6 +336,266 @@
         {
           "sama": "Wota de mi bi yoma.",
           "ru": "Мой голос на выборах важен."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Прогулка по долине",
+      "sentences": [
+        {
+          "sama": "Mi bi na walema.",
+          "ru": "Я нахожусь в долине."
+        },
+        {
+          "sama": "Wada bi na walema.",
+          "ru": "Река в долине."
+        },
+        {
+          "sama": "Nubi bi noba tano.",
+          "ru": "Облако над горой."
+        },
+        {
+          "sama": "Mi si sunato.",
+          "ru": "Я вижу закат."
+        },
+        {
+          "sama": "Wetala bi bona.",
+          "ru": "Погода хорошая."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Лес и поле",
+      "sentences": [
+        {
+          "sama": "Witana bi na pelina.",
+          "ru": "Пшеница на поле."
+        },
+        {
+          "sama": "Semila bi nana solima.",
+          "ru": "Семя в почве."
+        },
+        {
+          "sama": "Mi si labita.",
+          "ru": "Я вижу кролика."
+        },
+        {
+          "sama": "Hokisa bi na lima.",
+          "ru": "Лиса в лесу."
+        },
+        {
+          "sama": "Belisa bi na tana.",
+          "ru": "Пчела на цветке."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Готовим дома",
+      "sentences": [
+        {
+          "sama": "Mi bi na kulala.",
+          "ru": "Я на кухне."
+        },
+        {
+          "sama": "Ketela bi na mesa.",
+          "ru": "Чайник на столе."
+        },
+        {
+          "sama": "Mi kula ewana.",
+          "ru": "Я ем яйцо."
+        },
+        {
+          "sama": "Kesina bi na pila.",
+          "ru": "Сыр на тарелке."
+        },
+        {
+          "sama": "Mi tako tamola.",
+          "ru": "Я беру вилку."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Комната и вещи",
+      "sentences": [
+        {
+          "sama": "Mi bi na salona.",
+          "ru": "Я в гостиной."
+        },
+        {
+          "sama": "Lomisa bi na pano.",
+          "ru": "Ковёр на полу."
+        },
+        {
+          "sama": "Suweta bi nana kalema.",
+          "ru": "Свитер в шкафу."
+        },
+        {
+          "sama": "Mi si kapala.",
+          "ru": "Я вижу кепку."
+        },
+        {
+          "sama": "Kulasa bi na beto.",
+          "ru": "Одеяло на кровати."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Поездка в городе",
+      "sentences": [
+        {
+          "sama": "Mi bi na palasa.",
+          "ru": "Я на площади."
+        },
+        {
+          "sama": "Busa bi na sitalina.",
+          "ru": "Автобус на улице."
+        },
+        {
+          "sama": "Mi tako tiketa.",
+          "ru": "Я беру билет."
+        },
+        {
+          "sama": "Pasenila bi na busa.",
+          "ru": "Пассажир в автобусе."
+        },
+        {
+          "sama": "Telena bi na dasa.",
+          "ru": "Поезд на станции."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Работа и учёба",
+      "sentences": [
+        {
+          "sama": "Dani bi na lasoma.",
+          "ru": "Ученик в аудитории."
+        },
+        {
+          "sama": "Lenu lita silabusa.",
+          "ru": "Учитель читает программу курса."
+        },
+        {
+          "sama": "Mi wima esaya.",
+          "ru": "Я пишу эссе."
+        },
+        {
+          "sama": "Mi tami limana.",
+          "ru": "Я проверяю крайний срок."
+        },
+        {
+          "sama": "Lewana bi na kapo.",
+          "ru": "Коллега в офисе."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Письмо и искусство",
+      "sentences": [
+        {
+          "sama": "Mi wima imeila.",
+          "ru": "Я пишу электронное письмо."
+        },
+        {
+          "sama": "Mi lita imeila.",
+          "ru": "Я читаю электронное письмо."
+        },
+        {
+          "sama": "Ami li sitena nelo.",
+          "ru": "Друзья обсуждают идею."
+        },
+        {
+          "sama": "Mi saya musika.",
+          "ru": "Я слушаю музыку."
+        },
+        {
+          "sama": "Pinetela bi na paka.",
+          "ru": "Картина на стене."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Помощь и суд",
+      "sentences": [
+        {
+          "sama": "Meka tami paletama.",
+          "ru": "Врач проверяет давление."
+        },
+        {
+          "sama": "Nusena kami pasiyena.",
+          "ru": "Медсестра помогает пациенту."
+        },
+        {
+          "sama": "Meka tako baneda.",
+          "ru": "Врач берёт бинт."
+        },
+        {
+          "sama": "Yudi tami kasina.",
+          "ru": "Судья проверяет судебное дело."
+        },
+        {
+          "sama": "Mi lita senatena.",
+          "ru": "Я читаю судебное решение."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Научная работа",
+      "sentences": [
+        {
+          "sama": "Lutela bi na kapo.",
+          "ru": "Маршрутизатор в офисе."
+        },
+        {
+          "sama": "Mi tami netala.",
+          "ru": "Я проверяю сеть."
+        },
+        {
+          "sama": "Mi tami databasa.",
+          "ru": "Я проверяю базу данных."
+        },
+        {
+          "sama": "Mi wima homula.",
+          "ru": "Я пишу формулу."
+        },
+        {
+          "sama": "Mi naka ekasapela.",
+          "ru": "Я провожу эксперимент."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Слова поддержки",
+      "sentences": [
+        {
+          "sama": "Mi dawila soma.",
+          "ru": "Я знакомлюсь с человеком."
+        },
+        {
+          "sama": "Mi kemala yu.",
+          "ru": "Я благодарю тебя."
+        },
+        {
+          "sama": "Nina helisa.",
+          "ru": "Ребёнок смеётся."
+        },
+        {
+          "sama": "Mama bi bonisa.",
+          "ru": "Мама добрая."
+        },
+        {
+          "sama": "Mi ponila ami.",
+          "ru": "Я доверяю другу."
         }
       ]
     }
