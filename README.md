@@ -1,6 +1,6 @@
 # SAMA — International Auxiliary Language
 
-> 🧭 **[ОФИЦИАЛЬНЫЙ ROADMAP / ГЕНЕРАЛЬНЫЙ ПЛАН SAMA](ROADMAP.md)** · [Текущая работа и блокеры](docs/ROADMAP-STATUS.md) · [Журнал изменений](docs/WORKLOG.md) · [Правила вкладов и ИИ-помощников](AGENTS.md)
+> 🧭 **[ОФИЦИАЛЬНЫЙ ROADMAP / ГЕНЕРАЛЬНЫЙ ПЛАН SAMA](ROADMAP.md)** · [Текущая работа и блокеры](docs/ROADMAP-STATUS.md) · [Журнал изменений](docs/WORKLOG.md) · [Master Roadmap #1](https://github.com/richmanstudio/worldwidesamaianlanguage/issues/1) · [Правила вкладов и ИИ-помощников](AGENTS.md)
 >
 > **Правило проекта:** каждый новый языкозависимый коммит должен ссылаться на задачу `Rxx-yy`, проверять ограничения грамматики и обновлять статус. Детали и критерии «готово» — в ROADMAP.
 

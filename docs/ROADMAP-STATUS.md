@@ -21,6 +21,11 @@
 | G12 | not started | Критерии этапа ROADMAP ещё не приняты |
 | G13 | not started | Критерии этапа ROADMAP ещё не приняты |
 
+## Завершённые задачи (с доказательствами)
+
+- **R00-09 — done:** обязательные файлы ROADMAP и статус, README/AGENTS/PR-template проверяются `scripts/roadmap-test.mjs`; `npm test` и GitHub Pages успешно прошли в [run 44988897537](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44988897537), внедрение в коммите [7d56a6c](https://github.com/richmanstudio/worldwidesamaianlanguage/commit/7d56a6c75591bc9d2066b51cfc6b17a5aa5003a9).
+- [Master issue #1](https://github.com/richmanstudio/worldwidesamaianlanguage/issues/1) — точка обсуждения и навигации.
+
 ## Ближайшие три приоритета
 
 1. **R00-01** — составить реестр действующих источников 0.3–0.9, назначить каждому нормативную силу или архивный статус.
