@@ -49,6 +49,7 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
   if(numeral!==null&&!['noun','pronoun'].includes(category||''))return {kind:'number',value:numeral};
   if(!['noun','pronoun','reflexive'].includes(category||'')&&!isArgumentQuestion(word))fail('EXPECTED_NP','Ожидается имя или местоимение');
   take();if(category!=='noun'&&(demonstrative||numeral!==null))fail('NP_HEAD','Определитель требует существительного');
+  if(word==='se'&&!allowPossession)fail('REFLEXIVE_ROLE','se допускается только как прямой объект');
   if(word==='se'&&start===0)fail('REFLEXIVE_SUBJECT','se не является самостоятельным субъектом');
   const plural=peek()==='li';if(plural){take();if(numeral!==null)fail('NUMBER_AND_LI','Числительное и li не совмещаются');if(category==='reflexive')fail('REFLEXIVE_PLURAL','se получает число от субъекта');}
   const qualities:string[]=[];while(pos(peek())==='adjective')qualities.push(take());
@@ -79,7 +80,7 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
   return members.length===1?members[0]:{kind:'np-coordination',coordinator,members};
  }
  function clause(inRelative=false):SamaTree{
-  const subject=np(!inRelative);if(subject.head==='se')fail('REFLEXIVE_SUBJECT','se относится к субъекту и не заменяет его');
+  const subject=np(!inRelative);if(subject.head==='se'||(subject.kind==='np-coordination'&&(subject.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_SUBJECT','se относится к субъекту и не заменяет его');
   const tense=peek()==='pa'||peek()==='la'?take():null;
   const outerNegation=peek()==='no';if(outerNegation)take();
   const modal=pos(peek())==='modal'?take():null;
@@ -90,7 +91,7 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
   if(!entry||!['verb','copula'].includes(entry.part_of_speech))fail('EXPECTED_VERB','Ожидается глагол или bi');
   let object:SamaTree|null=null,complement:unknown=null;
   if(verb==='bi'){
-   if(aspect||modal)fail('COPULA_OPERATOR','В этой основе bi не принимает вид или модальность');
+   if(aspect)fail('COPULA_OPERATOR','bi не принимает видовой оператор');
    if(pos(peek())==='adjective'){const values:string[]=[];while(pos(peek())==='adjective')values.push(take());complement={kind:'qualities',values};}
    else if(peek()==='kalo'){take();complement={kind:'location-question'};}
    else if(peek()!=='na')complement=np(!inRelative);
@@ -102,7 +103,7 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
   if(aspect==='hu'&&!['pina','kula','lena','lita','wima','wako','toka'].includes(verb))fail('ASPECT_COMPATIBILITY','hu требует динамического действия');
   if(aspect==='te'&&!['pina','kula','lita','wima','tako','pako'].includes(verb))fail('ASPECT_COMPATIBILITY','te требует ограниченного действия');
   const adjuncts:Array<{adposition:string;object:SamaTree}>=[];
-  while(['na','to','ko'].includes(peek())){const adposition=take();adjuncts.push({adposition,object:np(!inRelative)});}
+  while(['na','to','ko'].includes(peek())){const adposition=take(),referent=np(!inRelative);if(referent.head==='se'||(referent.kind==='np-coordination'&&(referent.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_ROLE','se допускается только как прямой объект');adjuncts.push({adposition,object:referent});}
   if(verb==='bi'&&!complement&&!adjuncts.some(x=>x.adposition==='na'))fail('MISSING_COMPLEMENT','bi требует дополнения');
   for(const prep of entry!.frame?.required_adpositions||[])if(adjuncts.filter(x=>x.adposition===prep).length!==1)fail('RECIPIENT','Требуется ровно один получатель '+prep);
   const question=['kate','kasa','kamo'].includes(peek())?take():null;

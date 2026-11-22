@@ -81,3 +81,8 @@ for(const lesson of lessons.lessons){
 for(const text of reader.texts)for(const sample of text.sentences){assert(parse(sample.sama).ok,sample.sama);learningSamples++;}
 assert.equal(taught.size,rules.rules.length);assert.equal(lessons.lessons.length,12);
 console.log('✓ Learning: 12 lessons cover all adopted rule IDs; '+learningSamples+' course/reader sentences checked');
+
+// Lexical role restrictions apply to se; a modal may select a copular VP.
+for(const text of ['Mi wako ko se.','Mi si ami de se.','Mi wa se si yu.'])assert.equal(parse(text).ok,false,text);
+assert(parse('Mi kama bi na doma.').ok);assert(parse('Mi musa bi sili.').ok);
+console.log('✓ Copular modal complements accepted; reflexive PP, possessor and subject misuse rejected');
