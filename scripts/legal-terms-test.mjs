@@ -46,3 +46,20 @@ assert(law.counts.proposed>=80);
 console.log('✓ R08-07: '+items+' constitutional concept occurrences in '+coverage.chapters.length+' chapters; '+core+' exact core matches, '+mapped+' candidate links, '+unmapped+' unmapped.');
 console.log('✓ '+forms.size+' unique law candidates; spelling, IPA, bilingual definitions, known-form collisions checked.');
 console.log('NOTE: no new accepted words, no legal-semantic validation, no independent study.');
+
+const contrasts=read('tests/constitution-legal-contrasts.json');
+assert.equal(contrasts.entries.length,contrasts.count);
+const pairIds=new Set();
+for(const pair of contrasts.entries){
+ assert(!pairIds.has(pair.id));pairIds.add(pair.id);
+ assert.equal(pair.status,'editorial_probes_unvalidated');
+ assert(pair.distinction.ru.length>30 && pair.distinction.en.length>30);
+ for(const side of [pair.left,pair.right]){
+  assert(forms.has(side.form)||lexByForm.has(side.form),'Unknown contrast form: '+side.form);
+  assert(side.example.sama && side.example.ru);
+  assert(side.example.sama.toLowerCase().includes(side.form));
+  assert(side.example.sama.endsWith('.'));
+ }
+ assert.notEqual(pair.left.form,pair.right.form);
+}
+console.log('✓ '+contrasts.count+' editorial legal semantic contrast pairs linked; human / legal review still required.');
