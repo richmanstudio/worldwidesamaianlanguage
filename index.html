@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#143b5e">
-  <meta name="description" content="SAMA — открытая энциклопедия экспериментального международного языка. Букварь, звукарь, словарь, грамматика и уроки.">
-  <title>SAMA — Энциклопедия международного языка</title>
+  <meta name="description" content="SAMA — язык для общения. Азбука, произношение, принятая грамматика, словарь и последовательный курс.">
+  <title>SAMA — язык для общения</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/style.css">
   <script src="./assets/site.js" defer></script>
@@ -15,35 +15,32 @@
   <div class="mobile-scrim" id="mobileScrim" aria-hidden="true"></div>
   <div class="webpage">
     <header class="masthead">
-      <div class="utility"><span><span class="utility-dot"></span> SAMA · WORLD LANGUAGE ARCHIVE · OPEN PROJECT</span><a class="utility-right" href="#/changelog">АРХИВ / ВЕРСИЯ 0.6 · 2026 <span aria-hidden="true">↗</span></a></div>
+      <div class="utility"><span><span class="utility-dot"></span> SAMA · LANGUAGE · LEARNING · COMMUNICATION</span><a class="utility-right" href="#/about">НОРМАТИВНАЯ РЕДАКЦИЯ 0.11 · 2026 <span aria-hidden="true">↗</span></a></div>
       <div class="brandline">
         <a href="#/" class="logomark" title="На главную" aria-label="SAMA: главная"><span class="logo-orbit">◎</span></a>
         <div class="brandtext"><a href="#/" class="brand">SAMA<span class="brand-period">.</span></a><div class="branddesc">МЕЖДУНАРОДНЫЙ ЯЗЫК · СЛОВАРЬ И ЭНЦИКЛОПЕДИЯ</div></div>
-        <div class="header-motto"><span class="motto-top">DIGITAL EDITION 2006 · EST. 2026</span><span>Одна планета. Много культур.</span><strong>Общий язык.</strong></div><button class="theme-toggle" type="button" id="themeToggle" aria-label="Переключить цветовую тему" title="Цветовая тема">◐</button><button class="mobile-toggle" id="mobileToggle" type="button" aria-label="Открыть меню разделов" aria-controls="sidebar" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="header-motto"><span class="motto-top">SAMA · EST. 2026</span><span>Одна планета. Много культур.</span><strong>Общий язык.</strong></div><button class="theme-toggle" type="button" id="themeToggle" aria-label="Переключить цветовую тему" title="Цветовая тема">◐</button><button class="mobile-toggle" id="mobileToggle" type="button" aria-label="Открыть меню разделов" aria-controls="sidebar" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </header>
-    <nav class="primary-nav" aria-label="Главное меню">
-        <a href="#/" data-nav="home">Главная</a><a href="#/alphabet" data-nav="alphabet">Букварь</a><a href="#/sounds" data-nav="sounds">Звукарь</a><a href="#/grammar" data-nav="grammar">Грамматика</a><a href="#/dictionary" data-nav="dictionary">Словарь</a><a href="#/wordbank" data-nav="wordbank">Лаборатория 5000</a><a href="#/lessons" data-nav="lessons">Уроки</a><a href="#/library" data-nav="library">Энциклопедия</a><a href="#/standard" data-nav="standard">Стандарт 0.3</a><a href="#/language07" data-nav="language07">Ядро 0.7</a><a href="#/language09" data-nav="language09">Язык 0.9</a><a href="#/trainer" data-nav="trainer">Тренажёр</a>
-    </nav>
+    <nav class="primary-nav" aria-label="Главное меню"><a href="#/" data-nav="home">Главная</a><a href="#/alphabet" data-nav="alphabet">Азбука</a><a href="#/sounds" data-nav="sounds">Произношение</a><a href="#/grammar" data-nav="grammar">Грамматика</a><a href="#/dictionary" data-nav="dictionary">Словарь</a><a href="#/lessons" data-nav="lessons">Курс</a><a href="#/phrases" data-nav="phrases">Разговорник</a><a href="#/library" data-nav="library">Чтение</a><a href="#/trainer" data-nav="trainer">Практика</a></nav>
     <div class="layout">
-      <aside class="sidebar" id="sidebar" aria-label="Разделы энциклопедии">
-        <div class="sidebar-head"><span>Разделы энциклопедии</span><button id="sidebarClose" type="button" class="sidebar-close" aria-label="Закрыть меню">✕</button></div>
-        <div class="side-block"><div class="side-title">Начало изучения</div><a href="#/start">С чего начать</a><a href="#/alphabet">Букварь</a><a href="#/sounds">Звукарь</a><a href="#/lessons">Самоучитель</a><a href="#/trainer">Тренажёр</a></div>
-        <div class="side-block"><div class="side-title">Справочники</div><a href="#/dictionary">Словарь — 5000</a><a href="#/wordbank">Редакционная лаборатория</a><a href="#/grammar">Грамматика</a><a href="#/phrases">Разговорник</a><a href="#/numbers">Числа и даты</a><a href="#/library">Все статьи</a></div>
-        <div class="side-block"><div class="side-title">Энциклопедия</div><div id="sideTopics"></div></div>
-        <div class="side-block community-block"><div class="side-title">Инструменты</div><a href="#/favorites">☆ Избранное</a><a href="#/about">О проекте</a><a href="#/standard">Стандарт языка 0.3</a><a href="#/audit">Аудит словаря</a><a href="#/language07">Контроль языка 0.7</a><a href="#/language09">Смысл и грамматика 0.9</a><a href="./static-index.html">Статические страницы</a><a href="#/changelog">Версии языка</a><button id="randomArticle" class="textbutton" type="button">↗ Случайная статья</button></div>
-        <div class="side-stamp"><span class="stamp-icon">◎</span><span>SAMA LANGUAGE ARCHIVE</span><small>Открытое знание. Свободный доступ.</small></div>
+      <aside class="sidebar" id="sidebar" aria-label="Разделы SAMA">
+        <div class="sidebar-head"><span>Разделы SAMA</span><button id="sidebarClose" type="button" class="sidebar-close" aria-label="Закрыть меню">✕</button></div>
+        <div class="side-block"><div class="side-title">Изучение</div><a href="#/start">С чего начать</a><a href="#/alphabet">Азбука</a><a href="#/sounds">Произношение</a><a href="#/lessons">Курс по порядку</a><a href="#/trainer">Практика</a></div>
+        <div class="side-block"><div class="side-title">Справочники</div><a href="#/grammar">Грамматика</a><a href="#/dictionary">Словарь</a><a href="#/numbers">Числительные</a><a href="#/phrases">Разговорник</a><div id="sideTopics"></div></div>
+        <div class="side-block"><div class="side-title">О языке</div><a href="#/about">SAMA и стандарт</a><a href="#/favorites">☆ Избранное</a><a href="#/archive">Архив редакций</a><button id="randomArticle" class="textbutton" type="button">Читать текст →</button></div>
+        <div class="side-stamp"><span class="stamp-icon">◎</span><span>SAMA LANGUAGE</span><small>Общение начинается с первых слов.</small></div>
       </aside>
       <div class="workspace">
         <form class="searchbar" id="siteSearch" role="search"><label for="searchInput" class="search-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Поиск</span></label><input type="search" id="searchInput" autocomplete="off" placeholder="Найти слово, правило, статью или перевод..." aria-label="Поиск по энциклопедии"><kbd class="search-shortcut" aria-hidden="true">Ctrl K</kbd><button type="submit">Найти</button><a class="alphabet-shortcut" href="#/dictionary">А–Я <span aria-hidden="true">↗</span></a></form>
         <div class="crumb" id="crumb" aria-label="Навигационная цепочка">SAMA / Главная</div>
         <div class="content-area">
-          <main id="app" class="main-content" tabindex="-1"><h1>Энциклопедия SAMA</h1><p>Открываем страницы...</p></main>
+          <main id="app" class="main-content" tabindex="-1"><h1>SAMA — язык для общения</h1><p>Открываем страницы...</p></main>
           <aside class="right-rail" id="rightRail" aria-label="Справка"></aside>
         </div>
       </div>
     </div>
-    <footer><div><strong>SAMA — открытая энциклопедия</strong> · Лексикон 0.5 · стандарт 0.3 · Материалы можно адаптировать с указанием источника</div><div>Интерфейс Archive 0.6 · <a href="#/about">Об энциклопедии</a> · <a href="#/changelog">Что нового</a> · <a href="./static-index.html">Индекс HTML-страниц</a></div></footer>
+    <footer><div><strong>SAMA — язык для общения</strong> · Нормативная редакция 0.11.0</div><div><a href="#/about">О языке</a> · <a href="#/grammar">Стандарт</a> · <a href="#/archive">Архив</a></div></footer>
   </div>
   <div id="toast" role="status" aria-live="polite"></div>
 </body>

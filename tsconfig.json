@@ -19,6 +19,7 @@
     "src/phonetics.ts",
     "src/linguistics/phonology.ts",
     "src/linguistics/parser.ts",
+    "src/standard.ts",
     "src/app.ts"
   ]
 }

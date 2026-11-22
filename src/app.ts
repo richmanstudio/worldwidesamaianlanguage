@@ -6,6 +6,7 @@ const searchInput = document.getElementById('searchInput') as HTMLInputElement;
 const siteSearch = document.getElementById('siteSearch') as HTMLFormElement;
 const toastEl = document.getElementById('toast') as HTMLElement;
 let toastTimer: number | undefined;
+let archiveView=false;
 let currentDictionaryPage = 1;
 const DICT_PAGE_SIZE = 55;
 const STORAGE_DONE = 'sama:lessons:v1';
@@ -34,7 +35,7 @@ function examples(rows:[string,string][]) {return `<div class="examplebox">${row
 function setCrumb(links:{title:string,path?:string}[]){crumb.innerHTML=`<a href="#/">SAMA</a>`+links.map(l=>` » ${l.path?`<a href="#/${A(l.path)}">${A(l.title)}</a>`:A(l.title)}`).join('');}
 function setRail(html:string){rail.innerHTML=html;}
 function setApp(html:string){
-  app.innerHTML=html;
+  app.innerHTML=(archiveView?'<div class="standard-alert"><b>Архивная редакция.</b> Здесь сохранены прежние формулировки. <a href="#/grammar">Действующая грамматика</a> · <a href="#/dictionary">Принятый словарь</a></div>':'')+html;
   // Automatic section navigation on long reference pages.
   const headings=Array.from(app.querySelectorAll<HTMLElement>('h2'));
   if(headings.length>=2){
@@ -49,7 +50,7 @@ function setApp(html:string){
   }
 }
 function mainRail(){return `<div class="rail-group"><div class="rail-title">Кратко о языке</div><div class="rail-number">17</div><div class="small muted">букв алфавита</div><div class="rail-number">5</div><div class="small muted">основных гласных</div><div class="rail-number">5000</div><div class="small muted">записей корпуса</div></div><div class="rail-group"><div class="rail-title">Быстрые ссылки</div><a href="#/start">Как начать</a><a href="#/alphabet">Алфавит</a><a href="#/dictionary">Русско-SAMA словарь</a><a href="#/trainer">Проверить знания</a><a href="#/language08">Лаборатория SAMA 0.8</a><a href="#/language09">Лаборатория SAMA 0.9</a></div><div class="rail-note"><b>Важно.</b> SAMA 0.5 — исследовательская редакция. Из 5000 форм 4683 являются неутверждёнными составными предложениями.</div>`;}
-function buildSidebar(){const target=document.getElementById('sideTopics');if(target)target.innerHTML=ARTICLE_SECTIONS.map(x=>`<a href="#/topic/${A(x.id)}">${A(x.name)}</a>`).join('');}
+function buildSidebar(){const target=document.getElementById('sideTopics');if(target)target.innerHTML='<a href="#/library">Тексты для чтения</a><a href="#/phrases">Повседневные реплики</a>';}
 function accent(text:string):string{return A(text).replace(/\b(mi|yu|ta|pa|la|no|bi|ka|li)\b/gi, '<strong>$1</strong>');}
 
 function renderHome(){
@@ -359,18 +360,19 @@ async function renderLanguage08(){
 }
 
 function parseRoute(){const value=location.hash.slice(1)||'/';const at=value.indexOf('?');return{path:(at<0?value:value.slice(0,at)).replace(/^\/+|\/+$/g,''),query:new URLSearchParams(at<0?'':value.slice(at+1))};}
-function render(){const {path,query}=parseRoute();document.querySelectorAll('.primary-nav a').forEach(el=>el.classList.toggle('active',(el as HTMLAnchorElement).dataset.nav===(path.split('/')[0]||'home')));
+function render(){const {path:rawPath,query}=parseRoute();const path=rawPath==='archive/home'?'':rawPath.replace(/^archive\//,'');archiveView=rawPath.startsWith('archive/');document.querySelectorAll('.primary-nav a').forEach(el=>el.classList.toggle('active',(el as HTMLAnchorElement).dataset.nav===(path.split('/')[0]||'home')));
  document.querySelectorAll('.sidebar a').forEach(el=>{
    const link=(el as HTMLAnchorElement).getAttribute('href')?.replace(/^#\//,'').split('?')[0];
    const active=link===path;
    el.classList.toggle('active',active);
    if(active)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');
- });if(path==='')renderHome();else if(path==='start')renderStart();else if(path==='alphabet')renderAlphabet();else if(path==='sounds')renderSounds();else if(path==='grammar')renderGrammar();else if(path.startsWith('grammar/chapter/'))renderGrammarChapter(decodeURIComponent(path.slice(16)));else if(path==='dictionary')void renderWordbank(query.get('q')||'');else if(path==='core-dictionary')renderDictionary(query.get('q')||'');else if(path==='wordbank')void renderWordbank();else if(path.startsWith('proposal/'))void renderProposal(decodeURIComponent(path.slice(9)));else if(path.startsWith('word/'))renderWord(decodeURIComponent(path.slice(5)));else if(path==='language07')void renderLanguage07();else if(path==='language08')void renderLanguage08();else if(path==='language09')void renderLanguage09();else if(path==='standard')renderStandard();else if(path==='audit')renderAudit();else if(path==='phrases')renderPhrases();else if(path==='numbers')renderNumbers();else if(path==='lessons')renderLessons();else if(path.startsWith('lesson/'))renderLesson(Number(path.split('/')[1]));else if(path==='library')renderLibrary();else if(path.startsWith('topic/'))renderTopic(decodeURIComponent(path.slice(6)));else if(path.startsWith('article/'))renderArticle(decodeURIComponent(path.slice(8)));else if(path==='trainer')renderTrainer();else if(path==='favorites')renderFavorites();else if(path==='about')renderAbout();else if(path==='changelog')renderChangelog();else if(path==='search')renderSearch(query.get('q')||'');else renderNotFound();const h=app.querySelector('h1');document.title=(h?.textContent||'SAMA')+' | Энциклопедия SAMA';}
+ });if(!archiveView&&renderCurrentRoute(path,query)){const h=app.querySelector('h1');document.title=(h?.textContent||'SAMA')+' | SAMA';return;}archiveView=true;if(path==='')renderHome();else if(path==='start')renderStart();else if(path==='alphabet')renderAlphabet();else if(path==='sounds')renderSounds();else if(path==='grammar')renderGrammar();else if(path.startsWith('grammar/chapter/'))renderGrammarChapter(decodeURIComponent(path.slice(16)));else if(path==='dictionary')void renderWordbank(query.get('q')||'');else if(path==='core-dictionary')renderDictionary(query.get('q')||'');else if(path==='wordbank')void renderWordbank();else if(path.startsWith('proposal/'))void renderProposal(decodeURIComponent(path.slice(9)));else if(path.startsWith('word/'))renderWord(decodeURIComponent(path.slice(5)));else if(path==='language07')void renderLanguage07();else if(path==='language08')void renderLanguage08();else if(path==='language09')void renderLanguage09();else if(path==='standard')renderStandard();else if(path==='audit')renderAudit();else if(path==='phrases')renderPhrases();else if(path==='numbers')renderNumbers();else if(path==='lessons')renderLessons();else if(path.startsWith('lesson/'))renderLesson(Number(path.split('/')[1]));else if(path==='library')renderLibrary();else if(path.startsWith('topic/'))renderTopic(decodeURIComponent(path.slice(6)));else if(path.startsWith('article/'))renderArticle(decodeURIComponent(path.slice(8)));else if(path==='trainer')renderTrainer();else if(path==='favorites')renderFavorites();else if(path==='about')renderAbout();else if(path==='changelog')renderChangelog();else if(path==='search')renderSearch(query.get('q')||'');else renderNotFound();const h=app.querySelector('h1');document.title=(h?.textContent||'SAMA')+' | Энциклопедия SAMA';}
 function populateVoices(){const v=document.getElementById('voiceSelect') as HTMLSelectElement|null;if(!v||!('speechSynthesis' in window))return;const voices=window.speechSynthesis.getVoices();const opts=voices.map(voice=>({value:`${voice.voiceURI}`,text:`${voice.name} (${voice.lang})`}));v.innerHTML='<option value="">Автоматически</option>'+opts.map(o=>`<option value="${A(o.value)}" ${chosenVoice===o.value?'selected':''}>${A(o.text)}</option>`).join('');}
 function speak(value:string){if(!('speechSynthesis' in window)){notify('Синтез речи не поддерживается этим браузером.');return;}const utter=new SpeechSynthesisUtterance(value.replace(/-/g,' '));const voices=window.speechSynthesis.getVoices();const picked=voices.find(v=>v.voiceURI===chosenVoice)||voices.find(v=>/^it(-|$)/i.test(v.lang))||voices.find(v=>/^es(-|$)/i.test(v.lang))||voices.find(v=>/^ru(-|$)/i.test(v.lang))||voices[0];if(picked){utter.voice=picked;utter.lang=picked.lang;}else utter.lang='it-IT';utter.rate=audioSpeed;utter.pitch=1;window.speechSynthesis.cancel();window.speechSynthesis.speak(utter);}
 function exportCSV(){const csv='\uFEFF'+['SAMA;Перевод;Тема;Статус;Примечание',...LEXICON.map(w=>[w.w,w.ru,w.tag,w.status==='candidate'?'Кандидат':'Ядро 0.3',w.note||''].map(c=>`"${c.replace(/"/g,'""')}"`).join(';'))].join('\r\n');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='sama-dictionary-v0.3.csv';document.body.append(a);a.click();a.remove();window.setTimeout(()=>URL.revokeObjectURL(url),1200);notify('CSV-файл подготовлен.');}
 function onAction(e:MouseEvent){const target=(e.target as Element).closest<HTMLElement>('[data-action]');if(!target)return;const action=target.dataset.action||'';
  switch(action){
+ case 'standard-parse':checkCurrentSentence();break;
  case 'speak':speak(target.dataset.text||'');break;
  case 'stop-audio':if('speechSynthesis' in window)window.speechSynthesis.cancel();break;
  case 'letter':{const letter=target.dataset.letter||'A';document.querySelectorAll('.letter-cell').forEach(el=>el.classList.toggle('selected',(el as HTMLElement).dataset.letter===letter));const panel=document.getElementById('letterPanel');if(panel)panel.innerHTML=letterDetails(letter);break;}
@@ -390,9 +392,9 @@ function onAction(e:MouseEvent){const target=(e.target as Element).closest<HTMLE
 }
 app.addEventListener('click',onAction);
 siteSearch.addEventListener('submit',e=>{e.preventDefault();location.hash='#/search?q='+encodeURIComponent(searchInput.value.trim());});
-app.addEventListener('input',(e:Event)=>{const t=e.target as HTMLInputElement;if(t.id==='dictQuery')refreshDictionary(1);else if(t.id==='wordbankQuery'){wordbankPage=1;updateWordbankTable();}else if(t.id==='phoneticText'){updatePhoneticLab();}else if(t.id==='phraseFilter'){const q=t.value.trim().toLowerCase();const list=PHRASES.filter(p=>`${p.sama} ${p.ru} ${p.topic}`.toLowerCase().includes(q));const out=document.getElementById('phrasesResults');if(out)out.innerHTML=phraseMarkup(list,[...new Set(list.map(x=>x.topic))]);}else if(t.id==='rateRange'){audioSpeed=Number(t.value);const o=document.getElementById('rateOut');if(o)o.textContent=audioSpeed.toFixed(2)+'×';}});
+app.addEventListener('input',(e:Event)=>{const t=e.target as HTMLInputElement;if(t.id==='standardQuery'){const out=document.getElementById('standardDictionaryResults');if(out)out.innerHTML=currentDictionaryMarkup(t.value);}else if(t.id==='dictQuery')refreshDictionary(1);else if(t.id==='wordbankQuery'){wordbankPage=1;updateWordbankTable();}else if(t.id==='phoneticText'){updatePhoneticLab();}else if(t.id==='phraseFilter'){const q=t.value.trim().toLowerCase();const list=PHRASES.filter(p=>`${p.sama} ${p.ru} ${p.topic}`.toLowerCase().includes(q));const out=document.getElementById('phrasesResults');if(out)out.innerHTML=phraseMarkup(list,[...new Set(list.map(x=>x.topic))]);}else if(t.id==='rateRange'){audioSpeed=Number(t.value);const o=document.getElementById('rateOut');if(o)o.textContent=audioSpeed.toFixed(2)+'×';}});
 app.addEventListener('change',(e:Event)=>{const t=e.target as HTMLInputElement;if(t.id==='dictTag'||t.id==='dictStatus')refreshDictionary(1);if(['wordbankStatus','wordbankTheme','wordbankLetter'].includes(t.id)){wordbankPage=1;updateWordbankTable();}if(t.id==='voiceSelect')chosenVoice=t.value;});
-document.getElementById('randomArticle')?.addEventListener('click',()=>{location.hash=href(ARTICLES[Math.floor(Math.random()*ARTICLES.length)].id);});
+document.getElementById('randomArticle')?.addEventListener('click',()=>{location.hash='#/library';});
 window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0);});
 if('speechSynthesis' in window)window.speechSynthesis.addEventListener('voiceschanged',populateVoices);
 buildSidebar();render();

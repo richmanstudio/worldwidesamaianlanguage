@@ -38,11 +38,14 @@ try {
   }
   assert.ok(ready, `Сервер не запустился: ${serverLog}`);
   for (const [path, snippet, type] of [
-    ['/', 'Энциклопедия международного языка', 'text/html'],
+    ['/', 'SAMA — язык для общения', 'text/html'],
     ['/assets/site.js', 'function render', 'application/javascript'],
     ['/assets/style.css', '.webpage', 'text/css'],
     ['/favicon.svg', '<svg', 'image/svg+xml'],
-    ['/static-index.html','Указатель статических HTML-страниц','text/html'],
+    ['/static-index.html','Справочники SAMA','text/html'],
+    ['/standard.html','Грамматика SAMA','text/html'],
+    ['/dictionary.html','94 принятых слов','text/html'],
+    ['/pages/words/su.html','Water as a substance','text/html'],
     ['/pages/words/meya.html','календарный месяц','text/html'],
     ['/pages/articles/standard-status.html','Что такое стандарт','text/html']
   ]) {

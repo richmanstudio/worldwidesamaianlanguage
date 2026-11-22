@@ -71,3 +71,13 @@ const missing=structuredClone(lex);delete missing.entries.find(x=>x.senses[0].pa
 console.log(`✓ Adopted standard: ${rules.rules.length} rules, ${lex.entries.length} individually defined lexemes, ${examples} parsed lexical examples`);
 console.log(`✓ ${npCases} positive/negative NP pairs, ${negatives.length} semantic/structural rejection cases, 1008 integer round-trips`);
 console.log('✓ Pronunciation, lexical frames, schema rejection and scope/relative-role contrasts checked; no human-study claim');
+
+const lessons=read('content/learning/lessons-v1.json'),reader=read('content/learning/reader-v1.json');
+const taught=new Set();let learningSamples=0;
+for(const lesson of lessons.lessons){
+ for(const id of lesson.rules){assert(rules.rules.some(x=>x.id===id));taught.add(id);}
+ for(const sample of [...lesson.examples,{sama:lesson.exercise.answer}]){assert(parse(sample.sama).ok,lesson.title+' '+sample.sama);learningSamples++;}
+}
+for(const text of reader.texts)for(const sample of text.sentences){assert(parse(sample.sama).ok,sample.sama);learningSamples++;}
+assert.equal(taught.size,rules.rules.length);assert.equal(lessons.lessons.length,12);
+console.log('✓ Learning: 12 lessons cover all adopted rule IDs; '+learningSamples+' course/reader sentences checked');

@@ -1,0 +1,322 @@
+{
+  "version": "0.11.0",
+  "lessons": [
+    {
+      "id": 1,
+      "version": "0.11.0",
+      "title": "Буквы и первые слова",
+      "goal": "Прочитать простые слова и поздороваться.",
+      "rules": [
+        "SAMA-RULE/alphabet",
+        "SAMA-RULE/syllables",
+        "SAMA-RULE/orthography",
+        "SAMA-RULE/politeness"
+      ],
+      "explanation": "Каждая гласная читается отдельно. Ударение падает на предпоследний слог: sa-ma, a-mi. Формулы приветствия могут быть самостоятельными репликами.",
+      "examples": [
+        {
+          "sama": "Sala!",
+          "ru": "Привет!"
+        },
+        {
+          "sama": "Sani, ami!",
+          "ru": "Спасибо, друг!"
+        }
+      ],
+      "exercise": {
+        "prompt": "Поздоровайся с другом.",
+        "answer": "Sala, ami!"
+      },
+      "contrast": "Два соседних гласных не сливаются: dua читается ду-а."
+    },
+    {
+      "id": 2,
+      "version": "0.11.0",
+      "title": "Кто совершает действие",
+      "goal": "Различать деятеля и объект.",
+      "rules": [
+        "SAMA-RULE/svo",
+        "SAMA-RULE/pronouns",
+        "SAMA-RULE/wordclasses"
+      ],
+      "explanation": "mi — я, yu — ты, ta — он/она/оно. Субъект стоит перед глаголом, объект после него. si означает видеть. Перестановка участников меняет смысл.",
+      "examples": [
+        {
+          "sama": "Mi si yu.",
+          "ru": "Я вижу тебя."
+        },
+        {
+          "sama": "Yu si mi.",
+          "ru": "Ты видишь меня."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Мама видит меня».",
+        "answer": "Mama si mi."
+      },
+      "contrast": "Mi si yu и Yu si mi — разные сообщения."
+    },
+    {
+      "id": 3,
+      "version": "0.11.0",
+      "title": "Назвать качество и место",
+      "goal": "Использовать обязательную связку bi.",
+      "rules": [
+        "SAMA-RULE/copula",
+        "SAMA-RULE/quality",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "bi связывает предмет с качеством, классом или местом. Doma bi bona — дом хороший. Для местонахождения используется bi na. При имени качество ставится после него.",
+      "examples": [
+        {
+          "sama": "Doma bi bona.",
+          "ru": "Дом хороший."
+        },
+        {
+          "sama": "Mi bi na doma.",
+          "ru": "Я дома."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Книга на столе».",
+        "answer": "Kaso bi na mesa."
+      },
+      "contrast": "doma bona — именная группа «хороший дом»; Doma bi bona — полное предложение."
+    },
+    {
+      "id": 4,
+      "version": "0.11.0",
+      "title": "Отрицание и общий вопрос",
+      "goal": "Сказать «не» и задать вопрос да/нет.",
+      "rules": [
+        "SAMA-RULE/negation",
+        "SAMA-RULE/questions"
+      ],
+      "explanation": "no стоит перед сказуемым. Общий вопрос сохраняет порядок слов и заканчивается ka?. Ответы yesa и nono употребляются самостоятельно или с полным предложением.",
+      "examples": [
+        {
+          "sama": "Mi no si yu.",
+          "ru": "Я не вижу тебя."
+        },
+        {
+          "sama": "Yu si mi ka?",
+          "ru": "Ты видишь меня?"
+        }
+      ],
+      "exercise": {
+        "prompt": "Спроси: «Ты пьёшь воду?»",
+        "answer": "Yu pina su ka?"
+      },
+      "contrast": "ka? завершает общий вопрос; no не заменяется ответным словом nono."
+    },
+    {
+      "id": 5,
+      "version": "0.11.0",
+      "title": "Прошлое и будущее",
+      "goal": "Поместить действие до или после момента речи.",
+      "rules": [
+        "SAMA-RULE/tense",
+        "SAMA-RULE/svo"
+      ],
+      "explanation": "pa означает прошедшее, la — будущее. Частица времени стоит до no и глагола. Без частицы время устанавливает контекст; один pa не означает, что действие завершено.",
+      "examples": [
+        {
+          "sama": "Mi pa lita kaso.",
+          "ru": "Я читал книгу."
+        },
+        {
+          "sama": "Mi la lita kaso.",
+          "ru": "Я буду читать книгу."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я не увижу тебя».",
+        "answer": "Mi la no si yu."
+      },
+      "contrast": "pa и la не ставятся вместе перед одним глаголом."
+    },
+    {
+      "id": 6,
+      "version": "0.11.0",
+      "title": "Несколько предметов и точное число",
+      "goal": "Собирать именные группы в принятом порядке.",
+      "rules": [
+        "SAMA-RULE/nounphrase",
+        "SAMA-RULE/plural",
+        "SAMA-RULE/numbers"
+      ],
+      "explanation": "li стоит сразу после имени или местоимения. Если есть точное числительное, li не используется: dua kaso. Указатель идёт до числа, качество — после имени.",
+      "examples": [
+        {
+          "sama": "Ami li si mi.",
+          "ru": "Друзья видят меня."
+        },
+        {
+          "sama": "Ena dua kaso bona bi na mesa.",
+          "ru": "Эти две хорошие книги на столе."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу три книги».",
+        "answer": "Mi si tia kaso."
+      },
+      "contrast": "dua kaso li исключено: число уже выражено словом dua."
+    },
+    {
+      "id": 7,
+      "version": "0.11.0",
+      "title": "Чей предмет и какой именно",
+      "goal": "Выразить отношение de и указание ena/ona.",
+      "rules": [
+        "SAMA-RULE/possession",
+        "SAMA-RULE/definiteness"
+      ],
+      "explanation": "de связывает имя с относящимся к нему участником. ami de mi — мой друг. Это отношение само по себе не утверждает права собственности. ena — этот, ona — тот.",
+      "examples": [
+        {
+          "sama": "Kaso de mama bi bona.",
+          "ru": "Мамина книга хорошая."
+        },
+        {
+          "sama": "Mi tako ona kaso.",
+          "ru": "Я беру ту книгу."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Мой дом маленький».",
+        "answer": "Doma de mi bi mini."
+      },
+      "contrast": "ena и ona в этой редакции являются определителями перед именем."
+    },
+    {
+      "id": 8,
+      "version": "0.11.0",
+      "title": "Движение, спутник и передача",
+      "goal": "Различать цель движения и получателя.",
+      "rules": [
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/valency"
+      ],
+      "explanation": "wako не имеет прямого объекта: направление задаёт to. ko указывает спутника. pako требует тему и получателя с to: дать что кому.",
+      "examples": [
+        {
+          "sama": "Mi wako to doma ko yu.",
+          "ru": "Я иду к дому с тобой."
+        },
+        {
+          "sama": "Mi pako kaso to yu.",
+          "ru": "Я даю тебе книгу."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Мама дала мне хлеб».",
+        "answer": "Mama pa pako pana to mi."
+      },
+      "contrast": "Mi wako yu исключено; Mi pako kaso не называет обязательного получателя."
+    },
+    {
+      "id": 9,
+      "version": "0.11.0",
+      "title": "Желание, способность и обязанность",
+      "goal": "Не смешивать разные модальные значения.",
+      "rules": [
+        "SAMA-RULE/modality",
+        "SAMA-RULE/negation"
+      ],
+      "explanation": "После kama, mosa или musa следует действие. kama — хочу, mosa — способен, musa — обязан. Эти слова не утверждают, что действие произошло. Социальное разрешение не равно способности.",
+      "examples": [
+        {
+          "sama": "Mi kama pina su.",
+          "ru": "Я хочу пить воду."
+        },
+        {
+          "sama": "Mi mosa lita kaso.",
+          "ru": "Я способен читать книгу."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я обязан не идти».",
+        "answer": "Mi musa no wako."
+      },
+      "contrast": "Mi no musa wako — не обязан идти; Mi musa no wako — обязан не идти."
+    },
+    {
+      "id": 10,
+      "version": "0.11.0",
+      "title": "Процесс и завершение",
+      "goal": "Различать чтение в процессе и завершение чтения.",
+      "rules": [
+        "SAMA-RULE/aspect",
+        "SAMA-RULE/tense"
+      ],
+      "explanation": "hu указывает на продолжающееся действие, te — на достижение конца ограниченного действия. Эти операторы имеют словарные ограничения и не применяются к bi, si или ama.",
+      "examples": [
+        {
+          "sama": "Mi pa hu lita kaso.",
+          "ru": "Я был в процессе чтения книги."
+        },
+        {
+          "sama": "Mi pa te lita kaso.",
+          "ru": "Я закончил чтение книги."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я закончил есть хлеб».",
+        "answer": "Mi pa te kula pana."
+      },
+      "contrast": "Mi pa lita kaso не сообщает, что книга дочитана."
+    },
+    {
+      "id": 11,
+      "version": "0.11.0",
+      "title": "Соединить мысли и поставить условие",
+      "goal": "Соединять полные высказывания без потери границ.",
+      "rules": [
+        "SAMA-RULE/coordination",
+        "SAMA-RULE/conditionals"
+      ],
+      "explanation": "Между полными клаузами перед wa/aka/o ставится запятая. wa — и, aka — но, o — включающее или. Ani P, Q задаёт открытое условие, не контрфактическое если бы.",
+      "examples": [
+        {
+          "sama": "Mi si yu, aka yu no si mi.",
+          "ru": "Я вижу тебя, но ты меня не видишь."
+        },
+        {
+          "sama": "Ani yu wako, mi wako.",
+          "ru": "Если ты идёшь, я иду."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я пью воду, и ты ешь хлеб».",
+        "answer": "Mi pina su, wa yu kula pana."
+      },
+      "contrast": "В Mi wa yu si ami соединены участники; в Mi si yu, wa yu si mi соединены клаузы."
+    },
+    {
+      "id": 12,
+      "version": "0.11.0",
+      "title": "Уточнить человека и спросить о нём",
+      "goal": "Различать относительную связь и вопрос.",
+      "rules": [
+        "SAMA-RULE/relatives",
+        "SAMA-RULE/questions"
+      ],
+      "explanation": "ye открывает определение имени, ya закрывает. Внутри один ta обозначает это имя. Позиция ta показывает роль. Вопросы ki и ku ставятся на место неизвестного участника.",
+      "examples": [
+        {
+          "sama": "Ami ye ta si mi ya bi bona.",
+          "ru": "Друг, который видит меня, хороший."
+        },
+        {
+          "sama": "Ami ye mi si ta ya bi bona.",
+          "ru": "Друг, которого я вижу, хороший."
+        }
+      ],
+      "exercise": {
+        "prompt": "Спроси: «Кого ты видишь?»",
+        "answer": "Yu si ki?"
+      },
+      "contrast": "В относительном определении ta связывается с именем; ki задаёт вопрос и не заменяет ta."
+    }
+  ]
+}

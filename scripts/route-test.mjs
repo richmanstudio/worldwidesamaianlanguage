@@ -15,7 +15,7 @@ function element(id){
  });
  return dom.get(id);
 }
-const location={hash:'#/'};
+const location={hash:'#/archive/home'};
 const document={title:'',getElementById:element,querySelectorAll(){return []},querySelector(){return null},body:{classList:{add(){},remove(){},toggle(){},contains(){return false}}}};
 const window={addEventListener(){},scrollTo(){},setTimeout,clearTimeout};
 const context=vm.createContext({document,window,location,localStorage:{getItem(){return null},setItem(){}},
@@ -34,7 +34,7 @@ const routes=[
  ['/article/standard-content-clause','Изъяснительное'],['/unknown','не найдена']
 ];
 function checkRoute(path,title){
- location.hash='#'+path;
+ location.hash=path==='/'?'#/archive/home':'#/archive'+path;
  evalIn('render()');
  const html=element('app').innerHTML;
  assert.ok(/<h1\b/.test(html)&&html.toLowerCase().includes(title.toLowerCase()),`Не найдено: ${path} / ${title}`);

@@ -1,0 +1,109 @@
+{
+  "version": "0.11.0",
+  "texts": [
+    {
+      "id": 1,
+      "title": "Знакомство",
+      "sentences": [
+        {
+          "sama": "Sala, ami!",
+          "ru": "Привет, друг!"
+        },
+        {
+          "sama": "Mi bi na doma.",
+          "ru": "Я дома."
+        },
+        {
+          "sama": "Yu bi kalo?",
+          "ru": "Где ты?"
+        },
+        {
+          "sama": "Mi la wako to doma.",
+          "ru": "Я пойду к дому."
+        },
+        {
+          "sama": "Sayo!",
+          "ru": "До свидания!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Книга на столе",
+      "sentences": [
+        {
+          "sama": "Kaso bi na mesa.",
+          "ru": "Книга на столе."
+        },
+        {
+          "sama": "Ena kaso bi bona.",
+          "ru": "Эта книга хорошая."
+        },
+        {
+          "sama": "Mi kama lita kaso.",
+          "ru": "Я хочу читать книгу."
+        },
+        {
+          "sama": "Mama pako kaso to mi.",
+          "ru": "Мама даёт мне книгу."
+        },
+        {
+          "sama": "Mi lita kaso.",
+          "ru": "Я читаю книгу."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "За водой",
+      "sentences": [
+        {
+          "sama": "Mi kama pina su.",
+          "ru": "Я хочу пить воду."
+        },
+        {
+          "sama": "Su bi na kopa.",
+          "ru": "Вода в чашке."
+        },
+        {
+          "sama": "Yu pako kopa to mi, palao.",
+          "ru": "Дай мне чашку, пожалуйста."
+        },
+        {
+          "sama": "Mi pina su.",
+          "ru": "Я пью воду."
+        },
+        {
+          "sama": "Sani!",
+          "ru": "Спасибо!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Вчера и завтра",
+      "sentences": [
+        {
+          "sama": "Mi pa bi na doma.",
+          "ru": "Я был дома."
+        },
+        {
+          "sama": "Mi pa hu lita kaso.",
+          "ru": "Я был в процессе чтения книги."
+        },
+        {
+          "sama": "Mi pa te lita kaso.",
+          "ru": "Я закончил чтение книги."
+        },
+        {
+          "sama": "Mi la wako ko ami.",
+          "ru": "Я пойду с другом."
+        },
+        {
+          "sama": "Ani yu la wako, mi la wako.",
+          "ru": "Если ты пойдёшь, я пойду."
+        }
+      ]
+    }
+  ]
+}
