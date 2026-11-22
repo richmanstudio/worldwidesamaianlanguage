@@ -312,7 +312,7 @@ async function renderLanguage08(){
   filter?.addEventListener('change',()=>{
    const v=filter.value;
    document.querySelectorAll<HTMLElement>('[data-review-status]').forEach(el=>{el.style.display=v==='all'||el.dataset.reviewStatus===v?'':'none'});
-   document.querySelectorAll<HTMLElement>('#sama08groups details').forEach(d=>{const visible=[...d.querySelectorAll<HTMLElement>('[data-review-status]')].some(x=>x.style.display!=='none');d.style.display=visible?'':'none'});
+   document.querySelectorAll<HTMLElement>('#sama08groups details').forEach(d=>{const visible=Array.from(d.querySelectorAll<HTMLElement>('[data-review-status]')).some(x=>x.style.display!=='none');d.style.display=visible?'':'none'});
   });
  }catch(e){if(parseRoute().path==='language08')setApp('<p class="lex-warning">Не удалось прочитать данные SAMA 0.8: '+A(String(e))+'</p>');}
 }
