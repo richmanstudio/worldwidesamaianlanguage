@@ -1,0 +1,642 @@
+{
+  "version": "0.7-draft",
+  "edition": "2026-11-22",
+  "stage": "internal-controlled-baseline",
+  "external_validation": false,
+  "notice": "Подмножество ранее описанных правил. Это НЕ международно проверенный стандарт и НЕ полная грамматика.",
+  "metrics": {
+    "rules": 15,
+    "curated": 44,
+    "contrasts": 10,
+    "negative": 10,
+    "benchmark": 1000
+  },
+  "rules": [
+    {
+      "id": "07-01",
+      "title": "Действующее лицо, действие, дополнение",
+      "status": "core",
+      "pattern": "S + V + O",
+      "scope": "Простое утверждение с одним прямым дополнением.",
+      "example": "Mi si yu.",
+      "meaning": "Я вижу тебя.",
+      "constraint": "Смена порядка субъекта и дополнения меняет участников действия."
+    },
+    {
+      "id": "07-02",
+      "title": "Связка bi",
+      "status": "core",
+      "pattern": "S + bi + N/QUAL",
+      "scope": "Идентификация и качество.",
+      "example": "Doma bi bona.",
+      "meaning": "Дом хороший.",
+      "constraint": "В полной учебной фразе качественное сказуемое не употребляется без bi."
+    },
+    {
+      "id": "07-03",
+      "title": "Временные маркеры pa и la",
+      "status": "core",
+      "pattern": "S + (pa | la) + V + O",
+      "scope": "Только один временной маркер на одно простое сказуемое.",
+      "example": "Mi pa si ami.",
+      "meaning": "Я видел(а) друга.",
+      "constraint": "Pa и la не совмещаются при одном сказуемом; немаркированное предложение не имеет обязательного прошедшего значения."
+    },
+    {
+      "id": "07-04",
+      "title": "Отрицание",
+      "status": "core",
+      "pattern": "S + [pa/la] + no + V + O",
+      "scope": "Отрицается предикат; маркер времени предшествует no.",
+      "example": "Mi pa no si yu.",
+      "meaning": "Я не видел(а) тебя.",
+      "constraint": "No pa и no la не считаются стандартной последовательностью."
+    },
+    {
+      "id": "07-05",
+      "title": "Общий вопрос",
+      "status": "core",
+      "pattern": "S + [pa/la] + [no] + V + O + ka?",
+      "scope": "Ka ставится один раз в конце всего простого предложения.",
+      "example": "Yu si mi ka?",
+      "meaning": "Ты видишь меня?",
+      "constraint": "Ka не помещается перед сказуемым."
+    },
+    {
+      "id": "07-06",
+      "title": "Множественность в местоимениях",
+      "status": "core",
+      "pattern": "mi li / yu li / ta li",
+      "scope": "Li относится к непосредственно предшествующему местоимению.",
+      "example": "Mi li si ami.",
+      "meaning": "Мы видим друга.",
+      "constraint": "Mi li и mi не равнозначны; li не ставится перед местоимением."
+    },
+    {
+      "id": "07-07",
+      "title": "Множественность дополнения",
+      "status": "core",
+      "pattern": "V + N + li",
+      "scope": "Для одиночного существительного в объектной позиции.",
+      "example": "Mi si ami li.",
+      "meaning": "Я вижу друзей.",
+      "constraint": "Норму для сложных групп N+качество+li ещё надо установить."
+    },
+    {
+      "id": "07-08",
+      "title": "Принадлежность",
+      "status": "core",
+      "pattern": "N + de + X",
+      "scope": "Предмет связи находится слева; лицо или объект связи справа.",
+      "example": "doma de mi",
+      "meaning": "мой дом",
+      "constraint": "De не равнозначно только юридической собственности."
+    },
+    {
+      "id": "07-09",
+      "title": "Локативная связка",
+      "status": "core",
+      "pattern": "S + bi + na + N",
+      "scope": "Нахождение в/на/у объекта; конкретное отношение зависит от контекста.",
+      "example": "Mi bi na doma.",
+      "meaning": "Я дома.",
+      "constraint": "Na ещё не различает строго «внутри», «на поверхности» и «возле»."
+    },
+    {
+      "id": "07-10",
+      "title": "Качественное определение",
+      "status": "core",
+      "pattern": "N + QUAL",
+      "scope": "Простая именная группа с одним качеством.",
+      "example": "doma bona",
+      "meaning": "хороший дом",
+      "constraint": "Порядок нескольких качеств и область li пока не утверждены."
+    },
+    {
+      "id": "07-11",
+      "title": "Отсутствие грамматического рода",
+      "status": "core",
+      "pattern": "mi / yu / ta",
+      "scope": "Третье лицо не кодирует пол.",
+      "example": "Ta ama mama.",
+      "meaning": "Он/она любит маму.",
+      "constraint": "В переводах должно сохраняться отсутствие маркировки пола."
+    },
+    {
+      "id": "07-12",
+      "title": "Объектная валентность",
+      "status": "core",
+      "pattern": "S + (si|ama) + O",
+      "scope": "Для контролируемых тестов si=видеть, ama=любить; обязательное дополнение в тестовом шаблоне.",
+      "example": "Mi ama ami.",
+      "meaning": "Я люблю друга.",
+      "constraint": "Это не запрещает другие употребления глаголов в будущей норме."
+    },
+    {
+      "id": "07-13",
+      "title": "Пить и есть",
+      "status": "core",
+      "pattern": "S + (pina|kula) + O",
+      "scope": "В тестах pina принимает su/kawa, kula принимает pana.",
+      "example": "Yu pina su.",
+      "meaning": "Ты пьёшь воду.",
+      "constraint": "Это экспериментальный ограниченный набор допустимых смысловых пар, не полный словарь сочетаемости."
+    },
+    {
+      "id": "07-14",
+      "title": "Условие, изъяснение и относительная связь",
+      "status": "proposal",
+      "pattern": "ani / ke / ye ... ya",
+      "scope": "Экспериментальные конструкции из атласа 0.5.",
+      "example": "—",
+      "meaning": "Пока без нормативного образца.",
+      "constraint": "Не включать в контрольный корпус 1000 как утверждённые структуры."
+    },
+    {
+      "id": "07-15",
+      "title": "Стресс и варианты L/H/W",
+      "status": "core",
+      "pattern": "CV и предпоследний слог как проектная норма",
+      "scope": "Письменность и фонемная модель без фонологически контрастных тонов.",
+      "example": "sama /ˈsa.ma/",
+      "meaning": "равный, одинаковый",
+      "constraint": "Межъязыковая разборчивость и эталонные аудиозаписи не подтверждены."
+    }
+  ],
+  "curated": [
+    {
+      "id": "C001",
+      "sama": "Mi si yu.",
+      "ru": "Я вижу тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C002",
+      "sama": "Yu si mi.",
+      "ru": "Ты видишь меня.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C003",
+      "sama": "Mi no si yu.",
+      "ru": "Я не вижу тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C004",
+      "sama": "Mi pa si yu.",
+      "ru": "Я видел(а) тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C005",
+      "sama": "Mi la si yu.",
+      "ru": "Я увижу тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C006",
+      "sama": "Yu si mi ka?",
+      "ru": "Ты меня видишь?",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C007",
+      "sama": "Mi ama yu.",
+      "ru": "Я люблю тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C008",
+      "sama": "Mi pa no si yu.",
+      "ru": "Я не видел(а) тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C009",
+      "sama": "Mi la no si yu.",
+      "ru": "Я не увижу тебя.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C010",
+      "sama": "Mi li si ami.",
+      "ru": "Мы видим друга.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C011",
+      "sama": "Mi si ami li.",
+      "ru": "Я вижу друзей.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C012",
+      "sama": "Mi li ama ami.",
+      "ru": "Мы любим друга.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C013",
+      "sama": "Mi pa ama mama.",
+      "ru": "Я любил(а) маму.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C014",
+      "sama": "Doma bi bona.",
+      "ru": "Дом хороший.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C015",
+      "sama": "Doma bi daba.",
+      "ru": "Дом большой.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C016",
+      "sama": "Doma bi mini.",
+      "ru": "Дом маленький.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C017",
+      "sama": "Doma bi nawa.",
+      "ru": "Дом новый.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C018",
+      "sama": "Su bi bona.",
+      "ru": "Вода хорошая.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C019",
+      "sama": "Doma no bi bona.",
+      "ru": "Дом нехороший.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C020",
+      "sama": "Doma pa bi bona.",
+      "ru": "Дом был хорошим.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C021",
+      "sama": "Doma la bi bona.",
+      "ru": "Дом будет хорошим.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C022",
+      "sama": "Mi bi na doma.",
+      "ru": "Я дома.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C023",
+      "sama": "Mi pa bi na doma.",
+      "ru": "Я был(а) дома.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C024",
+      "sama": "Mi la bi na doma.",
+      "ru": "Я буду дома.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C025",
+      "sama": "Mi no bi na doma.",
+      "ru": "Я не дома.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C026",
+      "sama": "Mi bi ami.",
+      "ru": "Я друг.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C027",
+      "sama": "Yu bi ami ka?",
+      "ru": "Ты друг?",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C028",
+      "sama": "Mi li bi ami.",
+      "ru": "Мы друзья.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C029",
+      "sama": "Ta li bi ami.",
+      "ru": "Они друзья.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C030",
+      "sama": "Mi kula pana.",
+      "ru": "Я ем хлеб.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C031",
+      "sama": "Mi pa kula pana.",
+      "ru": "Я ел(а) хлеб.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C032",
+      "sama": "Mi la kula pana.",
+      "ru": "Я буду есть хлеб.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C033",
+      "sama": "Yu pina su.",
+      "ru": "Ты пьёшь воду.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C034",
+      "sama": "Mi pina kawa.",
+      "ru": "Я пью кофе.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C035",
+      "sama": "Ta pa no pina kawa.",
+      "ru": "Он/она не пил(а) кофе.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C036",
+      "sama": "Mi ama duniya.",
+      "ru": "Я люблю мир как планету.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C037",
+      "sama": "Mi si doma.",
+      "ru": "Я вижу дом.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C038",
+      "sama": "Mi pa si mama.",
+      "ru": "Я видел(а) маму.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C039",
+      "sama": "Mi si baba.",
+      "ru": "Я вижу папу.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C040",
+      "sama": "Mi li la si ami.",
+      "ru": "Мы увидим друга.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C041",
+      "sama": "Ta li pa si doma.",
+      "ru": "Они видели дом.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C042",
+      "sama": "Mi si ami ka?",
+      "ru": "Я вижу друга?",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C043",
+      "sama": "Yu la si mama ka?",
+      "ru": "Ты увидишь маму?",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    },
+    {
+      "id": "C044",
+      "sama": "Mi pa no ama kawa.",
+      "ru": "Я не любил(а) кофе.",
+      "status": "editorial-example",
+      "review": "one-author linguistic draft, not externally validated"
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "MP01",
+      "a": "Mi si yu.",
+      "b": "Yu si mi.",
+      "contrast": "Смена субъекта и объекта меняет роли участников."
+    },
+    {
+      "id": "MP02",
+      "a": "Mi si yu.",
+      "b": "Mi no si yu.",
+      "contrast": "No меняет полярность высказывания."
+    },
+    {
+      "id": "MP03",
+      "a": "Mi pa si yu.",
+      "b": "Mi la si yu.",
+      "contrast": "Pa и la обозначают разные временные отношения."
+    },
+    {
+      "id": "MP04",
+      "a": "Mi si yu.",
+      "b": "Mi si yu ka?",
+      "contrast": "Ka меняет утверждение на общий вопрос."
+    },
+    {
+      "id": "MP05",
+      "a": "Mi si ami.",
+      "b": "Mi si ami li.",
+      "contrast": "Li у дополнения задаёт множественное число."
+    },
+    {
+      "id": "MP06",
+      "a": "Mi si ami.",
+      "b": "Mi li si ami.",
+      "contrast": "Li у субъекта задаёт множественное число."
+    },
+    {
+      "id": "MP07",
+      "a": "Doma bi bona.",
+      "b": "Doma bi malo.",
+      "contrast": "Различается качество предмета."
+    },
+    {
+      "id": "MP08",
+      "a": "Mi bi na doma.",
+      "b": "Mi no bi na doma.",
+      "contrast": "Отрицание применено к местонахождению."
+    },
+    {
+      "id": "MP09",
+      "a": "Mi bi na doma.",
+      "b": "Mi pa bi na doma.",
+      "contrast": "Меняется время местонахождения."
+    },
+    {
+      "id": "MP10",
+      "a": "Mi si ami.",
+      "b": "Mi ama ami.",
+      "contrast": "Меняется лексическое значение действия."
+    }
+  ],
+  "invalid": [
+    {
+      "id": "N01",
+      "sama": "Mi ka si yu.",
+      "reason": "Вопросная частица не в финальной позиции.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N02",
+      "sama": "Mi pa la si yu.",
+      "reason": "Два времени у одного сказуемого.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N03",
+      "sama": "Mi no pa si yu.",
+      "reason": "Отрицание расположено до временного маркера.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N04",
+      "sama": "Mi si pa yu.",
+      "reason": "Временной маркер находится после глагола.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N05",
+      "sama": "Mi si yu ka ka?",
+      "reason": "Повтор вопросной частицы.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N06",
+      "sama": "Li mi si yu.",
+      "reason": "Некорректная позиция множественного числа.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N07",
+      "sama": "Mi si yu la.",
+      "reason": "Временной маркер помещён в конце.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N08",
+      "sama": "Mi no no si yu.",
+      "reason": "Повтор отрицания не входит в микрограмматику.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N09",
+      "sama": "Mi pa pa si yu.",
+      "reason": "Дублированный временной маркер.",
+      "status": "rejected-in-controlled-microgrammar"
+    },
+    {
+      "id": "N10",
+      "sama": "Mi la pa si yu.",
+      "reason": "Будущее и прошлое одновременно.",
+      "status": "rejected-in-controlled-microgrammar"
+    }
+  ],
+  "risks": [
+    {
+      "word": "lena",
+      "issue": "Смешаны значения «учиться», «изучать», «учить кого-либо»",
+      "decision": "Оставить полисемию на проверке; не использовать в контролируемых переводах 0.7."
+    },
+    {
+      "word": "na",
+      "issue": "Один предлог для «в», «на», «возле»",
+      "decision": "Локатив принимается в общем значении; точную геометрию не обещать."
+    },
+    {
+      "word": "de",
+      "issue": "Смешение принадлежности, происхождения и собственнических отношений",
+      "decision": "Различать смысловые отношения на будущих этапах."
+    },
+    {
+      "word": "ta",
+      "issue": "Пол не указан и теряется в переводе",
+      "decision": "При необходимости переводить «он/она», без насильственного мужского значения."
+    },
+    {
+      "word": "li",
+      "issue": "Неоднозначная область множественности у длинной именной группы",
+      "decision": "В 0.7 тестируются простые местоимения и однословные существительные."
+    },
+    {
+      "word": "duniya",
+      "issue": "В русском «мир» имеет два различных смысла",
+      "decision": "Фиксировать: планета/окружающий мир, не «мир без войны»."
+    },
+    {
+      "word": "ama",
+      "issue": "Существительное/глагол без явного показателя части речи",
+      "decision": "В тестовом корпусе только глагольное употребление."
+    },
+    {
+      "word": "h/l/w",
+      "issue": "Переходные варианты произношения могут влиять на разборчивость",
+      "decision": "Не утверждать универсальность до перцептивного тестирования."
+    }
+  ]
+}

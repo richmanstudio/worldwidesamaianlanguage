@@ -1,3 +1,11 @@
+# SAMA 0.7 · Контролируемый язык
+
+Выпуск содержит [лингвистическую лабораторию](https://richmanstudio.github.io/worldwidesamaianlanguage/#/language07) с 15 внутренними правилами, 44 редакционными примерами и 1000 **синтетическими структурными тестами**, а не 1000 независимо подтверждёнными переводами. Ни одно экспериментальное слово не переведено в ядро. Полнота языка, независимое усвоение и международная разборчивость пока не подтверждены.
+
+См. `docs/SAMA-0.7-DECISIONS.md`; запустите `npm test` для проверки языка и сайта.
+
+---
+
 # SAMA World Language Archive — Digital Edition 2006 (Interface 0.6)
 
 The visual interface now uses archival navigation, document-focused reference pages, individual dictionary headwords and a phonetic laboratory. Core language content is unchanged: 43 working forms, 274 candidates and 4,683 algorithmic compound proposals. Styling is isolated in `src/archive.css` and appended by `scripts/build.mjs` after the original stylesheet. The 5,000 entries are a research corpus, **not 5,000 independently validated words**. Audio remains a browser approximation, not native reference recordings.

@@ -14,7 +14,7 @@ mkdirSync('dist/assets',{recursive:true});
 const serial=Object.entries(datasets).map(([k,v])=>`const ${k} = ${JSON.stringify(v)};`).join('\n');
 const js=readFileSync('.sama-build/phonetics.js','utf8')+'\n'+readFileSync('.sama-build/app.js','utf8');
 writeFileSync('dist/assets/site.js', `${serial}\nconst VOWELS=new Set(['a','e','i','o','u']);\n;\n${js}\n`,'utf8');
-copyFileSync('content/wordbank-5000.json','dist/assets/wordbank-5000.json');copyFileSync('content/wordbank-report.json','dist/assets/wordbank-report.json');copyFileSync('index.html','dist/index.html');writeFileSync('dist/assets/style.css',readFileSync('src/style.css','utf8')+'\n'+readFileSync('src/archive.css','utf8'));copyFileSync('src/favicon.svg','dist/favicon.svg');
+copyFileSync('content/language-0.7.json','dist/assets/language-0.7.json');copyFileSync('content/benchmark-0.7.json','dist/assets/benchmark-0.7.json');copyFileSync('content/wordbank-5000.json','dist/assets/wordbank-5000.json');copyFileSync('content/wordbank-report.json','dist/assets/wordbank-report.json');copyFileSync('index.html','dist/index.html');writeFileSync('dist/assets/style.css',readFileSync('src/style.css','utf8')+'\n'+readFileSync('src/archive.css','utf8'));copyFileSync('src/favicon.svg','dist/favicon.svg');
 rmSync('.sama-build',{recursive:true,force:true});
 // Independent server-readable, crawlable HTML pages. The interactive site keeps hash navigation
 // for compatibility with GitHub Pages; these permanent static files expose real content without JS.
