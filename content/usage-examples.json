@@ -11066,7 +11066,7 @@
       "id": "SAMA-SENSE/lawena/1/example/1",
       "lexeme_id": "SAMA-LEX/lawena",
       "sense_id": "SAMA-SENSE/lawena/1",
-      "sama": "Mi lawena lato.",
+      "sama": "Mi lawena lata.",
       "ru": "Я продаю автомобиль."
     },
     {
@@ -12117,14 +12117,14 @@
       "lexeme_id": "SAMA-LEX/bakina",
       "sense_id": "SAMA-SENSE/bakina/1",
       "sama": "Wuna bi na bakina.",
-      "ru": "Рана на спине."
+      "ru": "Рана в области лопатки."
     },
     {
       "id": "SAMA-SENSE/bakina/1/example/2",
       "lexeme_id": "SAMA-LEX/bakina",
       "sense_id": "SAMA-SENSE/bakina/1",
       "sama": "Meka tami bakina.",
-      "ru": "Врач проверяет спину."
+      "ru": "Врач проверяет лопатку."
     },
     {
       "id": "SAMA-SENSE/wenasa/1/example/1",
@@ -13279,14 +13279,14 @@
       "lexeme_id": "SAMA-LEX/luminata",
       "sense_id": "SAMA-SENSE/luminata/1",
       "sama": "Mi si luminata.",
-      "ru": "Я вижу лампу."
+      "ru": "Я вижу настольную лампу."
     },
     {
       "id": "SAMA-SENSE/luminata/1/example/2",
       "lexeme_id": "SAMA-LEX/luminata",
       "sense_id": "SAMA-SENSE/luminata/1",
-      "sama": "Luminata bi noba mesa.",
-      "ru": "Лампа над столом."
+      "sama": "Luminata bi na mesa.",
+      "ru": "Настольная лампа на столе."
     },
     {
       "id": "SAMA-SENSE/hamatela/1/example/1",

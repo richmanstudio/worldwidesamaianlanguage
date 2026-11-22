@@ -26612,7 +26612,7 @@
           },
           "examples": [
             {
-              "sama": "Mi lawena lato.",
+              "sama": "Mi lawena lata.",
               "ru": "Я продаю автомобиль."
             },
             {
@@ -29137,21 +29137,21 @@
           "id": "SAMA-SENSE/bakina/1",
           "part_of_speech": "noun",
           "gloss": {
-            "ru": "спина",
-            "en": "back of torso"
+            "ru": "лопатка (кость)",
+            "en": "shoulder blade"
           },
           "definition": {
-            "ru": "Задняя сторона туловища от плеч до поясницы.",
-            "en": "The rear surface of the torso from shoulders toward lower back."
+            "ru": "Плоская кость задней части плечевого пояса, соединённая с плечом.",
+            "en": "A flat bone of the shoulder girdle articulating with the upper arm."
           },
           "examples": [
             {
               "sama": "Wuna bi na bakina.",
-              "ru": "Рана на спине."
+              "ru": "Рана в области лопатки."
             },
             {
               "sama": "Meka tami bakina.",
-              "ru": "Врач проверяет спину."
+              "ru": "Врач проверяет лопатку."
             }
           ]
         }
@@ -31793,21 +31793,21 @@
           "id": "SAMA-SENSE/luminata/1",
           "part_of_speech": "noun",
           "gloss": {
-            "ru": "лампа",
-            "en": "lamp"
+            "ru": "настольная лампа",
+            "en": "desk lamp"
           },
           "definition": {
-            "ru": "Устройство, создающее свет для освещения помещения или предмета.",
-            "en": "A device producing light to illuminate a space or object."
+            "ru": "Светильник, предназначенный для размещения на столе и местного освещения.",
+            "en": "A light fixture intended for placement on a desk to illuminate a work area."
           },
           "examples": [
             {
               "sama": "Mi si luminata.",
-              "ru": "Я вижу лампу."
+              "ru": "Я вижу настольную лампу."
             },
             {
-              "sama": "Luminata bi noba mesa.",
-              "ru": "Лампа над столом."
+              "sama": "Luminata bi na mesa.",
+              "ru": "Настольная лампа на столе."
             }
           ]
         }
