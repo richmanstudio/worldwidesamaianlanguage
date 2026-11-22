@@ -34,5 +34,5 @@ assert.equal(lex.entries.filter(x=>x.accepted_in==='0.13.0').length,50);
 const usage=read('content/usage-examples.json');assert.equal(usage.version,'0.14.0');assert.equal(usage.examples.length,1500);
 const lessons=read('content/learning/lessons-v1.json'),reader=read('content/learning/reader-v1.json');
 assert.equal(lessons.lessons.length,35);assert.equal(reader.texts.length,23);
-console.log('✓ R07-10: 50 authored lexical entries and '+examples+' parsed examples; 350 accepted entries total');
-console.log('✓ R10-04/07: 25 lessons and 13 reader texts; 700 usage-example links');
+console.log('✓ R07-10: 50 authored lexical entries and '+examples+' parsed examples; 50 entries adopted in 0.13.0; current lexicon totals 750');
+console.log('✓ R10-04/07: 0.13.0 cohort verified against 35 lessons and 23 reader texts; 1500 usage-example links');
