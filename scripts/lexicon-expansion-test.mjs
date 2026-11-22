@@ -6,7 +6,7 @@ import ts from 'typescript';
 import Ajv from 'ajv';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const lex=read('content/lexicon-v1.json'),entries=lex.entries,byForm=new Map(entries.map(e=>[e.form,e]));
-assert.equal(lex.version,'0.14.0');assert.equal(entries.length,750);
+assert.equal(lex.version,'0.15.0');assert.equal(entries.length,1000);
 const old=read('content/standards/0.11.0/lexicon.json');assert.equal(old.entries.length,94);
 for(const entry of old.entries){
  const now=byForm.get(entry.form);assert(now,'Removed previous entry '+entry.form);
@@ -37,7 +37,7 @@ for(const entry of entries.filter(e=>e.senses[0].part_of_speech==='verb')){
   const result=parse(tokens.join(' ')+text.slice(-1));assert.equal(result.ok,f.allowed_aspects.includes(aspect),tokens.join(' '));aspectCases++;
  }
 }
-assert.equal(frames,62);assert.equal(aspectCases,124);
+assert.equal(frames,112);assert.equal(aspectCases,224);
 for(const prep of ['na','nana','tota','noba','poba','pata','yalo','lali']){
  const yes=parse('Mi bi '+prep+' doma.');assert(yes.ok,prep);assert.equal(yes.ast.clauses[0].adjuncts[0].adposition,prep);
  assert.equal(parse('Mi bi '+prep+'.').ok,false,'Missing landmark '+prep);
@@ -62,12 +62,12 @@ for(const [path,sha] of Object.entries(manifest.files)){
 assert(existsSync('docs/decisions/0005-lexicon-300.md'));
 const validate=new Ajv({allErrors:true}).compile(read('content/schemas/lexeme.schema.json'));
 const bad=structuredClone(lex);delete bad.entries.find(x=>x.senses[0].frame).senses[0].frame.allowed_aspects;assert.equal(validate(bad),false);
-console.log('✓ R07-09/10: 750 entries, 1500 examples; 206 prior authored rows, 50 in 0.13 and 400 in 0.14; prior 94 meanings and IDs preserved');
-console.log('✓ R04-01/R07-12: 62 verb frames, 124 aspect compatibility cases, spatial and lexical-role regressions');
+console.log('✓ R07-09/11: 1000 entries, 2000 examples; 206 prior authored rows, 50 in 0.13 and 400 in 0.14; prior 94 meanings and IDs preserved');
+console.log('✓ R04-01/R07-12: 112 verb frames, 224 aspect compatibility cases, spatial and lexical-role regressions');
 console.log('✓ R07-05: 274 individual candidate decisions; 236 approve / 38 defer; historic archive hashes intact');
 
-const usage=read('content/usage-examples.json');assert.equal(usage.version,lex.version);assert.equal(usage.examples.length,1500);
+const usage=read('content/usage-examples.json');assert.equal(usage.version,lex.version);assert.equal(usage.examples.length,2000);
 const usageIds=new Set();
 for(const entry of entries){const sense=entry.senses[0];assert.equal(new Set(sense.examples.map(x=>x.sama)).size,2);assert(sense.examples.every(x=>(x.sama.toLowerCase().match(/[a-z]+/g)||[]).includes(entry.form)),'Lemma absent from its examples '+entry.form);}
 for(const example of usage.examples){assert(!usageIds.has(example.id));usageIds.add(example.id);const entry=entries.find(e=>e.id===example.lexeme_id);const sense=entry.senses.find(s=>s.id===example.sense_id);assert(sense.examples.some(x=>x.sama===example.sama&&x.ru===example.ru));}
-assert(readFileSync('reports/coverage.md','utf8').includes('750 / 750'));
+assert(readFileSync('reports/coverage.md','utf8').includes('1000 / 1000'));
