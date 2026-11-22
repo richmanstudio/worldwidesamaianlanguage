@@ -1,7 +1,7 @@
 {
   "schema": "sama-lexicon/v1",
-  "version": "0.12.0",
-  "authority": "ADR-0003 / ADR-0004 / ADR-0005",
+  "version": "0.13.0",
+  "authority": "ADR-0003 / ADR-0004 / ADR-0005 / ADR-0006",
   "entries": [
     {
       "id": "SAMA-LEX/mi",
@@ -10069,6 +10069,1606 @@
             {
               "sama": "Mi lita doku de paku.",
               "ru": "Я читаю документ, связанный с разрешением."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nume",
+      "form": "nume",
+      "ipa": "/ˈnu.me/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nume/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "дождь",
+            "en": "rain"
+          },
+          "definition": {
+            "ru": "Атмосферные осадки в форме капель жидкой воды, падающих из облаков.",
+            "en": "Liquid water droplets falling from clouds as atmospheric precipitation."
+          },
+          "examples": [
+            {
+              "sama": "Mi si nume.",
+              "ru": "Я вижу дождь."
+            },
+            {
+              "sama": "Nume bi na bano.",
+              "ru": "В городе идёт дождь."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sime",
+      "form": "sime",
+      "ipa": "/ˈsi.me/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sime/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "снег",
+            "en": "snow"
+          },
+          "definition": {
+            "ru": "Атмосферные осадки из кристаллов льда, выпадающие в виде снежинок.",
+            "en": "Atmospheric precipitation made of ice crystals falling as snowflakes."
+          },
+          "examples": [
+            {
+              "sama": "Mi si sime.",
+              "ru": "Я вижу снег."
+            },
+            {
+              "sama": "Sime bi na tano.",
+              "ru": "На горе лежит снег."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nubi",
+      "form": "nubi",
+      "ipa": "/ˈnu.bi/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nubi/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "облако",
+            "en": "cloud"
+          },
+          "definition": {
+            "ru": "Видимое скопление мелких водяных капель или ледяных кристаллов в атмосфере.",
+            "en": "A visible mass of tiny water droplets or ice crystals suspended in the atmosphere."
+          },
+          "examples": [
+            {
+              "sama": "Nubi bi noba bano.",
+              "ru": "Облако над городом."
+            },
+            {
+              "sama": "Mi si nubi.",
+              "ru": "Я вижу облако."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/walu",
+      "form": "walu",
+      "ipa": "/ˈwa.lu/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/walu/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "бриз",
+            "en": "breeze"
+          },
+          "definition": {
+            "ru": "Слабое движение воздуха; отличается от общего слова widi степенью интенсивности.",
+            "en": "A gentle movement of air, distinguished from general wind widi by low intensity."
+          },
+          "examples": [
+            {
+              "sama": "Walu bi na lima.",
+              "ru": "В лесу лёгкий ветерок."
+            },
+            {
+              "sama": "Walu bi mala.",
+              "ru": "Бриз тихий."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tuwi",
+      "form": "tuwi",
+      "ipa": "/ˈtu.wi/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tuwi/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "буря",
+            "en": "storm"
+          },
+          "definition": {
+            "ru": "Период очень сильного ветра и опасных погодных явлений; не отдельный звук грома.",
+            "en": "A period of severe wind and disruptive weather, not an individual thunderclap."
+          },
+          "examples": [
+            {
+              "sama": "Tuwi bi na sela.",
+              "ru": "На море буря."
+            },
+            {
+              "sama": "Mi si tuwi.",
+              "ru": "Я вижу бурю."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/nuhu",
+      "form": "nuhu",
+      "ipa": "/ˈnu.hu/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/nuhu/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "туман",
+            "en": "fog"
+          },
+          "definition": {
+            "ru": "Скопление мелких капель у земной поверхности, заметно снижающее видимость.",
+            "en": "Tiny droplets near ground level that significantly reduce visibility."
+          },
+          "examples": [
+            {
+              "sama": "Nuhu bi na bano.",
+              "ru": "В городе туман."
+            },
+            {
+              "sama": "Mi si nuhu.",
+              "ru": "Я вижу туман."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/siku",
+      "form": "siku",
+      "ipa": "/ˈsi.ku/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/siku/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "лёд",
+            "en": "ice"
+          },
+          "definition": {
+            "ru": "Вода в твёрдом агрегатном состоянии, отличная от жидкой su и снега sime.",
+            "en": "Water in the solid state, distinct from liquid su and snowfall sime."
+          },
+          "examples": [
+            {
+              "sama": "Siku bi nana kopa.",
+              "ru": "Лёд внутри чашки."
+            },
+            {
+              "sama": "Mi si siku.",
+              "ru": "Я вижу лёд."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tunu",
+      "form": "tunu",
+      "ipa": "/ˈtu.nu/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tunu/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "гром",
+            "en": "thunder"
+          },
+          "definition": {
+            "ru": "Звук, возникающий при быстром нагреве и расширении воздуха вследствие молнии.",
+            "en": "Sound produced when air expands rapidly after heating associated with lightning."
+          },
+          "examples": [
+            {
+              "sama": "Mi saya tunu.",
+              "ru": "Я слышу гром."
+            },
+            {
+              "sama": "Tunu bi kowa.",
+              "ru": "Гром громкий."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lawana",
+      "form": "lawana",
+      "ipa": "/la.ˈwa.na/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lawana/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "молния",
+            "en": "lightning"
+          },
+          "definition": {
+            "ru": "Кратковременный электрический разряд в атмосфере, видимый как яркая вспышка.",
+            "en": "A brief atmospheric electrical discharge visible as a bright flash."
+          },
+          "examples": [
+            {
+              "sama": "Lawana bi na sami.",
+              "ru": "В небе молния."
+            },
+            {
+              "sama": "Mi si lawana.",
+              "ru": "Я вижу молнию."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/temo",
+      "form": "temo",
+      "ipa": "/ˈte.mo/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/temo/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "температура",
+            "en": "temperature"
+          },
+          "definition": {
+            "ru": "Физическая величина теплового состояния тела или среды; число требует отдельной единицы.",
+            "en": "A physical quantity expressing the thermal state of an object or environment; numbers require explicit units."
+          },
+          "examples": [
+            {
+              "sama": "Temo bi yoma.",
+              "ru": "Температура важна."
+            },
+            {
+              "sama": "Meka tami temo.",
+              "ru": "Врач проверяет температуру."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sikola",
+      "form": "sikola",
+      "ipa": "/si.ˈko.la/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sikola/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "школа",
+            "en": "school"
+          },
+          "definition": {
+            "ru": "Учреждение для систематического обучения; само слово не означает только здание.",
+            "en": "An institution providing structured education, not merely the building housing it."
+          },
+          "examples": [
+            {
+              "sama": "Dani li bi na sikola.",
+              "ru": "Ученики находятся в школе."
+            },
+            {
+              "sama": "Sikola bi daba.",
+              "ru": "Школа большая."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/unisa",
+      "form": "unisa",
+      "ipa": "/u.ˈni.sa/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/unisa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "университет",
+            "en": "university"
+          },
+          "definition": {
+            "ru": "Учреждение высшего образования и научной деятельности; не синоним любой школы.",
+            "en": "An institution of higher education and research, distinct from a school of any level."
+          },
+          "examples": [
+            {
+              "sama": "Lenu li bi na unisa.",
+              "ru": "Преподаватели находятся в университете."
+            },
+            {
+              "sama": "Unisa bi na bano.",
+              "ru": "Университет находится в городе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lasoma",
+      "form": "lasoma",
+      "ipa": "/la.ˈso.ma/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lasoma/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "учебная аудитория",
+            "en": "classroom"
+          },
+          "definition": {
+            "ru": "Помещение, оборудованное для проведения занятий; не означает саму учебную группу.",
+            "en": "A room used for teaching sessions, not the group of students attending them."
+          },
+          "examples": [
+            {
+              "sama": "Lasoma bi nana sikola.",
+              "ru": "Аудитория находится внутри школы."
+            },
+            {
+              "sama": "Dani li bi na lasoma.",
+              "ru": "Ученики находятся в аудитории."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/leso",
+      "form": "leso",
+      "ipa": "/ˈle.so/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/leso/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "урок",
+            "en": "lesson"
+          },
+          "definition": {
+            "ru": "Одна организованная учебная сессия с определённой целью и содержанием.",
+            "en": "One organized teaching or learning session with a defined purpose and content."
+          },
+          "examples": [
+            {
+              "sama": "Leso bi yoma.",
+              "ru": "Урок важен."
+            },
+            {
+              "sama": "Lenu naka leso.",
+              "ru": "Учитель проводит урок."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ekamo",
+      "form": "ekamo",
+      "ipa": "/e.ˈka.mo/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ekamo/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "экзамен",
+            "en": "examination"
+          },
+          "definition": {
+            "ru": "Формальная проверка знаний или навыков с определённой процедурой оценки.",
+            "en": "A formal assessment of knowledge or skills using a specified evaluation procedure."
+          },
+          "examples": [
+            {
+              "sama": "Ekamo bi tadi.",
+              "ru": "Экзамен трудный."
+            },
+            {
+              "sama": "Dani naka ekamo.",
+              "ru": "Ученик выполняет экзаменационную работу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/maleta",
+      "form": "maleta",
+      "ipa": "/ma.ˈle.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/maleta/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "оценка за учёбу",
+            "en": "academic grade"
+          },
+          "definition": {
+            "ru": "Результат оценивания учебного достижения; не оценка цены или эстетики.",
+            "en": "A mark assigned to academic performance, not a price estimate or aesthetic judgment."
+          },
+          "examples": [
+            {
+              "sama": "Maleta de dani bi bona.",
+              "ru": "Оценка ученика хорошая."
+            },
+            {
+              "sama": "Mi si maleta.",
+              "ru": "Я вижу оценку."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/dipoma",
+      "form": "dipoma",
+      "ipa": "/di.ˈpo.ma/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/dipoma/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "диплом",
+            "en": "diploma"
+          },
+          "definition": {
+            "ru": "Документ, подтверждающий завершение установленной образовательной программы.",
+            "en": "A document certifying completion of a specified educational program."
+          },
+          "examples": [
+            {
+              "sama": "Mi si dipoma.",
+              "ru": "Я вижу диплом."
+            },
+            {
+              "sama": "Dipoma bi nana balo.",
+              "ru": "Диплом находится в сумке."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sesita",
+      "form": "sesita",
+      "ipa": "/se.ˈsi.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sesita/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "исследование",
+            "en": "research"
+          },
+          "definition": {
+            "ru": "Систематический поиск и проверка сведений ради ответа на определённый вопрос.",
+            "en": "A systematic inquiry and evaluation of information to answer a defined question."
+          },
+          "examples": [
+            {
+              "sama": "Dani naka sesita.",
+              "ru": "Ученик проводит исследование."
+            },
+            {
+              "sama": "Sesita bi yoma.",
+              "ru": "Исследование важно."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tasika",
+      "form": "tasika",
+      "ipa": "/ta.ˈsi.ka/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tasika/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "домашнее задание",
+            "en": "homework"
+          },
+          "definition": {
+            "ru": "Учебная работа, заданная для самостоятельного выполнения вне занятия.",
+            "en": "An educational task assigned for independent completion outside a lesson."
+          },
+          "examples": [
+            {
+              "sama": "Mi naka tasika.",
+              "ru": "Я делаю домашнее задание."
+            },
+            {
+              "sama": "Tasika bi tadi.",
+              "ru": "Домашнее задание трудное."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lekita",
+      "form": "lekita",
+      "ipa": "/le.ˈki.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lekita/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "лекция",
+            "en": "lecture"
+          },
+          "definition": {
+            "ru": "Преимущественно устное учебное изложение материала преподавателем для слушателей.",
+            "en": "A teaching session primarily consisting of a lecturer's spoken presentation."
+          },
+          "examples": [
+            {
+              "sama": "Lenu toka na lekita.",
+              "ru": "Преподаватель говорит на лекции."
+            },
+            {
+              "sama": "Lekita bi na unisa.",
+              "ru": "Лекция проходит в университете."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kiwato",
+      "form": "kiwato",
+      "ipa": "/ki.ˈwa.to/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kiwato/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "клавиатура",
+            "en": "keyboard"
+          },
+          "definition": {
+            "ru": "Устройство ввода с набором клавиш для передачи символов или команд компьютеру.",
+            "en": "An input device with keys used to send characters or commands to a computer."
+          },
+          "examples": [
+            {
+              "sama": "Kiwato bi na mesa.",
+              "ru": "Клавиатура на столе."
+            },
+            {
+              "sama": "Mi si kiwato.",
+              "ru": "Я вижу клавиатуру."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sewa",
+      "form": "sewa",
+      "ipa": "/ˈse.wa/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sewa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "сервер",
+            "en": "server"
+          },
+          "definition": {
+            "ru": "Компьютерная система, предоставляющая сетевые функции другим системам.",
+            "en": "A computer system that provides network services or resources to other systems."
+          },
+          "examples": [
+            {
+              "sama": "Sewa bi na kapo.",
+              "ru": "Сервер находится в офисе."
+            },
+            {
+              "sama": "Sewa bi yoma.",
+              "ru": "Сервер важен."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sowaya",
+      "form": "sowaya",
+      "ipa": "/so.ˈwa.ja/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sowaya/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "программное обеспечение",
+            "en": "software"
+          },
+          "definition": {
+            "ru": "Программы и связанные инструкции, исполняемые вычислительной системой; не само устройство.",
+            "en": "Programs and related instructions executed by a computer system rather than the hardware itself."
+          },
+          "examples": [
+            {
+              "sama": "Sowaya bi na kome.",
+              "ru": "На компьютере есть программное обеспечение."
+            },
+            {
+              "sama": "Mi tami sowaya.",
+              "ru": "Я проверяю программное обеспечение."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/polama",
+      "form": "polama",
+      "ipa": "/po.ˈla.ma/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/polama/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "компьютерная программа",
+            "en": "computer program"
+          },
+          "definition": {
+            "ru": "Конкретный набор инструкций для выполнения компьютерной задачи, а не план pome.",
+            "en": "A specific set of computer-executable instructions, distinct from a planning document pome."
+          },
+          "examples": [
+            {
+              "sama": "Polama bi na kome.",
+              "ru": "Программа находится на компьютере."
+            },
+            {
+              "sama": "Mi tami polama.",
+              "ru": "Я проверяю программу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/datu",
+      "form": "datu",
+      "ipa": "/ˈda.tu/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/datu/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "данные",
+            "en": "data"
+          },
+          "definition": {
+            "ru": "Сведения, представленные в форме, пригодной для хранения, обработки или передачи.",
+            "en": "Information represented in a form suitable for storage, processing, or transmission."
+          },
+          "examples": [
+            {
+              "sama": "Mi tami datu.",
+              "ru": "Я проверяю данные."
+            },
+            {
+              "sama": "Datu bi yoma.",
+              "ru": "Данные важны."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/diko",
+      "form": "diko",
+      "ipa": "/ˈdi.ko/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/diko/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "папка файлов",
+            "en": "digital folder"
+          },
+          "definition": {
+            "ru": "Логический контейнер для организации файлов в файловой системе; не физическая сумка.",
+            "en": "A logical container used to organize files in a filesystem, not a physical bag."
+          },
+          "examples": [
+            {
+              "sama": "Mi si diko.",
+              "ru": "Я вижу папку."
+            },
+            {
+              "sama": "Diko bi na kome.",
+              "ru": "Папка находится на компьютере."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/paso",
+      "form": "paso",
+      "ipa": "/ˈpa.so/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/paso/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "пароль",
+            "en": "password"
+          },
+          "definition": {
+            "ru": "Секретная последовательность символов для подтверждения доступа к системе.",
+            "en": "A secret sequence of characters used to authenticate access to a system."
+          },
+          "examples": [
+            {
+              "sama": "Mi mima paso.",
+              "ru": "Я помню пароль."
+            },
+            {
+              "sama": "Paso bi yoma.",
+              "ru": "Пароль важен."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/akona",
+      "form": "akona",
+      "ipa": "/a.ˈko.na/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/akona/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "учётная запись",
+            "en": "user account"
+          },
+          "definition": {
+            "ru": "Запись системы, связывающая идентификатор пользователя с его доступом и настройками.",
+            "en": "A system record associating a user identity with access rights and settings."
+          },
+          "examples": [
+            {
+              "sama": "Akona de mi bi nawa.",
+              "ru": "Моя учётная запись новая."
+            },
+            {
+              "sama": "Mi tami akona.",
+              "ru": "Я проверяю учётную запись."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sikina",
+      "form": "sikina",
+      "ipa": "/si.ˈki.na/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sikina/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "экран",
+            "en": "screen"
+          },
+          "definition": {
+            "ru": "Поверхность электронного устройства, на которой визуально выводится информация.",
+            "en": "The display surface of an electronic device where visual information appears."
+          },
+          "examples": [
+            {
+              "sama": "Mi mika sikina.",
+              "ru": "Я внимательно смотрю на экран."
+            },
+            {
+              "sama": "Sikina de tele bi daba.",
+              "ru": "Экран телефона большой."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kodata",
+      "form": "kodata",
+      "ipa": "/ko.ˈda.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kodata/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "исходный код",
+            "en": "source code"
+          },
+          "definition": {
+            "ru": "Текст программных инструкций в форме, предназначенной для чтения и редактирования.",
+            "en": "Textual program instructions in a form designed to be read and edited."
+          },
+          "examples": [
+            {
+              "sama": "Mi wima kodata.",
+              "ru": "Я пишу исходный код."
+            },
+            {
+              "sama": "Mi tami kodata.",
+              "ru": "Я проверяю исходный код."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/hosipita",
+      "form": "hosipita",
+      "ipa": "/ho.si.ˈpi.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/hosipita/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "больница",
+            "en": "hospital"
+          },
+          "definition": {
+            "ru": "Медицинское учреждение для обследования и лечения, включая стационарную помощь.",
+            "en": "A medical institution providing examination and treatment, including inpatient care."
+          },
+          "examples": [
+            {
+              "sama": "Meka bi na hosipita.",
+              "ru": "Врач находится в больнице."
+            },
+            {
+              "sama": "Hosipita bi daba.",
+              "ru": "Больница большая."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kilina",
+      "form": "kilina",
+      "ipa": "/ki.ˈli.na/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kilina/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "поликлиника",
+            "en": "outpatient clinic"
+          },
+          "definition": {
+            "ru": "Медицинское учреждение преимущественно для приёма пациентов без госпитализации.",
+            "en": "A healthcare facility primarily providing consultations and treatment without inpatient stays."
+          },
+          "examples": [
+            {
+              "sama": "Meka bi na kilina.",
+              "ru": "Врач находится в поликлинике."
+            },
+            {
+              "sama": "Kilina bi mini.",
+              "ru": "Поликлиника небольшая."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/simota",
+      "form": "simota",
+      "ipa": "/si.ˈmo.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/simota/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "симптом",
+            "en": "symptom"
+          },
+          "definition": {
+            "ru": "Проявление состояния здоровья или болезни, которое наблюдает или сообщает человек.",
+            "en": "An observable or reported manifestation of a health condition or illness."
+          },
+          "examples": [
+            {
+              "sama": "Meka tami simota.",
+              "ru": "Врач проверяет симптом."
+            },
+            {
+              "sama": "Mi si simota.",
+              "ru": "Я вижу симптом."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/diyano",
+      "form": "diyano",
+      "ipa": "/di.ˈja.no/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/diyano/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "диагноз",
+            "en": "diagnosis"
+          },
+          "definition": {
+            "ru": "Медицинское заключение о характере болезни или состояния после оценки данных.",
+            "en": "A medical determination of a condition or illness following assessment of evidence."
+          },
+          "examples": [
+            {
+              "sama": "Meka wima diyano.",
+              "ru": "Врач записывает диагноз."
+            },
+            {
+              "sama": "Mi lita diyano.",
+              "ru": "Я читаю диагноз."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/medoka",
+      "form": "medoka",
+      "ipa": "/me.ˈdo.ka/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/medoka/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "рецепт врача",
+            "en": "medical prescription"
+          },
+          "definition": {
+            "ru": "Оформленное назначение медицинского препарата или способа применения; не само лекарство.",
+            "en": "A clinician's formal medication order or directions, distinct from the medicine itself."
+          },
+          "examples": [
+            {
+              "sama": "Meka wima medoka.",
+              "ru": "Врач выписывает рецепт."
+            },
+            {
+              "sama": "Mi lita medoka.",
+              "ru": "Я читаю рецепт."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/temu",
+      "form": "temu",
+      "ipa": "/ˈte.mu/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/temu/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "запись на приём",
+            "en": "appointment"
+          },
+          "definition": {
+            "ru": "Заранее согласованное время встречи с конкретным специалистом или учреждением.",
+            "en": "A prearranged time to meet a professional or attend an institution."
+          },
+          "examples": [
+            {
+              "sama": "Temu de mi bi nawa.",
+              "ru": "Моя запись на приём новая."
+            },
+            {
+              "sama": "Temu bi yoma.",
+              "ru": "Запись на приём важна."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/wuna",
+      "form": "wuna",
+      "ipa": "/ˈwu.na/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/wuna/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "рана",
+            "en": "wound"
+          },
+          "definition": {
+            "ru": "Повреждение тканей тела вследствие внешнего воздействия; не равнозначно боли.",
+            "en": "An injury involving damaged body tissue, not the same concept as pain."
+          },
+          "examples": [
+            {
+              "sama": "Meka si wuna.",
+              "ru": "Врач видит рану."
+            },
+            {
+              "sama": "Wuna de mi bi na lapa.",
+              "ru": "Моя рана на руке."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ineka",
+      "form": "ineka",
+      "ipa": "/i.ˈne.ka/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ineka/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "инфекция",
+            "en": "infection"
+          },
+          "definition": {
+            "ru": "Проникновение и размножение инфекционного агента в организме или ткани.",
+            "en": "Entry and multiplication of an infectious agent within a host's body or tissue."
+          },
+          "examples": [
+            {
+              "sama": "Meka tami ineka.",
+              "ru": "Врач проверяет инфекцию."
+            },
+            {
+              "sama": "Ineka bi na bodu.",
+              "ru": "Инфекция находится в организме."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/aleli",
+      "form": "aleli",
+      "ipa": "/a.ˈle.li/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/aleli/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "аллергия",
+            "en": "allergy"
+          },
+          "definition": {
+            "ru": "Иммунная реакция на вещество, обычно безвредное для большинства людей.",
+            "en": "An immune response to a substance ordinarily harmless to most people."
+          },
+          "examples": [
+            {
+              "sama": "Meka nima aleli.",
+              "ru": "Врач знает об аллергии."
+            },
+            {
+              "sama": "Aleli de mi bi yoma.",
+              "ru": "Моя аллергия имеет значение."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/emeya",
+      "form": "emeya",
+      "ipa": "/e.ˈme.ja/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/emeya/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "чрезвычайная ситуация",
+            "en": "emergency"
+          },
+          "definition": {
+            "ru": "Событие, требующее срочных действий для защиты людей или предотвращения серьёзного ущерба.",
+            "en": "A situation requiring urgent action to protect people or prevent serious harm."
+          },
+          "examples": [
+            {
+              "sama": "Emeya bi na bano.",
+              "ru": "В городе чрезвычайная ситуация."
+            },
+            {
+              "sama": "Meka kami nina na emeya.",
+              "ru": "Врач помогает ребёнку во время чрезвычайной ситуации."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/konata",
+      "form": "konata",
+      "ipa": "/ko.ˈna.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/konata/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "договор",
+            "en": "contract"
+          },
+          "definition": {
+            "ru": "Соглашение сторон об установлении или изменении взаимных обязательств, в рамках применимого права.",
+            "en": "An agreement creating or modifying obligations between parties under an applicable legal system."
+          },
+          "examples": [
+            {
+              "sama": "Mi lita konata.",
+              "ru": "Я читаю договор."
+            },
+            {
+              "sama": "Mi wima konata.",
+              "ru": "Я пишу договор."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kota",
+      "form": "kota",
+      "ipa": "/ˈko.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kota/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "суд",
+            "en": "court of law"
+          },
+          "definition": {
+            "ru": "Государственный или иной уполномоченный орган, рассматривающий и разрешающий правовые споры.",
+            "en": "An authorized tribunal or institution that hears and decides legal disputes."
+          },
+          "examples": [
+            {
+              "sama": "Yudi bi na kota.",
+              "ru": "Судья находится в суде."
+            },
+            {
+              "sama": "Mi bi na kota.",
+              "ru": "Я нахожусь в суде."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/yudi",
+      "form": "yudi",
+      "ipa": "/ˈju.di/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/yudi/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "судья",
+            "en": "judge"
+          },
+          "definition": {
+            "ru": "Лицо, уполномоченное рассматривать дела и выносить судебные решения.",
+            "en": "A person authorized to hear cases and make judicial decisions."
+          },
+          "examples": [
+            {
+              "sama": "Yudi lita doku.",
+              "ru": "Судья читает документ."
+            },
+            {
+              "sama": "Yudi bi na kota.",
+              "ru": "Судья находится в суде."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/lawiya",
+      "form": "lawiya",
+      "ipa": "/la.ˈwi.ja/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/lawiya/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "юрист",
+            "en": "legal professional"
+          },
+          "definition": {
+            "ru": "Специалист по праву; термин сам по себе не гарантирует статуса адвоката или допуска к суду.",
+            "en": "A professional working in law; the term does not itself imply bar admission or a right of audience."
+          },
+          "examples": [
+            {
+              "sama": "Lawiya tami doku.",
+              "ru": "Юрист проверяет документ."
+            },
+            {
+              "sama": "Lawiya bi na kota.",
+              "ru": "Юрист находится в суде."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/ewida",
+      "form": "ewida",
+      "ipa": "/e.ˈwi.da/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/ewida/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "доказательство",
+            "en": "evidence"
+          },
+          "definition": {
+            "ru": "Сведения или предмет, используемый для обоснования утверждения; достаточность не предполагается.",
+            "en": "Information or an object used to support a claim, without assuming sufficiency or admissibility."
+          },
+          "examples": [
+            {
+              "sama": "Yudi tami ewida.",
+              "ru": "Судья проверяет доказательство."
+            },
+            {
+              "sama": "Mi si ewida.",
+              "ru": "Я вижу доказательство."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tasa",
+      "form": "tasa",
+      "ipa": "/ˈta.sa/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tasa/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "налог",
+            "en": "tax"
+          },
+          "definition": {
+            "ru": "Обязательный платёж, устанавливаемый публичной властью в рамках применимого права.",
+            "en": "A compulsory payment imposed by a public authority under applicable law."
+          },
+          "examples": [
+            {
+              "sama": "Tasa bi yoma.",
+              "ru": "Налог важен."
+            },
+            {
+              "sama": "Mi tami tasa.",
+              "ru": "Я проверяю налог."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/wota",
+      "form": "wota",
+      "ipa": "/ˈwo.ta/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/wota/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "голос на выборах",
+            "en": "electoral vote"
+          },
+          "definition": {
+            "ru": "Выражение выбора участником голосования, не равнозначное его праву голосовать.",
+            "en": "An expression of a choice in a ballot, distinct from the legal right to vote."
+          },
+          "examples": [
+            {
+              "sama": "Wota de mi bi yoma.",
+              "ru": "Мой голос на выборах важен."
+            },
+            {
+              "sama": "Mi tami wota.",
+              "ru": "Я проверяю голос."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/eleka",
+      "form": "eleka",
+      "ipa": "/e.ˈle.ka/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/eleka/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "выборы",
+            "en": "election"
+          },
+          "definition": {
+            "ru": "Организованная процедура выбора представителей или решения вопроса голосованием.",
+            "en": "An organized process for choosing representatives or deciding a question by voting."
+          },
+          "examples": [
+            {
+              "sama": "Eleka bi na bano.",
+              "ru": "В городе проходят выборы."
+            },
+            {
+              "sama": "Eleka bi yoma.",
+              "ru": "Выборы важны."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sitano",
+      "form": "sitano",
+      "ipa": "/si.ˈta.no/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sitano/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "гражданин",
+            "en": "citizen"
+          },
+          "definition": {
+            "ru": "Лицо, состоящее в юридической связи гражданства с определённым государством.",
+            "en": "A person who holds the legal status of citizenship in a particular state."
+          },
+          "examples": [
+            {
+              "sama": "Sitano bi na bano.",
+              "ru": "Гражданин находится в городе."
+            },
+            {
+              "sama": "Sitano li si kota.",
+              "ru": "Граждане видят суд."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/kuwena",
+      "form": "kuwena",
+      "ipa": "/ku.ˈwe.na/",
+      "status": "core",
+      "accepted_in": "0.13.0",
+      "decision": "ADR-0006",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/kuwena/1",
+          "part_of_speech": "noun",
+          "gloss": {
+            "ru": "правительство",
+            "en": "government cabinet"
+          },
+          "definition": {
+            "ru": "Коллегиальный высший орган исполнительной власти в системе, где существует такой орган.",
+            "en": "The collective senior executive authority where that governmental institution exists."
+          },
+          "examples": [
+            {
+              "sama": "Kuwena tami pome.",
+              "ru": "Правительство проверяет план."
+            },
+            {
+              "sama": "Kuwena bi yoma.",
+              "ru": "Правительство важно."
             }
           ]
         }
