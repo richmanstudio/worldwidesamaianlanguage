@@ -1,15 +1,15 @@
 {
   "name": "sama-encyclopedia",
-  "version": "0.5.0",
+  "version": "0.9.0",
   "private": true,
-  "description": "SAMA Encyclopedia 0.5: 5000-entry annotated corpus, phonemic IPA reference, 45-chapter grammar atlas",
+  "description": "SAMA Encyclopedia: 5000-entry experimental corpus, IPA reference and language 0.9 research laboratory",
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "build": "npm run validate && tsc -p tsconfig.json && node scripts/build.mjs",
     "check": "npm run validate && tsc --noEmit -p tsconfig.json",
     "dev": "npm run build && node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "test": "npm run build && node scripts/smoke-test.mjs && node scripts/route-test.mjs && node scripts/phonetics-test.mjs && node scripts/language07-test.mjs && node scripts/language08-test.mjs && node scripts/language08-route-test.mjs"
+    "test": "npm run build && node scripts/smoke-test.mjs && node scripts/route-test.mjs && node scripts/phonetics-test.mjs && node scripts/language07-test.mjs && node scripts/language08-test.mjs && node scripts/language08-route-test.mjs && node scripts/language09-test.mjs && node scripts/language09-route-test.mjs"
   },
   "devDependencies": {
     "typescript": "5.8.3"
