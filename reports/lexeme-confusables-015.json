@@ -1,0 +1,3072 @@
+{
+  "version": "0.15.0",
+  "method": "Levenshtein edit distance exactly 1; includes pairs with at least one new 0.15.0 lexeme; no audio or participant judgments",
+  "entries_new": 250,
+  "possible_pairs_with_new": 218625,
+  "near_pairs": 340,
+  "same_part_of_speech": 146,
+  "same_verb_frame": 21,
+  "human_listening_reviews": 0,
+  "items": [
+    {
+      "left": "bisena",
+      "right": "kisena",
+      "left_gloss": "садиться в транспорт",
+      "right_gloss": "целовать",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bisena",
+      "right": "sisena",
+      "left_gloss": "садиться в транспорт",
+      "right_gloss": "подписывать документ",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hapina",
+      "right": "hasina",
+      "left_gloss": "вешать предмет",
+      "right_gloss": "рекомендовать план",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "hasina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "рекомендовать план",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "hemina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "удерживать предмет",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "hosina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "ронять предмет",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilawa",
+      "right": "hinawa",
+      "left_gloss": "собирать урожай",
+      "right_gloss": "приглашать",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hosina",
+      "right": "hasina",
+      "left_gloss": "ронять предмет",
+      "right_gloss": "рекомендовать план",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hosina",
+      "right": "kosina",
+      "left_gloss": "ронять предмет",
+      "right_gloss": "экономить ресурс",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kamina",
+      "right": "lamina",
+      "left_gloss": "заказывать товар",
+      "right_gloss": "заботиться о ком-либо",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kesawa",
+      "right": "pesawa",
+      "left_gloss": "кипятить жидкость",
+      "right_gloss": "распаковывать предмет",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kopina",
+      "right": "kosina",
+      "left_gloss": "упаковывать предмет",
+      "right_gloss": "экономить ресурс",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kotina",
+      "right": "kopina",
+      "left_gloss": "готовить еду",
+      "right_gloss": "упаковывать предмет",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kotina",
+      "right": "kosina",
+      "left_gloss": "готовить еду",
+      "right_gloss": "экономить ресурс",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "limena",
+      "right": "lihena",
+      "left_gloss": "доставлять посылку",
+      "right_gloss": "уважать",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "satena",
+      "right": "sitena",
+      "left_gloss": "загружать файл на сервер",
+      "right_gloss": "обсуждать",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sisena",
+      "right": "kisena",
+      "left_gloss": "подписывать документ",
+      "right_gloss": "целовать",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sisena",
+      "right": "sitena",
+      "left_gloss": "подписывать документ",
+      "right_gloss": "обсуждать",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulina",
+      "right": "tulina",
+      "left_gloss": "высушивать",
+      "right_gloss": "поднимать предмет",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawina",
+      "right": "wawina",
+      "left_gloss": "обменивать предмет",
+      "right_gloss": "поздравлять",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "towina",
+      "right": "tawina",
+      "left_gloss": "возвращать одолженное",
+      "right_gloss": "обменивать предмет",
+      "same_class": true,
+      "same_verb_frame": true,
+      "requires_listening_review": true
+    },
+    {
+      "left": "akela",
+      "right": "apela",
+      "left_gloss": "фруктовый сад",
+      "right_gloss": "апелляционная жалоба",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "awatena",
+      "right": "awadena",
+      "left_gloss": "аутентификация",
+      "right_gloss": "зрительская аудитория",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bakina",
+      "right": "bakila",
+      "left_gloss": "спина",
+      "right_gloss": "кора дерева",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "balanisa",
+      "right": "balanasa",
+      "left_gloss": "бухгалтерский баланс",
+      "right_gloss": "ветка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bisena",
+      "right": "disena",
+      "left_gloss": "садиться в транспорт",
+      "right_gloss": "отказываться",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bukala",
+      "right": "buwala",
+      "left_gloss": "ошибка программы",
+      "right_gloss": "бутылка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "delawina",
+      "right": "dalawina",
+      "left_gloss": "полигон отходов",
+      "right_gloss": "водитель",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "depina",
+      "right": "delina",
+      "left_gloss": "отправляться в путь",
+      "right_gloss": "делиться предметом",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "depina",
+      "right": "lepina",
+      "left_gloss": "отправляться в путь",
+      "right_gloss": "объяснять предмет",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "dipina",
+      "right": "depina",
+      "left_gloss": "копать грунт",
+      "right_gloss": "отправляться в путь",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "epesena",
+      "right": "pesena",
+      "left_gloss": "денежный расход",
+      "right_gloss": "подушка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "halamena",
+      "right": "palamena",
+      "left_gloss": "пожарная сигнализация",
+      "right_gloss": "парламент",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "halawina",
+      "right": "dalawina",
+      "left_gloss": "мусор",
+      "right_gloss": "водитель",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hamalina",
+      "right": "hamalena",
+      "left_gloss": "реабилитация",
+      "right_gloss": "общественное правило",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hamela",
+      "right": "hawela",
+      "left_gloss": "молоток",
+      "right_gloss": "субъективное право",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hasata",
+      "right": "pasata",
+      "left_gloss": "пластиковые отходы",
+      "right_gloss": "макароны",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hawila",
+      "right": "hawela",
+      "left_gloss": "экосистема",
+      "right_gloss": "субъективное право",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "helina",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "паром",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "hilena",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "холодильник",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "hilima",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "кинофильм",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "holina",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "отпуск работника",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "hulina",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "мука",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "kilina",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "поликлиника",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilina",
+      "right": "silina",
+      "left_gloss": "кассовый чек",
+      "right_gloss": "шприц",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hopina",
+      "right": "holina",
+      "left_gloss": "пятка",
+      "right_gloss": "отпуск работника",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hopina",
+      "right": "mopina",
+      "left_gloss": "пятка",
+      "right_gloss": "швабра",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "huwisa",
+      "right": "huwila",
+      "left_gloss": "влажный",
+      "right_gloss": "мягкий на ощупь",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kalina",
+      "right": "kalita",
+      "left_gloss": "локоть",
+      "right_gloss": "утёс",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kalina",
+      "right": "kasina",
+      "left_gloss": "локоть",
+      "right_gloss": "судебное дело",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kalina",
+      "right": "kilina",
+      "left_gloss": "локоть",
+      "right_gloss": "поликлиника",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kalina",
+      "right": "walina",
+      "left_gloss": "локоть",
+      "right_gloss": "сустав",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kalosa",
+      "right": "kalasa",
+      "left_gloss": "углекислый газ",
+      "right_gloss": "ледник",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kaselina",
+      "right": "kawelina",
+      "left_gloss": "медицинские носилки",
+      "right_gloss": "губка для мытья",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawela",
+      "right": "katela",
+      "left_gloss": "тяжёлый по весу",
+      "right_gloss": "твёрдый материал",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawelina",
+      "right": "sawelina",
+      "left_gloss": "губка для мытья",
+      "right_gloss": "сбережения",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kesona",
+      "right": "kesina",
+      "left_gloss": "гаечный ключ",
+      "right_gloss": "сыр",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kesona",
+      "right": "sesona",
+      "left_gloss": "гаечный ключ",
+      "right_gloss": "сезон",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kilenata",
+      "right": "kilienata",
+      "left_gloss": "криптографический ключ",
+      "right_gloss": "клиент",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "konasa",
+      "right": "kolasa",
+      "left_gloss": "кость",
+      "right_gloss": "разделочная доска",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "konasa",
+      "right": "konata",
+      "left_gloss": "кость",
+      "right_gloss": "договор",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosena",
+      "right": "kowena",
+      "left_gloss": "щека",
+      "right_gloss": "клей",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosena",
+      "right": "osena",
+      "left_gloss": "щека",
+      "right_gloss": "океан",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kowena",
+      "right": "kawena",
+      "left_gloss": "клей",
+      "right_gloss": "пещера",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kowena",
+      "right": "kuwena",
+      "left_gloss": "клей",
+      "right_gloss": "правительство",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kowena",
+      "right": "owena",
+      "left_gloss": "клей",
+      "right_gloss": "духовка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lewena",
+      "right": "lewana",
+      "left_gloss": "место обитания",
+      "right_gloss": "коллега",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "limena",
+      "right": "lomena",
+      "left_gloss": "доставлять посылку",
+      "right_gloss": "улыбаться",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lokala",
+      "right": "wokala",
+      "left_gloss": "журнал событий системы",
+      "right_gloss": "рабочее место",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "matela",
+      "right": "batela",
+      "left_gloss": "кустарник",
+      "right_gloss": "аккумулятор",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "matela",
+      "right": "matelia",
+      "left_gloss": "кустарник",
+      "right_gloss": "вещество в физике",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "matela",
+      "right": "tatela",
+      "left_gloss": "кустарник",
+      "right_gloss": "квитанция об оплате",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "mowina",
+      "right": "mopina",
+      "left_gloss": "бровь",
+      "right_gloss": "швабра",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "mulisa",
+      "right": "pulisa",
+      "left_gloss": "губа",
+      "right_gloss": "пульс",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "munala",
+      "right": "bunala",
+      "left_gloss": "тупой инструмент",
+      "right_gloss": "безопасный в условиях",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "musina",
+      "right": "lusina",
+      "left_gloss": "мышца",
+      "right_gloss": "финансовый убыток",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "musina",
+      "right": "musika",
+      "left_gloss": "мышца",
+      "right_gloss": "музыка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "napisa",
+      "right": "nawisa",
+      "left_gloss": "ноготь",
+      "right_gloss": "тошнота",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "nasila",
+      "right": "masila",
+      "left_gloss": "больничная палата",
+      "right_gloss": "кукуруза",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "nesina",
+      "right": "kesina",
+      "left_gloss": "веко",
+      "right_gloss": "сыр",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "nesina",
+      "right": "sesina",
+      "left_gloss": "веко",
+      "right_gloss": "сельскохозяйственный вредитель",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pahena",
+      "right": "kahena",
+      "left_gloss": "молодое дерево",
+      "right_gloss": "кафе",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "balina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "острый инструмент",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "polina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "надёжный",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pamena",
+      "right": "kamena",
+      "left_gloss": "ладонь",
+      "right_gloss": "ванная комната",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pamena",
+      "right": "pahena",
+      "left_gloss": "ладонь",
+      "right_gloss": "молодое дерево",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pamena",
+      "right": "papena",
+      "left_gloss": "ладонь",
+      "right_gloss": "грудная клетка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "papena",
+      "right": "pahena",
+      "left_gloss": "грудная клетка",
+      "right_gloss": "молодое дерево",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "papena",
+      "right": "sapena",
+      "left_gloss": "грудная клетка",
+      "right_gloss": "мыло",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "patela",
+      "right": "yatela",
+      "left_gloss": "красить поверхность",
+      "right_gloss": "путешествовать",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pelawina",
+      "right": "delawina",
+      "left_gloss": "теплица",
+      "right_gloss": "полигон отходов",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pilasa",
+      "right": "palasa",
+      "left_gloss": "гвоздь металлический",
+      "right_gloss": "городская площадь",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pilima",
+      "right": "hilima",
+      "left_gloss": "ресница",
+      "right_gloss": "кинофильм",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pilima",
+      "right": "kilima",
+      "left_gloss": "ресница",
+      "right_gloss": "климат",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pohita",
+      "right": "posita",
+      "left_gloss": "прибыль",
+      "right_gloss": "почтовое отделение",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "samina",
+      "right": "sawina",
+      "left_gloss": "сеянец",
+      "right_gloss": "потолок",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sapena",
+      "right": "sapenia",
+      "left_gloss": "мыло",
+      "right_gloss": "весна",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "satena",
+      "right": "atena",
+      "left_gloss": "загружать файл на сервер",
+      "right_gloss": "соглашаться",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "senala",
+      "right": "penala",
+      "left_gloss": "правовое наказание",
+      "right_gloss": "ручка для письма",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sesina",
+      "right": "kesina",
+      "left_gloss": "сельскохозяйственный вредитель",
+      "right_gloss": "сыр",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sesina",
+      "right": "sedina",
+      "left_gloss": "сельскохозяйственный вредитель",
+      "right_gloss": "пассажирское сиденье",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sesina",
+      "right": "sesita",
+      "left_gloss": "сельскохозяйственный вредитель",
+      "right_gloss": "исследование",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sesina",
+      "right": "sesona",
+      "left_gloss": "сельскохозяйственный вредитель",
+      "right_gloss": "сезон",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sesiyona",
+      "right": "wesiyona",
+      "left_gloss": "сеанс входа",
+      "right_gloss": "версия программы",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sinatela",
+      "right": "sinapela",
+      "left_gloss": "инъекция",
+      "right_gloss": "электрическая вилка",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sisena",
+      "right": "disena",
+      "left_gloss": "подписывать документ",
+      "right_gloss": "отказываться",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "somina",
+      "right": "samina",
+      "left_gloss": "плечо",
+      "right_gloss": "сеянец",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "somina",
+      "right": "sokina",
+      "left_gloss": "плечо",
+      "right_gloss": "носки",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulena",
+      "right": "tulena",
+      "left_gloss": "гладкий",
+      "right_gloss": "общественный по назначению",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sunela",
+      "right": "tunela",
+      "left_gloss": "солнечная панель",
+      "right_gloss": "тоннель",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "talana",
+      "right": "talina",
+      "left_gloss": "разрезать",
+      "right_gloss": "плакать",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "talipena",
+      "right": "walipena",
+      "left_gloss": "винт крепёжный",
+      "right_gloss": "дрель",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tasina",
+      "right": "kasina",
+      "left_gloss": "язык как орган",
+      "right_gloss": "судебное дело",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tasina",
+      "right": "tasika",
+      "left_gloss": "язык как орган",
+      "right_gloss": "домашнее задание",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tasina",
+      "right": "wasina",
+      "left_gloss": "язык как орган",
+      "right_gloss": "вакцина",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tatela",
+      "right": "batela",
+      "left_gloss": "квитанция об оплате",
+      "right_gloss": "аккумулятор",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tatela",
+      "right": "tapela",
+      "left_gloss": "квитанция об оплате",
+      "right_gloss": "обои",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tatela",
+      "right": "tawela",
+      "left_gloss": "квитанция об оплате",
+      "right_gloss": "полотенце",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tatela",
+      "right": "tayela",
+      "left_gloss": "квитанция об оплате",
+      "right_gloss": "галстук",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tatela",
+      "right": "tutela",
+      "left_gloss": "квитанция об оплате",
+      "right_gloss": "черепаха",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawema",
+      "right": "tawela",
+      "left_gloss": "подбородок",
+      "right_gloss": "полотенце",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawina",
+      "right": "talina",
+      "left_gloss": "обменивать предмет",
+      "right_gloss": "плакать",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "temena",
+      "right": "telena",
+      "left_gloss": "пыль",
+      "right_gloss": "поезд",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tesawena",
+      "right": "lesawena",
+      "left_gloss": "результат анализа",
+      "right_gloss": "переработка отходов",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tesinata",
+      "right": "wesinata",
+      "left_gloss": "диагностический анализ",
+      "right_gloss": "строительный уровень",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tikina",
+      "right": "sikina",
+      "left_gloss": "лодыжка",
+      "right_gloss": "экран",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tikina",
+      "right": "tokina",
+      "left_gloss": "лодыжка",
+      "right_gloss": "токен доступа",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tokina",
+      "right": "sokina",
+      "left_gloss": "токен доступа",
+      "right_gloss": "носки",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tulina",
+      "right": "talina",
+      "left_gloss": "поднимать предмет",
+      "right_gloss": "плакать",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "usena",
+      "right": "nusena",
+      "left_gloss": "пользователь системы",
+      "right_gloss": "медицинская сестра",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "usena",
+      "right": "osena",
+      "left_gloss": "пользователь системы",
+      "right_gloss": "океан",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walina",
+      "right": "walena",
+      "left_gloss": "сустав",
+      "right_gloss": "кит",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walina",
+      "right": "walita",
+      "left_gloss": "сустав",
+      "right_gloss": "коридор",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walina",
+      "right": "wasina",
+      "left_gloss": "сустав",
+      "right_gloss": "вакцина",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wasena",
+      "right": "basena",
+      "left_gloss": "запястье",
+      "right_gloss": "подвал",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wasena",
+      "right": "wakena",
+      "left_gloss": "запястье",
+      "right_gloss": "стакан",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wasena",
+      "right": "walena",
+      "left_gloss": "запястье",
+      "right_gloss": "кит",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wasena",
+      "right": "wasina",
+      "left_gloss": "запястье",
+      "right_gloss": "вакцина",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "watala",
+      "right": "wadala",
+      "left_gloss": "круговорот воды",
+      "right_gloss": "водопад",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "watala",
+      "right": "wetala",
+      "left_gloss": "круговорот воды",
+      "right_gloss": "погода",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wawila",
+      "right": "hawila",
+      "left_gloss": "лоб",
+      "right_gloss": "экосистема",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wisila",
+      "right": "wisina",
+      "left_gloss": "мудрый",
+      "right_gloss": "законный",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wolima",
+      "right": "solima",
+      "left_gloss": "полевой цветок",
+      "right_gloss": "почва",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wolima",
+      "right": "woluma",
+      "left_gloss": "полевой цветок",
+      "right_gloss": "объём",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yamina",
+      "right": "samina",
+      "left_gloss": "челюсть",
+      "right_gloss": "сеянец",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yomena",
+      "right": "lomena",
+      "left_gloss": "сортировать предметы",
+      "right_gloss": "улыбаться",
+      "same_class": true,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "apilena",
+      "right": "apolena",
+      "left_gloss": "программный интерфейс API",
+      "right_gloss": "извиняться",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bakina",
+      "right": "sakina",
+      "left_gloss": "спина",
+      "right_gloss": "задавать вопрос",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "balina",
+      "right": "bakina",
+      "left_gloss": "острый инструмент",
+      "right_gloss": "спина",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "balina",
+      "right": "belina",
+      "left_gloss": "острый инструмент",
+      "right_gloss": "ягода",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "balina",
+      "right": "kalina",
+      "left_gloss": "острый инструмент",
+      "right_gloss": "локоть",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "balina",
+      "right": "talina",
+      "left_gloss": "острый инструмент",
+      "right_gloss": "плакать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "balina",
+      "right": "walina",
+      "left_gloss": "острый инструмент",
+      "right_gloss": "сустав",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "belana",
+      "right": "belata",
+      "left_gloss": "хрупкий",
+      "right_gloss": "ремень",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "belana",
+      "right": "belina",
+      "left_gloss": "хрупкий",
+      "right_gloss": "ягода",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "belana",
+      "right": "pelana",
+      "left_gloss": "хрупкий",
+      "right_gloss": "груша",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "belowa",
+      "right": "beloka",
+      "left_gloss": "гибкий",
+      "right_gloss": "блендер",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bisena",
+      "right": "basena",
+      "left_gloss": "садиться в транспорт",
+      "right_gloss": "подвал",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bunala",
+      "right": "bukala",
+      "left_gloss": "безопасный в условиях",
+      "right_gloss": "ошибка программы",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "bunala",
+      "right": "buwala",
+      "left_gloss": "безопасный в условиях",
+      "right_gloss": "бутылка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "dipina",
+      "right": "disina",
+      "left_gloss": "копать грунт",
+      "right_gloss": "головокружение",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "dipina",
+      "right": "sipina",
+      "left_gloss": "копать грунт",
+      "right_gloss": "большое судно",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "duwina",
+      "right": "suwina",
+      "left_gloss": "ополаскивать",
+      "right_gloss": "мастерская",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hadena",
+      "right": "halena",
+      "left_gloss": "редкий по встречаемости",
+      "right_gloss": "град",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hadena",
+      "right": "hatena",
+      "left_gloss": "редкий по встречаемости",
+      "right_gloss": "шляпа",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hamasa",
+      "right": "hamasia",
+      "left_gloss": "знакомый ранее",
+      "right_gloss": "аптека",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hanina",
+      "right": "hasina",
+      "left_gloss": "бедро",
+      "right_gloss": "рекомендовать план",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hapina",
+      "right": "hanina",
+      "left_gloss": "вешать предмет",
+      "right_gloss": "бедро",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hapina",
+      "right": "hopina",
+      "left_gloss": "вешать предмет",
+      "right_gloss": "пятка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hawila",
+      "right": "dawila",
+      "left_gloss": "экосистема",
+      "right_gloss": "знакомиться с человеком",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "helewa",
+      "right": "helena",
+      "left_gloss": "горячий",
+      "right_gloss": "обогреватель",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hemina",
+      "right": "helina",
+      "left_gloss": "удерживать предмет",
+      "right_gloss": "паром",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hemina",
+      "right": "temina",
+      "left_gloss": "удерживать предмет",
+      "right_gloss": "точный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "helina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "паром",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "kesina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "сыр",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "nesina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "веко",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hesina",
+      "right": "sesina",
+      "left_gloss": "подсчитывать предметы",
+      "right_gloss": "сельскохозяйственный вредитель",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilasa",
+      "right": "hilala",
+      "left_gloss": "опасный",
+      "right_gloss": "ствол дерева",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilasa",
+      "right": "holasa",
+      "left_gloss": "опасный",
+      "right_gloss": "иней",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilasa",
+      "right": "pilasa",
+      "left_gloss": "опасный",
+      "right_gloss": "гвоздь металлический",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilawa",
+      "right": "hilala",
+      "left_gloss": "собирать урожай",
+      "right_gloss": "ствол дерева",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hilawa",
+      "right": "hilasa",
+      "left_gloss": "собирать урожай",
+      "right_gloss": "опасный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hosina",
+      "right": "holina",
+      "left_gloss": "ронять предмет",
+      "right_gloss": "отпуск работника",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hosina",
+      "right": "hopina",
+      "left_gloss": "ронять предмет",
+      "right_gloss": "пятка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "hosina",
+      "right": "wosina",
+      "left_gloss": "ронять предмет",
+      "right_gloss": "профессия",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "huwila",
+      "right": "hawila",
+      "left_gloss": "мягкий на ощупь",
+      "right_gloss": "экосистема",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kalina",
+      "right": "talina",
+      "left_gloss": "локоть",
+      "right_gloss": "плакать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kamina",
+      "right": "kalina",
+      "left_gloss": "заказывать товар",
+      "right_gloss": "локоть",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kamina",
+      "right": "kamena",
+      "left_gloss": "заказывать товар",
+      "right_gloss": "ванная комната",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kamina",
+      "right": "kasina",
+      "left_gloss": "заказывать товар",
+      "right_gloss": "судебное дело",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kamina",
+      "right": "samina",
+      "left_gloss": "заказывать товар",
+      "right_gloss": "сеянец",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kamina",
+      "right": "yamina",
+      "left_gloss": "заказывать товар",
+      "right_gloss": "челюсть",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kasala",
+      "right": "kamala",
+      "left_gloss": "шероховатый",
+      "right_gloss": "фотокамера",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kasala",
+      "right": "kapala",
+      "left_gloss": "шероховатый",
+      "right_gloss": "кепка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kasala",
+      "right": "kosala",
+      "left_gloss": "шероховатый",
+      "right_gloss": "берег",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kasala",
+      "right": "masala",
+      "left_gloss": "шероховатый",
+      "right_gloss": "масса",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kasala",
+      "right": "pasala",
+      "left_gloss": "шероховатый",
+      "right_gloss": "счёт на оплату",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "katela",
+      "right": "batela",
+      "left_gloss": "твёрдый материал",
+      "right_gloss": "аккумулятор",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "katela",
+      "right": "kabela",
+      "left_gloss": "твёрдый материал",
+      "right_gloss": "кабель",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "katela",
+      "right": "ketela",
+      "left_gloss": "твёрдый материал",
+      "right_gloss": "чайник",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "katela",
+      "right": "kotela",
+      "left_gloss": "твёрдый материал",
+      "right_gloss": "пальто",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "katela",
+      "right": "matela",
+      "left_gloss": "твёрдый материал",
+      "right_gloss": "кустарник",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "katela",
+      "right": "tatela",
+      "left_gloss": "твёрдый материал",
+      "right_gloss": "квитанция об оплате",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawela",
+      "right": "hawela",
+      "left_gloss": "тяжёлый по весу",
+      "right_gloss": "субъективное право",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawela",
+      "right": "kabela",
+      "left_gloss": "тяжёлый по весу",
+      "right_gloss": "кабель",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawela",
+      "right": "kawena",
+      "left_gloss": "тяжёлый по весу",
+      "right_gloss": "пещера",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawela",
+      "right": "sawela",
+      "left_gloss": "тяжёлый по весу",
+      "right_gloss": "полка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kawela",
+      "right": "tawela",
+      "left_gloss": "тяжёлый по весу",
+      "right_gloss": "полотенце",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kimala",
+      "right": "kamala",
+      "left_gloss": "официальный",
+      "right_gloss": "фотокамера",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kimala",
+      "right": "kemala",
+      "left_gloss": "официальный",
+      "right_gloss": "благодарить",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "konila",
+      "right": "ponila",
+      "left_gloss": "удобный",
+      "right_gloss": "доверять",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kopina",
+      "right": "hopina",
+      "left_gloss": "упаковывать предмет",
+      "right_gloss": "пятка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kopina",
+      "right": "mopina",
+      "left_gloss": "упаковывать предмет",
+      "right_gloss": "швабра",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosena",
+      "right": "kisena",
+      "left_gloss": "щека",
+      "right_gloss": "целовать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosina",
+      "right": "kasina",
+      "left_gloss": "экономить ресурс",
+      "right_gloss": "судебное дело",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosina",
+      "right": "kesina",
+      "left_gloss": "экономить ресурс",
+      "right_gloss": "сыр",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosina",
+      "right": "kosena",
+      "left_gloss": "экономить ресурс",
+      "right_gloss": "щека",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "kosina",
+      "right": "wosina",
+      "left_gloss": "экономить ресурс",
+      "right_gloss": "профессия",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lawena",
+      "right": "kawena",
+      "left_gloss": "продавать",
+      "right_gloss": "пещера",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lawena",
+      "right": "lawana",
+      "left_gloss": "продавать",
+      "right_gloss": "молния",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lawena",
+      "right": "lawesa",
+      "left_gloss": "продавать",
+      "right_gloss": "противозаконный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lawena",
+      "right": "lewena",
+      "left_gloss": "продавать",
+      "right_gloss": "место обитания",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lawesa",
+      "right": "mawesa",
+      "left_gloss": "противозаконный",
+      "right_gloss": "компьютерная мышь",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lewasa",
+      "right": "lekasa",
+      "left_gloss": "давать вещь взаймы",
+      "right_gloss": "просьба",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lewasa",
+      "right": "lewana",
+      "left_gloss": "давать вещь взаймы",
+      "right_gloss": "коллега",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lewina",
+      "right": "lepina",
+      "left_gloss": "просторный",
+      "right_gloss": "объяснять предмет",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lewina",
+      "right": "lewana",
+      "left_gloss": "просторный",
+      "right_gloss": "коллега",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lewina",
+      "right": "lewena",
+      "left_gloss": "просторный",
+      "right_gloss": "место обитания",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "limena",
+      "right": "limana",
+      "left_gloss": "доставлять посылку",
+      "right_gloss": "предельный срок работы",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "limena",
+      "right": "lipena",
+      "left_gloss": "доставлять посылку",
+      "right_gloss": "гиперссылка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "lipena",
+      "right": "lihena",
+      "left_gloss": "гиперссылка",
+      "right_gloss": "уважать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "milina",
+      "right": "amilina",
+      "left_gloss": "регистрировать запись",
+      "right_gloss": "дружелюбный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "milina",
+      "right": "hilina",
+      "left_gloss": "регистрировать запись",
+      "right_gloss": "кассовый чек",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "milina",
+      "right": "kilina",
+      "left_gloss": "регистрировать запись",
+      "right_gloss": "поликлиника",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "milina",
+      "right": "silina",
+      "left_gloss": "регистрировать запись",
+      "right_gloss": "шприц",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "molena",
+      "right": "olena",
+      "left_gloss": "перемещать предмет",
+      "right_gloss": "прозрачный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "nakena",
+      "right": "wakena",
+      "left_gloss": "арендовать",
+      "right_gloss": "стакан",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "naliwa",
+      "right": "namiwa",
+      "left_gloss": "необходимый",
+      "right_gloss": "сосед",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "nipena",
+      "right": "lipena",
+      "left_gloss": "невозможный",
+      "right_gloss": "гиперссылка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "olena",
+      "right": "lena",
+      "left_gloss": "прозрачный",
+      "right_gloss": "учиться; изучать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "olena",
+      "right": "osena",
+      "left_gloss": "прозрачный",
+      "right_gloss": "океан",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "olena",
+      "right": "owena",
+      "left_gloss": "прозрачный",
+      "right_gloss": "духовка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "kalina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "локоть",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "patina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "тропа",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "pelina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "поле",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "talina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "плакать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "palina",
+      "right": "walina",
+      "left_gloss": "полный о ёмкости",
+      "right_gloss": "сустав",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "panala",
+      "right": "pasala",
+      "left_gloss": "шить ткань",
+      "right_gloss": "счёт на оплату",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "panala",
+      "right": "payala",
+      "left_gloss": "шить ткань",
+      "right_gloss": "непрозрачный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "panala",
+      "right": "penala",
+      "left_gloss": "шить ткань",
+      "right_gloss": "ручка для письма",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pasesa",
+      "right": "posesa",
+      "left_gloss": "оплачивать",
+      "right_gloss": "процессор",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "patela",
+      "right": "batela",
+      "left_gloss": "красить поверхность",
+      "right_gloss": "аккумулятор",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "patela",
+      "right": "katela",
+      "left_gloss": "красить поверхность",
+      "right_gloss": "твёрдый материал",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "patela",
+      "right": "matela",
+      "left_gloss": "красить поверхность",
+      "right_gloss": "кустарник",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "patela",
+      "right": "tatela",
+      "left_gloss": "красить поверхность",
+      "right_gloss": "квитанция об оплате",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pawasa",
+      "right": "palasa",
+      "left_gloss": "ехать пассажиром",
+      "right_gloss": "городская площадь",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "payala",
+      "right": "pasala",
+      "left_gloss": "непрозрачный",
+      "right_gloss": "счёт на оплату",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pelasa",
+      "right": "palasa",
+      "left_gloss": "сажать растение",
+      "right_gloss": "городская площадь",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pelasa",
+      "right": "pelana",
+      "left_gloss": "сажать растение",
+      "right_gloss": "груша",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pelasa",
+      "right": "pilasa",
+      "left_gloss": "сажать растение",
+      "right_gloss": "гвоздь металлический",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pelasa",
+      "right": "welasa",
+      "left_gloss": "сажать растение",
+      "right_gloss": "открытый в общении",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pewana",
+      "right": "ewana",
+      "left_gloss": "публиковать материал",
+      "right_gloss": "яйцо как пища",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pewana",
+      "right": "lewana",
+      "left_gloss": "публиковать материал",
+      "right_gloss": "коллега",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pewana",
+      "right": "pelana",
+      "left_gloss": "публиковать материал",
+      "right_gloss": "груша",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pilana",
+      "right": "pelana",
+      "left_gloss": "вредный",
+      "right_gloss": "груша",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "pilana",
+      "right": "pilasa",
+      "left_gloss": "вредный",
+      "right_gloss": "гвоздь металлический",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "polina",
+      "right": "holina",
+      "left_gloss": "надёжный",
+      "right_gloss": "отпуск работника",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "polina",
+      "right": "pelina",
+      "left_gloss": "надёжный",
+      "right_gloss": "поле",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "polina",
+      "right": "polisa",
+      "left_gloss": "надёжный",
+      "right_gloss": "каша",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sabila",
+      "right": "sanila",
+      "left_gloss": "складывать ткань",
+      "right_gloss": "благодарный",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "saloma",
+      "right": "paloma",
+      "left_gloss": "обычный",
+      "right_gloss": "балкон",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "saloma",
+      "right": "salona",
+      "left_gloss": "обычный",
+      "right_gloss": "гостиная",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "samina",
+      "right": "lamina",
+      "left_gloss": "сеянец",
+      "right_gloss": "заботиться о ком-либо",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "samina",
+      "right": "sakina",
+      "left_gloss": "сеянец",
+      "right_gloss": "задавать вопрос",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sapela",
+      "right": "apela",
+      "left_gloss": "осторожный",
+      "right_gloss": "апелляционная жалоба",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sapela",
+      "right": "sapena",
+      "left_gloss": "осторожный",
+      "right_gloss": "мыло",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sapela",
+      "right": "sawela",
+      "left_gloss": "осторожный",
+      "right_gloss": "полка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sapela",
+      "right": "tapela",
+      "left_gloss": "осторожный",
+      "right_gloss": "обои",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sapena",
+      "right": "sopena",
+      "left_gloss": "мыло",
+      "right_gloss": "поддерживать человека",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "satena",
+      "right": "hatena",
+      "left_gloss": "загружать файл на сервер",
+      "right_gloss": "шляпа",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "satena",
+      "right": "sapena",
+      "left_gloss": "загружать файл на сервер",
+      "right_gloss": "мыло",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "satena",
+      "right": "satema",
+      "left_gloss": "загружать файл на сервер",
+      "right_gloss": "стебель",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sidena",
+      "right": "sitena",
+      "left_gloss": "отвёртка",
+      "right_gloss": "обсуждать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sisena",
+      "right": "sidena",
+      "left_gloss": "подписывать документ",
+      "right_gloss": "отвёртка",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulena",
+      "right": "suwena",
+      "left_gloss": "гладкий",
+      "right_gloss": "ботинок",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulina",
+      "right": "hulina",
+      "left_gloss": "высушивать",
+      "right_gloss": "мука",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulina",
+      "right": "silina",
+      "left_gloss": "высушивать",
+      "right_gloss": "шприц",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulina",
+      "right": "sulena",
+      "left_gloss": "высушивать",
+      "right_gloss": "гладкий",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "sulina",
+      "right": "suwina",
+      "left_gloss": "высушивать",
+      "right_gloss": "мастерская",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "suwana",
+      "right": "sawana",
+      "left_gloss": "сухой",
+      "right_gloss": "затенённое место",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "suwana",
+      "right": "suwama",
+      "left_gloss": "сухой",
+      "right_gloss": "болото",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "suwana",
+      "right": "suwaya",
+      "left_gloss": "сухой",
+      "right_gloss": "родник",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "suwana",
+      "right": "suwena",
+      "left_gloss": "сухой",
+      "right_gloss": "ботинок",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "suwana",
+      "right": "suwina",
+      "left_gloss": "сухой",
+      "right_gloss": "мастерская",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tahena",
+      "right": "kahena",
+      "left_gloss": "тесный",
+      "right_gloss": "кафе",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tahena",
+      "right": "pahena",
+      "left_gloss": "тесный",
+      "right_gloss": "молодое дерево",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tahena",
+      "right": "tihena",
+      "left_gloss": "тесный",
+      "right_gloss": "бояться",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "talana",
+      "right": "talaka",
+      "left_gloss": "разрезать",
+      "right_gloss": "грузовик",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "talana",
+      "right": "talama",
+      "left_gloss": "разрезать",
+      "right_gloss": "трамвай",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "talana",
+      "right": "tawana",
+      "left_gloss": "разрезать",
+      "right_gloss": "плоский",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tasina",
+      "right": "hasina",
+      "left_gloss": "язык как орган",
+      "right_gloss": "рекомендовать план",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tasina",
+      "right": "talina",
+      "left_gloss": "язык как орган",
+      "right_gloss": "плакать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawana",
+      "right": "lawana",
+      "left_gloss": "плоский",
+      "right_gloss": "молния",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawana",
+      "right": "sawana",
+      "left_gloss": "плоский",
+      "right_gloss": "затенённое место",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawina",
+      "right": "sawina",
+      "left_gloss": "обменивать предмет",
+      "right_gloss": "потолок",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawina",
+      "right": "tasina",
+      "left_gloss": "обменивать предмет",
+      "right_gloss": "язык как орган",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tawina",
+      "right": "tawana",
+      "left_gloss": "обменивать предмет",
+      "right_gloss": "плоский",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "temina",
+      "right": "temena",
+      "left_gloss": "точный",
+      "right_gloss": "пыль",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tosena",
+      "right": "kosena",
+      "left_gloss": "выходить из транспорта",
+      "right_gloss": "щека",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tosena",
+      "right": "osena",
+      "left_gloss": "выходить из транспорта",
+      "right_gloss": "океан",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "towina",
+      "right": "mowina",
+      "left_gloss": "возвращать одолженное",
+      "right_gloss": "бровь",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "towina",
+      "right": "tokina",
+      "left_gloss": "возвращать одолженное",
+      "right_gloss": "токен доступа",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tulena",
+      "right": "telena",
+      "left_gloss": "общественный по назначению",
+      "right_gloss": "поезд",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tulina",
+      "right": "hulina",
+      "left_gloss": "поднимать предмет",
+      "right_gloss": "мука",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "tulina",
+      "right": "tulena",
+      "left_gloss": "поднимать предмет",
+      "right_gloss": "общественный по назначению",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "usena",
+      "right": "sena",
+      "left_gloss": "пользователь системы",
+      "right_gloss": "сто",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walina",
+      "right": "talina",
+      "left_gloss": "сустав",
+      "right_gloss": "плакать",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walina",
+      "right": "wawina",
+      "left_gloss": "сустав",
+      "right_gloss": "поздравлять",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walisa",
+      "right": "walina",
+      "left_gloss": "поливать растение",
+      "right_gloss": "сустав",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "walisa",
+      "right": "walita",
+      "left_gloss": "поливать растение",
+      "right_gloss": "коридор",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "watisena",
+      "right": "patisena",
+      "left_gloss": "ведро",
+      "right_gloss": "терпеливый",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wawila",
+      "right": "dawila",
+      "left_gloss": "лоб",
+      "right_gloss": "знакомиться с человеком",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wawila",
+      "right": "wawina",
+      "left_gloss": "лоб",
+      "right_gloss": "поздравлять",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "welasa",
+      "right": "wenasa",
+      "left_gloss": "открытый в общении",
+      "right_gloss": "поясница",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wemasa",
+      "right": "welasa",
+      "left_gloss": "мыть предмет водой",
+      "right_gloss": "открытый в общении",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wemasa",
+      "right": "wenasa",
+      "left_gloss": "мыть предмет водой",
+      "right_gloss": "поясница",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wemila",
+      "right": "semila",
+      "left_gloss": "сообщать новость",
+      "right_gloss": "семя растения",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wenala",
+      "right": "penala",
+      "left_gloss": "неизвестный",
+      "right_gloss": "ручка для письма",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wenala",
+      "right": "senala",
+      "left_gloss": "неизвестный",
+      "right_gloss": "правовое наказание",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wenala",
+      "right": "wenasa",
+      "left_gloss": "неизвестный",
+      "right_gloss": "поясница",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wenala",
+      "right": "wesala",
+      "left_gloss": "неизвестный",
+      "right_gloss": "склад",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wenala",
+      "right": "wetala",
+      "left_gloss": "неизвестный",
+      "right_gloss": "погода",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wisina",
+      "right": "disina",
+      "left_gloss": "законный",
+      "right_gloss": "головокружение",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wisina",
+      "right": "wasina",
+      "left_gloss": "законный",
+      "right_gloss": "вакцина",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "wisina",
+      "right": "wosina",
+      "left_gloss": "законный",
+      "right_gloss": "профессия",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yamina",
+      "right": "lamina",
+      "left_gloss": "челюсть",
+      "right_gloss": "заботиться о ком-либо",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yatela",
+      "right": "batela",
+      "left_gloss": "путешествовать",
+      "right_gloss": "аккумулятор",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yatela",
+      "right": "katela",
+      "left_gloss": "путешествовать",
+      "right_gloss": "твёрдый материал",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yatela",
+      "right": "matela",
+      "left_gloss": "путешествовать",
+      "right_gloss": "кустарник",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    },
+    {
+      "left": "yatela",
+      "right": "tatela",
+      "left_gloss": "путешествовать",
+      "right_gloss": "квитанция об оплате",
+      "same_class": false,
+      "same_verb_frame": false,
+      "requires_listening_review": true
+    }
+  ]
+}
