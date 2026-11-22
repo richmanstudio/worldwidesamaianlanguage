@@ -57,3 +57,19 @@ for(const [text,code] of [
 for(const text of ['Mi wemasa pila.','Mi hu hemina kaso.','Mi te towina kaso.','Mi pawasa na busa.','Kopa bi pohela.'])assert(parse(text).ok,text);
 console.log('✓ R07-11: 250 editorial decisions, 500 grammar examples, 50 new verbs and 50 new qualities');
 console.log('✓ SAMA 0.15.0: 1000 lexemes, 2000 indexed examples, 112 frames; prior 750 unchanged by adopted entries');
+
+const contrasts=[["huwisa","suwana","Влажность предмета против отсутствия заметной влаги"],["helewa","tapa","Горячий против тёплого, относительная температура"],["palina","pohela","Полная ёмкость против пустой ёмкости"],["balina","munala","Острый инструмент против тупого"],["kawela","lasi","Тяжёлый и лёгкий по массе"],["sulena","kasala","Гладкая поверхность против шероховатой"],["katela","huwila","Твёрдость против мягкости при нажиме"],["olena","payala","Прозрачный материал против непрозрачного"],["bunala","hilasa","Безопасный в условиях против опасного"],["temina","telawa","Точное значение против приблизительного"],["sapela","paselana","Осторожный против неосторожного"],["awatena","awatelina","Проверка личности и разрешение доступа"],["tesinata","tesawena","Диагностическая процедура и её результат"],["pitanala","kasupela","Таблетка и капсула как разные формы лекарства"],["pasala","tatela","Счёт к оплате и документ о получении денег"],["inewasa","pohita","Поступления и положительная разница после затрат"],["sawelina","inewasa","Отложенные средства и поступающий доход"],["dakisena","apela","Первоначальное исковое заявление и жалоба на пересмотр"],["nakena","wenina","Платная аренда и временное пользование взятой вещью"],["satena","nayina","Передача файла на сервер и сохранение данных"],["lato","luminata","Общий светильник и настольная разновидность"],["bina","bakina","Спина как область тела и лопатка как конкретная кость"],["napisa","pilasa","Ноготь на пальце и металлический гвоздь"],["tulena","paletina","Публичное назначение и частная форма принадлежности"]];
+assert.equal(contrasts.length,24);
+for(const [a,b] of contrasts){
+ const A=lex.entries.find(e=>e.form===a),B=lex.entries.find(e=>e.form===b);
+ assert(A&&B&&a!==b,'Missing semantic contrast '+a+'/'+b);
+ assert.notDeepEqual(A.senses[0].definition,B.senses[0].definition,'Same definitions '+a+'/'+b);
+ const aa=parse(A.senses[0].examples[0].sama),bb=parse(B.senses[0].examples[0].sama);
+ assert(aa.ok&&bb.ok,'Unparseable contrast '+a+'/'+b);
+ assert.notEqual(JSON.stringify(aa.ast),JSON.stringify(bb.ast),'Identical AST '+a+'/'+b);
+}
+const near=read('reports/lexeme-confusables-015.json');
+assert.equal(near.version,'0.15.0');assert.equal(near.entries_new,250);
+assert.equal(near.items.length,near.near_pairs);assert(near.near_pairs>0);
+assert.equal(near.human_listening_reviews,0);
+console.log('✓ R07-08/11: 24 documented semantic contrasts; near-form risks explicitly flagged, not treated as human study');

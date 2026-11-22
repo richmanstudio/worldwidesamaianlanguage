@@ -218,7 +218,7 @@
     {
       "left": "bakina",
       "right": "bakila",
-      "left_gloss": "спина",
+      "left_gloss": "лопатка (кость)",
       "right_gloss": "кора дерева",
       "same_class": true,
       "same_verb_frame": false,
@@ -1334,7 +1334,7 @@
     {
       "left": "bakina",
       "right": "sakina",
-      "left_gloss": "спина",
+      "left_gloss": "лопатка (кость)",
       "right_gloss": "задавать вопрос",
       "same_class": false,
       "same_verb_frame": false,
@@ -1344,7 +1344,7 @@
       "left": "balina",
       "right": "bakina",
       "left_gloss": "острый инструмент",
-      "right_gloss": "спина",
+      "right_gloss": "лопатка (кость)",
       "same_class": false,
       "same_verb_frame": false,
       "requires_listening_review": true
