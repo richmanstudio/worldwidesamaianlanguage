@@ -1,5 +1,5 @@
 {
-  "version": "0.12.0",
+  "version": "0.13.0",
   "lessons": [
     {
       "id": 1,
@@ -533,6 +533,141 @@
         "answer": "Mi mima nami de yu."
       },
       "contrast": "Mi nopa misa не равнозначно Mi wata misa: только второе утверждает находку."
+    },
+    {
+      "id": 21,
+      "version": "0.13.0",
+      "title": "Погода и состояние воздуха",
+      "goal": "Говорить о дожде, снеге, грозе и температуре.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/quality"
+      ],
+      "explanation": "nume — дождь, sime — снег, nubi — облако, tunu — гром, lawana — молния, temo — температура. widi обозначает любой ветер, walu — слабый бриз.",
+      "examples": [
+        {
+          "sama": "Mi saya tunu.",
+          "ru": "Я слышу гром."
+        },
+        {
+          "sama": "Nubi bi noba bano.",
+          "ru": "Облако над городом."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу снег».",
+        "answer": "Mi si sime."
+      },
+      "contrast": "sime — снег, siku — лёд, nuhu — туман: это разные вещества и явления."
+    },
+    {
+      "id": 22,
+      "version": "0.13.0",
+      "title": "Учёба: урок, экзамен, оценка",
+      "goal": "Отличать учебные помещения, мероприятия и документы.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/nounphrase",
+        "SAMA-RULE/valency"
+      ],
+      "explanation": "sikola — школа, lasoma — аудитория, leso — урок, ekamo — экзамен, maleta — оценка, dipoma — диплом, tasika — домашнее задание, unisa — университет.",
+      "examples": [
+        {
+          "sama": "Dani li bi na lasoma.",
+          "ru": "Ученики находятся в аудитории."
+        },
+        {
+          "sama": "Ekamo bi tadi.",
+          "ru": "Экзамен трудный."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я делаю домашнее задание».",
+        "answer": "Mi naka tasika."
+      },
+      "contrast": "Экзамен ekamo — процедура оценивания, maleta — выставленная оценка; diploma dipoma — документ."
+    },
+    {
+      "id": 23,
+      "version": "0.13.0",
+      "title": "Цифровая среда",
+      "goal": "Различать устройство, данные, программу и доступ.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/possession"
+      ],
+      "explanation": "kiwato — клавиатура, sewa — сервер, sowaya — ПО, polama — программа, datu — данные, diko — папка, paso — пароль, akona — учётная запись, sikina — экран, kodata — исходный код.",
+      "examples": [
+        {
+          "sama": "Mi wima kodata.",
+          "ru": "Я пишу исходный код."
+        },
+        {
+          "sama": "Mi mima paso.",
+          "ru": "Я помню пароль."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я проверяю данные».",
+        "answer": "Mi tami datu."
+      },
+      "contrast": "polama — компьютерная программа, pome — план; datu — данные, dibo — файл."
+    },
+    {
+      "id": 24,
+      "version": "0.13.0",
+      "title": "Здоровье и обращение за помощью",
+      "goal": "Отличать симптом, диагноз, рецепт и лекарство.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "hosipita — больница, kilina — поликлиника, simota — симптом, diyano — диагноз, medoka — рецепт, temu — запись на приём, wuna — рана, ineka — инфекция, aleli — аллергия, emeya — чрезвычайная ситуация.",
+      "examples": [
+        {
+          "sama": "Meka tami simota.",
+          "ru": "Врач проверяет симптом."
+        },
+        {
+          "sama": "Meka wima medoka.",
+          "ru": "Врач выписывает рецепт."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я читаю рецепт».",
+        "answer": "Mi lita medoka."
+      },
+      "contrast": "Диагноз diyano не равнозначен симптому simota; рецепт medoka не равен лекарству meda."
+    },
+    {
+      "id": 25,
+      "version": "0.13.0",
+      "title": "Право и гражданская жизнь",
+      "goal": "Читать базовые правовые высказывания без потери смысловых границ.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "konata — договор, kota — суд, yudi — судья, lawiya — юрист, ewida — доказательство, tasa — налог, wota — голос, eleka — выборы, sitano — гражданин, kuwena — правительство.",
+      "examples": [
+        {
+          "sama": "Lawiya tami doku.",
+          "ru": "Юрист проверяет документ."
+        },
+        {
+          "sama": "Yudi bi na kota.",
+          "ru": "Судья находится в суде."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я читаю договор».",
+        "answer": "Mi lita konata."
+      },
+      "contrast": "lawiya не обязательно адвокат; ewida не утверждает процессуальную допустимость доказательства."
     }
   ]
 }

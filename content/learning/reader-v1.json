@@ -1,5 +1,5 @@
 {
-  "version": "0.12.0",
+  "version": "0.13.0",
   "texts": [
     {
       "id": 1,
@@ -206,6 +206,136 @@
         {
           "sama": "Mi toka ko mami li.",
           "ru": "Я говорю с родителями."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Дождь в городе",
+      "sentences": [
+        {
+          "sama": "Nume bi na bano.",
+          "ru": "В городе идёт дождь."
+        },
+        {
+          "sama": "Nubi bi noba bano.",
+          "ru": "Над городом облако."
+        },
+        {
+          "sama": "Mi saya tunu.",
+          "ru": "Я слышу гром."
+        },
+        {
+          "sama": "Mi si lawana.",
+          "ru": "Я вижу молнию."
+        },
+        {
+          "sama": "Temo bi yoma.",
+          "ru": "Температура важна."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Учёба в университете",
+      "sentences": [
+        {
+          "sama": "Dani li bi na unisa.",
+          "ru": "Студенты в университете."
+        },
+        {
+          "sama": "Lenu toka na lekita.",
+          "ru": "Преподаватель говорит на лекции."
+        },
+        {
+          "sama": "Ekamo bi tadi.",
+          "ru": "Экзамен трудный."
+        },
+        {
+          "sama": "Mi naka tasika.",
+          "ru": "Я делаю домашнее задание."
+        },
+        {
+          "sama": "Mi si maleta.",
+          "ru": "Я вижу оценку."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Работа с кодом",
+      "sentences": [
+        {
+          "sama": "Kiwato bi na mesa.",
+          "ru": "Клавиатура находится на столе."
+        },
+        {
+          "sama": "Mi wima kodata.",
+          "ru": "Я пишу исходный код."
+        },
+        {
+          "sama": "Mi tami polama.",
+          "ru": "Я проверяю программу."
+        },
+        {
+          "sama": "Mi mima paso.",
+          "ru": "Я помню пароль."
+        },
+        {
+          "sama": "Datu bi yoma.",
+          "ru": "Данные важны."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "На приёме",
+      "sentences": [
+        {
+          "sama": "Meka bi na kilina.",
+          "ru": "Врач находится в поликлинике."
+        },
+        {
+          "sama": "Meka tami simota.",
+          "ru": "Врач проверяет симптом."
+        },
+        {
+          "sama": "Meka wima medoka.",
+          "ru": "Врач выписывает рецепт."
+        },
+        {
+          "sama": "Mi lita medoka.",
+          "ru": "Я читаю рецепт."
+        },
+        {
+          "sama": "Temu bi yoma.",
+          "ru": "Запись на приём важна."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Документы и суд",
+      "sentences": [
+        {
+          "sama": "Lawiya tami konata.",
+          "ru": "Юрист проверяет договор."
+        },
+        {
+          "sama": "Yudi bi na kota.",
+          "ru": "Судья находится в суде."
+        },
+        {
+          "sama": "Yudi tami ewida.",
+          "ru": "Судья проверяет доказательство."
+        },
+        {
+          "sama": "Mi lita konata.",
+          "ru": "Я читаю договор."
+        },
+        {
+          "sama": "Wota de mi bi yoma.",
+          "ru": "Мой голос на выборах важен."
         }
       ]
     }
