@@ -1,4 +1,4 @@
-> **Действующая нормативная основа: SAMA 0.15.0 — 1000 принятых слов.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
+> **Действующая нормативная основа: SAMA 0.16.0 — 1004 нормативные словарные статьи.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
 
 # SAMA — International Auxiliary Language
 
@@ -8,11 +8,11 @@
 
 ---
 
-## Изучение SAMA 0.15.0
+## Изучение SAMA 0.16.0
 
 [Начало обучения](https://richmanstudio.github.io/worldwidesamaianlanguage/#/start) · [Азбука](https://richmanstudio.github.io/worldwidesamaianlanguage/#/alphabet) · [Произношение](https://richmanstudio.github.io/worldwidesamaianlanguage/#/sounds) · [Грамматика](https://richmanstudio.github.io/worldwidesamaianlanguage/#/grammar) · [Словарь](https://richmanstudio.github.io/worldwidesamaianlanguage/#/dictionary) · [Уроки](https://richmanstudio.github.io/worldwidesamaianlanguage/#/lessons) · [Тренажёр](https://richmanstudio.github.io/worldwidesamaianlanguage/#/trainer).
 
-Нормативная редакция содержит 1000 индивидуально определённых слов и 24 правила действующего базового синтаксиса. Более сложная грамматика, человеческая озвучка и расширение до 5000 статей находятся в работе; старые исследования хранятся отдельно и не смешиваются с действующей нормой.
+Нормативная редакция содержит 1004 индивидуально определённые словарные статьи и 25 правил действующего базового синтаксиса. Более сложная грамматика, человеческая озвучка и расширение до 5000 статей находятся в работе; старые исследования хранятся отдельно и не смешиваются с действующей нормой.
 
 ---
 
@@ -90,3 +90,8 @@ SAMA 0.5 **не является международно признанным �
 Workflow `.github/workflows/pages.yml` запускает `npm test`, собирает `dist` и публикует его через GitHub Actions после пуша в `main`.
 
 **License:** MIT (см. LICENSE); научное содержание требует отдельной редакционной проверки.
+
+
+### Новое в SAMA 0.16.0
+
+Теперь можно однозначно сказать `No tawa ami li wako.` («Не все друзья идут») и `Tawa ami li no wako.` («Все друзья не идут»). [Описание грамматики](docs/grammar/quantifiers.md) · [40 проверенных контрастов](tests/quantifier-scopes.json) · [логическая семантика](docs/semantics/quantification.md). Охват пока ограничен подлежащим.

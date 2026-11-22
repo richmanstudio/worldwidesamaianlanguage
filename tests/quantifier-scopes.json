@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "U-3",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-3",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-3",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-3",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-4",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-4",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-4",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-4",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-5",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-5",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-5",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-5",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-6",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-6",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-6",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-6",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-7",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-7",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-7",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-7",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": true
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-8",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-8",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-8",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-8",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": true
+      },
+      {
+        "id": "participant-7",
+        "predicate": true
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-9",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-9",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-9",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-9",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": true
+      },
+      {
+        "id": "participant-7",
+        "predicate": true
+      },
+      {
+        "id": "participant-8",
+        "predicate": true
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-10",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-10",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-10",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-10",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": true
+      },
+      {
+        "id": "participant-7",
+        "predicate": true
+      },
+      {
+        "id": "participant-8",
+        "predicate": true
+      },
+      {
+        "id": "participant-9",
+        "predicate": true
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-11",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-11",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-11",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-11",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": true
+      },
+      {
+        "id": "participant-7",
+        "predicate": true
+      },
+      {
+        "id": "participant-8",
+        "predicate": true
+      },
+      {
+        "id": "participant-9",
+        "predicate": true
+      },
+      {
+        "id": "participant-10",
+        "predicate": true
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "U-12",
+    "scope": "universal-negation vs negated universal",
+    "left": "Tawa ami li no wako.",
+    "right": "No tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      },
+      {
+        "id": "participant-12",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "E-12",
+    "scope": "none vs some not",
+    "left": "No somi ami li wako.",
+    "right": "Somi ami li no wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      },
+      {
+        "id": "participant-12",
+        "predicate": false
+      }
+    ],
+    "expected_left": false,
+    "expected_right": true
+  },
+  {
+    "id": "M-12",
+    "scope": "some vs strict majority",
+    "left": "Somi ami li wako.",
+    "right": "Mowa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": false
+      },
+      {
+        "id": "participant-3",
+        "predicate": false
+      },
+      {
+        "id": "participant-4",
+        "predicate": false
+      },
+      {
+        "id": "participant-5",
+        "predicate": false
+      },
+      {
+        "id": "participant-6",
+        "predicate": false
+      },
+      {
+        "id": "participant-7",
+        "predicate": false
+      },
+      {
+        "id": "participant-8",
+        "predicate": false
+      },
+      {
+        "id": "participant-9",
+        "predicate": false
+      },
+      {
+        "id": "participant-10",
+        "predicate": false
+      },
+      {
+        "id": "participant-11",
+        "predicate": false
+      },
+      {
+        "id": "participant-12",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  },
+  {
+    "id": "A-12",
+    "scope": "strict majority vs all",
+    "left": "Mowa ami li wako.",
+    "right": "Tawa ami li wako.",
+    "domain": [
+      {
+        "id": "participant-1",
+        "predicate": true
+      },
+      {
+        "id": "participant-2",
+        "predicate": true
+      },
+      {
+        "id": "participant-3",
+        "predicate": true
+      },
+      {
+        "id": "participant-4",
+        "predicate": true
+      },
+      {
+        "id": "participant-5",
+        "predicate": true
+      },
+      {
+        "id": "participant-6",
+        "predicate": true
+      },
+      {
+        "id": "participant-7",
+        "predicate": true
+      },
+      {
+        "id": "participant-8",
+        "predicate": true
+      },
+      {
+        "id": "participant-9",
+        "predicate": true
+      },
+      {
+        "id": "participant-10",
+        "predicate": true
+      },
+      {
+        "id": "participant-11",
+        "predicate": true
+      },
+      {
+        "id": "participant-12",
+        "predicate": false
+      }
+    ],
+    "expected_left": true,
+    "expected_right": false
+  }
+]

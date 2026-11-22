@@ -1,5 +1,5 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "source": "content/lexicon-v1.json",
   "examples": [
     {
@@ -14001,6 +14001,62 @@
       "sense_id": "SAMA-SENSE/pasawina/1",
       "sama": "Pasawina bi na baneka.",
       "ru": "Банковский перевод проводится банком."
+    },
+    {
+      "id": "SAMA-SENSE/tawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/tawa",
+      "sense_id": "SAMA-SENSE/tawa/1",
+      "sama": "Tawa ami li wako.",
+      "ru": "Все друзья идут пешком."
+    },
+    {
+      "id": "SAMA-SENSE/tawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/tawa",
+      "sense_id": "SAMA-SENSE/tawa/1",
+      "sama": "Tawa ami li no wako.",
+      "ru": "Каждый друг не идёт пешком."
+    },
+    {
+      "id": "SAMA-SENSE/somi/1/example/1",
+      "lexeme_id": "SAMA-LEX/somi",
+      "sense_id": "SAMA-SENSE/somi/1",
+      "sama": "Somi ami li wako.",
+      "ru": "Некоторые друзья идут пешком."
+    },
+    {
+      "id": "SAMA-SENSE/somi/1/example/2",
+      "lexeme_id": "SAMA-LEX/somi",
+      "sense_id": "SAMA-SENSE/somi/1",
+      "sama": "No somi ami li wako.",
+      "ru": "Ни один друг не идёт пешком."
+    },
+    {
+      "id": "SAMA-SENSE/mowa/1/example/1",
+      "lexeme_id": "SAMA-LEX/mowa",
+      "sense_id": "SAMA-SENSE/mowa/1",
+      "sama": "Mowa ami li wako.",
+      "ru": "Большинство друзей идут пешком."
+    },
+    {
+      "id": "SAMA-SENSE/mowa/1/example/2",
+      "lexeme_id": "SAMA-LEX/mowa",
+      "sense_id": "SAMA-SENSE/mowa/1",
+      "sama": "Mowa ami li no wako.",
+      "ru": "Большинство друзей не идут пешком."
+    },
+    {
+      "id": "SAMA-SENSE/sule/1/example/1",
+      "lexeme_id": "SAMA-LEX/sule",
+      "sense_id": "SAMA-SENSE/sule/1",
+      "sama": "Tawa ami li sule ta wako.",
+      "ru": "Все друзья, кроме него или неё, идут пешком."
+    },
+    {
+      "id": "SAMA-SENSE/sule/1/example/2",
+      "lexeme_id": "SAMA-LEX/sule",
+      "sense_id": "SAMA-SENSE/sule/1",
+      "sama": "Tawa ami li sule ena ami wako.",
+      "ru": "Все друзья, кроме этого друга, идут пешком."
     }
   ]
 }
