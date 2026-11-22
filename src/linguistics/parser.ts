@@ -106,6 +106,7 @@ function parseSamaFoundation(text:string,entries:SamaLexicalEntry[]):SamaParseRe
   const subject=np(!inRelative,!inRelative);if(subject.head==='se'||(subject.kind==='np-coordination'&&(subject.members as SamaTree[]).some(x=>x.head==='se')))fail('REFLEXIVE_SUBJECT','se относится к субъекту и не заменяет его');
   const tense=peek()==='pa'||peek()==='la'?take():null;
   const outerNegation=peek()==='no';if(outerNegation)take();
+  if(subject.quantifierNegated&&outerNegation)fail('DOUBLE_NEGATION_SCOPE','Два отрицания над квантором и предикатом пока требуют отдельной нормированной записи');
   const modal=pos(peek())==='modal'?take():null;
   const innerNegation=Boolean(modal&&peek()==='no');if(innerNegation)take();
   if(outerNegation&&innerNegation)fail('DOUBLE_NEGATION','Двойное no исключено в этой редакции');
