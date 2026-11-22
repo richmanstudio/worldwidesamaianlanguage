@@ -1,3 +1,11 @@
+# SAMA — International Auxiliary Language
+
+> 🧭 **[ОФИЦИАЛЬНЫЙ ROADMAP / ГЕНЕРАЛЬНЫЙ ПЛАН SAMA](ROADMAP.md)** · [Текущая работа и блокеры](docs/ROADMAP-STATUS.md) · [Журнал изменений](docs/WORKLOG.md) · [Правила вкладов и ИИ-помощников](AGENTS.md)
+>
+> **Правило проекта:** каждый новый языкозависимый коммит должен ссылаться на задачу `Rxx-yy`, проверять ограничения грамматики и обновлять статус. Детали и критерии «готово» — в ROADMAP.
+
+---
+
 # SAMA 0.9 — модальность, аспект и причинность (эксперимент)
 
 [Открыть новую лабораторию SAMA 0.9](https://richmanstudio.github.io/worldwidesamaianlanguage/#/language09) · [Редакторская спецификация](docs/SAMA-0.9-DECISIONS.md)
