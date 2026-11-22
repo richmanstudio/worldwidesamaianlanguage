@@ -1,3 +1,7 @@
+# SAMA World Language Archive — Digital Edition 2006 (Interface 0.6)
+
+The visual interface now uses archival navigation, document-focused reference pages, individual dictionary headwords and a phonetic laboratory. Core language content is unchanged: 43 working forms, 274 candidates and 4,683 algorithmic compound proposals. Styling is isolated in `src/archive.css` and appended by `scripts/build.mjs` after the original stylesheet. The 5,000 entries are a research corpus, **not 5,000 independently validated words**. Audio remains a browser approximation, not native reference recordings.
+
 # SAMA Encyclopedia 0.5 — language research and learning
 
 [Открыть сайт](https://richmanstudio.github.io/worldwidesamaianlanguage/) · [GitHub Pages Actions](https://github.com/richmanstudio/worldwidesamaianlanguage/actions)
