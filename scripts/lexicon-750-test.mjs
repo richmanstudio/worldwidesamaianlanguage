@@ -45,7 +45,7 @@ for(const [text,code] of [
  ['Mi seliwa.','MISSING_OBJECT'],
  ['Mi te ponila yu.','ASPECT_COMPATIBILITY'],
  ['Mi hu dawila soma.','ASPECT_COMPATIBILITY'],
- ['Mi si mulata soma.','EXPECTED_NP']
+ ['Mi si mulata soma.','MISSING_OBJECT']
 ]){const result=parse(text);assert(!result.ok,text);assert.equal(result.error.code,code,text);}
 for(const sentence of ['Mi hu helisa.','Mi te dawila soma.','Soma bi kamaliya.','Mi si soma mulata.'])assert(parse(sentence).ok,sentence);
 const examplesIndex=read('content/usage-examples.json');assert.equal(examplesIndex.version,'0.14.0');assert.equal(examplesIndex.examples.length,1500);
