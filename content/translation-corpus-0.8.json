@@ -303,11 +303,11 @@
     {
       "id": "T030",
       "category": "Описание и принадлежность",
-      "ru": "Это друг моей мамы (именная группа).",
+      "ru": "Друг мамы (именная группа, не предложение).",
       "sama": "ami de mama",
       "status": "core",
       "review": "one-author draft; not independently validated",
-      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "note": "Номинативная группа без глагола: ami de mama. Не означает «Это друг мамы».",
       "meaning_preserved": "basic-approximate"
     },
     {
@@ -587,7 +587,7 @@
       "sama": "Mi kama lita kaso.",
       "status": "draft",
       "review": "one-author draft; not independently validated",
-      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "note": "Кандидат lena пока двусмысленен: учиться / изучать / учить. Здесь предложена конструкция «изучать язык», валентность требует уточнения.",
       "meaning_preserved": "needs-review"
     },
     {
@@ -683,11 +683,11 @@
     {
       "id": "T068",
       "category": "Условные отношения",
-      "ru": "Если он или она врач, он или она помогает детям.",
+      "ru": "Если ты пойдёшь к дому, я пойду к дому.",
       "sama": "Ani ta bi meka, ta kami nina li.",
       "status": "draft",
       "review": "one-author draft; not independently validated",
-      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "note": "Предложенная условная конструкция без выражения дополнительного «тоже».",
       "meaning_preserved": "needs-review"
     },
     {
@@ -837,7 +837,7 @@
       "sama": "Nina ye mama ama e ya lako.",
       "status": "draft",
       "review": "one-author draft; not independently validated",
-      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "note": "Новый экспериментальный пробел e после глагола означает прямой объект; фонемная/семантическая доступность не проверена.",
       "meaning_preserved": "needs-review"
     },
     {
@@ -847,7 +847,7 @@
       "sama": "Doma ye mi pa si e ya bi daba.",
       "status": "draft",
       "review": "one-author draft; not independently validated",
-      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "note": "Новый экспериментальный пробел e в позиции подлежащего; сопоставьте с T083.",
       "meaning_preserved": "needs-review"
     },
     {
@@ -867,7 +867,7 @@
       "sama": "Meka ye e kami nina li ya bi na doma.",
       "status": "draft",
       "review": "one-author draft; not independently validated",
-      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "note": "Относительная клауза содержит объект e. Схема ye…ya пока не утверждена.",
       "meaning_preserved": "needs-review"
     },
     {
