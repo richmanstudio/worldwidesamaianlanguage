@@ -1,5 +1,5 @@
 {
-  "version": "0.14.0",
+  "version": "0.15.0",
   "verbs": [
     {
       "form": "si",
@@ -903,6 +903,768 @@
       "aspect_class": "activity",
       "allowed_aspects": [
         "hu"
+      ]
+    },
+    {
+      "form": "wemasa",
+      "sense_id": "SAMA-SENSE/wemasa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "duwina",
+      "sense_id": "SAMA-SENSE/duwina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "sulina",
+      "sense_id": "SAMA-SENSE/sulina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "kotina",
+      "sense_id": "SAMA-SENSE/kotina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "kesawa",
+      "sense_id": "SAMA-SENSE/kesawa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "talana",
+      "sense_id": "SAMA-SENSE/talana/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "sabila",
+      "sense_id": "SAMA-SENSE/sabila/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "kopina",
+      "sense_id": "SAMA-SENSE/kopina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "pesawa",
+      "sense_id": "SAMA-SENSE/pesawa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "panala",
+      "sense_id": "SAMA-SENSE/panala/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "salewina",
+      "sense_id": "SAMA-SENSE/salewina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "hapina",
+      "sense_id": "SAMA-SENSE/hapina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "pelasa",
+      "sense_id": "SAMA-SENSE/pelasa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "hilawa",
+      "sense_id": "SAMA-SENSE/hilawa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "walisa",
+      "sense_id": "SAMA-SENSE/walisa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "dipina",
+      "sense_id": "SAMA-SENSE/dipina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "patela",
+      "sense_id": "SAMA-SENSE/patela/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "sakawa",
+      "sense_id": "SAMA-SENSE/sakawa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "hesina",
+      "sense_id": "SAMA-SENSE/hesina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "molena",
+      "sense_id": "SAMA-SENSE/molena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "tulina",
+      "sense_id": "SAMA-SENSE/tulina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "hosina",
+      "sense_id": "SAMA-SENSE/hosina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "hemina",
+      "sense_id": "SAMA-SENSE/hemina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "yomena",
+      "sense_id": "SAMA-SENSE/yomena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "lakema",
+      "sense_id": "SAMA-SENSE/lakema/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "yatela",
+      "sense_id": "SAMA-SENSE/yatela/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "lotema",
+      "sense_id": "SAMA-SENSE/lotema/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "depina",
+      "sense_id": "SAMA-SENSE/depina/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "pawasa",
+      "sense_id": "SAMA-SENSE/pawasa/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "bisena",
+      "sense_id": "SAMA-SENSE/bisena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "tosena",
+      "sense_id": "SAMA-SENSE/tosena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "limena",
+      "sense_id": "SAMA-SENSE/limena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "pemenata",
+      "sense_id": "SAMA-SENSE/pemenata/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "nakena",
+      "sense_id": "SAMA-SENSE/nakena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "wenina",
+      "sense_id": "SAMA-SENSE/wenina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "lewasa",
+      "sense_id": "SAMA-SENSE/lewasa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "towina",
+      "sense_id": "SAMA-SENSE/towina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "pasesa",
+      "sense_id": "SAMA-SENSE/pasesa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "kosina",
+      "sense_id": "SAMA-SENSE/kosina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "tawina",
+      "sense_id": "SAMA-SENSE/tawina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "lawena",
+      "sense_id": "SAMA-SENSE/lawena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "kamina",
+      "sense_id": "SAMA-SENSE/kamina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "nelesina",
+      "sense_id": "SAMA-SENSE/nelesina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "lenisa",
+      "sense_id": "SAMA-SENSE/lenisa/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "milina",
+      "sense_id": "SAMA-SENSE/milina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "sisena",
+      "sense_id": "SAMA-SENSE/sisena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "wemila",
+      "sense_id": "SAMA-SENSE/wemila/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "activity",
+      "allowed_aspects": [
+        "hu"
+      ]
+    },
+    {
+      "form": "pewana",
+      "sense_id": "SAMA-SENSE/pewana/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "achievement",
+      "allowed_aspects": [
+        "te"
+      ]
+    },
+    {
+      "form": "nayina",
+      "sense_id": "SAMA-SENSE/nayina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
+      ]
+    },
+    {
+      "form": "satena",
+      "sense_id": "SAMA-SENSE/satena/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": [],
+      "aspect_class": "accomplishment",
+      "allowed_aspects": [
+        "hu",
+        "te"
       ]
     }
   ]

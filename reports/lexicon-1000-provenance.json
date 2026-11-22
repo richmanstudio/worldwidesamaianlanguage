@@ -1,0 +1,2507 @@
+{
+  "version": "0.15.0",
+  "authority": "ADR-0008",
+  "accepted_lexemes": 250,
+  "review": [
+    {
+      "form": "wemasa",
+      "part": 1,
+      "row": 1,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "duwina",
+      "part": 1,
+      "row": 2,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "sulina",
+      "part": 1,
+      "row": 3,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "kotina",
+      "part": 1,
+      "row": 4,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "kesawa",
+      "part": 1,
+      "row": 5,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "talana",
+      "part": 1,
+      "row": 6,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "sabila",
+      "part": 1,
+      "row": 7,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "kopina",
+      "part": 1,
+      "row": 8,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "pesawa",
+      "part": 1,
+      "row": 9,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "panala",
+      "part": 1,
+      "row": 10,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "salewina",
+      "part": 1,
+      "row": 11,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "hapina",
+      "part": 1,
+      "row": 12,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "pelasa",
+      "part": 1,
+      "row": 13,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "hilawa",
+      "part": 1,
+      "row": 14,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "walisa",
+      "part": 1,
+      "row": 15,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "dipina",
+      "part": 1,
+      "row": 16,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "patela",
+      "part": 1,
+      "row": 17,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "sakawa",
+      "part": 1,
+      "row": 18,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "hesina",
+      "part": 1,
+      "row": 19,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "molena",
+      "part": 1,
+      "row": 20,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "tulina",
+      "part": 1,
+      "row": 21,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "hosina",
+      "part": 1,
+      "row": 22,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "hemina",
+      "part": 1,
+      "row": 23,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "yomena",
+      "part": 1,
+      "row": 24,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "lakema",
+      "part": 1,
+      "row": 25,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part01.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "yatela",
+      "part": 2,
+      "row": 1,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "lotema",
+      "part": 2,
+      "row": 2,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "depina",
+      "part": 2,
+      "row": 3,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "pawasa",
+      "part": 2,
+      "row": 4,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "bisena",
+      "part": 2,
+      "row": 5,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "tosena",
+      "part": 2,
+      "row": 6,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "limena",
+      "part": 2,
+      "row": 7,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "pemenata",
+      "part": 2,
+      "row": 8,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "nakena",
+      "part": 2,
+      "row": 9,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "wenina",
+      "part": 2,
+      "row": 10,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "lewasa",
+      "part": 2,
+      "row": 11,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "towina",
+      "part": 2,
+      "row": 12,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "pasesa",
+      "part": 2,
+      "row": 13,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "kosina",
+      "part": 2,
+      "row": 14,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "tawina",
+      "part": 2,
+      "row": 15,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "lawena",
+      "part": 2,
+      "row": 16,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "kamina",
+      "part": 2,
+      "row": 17,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "nelesina",
+      "part": 2,
+      "row": 18,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "lenisa",
+      "part": 2,
+      "row": 19,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "milina",
+      "part": 2,
+      "row": 20,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "sisena",
+      "part": 2,
+      "row": 21,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "wemila",
+      "part": 2,
+      "row": 22,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "pewana",
+      "part": 2,
+      "row": 23,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "nayina",
+      "part": 2,
+      "row": 24,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "satena",
+      "part": 2,
+      "row": 25,
+      "part_of_speech": "verb",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part02.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "helewa",
+      "part": 3,
+      "row": 1,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "huwisa",
+      "part": 3,
+      "row": 2,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "suwana",
+      "part": 3,
+      "row": 3,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "kawela",
+      "part": 3,
+      "row": 4,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "lewina",
+      "part": 3,
+      "row": 5,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "tahena",
+      "part": 3,
+      "row": 6,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "palina",
+      "part": 3,
+      "row": 7,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "pohela",
+      "part": 3,
+      "row": 8,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "balina",
+      "part": 3,
+      "row": 9,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "munala",
+      "part": 3,
+      "row": 10,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "huwila",
+      "part": 3,
+      "row": 11,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "katela",
+      "part": 3,
+      "row": 12,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "tawana",
+      "part": 3,
+      "row": 13,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "kasala",
+      "part": 3,
+      "row": 14,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "sulena",
+      "part": 3,
+      "row": 15,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "kinaya",
+      "part": 3,
+      "row": 16,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "belana",
+      "part": 3,
+      "row": 17,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "kinosana",
+      "part": 3,
+      "row": 18,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "olena",
+      "part": 3,
+      "row": 19,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "payala",
+      "part": 3,
+      "row": 20,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "bunala",
+      "part": 3,
+      "row": 21,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "hilasa",
+      "part": 3,
+      "row": 22,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "konila",
+      "part": 3,
+      "row": 23,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "pamisa",
+      "part": 3,
+      "row": 24,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "belowa",
+      "part": 3,
+      "row": 25,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part03.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "wisila",
+      "part": 4,
+      "row": 1,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "nanesa",
+      "part": 4,
+      "row": 2,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "sapela",
+      "part": 4,
+      "row": 3,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "paselana",
+      "part": 4,
+      "row": 4,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "suhila",
+      "part": 4,
+      "row": 5,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "tinesa",
+      "part": 4,
+      "row": 6,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "polina",
+      "part": 4,
+      "row": 7,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "welasa",
+      "part": 4,
+      "row": 8,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "temina",
+      "part": 4,
+      "row": 9,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "telawa",
+      "part": 4,
+      "row": 10,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "naliwa",
+      "part": 4,
+      "row": 11,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "meyana",
+      "part": 4,
+      "row": 12,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "nipena",
+      "part": 4,
+      "row": 13,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "saloma",
+      "part": 4,
+      "row": 14,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "hadena",
+      "part": 4,
+      "row": 15,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "litina",
+      "part": 4,
+      "row": 16,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "pilana",
+      "part": 4,
+      "row": 17,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "hamasa",
+      "part": 4,
+      "row": 18,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "wenala",
+      "part": 4,
+      "row": 19,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "kimala",
+      "part": 4,
+      "row": 20,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "paletina",
+      "part": 4,
+      "row": 21,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "tulena",
+      "part": 4,
+      "row": 22,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "wisina",
+      "part": 4,
+      "row": 23,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "lawesa",
+      "part": 4,
+      "row": 24,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "kumela",
+      "part": 4,
+      "row": 25,
+      "part_of_speech": "adjective",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part04.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "wawila",
+      "part": 5,
+      "row": 1,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "kosena",
+      "part": 5,
+      "row": 2,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "tawema",
+      "part": 5,
+      "row": 3,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "yamina",
+      "part": 5,
+      "row": 4,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "mulisa",
+      "part": 5,
+      "row": 5,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "tasina",
+      "part": 5,
+      "row": 6,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "mowina",
+      "part": 5,
+      "row": 7,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "pilima",
+      "part": 5,
+      "row": 8,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "nesina",
+      "part": 5,
+      "row": 9,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "somina",
+      "part": 5,
+      "row": 10,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "kalina",
+      "part": 5,
+      "row": 11,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "wasena",
+      "part": 5,
+      "row": 12,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "pamena",
+      "part": 5,
+      "row": 13,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "napisa",
+      "part": 5,
+      "row": 14,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "papena",
+      "part": 5,
+      "row": 15,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "bakina",
+      "part": 5,
+      "row": 16,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "wenasa",
+      "part": 5,
+      "row": 17,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "hanina",
+      "part": 5,
+      "row": 18,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "nenewa",
+      "part": 5,
+      "row": 19,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "tikina",
+      "part": 5,
+      "row": 20,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "hopina",
+      "part": 5,
+      "row": 21,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "musina",
+      "part": 5,
+      "row": 22,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "konasa",
+      "part": 5,
+      "row": 23,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "walina",
+      "part": 5,
+      "row": 24,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "nukina",
+      "part": 5,
+      "row": 25,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part05.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "sapena",
+      "part": 6,
+      "row": 1,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "detesena",
+      "part": 6,
+      "row": 2,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "tememeta",
+      "part": 6,
+      "row": 3,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "labalina",
+      "part": 6,
+      "row": 4,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "samipela",
+      "part": 6,
+      "row": 5,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "tesinata",
+      "part": 6,
+      "row": 6,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "tesawena",
+      "part": 6,
+      "row": 7,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "pitanala",
+      "part": 6,
+      "row": 8,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "kasupela",
+      "part": 6,
+      "row": 9,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "sinatela",
+      "part": 6,
+      "row": 10,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "misanata",
+      "part": 6,
+      "row": 11,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "masikena",
+      "part": 6,
+      "row": 12,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "sanetala",
+      "part": 6,
+      "row": 13,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "palamota",
+      "part": 6,
+      "row": 14,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "emelena",
+      "part": 6,
+      "row": 15,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "tohalina",
+      "part": 6,
+      "row": 16,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "halamena",
+      "part": 6,
+      "row": 17,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "hesenata",
+      "part": 6,
+      "row": 18,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "watenala",
+      "part": 6,
+      "row": 19,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "nokelina",
+      "part": 6,
+      "row": 20,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "hamalina",
+      "part": 6,
+      "row": 21,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "kanisela",
+      "part": 6,
+      "row": 22,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "nasila",
+      "part": 6,
+      "row": 23,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "kaselina",
+      "part": 6,
+      "row": 24,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "isolina",
+      "part": 6,
+      "row": 25,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part06.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "usena",
+      "part": 7,
+      "row": 1,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "ademina",
+      "part": 7,
+      "row": 2,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "sesiyona",
+      "part": 7,
+      "row": 3,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "awatena",
+      "part": 7,
+      "row": 4,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "awatelina",
+      "part": 7,
+      "row": 5,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "notihika",
+      "part": 7,
+      "row": 6,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "atamena",
+      "part": 7,
+      "row": 7,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "lipena",
+      "part": 7,
+      "row": 8,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "dowenata",
+      "part": 7,
+      "row": 9,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "inabosa",
+      "part": 7,
+      "row": 10,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "sapama",
+      "part": 7,
+      "row": 11,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "wilusa",
+      "part": 7,
+      "row": 12,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "bukala",
+      "part": 7,
+      "row": 13,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "elola",
+      "part": 7,
+      "row": 14,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "bakupela",
+      "part": 7,
+      "row": 15,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "wesiyona",
+      "part": 7,
+      "row": 16,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "upadeta",
+      "part": 7,
+      "row": 17,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "paketela",
+      "part": 7,
+      "row": 18,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "enakalina",
+      "part": 7,
+      "row": 19,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "kilenata",
+      "part": 7,
+      "row": 20,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "tokina",
+      "part": 7,
+      "row": 21,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "lokala",
+      "part": 7,
+      "row": 22,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "apilena",
+      "part": 7,
+      "row": 23,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "enapona",
+      "part": 7,
+      "row": 24,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "domelana",
+      "part": 7,
+      "row": 25,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part07.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "hamela",
+      "part": 8,
+      "row": 1,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "pilasa",
+      "part": 8,
+      "row": 2,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "sidena",
+      "part": 8,
+      "row": 3,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "talipena",
+      "part": 8,
+      "row": 4,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "kesona",
+      "part": 8,
+      "row": 5,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "hawasena",
+      "part": 8,
+      "row": 6,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "walipena",
+      "part": 8,
+      "row": 7,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "kalatela",
+      "part": 8,
+      "row": 8,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "lisawina",
+      "part": 8,
+      "row": 9,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "wesinata",
+      "part": 8,
+      "row": 10,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "polatena",
+      "part": 8,
+      "row": 11,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "balasina",
+      "part": 8,
+      "row": 12,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "mopina",
+      "part": 8,
+      "row": 13,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "watisena",
+      "part": 8,
+      "row": 14,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "kawelina",
+      "part": 8,
+      "row": 15,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "temena",
+      "part": 8,
+      "row": 16,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "halawina",
+      "part": 8,
+      "row": 17,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "binela",
+      "part": 8,
+      "row": 18,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "lesawena",
+      "part": 8,
+      "row": 19,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "panesina",
+      "part": 8,
+      "row": 20,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "kowena",
+      "part": 8,
+      "row": 21,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "hilinata",
+      "part": 8,
+      "row": 22,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "sinapela",
+      "part": 8,
+      "row": 23,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "luminata",
+      "part": 8,
+      "row": 24,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "hamatela",
+      "part": 8,
+      "row": 25,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part08.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "samina",
+      "part": 9,
+      "row": 1,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "pahena",
+      "part": 9,
+      "row": 2,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "hilala",
+      "part": 9,
+      "row": 3,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "matela",
+      "part": 9,
+      "row": 4,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "hanasela",
+      "part": 9,
+      "row": 5,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "akela",
+      "part": 9,
+      "row": 6,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "pelawina",
+      "part": 9,
+      "row": 7,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "kasiyona",
+      "part": 9,
+      "row": 8,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "halemata",
+      "part": 9,
+      "row": 9,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "pasewena",
+      "part": 9,
+      "row": 10,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "sesina",
+      "part": 9,
+      "row": 11,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "wolima",
+      "part": 9,
+      "row": 12,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "lewena",
+      "part": 9,
+      "row": 13,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "hawila",
+      "part": 9,
+      "row": 14,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "banosela",
+      "part": 9,
+      "row": 15,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "pasinata",
+      "part": 9,
+      "row": 16,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "hasata",
+      "part": 9,
+      "row": 17,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "pulawena",
+      "part": 9,
+      "row": 18,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "kalosa",
+      "part": 9,
+      "row": 19,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "watala",
+      "part": 9,
+      "row": 20,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "hilimena",
+      "part": 9,
+      "row": 21,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "sunela",
+      "part": 9,
+      "row": 22,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "walisata",
+      "part": 9,
+      "row": 23,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "wetewena",
+      "part": 9,
+      "row": 24,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "delawina",
+      "part": 9,
+      "row": 25,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part09.tsv:25",
+      "independent_review": false
+    },
+    {
+      "form": "inewasa",
+      "part": 10,
+      "row": 1,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:1",
+      "independent_review": false
+    },
+    {
+      "form": "epesena",
+      "part": 10,
+      "row": 2,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:2",
+      "independent_review": false
+    },
+    {
+      "form": "pohita",
+      "part": 10,
+      "row": 3,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:3",
+      "independent_review": false
+    },
+    {
+      "form": "lusina",
+      "part": 10,
+      "row": 4,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:4",
+      "independent_review": false
+    },
+    {
+      "form": "kalapena",
+      "part": 10,
+      "row": 5,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:5",
+      "independent_review": false
+    },
+    {
+      "form": "balanisa",
+      "part": 10,
+      "row": 6,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:6",
+      "independent_review": false
+    },
+    {
+      "form": "sawelina",
+      "part": 10,
+      "row": 7,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:7",
+      "independent_review": false
+    },
+    {
+      "form": "kedita",
+      "part": 10,
+      "row": 8,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:8",
+      "independent_review": false
+    },
+    {
+      "form": "debeta",
+      "part": 10,
+      "row": 9,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:9",
+      "independent_review": false
+    },
+    {
+      "form": "inawesa",
+      "part": 10,
+      "row": 10,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:10",
+      "independent_review": false
+    },
+    {
+      "form": "inatelesa",
+      "part": 10,
+      "row": 11,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:11",
+      "independent_review": false
+    },
+    {
+      "form": "monetala",
+      "part": 10,
+      "row": 12,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:12",
+      "independent_review": false
+    },
+    {
+      "form": "kawesena",
+      "part": 10,
+      "row": 13,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:13",
+      "independent_review": false
+    },
+    {
+      "form": "salatena",
+      "part": 10,
+      "row": 14,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:14",
+      "independent_review": false
+    },
+    {
+      "form": "tatela",
+      "part": 10,
+      "row": 15,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:15",
+      "independent_review": false
+    },
+    {
+      "form": "hilina",
+      "part": 10,
+      "row": 16,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:16",
+      "independent_review": false
+    },
+    {
+      "form": "kosenata",
+      "part": 10,
+      "row": 17,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:17",
+      "independent_review": false
+    },
+    {
+      "form": "pelinata",
+      "part": 10,
+      "row": 18,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:18",
+      "independent_review": false
+    },
+    {
+      "form": "weselata",
+      "part": 10,
+      "row": 19,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:19",
+      "independent_review": false
+    },
+    {
+      "form": "dakisena",
+      "part": 10,
+      "row": 20,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:20",
+      "independent_review": false
+    },
+    {
+      "form": "palesata",
+      "part": 10,
+      "row": 21,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:21",
+      "independent_review": false
+    },
+    {
+      "form": "kasiyala",
+      "part": 10,
+      "row": 22,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:22",
+      "independent_review": false
+    },
+    {
+      "form": "senala",
+      "part": 10,
+      "row": 23,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:23",
+      "independent_review": false
+    },
+    {
+      "form": "aposina",
+      "part": 10,
+      "row": 24,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:24",
+      "independent_review": false
+    },
+    {
+      "form": "pasawina",
+      "part": 10,
+      "row": 25,
+      "part_of_speech": "noun",
+      "decision": "adopt",
+      "status": "accepted-internal",
+      "evidence": "content/editorial/lexicon-1000-part10.tsv:25",
+      "independent_review": false
+    }
+  ]
+}
