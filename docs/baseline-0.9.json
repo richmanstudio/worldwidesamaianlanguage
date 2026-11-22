@@ -1,0 +1,386 @@
+{
+  "schema": "sama-baseline/v1",
+  "edition": "0.9-draft",
+  "captured": "2026-11-22",
+  "kind": "immutable-source-fingerprint",
+  "external_human_validation": false,
+  "counts": {
+    "letters": 17,
+    "vowels": 5,
+    "lexemes": 317,
+    "core": 43,
+    "candidate": 274,
+    "wordbank": 5000,
+    "proposals": 4683,
+    "specification": 24,
+    "spec_core": 20,
+    "spec_candidate": 4,
+    "grammar_atlas": 45,
+    "atlas_core": 19,
+    "atlas_proposal": 26,
+    "atlas_rules": 180,
+    "lab07": 15,
+    "lab07_curated": 44,
+    "lab07_benchmark": 1000,
+    "lab08": 24,
+    "lab08_corpus": 100,
+    "lab09": 20,
+    "lab09_new_morphemes": 5,
+    "lab09_contrast_pairs": 20,
+    "lab09_blocked": 12,
+    "articles": 82,
+    "lessons": 24,
+    "phrases": 50,
+    "historical_conflicts": 18,
+    "quarantined": 118
+  },
+  "fingerprints": {
+    "content/letters.json": "726229919b764a273bc098c662df809df602ca09",
+    "content/lexicon.json": "aa15dcbc6a37675b4cd8e83ea69fe417dcea9ced",
+    "content/wordbank-5000.json": "435f87a6472cba3cd6fa5ec4e68a9f119f6c6797",
+    "content/wordbank-report.json": "54a9f220f43c09d3c7d6e2310628b04fac4e9551",
+    "content/specification.json": "9b76055d4d39e463999029c929e401e0563214f6",
+    "content/grammar-atlas.json": "9c0381d47341f084c8433592c81d740ecb7e39f3",
+    "content/language-0.7.json": "b1d75a4e583c0ab766b90b475bb54d4fe873272e",
+    "content/benchmark-0.7.json": "84963d883ce79314a82e562bb45d276d39c41ee1",
+    "content/grammar-0.8.json": "7681f12f9b0975c1327dcd7cf847cb65489f954d",
+    "content/translation-corpus-0.8.json": "5b4125ad7bd99abb7516e2134f5b76a256cd490a",
+    "content/language-0.9.json": "efbe6f2e8bfecaa696dd6423b951842ec96d1c9b",
+    "content/lessons.json": "f8a1e1f677f67bb5fc3cf1006f57bda084ec2b5e",
+    "content/phrases.json": "506072b2fe00ce18049fca80b01f1febb1cd0db5",
+    "content/audit.json": "c3c613b75a1d9771629ff3bc859f6830e6997764",
+    "content/legacy/quarantine.json": "10ec87ec61ac8457cd1aab36b3238512558fc1b6",
+    "content/legacy/resolved-conflicts.json": "d757282f5b0f93637660f02831042a9dd0046220"
+  },
+  "article_manifest": [
+    {
+      "path": "content/articles/accessibility.json",
+      "sha": "975589b54b9cd6ded3485227849538ec9e692069"
+    },
+    {
+      "path": "content/articles/adjectives.json",
+      "sha": "6d0518964992409d79ffb17f6eb2b98229e08f42"
+    },
+    {
+      "path": "content/articles/alphabet-policy.json",
+      "sha": "86a59a719441d18b018406d3ce58ff5cb43f1452"
+    },
+    {
+      "path": "content/articles/borrowing.json",
+      "sha": "c82b90696a40b9f1605682cf847f131fa23fc8f8"
+    },
+    {
+      "path": "content/articles/case-and-role.json",
+      "sha": "4db85f46191c681978097eb54b300f7a2dd79796"
+    },
+    {
+      "path": "content/articles/color-vocabulary.json",
+      "sha": "d4af1d4b8b7df04e6d5a97e41e1e3e672eba6aa8"
+    },
+    {
+      "path": "content/articles/community-review.json",
+      "sha": "3fb70a940e7556c08822146cdfbfab0d4c46f169"
+    },
+    {
+      "path": "content/articles/compounds.json",
+      "sha": "fafd7de9d406f8e5117cffbbf07a8be67e330e7d"
+    },
+    {
+      "path": "content/articles/consonants.json",
+      "sha": "ca6e396c6d933c659aad8523df79002eddf84fc7"
+    },
+    {
+      "path": "content/articles/coordination.json",
+      "sha": "80d408e8f9b0695a9f061e1146e549f6b19cb7fd"
+    },
+    {
+      "path": "content/articles/design-metrics.json",
+      "sha": "9ba1c21ad12f02b84f179edbc977c9d9d63e94f3"
+    },
+    {
+      "path": "content/articles/dialogue.json",
+      "sha": "008cd9c8ac5e732906479e6f926c629ed7c3fb9f"
+    },
+    {
+      "path": "content/articles/dictionary-help.json",
+      "sha": "f6708a107599dca65128e15b08515c84552a6727"
+    },
+    {
+      "path": "content/articles/ethics.json",
+      "sha": "733deb58b2a96b50fb47e52d9e468c64bf61b432"
+    },
+    {
+      "path": "content/articles/family.json",
+      "sha": "c12d604ac9eec9b406ec751a44f4da992891b529"
+    },
+    {
+      "path": "content/articles/food-vocabulary.json",
+      "sha": "fd5d398f329aeb2f49e6c757f4554ca108105028"
+    },
+    {
+      "path": "content/articles/future.json",
+      "sha": "5c2f0f40301639307b27d361521a3ef2eec1712d"
+    },
+    {
+      "path": "content/articles/governance.json",
+      "sha": "5246e837d1bf5e1a5af2438dff51870ad4d884a1"
+    },
+    {
+      "path": "content/articles/introductions.json",
+      "sha": "92b9b9162839b3ab9fb7fa11091d2fc308ef0ea3"
+    },
+    {
+      "path": "content/articles/language-families.json",
+      "sha": "a8833b7555af67f8732e25bd68f93d45a640069f"
+    },
+    {
+      "path": "content/articles/learning-strategy.json",
+      "sha": "408685503c3c26bdace28de65d9799ed57bddb98"
+    },
+    {
+      "path": "content/articles/lexical-quality.json",
+      "sha": "adb4ad13bb0853ff1e41d4d343dcf989ac217636"
+    },
+    {
+      "path": "content/articles/license.json",
+      "sha": "6b51a31ce542d92ed7d93d9040556fcd37cd45fc"
+    },
+    {
+      "path": "content/articles/minimal-pairs.json",
+      "sha": "097ec983113f6b8344750e44dc12b6c288cb1457"
+    },
+    {
+      "path": "content/articles/mission.json",
+      "sha": "43af9bee934e416c38e04e7a13e4485809bac07c"
+    },
+    {
+      "path": "content/articles/modality.json",
+      "sha": "17b5fd7660d4af1199fa144c8cee1fd76bf4c458"
+    },
+    {
+      "path": "content/articles/names.json",
+      "sha": "0dc11a684df2d4ae3188460adcb0707708b99b6e"
+    },
+    {
+      "path": "content/articles/negation.json",
+      "sha": "5ea8bb5b54e6ebf28190641b9246826d44f7a270"
+    },
+    {
+      "path": "content/articles/number-formation.json",
+      "sha": "c54331f20dccc51b8437e0320e2f2a9936f88129"
+    },
+    {
+      "path": "content/articles/numbers-syntax.json",
+      "sha": "5c7491b0a8f0527798e7ba9e2fb6a230a147153b"
+    },
+    {
+      "path": "content/articles/online-messages.json",
+      "sha": "0ca5c1368f16a07b32be076070d0f6e1b8375edb"
+    },
+    {
+      "path": "content/articles/past.json",
+      "sha": "dfe1be5a81ecbfe185163962b1e2f238188c088f"
+    },
+    {
+      "path": "content/articles/phonetic-audio.json",
+      "sha": "84d49b0a0eaf055fb5eeb33b2b57850e1bcd3da8"
+    },
+    {
+      "path": "content/articles/plural.json",
+      "sha": "71017e48f1787cb385337b271af99e45838a40b5"
+    },
+    {
+      "path": "content/articles/politeness.json",
+      "sha": "35b3aeb4abd3db10191e22c177c3eb507eaaf30d"
+    },
+    {
+      "path": "content/articles/possession.json",
+      "sha": "5ca59072aa8fbede8141ea075066c2eb2001b5cd"
+    },
+    {
+      "path": "content/articles/prepositions.json",
+      "sha": "c83dcbb1951bcab6cff37425e0e9940aefdc8e07"
+    },
+    {
+      "path": "content/articles/pronouns.json",
+      "sha": "fd090c9beec765bc04dbdc533f7c0cc2b6d46566"
+    },
+    {
+      "path": "content/articles/pronunciation-variants.json",
+      "sha": "2a53abafc4ac8054a8550e7f86b0181b0dac2233"
+    },
+    {
+      "path": "content/articles/question-words.json",
+      "sha": "59fb933c9d23ec8a24d2b1d4e7099ff8f663f80c"
+    },
+    {
+      "path": "content/articles/questions.json",
+      "sha": "19bdf187e131be0457f4edef9d0ddb4acf1945eb"
+    },
+    {
+      "path": "content/articles/spelling.json",
+      "sha": "0c69ee2a511cf20e24d1fab44448cebe335deb98"
+    },
+    {
+      "path": "content/articles/standard-adjectives-core.json",
+      "sha": "5f751e44c7dda1578f12234ecdeb3dcb840d5644"
+    },
+    {
+      "path": "content/articles/standard-alphabet-core.json",
+      "sha": "3a386bba7833b5db24d2f96d2e8d4b772c4a3044"
+    },
+    {
+      "path": "content/articles/standard-compounding-core.json",
+      "sha": "1504df0bb7af8846051873a8c559713a22cad16c"
+    },
+    {
+      "path": "content/articles/standard-conditional-core.json",
+      "sha": "5d5a92e2e886406816a144d3288c3180c50e9911"
+    },
+    {
+      "path": "content/articles/standard-content-clause.json",
+      "sha": "24a6334ab0605fca952a69d0854391387ebdd646"
+    },
+    {
+      "path": "content/articles/standard-coord-core.json",
+      "sha": "96659f9abf62e4afb6fcbe4883e8329b5646c86c"
+    },
+    {
+      "path": "content/articles/standard-copula-core.json",
+      "sha": "5bd97ec53a5722259d1a2a0474f449d6a4d11759"
+    },
+    {
+      "path": "content/articles/standard-lexicon-core.json",
+      "sha": "f577a68404d528bf3645e52c1fb05dff79d78c0c"
+    },
+    {
+      "path": "content/articles/standard-limitations-core.json",
+      "sha": "95e78518aa55ddf4f6f95c55c2e0ec0f96c2759e"
+    },
+    {
+      "path": "content/articles/standard-modals-core.json",
+      "sha": "f78a1c51e17bc227417a9d70de508eeb9fe50c1b"
+    },
+    {
+      "path": "content/articles/standard-negation-core.json",
+      "sha": "e39838367f40df0e56b78622fd8e115b0cf11c37"
+    },
+    {
+      "path": "content/articles/standard-numbers-core.json",
+      "sha": "174e0f6aa7d973dbe052c92229b5b7be8786421a"
+    },
+    {
+      "path": "content/articles/standard-plural-core.json",
+      "sha": "9c6bf94774f78ae5338b9b5fd4544adbe5ae1f2e"
+    },
+    {
+      "path": "content/articles/standard-possession-core.json",
+      "sha": "9bada186aa926cab4d026662972e86a1a64d18be"
+    },
+    {
+      "path": "content/articles/standard-pronouns-core.json",
+      "sha": "898a0a78c0c4bcdbeeb6ca50d56f19f13b4363b2"
+    },
+    {
+      "path": "content/articles/standard-questions-core.json",
+      "sha": "1834109deeda7ee2514e60c4d5f4e299173fb8c2"
+    },
+    {
+      "path": "content/articles/standard-relative-core.json",
+      "sha": "c8ee9a13ca39ee43ddc5f453ff741ebb3f7978d1"
+    },
+    {
+      "path": "content/articles/standard-release-policy.json",
+      "sha": "39356d775ea48f0c1083a3f2c0e145a708ee0186"
+    },
+    {
+      "path": "content/articles/standard-sentence-core.json",
+      "sha": "07c875f8226396f3a9241e811043fb1f58963bb7"
+    },
+    {
+      "path": "content/articles/standard-spatial-core.json",
+      "sha": "65e5a7fd3879a9285d9b1497fd5004ac849f516a"
+    },
+    {
+      "path": "content/articles/standard-status.json",
+      "sha": "36dfbf4eff6f8e75751a478a5a45a51295f950cb"
+    },
+    {
+      "path": "content/articles/standard-syllables-core.json",
+      "sha": "29bbf55c49a401cca15c3de5d4e1806cf56c955d"
+    },
+    {
+      "path": "content/articles/standard-tense-core.json",
+      "sha": "c6c412a14ffdeb7db4bf3df00b86267697e3fc1e"
+    },
+    {
+      "path": "content/articles/standard-test-design.json",
+      "sha": "2d79fc6377d5b5608efb7164e53e8764a1a96840"
+    },
+    {
+      "path": "content/articles/stress.json",
+      "sha": "357250244cf8eeaa548419362b9872eb559fcfb9"
+    },
+    {
+      "path": "content/articles/study-plan.json",
+      "sha": "a6a72bb78ae9ac1b78cd05485ac80db85e00bb61"
+    },
+    {
+      "path": "content/articles/svo.json",
+      "sha": "5a3c0fed4386d74e78ad71a6ef6fa42f55c2df44"
+    },
+    {
+      "path": "content/articles/syllable-drills.json",
+      "sha": "45dba21d911836b8821c2d48517c24b01c860d35"
+    },
+    {
+      "path": "content/articles/syllables.json",
+      "sha": "d29bd21b2bfca390801141c56a944ac8a9bd7ef9"
+    },
+    {
+      "path": "content/articles/technology.json",
+      "sha": "51ff70510915849320185bef38489233d8c1aed4"
+    },
+    {
+      "path": "content/articles/testing.json",
+      "sha": "6e0d46f1cb1ada6e72b00e4dce2feff83e614cef"
+    },
+    {
+      "path": "content/articles/time-and-context.json",
+      "sha": "9d6b858a97315fbeb05faf8080bcde5f4cd6cca4"
+    },
+    {
+      "path": "content/articles/time-vocabulary.json",
+      "sha": "ee7dd68a70e7b961191884563b3476c2f8f48b51"
+    },
+    {
+      "path": "content/articles/translation-limits.json",
+      "sha": "35d34b75408b56791fcffe856e6881922e51cfff"
+    },
+    {
+      "path": "content/articles/transliteration.json",
+      "sha": "79495ac094f7f33b7b56b504de4c6600f13debba"
+    },
+    {
+      "path": "content/articles/travel.json",
+      "sha": "4e4d5abe3f40dcdeb73023f6b1f9b331a6d8b587"
+    },
+    {
+      "path": "content/articles/universality-limits.json",
+      "sha": "57d24f8a5b7c8fb38a8d6585a43bf47e25f87c80"
+    },
+    {
+      "path": "content/articles/verbs.json",
+      "sha": "f179bb770b7b31212a08eb81f991653bdc402c8a"
+    },
+    {
+      "path": "content/articles/vowels.json",
+      "sha": "29ea5bee28a07ef18e8af877c780755f8d98a1bb"
+    },
+    {
+      "path": "content/articles/word-classes.json",
+      "sha": "6dcd2d2c9232eac7be132b19cfafe1091cedbda2"
+    }
+  ],
+  "policy": "0.9 historical baseline is immutable. If a subsequent release changes source data, register its drift in a new manifest; do not rewrite this historical baseline."
+}
