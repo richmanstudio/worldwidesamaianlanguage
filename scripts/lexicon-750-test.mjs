@@ -5,8 +5,8 @@ import vm from 'node:vm';
 import ts from 'typescript';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const lex=read('content/lexicon-v1.json'),release=read('content/standard-release.json');
-assert.equal(lex.version,'0.14.0');assert.equal(release.accepted_lexemes,750);
-assert.equal(lex.entries.length,750);
+assert.equal(lex.version,'0.15.0');assert.equal(release.accepted_lexemes,1000);
+assert.equal(lex.entries.length,1000);
 const ctx=vm.createContext({});
 for(const path of ['src/linguistics/phonology.ts','src/linguistics/parser.ts'])
  vm.runInContext(ts.transpileModule(readFileSync(path,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2020}}).outputText,ctx);
@@ -21,7 +21,7 @@ for(let i=1;i<=10;i++){
 assert.equal(source.length,400);
 let verbs=0,adjectives=0,examples=0;
 const forms=new Set(lex.entries.map(x=>x.form));
-assert.equal(forms.size,750);
+assert.equal(forms.size,1000);
 for(const {part,row} of source){
  assert.equal(row.length,part===10?9:7);
  const [form,pos,ru,en,dru,den,frame,ex1,ex2]=part===10?row:[row[0],'noun',row[1],row[2],row[3],row[4],'',row[5],row[6]];
@@ -38,7 +38,7 @@ for(const {part,row} of source){
 }
 assert.equal(verbs,25);assert.equal(adjectives,15);assert.equal(examples,800);
 assert.equal(lex.entries.filter(x=>x.accepted_in==='0.14.0').length,400);
-const frames=read('content/verb-frames.json');assert.equal(frames.verbs.length,62);
+const frames=read('content/verb-frames.json');assert.equal(frames.verbs.length,112);
 for(const form of source.filter(x=>x.row[1]==='verb').map(x=>x.row[0]))assert(frames.verbs.some(x=>x.form===form));
 for(const [text,code] of [
  ['Mi helisa yu.','UNEXPECTED_OBJECT'],
@@ -48,10 +48,10 @@ for(const [text,code] of [
  ['Mi si mulata soma.','MISSING_OBJECT']
 ]){const result=parse(text);assert(!result.ok,text);assert.equal(result.error.code,code,text);}
 for(const sentence of ['Mi hu helisa.','Mi te dawila soma.','Soma bi kamaliya.','Mi si soma mulata.'])assert(parse(sentence).ok,sentence);
-const examplesIndex=read('content/usage-examples.json');assert.equal(examplesIndex.version,'0.14.0');assert.equal(examplesIndex.examples.length,1500);
+const examplesIndex=read('content/usage-examples.json');assert.equal(examplesIndex.version,'0.15.0');assert.equal(examplesIndex.examples.length,2000);
 const prov=read('reports/lexicon-750-provenance.json');assert.equal(prov.review.length,400);assert(prov.review.every(x=>x.decision==='adopt'&&x.independent_review===false));
 console.log('✓ R07-10: 400 authored lexical decisions, 800 parsed example sentences, 25 new verb frames and 15 qualities');
-console.log('✓ R07-17/G7 partial: 750 adopted lexemes, 62 total verbs and 1500 indexed examples; no human-study claim');
+console.log('✓ R07-17/G7 partial: 1000 adopted lexemes, 112 total verbs and 2000 indexed examples; no human-study claim');
 
 const contrasts=[["halima","tano","холм / гора","Mi si halima.","Mi si tano.","Невысокая возвышенность не равна горе"],["kilima","wetala","климат / погода","Mi tami kilima.","Mi tami wetala.","Долгосрочный режим не равен состоянию атмосферы сейчас"],["semila","lamota","семя / корень","Mi si semila.","Mi si lamota.","Зародыш с запасом питания не равен вегетативному органу"],["labita","hokisa","кролик / лиса","Mi si labita.","Mi si hokisa.","Разные биологические животные"],["kesina","ewana","сыр / яйцо","Mi kula kesina.","Mi kula ewana.","Два самостоятельных вида пищи"],["paneka","paniya","кастрюля / сковорода","Mi si paneka.","Mi si paniya.","Глубокая варочная ёмкость не равна неглубокой жарочной"],["salona","kamena","гостиная / ванная","Mi bi na salona.","Mi bi na kamena.","Различные помещения по назначению"],["silita","tisaleta","рубашка / футболка","Mi si silita.","Mi si tisaleta.","Отличие формы и типа верхней одежды"],["libala","museo","библиотека / музей","Mi bi na libala.","Mi bi na museo.","Доступ к книжным фондам и экспонирование коллекций"],["busa","telena","автобус / поезд","Mi si busa.","Mi si telena.","Автодорожный и рельсовый транспорт"],["silabusa","timetala","план курса / расписание","Mi lita silabusa.","Mi lita timetala.","Содержание курса не является распределением занятий по времени"],["pasala","lepota","счёт / отчёт","Mi tami pasala.","Mi tami lepota.","Платёжное требование не равно описанию результатов"],["imeila","letela","электронное / бумажное письмо","Mi lita imeila.","Mi lita letela.","Канал доставки и форма сообщения"],["pinetela","hotona","картина / фотография","Mi si pinetela.","Mi si hotona.","Живописная техника и регистрация света"],["simota","diyano","симптом / диагноз","Meka tami simota.","Meka tami diyano.","Проявление болезни не тождественно заключению"],["senatena","apela","судебное решение / апелляция","Mi lita senatena.","Mi lita apela.","Акт разрешения дела не равен обращению на пересмотр"],["webasita","webapana","сайт / страница","Mi tami webasita.","Mi tami webapana.","Собрание страниц не равно одному документу"],["hipotesa","teyolia","гипотеза / теория","Mi tami hipotesa.","Mi tami teyolia.","Проверяемое предположение не равно развитой объяснительной системе"],["seliwa","kisena","обнимать / целовать","Mi seliwa yu.","Mi kisena yu.","Различные жесты внимания"],["ponila","tihena","доверять / бояться","Mi ponila yu.","Mi tihena yu.","Положительная оценка надёжности не равна страху"]];
 assert.equal(contrasts.length,20);

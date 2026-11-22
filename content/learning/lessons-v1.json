@@ -1,5 +1,5 @@
 {
-  "version": "0.14.0",
+  "version": "0.15.0",
   "lessons": [
     {
       "id": 1,
@@ -938,6 +938,276 @@
         "answer": "Mi hu helisa."
       },
       "contrast": "Mi hu helisa допустимо; Mi hu ponila yu неверно из-за несовместимости вида со статическим состоянием доверия."
+    },
+    {
+      "id": 36,
+      "version": "0.15.0",
+      "title": "Бытовые действия",
+      "goal": "Использовать переходные глаголы с необходимым объектом и временем.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/tense",
+        "SAMA-RULE/aspect"
+      ],
+      "explanation": "wemasa — мыть, duwina — ополаскивать, talana — разрезать, sulina — высушивать. Для завершённого действия te допустимо только по словарной рамке.",
+      "examples": [
+        {
+          "sama": "Mi wemasa pila.",
+          "ru": "Я мою тарелку."
+        },
+        {
+          "sama": "Mama te sulina silita.",
+          "ru": "Мама высушила рубашку."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я разрезаю хлеб».",
+        "answer": "Mi talana pana."
+      },
+      "contrast": "Сочетание Mi wemasa. без объекта не соответствует рамке. Mi te sulina tawela. допустимо."
+    },
+    {
+      "id": 37,
+      "version": "0.15.0",
+      "title": "Ремонт и инструменты",
+      "goal": "Называть инструменты и действия по уходу за вещами.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "lakema — чинить, sakawa — измерять, molena — перемещать; hamela — молоток, sidena — отвёртка, lisawina — линейка.",
+      "examples": [
+        {
+          "sama": "Ta te lakema bisikela.",
+          "ru": "Он починил велосипед."
+        },
+        {
+          "sama": "Mi sakawa disatana.",
+          "ru": "Я измеряю расстояние."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я беру молоток».",
+        "answer": "Mi tako hamela."
+      },
+      "contrast": "sidena вращает винты talipena, а hamela забивает гвозди pilasa."
+    },
+    {
+      "id": 38,
+      "version": "0.15.0",
+      "title": "Поездка от начала до конца",
+      "goal": "Различать отправление, поездку, посадку и прибытие.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/tense"
+      ],
+      "explanation": "depina — отправляться, pawasa — ехать пассажиром, bisena — садиться в транспорт, tosena — выходить из него, lotema — прибывать.",
+      "examples": [
+        {
+          "sama": "Mi pawasa na busa.",
+          "ru": "Я еду пассажиром в автобусе."
+        },
+        {
+          "sama": "Busa pa lotema na dasa.",
+          "ru": "Автобус прибыл на станцию."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я сажусь в автобус».",
+        "answer": "Mi bisena busa."
+      },
+      "contrast": "bisena требует транспорт как прямой объект, тогда как depina и lotema не принимают прямой объект."
+    },
+    {
+      "id": 39,
+      "version": "0.15.0",
+      "title": "Платежи, аренда и возврат",
+      "goal": "Использовать слова для разных типов сделок.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/tense",
+        "SAMA-RULE/possession"
+      ],
+      "explanation": "nakena — брать в аренду, wenina — брать взаймы, lewasa — давать взаймы, towina — возвращать, pasesa — оплачивать.",
+      "examples": [
+        {
+          "sama": "Mi nakena lata.",
+          "ru": "Я арендую автомобиль."
+        },
+        {
+          "sama": "Dani pa towina penala.",
+          "ru": "Ученик вернул ручку."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я оплачиваю билет».",
+        "answer": "Mi pasesa tiketa."
+      },
+      "contrast": "Аренда nakena обычно предполагает плату; wenina — временный заём вещи с возвратом."
+    },
+    {
+      "id": 40,
+      "version": "0.15.0",
+      "title": "Цифровые данные и доступ",
+      "goal": "Различать файл, резервную копию, доступ и публикацию.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "nayina — сохранить данные, satena — загрузить на сервер, atamena — вложение, bakupela — резервная копия, awatena — аутентификация, awatelina — авторизация.",
+      "examples": [
+        {
+          "sama": "Mi nayina datu.",
+          "ru": "Я сохраняю данные."
+        },
+        {
+          "sama": "Mi satena dibo.",
+          "ru": "Я загружаю файл на сервер."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я проверяю резервную копию».",
+        "answer": "Mi tami bakupela."
+      },
+      "contrast": "awatena проверяет личность, awatelina определяет разрешённые действия; это разные процедуры."
+    },
+    {
+      "id": 41,
+      "version": "0.15.0",
+      "title": "Материалы и физические свойства",
+      "goal": "Правильно различать температуру, массу и текстуру.",
+      "rules": [
+        "SAMA-RULE/copula",
+        "SAMA-RULE/quality",
+        "SAMA-RULE/nounphrase"
+      ],
+      "explanation": "helewa — горячий, suwana — сухой, huwisa — влажный, kawela — тяжёлый, sulena — гладкий, kasala — шероховатый.",
+      "examples": [
+        {
+          "sama": "Su bi helewa.",
+          "ru": "Вода горячая."
+        },
+        {
+          "sama": "Balo bi kawela.",
+          "ru": "Сумка тяжёлая."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Чашка пустая».",
+        "answer": "Kopa bi pohela."
+      },
+      "contrast": "kawela означает тяжёлый по массе, а tadi — трудный в выполнении."
+    },
+    {
+      "id": 42,
+      "version": "0.15.0",
+      "title": "Точность и характер",
+      "goal": "Использовать качества для оценки работы и поведения.",
+      "rules": [
+        "SAMA-RULE/copula",
+        "SAMA-RULE/quality",
+        "SAMA-RULE/wordclasses"
+      ],
+      "explanation": "wisila — мудрый, nanesa — внимательный, sapela — осторожный, polina — надёжный, temina — точный, telawa — приблизительный.",
+      "examples": [
+        {
+          "sama": "Dani bi nanesa.",
+          "ru": "Ученик внимателен."
+        },
+        {
+          "sama": "Doku bi kimala.",
+          "ru": "Документ официальный."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Метод полезный».",
+        "answer": "Metoda bi litina."
+      },
+      "contrast": "temina означает точность, honaseta — честность человека; эти понятия нельзя смешивать."
+    },
+    {
+      "id": 43,
+      "version": "0.15.0",
+      "title": "Анатомия и медицинская помощь",
+      "goal": "Описывать место раны, анализы и медицинское оборудование.",
+      "rules": [
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/wordclasses"
+      ],
+      "explanation": "somina — плечо, pamena — ладонь, nenewa — колено, tememeta — термометр, samipela — образец, tesawena — результат анализа.",
+      "examples": [
+        {
+          "sama": "Wuna bi na pamena.",
+          "ru": "Рана на ладони."
+        },
+        {
+          "sama": "Meka tami samipela.",
+          "ru": "Врач проверяет образец."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Врач берёт термометр».",
+        "answer": "Meka tako tememeta."
+      },
+      "contrast": "tesinata — диагностический анализ, tesawena — его результат, diyano — клинический диагноз."
+    },
+    {
+      "id": 44,
+      "version": "0.15.0",
+      "title": "Дом, сад и окружающая среда",
+      "goal": "Соединять лексику быта и природы в корректных предложениях.",
+      "rules": [
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/nounphrase"
+      ],
+      "explanation": "kawelina — губка, binela — мусорный контейнер, matela — кустарник, hanasela — сад, sunela — солнечная панель, walisata — ветрогенератор.",
+      "examples": [
+        {
+          "sama": "Kawelina bi na sitela.",
+          "ru": "Губка в мойке."
+        },
+        {
+          "sama": "Mi si walisata.",
+          "ru": "Я вижу ветрогенератор."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу кустарник».",
+        "answer": "Mi si matela."
+      },
+      "contrast": "Акела — фруктовый сад, hanasela — сад при доме; значения не полные синонимы."
+    },
+    {
+      "id": 45,
+      "version": "0.15.0",
+      "title": "Финансы и юридические документы",
+      "goal": "Читать базовые сообщения о деньгах и судопроизводстве.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/possession",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "inewasa — доход, epesena — расход, pohita — прибыль, lusina — убыток, dakisena — исковое заявление, palesata — доверенность.",
+      "examples": [
+        {
+          "sama": "Mi tami inewasa.",
+          "ru": "Я проверяю доход."
+        },
+        {
+          "sama": "Lawiya wima dakisena.",
+          "ru": "Юрист пишет иск."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я читаю квитанцию».",
+        "answer": "Mi lita tatela."
+      },
+      "contrast": "pasala — счёт к оплате, tatela — подтверждение оплаты, hilina — кассовый чек."
     }
   ]
 }
