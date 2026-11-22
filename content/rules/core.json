@@ -1,10 +1,10 @@
 {
   "schema": "sama-rules/v1",
-  "version": "0.12.0",
+  "version": "0.16.0",
   "rules": [
     {
       "id": "SAMA-RULE/alphabet",
-      "revision": "SAMA-RULE/alphabet@0.12.0",
+      "revision": "SAMA-RULE/alphabet@0.16.0",
       "status": "core",
       "title": "Азбука",
       "area": "Письмо",
@@ -24,7 +24,7 @@
     },
     {
       "id": "SAMA-RULE/syllables",
-      "revision": "SAMA-RULE/syllables@0.12.0",
+      "revision": "SAMA-RULE/syllables@0.16.0",
       "status": "core",
       "title": "Слог и чтение",
       "area": "Произношение",
@@ -44,7 +44,7 @@
     },
     {
       "id": "SAMA-RULE/orthography",
-      "revision": "SAMA-RULE/orthography@0.12.0",
+      "revision": "SAMA-RULE/orthography@0.16.0",
       "status": "core",
       "title": "Ударение и знаки",
       "area": "Письмо",
@@ -64,7 +64,7 @@
     },
     {
       "id": "SAMA-RULE/wordclasses",
-      "revision": "SAMA-RULE/wordclasses@0.12.0",
+      "revision": "SAMA-RULE/wordclasses@0.16.0",
       "status": "core",
       "title": "Категории слов",
       "area": "Основа",
@@ -84,7 +84,7 @@
     },
     {
       "id": "SAMA-RULE/svo",
-      "revision": "SAMA-RULE/svo@0.12.0",
+      "revision": "SAMA-RULE/svo@0.16.0",
       "status": "core",
       "title": "Порядок предложения",
       "area": "Основа",
@@ -104,7 +104,7 @@
     },
     {
       "id": "SAMA-RULE/pronouns",
-      "revision": "SAMA-RULE/pronouns@0.12.0",
+      "revision": "SAMA-RULE/pronouns@0.16.0",
       "status": "core",
       "title": "Личные местоимения",
       "area": "Именная группа",
@@ -124,27 +124,27 @@
     },
     {
       "id": "SAMA-RULE/nounphrase",
-      "revision": "SAMA-RULE/nounphrase@0.12.0",
+      "revision": "SAMA-RULE/nounphrase@0.16.0",
       "status": "core",
       "title": "Порядок именной группы",
       "area": "Именная группа",
-      "text": "Основной порядок: [ena/ona] [числительное] имя [li] [качества] [de обладатель]. Числительное и li одновременно не используются: dua ami, а не dua ami li. Местоимение допускает li, но не принимает определение качества. Последовательность нескольких качеств относится к одному имени слева.",
-      "summary_en": "Noun phrases have a fixed order; a numeral and li are not combined.",
+      "text": "Основной порядок без квантора: [ena/ona] [числительное] имя [li] [качества] [de обладатель]. Для универсального, экзистенциального или мажоритарного подлежащего: [no] [tawa/somi/mowa] имя li [качества] [de обладатель] [sule исключение только при положительном tawa]. Квантор исключает числительное и указатель на том же имени и не допускает координацию NP в редакции 0.16. Негруппированная цепочка de запрещена; квантор дополнения ещё не нормирован.",
+      "summary_en": "Plain NP order remains fixed; quantified subjects use optional higher-scope no, quantifier, plural noun, optional modifiers and universal exception.",
       "examples": [
         {
           "sama": "Ena dua kaso bona bi na mesa.",
           "ru": "Эти две хорошие книги на столе."
         },
         {
-          "sama": "Ami li de mi bi na doma.",
-          "ru": "Мои друзья дома."
+          "sama": "Tawa ami li bona wako.",
+          "ru": "Все хорошие друзья идут пешком."
         }
       ],
-      "decision": "ADR-0004"
+      "decision": "ADR-0009"
     },
     {
       "id": "SAMA-RULE/plural",
-      "revision": "SAMA-RULE/plural@0.12.0",
+      "revision": "SAMA-RULE/plural@0.16.0",
       "status": "core",
       "title": "Число",
       "area": "Именная группа",
@@ -164,7 +164,7 @@
     },
     {
       "id": "SAMA-RULE/quality",
-      "revision": "SAMA-RULE/quality@0.12.0",
+      "revision": "SAMA-RULE/quality@0.16.0",
       "status": "core",
       "title": "Качество и предикат",
       "area": "Именная группа",
@@ -184,7 +184,7 @@
     },
     {
       "id": "SAMA-RULE/copula",
-      "revision": "SAMA-RULE/copula@0.12.0",
+      "revision": "SAMA-RULE/copula@0.16.0",
       "status": "core",
       "title": "Связка bi",
       "area": "Предикат",
@@ -204,7 +204,7 @@
     },
     {
       "id": "SAMA-RULE/possession",
-      "revision": "SAMA-RULE/possession@0.12.0",
+      "revision": "SAMA-RULE/possession@0.16.0",
       "status": "core",
       "title": "Отношение de",
       "area": "Именная группа",
@@ -224,7 +224,7 @@
     },
     {
       "id": "SAMA-RULE/definiteness",
-      "revision": "SAMA-RULE/definiteness@0.12.0",
+      "revision": "SAMA-RULE/definiteness@0.16.0",
       "status": "core",
       "title": "Указание и определённость",
       "area": "Именная группа",
@@ -244,7 +244,7 @@
     },
     {
       "id": "SAMA-RULE/spatial",
-      "revision": "SAMA-RULE/spatial@0.12.0",
+      "revision": "SAMA-RULE/spatial@0.16.0",
       "status": "core",
       "title": "Место, направление и совместность",
       "area": "Предикат",
@@ -264,7 +264,7 @@
     },
     {
       "id": "SAMA-RULE/valency",
-      "revision": "SAMA-RULE/valency@0.12.0",
+      "revision": "SAMA-RULE/valency@0.16.0",
       "status": "core",
       "title": "Глагольные рамки",
       "area": "Предикат",
@@ -284,7 +284,7 @@
     },
     {
       "id": "SAMA-RULE/tense",
-      "revision": "SAMA-RULE/tense@0.12.0",
+      "revision": "SAMA-RULE/tense@0.16.0",
       "status": "core",
       "title": "Время",
       "area": "Предикат",
@@ -304,27 +304,27 @@
     },
     {
       "id": "SAMA-RULE/negation",
-      "revision": "SAMA-RULE/negation@0.12.0",
+      "revision": "SAMA-RULE/negation@0.16.0",
       "status": "core",
       "title": "Отрицание и область действия",
       "area": "Предикат",
-      "text": "no перед предикатом отрицает его. no перед модальным словом относится к модальности; no после модального слова относится к действию. no musa — нет обязанности, musa no — обязанность не действовать. Две частицы no в одной группе в этой редакции исключены; сложное отрицание выражается несколькими полными предложениями.",
-      "summary_en": "Negation before and after a modal has distinct scope; double no is excluded here.",
+      "text": "no непосредственно перед предикатом отрицает VP у каждого названного участника; no перед модальным оператором отрицает модальность, no после него — действие. Новое no перед квантором подлежащего [tawa/somi/mowa] отрицает квантифицированное высказывание в целом и не равно отрицанию внутри VP. No tawa ami li wako = не все друзья идут, Tawa ami li no wako = все друзья не идут. No somi ami li wako = ни один друг не идёт, Somi ami li no wako = некоторые друзья не идут. Двойное отрицание VP и квантора в этой начальной редакции не допускается.",
+      "summary_en": "Scope of no is positional: before a quantified subject negates the quantifier; before the predicate negates each predication; modal negation remains unchanged.",
       "examples": [
         {
-          "sama": "Mi no musa wako.",
-          "ru": "Я не обязан идти."
+          "sama": "No tawa ami li wako.",
+          "ru": "Не все друзья идут пешком."
         },
         {
-          "sama": "Mi musa no wako.",
-          "ru": "Я обязан не идти."
+          "sama": "Tawa ami li no wako.",
+          "ru": "Каждый друг не идёт пешком."
         }
       ],
-      "decision": "ADR-0004"
+      "decision": "ADR-0009"
     },
     {
       "id": "SAMA-RULE/modality",
-      "revision": "SAMA-RULE/modality@0.12.0",
+      "revision": "SAMA-RULE/modality@0.16.0",
       "status": "core",
       "title": "Желание, способность, обязанность",
       "area": "Предикат",
@@ -344,7 +344,7 @@
     },
     {
       "id": "SAMA-RULE/aspect",
-      "revision": "SAMA-RULE/aspect@0.12.0",
+      "revision": "SAMA-RULE/aspect@0.16.0",
       "status": "core",
       "title": "Процесс и завершение",
       "area": "Предикат",
@@ -364,7 +364,7 @@
     },
     {
       "id": "SAMA-RULE/questions",
-      "revision": "SAMA-RULE/questions@0.12.0",
+      "revision": "SAMA-RULE/questions@0.16.0",
       "status": "core",
       "title": "Вопросы",
       "area": "Предложение",
@@ -384,7 +384,7 @@
     },
     {
       "id": "SAMA-RULE/coordination",
-      "revision": "SAMA-RULE/coordination@0.12.0",
+      "revision": "SAMA-RULE/coordination@0.16.0",
       "status": "core",
       "title": "Соединение и альтернатива",
       "area": "Сложная речь",
@@ -404,7 +404,7 @@
     },
     {
       "id": "SAMA-RULE/conditionals",
-      "revision": "SAMA-RULE/conditionals@0.12.0",
+      "revision": "SAMA-RULE/conditionals@0.16.0",
       "status": "core",
       "title": "Открытое условие",
       "area": "Сложная речь",
@@ -424,7 +424,7 @@
     },
     {
       "id": "SAMA-RULE/relatives",
-      "revision": "SAMA-RULE/relatives@0.12.0",
+      "revision": "SAMA-RULE/relatives@0.16.0",
       "status": "core",
       "title": "Относительное определение",
       "area": "Сложная речь",
@@ -444,7 +444,7 @@
     },
     {
       "id": "SAMA-RULE/numbers",
-      "revision": "SAMA-RULE/numbers@0.12.0",
+      "revision": "SAMA-RULE/numbers@0.16.0",
       "status": "core",
       "title": "Целые числа",
       "area": "Число и количество",
@@ -464,7 +464,7 @@
     },
     {
       "id": "SAMA-RULE/politeness",
-      "revision": "SAMA-RULE/politeness@0.12.0",
+      "revision": "SAMA-RULE/politeness@0.16.0",
       "status": "core",
       "title": "Ответы и вежливость",
       "area": "Общение",
@@ -481,6 +481,26 @@
         }
       ],
       "decision": "ADR-0004"
+    },
+    {
+      "id": "SAMA-RULE/quantifiers",
+      "revision": "SAMA-RULE/quantifiers@0.16.0",
+      "status": "core",
+      "title": "Все, некоторые, большинство и исключения",
+      "area": "Количество и логическая область действия",
+      "text": "На подлежащем используются кванторы tawa (каждый в непустом множестве), somi (существует хотя бы один) и mowa (строго больше половины непустого множества). Схема: [no] Q существительное li [качества] [de обладатель] [sule один участник только после положительного tawa] VP. Множество определяется контекстом; числительное/указатель перед именем с квантором недопустимы, как и квантор у прямого объекта. No Q отрицает весь объём Q; Q ... no VP отрицает предикат внутри множества. Sule ta и sule ena ami исключают одного установленного члена множества; исключённый участник не обязан иметь признак предиката. Для tawa/mowa требуется хотя бы один элемент после исключения, для somi допускается пустой домен. Объектные кванторы, кванторы во вложенных клаузах и повторные исключения требуют отдельного решения.",
+      "summary_en": "Quantified plural subjects support all, existential some, strict majority, higher-scope negation, predicate negation, and one universal exception; object quantification is deferred.",
+      "examples": [
+        {
+          "sama": "Somi ami li wako.",
+          "ru": "Некоторые друзья идут пешком."
+        },
+        {
+          "sama": "Tawa ami li sule ta wako.",
+          "ru": "Все друзья, кроме него или неё, идут пешком."
+        }
+      ],
+      "decision": "ADR-0009"
     }
   ]
 }

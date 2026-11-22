@@ -15,7 +15,7 @@
     "topics": 46,
     "registered_conflicts": 12,
     "open_conflicts": 8,
-    "active_rules": 24
+    "active_rules": 25
   },
   "topics": [
     {
@@ -28,8 +28,8 @@
         "atlas05:ipa"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/alphabet@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/alphabet@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/alphabet@0.11.0",
@@ -42,10 +42,18 @@
         {
           "id": "SAMA-RULE/alphabet@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/alphabet",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/alphabet@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/alphabet",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -67,8 +75,8 @@
       "conflicts": [
         "CF-007"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/aspect@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/aspect@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/aspect@0.11.0",
@@ -81,10 +89,18 @@
         {
           "id": "SAMA-RULE/aspect@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/aspect",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/aspect@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/aspect",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -157,8 +173,8 @@
         "lab08:08-09"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/conditionals@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/conditionals@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/conditionals@0.11.0",
@@ -171,10 +187,18 @@
         {
           "id": "SAMA-RULE/conditionals@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/conditionals",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/conditionals@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/conditionals",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -211,8 +235,8 @@
         "CF-003",
         "CF-006"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/coordination@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/coordination@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/coordination@0.11.0",
@@ -225,10 +249,18 @@
         {
           "id": "SAMA-RULE/coordination@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/coordination",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/coordination@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/coordination",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -244,8 +276,8 @@
         "lab08:08-03"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/copula@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/copula@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/copula@0.11.0",
@@ -258,10 +290,18 @@
         {
           "id": "SAMA-RULE/copula@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/copula",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/copula@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/copula",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -274,8 +314,8 @@
         "atlas05:article"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/definiteness@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/definiteness@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/definiteness@0.11.0",
@@ -288,10 +328,18 @@
         {
           "id": "SAMA-RULE/definiteness@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/definiteness",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/definiteness@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/definiteness",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -438,8 +486,8 @@
         "CF-012",
         "CF-007"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/modality@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/modality@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/modality@0.11.0",
@@ -452,10 +500,18 @@
         {
           "id": "SAMA-RULE/modality@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/modality",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/modality@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/modality",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -476,8 +532,8 @@
         "lab09:09-17"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/negation@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/negation@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/negation@0.11.0",
@@ -490,10 +546,18 @@
         {
           "id": "SAMA-RULE/negation@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/negation",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/negation@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/negation",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -508,8 +572,8 @@
       "conflicts": [
         "CF-005"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/nounphrase@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/nounphrase@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/nounphrase@0.11.0",
@@ -522,10 +586,18 @@
         {
           "id": "SAMA-RULE/nounphrase@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/nounphrase",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/nounphrase@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/nounphrase",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -541,8 +613,8 @@
       "conflicts": [
         "CF-004"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/numbers@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/numbers@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/numbers@0.11.0",
@@ -555,10 +627,18 @@
         {
           "id": "SAMA-RULE/numbers@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/numbers",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/numbers@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/numbers",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -572,8 +652,8 @@
         "lab08:08-24"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/orthography@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/orthography@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/orthography@0.11.0",
@@ -586,10 +666,18 @@
         {
           "id": "SAMA-RULE/orthography@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/orthography",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/orthography@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/orthography",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -618,8 +706,8 @@
         "lab08:08-04"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/plural@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/plural@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/plural@0.11.0",
@@ -632,10 +720,18 @@
         {
           "id": "SAMA-RULE/plural@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/plural",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/plural@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/plural",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -648,8 +744,8 @@
         "atlas05:politeness"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/politeness@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/politeness@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/politeness@0.11.0",
@@ -662,10 +758,18 @@
         {
           "id": "SAMA-RULE/politeness@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/politeness",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/politeness@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/politeness",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -682,8 +786,8 @@
       "conflicts": [
         "CF-008"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/possession@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/possession@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/possession@0.11.0",
@@ -696,10 +800,18 @@
         {
           "id": "SAMA-RULE/possession@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/possession",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/possession@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/possession",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -716,8 +828,8 @@
         "lab08:08-06"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/pronouns@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/pronouns@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/pronouns@0.11.0",
@@ -730,10 +842,18 @@
         {
           "id": "SAMA-RULE/pronouns@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/pronouns",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/pronouns@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/pronouns",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -750,8 +870,8 @@
       "conflicts": [
         "CF-005"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/quality@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/quality@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/quality@0.11.0",
@@ -764,10 +884,18 @@
         {
           "id": "SAMA-RULE/quality@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/quality",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/quality@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/quality",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -775,7 +903,7 @@
       "id": "SAMA-RULE/quantifiers",
       "topic": "quantifiers",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:quantifiers",
         "lab08:08-21"
@@ -783,9 +911,18 @@
       "conflicts": [
         "CF-004"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0009: quantified subjects only; historical CF-004 on fractions and units remains open.",
+      "active_revision": "SAMA-RULE/quantifiers@0.16.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/quantifiers@0.16.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/quantifiers",
+          "decision": "docs/decisions/0009-quantified-subjects.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/questions",
@@ -801,8 +938,8 @@
         "lab08:08-18"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/questions@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/questions@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/questions@0.11.0",
@@ -815,10 +952,18 @@
         {
           "id": "SAMA-RULE/questions@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/questions",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/questions@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/questions",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -851,8 +996,8 @@
       "conflicts": [
         "CF-001"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/relatives@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/relatives@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/relatives@0.10-pilot.1",
@@ -872,10 +1017,18 @@
         {
           "id": "SAMA-RULE/relatives@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/relatives",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/relatives@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/relatives",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -921,8 +1074,8 @@
       "conflicts": [
         "CF-010"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/spatial@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/spatial@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/spatial@0.11.0",
@@ -935,10 +1088,18 @@
         {
           "id": "SAMA-RULE/spatial@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/spatial",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/spatial@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/spatial",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -954,8 +1115,8 @@
         "lab08:08-01"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/svo@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/svo@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/svo@0.11.0",
@@ -968,10 +1129,18 @@
         {
           "id": "SAMA-RULE/svo@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/svo",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/svo@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/svo",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -986,8 +1155,8 @@
         "lab07:07-15"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/syllables@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/syllables@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/syllables@0.11.0",
@@ -1000,10 +1169,18 @@
         {
           "id": "SAMA-RULE/syllables@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/syllables",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/syllables@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/syllables",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -1018,8 +1195,8 @@
         "lab07:07-03"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/tense@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/tense@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/tense@0.11.0",
@@ -1032,10 +1209,18 @@
         {
           "id": "SAMA-RULE/tense@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/tense",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/tense@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/tense",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -1095,8 +1280,8 @@
       "conflicts": [
         "CF-011"
       ],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/valency@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/valency@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/valency@0.11.0",
@@ -1109,10 +1294,18 @@
         {
           "id": "SAMA-RULE/valency@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/valency",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/valency@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/valency",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     },
@@ -1125,8 +1318,8 @@
         "atlas05:wordclasses"
       ],
       "conflicts": [],
-      "decision": "ADR-0005: current 0.12.0 edition; prior 0.11.0 text archived with stable revision IDs.",
-      "active_revision": "SAMA-RULE/wordclasses@0.12.0",
+      "decision": "ADR-0009: current normative edition 0.16.0 (new quantifier logic; unchanged rules reissued without semantic amendment).",
+      "active_revision": "SAMA-RULE/wordclasses@0.16.0",
       "revisions": [
         {
           "id": "SAMA-RULE/wordclasses@0.11.0",
@@ -1139,10 +1332,18 @@
         {
           "id": "SAMA-RULE/wordclasses@0.12.0",
           "status": "core",
+          "active": false,
+          "path": "content/standards/0.12.0/core.json",
+          "selector": "SAMA-RULE/wordclasses",
+          "decision": "docs/decisions/0005-lexicon-300.md"
+        },
+        {
+          "id": "SAMA-RULE/wordclasses@0.16.0",
+          "status": "core",
           "active": true,
           "path": "content/rules/core.json",
           "selector": "SAMA-RULE/wordclasses",
-          "decision": "docs/decisions/0005-lexicon-300.md"
+          "decision": "docs/decisions/0009-quantified-subjects.md"
         }
       ]
     }

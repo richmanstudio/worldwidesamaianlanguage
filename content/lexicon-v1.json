@@ -1,7 +1,7 @@
 {
   "schema": "sama-lexicon/v1",
-  "version": "0.15.0",
-  "authority": "ADR-0003 / ADR-0004 / ADR-0005 / ADR-0006 / ADR-0007 / ADR-0008",
+  "version": "0.16.0",
+  "authority": "ADR-0003 / ADR-0004 / ADR-0005 / ADR-0006 / ADR-0007 / ADR-0008 / ADR-0009",
   "entries": [
     {
       "id": "SAMA-LEX/mi",
@@ -33440,6 +33440,134 @@
             {
               "sama": "Pasawina bi na baneka.",
               "ru": "Банковский перевод проводится банком."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/tawa",
+      "form": "tawa",
+      "ipa": "/ˈta.wa/",
+      "status": "core",
+      "accepted_in": "0.16.0",
+      "decision": "ADR-0009",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/tawa/1",
+          "part_of_speech": "quantifier",
+          "gloss": {
+            "ru": "все; каждый (квантор)",
+            "en": "all; every (quantifier)"
+          },
+          "definition": {
+            "ru": "Универсальный квантор непустого множества существительных во множественном числе: предикат относится к каждому элементу множества.",
+            "en": "A universal quantifier over a nonempty plural noun domain: the predicate holds of every member of the domain."
+          },
+          "examples": [
+            {
+              "sama": "Tawa ami li wako.",
+              "ru": "Все друзья идут пешком."
+            },
+            {
+              "sama": "Tawa ami li no wako.",
+              "ru": "Каждый друг не идёт пешком."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/somi",
+      "form": "somi",
+      "ipa": "/ˈso.mi/",
+      "status": "core",
+      "accepted_in": "0.16.0",
+      "decision": "ADR-0009",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/somi/1",
+          "part_of_speech": "quantifier",
+          "gloss": {
+            "ru": "некоторые; хотя бы один (квантор)",
+            "en": "some; at least one (quantifier)"
+          },
+          "definition": {
+            "ru": "Экзистенциальный квантор: хотя бы один элемент множества отвечает утверждаемому признаку; отрицание перед ним даёт ноль таких элементов.",
+            "en": "An existential quantifier: at least one member of the domain satisfies the predicate; prefix negation asserts that no member does."
+          },
+          "examples": [
+            {
+              "sama": "Somi ami li wako.",
+              "ru": "Некоторые друзья идут пешком."
+            },
+            {
+              "sama": "No somi ami li wako.",
+              "ru": "Ни один друг не идёт пешком."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/mowa",
+      "form": "mowa",
+      "ipa": "/ˈmo.wa/",
+      "status": "core",
+      "accepted_in": "0.16.0",
+      "decision": "ADR-0009",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/mowa/1",
+          "part_of_speech": "quantifier",
+          "gloss": {
+            "ru": "большинство (строго более половины)",
+            "en": "most; strictly more than half"
+          },
+          "definition": {
+            "ru": "Квантор большинства: предикат верен для строго более половины членов непустого определённого множества.",
+            "en": "A majority quantifier: the predicate holds for strictly more than half the members of a specified nonempty domain."
+          },
+          "examples": [
+            {
+              "sama": "Mowa ami li wako.",
+              "ru": "Большинство друзей идут пешком."
+            },
+            {
+              "sama": "Mowa ami li no wako.",
+              "ru": "Большинство друзей не идут пешком."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SAMA-LEX/sule",
+      "form": "sule",
+      "ipa": "/ˈsu.le/",
+      "status": "core",
+      "accepted_in": "0.16.0",
+      "decision": "ADR-0009",
+      "senses": [
+        {
+          "id": "SAMA-SENSE/sule/1",
+          "part_of_speech": "exclusion",
+          "gloss": {
+            "ru": "кроме; за исключением",
+            "en": "except; excluding"
+          },
+          "definition": {
+            "ru": "Частица исключения одного определённого участника из непустого множества при универсальном кванторе tawa.",
+            "en": "A particle excluding one identified member from a nonempty group quantified universally with tawa."
+          },
+          "examples": [
+            {
+              "sama": "Tawa ami li sule ta wako.",
+              "ru": "Все друзья, кроме него или неё, идут пешком."
+            },
+            {
+              "sama": "Tawa ami li sule ena ami wako.",
+              "ru": "Все друзья, кроме этого друга, идут пешком."
             }
           ]
         }
