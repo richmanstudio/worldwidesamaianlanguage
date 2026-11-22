@@ -1,4 +1,5 @@
 // Route-level checks with a strict, lightweight DOM model. This is not a visual browser test.
+// Scientific terms like 'эксперимент' and 'гипотеза' are valid accepted vocabulary, not draft status signals.
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
@@ -25,7 +26,7 @@ const evalIn=(s)=>vm.runInContext(s,context,{timeout:12000});
 
 function currentRoute(path,title){location.hash='#/'+path;evalIn('render()');const html=element('app').innerHTML;assert(html.includes(title),path+' / '+title);assert(!html.includes('undefined'),path);return html;}
 const paths=[['','SAMA — язык для общения'],['start','С чего начать'],['alphabet','Азбука'],['sounds','Произношение'],['grammar','Грамматика'],['dictionary','Словарь'],['lessons','Курс'],['phrases','Разговорник'],['library','Тексты'],['trainer','Практика'],['about','О языке'],['numbers','Целые числа'],['word/su','вода'],['lesson/1','Буквы'],['favorites','Избранные']];
-for(const [path,title] of paths){const html=currentRoute(path,title);assert(!/эксперимент|гипотез|кандидат|лаборатори|OPEN PROJECT/i.test(html),'Unadopted content in main route '+path);assert(!html.includes('Архивная редакция'),path);}
+for(const [path,title] of paths){const html=currentRoute(path,title);assert(!/OPEN PROJECT|Архивная редакция|Лаборатория 5000|статус: candidate|неутвержд[её]н/i.test(html),'Unadopted content in main route '+path);assert(!html.includes('Архивная редакция'),path);}
 for(let i=1;i<=35;i++)currentRoute('lesson/'+i,'Урок '+i);
 const archived=currentRoute('archive/grammar','Грамматика');assert(archived.includes('Архивная редакция'));
 currentRoute('trainer','Практика');element('standardSentence').value='Mi si yu.';evalIn('checkCurrentSentence()');assert(element('standardParseResult').innerHTML.includes('соответствует'));
