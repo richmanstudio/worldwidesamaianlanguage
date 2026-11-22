@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.14.0",
   "source": "content/lexicon-v1.json",
   "examples": [
     {
@@ -4901,6 +4901,5606 @@
       "sense_id": "SAMA-SENSE/kuwena/1",
       "sama": "Kuwena bi yoma.",
       "ru": "Правительство важно."
+    },
+    {
+      "id": "SAMA-SENSE/halima/1/example/1",
+      "lexeme_id": "SAMA-LEX/halima",
+      "sense_id": "SAMA-SENSE/halima/1",
+      "sama": "Mi si halima.",
+      "ru": "Я вижу холм."
+    },
+    {
+      "id": "SAMA-SENSE/halima/1/example/2",
+      "lexeme_id": "SAMA-LEX/halima",
+      "sense_id": "SAMA-SENSE/halima/1",
+      "sama": "Halima bi na duniya.",
+      "ru": "Холм находится на Земле."
+    },
+    {
+      "id": "SAMA-SENSE/walema/1/example/1",
+      "lexeme_id": "SAMA-LEX/walema",
+      "sense_id": "SAMA-SENSE/walema/1",
+      "sama": "Mi si walema.",
+      "ru": "Я вижу долину."
+    },
+    {
+      "id": "SAMA-SENSE/walema/1/example/2",
+      "lexeme_id": "SAMA-LEX/walema",
+      "sense_id": "SAMA-SENSE/walema/1",
+      "sama": "Wada bi na walema.",
+      "ru": "Река находится в долине."
+    },
+    {
+      "id": "SAMA-SENSE/isala/1/example/1",
+      "lexeme_id": "SAMA-LEX/isala",
+      "sense_id": "SAMA-SENSE/isala/1",
+      "sama": "Mi si isala.",
+      "ru": "Я вижу остров."
+    },
+    {
+      "id": "SAMA-SENSE/isala/1/example/2",
+      "lexeme_id": "SAMA-LEX/isala",
+      "sense_id": "SAMA-SENSE/isala/1",
+      "sama": "Isala bi na sela.",
+      "ru": "Остров находится в море."
+    },
+    {
+      "id": "SAMA-SENSE/desata/1/example/1",
+      "lexeme_id": "SAMA-LEX/desata",
+      "sense_id": "SAMA-SENSE/desata/1",
+      "sama": "Mi si desata.",
+      "ru": "Я вижу пустыню."
+    },
+    {
+      "id": "SAMA-SENSE/desata/1/example/2",
+      "lexeme_id": "SAMA-LEX/desata",
+      "sense_id": "SAMA-SENSE/desata/1",
+      "sama": "Desata bi na duniya.",
+      "ru": "Пустыня находится на Земле."
+    },
+    {
+      "id": "SAMA-SENSE/kosala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kosala",
+      "sense_id": "SAMA-SENSE/kosala/1",
+      "sama": "Mi si kosala.",
+      "ru": "Я вижу берег."
+    },
+    {
+      "id": "SAMA-SENSE/kosala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kosala",
+      "sense_id": "SAMA-SENSE/kosala/1",
+      "sama": "Kosala bi lali sela.",
+      "ru": "Берег рядом с морем."
+    },
+    {
+      "id": "SAMA-SENSE/pelina/1/example/1",
+      "lexeme_id": "SAMA-LEX/pelina",
+      "sense_id": "SAMA-SENSE/pelina/1",
+      "sama": "Mi si pelina.",
+      "ru": "Я вижу поле."
+    },
+    {
+      "id": "SAMA-SENSE/pelina/1/example/2",
+      "lexeme_id": "SAMA-LEX/pelina",
+      "sense_id": "SAMA-SENSE/pelina/1",
+      "sama": "Pelina bi daba.",
+      "ru": "Поле большое."
+    },
+    {
+      "id": "SAMA-SENSE/kawena/1/example/1",
+      "lexeme_id": "SAMA-LEX/kawena",
+      "sense_id": "SAMA-SENSE/kawena/1",
+      "sama": "Mi si kawena.",
+      "ru": "Я вижу пещеру."
+    },
+    {
+      "id": "SAMA-SENSE/kawena/1/example/2",
+      "lexeme_id": "SAMA-LEX/kawena",
+      "sense_id": "SAMA-SENSE/kawena/1",
+      "sama": "Kawena bi nana tano.",
+      "ru": "Пещера находится в горе."
+    },
+    {
+      "id": "SAMA-SENSE/patina/1/example/1",
+      "lexeme_id": "SAMA-LEX/patina",
+      "sense_id": "SAMA-SENSE/patina/1",
+      "sama": "Mi wako na patina.",
+      "ru": "Я иду по тропе."
+    },
+    {
+      "id": "SAMA-SENSE/patina/1/example/2",
+      "lexeme_id": "SAMA-LEX/patina",
+      "sense_id": "SAMA-SENSE/patina/1",
+      "sama": "Patina bi na lima.",
+      "ru": "Тропа находится в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/solima/1/example/1",
+      "lexeme_id": "SAMA-LEX/solima",
+      "sense_id": "SAMA-SENSE/solima/1",
+      "sama": "Mi tami solima.",
+      "ru": "Я проверяю почву."
+    },
+    {
+      "id": "SAMA-SENSE/solima/1/example/2",
+      "lexeme_id": "SAMA-LEX/solima",
+      "sense_id": "SAMA-SENSE/solima/1",
+      "sama": "Solima bi na pelina.",
+      "ru": "Почва находится в поле."
+    },
+    {
+      "id": "SAMA-SENSE/muda/1/example/1",
+      "lexeme_id": "SAMA-LEX/muda",
+      "sense_id": "SAMA-SENSE/muda/1",
+      "sama": "Mi si muda.",
+      "ru": "Я вижу мокрую грязь."
+    },
+    {
+      "id": "SAMA-SENSE/muda/1/example/2",
+      "lexeme_id": "SAMA-LEX/muda",
+      "sense_id": "SAMA-SENSE/muda/1",
+      "sama": "Muda bi na patina.",
+      "ru": "Грязь на тропе."
+    },
+    {
+      "id": "SAMA-SENSE/kalita/1/example/1",
+      "lexeme_id": "SAMA-LEX/kalita",
+      "sense_id": "SAMA-SENSE/kalita/1",
+      "sama": "Mi si kalita.",
+      "ru": "Я вижу утёс."
+    },
+    {
+      "id": "SAMA-SENSE/kalita/1/example/2",
+      "lexeme_id": "SAMA-LEX/kalita",
+      "sense_id": "SAMA-SENSE/kalita/1",
+      "sama": "Kalita bi noba sela.",
+      "ru": "Утёс над морем."
+    },
+    {
+      "id": "SAMA-SENSE/suwama/1/example/1",
+      "lexeme_id": "SAMA-LEX/suwama",
+      "sense_id": "SAMA-SENSE/suwama/1",
+      "sama": "Mi si suwama.",
+      "ru": "Я вижу болото."
+    },
+    {
+      "id": "SAMA-SENSE/suwama/1/example/2",
+      "lexeme_id": "SAMA-LEX/suwama",
+      "sense_id": "SAMA-SENSE/suwama/1",
+      "sama": "Suwama bi na lima.",
+      "ru": "Болото находится в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/wadala/1/example/1",
+      "lexeme_id": "SAMA-LEX/wadala",
+      "sense_id": "SAMA-SENSE/wadala/1",
+      "sama": "Mi si wadala.",
+      "ru": "Я вижу водопад."
+    },
+    {
+      "id": "SAMA-SENSE/wadala/1/example/2",
+      "lexeme_id": "SAMA-LEX/wadala",
+      "sense_id": "SAMA-SENSE/wadala/1",
+      "sama": "Wadala bi na wada.",
+      "ru": "Водопад находится на реке."
+    },
+    {
+      "id": "SAMA-SENSE/osena/1/example/1",
+      "lexeme_id": "SAMA-LEX/osena",
+      "sense_id": "SAMA-SENSE/osena/1",
+      "sama": "Mi si osena.",
+      "ru": "Я вижу океан."
+    },
+    {
+      "id": "SAMA-SENSE/osena/1/example/2",
+      "lexeme_id": "SAMA-LEX/osena",
+      "sense_id": "SAMA-SENSE/osena/1",
+      "sama": "Osena bi daba.",
+      "ru": "Океан большой."
+    },
+    {
+      "id": "SAMA-SENSE/baya/1/example/1",
+      "lexeme_id": "SAMA-LEX/baya",
+      "sense_id": "SAMA-SENSE/baya/1",
+      "sama": "Mi si baya.",
+      "ru": "Я вижу залив."
+    },
+    {
+      "id": "SAMA-SENSE/baya/1/example/2",
+      "lexeme_id": "SAMA-LEX/baya",
+      "sense_id": "SAMA-SENSE/baya/1",
+      "sama": "Baya bi na sela.",
+      "ru": "Залив является частью моря."
+    },
+    {
+      "id": "SAMA-SENSE/kalasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kalasa",
+      "sense_id": "SAMA-SENSE/kalasa/1",
+      "sama": "Mi si kalasa.",
+      "ru": "Я вижу ледник."
+    },
+    {
+      "id": "SAMA-SENSE/kalasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kalasa",
+      "sense_id": "SAMA-SENSE/kalasa/1",
+      "sama": "Kalasa bi na tano.",
+      "ru": "Ледник находится в горах."
+    },
+    {
+      "id": "SAMA-SENSE/wolakana/1/example/1",
+      "lexeme_id": "SAMA-LEX/wolakana",
+      "sense_id": "SAMA-SENSE/wolakana/1",
+      "sama": "Mi si wolakana.",
+      "ru": "Я вижу вулкан."
+    },
+    {
+      "id": "SAMA-SENSE/wolakana/1/example/2",
+      "lexeme_id": "SAMA-LEX/wolakana",
+      "sense_id": "SAMA-SENSE/wolakana/1",
+      "sama": "Wolakana bi na isala.",
+      "ru": "Вулкан находится на острове."
+    },
+    {
+      "id": "SAMA-SENSE/kaniona/1/example/1",
+      "lexeme_id": "SAMA-LEX/kaniona",
+      "sense_id": "SAMA-SENSE/kaniona/1",
+      "sama": "Mi si kaniona.",
+      "ru": "Я вижу каньон."
+    },
+    {
+      "id": "SAMA-SENSE/kaniona/1/example/2",
+      "lexeme_id": "SAMA-LEX/kaniona",
+      "sense_id": "SAMA-SENSE/kaniona/1",
+      "sama": "Kaniona bi daba.",
+      "ru": "Каньон большой."
+    },
+    {
+      "id": "SAMA-SENSE/medona/1/example/1",
+      "lexeme_id": "SAMA-LEX/medona",
+      "sense_id": "SAMA-SENSE/medona/1",
+      "sama": "Mi si medona.",
+      "ru": "Я вижу луг."
+    },
+    {
+      "id": "SAMA-SENSE/medona/1/example/2",
+      "lexeme_id": "SAMA-LEX/medona",
+      "sense_id": "SAMA-SENSE/medona/1",
+      "sama": "Pino bi na medona.",
+      "ru": "Трава находится на лугу."
+    },
+    {
+      "id": "SAMA-SENSE/suwaya/1/example/1",
+      "lexeme_id": "SAMA-LEX/suwaya",
+      "sense_id": "SAMA-SENSE/suwaya/1",
+      "sama": "Mi si suwaya.",
+      "ru": "Я вижу родник."
+    },
+    {
+      "id": "SAMA-SENSE/suwaya/1/example/2",
+      "lexeme_id": "SAMA-LEX/suwaya",
+      "sense_id": "SAMA-SENSE/suwaya/1",
+      "sama": "Su bi na suwaya.",
+      "ru": "В роднике есть вода."
+    },
+    {
+      "id": "SAMA-SENSE/kilima/1/example/1",
+      "lexeme_id": "SAMA-LEX/kilima",
+      "sense_id": "SAMA-SENSE/kilima/1",
+      "sama": "Kilima bi yoma.",
+      "ru": "Климат важен."
+    },
+    {
+      "id": "SAMA-SENSE/kilima/1/example/2",
+      "lexeme_id": "SAMA-LEX/kilima",
+      "sense_id": "SAMA-SENSE/kilima/1",
+      "sama": "Mi tami kilima.",
+      "ru": "Я проверяю климат."
+    },
+    {
+      "id": "SAMA-SENSE/humida/1/example/1",
+      "lexeme_id": "SAMA-LEX/humida",
+      "sense_id": "SAMA-SENSE/humida/1",
+      "sama": "Humida bi yoma.",
+      "ru": "Влажность важна."
+    },
+    {
+      "id": "SAMA-SENSE/humida/1/example/2",
+      "lexeme_id": "SAMA-LEX/humida",
+      "sense_id": "SAMA-SENSE/humida/1",
+      "sama": "Mi tami humida.",
+      "ru": "Я проверяю влажность."
+    },
+    {
+      "id": "SAMA-SENSE/duwata/1/example/1",
+      "lexeme_id": "SAMA-LEX/duwata",
+      "sense_id": "SAMA-SENSE/duwata/1",
+      "sama": "Duwata bi na pelina.",
+      "ru": "В поле засуха."
+    },
+    {
+      "id": "SAMA-SENSE/duwata/1/example/2",
+      "lexeme_id": "SAMA-LEX/duwata",
+      "sense_id": "SAMA-SENSE/duwata/1",
+      "sama": "Duwata bi malo.",
+      "ru": "Засуха плоха."
+    },
+    {
+      "id": "SAMA-SENSE/huloda/1/example/1",
+      "lexeme_id": "SAMA-LEX/huloda",
+      "sense_id": "SAMA-SENSE/huloda/1",
+      "sama": "Huloda bi na bano.",
+      "ru": "В городе наводнение."
+    },
+    {
+      "id": "SAMA-SENSE/huloda/1/example/2",
+      "lexeme_id": "SAMA-LEX/huloda",
+      "sense_id": "SAMA-SENSE/huloda/1",
+      "sama": "Mi si huloda.",
+      "ru": "Я вижу наводнение."
+    },
+    {
+      "id": "SAMA-SENSE/bilisada/1/example/1",
+      "lexeme_id": "SAMA-LEX/bilisada",
+      "sense_id": "SAMA-SENSE/bilisada/1",
+      "sama": "Bilisada bi na bano.",
+      "ru": "В городе метель."
+    },
+    {
+      "id": "SAMA-SENSE/bilisada/1/example/2",
+      "lexeme_id": "SAMA-LEX/bilisada",
+      "sense_id": "SAMA-SENSE/bilisada/1",
+      "sama": "Bilisada bi kowa.",
+      "ru": "Метель громкая."
+    },
+    {
+      "id": "SAMA-SENSE/halena/1/example/1",
+      "lexeme_id": "SAMA-LEX/halena",
+      "sense_id": "SAMA-SENSE/halena/1",
+      "sama": "Mi si halena.",
+      "ru": "Я вижу град."
+    },
+    {
+      "id": "SAMA-SENSE/halena/1/example/2",
+      "lexeme_id": "SAMA-LEX/halena",
+      "sense_id": "SAMA-SENSE/halena/1",
+      "sama": "Halena bi na pelina.",
+      "ru": "На поле град."
+    },
+    {
+      "id": "SAMA-SENSE/holasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/holasa",
+      "sense_id": "SAMA-SENSE/holasa/1",
+      "sama": "Mi si holasa.",
+      "ru": "Я вижу иней."
+    },
+    {
+      "id": "SAMA-SENSE/holasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/holasa",
+      "sense_id": "SAMA-SENSE/holasa/1",
+      "sama": "Holasa bi na mato.",
+      "ru": "Иней на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/dewa/1/example/1",
+      "lexeme_id": "SAMA-LEX/dewa",
+      "sense_id": "SAMA-SENSE/dewa/1",
+      "sama": "Mi si dewa.",
+      "ru": "Я вижу росу."
+    },
+    {
+      "id": "SAMA-SENSE/dewa/1/example/2",
+      "lexeme_id": "SAMA-LEX/dewa",
+      "sense_id": "SAMA-SENSE/dewa/1",
+      "sama": "Dewa bi na pino.",
+      "ru": "Роса на траве."
+    },
+    {
+      "id": "SAMA-SENSE/sunawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sunawa",
+      "sense_id": "SAMA-SENSE/sunawa/1",
+      "sama": "Mi si sunawa.",
+      "ru": "Я вижу восход Солнца."
+    },
+    {
+      "id": "SAMA-SENSE/sunawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sunawa",
+      "sense_id": "SAMA-SENSE/sunawa/1",
+      "sama": "Sunawa bi na dina.",
+      "ru": "Восход бывает в течение суток."
+    },
+    {
+      "id": "SAMA-SENSE/sunato/1/example/1",
+      "lexeme_id": "SAMA-LEX/sunato",
+      "sense_id": "SAMA-SENSE/sunato/1",
+      "sama": "Mi si sunato.",
+      "ru": "Я вижу закат Солнца."
+    },
+    {
+      "id": "SAMA-SENSE/sunato/1/example/2",
+      "lexeme_id": "SAMA-LEX/sunato",
+      "sense_id": "SAMA-SENSE/sunato/1",
+      "sama": "Sunato bi bali.",
+      "ru": "Закат красивый."
+    },
+    {
+      "id": "SAMA-SENSE/sawana/1/example/1",
+      "lexeme_id": "SAMA-LEX/sawana",
+      "sense_id": "SAMA-SENSE/sawana/1",
+      "sama": "Mi bi na sawana.",
+      "ru": "Я в тени."
+    },
+    {
+      "id": "SAMA-SENSE/sawana/1/example/2",
+      "lexeme_id": "SAMA-LEX/sawana",
+      "sense_id": "SAMA-SENSE/sawana/1",
+      "sama": "Sawana bi poba mato.",
+      "ru": "Тень под деревом."
+    },
+    {
+      "id": "SAMA-SENSE/somala/1/example/1",
+      "lexeme_id": "SAMA-LEX/somala",
+      "sense_id": "SAMA-SENSE/somala/1",
+      "sama": "Mi si somala.",
+      "ru": "Я вижу тень."
+    },
+    {
+      "id": "SAMA-SENSE/somala/1/example/2",
+      "lexeme_id": "SAMA-LEX/somala",
+      "sense_id": "SAMA-SENSE/somala/1",
+      "sama": "Somala bi na paka.",
+      "ru": "Тень на стене."
+    },
+    {
+      "id": "SAMA-SENSE/sesona/1/example/1",
+      "lexeme_id": "SAMA-LEX/sesona",
+      "sense_id": "SAMA-SENSE/sesona/1",
+      "sama": "Sesona bi na yala.",
+      "ru": "Сезон бывает в году."
+    },
+    {
+      "id": "SAMA-SENSE/sesona/1/example/2",
+      "lexeme_id": "SAMA-LEX/sesona",
+      "sense_id": "SAMA-SENSE/sesona/1",
+      "sama": "Mi tami sesona.",
+      "ru": "Я определяю сезон."
+    },
+    {
+      "id": "SAMA-SENSE/sapenia/1/example/1",
+      "lexeme_id": "SAMA-LEX/sapenia",
+      "sense_id": "SAMA-SENSE/sapenia/1",
+      "sama": "Sapenia bi na yala.",
+      "ru": "Весна бывает в году."
+    },
+    {
+      "id": "SAMA-SENSE/sapenia/1/example/2",
+      "lexeme_id": "SAMA-LEX/sapenia",
+      "sense_id": "SAMA-SENSE/sapenia/1",
+      "sama": "Sapenia bi bona.",
+      "ru": "Весна хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/sumala/1/example/1",
+      "lexeme_id": "SAMA-LEX/sumala",
+      "sense_id": "SAMA-SENSE/sumala/1",
+      "sama": "Sumala bi na yala.",
+      "ru": "Лето бывает в году."
+    },
+    {
+      "id": "SAMA-SENSE/sumala/1/example/2",
+      "lexeme_id": "SAMA-LEX/sumala",
+      "sense_id": "SAMA-SENSE/sumala/1",
+      "sama": "Mi ama sumala.",
+      "ru": "Я люблю лето."
+    },
+    {
+      "id": "SAMA-SENSE/atonala/1/example/1",
+      "lexeme_id": "SAMA-LEX/atonala",
+      "sense_id": "SAMA-SENSE/atonala/1",
+      "sama": "Atonala bi na yala.",
+      "ru": "Осень бывает в году."
+    },
+    {
+      "id": "SAMA-SENSE/atonala/1/example/2",
+      "lexeme_id": "SAMA-LEX/atonala",
+      "sense_id": "SAMA-SENSE/atonala/1",
+      "sama": "Mi ama atonala.",
+      "ru": "Я люблю осень."
+    },
+    {
+      "id": "SAMA-SENSE/winata/1/example/1",
+      "lexeme_id": "SAMA-LEX/winata",
+      "sense_id": "SAMA-SENSE/winata/1",
+      "sama": "Winata bi na yala.",
+      "ru": "Зима бывает в году."
+    },
+    {
+      "id": "SAMA-SENSE/winata/1/example/2",
+      "lexeme_id": "SAMA-LEX/winata",
+      "sense_id": "SAMA-SENSE/winata/1",
+      "sama": "Mi ama winata.",
+      "ru": "Я люблю зиму."
+    },
+    {
+      "id": "SAMA-SENSE/wetala/1/example/1",
+      "lexeme_id": "SAMA-LEX/wetala",
+      "sense_id": "SAMA-SENSE/wetala/1",
+      "sama": "Wetala bi bona.",
+      "ru": "Погода хорошая."
+    },
+    {
+      "id": "SAMA-SENSE/wetala/1/example/2",
+      "lexeme_id": "SAMA-LEX/wetala",
+      "sense_id": "SAMA-SENSE/wetala/1",
+      "sama": "Mi tami wetala.",
+      "ru": "Я проверяю погоду."
+    },
+    {
+      "id": "SAMA-SENSE/nubala/1/example/1",
+      "lexeme_id": "SAMA-LEX/nubala",
+      "sense_id": "SAMA-SENSE/nubala/1",
+      "sama": "Nubala bi na sami.",
+      "ru": "В небе облачность."
+    },
+    {
+      "id": "SAMA-SENSE/nubala/1/example/2",
+      "lexeme_id": "SAMA-LEX/nubala",
+      "sense_id": "SAMA-SENSE/nubala/1",
+      "sama": "Mi tami nubala.",
+      "ru": "Я проверяю облачность."
+    },
+    {
+      "id": "SAMA-SENSE/holisona/1/example/1",
+      "lexeme_id": "SAMA-LEX/holisona",
+      "sense_id": "SAMA-SENSE/holisona/1",
+      "sama": "Mi si holisona.",
+      "ru": "Я вижу горизонт."
+    },
+    {
+      "id": "SAMA-SENSE/holisona/1/example/2",
+      "lexeme_id": "SAMA-LEX/holisona",
+      "sense_id": "SAMA-SENSE/holisona/1",
+      "sama": "Holisona bi nilo.",
+      "ru": "Горизонт далеко."
+    },
+    {
+      "id": "SAMA-SENSE/semila/1/example/1",
+      "lexeme_id": "SAMA-LEX/semila",
+      "sense_id": "SAMA-SENSE/semila/1",
+      "sama": "Mi si semila.",
+      "ru": "Я вижу семя."
+    },
+    {
+      "id": "SAMA-SENSE/semila/1/example/2",
+      "lexeme_id": "SAMA-LEX/semila",
+      "sense_id": "SAMA-SENSE/semila/1",
+      "sama": "Semila bi nana poma.",
+      "ru": "Семя внутри плода."
+    },
+    {
+      "id": "SAMA-SENSE/lamota/1/example/1",
+      "lexeme_id": "SAMA-LEX/lamota",
+      "sense_id": "SAMA-SENSE/lamota/1",
+      "sama": "Mi si lamota.",
+      "ru": "Я вижу корень."
+    },
+    {
+      "id": "SAMA-SENSE/lamota/1/example/2",
+      "lexeme_id": "SAMA-LEX/lamota",
+      "sense_id": "SAMA-SENSE/lamota/1",
+      "sama": "Lamota bi nana solima.",
+      "ru": "Корень внутри почвы."
+    },
+    {
+      "id": "SAMA-SENSE/satema/1/example/1",
+      "lexeme_id": "SAMA-LEX/satema",
+      "sense_id": "SAMA-SENSE/satema/1",
+      "sama": "Mi si satema.",
+      "ru": "Я вижу стебель."
+    },
+    {
+      "id": "SAMA-SENSE/satema/1/example/2",
+      "lexeme_id": "SAMA-LEX/satema",
+      "sense_id": "SAMA-SENSE/satema/1",
+      "sama": "Sana bi na satema.",
+      "ru": "Лист находится на стебле."
+    },
+    {
+      "id": "SAMA-SENSE/balanasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/balanasa",
+      "sense_id": "SAMA-SENSE/balanasa/1",
+      "sama": "Mi si balanasa.",
+      "ru": "Я вижу ветку."
+    },
+    {
+      "id": "SAMA-SENSE/balanasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/balanasa",
+      "sense_id": "SAMA-SENSE/balanasa/1",
+      "sama": "Balanasa bi na mato.",
+      "ru": "Ветка находится на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/bakila/1/example/1",
+      "lexeme_id": "SAMA-LEX/bakila",
+      "sense_id": "SAMA-SENSE/bakila/1",
+      "sama": "Mi si bakila.",
+      "ru": "Я вижу кору."
+    },
+    {
+      "id": "SAMA-SENSE/bakila/1/example/2",
+      "lexeme_id": "SAMA-LEX/bakila",
+      "sense_id": "SAMA-SENSE/bakila/1",
+      "sama": "Bakila bi na mato.",
+      "ru": "Кора находится на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/belina/1/example/1",
+      "lexeme_id": "SAMA-LEX/belina",
+      "sense_id": "SAMA-SENSE/belina/1",
+      "sama": "Mi kula belina.",
+      "ru": "Я ем ягоду."
+    },
+    {
+      "id": "SAMA-SENSE/belina/1/example/2",
+      "lexeme_id": "SAMA-LEX/belina",
+      "sense_id": "SAMA-SENSE/belina/1",
+      "sama": "Belina bi na mesa.",
+      "ru": "Ягода на столе."
+    },
+    {
+      "id": "SAMA-SENSE/musela/1/example/1",
+      "lexeme_id": "SAMA-LEX/musela",
+      "sense_id": "SAMA-SENSE/musela/1",
+      "sama": "Mi si musela.",
+      "ru": "Я вижу гриб."
+    },
+    {
+      "id": "SAMA-SENSE/musela/1/example/2",
+      "lexeme_id": "SAMA-LEX/musela",
+      "sense_id": "SAMA-SENSE/musela/1",
+      "sama": "Musela bi na lima.",
+      "ru": "Гриб в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/mosana/1/example/1",
+      "lexeme_id": "SAMA-LEX/mosana",
+      "sense_id": "SAMA-SENSE/mosana/1",
+      "sama": "Mi si mosana.",
+      "ru": "Я вижу мох."
+    },
+    {
+      "id": "SAMA-SENSE/mosana/1/example/2",
+      "lexeme_id": "SAMA-LEX/mosana",
+      "sense_id": "SAMA-SENSE/mosana/1",
+      "sama": "Mosana bi na nado.",
+      "ru": "Мох на камне."
+    },
+    {
+      "id": "SAMA-SENSE/weda/1/example/1",
+      "lexeme_id": "SAMA-LEX/weda",
+      "sense_id": "SAMA-SENSE/weda/1",
+      "sama": "Mi si weda.",
+      "ru": "Я вижу сорняк."
+    },
+    {
+      "id": "SAMA-SENSE/weda/1/example/2",
+      "lexeme_id": "SAMA-LEX/weda",
+      "sense_id": "SAMA-SENSE/weda/1",
+      "sama": "Weda bi na pelina.",
+      "ru": "Сорняк находится в поле."
+    },
+    {
+      "id": "SAMA-SENSE/witana/1/example/1",
+      "lexeme_id": "SAMA-LEX/witana",
+      "sense_id": "SAMA-SENSE/witana/1",
+      "sama": "Mi si witana.",
+      "ru": "Я вижу пшеницу."
+    },
+    {
+      "id": "SAMA-SENSE/witana/1/example/2",
+      "lexeme_id": "SAMA-LEX/witana",
+      "sense_id": "SAMA-SENSE/witana/1",
+      "sama": "Witana bi na pelina.",
+      "ru": "Пшеница в поле."
+    },
+    {
+      "id": "SAMA-SENSE/masila/1/example/1",
+      "lexeme_id": "SAMA-LEX/masila",
+      "sense_id": "SAMA-SENSE/masila/1",
+      "sama": "Mi si masila.",
+      "ru": "Я вижу кукурузу."
+    },
+    {
+      "id": "SAMA-SENSE/masila/1/example/2",
+      "lexeme_id": "SAMA-LEX/masila",
+      "sense_id": "SAMA-SENSE/masila/1",
+      "sama": "Masila bi na pelina.",
+      "ru": "Кукуруза в поле."
+    },
+    {
+      "id": "SAMA-SENSE/owata/1/example/1",
+      "lexeme_id": "SAMA-LEX/owata",
+      "sense_id": "SAMA-SENSE/owata/1",
+      "sama": "Mi si owata.",
+      "ru": "Я вижу овёс."
+    },
+    {
+      "id": "SAMA-SENSE/owata/1/example/2",
+      "lexeme_id": "SAMA-LEX/owata",
+      "sense_id": "SAMA-SENSE/owata/1",
+      "sama": "Owata bi na pelina.",
+      "ru": "Овёс в поле."
+    },
+    {
+      "id": "SAMA-SENSE/pelana/1/example/1",
+      "lexeme_id": "SAMA-LEX/pelana",
+      "sense_id": "SAMA-SENSE/pelana/1",
+      "sama": "Mi kula pelana.",
+      "ru": "Я ем грушу."
+    },
+    {
+      "id": "SAMA-SENSE/pelana/1/example/2",
+      "lexeme_id": "SAMA-LEX/pelana",
+      "sense_id": "SAMA-SENSE/pelana/1",
+      "sama": "Pelana bi na mesa.",
+      "ru": "Груша на столе."
+    },
+    {
+      "id": "SAMA-SENSE/pesika/1/example/1",
+      "lexeme_id": "SAMA-LEX/pesika",
+      "sense_id": "SAMA-SENSE/pesika/1",
+      "sama": "Mi kula pesika.",
+      "ru": "Я ем персик."
+    },
+    {
+      "id": "SAMA-SENSE/pesika/1/example/2",
+      "lexeme_id": "SAMA-LEX/pesika",
+      "sense_id": "SAMA-SENSE/pesika/1",
+      "sama": "Pesika bi na mesa.",
+      "ru": "Персик на столе."
+    },
+    {
+      "id": "SAMA-SENSE/panapola/1/example/1",
+      "lexeme_id": "SAMA-LEX/panapola",
+      "sense_id": "SAMA-SENSE/panapola/1",
+      "sama": "Mi si panapola.",
+      "ru": "Я вижу ананас."
+    },
+    {
+      "id": "SAMA-SENSE/panapola/1/example/2",
+      "lexeme_id": "SAMA-LEX/panapola",
+      "sense_id": "SAMA-SENSE/panapola/1",
+      "sama": "Panapola bi na mesa.",
+      "ru": "Ананас на столе."
+    },
+    {
+      "id": "SAMA-SENSE/sotawela/1/example/1",
+      "lexeme_id": "SAMA-LEX/sotawela",
+      "sense_id": "SAMA-SENSE/sotawela/1",
+      "sama": "Mi kula sotawela.",
+      "ru": "Я ем клубнику."
+    },
+    {
+      "id": "SAMA-SENSE/sotawela/1/example/2",
+      "lexeme_id": "SAMA-LEX/sotawela",
+      "sense_id": "SAMA-SENSE/sotawela/1",
+      "sama": "Sotawela bi na pila.",
+      "ru": "Клубника на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/lasibela/1/example/1",
+      "lexeme_id": "SAMA-LEX/lasibela",
+      "sense_id": "SAMA-SENSE/lasibela/1",
+      "sama": "Mi kula lasibela.",
+      "ru": "Я ем малину."
+    },
+    {
+      "id": "SAMA-SENSE/lasibela/1/example/2",
+      "lexeme_id": "SAMA-LEX/lasibela",
+      "sense_id": "SAMA-SENSE/lasibela/1",
+      "sama": "Lasibela bi na pila.",
+      "ru": "Малина на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/uwala/1/example/1",
+      "lexeme_id": "SAMA-LEX/uwala",
+      "sense_id": "SAMA-SENSE/uwala/1",
+      "sama": "Mi kula uwala.",
+      "ru": "Я ем виноград."
+    },
+    {
+      "id": "SAMA-SENSE/uwala/1/example/2",
+      "lexeme_id": "SAMA-LEX/uwala",
+      "sense_id": "SAMA-SENSE/uwala/1",
+      "sama": "Uwala bi na pila.",
+      "ru": "Виноград на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/seliya/1/example/1",
+      "lexeme_id": "SAMA-LEX/seliya",
+      "sense_id": "SAMA-SENSE/seliya/1",
+      "sama": "Mi kula seliya.",
+      "ru": "Я ем вишню."
+    },
+    {
+      "id": "SAMA-SENSE/seliya/1/example/2",
+      "lexeme_id": "SAMA-LEX/seliya",
+      "sense_id": "SAMA-SENSE/seliya/1",
+      "sama": "Seliya bi na pila.",
+      "ru": "Вишня на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/kokonata/1/example/1",
+      "lexeme_id": "SAMA-LEX/kokonata",
+      "sense_id": "SAMA-SENSE/kokonata/1",
+      "sama": "Mi si kokonata.",
+      "ru": "Я вижу кокос."
+    },
+    {
+      "id": "SAMA-SENSE/kokonata/1/example/2",
+      "lexeme_id": "SAMA-LEX/kokonata",
+      "sense_id": "SAMA-SENSE/kokonata/1",
+      "sama": "Kokonata bi na mesa.",
+      "ru": "Кокос на столе."
+    },
+    {
+      "id": "SAMA-SENSE/labita/1/example/1",
+      "lexeme_id": "SAMA-LEX/labita",
+      "sense_id": "SAMA-SENSE/labita/1",
+      "sama": "Mi si labita.",
+      "ru": "Я вижу кролика."
+    },
+    {
+      "id": "SAMA-SENSE/labita/1/example/2",
+      "lexeme_id": "SAMA-LEX/labita",
+      "sense_id": "SAMA-SENSE/labita/1",
+      "sama": "Labita bi na pelina.",
+      "ru": "Кролик в поле."
+    },
+    {
+      "id": "SAMA-SENSE/hokisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/hokisa",
+      "sense_id": "SAMA-SENSE/hokisa/1",
+      "sama": "Mi si hokisa.",
+      "ru": "Я вижу лису."
+    },
+    {
+      "id": "SAMA-SENSE/hokisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/hokisa",
+      "sense_id": "SAMA-SENSE/hokisa/1",
+      "sama": "Hokisa bi na lima.",
+      "ru": "Лиса в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/baloka/1/example/1",
+      "lexeme_id": "SAMA-LEX/baloka",
+      "sense_id": "SAMA-SENSE/baloka/1",
+      "sama": "Mi si baloka.",
+      "ru": "Я вижу медведя."
+    },
+    {
+      "id": "SAMA-SENSE/baloka/1/example/2",
+      "lexeme_id": "SAMA-LEX/baloka",
+      "sense_id": "SAMA-SENSE/baloka/1",
+      "sama": "Baloka bi na lima.",
+      "ru": "Медведь в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/kilaha/1/example/1",
+      "lexeme_id": "SAMA-LEX/kilaha",
+      "sense_id": "SAMA-SENSE/kilaha/1",
+      "sama": "Mi si kilaha.",
+      "ru": "Я вижу жирафа."
+    },
+    {
+      "id": "SAMA-SENSE/kilaha/1/example/2",
+      "lexeme_id": "SAMA-LEX/kilaha",
+      "sense_id": "SAMA-SENSE/kilaha/1",
+      "sama": "Kilaha bi na duniya.",
+      "ru": "Жираф обитает на Земле."
+    },
+    {
+      "id": "SAMA-SENSE/elepana/1/example/1",
+      "lexeme_id": "SAMA-LEX/elepana",
+      "sense_id": "SAMA-SENSE/elepana/1",
+      "sama": "Mi si elepana.",
+      "ru": "Я вижу слона."
+    },
+    {
+      "id": "SAMA-SENSE/elepana/1/example/2",
+      "lexeme_id": "SAMA-LEX/elepana",
+      "sense_id": "SAMA-SENSE/elepana/1",
+      "sama": "Elepana bi daba.",
+      "ru": "Слон большой."
+    },
+    {
+      "id": "SAMA-SENSE/monika/1/example/1",
+      "lexeme_id": "SAMA-LEX/monika",
+      "sense_id": "SAMA-SENSE/monika/1",
+      "sama": "Mi si monika.",
+      "ru": "Я вижу обезьяну."
+    },
+    {
+      "id": "SAMA-SENSE/monika/1/example/2",
+      "lexeme_id": "SAMA-LEX/monika",
+      "sense_id": "SAMA-SENSE/monika/1",
+      "sama": "Monika bi na mato.",
+      "ru": "Обезьяна на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/liona/1/example/1",
+      "lexeme_id": "SAMA-LEX/liona",
+      "sense_id": "SAMA-SENSE/liona/1",
+      "sama": "Mi si liona.",
+      "ru": "Я вижу льва."
+    },
+    {
+      "id": "SAMA-SENSE/liona/1/example/2",
+      "lexeme_id": "SAMA-LEX/liona",
+      "sense_id": "SAMA-SENSE/liona/1",
+      "sama": "Liona bi na medona.",
+      "ru": "Лев на лугу."
+    },
+    {
+      "id": "SAMA-SENSE/sebola/1/example/1",
+      "lexeme_id": "SAMA-LEX/sebola",
+      "sense_id": "SAMA-SENSE/sebola/1",
+      "sama": "Mi si sebola.",
+      "ru": "Я вижу зебру."
+    },
+    {
+      "id": "SAMA-SENSE/sebola/1/example/2",
+      "lexeme_id": "SAMA-LEX/sebola",
+      "sense_id": "SAMA-SENSE/sebola/1",
+      "sama": "Sebola bi na medona.",
+      "ru": "Зебра на лугу."
+    },
+    {
+      "id": "SAMA-SENSE/dolipina/1/example/1",
+      "lexeme_id": "SAMA-LEX/dolipina",
+      "sense_id": "SAMA-SENSE/dolipina/1",
+      "sama": "Mi si dolipina.",
+      "ru": "Я вижу дельфина."
+    },
+    {
+      "id": "SAMA-SENSE/dolipina/1/example/2",
+      "lexeme_id": "SAMA-LEX/dolipina",
+      "sense_id": "SAMA-SENSE/dolipina/1",
+      "sama": "Dolipina bi na sela.",
+      "ru": "Дельфин в море."
+    },
+    {
+      "id": "SAMA-SENSE/walena/1/example/1",
+      "lexeme_id": "SAMA-LEX/walena",
+      "sense_id": "SAMA-SENSE/walena/1",
+      "sama": "Mi si walena.",
+      "ru": "Я вижу кита."
+    },
+    {
+      "id": "SAMA-SENSE/walena/1/example/2",
+      "lexeme_id": "SAMA-LEX/walena",
+      "sense_id": "SAMA-SENSE/walena/1",
+      "sama": "Walena bi na osena.",
+      "ru": "Кит в океане."
+    },
+    {
+      "id": "SAMA-SENSE/salika/1/example/1",
+      "lexeme_id": "SAMA-LEX/salika",
+      "sense_id": "SAMA-SENSE/salika/1",
+      "sama": "Mi si salika.",
+      "ru": "Я вижу акулу."
+    },
+    {
+      "id": "SAMA-SENSE/salika/1/example/2",
+      "lexeme_id": "SAMA-LEX/salika",
+      "sense_id": "SAMA-SENSE/salika/1",
+      "sama": "Salika bi na osena.",
+      "ru": "Акула в океане."
+    },
+    {
+      "id": "SAMA-SENSE/tutela/1/example/1",
+      "lexeme_id": "SAMA-LEX/tutela",
+      "sense_id": "SAMA-SENSE/tutela/1",
+      "sama": "Mi si tutela.",
+      "ru": "Я вижу черепаху."
+    },
+    {
+      "id": "SAMA-SENSE/tutela/1/example/2",
+      "lexeme_id": "SAMA-LEX/tutela",
+      "sense_id": "SAMA-SENSE/tutela/1",
+      "sama": "Tutela bi na kosala.",
+      "ru": "Черепаха на берегу."
+    },
+    {
+      "id": "SAMA-SENSE/holoka/1/example/1",
+      "lexeme_id": "SAMA-LEX/holoka",
+      "sense_id": "SAMA-SENSE/holoka/1",
+      "sama": "Mi si holoka.",
+      "ru": "Я вижу лягушку."
+    },
+    {
+      "id": "SAMA-SENSE/holoka/1/example/2",
+      "lexeme_id": "SAMA-LEX/holoka",
+      "sense_id": "SAMA-SENSE/holoka/1",
+      "sama": "Holoka bi na laka.",
+      "ru": "Лягушка у озера."
+    },
+    {
+      "id": "SAMA-SENSE/butelina/1/example/1",
+      "lexeme_id": "SAMA-LEX/butelina",
+      "sense_id": "SAMA-SENSE/butelina/1",
+      "sama": "Mi si butelina.",
+      "ru": "Я вижу бабочку."
+    },
+    {
+      "id": "SAMA-SENSE/butelina/1/example/2",
+      "lexeme_id": "SAMA-LEX/butelina",
+      "sense_id": "SAMA-SENSE/butelina/1",
+      "sama": "Butelina bi na tana.",
+      "ru": "Бабочка на цветке."
+    },
+    {
+      "id": "SAMA-SENSE/belisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/belisa",
+      "sense_id": "SAMA-SENSE/belisa/1",
+      "sama": "Mi si belisa.",
+      "ru": "Я вижу пчелу."
+    },
+    {
+      "id": "SAMA-SENSE/belisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/belisa",
+      "sense_id": "SAMA-SENSE/belisa/1",
+      "sama": "Belisa bi na tana.",
+      "ru": "Пчела на цветке."
+    },
+    {
+      "id": "SAMA-SENSE/anita/1/example/1",
+      "lexeme_id": "SAMA-LEX/anita",
+      "sense_id": "SAMA-SENSE/anita/1",
+      "sama": "Mi si anita.",
+      "ru": "Я вижу муравья."
+    },
+    {
+      "id": "SAMA-SENSE/anita/1/example/2",
+      "lexeme_id": "SAMA-LEX/anita",
+      "sense_id": "SAMA-SENSE/anita/1",
+      "sama": "Anita bi na solima.",
+      "ru": "Муравей на почве."
+    },
+    {
+      "id": "SAMA-SENSE/sopidela/1/example/1",
+      "lexeme_id": "SAMA-LEX/sopidela",
+      "sense_id": "SAMA-SENSE/sopidela/1",
+      "sama": "Mi si sopidela.",
+      "ru": "Я вижу паука."
+    },
+    {
+      "id": "SAMA-SENSE/sopidela/1/example/2",
+      "lexeme_id": "SAMA-LEX/sopidela",
+      "sense_id": "SAMA-SENSE/sopidela/1",
+      "sama": "Sopidela bi na paka.",
+      "ru": "Паук на стене."
+    },
+    {
+      "id": "SAMA-SENSE/salamana/1/example/1",
+      "lexeme_id": "SAMA-LEX/salamana",
+      "sense_id": "SAMA-SENSE/salamana/1",
+      "sama": "Mi si salamana.",
+      "ru": "Я вижу саламандру."
+    },
+    {
+      "id": "SAMA-SENSE/salamana/1/example/2",
+      "lexeme_id": "SAMA-LEX/salamana",
+      "sense_id": "SAMA-SENSE/salamana/1",
+      "sama": "Salamana bi na lima.",
+      "ru": "Саламандра в лесу."
+    },
+    {
+      "id": "SAMA-SENSE/kokodila/1/example/1",
+      "lexeme_id": "SAMA-LEX/kokodila",
+      "sense_id": "SAMA-SENSE/kokodila/1",
+      "sama": "Mi si kokodila.",
+      "ru": "Я вижу крокодила."
+    },
+    {
+      "id": "SAMA-SENSE/kokodila/1/example/2",
+      "lexeme_id": "SAMA-LEX/kokodila",
+      "sense_id": "SAMA-SENSE/kokodila/1",
+      "sama": "Kokodila bi na wada.",
+      "ru": "Крокодил в реке."
+    },
+    {
+      "id": "SAMA-SENSE/owila/1/example/1",
+      "lexeme_id": "SAMA-LEX/owila",
+      "sense_id": "SAMA-SENSE/owila/1",
+      "sama": "Mi si owila.",
+      "ru": "Я вижу сову."
+    },
+    {
+      "id": "SAMA-SENSE/owila/1/example/2",
+      "lexeme_id": "SAMA-LEX/owila",
+      "sense_id": "SAMA-SENSE/owila/1",
+      "sama": "Owila bi na mato.",
+      "ru": "Сова на дереве."
+    },
+    {
+      "id": "SAMA-SENSE/ewana/1/example/1",
+      "lexeme_id": "SAMA-LEX/ewana",
+      "sense_id": "SAMA-SENSE/ewana/1",
+      "sama": "Mi kula ewana.",
+      "ru": "Я ем яйцо."
+    },
+    {
+      "id": "SAMA-SENSE/ewana/1/example/2",
+      "lexeme_id": "SAMA-LEX/ewana",
+      "sense_id": "SAMA-SENSE/ewana/1",
+      "sama": "Ewana bi na pila.",
+      "ru": "Яйцо на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/kesina/1/example/1",
+      "lexeme_id": "SAMA-LEX/kesina",
+      "sense_id": "SAMA-SENSE/kesina/1",
+      "sama": "Mi kula kesina.",
+      "ru": "Я ем сыр."
+    },
+    {
+      "id": "SAMA-SENSE/kesina/1/example/2",
+      "lexeme_id": "SAMA-LEX/kesina",
+      "sense_id": "SAMA-SENSE/kesina/1",
+      "sama": "Kesina bi na mesa.",
+      "ru": "Сыр на столе."
+    },
+    {
+      "id": "SAMA-SENSE/butela/1/example/1",
+      "lexeme_id": "SAMA-LEX/butela",
+      "sense_id": "SAMA-SENSE/butela/1",
+      "sama": "Mi kula butela.",
+      "ru": "Я ем масло."
+    },
+    {
+      "id": "SAMA-SENSE/butela/1/example/2",
+      "lexeme_id": "SAMA-LEX/butela",
+      "sense_id": "SAMA-SENSE/butela/1",
+      "sama": "Butela bi na mesa.",
+      "ru": "Масло на столе."
+    },
+    {
+      "id": "SAMA-SENSE/hulina/1/example/1",
+      "lexeme_id": "SAMA-LEX/hulina",
+      "sense_id": "SAMA-SENSE/hulina/1",
+      "sama": "Hulina bi na mesa.",
+      "ru": "Мука на столе."
+    },
+    {
+      "id": "SAMA-SENSE/hulina/1/example/2",
+      "lexeme_id": "SAMA-LEX/hulina",
+      "sense_id": "SAMA-SENSE/hulina/1",
+      "sama": "Mi tako hulina.",
+      "ru": "Я беру муку."
+    },
+    {
+      "id": "SAMA-SENSE/dowala/1/example/1",
+      "lexeme_id": "SAMA-LEX/dowala",
+      "sense_id": "SAMA-SENSE/dowala/1",
+      "sama": "Dowala bi na mesa.",
+      "ru": "Тесто на столе."
+    },
+    {
+      "id": "SAMA-SENSE/dowala/1/example/2",
+      "lexeme_id": "SAMA-LEX/dowala",
+      "sense_id": "SAMA-SENSE/dowala/1",
+      "sama": "Mi tako dowala.",
+      "ru": "Я беру тесто."
+    },
+    {
+      "id": "SAMA-SENSE/pasata/1/example/1",
+      "lexeme_id": "SAMA-LEX/pasata",
+      "sense_id": "SAMA-SENSE/pasata/1",
+      "sama": "Mi kula pasata.",
+      "ru": "Я ем макароны."
+    },
+    {
+      "id": "SAMA-SENSE/pasata/1/example/2",
+      "lexeme_id": "SAMA-LEX/pasata",
+      "sense_id": "SAMA-SENSE/pasata/1",
+      "sama": "Pasata bi na pila.",
+      "ru": "Макароны на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/sosisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sosisa",
+      "sense_id": "SAMA-SENSE/sosisa/1",
+      "sama": "Mi kula sosisa.",
+      "ru": "Я ем колбасу."
+    },
+    {
+      "id": "SAMA-SENSE/sosisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sosisa",
+      "sense_id": "SAMA-SENSE/sosisa/1",
+      "sama": "Sosisa bi na mesa.",
+      "ru": "Колбаса на столе."
+    },
+    {
+      "id": "SAMA-SENSE/pisileta/1/example/1",
+      "lexeme_id": "SAMA-LEX/pisileta",
+      "sense_id": "SAMA-SENSE/pisileta/1",
+      "sama": "Mi kula pisileta.",
+      "ru": "Я ем рыбное филе."
+    },
+    {
+      "id": "SAMA-SENSE/pisileta/1/example/2",
+      "lexeme_id": "SAMA-LEX/pisileta",
+      "sense_id": "SAMA-SENSE/pisileta/1",
+      "sama": "Pisileta bi na pila.",
+      "ru": "Филе на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/kokawama/1/example/1",
+      "lexeme_id": "SAMA-LEX/kokawama",
+      "sense_id": "SAMA-SENSE/kokawama/1",
+      "sama": "Mi kula kokawama.",
+      "ru": "Я ем куриное мясо."
+    },
+    {
+      "id": "SAMA-SENSE/kokawama/1/example/2",
+      "lexeme_id": "SAMA-LEX/kokawama",
+      "sense_id": "SAMA-SENSE/kokawama/1",
+      "sama": "Kokawama bi na pila.",
+      "ru": "Курица на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/sanawisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sanawisa",
+      "sense_id": "SAMA-SENSE/sanawisa/1",
+      "sama": "Mi kula sanawisa.",
+      "ru": "Я ем бутерброд."
+    },
+    {
+      "id": "SAMA-SENSE/sanawisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sanawisa",
+      "sense_id": "SAMA-SENSE/sanawisa/1",
+      "sama": "Sanawisa bi na mesa.",
+      "ru": "Бутерброд на столе."
+    },
+    {
+      "id": "SAMA-SENSE/yamala/1/example/1",
+      "lexeme_id": "SAMA-LEX/yamala",
+      "sense_id": "SAMA-SENSE/yamala/1",
+      "sama": "Mi kula yamala.",
+      "ru": "Я ем джем."
+    },
+    {
+      "id": "SAMA-SENSE/yamala/1/example/2",
+      "lexeme_id": "SAMA-LEX/yamala",
+      "sense_id": "SAMA-SENSE/yamala/1",
+      "sama": "Yamala bi na mesa.",
+      "ru": "Джем на столе."
+    },
+    {
+      "id": "SAMA-SENSE/yokula/1/example/1",
+      "lexeme_id": "SAMA-LEX/yokula",
+      "sense_id": "SAMA-SENSE/yokula/1",
+      "sama": "Mi kula yokula.",
+      "ru": "Я ем йогурт."
+    },
+    {
+      "id": "SAMA-SENSE/yokula/1/example/2",
+      "lexeme_id": "SAMA-LEX/yokula",
+      "sense_id": "SAMA-SENSE/yokula/1",
+      "sama": "Yokula bi na kopa.",
+      "ru": "Йогурт в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/seliana/1/example/1",
+      "lexeme_id": "SAMA-LEX/seliana",
+      "sense_id": "SAMA-SENSE/seliana/1",
+      "sama": "Mi kula seliana.",
+      "ru": "Я ем хлопья."
+    },
+    {
+      "id": "SAMA-SENSE/seliana/1/example/2",
+      "lexeme_id": "SAMA-LEX/seliana",
+      "sense_id": "SAMA-SENSE/seliana/1",
+      "sama": "Seliana bi na pila.",
+      "ru": "Хлопья на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/polisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/polisa",
+      "sense_id": "SAMA-SENSE/polisa/1",
+      "sama": "Mi kula polisa.",
+      "ru": "Я ем кашу."
+    },
+    {
+      "id": "SAMA-SENSE/polisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/polisa",
+      "sense_id": "SAMA-SENSE/polisa/1",
+      "sama": "Polisa bi na pila.",
+      "ru": "Каша на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/sokolata/1/example/1",
+      "lexeme_id": "SAMA-LEX/sokolata",
+      "sense_id": "SAMA-SENSE/sokolata/1",
+      "sama": "Mi kula sokolata.",
+      "ru": "Я ем шоколад."
+    },
+    {
+      "id": "SAMA-SENSE/sokolata/1/example/2",
+      "lexeme_id": "SAMA-LEX/sokolata",
+      "sense_id": "SAMA-SENSE/sokolata/1",
+      "sama": "Sokolata bi na mesa.",
+      "ru": "Шоколад на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kekala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kekala",
+      "sense_id": "SAMA-SENSE/kekala/1",
+      "sama": "Mi kula kekala.",
+      "ru": "Я ем торт."
+    },
+    {
+      "id": "SAMA-SENSE/kekala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kekala",
+      "sense_id": "SAMA-SENSE/kekala/1",
+      "sama": "Kekala bi na mesa.",
+      "ru": "Торт на столе."
+    },
+    {
+      "id": "SAMA-SENSE/bisikita/1/example/1",
+      "lexeme_id": "SAMA-LEX/bisikita",
+      "sense_id": "SAMA-SENSE/bisikita/1",
+      "sama": "Mi kula bisikita.",
+      "ru": "Я ем сухое печенье."
+    },
+    {
+      "id": "SAMA-SENSE/bisikita/1/example/2",
+      "lexeme_id": "SAMA-LEX/bisikita",
+      "sense_id": "SAMA-SENSE/bisikita/1",
+      "sama": "Bisikita bi na pila.",
+      "ru": "Печенье на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/kukila/1/example/1",
+      "lexeme_id": "SAMA-LEX/kukila",
+      "sense_id": "SAMA-SENSE/kukila/1",
+      "sama": "Mi kula kukila.",
+      "ru": "Я ем сладкое печенье."
+    },
+    {
+      "id": "SAMA-SENSE/kukila/1/example/2",
+      "lexeme_id": "SAMA-LEX/kukila",
+      "sense_id": "SAMA-SENSE/kukila/1",
+      "sama": "Kukila bi na pila.",
+      "ru": "Сладкое печенье на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/salada/1/example/1",
+      "lexeme_id": "SAMA-LEX/salada",
+      "sense_id": "SAMA-SENSE/salada/1",
+      "sama": "Mi kula salada.",
+      "ru": "Я ем салат."
+    },
+    {
+      "id": "SAMA-SENSE/salada/1/example/2",
+      "lexeme_id": "SAMA-LEX/salada",
+      "sense_id": "SAMA-SENSE/salada/1",
+      "sama": "Salada bi na pila.",
+      "ru": "Салат на тарелке."
+    },
+    {
+      "id": "SAMA-SENSE/sosala/1/example/1",
+      "lexeme_id": "SAMA-LEX/sosala",
+      "sense_id": "SAMA-SENSE/sosala/1",
+      "sama": "Mi kula sosala.",
+      "ru": "Я ем соус."
+    },
+    {
+      "id": "SAMA-SENSE/sosala/1/example/2",
+      "lexeme_id": "SAMA-LEX/sosala",
+      "sense_id": "SAMA-SENSE/sosala/1",
+      "sama": "Sosala bi na kopa.",
+      "ru": "Соус в чашке."
+    },
+    {
+      "id": "SAMA-SENSE/kulala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kulala",
+      "sense_id": "SAMA-SENSE/kulala/1",
+      "sama": "Mi bi na kulala.",
+      "ru": "Я на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/kulala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kulala",
+      "sense_id": "SAMA-SENSE/kulala/1",
+      "sama": "Kulala bi nana doma.",
+      "ru": "Кухня внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/owena/1/example/1",
+      "lexeme_id": "SAMA-LEX/owena",
+      "sense_id": "SAMA-SENSE/owena/1",
+      "sama": "Mi si owena.",
+      "ru": "Я вижу духовку."
+    },
+    {
+      "id": "SAMA-SENSE/owena/1/example/2",
+      "lexeme_id": "SAMA-LEX/owena",
+      "sense_id": "SAMA-SENSE/owena/1",
+      "sama": "Owena bi na kulala.",
+      "ru": "Духовка на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/paneka/1/example/1",
+      "lexeme_id": "SAMA-LEX/paneka",
+      "sense_id": "SAMA-SENSE/paneka/1",
+      "sama": "Mi si paneka.",
+      "ru": "Я вижу кастрюлю."
+    },
+    {
+      "id": "SAMA-SENSE/paneka/1/example/2",
+      "lexeme_id": "SAMA-LEX/paneka",
+      "sense_id": "SAMA-SENSE/paneka/1",
+      "sama": "Paneka bi na kulala.",
+      "ru": "Кастрюля на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/paniya/1/example/1",
+      "lexeme_id": "SAMA-LEX/paniya",
+      "sense_id": "SAMA-SENSE/paniya/1",
+      "sama": "Mi si paniya.",
+      "ru": "Я вижу сковороду."
+    },
+    {
+      "id": "SAMA-SENSE/paniya/1/example/2",
+      "lexeme_id": "SAMA-LEX/paniya",
+      "sense_id": "SAMA-SENSE/paniya/1",
+      "sama": "Paniya bi na kulala.",
+      "ru": "Сковорода на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/ketela/1/example/1",
+      "lexeme_id": "SAMA-LEX/ketela",
+      "sense_id": "SAMA-SENSE/ketela/1",
+      "sama": "Mi si ketela.",
+      "ru": "Я вижу чайник."
+    },
+    {
+      "id": "SAMA-SENSE/ketela/1/example/2",
+      "lexeme_id": "SAMA-LEX/ketela",
+      "sense_id": "SAMA-SENSE/ketela/1",
+      "sama": "Ketela bi na kulala.",
+      "ru": "Чайник на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/hilena/1/example/1",
+      "lexeme_id": "SAMA-LEX/hilena",
+      "sense_id": "SAMA-SENSE/hilena/1",
+      "sama": "Mi si hilena.",
+      "ru": "Я вижу холодильник."
+    },
+    {
+      "id": "SAMA-SENSE/hilena/1/example/2",
+      "lexeme_id": "SAMA-LEX/hilena",
+      "sense_id": "SAMA-SENSE/hilena/1",
+      "sama": "Hilena bi na kulala.",
+      "ru": "Холодильник на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/tamola/1/example/1",
+      "lexeme_id": "SAMA-LEX/tamola",
+      "sense_id": "SAMA-SENSE/tamola/1",
+      "sama": "Mi tako tamola.",
+      "ru": "Я беру вилку."
+    },
+    {
+      "id": "SAMA-SENSE/tamola/1/example/2",
+      "lexeme_id": "SAMA-LEX/tamola",
+      "sense_id": "SAMA-SENSE/tamola/1",
+      "sama": "Tamola bi na mesa.",
+      "ru": "Вилка на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kolasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kolasa",
+      "sense_id": "SAMA-SENSE/kolasa/1",
+      "sama": "Mi si kolasa.",
+      "ru": "Я вижу разделочную доску."
+    },
+    {
+      "id": "SAMA-SENSE/kolasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kolasa",
+      "sense_id": "SAMA-SENSE/kolasa/1",
+      "sama": "Kolasa bi na kulala.",
+      "ru": "Доска на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/beloka/1/example/1",
+      "lexeme_id": "SAMA-LEX/beloka",
+      "sense_id": "SAMA-SENSE/beloka/1",
+      "sama": "Mi si beloka.",
+      "ru": "Я вижу блендер."
+    },
+    {
+      "id": "SAMA-SENSE/beloka/1/example/2",
+      "lexeme_id": "SAMA-LEX/beloka",
+      "sense_id": "SAMA-SENSE/beloka/1",
+      "sama": "Beloka bi na kulala.",
+      "ru": "Блендер на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/sitala/1/example/1",
+      "lexeme_id": "SAMA-LEX/sitala",
+      "sense_id": "SAMA-SENSE/sitala/1",
+      "sama": "Mi si sitala.",
+      "ru": "Я вижу сито."
+    },
+    {
+      "id": "SAMA-SENSE/sitala/1/example/2",
+      "lexeme_id": "SAMA-LEX/sitala",
+      "sense_id": "SAMA-SENSE/sitala/1",
+      "sama": "Sitala bi na kulala.",
+      "ru": "Сито на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/miwena/1/example/1",
+      "lexeme_id": "SAMA-LEX/miwena",
+      "sense_id": "SAMA-SENSE/miwena/1",
+      "sama": "Mi si miwena.",
+      "ru": "Я вижу миску."
+    },
+    {
+      "id": "SAMA-SENSE/miwena/1/example/2",
+      "lexeme_id": "SAMA-LEX/miwena",
+      "sense_id": "SAMA-SENSE/miwena/1",
+      "sama": "Miwena bi na mesa.",
+      "ru": "Миска на столе."
+    },
+    {
+      "id": "SAMA-SENSE/towela/1/example/1",
+      "lexeme_id": "SAMA-LEX/towela",
+      "sense_id": "SAMA-SENSE/towela/1",
+      "sama": "Mi si towela.",
+      "ru": "Я вижу тостер."
+    },
+    {
+      "id": "SAMA-SENSE/towela/1/example/2",
+      "lexeme_id": "SAMA-LEX/towela",
+      "sense_id": "SAMA-SENSE/towela/1",
+      "sama": "Towela bi na kulala.",
+      "ru": "Тостер на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/lenawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lenawa",
+      "sense_id": "SAMA-SENSE/lenawa/1",
+      "sama": "Mi si lenawa.",
+      "ru": "Я вижу крышку."
+    },
+    {
+      "id": "SAMA-SENSE/lenawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lenawa",
+      "sense_id": "SAMA-SENSE/lenawa/1",
+      "sama": "Lenawa bi na paneka.",
+      "ru": "Крышка на кастрюле."
+    },
+    {
+      "id": "SAMA-SENSE/baleha/1/example/1",
+      "lexeme_id": "SAMA-LEX/baleha",
+      "sense_id": "SAMA-SENSE/baleha/1",
+      "sama": "Mi tako baleha.",
+      "ru": "Я беру половник."
+    },
+    {
+      "id": "SAMA-SENSE/baleha/1/example/2",
+      "lexeme_id": "SAMA-LEX/baleha",
+      "sense_id": "SAMA-SENSE/baleha/1",
+      "sama": "Baleha bi na kulala.",
+      "ru": "Половник на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/wasiya/1/example/1",
+      "lexeme_id": "SAMA-LEX/wasiya",
+      "sense_id": "SAMA-SENSE/wasiya/1",
+      "sama": "Mi tako wasiya.",
+      "ru": "Я беру лопатку."
+    },
+    {
+      "id": "SAMA-SENSE/wasiya/1/example/2",
+      "lexeme_id": "SAMA-LEX/wasiya",
+      "sense_id": "SAMA-SENSE/wasiya/1",
+      "sama": "Wasiya bi na kulala.",
+      "ru": "Лопатка на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/mayona/1/example/1",
+      "lexeme_id": "SAMA-LEX/mayona",
+      "sense_id": "SAMA-SENSE/mayona/1",
+      "sama": "Mi tako mayona.",
+      "ru": "Я беру салфетку."
+    },
+    {
+      "id": "SAMA-SENSE/mayona/1/example/2",
+      "lexeme_id": "SAMA-LEX/mayona",
+      "sense_id": "SAMA-SENSE/mayona/1",
+      "sama": "Mayona bi na mesa.",
+      "ru": "Салфетка на столе."
+    },
+    {
+      "id": "SAMA-SENSE/tawela/1/example/1",
+      "lexeme_id": "SAMA-LEX/tawela",
+      "sense_id": "SAMA-SENSE/tawela/1",
+      "sama": "Mi si tawela.",
+      "ru": "Я вижу полотенце."
+    },
+    {
+      "id": "SAMA-SENSE/tawela/1/example/2",
+      "lexeme_id": "SAMA-LEX/tawela",
+      "sense_id": "SAMA-SENSE/tawela/1",
+      "sama": "Tawela bi na doma.",
+      "ru": "Полотенце дома."
+    },
+    {
+      "id": "SAMA-SENSE/sitela/1/example/1",
+      "lexeme_id": "SAMA-LEX/sitela",
+      "sense_id": "SAMA-SENSE/sitela/1",
+      "sama": "Mi si sitela.",
+      "ru": "Я вижу мойку."
+    },
+    {
+      "id": "SAMA-SENSE/sitela/1/example/2",
+      "lexeme_id": "SAMA-LEX/sitela",
+      "sense_id": "SAMA-SENSE/sitela/1",
+      "sama": "Sitela bi na kulala.",
+      "ru": "Мойка на кухне."
+    },
+    {
+      "id": "SAMA-SENSE/buwala/1/example/1",
+      "lexeme_id": "SAMA-LEX/buwala",
+      "sense_id": "SAMA-SENSE/buwala/1",
+      "sama": "Mi si buwala.",
+      "ru": "Я вижу бутылку."
+    },
+    {
+      "id": "SAMA-SENSE/buwala/1/example/2",
+      "lexeme_id": "SAMA-LEX/buwala",
+      "sense_id": "SAMA-SENSE/buwala/1",
+      "sama": "Buwala bi na mesa.",
+      "ru": "Бутылка на столе."
+    },
+    {
+      "id": "SAMA-SENSE/wakena/1/example/1",
+      "lexeme_id": "SAMA-LEX/wakena",
+      "sense_id": "SAMA-SENSE/wakena/1",
+      "sama": "Mi si wakena.",
+      "ru": "Я вижу стакан."
+    },
+    {
+      "id": "SAMA-SENSE/wakena/1/example/2",
+      "lexeme_id": "SAMA-LEX/wakena",
+      "sense_id": "SAMA-SENSE/wakena/1",
+      "sama": "Wakena bi na mesa.",
+      "ru": "Стакан на столе."
+    },
+    {
+      "id": "SAMA-SENSE/tohama/1/example/1",
+      "lexeme_id": "SAMA-LEX/tohama",
+      "sense_id": "SAMA-SENSE/tohama/1",
+      "sama": "Mi si tohama.",
+      "ru": "Я вижу лестницу."
+    },
+    {
+      "id": "SAMA-SENSE/tohama/1/example/2",
+      "lexeme_id": "SAMA-LEX/tohama",
+      "sense_id": "SAMA-SENSE/tohama/1",
+      "sama": "Tohama bi nana doma.",
+      "ru": "Лестница внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/walita/1/example/1",
+      "lexeme_id": "SAMA-LEX/walita",
+      "sense_id": "SAMA-SENSE/walita/1",
+      "sama": "Mi bi na walita.",
+      "ru": "Я в коридоре."
+    },
+    {
+      "id": "SAMA-SENSE/walita/1/example/2",
+      "lexeme_id": "SAMA-LEX/walita",
+      "sense_id": "SAMA-SENSE/walita/1",
+      "sama": "Walita bi nana doma.",
+      "ru": "Коридор внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/paloma/1/example/1",
+      "lexeme_id": "SAMA-LEX/paloma",
+      "sense_id": "SAMA-SENSE/paloma/1",
+      "sama": "Mi bi na paloma.",
+      "ru": "Я на балконе."
+    },
+    {
+      "id": "SAMA-SENSE/paloma/1/example/2",
+      "lexeme_id": "SAMA-LEX/paloma",
+      "sense_id": "SAMA-SENSE/paloma/1",
+      "sama": "Paloma bi na doma.",
+      "ru": "Балкон у дома."
+    },
+    {
+      "id": "SAMA-SENSE/kawalo/1/example/1",
+      "lexeme_id": "SAMA-LEX/kawalo",
+      "sense_id": "SAMA-SENSE/kawalo/1",
+      "sama": "Mi bi na kawalo.",
+      "ru": "Я в гараже."
+    },
+    {
+      "id": "SAMA-SENSE/kawalo/1/example/2",
+      "lexeme_id": "SAMA-LEX/kawalo",
+      "sense_id": "SAMA-SENSE/kawalo/1",
+      "sama": "Lata bi nana kawalo.",
+      "ru": "Машина в гараже."
+    },
+    {
+      "id": "SAMA-SENSE/basena/1/example/1",
+      "lexeme_id": "SAMA-LEX/basena",
+      "sense_id": "SAMA-SENSE/basena/1",
+      "sama": "Mi bi na basena.",
+      "ru": "Я в подвале."
+    },
+    {
+      "id": "SAMA-SENSE/basena/1/example/2",
+      "lexeme_id": "SAMA-LEX/basena",
+      "sense_id": "SAMA-SENSE/basena/1",
+      "sama": "Basena bi nana doma.",
+      "ru": "Подвал внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/ulata/1/example/1",
+      "lexeme_id": "SAMA-LEX/ulata",
+      "sense_id": "SAMA-SENSE/ulata/1",
+      "sama": "Mi bi na ulata.",
+      "ru": "Я на чердаке."
+    },
+    {
+      "id": "SAMA-SENSE/ulata/1/example/2",
+      "lexeme_id": "SAMA-LEX/ulata",
+      "sense_id": "SAMA-SENSE/ulata/1",
+      "sama": "Ulata bi nana doma.",
+      "ru": "Чердак внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/helena/1/example/1",
+      "lexeme_id": "SAMA-LEX/helena",
+      "sense_id": "SAMA-SENSE/helena/1",
+      "sama": "Mi si helena.",
+      "ru": "Я вижу обогреватель."
+    },
+    {
+      "id": "SAMA-SENSE/helena/1/example/2",
+      "lexeme_id": "SAMA-LEX/helena",
+      "sense_id": "SAMA-SENSE/helena/1",
+      "sama": "Helena bi na luma.",
+      "ru": "Обогреватель в комнате."
+    },
+    {
+      "id": "SAMA-SENSE/kulasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kulasa",
+      "sense_id": "SAMA-SENSE/kulasa/1",
+      "sama": "Mi si kulasa.",
+      "ru": "Я вижу одеяло."
+    },
+    {
+      "id": "SAMA-SENSE/kulasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kulasa",
+      "sense_id": "SAMA-SENSE/kulasa/1",
+      "sama": "Kulasa bi na beto.",
+      "ru": "Одеяло на кровати."
+    },
+    {
+      "id": "SAMA-SENSE/pesena/1/example/1",
+      "lexeme_id": "SAMA-LEX/pesena",
+      "sense_id": "SAMA-SENSE/pesena/1",
+      "sama": "Mi si pesena.",
+      "ru": "Я вижу подушку."
+    },
+    {
+      "id": "SAMA-SENSE/pesena/1/example/2",
+      "lexeme_id": "SAMA-LEX/pesena",
+      "sense_id": "SAMA-SENSE/pesena/1",
+      "sama": "Pesena bi na beto.",
+      "ru": "Подушка на кровати."
+    },
+    {
+      "id": "SAMA-SENSE/madala/1/example/1",
+      "lexeme_id": "SAMA-LEX/madala",
+      "sense_id": "SAMA-SENSE/madala/1",
+      "sama": "Mi si madala.",
+      "ru": "Я вижу матрас."
+    },
+    {
+      "id": "SAMA-SENSE/madala/1/example/2",
+      "lexeme_id": "SAMA-LEX/madala",
+      "sense_id": "SAMA-SENSE/madala/1",
+      "sama": "Madala bi na beto.",
+      "ru": "Матрас на кровати."
+    },
+    {
+      "id": "SAMA-SENSE/hawalo/1/example/1",
+      "lexeme_id": "SAMA-LEX/hawalo",
+      "sense_id": "SAMA-SENSE/hawalo/1",
+      "sama": "Mi si hawalo.",
+      "ru": "Я вижу диван."
+    },
+    {
+      "id": "SAMA-SENSE/hawalo/1/example/2",
+      "lexeme_id": "SAMA-LEX/hawalo",
+      "sense_id": "SAMA-SENSE/hawalo/1",
+      "sama": "Hawalo bi na luma.",
+      "ru": "Диван в комнате."
+    },
+    {
+      "id": "SAMA-SENSE/kalema/1/example/1",
+      "lexeme_id": "SAMA-LEX/kalema",
+      "sense_id": "SAMA-SENSE/kalema/1",
+      "sama": "Mi si kalema.",
+      "ru": "Я вижу шкаф."
+    },
+    {
+      "id": "SAMA-SENSE/kalema/1/example/2",
+      "lexeme_id": "SAMA-LEX/kalema",
+      "sense_id": "SAMA-SENSE/kalema/1",
+      "sama": "Kalema bi na luma.",
+      "ru": "Шкаф в комнате."
+    },
+    {
+      "id": "SAMA-SENSE/sawela/1/example/1",
+      "lexeme_id": "SAMA-LEX/sawela",
+      "sense_id": "SAMA-SENSE/sawela/1",
+      "sama": "Mi si sawela.",
+      "ru": "Я вижу полку."
+    },
+    {
+      "id": "SAMA-SENSE/sawela/1/example/2",
+      "lexeme_id": "SAMA-LEX/sawela",
+      "sense_id": "SAMA-SENSE/sawela/1",
+      "sama": "Kaso bi na sawela.",
+      "ru": "Книга на полке."
+    },
+    {
+      "id": "SAMA-SENSE/malasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/malasa",
+      "sense_id": "SAMA-SENSE/malasa/1",
+      "sama": "Mi si malasa.",
+      "ru": "Я вижу зеркало."
+    },
+    {
+      "id": "SAMA-SENSE/malasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/malasa",
+      "sense_id": "SAMA-SENSE/malasa/1",
+      "sama": "Malasa bi na paka.",
+      "ru": "Зеркало на стене."
+    },
+    {
+      "id": "SAMA-SENSE/lometa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lometa",
+      "sense_id": "SAMA-SENSE/lometa/1",
+      "sama": "Mi si lometa.",
+      "ru": "Я вижу ящик."
+    },
+    {
+      "id": "SAMA-SENSE/lometa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lometa",
+      "sense_id": "SAMA-SENSE/lometa/1",
+      "sama": "Misa bi nana lometa.",
+      "ru": "Ключ внутри ящика."
+    },
+    {
+      "id": "SAMA-SENSE/lomisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lomisa",
+      "sense_id": "SAMA-SENSE/lomisa/1",
+      "sama": "Mi si lomisa.",
+      "ru": "Я вижу ковёр."
+    },
+    {
+      "id": "SAMA-SENSE/lomisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lomisa",
+      "sense_id": "SAMA-SENSE/lomisa/1",
+      "sama": "Lomisa bi na pano.",
+      "ru": "Ковёр на полу."
+    },
+    {
+      "id": "SAMA-SENSE/salona/1/example/1",
+      "lexeme_id": "SAMA-LEX/salona",
+      "sense_id": "SAMA-SENSE/salona/1",
+      "sama": "Mi bi na salona.",
+      "ru": "Я в гостиной."
+    },
+    {
+      "id": "SAMA-SENSE/salona/1/example/2",
+      "lexeme_id": "SAMA-LEX/salona",
+      "sense_id": "SAMA-SENSE/salona/1",
+      "sama": "Salona bi nana doma.",
+      "ru": "Гостиная внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/kamena/1/example/1",
+      "lexeme_id": "SAMA-LEX/kamena",
+      "sense_id": "SAMA-SENSE/kamena/1",
+      "sama": "Mi bi na kamena.",
+      "ru": "Я в ванной комнате."
+    },
+    {
+      "id": "SAMA-SENSE/kamena/1/example/2",
+      "lexeme_id": "SAMA-LEX/kamena",
+      "sense_id": "SAMA-SENSE/kamena/1",
+      "sama": "Kamena bi nana doma.",
+      "ru": "Ванная внутри дома."
+    },
+    {
+      "id": "SAMA-SENSE/sawina/1/example/1",
+      "lexeme_id": "SAMA-LEX/sawina",
+      "sense_id": "SAMA-SENSE/sawina/1",
+      "sama": "Mi si sawina.",
+      "ru": "Я вижу потолок."
+    },
+    {
+      "id": "SAMA-SENSE/sawina/1/example/2",
+      "lexeme_id": "SAMA-LEX/sawina",
+      "sense_id": "SAMA-SENSE/sawina/1",
+      "sama": "Sawina bi noba mesa.",
+      "ru": "Потолок над столом."
+    },
+    {
+      "id": "SAMA-SENSE/tapela/1/example/1",
+      "lexeme_id": "SAMA-LEX/tapela",
+      "sense_id": "SAMA-SENSE/tapela/1",
+      "sama": "Mi si tapela.",
+      "ru": "Я вижу обои."
+    },
+    {
+      "id": "SAMA-SENSE/tapela/1/example/2",
+      "lexeme_id": "SAMA-LEX/tapela",
+      "sense_id": "SAMA-SENSE/tapela/1",
+      "sama": "Tapela bi na paka.",
+      "ru": "Обои на стене."
+    },
+    {
+      "id": "SAMA-SENSE/hatena/1/example/1",
+      "lexeme_id": "SAMA-LEX/hatena",
+      "sense_id": "SAMA-SENSE/hatena/1",
+      "sama": "Mi si hatena.",
+      "ru": "Я вижу шляпу."
+    },
+    {
+      "id": "SAMA-SENSE/hatena/1/example/2",
+      "lexeme_id": "SAMA-LEX/hatena",
+      "sense_id": "SAMA-SENSE/hatena/1",
+      "sama": "Hatena bi na mesa.",
+      "ru": "Шляпа на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kapala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kapala",
+      "sense_id": "SAMA-SENSE/kapala/1",
+      "sama": "Mi si kapala.",
+      "ru": "Я вижу кепку."
+    },
+    {
+      "id": "SAMA-SENSE/kapala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kapala",
+      "sense_id": "SAMA-SENSE/kapala/1",
+      "sama": "Kapala bi nana balo.",
+      "ru": "Кепка в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/silita/1/example/1",
+      "lexeme_id": "SAMA-LEX/silita",
+      "sense_id": "SAMA-SENSE/silita/1",
+      "sama": "Mi si silita.",
+      "ru": "Я вижу рубашку."
+    },
+    {
+      "id": "SAMA-SENSE/silita/1/example/2",
+      "lexeme_id": "SAMA-LEX/silita",
+      "sense_id": "SAMA-SENSE/silita/1",
+      "sama": "Silita bi nana kalema.",
+      "ru": "Рубашка в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/tisaleta/1/example/1",
+      "lexeme_id": "SAMA-LEX/tisaleta",
+      "sense_id": "SAMA-SENSE/tisaleta/1",
+      "sama": "Mi si tisaleta.",
+      "ru": "Я вижу футболку."
+    },
+    {
+      "id": "SAMA-SENSE/tisaleta/1/example/2",
+      "lexeme_id": "SAMA-LEX/tisaleta",
+      "sense_id": "SAMA-SENSE/tisaleta/1",
+      "sama": "Tisaleta bi nana kalema.",
+      "ru": "Футболка в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/suweta/1/example/1",
+      "lexeme_id": "SAMA-LEX/suweta",
+      "sense_id": "SAMA-SENSE/suweta/1",
+      "sama": "Mi si suweta.",
+      "ru": "Я вижу свитер."
+    },
+    {
+      "id": "SAMA-SENSE/suweta/1/example/2",
+      "lexeme_id": "SAMA-LEX/suweta",
+      "sense_id": "SAMA-SENSE/suweta/1",
+      "sama": "Suweta bi nana kalema.",
+      "ru": "Свитер в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/yaketa/1/example/1",
+      "lexeme_id": "SAMA-LEX/yaketa",
+      "sense_id": "SAMA-SENSE/yaketa/1",
+      "sama": "Mi si yaketa.",
+      "ru": "Я вижу куртку."
+    },
+    {
+      "id": "SAMA-SENSE/yaketa/1/example/2",
+      "lexeme_id": "SAMA-LEX/yaketa",
+      "sense_id": "SAMA-SENSE/yaketa/1",
+      "sama": "Yaketa bi nana kalema.",
+      "ru": "Куртка в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/kotela/1/example/1",
+      "lexeme_id": "SAMA-LEX/kotela",
+      "sense_id": "SAMA-SENSE/kotela/1",
+      "sama": "Mi si kotela.",
+      "ru": "Я вижу пальто."
+    },
+    {
+      "id": "SAMA-SENSE/kotela/1/example/2",
+      "lexeme_id": "SAMA-LEX/kotela",
+      "sense_id": "SAMA-SENSE/kotela/1",
+      "sama": "Kotela bi nana kalema.",
+      "ru": "Пальто в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/panita/1/example/1",
+      "lexeme_id": "SAMA-LEX/panita",
+      "sense_id": "SAMA-SENSE/panita/1",
+      "sama": "Mi si panita.",
+      "ru": "Я вижу брюки."
+    },
+    {
+      "id": "SAMA-SENSE/panita/1/example/2",
+      "lexeme_id": "SAMA-LEX/panita",
+      "sense_id": "SAMA-SENSE/panita/1",
+      "sama": "Panita bi nana kalema.",
+      "ru": "Брюки в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/sikila/1/example/1",
+      "lexeme_id": "SAMA-LEX/sikila",
+      "sense_id": "SAMA-SENSE/sikila/1",
+      "sama": "Mi si sikila.",
+      "ru": "Я вижу юбку."
+    },
+    {
+      "id": "SAMA-SENSE/sikila/1/example/2",
+      "lexeme_id": "SAMA-LEX/sikila",
+      "sense_id": "SAMA-SENSE/sikila/1",
+      "sama": "Sikila bi nana kalema.",
+      "ru": "Юбка в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/delesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/delesa",
+      "sense_id": "SAMA-SENSE/delesa/1",
+      "sama": "Mi si delesa.",
+      "ru": "Я вижу платье."
+    },
+    {
+      "id": "SAMA-SENSE/delesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/delesa",
+      "sense_id": "SAMA-SENSE/delesa/1",
+      "sama": "Delesa bi nana kalema.",
+      "ru": "Платье в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/sokina/1/example/1",
+      "lexeme_id": "SAMA-LEX/sokina",
+      "sense_id": "SAMA-SENSE/sokina/1",
+      "sama": "Mi si sokina.",
+      "ru": "Я вижу носки."
+    },
+    {
+      "id": "SAMA-SENSE/sokina/1/example/2",
+      "lexeme_id": "SAMA-LEX/sokina",
+      "sense_id": "SAMA-SENSE/sokina/1",
+      "sama": "Sokina bi nana balo.",
+      "ru": "Носки в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/suwena/1/example/1",
+      "lexeme_id": "SAMA-LEX/suwena",
+      "sense_id": "SAMA-SENSE/suwena/1",
+      "sama": "Mi si suwena.",
+      "ru": "Я вижу ботинок."
+    },
+    {
+      "id": "SAMA-SENSE/suwena/1/example/2",
+      "lexeme_id": "SAMA-LEX/suwena",
+      "sense_id": "SAMA-SENSE/suwena/1",
+      "sama": "Suwena bi na pano.",
+      "ru": "Ботинок на полу."
+    },
+    {
+      "id": "SAMA-SENSE/butina/1/example/1",
+      "lexeme_id": "SAMA-LEX/butina",
+      "sense_id": "SAMA-SENSE/butina/1",
+      "sama": "Mi si butina.",
+      "ru": "Я вижу сапог."
+    },
+    {
+      "id": "SAMA-SENSE/butina/1/example/2",
+      "lexeme_id": "SAMA-LEX/butina",
+      "sense_id": "SAMA-SENSE/butina/1",
+      "sama": "Butina bi na pano.",
+      "ru": "Сапог на полу."
+    },
+    {
+      "id": "SAMA-SENSE/kulowa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kulowa",
+      "sense_id": "SAMA-SENSE/kulowa/1",
+      "sama": "Mi si kulowa.",
+      "ru": "Я вижу перчатку."
+    },
+    {
+      "id": "SAMA-SENSE/kulowa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kulowa",
+      "sense_id": "SAMA-SENSE/kulowa/1",
+      "sama": "Kulowa bi nana balo.",
+      "ru": "Перчатка в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/belata/1/example/1",
+      "lexeme_id": "SAMA-LEX/belata",
+      "sense_id": "SAMA-SENSE/belata/1",
+      "sama": "Mi si belata.",
+      "ru": "Я вижу ремень."
+    },
+    {
+      "id": "SAMA-SENSE/belata/1/example/2",
+      "lexeme_id": "SAMA-LEX/belata",
+      "sense_id": "SAMA-SENSE/belata/1",
+      "sama": "Belata bi nana kalema.",
+      "ru": "Ремень в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/sikaha/1/example/1",
+      "lexeme_id": "SAMA-LEX/sikaha",
+      "sense_id": "SAMA-SENSE/sikaha/1",
+      "sama": "Mi si sikaha.",
+      "ru": "Я вижу шарф."
+    },
+    {
+      "id": "SAMA-SENSE/sikaha/1/example/2",
+      "lexeme_id": "SAMA-LEX/sikaha",
+      "sense_id": "SAMA-SENSE/sikaha/1",
+      "sama": "Sikaha bi nana balo.",
+      "ru": "Шарф в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/umibela/1/example/1",
+      "lexeme_id": "SAMA-LEX/umibela",
+      "sense_id": "SAMA-SENSE/umibela/1",
+      "sama": "Mi si umibela.",
+      "ru": "Я вижу зонт."
+    },
+    {
+      "id": "SAMA-SENSE/umibela/1/example/2",
+      "lexeme_id": "SAMA-LEX/umibela",
+      "sense_id": "SAMA-SENSE/umibela/1",
+      "sama": "Umibela bi nana balo.",
+      "ru": "Зонт в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/tayela/1/example/1",
+      "lexeme_id": "SAMA-LEX/tayela",
+      "sense_id": "SAMA-SENSE/tayela/1",
+      "sama": "Mi si tayela.",
+      "ru": "Я вижу галстук."
+    },
+    {
+      "id": "SAMA-SENSE/tayela/1/example/2",
+      "lexeme_id": "SAMA-LEX/tayela",
+      "sense_id": "SAMA-SENSE/tayela/1",
+      "sama": "Tayela bi nana kalema.",
+      "ru": "Галстук в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/bakapaka/1/example/1",
+      "lexeme_id": "SAMA-LEX/bakapaka",
+      "sense_id": "SAMA-SENSE/bakapaka/1",
+      "sama": "Mi si bakapaka.",
+      "ru": "Я вижу рюкзак."
+    },
+    {
+      "id": "SAMA-SENSE/bakapaka/1/example/2",
+      "lexeme_id": "SAMA-LEX/bakapaka",
+      "sense_id": "SAMA-SENSE/bakapaka/1",
+      "sama": "Bakapaka bi na mesa.",
+      "ru": "Рюкзак на столе."
+    },
+    {
+      "id": "SAMA-SENSE/unihoma/1/example/1",
+      "lexeme_id": "SAMA-LEX/unihoma",
+      "sense_id": "SAMA-SENSE/unihoma/1",
+      "sama": "Mi si unihoma.",
+      "ru": "Я вижу униформу."
+    },
+    {
+      "id": "SAMA-SENSE/unihoma/1/example/2",
+      "lexeme_id": "SAMA-LEX/unihoma",
+      "sense_id": "SAMA-SENSE/unihoma/1",
+      "sama": "Unihoma bi nana kalema.",
+      "ru": "Униформа в шкафу."
+    },
+    {
+      "id": "SAMA-SENSE/sitalina/1/example/1",
+      "lexeme_id": "SAMA-LEX/sitalina",
+      "sense_id": "SAMA-SENSE/sitalina/1",
+      "sama": "Mi bi na sitalina.",
+      "ru": "Я на улице."
+    },
+    {
+      "id": "SAMA-SENSE/sitalina/1/example/2",
+      "lexeme_id": "SAMA-LEX/sitalina",
+      "sense_id": "SAMA-SENSE/sitalina/1",
+      "sama": "Sitalina bi na bano.",
+      "ru": "Улица в городе."
+    },
+    {
+      "id": "SAMA-SENSE/awenida/1/example/1",
+      "lexeme_id": "SAMA-LEX/awenida",
+      "sense_id": "SAMA-SENSE/awenida/1",
+      "sama": "Mi si awenida.",
+      "ru": "Я вижу проспект."
+    },
+    {
+      "id": "SAMA-SENSE/awenida/1/example/2",
+      "lexeme_id": "SAMA-LEX/awenida",
+      "sense_id": "SAMA-SENSE/awenida/1",
+      "sama": "Awenida bi na bano.",
+      "ru": "Проспект в городе."
+    },
+    {
+      "id": "SAMA-SENSE/sidawaka/1/example/1",
+      "lexeme_id": "SAMA-LEX/sidawaka",
+      "sense_id": "SAMA-SENSE/sidawaka/1",
+      "sama": "Mi wako na sidawaka.",
+      "ru": "Я иду по тротуару."
+    },
+    {
+      "id": "SAMA-SENSE/sidawaka/1/example/2",
+      "lexeme_id": "SAMA-LEX/sidawaka",
+      "sense_id": "SAMA-SENSE/sidawaka/1",
+      "sama": "Sidawaka bi na sitalina.",
+      "ru": "Тротуар находится на улице."
+    },
+    {
+      "id": "SAMA-SENSE/bilida/1/example/1",
+      "lexeme_id": "SAMA-LEX/bilida",
+      "sense_id": "SAMA-SENSE/bilida/1",
+      "sama": "Mi si bilida.",
+      "ru": "Я вижу мост."
+    },
+    {
+      "id": "SAMA-SENSE/bilida/1/example/2",
+      "lexeme_id": "SAMA-LEX/bilida",
+      "sense_id": "SAMA-SENSE/bilida/1",
+      "sama": "Bilida bi noba wada.",
+      "ru": "Мост над рекой."
+    },
+    {
+      "id": "SAMA-SENSE/tunela/1/example/1",
+      "lexeme_id": "SAMA-LEX/tunela",
+      "sense_id": "SAMA-SENSE/tunela/1",
+      "sama": "Mi bi na tunela.",
+      "ru": "Я в тоннеле."
+    },
+    {
+      "id": "SAMA-SENSE/tunela/1/example/2",
+      "lexeme_id": "SAMA-LEX/tunela",
+      "sense_id": "SAMA-SENSE/tunela/1",
+      "sama": "Tunela bi nana tano.",
+      "ru": "Тоннель внутри горы."
+    },
+    {
+      "id": "SAMA-SENSE/palasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/palasa",
+      "sense_id": "SAMA-SENSE/palasa/1",
+      "sama": "Mi bi na palasa.",
+      "ru": "Я на площади."
+    },
+    {
+      "id": "SAMA-SENSE/palasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/palasa",
+      "sense_id": "SAMA-SENSE/palasa/1",
+      "sama": "Palasa bi na bano.",
+      "ru": "Площадь в городе."
+    },
+    {
+      "id": "SAMA-SENSE/pakila/1/example/1",
+      "lexeme_id": "SAMA-LEX/pakila",
+      "sense_id": "SAMA-SENSE/pakila/1",
+      "sama": "Mi bi na pakila.",
+      "ru": "Я в парке."
+    },
+    {
+      "id": "SAMA-SENSE/pakila/1/example/2",
+      "lexeme_id": "SAMA-LEX/pakila",
+      "sense_id": "SAMA-SENSE/pakila/1",
+      "sama": "Pakila bi na bano.",
+      "ru": "Парк в городе."
+    },
+    {
+      "id": "SAMA-SENSE/maketa/1/example/1",
+      "lexeme_id": "SAMA-LEX/maketa",
+      "sense_id": "SAMA-SENSE/maketa/1",
+      "sama": "Mi si maketa.",
+      "ru": "Я вижу рынок."
+    },
+    {
+      "id": "SAMA-SENSE/maketa/1/example/2",
+      "lexeme_id": "SAMA-LEX/maketa",
+      "sense_id": "SAMA-SENSE/maketa/1",
+      "sama": "Maketa bi na bano.",
+      "ru": "Рынок в городе."
+    },
+    {
+      "id": "SAMA-SENSE/baneka/1/example/1",
+      "lexeme_id": "SAMA-LEX/baneka",
+      "sense_id": "SAMA-SENSE/baneka/1",
+      "sama": "Mi si baneka.",
+      "ru": "Я вижу банк."
+    },
+    {
+      "id": "SAMA-SENSE/baneka/1/example/2",
+      "lexeme_id": "SAMA-LEX/baneka",
+      "sense_id": "SAMA-SENSE/baneka/1",
+      "sama": "Baneka bi na bano.",
+      "ru": "Банк в городе."
+    },
+    {
+      "id": "SAMA-SENSE/hamasia/1/example/1",
+      "lexeme_id": "SAMA-LEX/hamasia",
+      "sense_id": "SAMA-SENSE/hamasia/1",
+      "sama": "Mi bi na hamasia.",
+      "ru": "Я в аптеке."
+    },
+    {
+      "id": "SAMA-SENSE/hamasia/1/example/2",
+      "lexeme_id": "SAMA-LEX/hamasia",
+      "sense_id": "SAMA-SENSE/hamasia/1",
+      "sama": "Hamasia bi na bano.",
+      "ru": "Аптека в городе."
+    },
+    {
+      "id": "SAMA-SENSE/posita/1/example/1",
+      "lexeme_id": "SAMA-LEX/posita",
+      "sense_id": "SAMA-SENSE/posita/1",
+      "sama": "Mi bi na posita.",
+      "ru": "Я на почте."
+    },
+    {
+      "id": "SAMA-SENSE/posita/1/example/2",
+      "lexeme_id": "SAMA-LEX/posita",
+      "sense_id": "SAMA-SENSE/posita/1",
+      "sama": "Posita bi na bano.",
+      "ru": "Почта в городе."
+    },
+    {
+      "id": "SAMA-SENSE/libala/1/example/1",
+      "lexeme_id": "SAMA-LEX/libala",
+      "sense_id": "SAMA-SENSE/libala/1",
+      "sama": "Mi bi na libala.",
+      "ru": "Я в библиотеке."
+    },
+    {
+      "id": "SAMA-SENSE/libala/1/example/2",
+      "lexeme_id": "SAMA-LEX/libala",
+      "sense_id": "SAMA-SENSE/libala/1",
+      "sama": "Kaso li bi na libala.",
+      "ru": "Книги в библиотеке."
+    },
+    {
+      "id": "SAMA-SENSE/museo/1/example/1",
+      "lexeme_id": "SAMA-LEX/museo",
+      "sense_id": "SAMA-SENSE/museo/1",
+      "sama": "Mi bi na museo.",
+      "ru": "Я в музее."
+    },
+    {
+      "id": "SAMA-SENSE/museo/1/example/2",
+      "lexeme_id": "SAMA-LEX/museo",
+      "sense_id": "SAMA-SENSE/museo/1",
+      "sama": "Museo bi na bano.",
+      "ru": "Музей в городе."
+    },
+    {
+      "id": "SAMA-SENSE/teyato/1/example/1",
+      "lexeme_id": "SAMA-LEX/teyato",
+      "sense_id": "SAMA-SENSE/teyato/1",
+      "sama": "Mi bi na teyato.",
+      "ru": "Я в театре."
+    },
+    {
+      "id": "SAMA-SENSE/teyato/1/example/2",
+      "lexeme_id": "SAMA-LEX/teyato",
+      "sense_id": "SAMA-SENSE/teyato/1",
+      "sama": "Teyato bi na bano.",
+      "ru": "Театр в городе."
+    },
+    {
+      "id": "SAMA-SENSE/sinema/1/example/1",
+      "lexeme_id": "SAMA-LEX/sinema",
+      "sense_id": "SAMA-SENSE/sinema/1",
+      "sama": "Mi bi na sinema.",
+      "ru": "Я в кинотеатре."
+    },
+    {
+      "id": "SAMA-SENSE/sinema/1/example/2",
+      "lexeme_id": "SAMA-LEX/sinema",
+      "sense_id": "SAMA-SENSE/sinema/1",
+      "sama": "Sinema bi na bano.",
+      "ru": "Кинотеатр в городе."
+    },
+    {
+      "id": "SAMA-SENSE/satadiona/1/example/1",
+      "lexeme_id": "SAMA-LEX/satadiona",
+      "sense_id": "SAMA-SENSE/satadiona/1",
+      "sama": "Mi si satadiona.",
+      "ru": "Я вижу стадион."
+    },
+    {
+      "id": "SAMA-SENSE/satadiona/1/example/2",
+      "lexeme_id": "SAMA-LEX/satadiona",
+      "sense_id": "SAMA-SENSE/satadiona/1",
+      "sama": "Satadiona bi na bano.",
+      "ru": "Стадион в городе."
+    },
+    {
+      "id": "SAMA-SENSE/hotela/1/example/1",
+      "lexeme_id": "SAMA-LEX/hotela",
+      "sense_id": "SAMA-SENSE/hotela/1",
+      "sama": "Mi bi na hotela.",
+      "ru": "Я в гостинице."
+    },
+    {
+      "id": "SAMA-SENSE/hotela/1/example/2",
+      "lexeme_id": "SAMA-LEX/hotela",
+      "sense_id": "SAMA-SENSE/hotela/1",
+      "sama": "Hotela bi na bano.",
+      "ru": "Гостиница в городе."
+    },
+    {
+      "id": "SAMA-SENSE/lesitona/1/example/1",
+      "lexeme_id": "SAMA-LEX/lesitona",
+      "sense_id": "SAMA-SENSE/lesitona/1",
+      "sama": "Mi bi na lesitona.",
+      "ru": "Я в ресторане."
+    },
+    {
+      "id": "SAMA-SENSE/lesitona/1/example/2",
+      "lexeme_id": "SAMA-LEX/lesitona",
+      "sense_id": "SAMA-SENSE/lesitona/1",
+      "sama": "Lesitona bi na bano.",
+      "ru": "Ресторан в городе."
+    },
+    {
+      "id": "SAMA-SENSE/kahena/1/example/1",
+      "lexeme_id": "SAMA-LEX/kahena",
+      "sense_id": "SAMA-SENSE/kahena/1",
+      "sama": "Mi bi na kahena.",
+      "ru": "Я в кафе."
+    },
+    {
+      "id": "SAMA-SENSE/kahena/1/example/2",
+      "lexeme_id": "SAMA-LEX/kahena",
+      "sense_id": "SAMA-SENSE/kahena/1",
+      "sama": "Kahena bi na bano.",
+      "ru": "Кафе в городе."
+    },
+    {
+      "id": "SAMA-SENSE/sahona/1/example/1",
+      "lexeme_id": "SAMA-LEX/sahona",
+      "sense_id": "SAMA-SENSE/sahona/1",
+      "sama": "Mi si sahona.",
+      "ru": "Я вижу почтовый ящик."
+    },
+    {
+      "id": "SAMA-SENSE/sahona/1/example/2",
+      "lexeme_id": "SAMA-LEX/sahona",
+      "sense_id": "SAMA-SENSE/sahona/1",
+      "sama": "Sahona bi na sitalina.",
+      "ru": "Почтовый ящик на улице."
+    },
+    {
+      "id": "SAMA-SENSE/busa/1/example/1",
+      "lexeme_id": "SAMA-LEX/busa",
+      "sense_id": "SAMA-SENSE/busa/1",
+      "sama": "Mi si busa.",
+      "ru": "Я вижу автобус."
+    },
+    {
+      "id": "SAMA-SENSE/busa/1/example/2",
+      "lexeme_id": "SAMA-LEX/busa",
+      "sense_id": "SAMA-SENSE/busa/1",
+      "sama": "Busa bi na sitalina.",
+      "ru": "Автобус на улице."
+    },
+    {
+      "id": "SAMA-SENSE/telena/1/example/1",
+      "lexeme_id": "SAMA-LEX/telena",
+      "sense_id": "SAMA-SENSE/telena/1",
+      "sama": "Mi si telena.",
+      "ru": "Я вижу поезд."
+    },
+    {
+      "id": "SAMA-SENSE/telena/1/example/2",
+      "lexeme_id": "SAMA-LEX/telena",
+      "sense_id": "SAMA-SENSE/telena/1",
+      "sama": "Telena bi na dasa.",
+      "ru": "Поезд на станции."
+    },
+    {
+      "id": "SAMA-SENSE/talama/1/example/1",
+      "lexeme_id": "SAMA-LEX/talama",
+      "sense_id": "SAMA-SENSE/talama/1",
+      "sama": "Mi si talama.",
+      "ru": "Я вижу трамвай."
+    },
+    {
+      "id": "SAMA-SENSE/talama/1/example/2",
+      "lexeme_id": "SAMA-LEX/talama",
+      "sense_id": "SAMA-SENSE/talama/1",
+      "sama": "Talama bi na bano.",
+      "ru": "Трамвай в городе."
+    },
+    {
+      "id": "SAMA-SENSE/metolo/1/example/1",
+      "lexeme_id": "SAMA-LEX/metolo",
+      "sense_id": "SAMA-SENSE/metolo/1",
+      "sama": "Metolo bi na bano.",
+      "ru": "Метро в городе."
+    },
+    {
+      "id": "SAMA-SENSE/metolo/1/example/2",
+      "lexeme_id": "SAMA-LEX/metolo",
+      "sense_id": "SAMA-SENSE/metolo/1",
+      "sama": "Mi si metolo.",
+      "ru": "Я вижу метро."
+    },
+    {
+      "id": "SAMA-SENSE/bisikela/1/example/1",
+      "lexeme_id": "SAMA-LEX/bisikela",
+      "sense_id": "SAMA-SENSE/bisikela/1",
+      "sama": "Mi si bisikela.",
+      "ru": "Я вижу велосипед."
+    },
+    {
+      "id": "SAMA-SENSE/bisikela/1/example/2",
+      "lexeme_id": "SAMA-LEX/bisikela",
+      "sense_id": "SAMA-SENSE/bisikela/1",
+      "sama": "Bisikela bi na kawalo.",
+      "ru": "Велосипед в гараже."
+    },
+    {
+      "id": "SAMA-SENSE/motokela/1/example/1",
+      "lexeme_id": "SAMA-LEX/motokela",
+      "sense_id": "SAMA-SENSE/motokela/1",
+      "sama": "Mi si motokela.",
+      "ru": "Я вижу мотоцикл."
+    },
+    {
+      "id": "SAMA-SENSE/motokela/1/example/2",
+      "lexeme_id": "SAMA-LEX/motokela",
+      "sense_id": "SAMA-SENSE/motokela/1",
+      "sama": "Motokela bi na kawalo.",
+      "ru": "Мотоцикл в гараже."
+    },
+    {
+      "id": "SAMA-SENSE/helina/1/example/1",
+      "lexeme_id": "SAMA-LEX/helina",
+      "sense_id": "SAMA-SENSE/helina/1",
+      "sama": "Mi si helina.",
+      "ru": "Я вижу паром."
+    },
+    {
+      "id": "SAMA-SENSE/helina/1/example/2",
+      "lexeme_id": "SAMA-LEX/helina",
+      "sense_id": "SAMA-SENSE/helina/1",
+      "sama": "Helina bi na sela.",
+      "ru": "Паром в море."
+    },
+    {
+      "id": "SAMA-SENSE/sipina/1/example/1",
+      "lexeme_id": "SAMA-LEX/sipina",
+      "sense_id": "SAMA-SENSE/sipina/1",
+      "sama": "Mi si sipina.",
+      "ru": "Я вижу судно."
+    },
+    {
+      "id": "SAMA-SENSE/sipina/1/example/2",
+      "lexeme_id": "SAMA-LEX/sipina",
+      "sense_id": "SAMA-SENSE/sipina/1",
+      "sama": "Sipina bi na osena.",
+      "ru": "Судно в океане."
+    },
+    {
+      "id": "SAMA-SENSE/bota/1/example/1",
+      "lexeme_id": "SAMA-LEX/bota",
+      "sense_id": "SAMA-SENSE/bota/1",
+      "sama": "Mi si bota.",
+      "ru": "Я вижу лодку."
+    },
+    {
+      "id": "SAMA-SENSE/bota/1/example/2",
+      "lexeme_id": "SAMA-LEX/bota",
+      "sense_id": "SAMA-SENSE/bota/1",
+      "sama": "Bota bi na laka.",
+      "ru": "Лодка на озере."
+    },
+    {
+      "id": "SAMA-SENSE/talaka/1/example/1",
+      "lexeme_id": "SAMA-LEX/talaka",
+      "sense_id": "SAMA-SENSE/talaka/1",
+      "sama": "Mi si talaka.",
+      "ru": "Я вижу грузовик."
+    },
+    {
+      "id": "SAMA-SENSE/talaka/1/example/2",
+      "lexeme_id": "SAMA-LEX/talaka",
+      "sense_id": "SAMA-SENSE/talaka/1",
+      "sama": "Talaka bi na sitalina.",
+      "ru": "Грузовик на улице."
+    },
+    {
+      "id": "SAMA-SENSE/takisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/takisa",
+      "sense_id": "SAMA-SENSE/takisa/1",
+      "sama": "Mi si takisa.",
+      "ru": "Я вижу такси."
+    },
+    {
+      "id": "SAMA-SENSE/takisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/takisa",
+      "sense_id": "SAMA-SENSE/takisa/1",
+      "sama": "Takisa bi na sitalina.",
+      "ru": "Такси на улице."
+    },
+    {
+      "id": "SAMA-SENSE/ayapota/1/example/1",
+      "lexeme_id": "SAMA-LEX/ayapota",
+      "sense_id": "SAMA-SENSE/ayapota/1",
+      "sama": "Mi bi na ayapota.",
+      "ru": "Я в аэропорту."
+    },
+    {
+      "id": "SAMA-SENSE/ayapota/1/example/2",
+      "lexeme_id": "SAMA-LEX/ayapota",
+      "sense_id": "SAMA-SENSE/ayapota/1",
+      "sama": "Pilo bi na ayapota.",
+      "ru": "Самолёт в аэропорту."
+    },
+    {
+      "id": "SAMA-SENSE/habala/1/example/1",
+      "lexeme_id": "SAMA-LEX/habala",
+      "sense_id": "SAMA-SENSE/habala/1",
+      "sama": "Mi bi na habala.",
+      "ru": "Я в морском порту."
+    },
+    {
+      "id": "SAMA-SENSE/habala/1/example/2",
+      "lexeme_id": "SAMA-LEX/habala",
+      "sense_id": "SAMA-SENSE/habala/1",
+      "sama": "Sipina bi na habala.",
+      "ru": "Судно в порту."
+    },
+    {
+      "id": "SAMA-SENSE/lelawaya/1/example/1",
+      "lexeme_id": "SAMA-LEX/lelawaya",
+      "sense_id": "SAMA-SENSE/lelawaya/1",
+      "sama": "Mi si lelawaya.",
+      "ru": "Я вижу железную дорогу."
+    },
+    {
+      "id": "SAMA-SENSE/lelawaya/1/example/2",
+      "lexeme_id": "SAMA-LEX/lelawaya",
+      "sense_id": "SAMA-SENSE/lelawaya/1",
+      "sama": "Telena bi na lelawaya.",
+      "ru": "Поезд на железной дороге."
+    },
+    {
+      "id": "SAMA-SENSE/tiketa/1/example/1",
+      "lexeme_id": "SAMA-LEX/tiketa",
+      "sense_id": "SAMA-SENSE/tiketa/1",
+      "sama": "Mi si tiketa.",
+      "ru": "Я вижу билет."
+    },
+    {
+      "id": "SAMA-SENSE/tiketa/1/example/2",
+      "lexeme_id": "SAMA-LEX/tiketa",
+      "sense_id": "SAMA-SENSE/tiketa/1",
+      "sama": "Tiketa bi nana balo.",
+      "ru": "Билет в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/sedina/1/example/1",
+      "lexeme_id": "SAMA-LEX/sedina",
+      "sense_id": "SAMA-SENSE/sedina/1",
+      "sama": "Mi si sedina.",
+      "ru": "Я вижу сиденье."
+    },
+    {
+      "id": "SAMA-SENSE/sedina/1/example/2",
+      "lexeme_id": "SAMA-LEX/sedina",
+      "sense_id": "SAMA-SENSE/sedina/1",
+      "sama": "Sedina bi nana busa.",
+      "ru": "Сиденье в автобусе."
+    },
+    {
+      "id": "SAMA-SENSE/dalawina/1/example/1",
+      "lexeme_id": "SAMA-LEX/dalawina",
+      "sense_id": "SAMA-SENSE/dalawina/1",
+      "sama": "Mi si dalawina.",
+      "ru": "Я вижу водителя."
+    },
+    {
+      "id": "SAMA-SENSE/dalawina/1/example/2",
+      "lexeme_id": "SAMA-LEX/dalawina",
+      "sense_id": "SAMA-SENSE/dalawina/1",
+      "sama": "Dalawina bi na busa.",
+      "ru": "Водитель в автобусе."
+    },
+    {
+      "id": "SAMA-SENSE/pasenila/1/example/1",
+      "lexeme_id": "SAMA-LEX/pasenila",
+      "sense_id": "SAMA-SENSE/pasenila/1",
+      "sama": "Mi si pasenila.",
+      "ru": "Я вижу пассажира."
+    },
+    {
+      "id": "SAMA-SENSE/pasenila/1/example/2",
+      "lexeme_id": "SAMA-LEX/pasenila",
+      "sense_id": "SAMA-SENSE/pasenila/1",
+      "sama": "Pasenila bi na busa.",
+      "ru": "Пассажир в автобусе."
+    },
+    {
+      "id": "SAMA-SENSE/lutena/1/example/1",
+      "lexeme_id": "SAMA-LEX/lutena",
+      "sense_id": "SAMA-SENSE/lutena/1",
+      "sama": "Mi tami lutena.",
+      "ru": "Я проверяю маршрут."
+    },
+    {
+      "id": "SAMA-SENSE/lutena/1/example/2",
+      "lexeme_id": "SAMA-LEX/lutena",
+      "sense_id": "SAMA-SENSE/lutena/1",
+      "sama": "Lutena bi yoma.",
+      "ru": "Маршрут важен."
+    },
+    {
+      "id": "SAMA-SENSE/talapika/1/example/1",
+      "lexeme_id": "SAMA-LEX/talapika",
+      "sense_id": "SAMA-SENSE/talapika/1",
+      "sama": "Talapika bi na sitalina.",
+      "ru": "На улице движение."
+    },
+    {
+      "id": "SAMA-SENSE/talapika/1/example/2",
+      "lexeme_id": "SAMA-LEX/talapika",
+      "sense_id": "SAMA-SENSE/talapika/1",
+      "sama": "Mi tami talapika.",
+      "ru": "Я проверяю дорожную ситуацию."
+    },
+    {
+      "id": "SAMA-SENSE/notela/1/example/1",
+      "lexeme_id": "SAMA-LEX/notela",
+      "sense_id": "SAMA-SENSE/notela/1",
+      "sama": "Mi wima mase na notela.",
+      "ru": "Я пишу сообщение в тетради."
+    },
+    {
+      "id": "SAMA-SENSE/notela/1/example/2",
+      "lexeme_id": "SAMA-LEX/notela",
+      "sense_id": "SAMA-SENSE/notela/1",
+      "sama": "Notela bi na mesa.",
+      "ru": "Тетрадь на столе."
+    },
+    {
+      "id": "SAMA-SENSE/penala/1/example/1",
+      "lexeme_id": "SAMA-LEX/penala",
+      "sense_id": "SAMA-SENSE/penala/1",
+      "sama": "Mi tako penala.",
+      "ru": "Я беру ручку."
+    },
+    {
+      "id": "SAMA-SENSE/penala/1/example/2",
+      "lexeme_id": "SAMA-LEX/penala",
+      "sense_id": "SAMA-SENSE/penala/1",
+      "sama": "Penala bi na mesa.",
+      "ru": "Ручка на столе."
+    },
+    {
+      "id": "SAMA-SENSE/penesele/1/example/1",
+      "lexeme_id": "SAMA-LEX/penesele",
+      "sense_id": "SAMA-SENSE/penesele/1",
+      "sama": "Mi tako penesele.",
+      "ru": "Я беру карандаш."
+    },
+    {
+      "id": "SAMA-SENSE/penesele/1/example/2",
+      "lexeme_id": "SAMA-LEX/penesele",
+      "sense_id": "SAMA-SENSE/penesele/1",
+      "sama": "Penesele bi nana balo.",
+      "ru": "Карандаш в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/elasina/1/example/1",
+      "lexeme_id": "SAMA-LEX/elasina",
+      "sense_id": "SAMA-SENSE/elasina/1",
+      "sama": "Mi tako elasina.",
+      "ru": "Я беру ластик."
+    },
+    {
+      "id": "SAMA-SENSE/elasina/1/example/2",
+      "lexeme_id": "SAMA-LEX/elasina",
+      "sense_id": "SAMA-SENSE/elasina/1",
+      "sama": "Elasina bi na mesa.",
+      "ru": "Ластик на столе."
+    },
+    {
+      "id": "SAMA-SENSE/takala/1/example/1",
+      "lexeme_id": "SAMA-LEX/takala",
+      "sense_id": "SAMA-SENSE/takala/1",
+      "sama": "Mi si takala.",
+      "ru": "Я вижу мел."
+    },
+    {
+      "id": "SAMA-SENSE/takala/1/example/2",
+      "lexeme_id": "SAMA-LEX/takala",
+      "sense_id": "SAMA-SENSE/takala/1",
+      "sama": "Takala bi na lasoma.",
+      "ru": "Мел в аудитории."
+    },
+    {
+      "id": "SAMA-SENSE/tabala/1/example/1",
+      "lexeme_id": "SAMA-LEX/tabala",
+      "sense_id": "SAMA-SENSE/tabala/1",
+      "sama": "Mi si tabala.",
+      "ru": "Я вижу доску."
+    },
+    {
+      "id": "SAMA-SENSE/tabala/1/example/2",
+      "lexeme_id": "SAMA-LEX/tabala",
+      "sense_id": "SAMA-SENSE/tabala/1",
+      "sama": "Tabala bi na lasoma.",
+      "ru": "Доска в аудитории."
+    },
+    {
+      "id": "SAMA-SENSE/desika/1/example/1",
+      "lexeme_id": "SAMA-LEX/desika",
+      "sense_id": "SAMA-SENSE/desika/1",
+      "sama": "Mi si desika.",
+      "ru": "Я вижу парту."
+    },
+    {
+      "id": "SAMA-SENSE/desika/1/example/2",
+      "lexeme_id": "SAMA-LEX/desika",
+      "sense_id": "SAMA-SENSE/desika/1",
+      "sama": "Desika bi na lasoma.",
+      "ru": "Парта в аудитории."
+    },
+    {
+      "id": "SAMA-SENSE/timetala/1/example/1",
+      "lexeme_id": "SAMA-LEX/timetala",
+      "sense_id": "SAMA-SENSE/timetala/1",
+      "sama": "Mi lita timetala.",
+      "ru": "Я читаю расписание."
+    },
+    {
+      "id": "SAMA-SENSE/timetala/1/example/2",
+      "lexeme_id": "SAMA-LEX/timetala",
+      "sense_id": "SAMA-SENSE/timetala/1",
+      "sama": "Timetala bi yoma.",
+      "ru": "Расписание важно."
+    },
+    {
+      "id": "SAMA-SENSE/kulikula/1/example/1",
+      "lexeme_id": "SAMA-LEX/kulikula",
+      "sense_id": "SAMA-SENSE/kulikula/1",
+      "sama": "Mi lita kulikula.",
+      "ru": "Я читаю учебную программу."
+    },
+    {
+      "id": "SAMA-SENSE/kulikula/1/example/2",
+      "lexeme_id": "SAMA-LEX/kulikula",
+      "sense_id": "SAMA-SENSE/kulikula/1",
+      "sama": "Kulikula bi yoma.",
+      "ru": "Программа важна."
+    },
+    {
+      "id": "SAMA-SENSE/semesetela/1/example/1",
+      "lexeme_id": "SAMA-LEX/semesetela",
+      "sense_id": "SAMA-SENSE/semesetela/1",
+      "sama": "Semesetela bi na yala.",
+      "ru": "Семестр бывает в году."
+    },
+    {
+      "id": "SAMA-SENSE/semesetela/1/example/2",
+      "lexeme_id": "SAMA-LEX/semesetela",
+      "sense_id": "SAMA-SENSE/semesetela/1",
+      "sama": "Mi tami semesetela.",
+      "ru": "Я проверяю семестр."
+    },
+    {
+      "id": "SAMA-SENSE/mesola/1/example/1",
+      "lexeme_id": "SAMA-LEX/mesola",
+      "sense_id": "SAMA-SENSE/mesola/1",
+      "sama": "Mesola de dani bi yoma.",
+      "ru": "Специальность ученика важна."
+    },
+    {
+      "id": "SAMA-SENSE/mesola/1/example/2",
+      "lexeme_id": "SAMA-LEX/mesola",
+      "sense_id": "SAMA-SENSE/mesola/1",
+      "sama": "Mi si mesola.",
+      "ru": "Я вижу специальность."
+    },
+    {
+      "id": "SAMA-SENSE/depata/1/example/1",
+      "lexeme_id": "SAMA-LEX/depata",
+      "sense_id": "SAMA-SENSE/depata/1",
+      "sama": "Depata bi na unisa.",
+      "ru": "Кафедра в университете."
+    },
+    {
+      "id": "SAMA-SENSE/depata/1/example/2",
+      "lexeme_id": "SAMA-LEX/depata",
+      "sense_id": "SAMA-SENSE/depata/1",
+      "sama": "Lenu bi na depata.",
+      "ru": "Преподаватель на кафедре."
+    },
+    {
+      "id": "SAMA-SENSE/silabusa/1/example/1",
+      "lexeme_id": "SAMA-LEX/silabusa",
+      "sense_id": "SAMA-SENSE/silabusa/1",
+      "sama": "Mi lita silabusa.",
+      "ru": "Я читаю план курса."
+    },
+    {
+      "id": "SAMA-SENSE/silabusa/1/example/2",
+      "lexeme_id": "SAMA-LEX/silabusa",
+      "sense_id": "SAMA-SENSE/silabusa/1",
+      "sama": "Silabusa bi na mesa.",
+      "ru": "План курса на столе."
+    },
+    {
+      "id": "SAMA-SENSE/esaya/1/example/1",
+      "lexeme_id": "SAMA-LEX/esaya",
+      "sense_id": "SAMA-SENSE/esaya/1",
+      "sama": "Mi wima esaya.",
+      "ru": "Я пишу эссе."
+    },
+    {
+      "id": "SAMA-SENSE/esaya/1/example/2",
+      "lexeme_id": "SAMA-LEX/esaya",
+      "sense_id": "SAMA-SENSE/esaya/1",
+      "sama": "Mi lita esaya.",
+      "ru": "Я читаю эссе."
+    },
+    {
+      "id": "SAMA-SENSE/tesisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/tesisa",
+      "sense_id": "SAMA-SENSE/tesisa/1",
+      "sama": "Mi lita tesisa.",
+      "ru": "Я читаю диссертацию."
+    },
+    {
+      "id": "SAMA-SENSE/tesisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/tesisa",
+      "sense_id": "SAMA-SENSE/tesisa/1",
+      "sama": "Tesisa bi na mesa.",
+      "ru": "Диссертация на столе."
+    },
+    {
+      "id": "SAMA-SENSE/setihikata/1/example/1",
+      "lexeme_id": "SAMA-LEX/setihikata",
+      "sense_id": "SAMA-SENSE/setihikata/1",
+      "sama": "Mi si setihikata.",
+      "ru": "Я вижу сертификат."
+    },
+    {
+      "id": "SAMA-SENSE/setihikata/1/example/2",
+      "lexeme_id": "SAMA-LEX/setihikata",
+      "sense_id": "SAMA-SENSE/setihikata/1",
+      "sama": "Setihikata bi nana balo.",
+      "ru": "Сертификат в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/libatika/1/example/1",
+      "lexeme_id": "SAMA-LEX/libatika",
+      "sense_id": "SAMA-SENSE/libatika/1",
+      "sama": "Mi si libatika.",
+      "ru": "Я вижу читательский билет."
+    },
+    {
+      "id": "SAMA-SENSE/libatika/1/example/2",
+      "lexeme_id": "SAMA-LEX/libatika",
+      "sense_id": "SAMA-SENSE/libatika/1",
+      "sama": "Libatika bi nana balo.",
+      "ru": "Билет в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/nimasena/1/example/1",
+      "lexeme_id": "SAMA-LEX/nimasena",
+      "sense_id": "SAMA-SENSE/nimasena/1",
+      "sama": "Nimasena bi yoma.",
+      "ru": "Знания важны."
+    },
+    {
+      "id": "SAMA-SENSE/nimasena/1/example/2",
+      "lexeme_id": "SAMA-LEX/nimasena",
+      "sense_id": "SAMA-SENSE/nimasena/1",
+      "sama": "Mi tami nimasena.",
+      "ru": "Я проверяю знания."
+    },
+    {
+      "id": "SAMA-SENSE/sitakela/1/example/1",
+      "lexeme_id": "SAMA-LEX/sitakela",
+      "sense_id": "SAMA-SENSE/sitakela/1",
+      "sama": "Sitakela bi yoma.",
+      "ru": "Навык важен."
+    },
+    {
+      "id": "SAMA-SENSE/sitakela/1/example/2",
+      "lexeme_id": "SAMA-LEX/sitakela",
+      "sense_id": "SAMA-SENSE/sitakela/1",
+      "sama": "Mi tami sitakela.",
+      "ru": "Я проверяю навык."
+    },
+    {
+      "id": "SAMA-SENSE/temala/1/example/1",
+      "lexeme_id": "SAMA-LEX/temala",
+      "sense_id": "SAMA-SENSE/temala/1",
+      "sama": "Temala bi na kulikula.",
+      "ru": "Предмет входит в учебную программу."
+    },
+    {
+      "id": "SAMA-SENSE/temala/1/example/2",
+      "lexeme_id": "SAMA-LEX/temala",
+      "sense_id": "SAMA-SENSE/temala/1",
+      "sama": "Mi lita temala.",
+      "ru": "Я читаю тему предмета."
+    },
+    {
+      "id": "SAMA-SENSE/pahila/1/example/1",
+      "lexeme_id": "SAMA-LEX/pahila",
+      "sense_id": "SAMA-SENSE/pahila/1",
+      "sama": "Mi si pahila.",
+      "ru": "Я вижу фабрику."
+    },
+    {
+      "id": "SAMA-SENSE/pahila/1/example/2",
+      "lexeme_id": "SAMA-LEX/pahila",
+      "sense_id": "SAMA-SENSE/pahila/1",
+      "sama": "Pahila bi na bano.",
+      "ru": "Фабрика в городе."
+    },
+    {
+      "id": "SAMA-SENSE/suwina/1/example/1",
+      "lexeme_id": "SAMA-LEX/suwina",
+      "sense_id": "SAMA-SENSE/suwina/1",
+      "sama": "Mi bi na suwina.",
+      "ru": "Я в мастерской."
+    },
+    {
+      "id": "SAMA-SENSE/suwina/1/example/2",
+      "lexeme_id": "SAMA-LEX/suwina",
+      "sense_id": "SAMA-SENSE/suwina/1",
+      "sama": "Suwina bi na bano.",
+      "ru": "Мастерская в городе."
+    },
+    {
+      "id": "SAMA-SENSE/wokala/1/example/1",
+      "lexeme_id": "SAMA-LEX/wokala",
+      "sense_id": "SAMA-SENSE/wokala/1",
+      "sama": "Mi bi na wokala.",
+      "ru": "Я на рабочем месте."
+    },
+    {
+      "id": "SAMA-SENSE/wokala/1/example/2",
+      "lexeme_id": "SAMA-LEX/wokala",
+      "sense_id": "SAMA-SENSE/wokala/1",
+      "sama": "Wokala bi na kapo.",
+      "ru": "Рабочее место в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/salaya/1/example/1",
+      "lexeme_id": "SAMA-LEX/salaya",
+      "sense_id": "SAMA-SENSE/salaya/1",
+      "sama": "Salaya bi yoma.",
+      "ru": "Зарплата важна."
+    },
+    {
+      "id": "SAMA-SENSE/salaya/1/example/2",
+      "lexeme_id": "SAMA-LEX/salaya",
+      "sense_id": "SAMA-SENSE/salaya/1",
+      "sama": "Mi tami salaya.",
+      "ru": "Я проверяю зарплату."
+    },
+    {
+      "id": "SAMA-SENSE/konetela/1/example/1",
+      "lexeme_id": "SAMA-LEX/konetela",
+      "sense_id": "SAMA-SENSE/konetela/1",
+      "sama": "Mi lita konetela.",
+      "ru": "Я читаю трудовой договор."
+    },
+    {
+      "id": "SAMA-SENSE/konetela/1/example/2",
+      "lexeme_id": "SAMA-LEX/konetela",
+      "sense_id": "SAMA-SENSE/konetela/1",
+      "sama": "Konetela bi na mesa.",
+      "ru": "Договор на столе."
+    },
+    {
+      "id": "SAMA-SENSE/limana/1/example/1",
+      "lexeme_id": "SAMA-LEX/limana",
+      "sense_id": "SAMA-SENSE/limana/1",
+      "sama": "Limana bi yoma.",
+      "ru": "Срок важен."
+    },
+    {
+      "id": "SAMA-SENSE/limana/1/example/2",
+      "lexeme_id": "SAMA-LEX/limana",
+      "sense_id": "SAMA-SENSE/limana/1",
+      "sama": "Mi tami limana.",
+      "ru": "Я проверяю срок."
+    },
+    {
+      "id": "SAMA-SENSE/metina/1/example/1",
+      "lexeme_id": "SAMA-LEX/metina",
+      "sense_id": "SAMA-SENSE/metina/1",
+      "sama": "Metina bi na kapo.",
+      "ru": "Совещание в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/metina/1/example/2",
+      "lexeme_id": "SAMA-LEX/metina",
+      "sense_id": "SAMA-SENSE/metina/1",
+      "sama": "Metina bi yoma.",
+      "ru": "Совещание важно."
+    },
+    {
+      "id": "SAMA-SENSE/owela/1/example/1",
+      "lexeme_id": "SAMA-LEX/owela",
+      "sense_id": "SAMA-SENSE/owela/1",
+      "sama": "Mi wima owela.",
+      "ru": "Я оформляю заказ."
+    },
+    {
+      "id": "SAMA-SENSE/owela/1/example/2",
+      "lexeme_id": "SAMA-LEX/owela",
+      "sense_id": "SAMA-SENSE/owela/1",
+      "sama": "Mi tami owela.",
+      "ru": "Я проверяю заказ."
+    },
+    {
+      "id": "SAMA-SENSE/kilienata/1/example/1",
+      "lexeme_id": "SAMA-LEX/kilienata",
+      "sense_id": "SAMA-SENSE/kilienata/1",
+      "sama": "Kilienata bi na kapo.",
+      "ru": "Клиент в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/kilienata/1/example/2",
+      "lexeme_id": "SAMA-LEX/kilienata",
+      "sense_id": "SAMA-SENSE/kilienata/1",
+      "sama": "Mi si kilienata.",
+      "ru": "Я вижу клиента."
+    },
+    {
+      "id": "SAMA-SENSE/peloyeka/1/example/1",
+      "lexeme_id": "SAMA-LEX/peloyeka",
+      "sense_id": "SAMA-SENSE/peloyeka/1",
+      "sama": "Peloyeka bi yoma.",
+      "ru": "Проект важен."
+    },
+    {
+      "id": "SAMA-SENSE/peloyeka/1/example/2",
+      "lexeme_id": "SAMA-LEX/peloyeka",
+      "sense_id": "SAMA-SENSE/peloyeka/1",
+      "sama": "Mi tami peloyeka.",
+      "ru": "Я проверяю проект."
+    },
+    {
+      "id": "SAMA-SENSE/lepota/1/example/1",
+      "lexeme_id": "SAMA-LEX/lepota",
+      "sense_id": "SAMA-SENSE/lepota/1",
+      "sama": "Mi lita lepota.",
+      "ru": "Я читаю отчёт."
+    },
+    {
+      "id": "SAMA-SENSE/lepota/1/example/2",
+      "lexeme_id": "SAMA-LEX/lepota",
+      "sense_id": "SAMA-SENSE/lepota/1",
+      "sama": "Mi wima lepota.",
+      "ru": "Я пишу отчёт."
+    },
+    {
+      "id": "SAMA-SENSE/hohona/1/example/1",
+      "lexeme_id": "SAMA-LEX/hohona",
+      "sense_id": "SAMA-SENSE/hohona/1",
+      "sama": "Hohona bi na dina.",
+      "ru": "Смена проходит в течение суток."
+    },
+    {
+      "id": "SAMA-SENSE/hohona/1/example/2",
+      "lexeme_id": "SAMA-LEX/hohona",
+      "sense_id": "SAMA-SENSE/hohona/1",
+      "sama": "Mi tami hohona.",
+      "ru": "Я проверяю смену."
+    },
+    {
+      "id": "SAMA-SENSE/holina/1/example/1",
+      "lexeme_id": "SAMA-LEX/holina",
+      "sense_id": "SAMA-SENSE/holina/1",
+      "sama": "Holina bi yoma.",
+      "ru": "Отпуск важен."
+    },
+    {
+      "id": "SAMA-SENSE/holina/1/example/2",
+      "lexeme_id": "SAMA-LEX/holina",
+      "sense_id": "SAMA-SENSE/holina/1",
+      "sama": "Mi tami holina.",
+      "ru": "Я проверяю отпуск."
+    },
+    {
+      "id": "SAMA-SENSE/wesala/1/example/1",
+      "lexeme_id": "SAMA-LEX/wesala",
+      "sense_id": "SAMA-SENSE/wesala/1",
+      "sama": "Mi bi na wesala.",
+      "ru": "Я на складе."
+    },
+    {
+      "id": "SAMA-SENSE/wesala/1/example/2",
+      "lexeme_id": "SAMA-LEX/wesala",
+      "sense_id": "SAMA-SENSE/wesala/1",
+      "sama": "Wesala bi daba.",
+      "ru": "Склад большой."
+    },
+    {
+      "id": "SAMA-SENSE/lewana/1/example/1",
+      "lexeme_id": "SAMA-LEX/lewana",
+      "sense_id": "SAMA-SENSE/lewana/1",
+      "sama": "Mi si lewana.",
+      "ru": "Я вижу коллегу."
+    },
+    {
+      "id": "SAMA-SENSE/lewana/1/example/2",
+      "lexeme_id": "SAMA-LEX/lewana",
+      "sense_id": "SAMA-SENSE/lewana/1",
+      "sama": "Lewana bi na kapo.",
+      "ru": "Коллега в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/wosina/1/example/1",
+      "lexeme_id": "SAMA-LEX/wosina",
+      "sense_id": "SAMA-SENSE/wosina/1",
+      "sama": "Wosina bi yoma.",
+      "ru": "Профессия важна."
+    },
+    {
+      "id": "SAMA-SENSE/wosina/1/example/2",
+      "lexeme_id": "SAMA-LEX/wosina",
+      "sense_id": "SAMA-SENSE/wosina/1",
+      "sama": "Mi tami wosina.",
+      "ru": "Я оцениваю профессию."
+    },
+    {
+      "id": "SAMA-SENSE/woneta/1/example/1",
+      "lexeme_id": "SAMA-LEX/woneta",
+      "sense_id": "SAMA-SENSE/woneta/1",
+      "sama": "Mi bi na woneta.",
+      "ru": "Я на удалённом рабочем месте."
+    },
+    {
+      "id": "SAMA-SENSE/woneta/1/example/2",
+      "lexeme_id": "SAMA-LEX/woneta",
+      "sense_id": "SAMA-SENSE/woneta/1",
+      "sama": "Woneta bi na doma.",
+      "ru": "Удалённое место дома."
+    },
+    {
+      "id": "SAMA-SENSE/wokata/1/example/1",
+      "lexeme_id": "SAMA-LEX/wokata",
+      "sense_id": "SAMA-SENSE/wokata/1",
+      "sama": "Mi tami wokata.",
+      "ru": "Я проверяю график работы."
+    },
+    {
+      "id": "SAMA-SENSE/wokata/1/example/2",
+      "lexeme_id": "SAMA-LEX/wokata",
+      "sense_id": "SAMA-SENSE/wokata/1",
+      "sama": "Wokata bi yoma.",
+      "ru": "График работы важен."
+    },
+    {
+      "id": "SAMA-SENSE/pasala/1/example/1",
+      "lexeme_id": "SAMA-LEX/pasala",
+      "sense_id": "SAMA-SENSE/pasala/1",
+      "sama": "Mi lita pasala.",
+      "ru": "Я читаю счёт."
+    },
+    {
+      "id": "SAMA-SENSE/pasala/1/example/2",
+      "lexeme_id": "SAMA-LEX/pasala",
+      "sense_id": "SAMA-SENSE/pasala/1",
+      "sama": "Mi wima pasala.",
+      "ru": "Я составляю счёт."
+    },
+    {
+      "id": "SAMA-SENSE/kawita/1/example/1",
+      "lexeme_id": "SAMA-LEX/kawita",
+      "sense_id": "SAMA-SENSE/kawita/1",
+      "sama": "Kawita bi yoma.",
+      "ru": "Карьера важна."
+    },
+    {
+      "id": "SAMA-SENSE/kawita/1/example/2",
+      "lexeme_id": "SAMA-LEX/kawita",
+      "sense_id": "SAMA-SENSE/kawita/1",
+      "sama": "Mi tami kawita.",
+      "ru": "Я анализирую карьеру."
+    },
+    {
+      "id": "SAMA-SENSE/imeila/1/example/1",
+      "lexeme_id": "SAMA-LEX/imeila",
+      "sense_id": "SAMA-SENSE/imeila/1",
+      "sama": "Mi wima imeila.",
+      "ru": "Я пишу электронное письмо."
+    },
+    {
+      "id": "SAMA-SENSE/imeila/1/example/2",
+      "lexeme_id": "SAMA-LEX/imeila",
+      "sense_id": "SAMA-SENSE/imeila/1",
+      "sama": "Mi lita imeila.",
+      "ru": "Я читаю электронное письмо."
+    },
+    {
+      "id": "SAMA-SENSE/letela/1/example/1",
+      "lexeme_id": "SAMA-LEX/letela",
+      "sense_id": "SAMA-SENSE/letela/1",
+      "sama": "Mi wima letela.",
+      "ru": "Я пишу бумажное письмо."
+    },
+    {
+      "id": "SAMA-SENSE/letela/1/example/2",
+      "lexeme_id": "SAMA-LEX/letela",
+      "sense_id": "SAMA-SENSE/letela/1",
+      "sama": "Letela bi nana balo.",
+      "ru": "Письмо в сумке."
+    },
+    {
+      "id": "SAMA-SENSE/enewala/1/example/1",
+      "lexeme_id": "SAMA-LEX/enewala",
+      "sense_id": "SAMA-SENSE/enewala/1",
+      "sama": "Mi si enewala.",
+      "ru": "Я вижу конверт."
+    },
+    {
+      "id": "SAMA-SENSE/enewala/1/example/2",
+      "lexeme_id": "SAMA-LEX/enewala",
+      "sense_id": "SAMA-SENSE/enewala/1",
+      "sama": "Letela bi nana enewala.",
+      "ru": "Письмо внутри конверта."
+    },
+    {
+      "id": "SAMA-SENSE/adesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/adesa",
+      "sense_id": "SAMA-SENSE/adesa/1",
+      "sama": "Mi wima adesa.",
+      "ru": "Я пишу адрес."
+    },
+    {
+      "id": "SAMA-SENSE/adesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/adesa",
+      "sense_id": "SAMA-SENSE/adesa/1",
+      "sama": "Mi tami adesa.",
+      "ru": "Я проверяю адрес."
+    },
+    {
+      "id": "SAMA-SENSE/anonasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/anonasa",
+      "sense_id": "SAMA-SENSE/anonasa/1",
+      "sama": "Mi lita anonasa.",
+      "ru": "Я читаю объявление."
+    },
+    {
+      "id": "SAMA-SENSE/anonasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/anonasa",
+      "sense_id": "SAMA-SENSE/anonasa/1",
+      "sama": "Anonasa bi na paka.",
+      "ru": "Объявление на стене."
+    },
+    {
+      "id": "SAMA-SENSE/inawita/1/example/1",
+      "lexeme_id": "SAMA-LEX/inawita",
+      "sense_id": "SAMA-SENSE/inawita/1",
+      "sama": "Mi lita inawita.",
+      "ru": "Я читаю приглашение."
+    },
+    {
+      "id": "SAMA-SENSE/inawita/1/example/2",
+      "lexeme_id": "SAMA-LEX/inawita",
+      "sense_id": "SAMA-SENSE/inawita/1",
+      "sama": "Inawita bi na mesa.",
+      "ru": "Приглашение на столе."
+    },
+    {
+      "id": "SAMA-SENSE/tokama/1/example/1",
+      "lexeme_id": "SAMA-LEX/tokama",
+      "sense_id": "SAMA-SENSE/tokama/1",
+      "sama": "Tokama bi yoma.",
+      "ru": "Разговор важен."
+    },
+    {
+      "id": "SAMA-SENSE/tokama/1/example/2",
+      "lexeme_id": "SAMA-LEX/tokama",
+      "sense_id": "SAMA-SENSE/tokama/1",
+      "sama": "Mi mima tokama.",
+      "ru": "Я помню разговор."
+    },
+    {
+      "id": "SAMA-SENSE/inatawiya/1/example/1",
+      "lexeme_id": "SAMA-LEX/inatawiya",
+      "sense_id": "SAMA-SENSE/inatawiya/1",
+      "sama": "Mi lita inatawiya.",
+      "ru": "Я читаю интервью."
+    },
+    {
+      "id": "SAMA-SENSE/inatawiya/1/example/2",
+      "lexeme_id": "SAMA-LEX/inatawiya",
+      "sense_id": "SAMA-SENSE/inatawiya/1",
+      "sama": "Inatawiya bi yoma.",
+      "ru": "Интервью важно."
+    },
+    {
+      "id": "SAMA-SENSE/disikusa/1/example/1",
+      "lexeme_id": "SAMA-LEX/disikusa",
+      "sense_id": "SAMA-SENSE/disikusa/1",
+      "sama": "Disikusa bi na kapo.",
+      "ru": "Дискуссия в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/disikusa/1/example/2",
+      "lexeme_id": "SAMA-LEX/disikusa",
+      "sense_id": "SAMA-SENSE/disikusa/1",
+      "sama": "Disikusa bi yoma.",
+      "ru": "Дискуссия важна."
+    },
+    {
+      "id": "SAMA-SENSE/alumena/1/example/1",
+      "lexeme_id": "SAMA-LEX/alumena",
+      "sense_id": "SAMA-SENSE/alumena/1",
+      "sama": "Mi tami alumena.",
+      "ru": "Я проверяю довод."
+    },
+    {
+      "id": "SAMA-SENSE/alumena/1/example/2",
+      "lexeme_id": "SAMA-LEX/alumena",
+      "sense_id": "SAMA-SENSE/alumena/1",
+      "sama": "Alumena bi yoma.",
+      "ru": "Довод важен."
+    },
+    {
+      "id": "SAMA-SENSE/akenama/1/example/1",
+      "lexeme_id": "SAMA-LEX/akenama",
+      "sense_id": "SAMA-SENSE/akenama/1",
+      "sama": "Akenama bi yoma.",
+      "ru": "Согласие важно."
+    },
+    {
+      "id": "SAMA-SENSE/akenama/1/example/2",
+      "lexeme_id": "SAMA-LEX/akenama",
+      "sense_id": "SAMA-SENSE/akenama/1",
+      "sama": "Mi tami akenama.",
+      "ru": "Я проверяю согласие."
+    },
+    {
+      "id": "SAMA-SENSE/lumola/1/example/1",
+      "lexeme_id": "SAMA-LEX/lumola",
+      "sense_id": "SAMA-SENSE/lumola/1",
+      "sama": "Mi saya lumola.",
+      "ru": "Я слышу слух."
+    },
+    {
+      "id": "SAMA-SENSE/lumola/1/example/2",
+      "lexeme_id": "SAMA-LEX/lumola",
+      "sense_id": "SAMA-SENSE/lumola/1",
+      "sama": "Lumola bi malo.",
+      "ru": "Слух плохой."
+    },
+    {
+      "id": "SAMA-SENSE/polomesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/polomesa",
+      "sense_id": "SAMA-SENSE/polomesa/1",
+      "sama": "Mi mima polomesa.",
+      "ru": "Я помню обещание."
+    },
+    {
+      "id": "SAMA-SENSE/polomesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/polomesa",
+      "sense_id": "SAMA-SENSE/polomesa/1",
+      "sama": "Polomesa bi yoma.",
+      "ru": "Обещание важно."
+    },
+    {
+      "id": "SAMA-SENSE/lekasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lekasa",
+      "sense_id": "SAMA-SENSE/lekasa/1",
+      "sama": "Mi lita lekasa.",
+      "ru": "Я читаю просьбу."
+    },
+    {
+      "id": "SAMA-SENSE/lekasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lekasa",
+      "sense_id": "SAMA-SENSE/lekasa/1",
+      "sama": "Lekasa bi yoma.",
+      "ru": "Просьба важна."
+    },
+    {
+      "id": "SAMA-SENSE/apoloka/1/example/1",
+      "lexeme_id": "SAMA-LEX/apoloka",
+      "sense_id": "SAMA-SENSE/apoloka/1",
+      "sama": "Mi lita apoloka.",
+      "ru": "Я читаю извинение."
+    },
+    {
+      "id": "SAMA-SENSE/apoloka/1/example/2",
+      "lexeme_id": "SAMA-LEX/apoloka",
+      "sense_id": "SAMA-SENSE/apoloka/1",
+      "sama": "Apoloka bi yoma.",
+      "ru": "Извинение важно."
+    },
+    {
+      "id": "SAMA-SENSE/komapala/1/example/1",
+      "lexeme_id": "SAMA-LEX/komapala",
+      "sense_id": "SAMA-SENSE/komapala/1",
+      "sama": "Mi lita komapala.",
+      "ru": "Я читаю жалобу."
+    },
+    {
+      "id": "SAMA-SENSE/komapala/1/example/2",
+      "lexeme_id": "SAMA-LEX/komapala",
+      "sense_id": "SAMA-SENSE/komapala/1",
+      "sama": "Mi tami komapala.",
+      "ru": "Я проверяю жалобу."
+    },
+    {
+      "id": "SAMA-SENSE/hipaka/1/example/1",
+      "lexeme_id": "SAMA-LEX/hipaka",
+      "sense_id": "SAMA-SENSE/hipaka/1",
+      "sama": "Mi lita hipaka.",
+      "ru": "Я читаю обратную связь."
+    },
+    {
+      "id": "SAMA-SENSE/hipaka/1/example/2",
+      "lexeme_id": "SAMA-LEX/hipaka",
+      "sense_id": "SAMA-SENSE/hipaka/1",
+      "sama": "Hipaka bi yoma.",
+      "ru": "Обратная связь важна."
+    },
+    {
+      "id": "SAMA-SENSE/talakoma/1/example/1",
+      "lexeme_id": "SAMA-LEX/talakoma",
+      "sense_id": "SAMA-SENSE/talakoma/1",
+      "sama": "Mi lita talakoma.",
+      "ru": "Я читаю перевод."
+    },
+    {
+      "id": "SAMA-SENSE/talakoma/1/example/2",
+      "lexeme_id": "SAMA-LEX/talakoma",
+      "sense_id": "SAMA-SENSE/talakoma/1",
+      "sama": "Mi tami talakoma.",
+      "ru": "Я проверяю перевод."
+    },
+    {
+      "id": "SAMA-SENSE/dikasona/1/example/1",
+      "lexeme_id": "SAMA-LEX/dikasona",
+      "sense_id": "SAMA-SENSE/dikasona/1",
+      "sama": "Mi lita dikasona.",
+      "ru": "Я читаю словарь."
+    },
+    {
+      "id": "SAMA-SENSE/dikasona/1/example/2",
+      "lexeme_id": "SAMA-LEX/dikasona",
+      "sense_id": "SAMA-SENSE/dikasona/1",
+      "sama": "Dikasona bi na mesa.",
+      "ru": "Словарь на столе."
+    },
+    {
+      "id": "SAMA-SENSE/senetena/1/example/1",
+      "lexeme_id": "SAMA-LEX/senetena",
+      "sense_id": "SAMA-SENSE/senetena/1",
+      "sama": "Mi wima senetena.",
+      "ru": "Я пишу предложение."
+    },
+    {
+      "id": "SAMA-SENSE/senetena/1/example/2",
+      "lexeme_id": "SAMA-LEX/senetena",
+      "sense_id": "SAMA-SENSE/senetena/1",
+      "sama": "Mi lita senetena.",
+      "ru": "Я читаю предложение."
+    },
+    {
+      "id": "SAMA-SENSE/musika/1/example/1",
+      "lexeme_id": "SAMA-LEX/musika",
+      "sense_id": "SAMA-SENSE/musika/1",
+      "sama": "Mi saya musika.",
+      "ru": "Я слушаю музыку."
+    },
+    {
+      "id": "SAMA-SENSE/musika/1/example/2",
+      "lexeme_id": "SAMA-LEX/musika",
+      "sense_id": "SAMA-SENSE/musika/1",
+      "sama": "Musika bi bali.",
+      "ru": "Музыка красивая."
+    },
+    {
+      "id": "SAMA-SENSE/sonika/1/example/1",
+      "lexeme_id": "SAMA-LEX/sonika",
+      "sense_id": "SAMA-SENSE/sonika/1",
+      "sama": "Mi saya sonika.",
+      "ru": "Я слушаю песню."
+    },
+    {
+      "id": "SAMA-SENSE/sonika/1/example/2",
+      "lexeme_id": "SAMA-LEX/sonika",
+      "sense_id": "SAMA-SENSE/sonika/1",
+      "sama": "Sonika bi bali.",
+      "ru": "Песня красивая."
+    },
+    {
+      "id": "SAMA-SENSE/pinetela/1/example/1",
+      "lexeme_id": "SAMA-LEX/pinetela",
+      "sense_id": "SAMA-SENSE/pinetela/1",
+      "sama": "Mi si pinetela.",
+      "ru": "Я вижу картину."
+    },
+    {
+      "id": "SAMA-SENSE/pinetela/1/example/2",
+      "lexeme_id": "SAMA-LEX/pinetela",
+      "sense_id": "SAMA-SENSE/pinetela/1",
+      "sama": "Pinetela bi na paka.",
+      "ru": "Картина на стене."
+    },
+    {
+      "id": "SAMA-SENSE/sokulita/1/example/1",
+      "lexeme_id": "SAMA-LEX/sokulita",
+      "sense_id": "SAMA-SENSE/sokulita/1",
+      "sama": "Mi si sokulita.",
+      "ru": "Я вижу скульптуру."
+    },
+    {
+      "id": "SAMA-SENSE/sokulita/1/example/2",
+      "lexeme_id": "SAMA-LEX/sokulita",
+      "sense_id": "SAMA-SENSE/sokulita/1",
+      "sama": "Sokulita bi na museo.",
+      "ru": "Скульптура в музее."
+    },
+    {
+      "id": "SAMA-SENSE/danasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/danasa",
+      "sense_id": "SAMA-SENSE/danasa/1",
+      "sama": "Mi si danasa.",
+      "ru": "Я вижу танец."
+    },
+    {
+      "id": "SAMA-SENSE/danasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/danasa",
+      "sense_id": "SAMA-SENSE/danasa/1",
+      "sama": "Danasa bi na teyato.",
+      "ru": "Танец в театре."
+    },
+    {
+      "id": "SAMA-SENSE/poema/1/example/1",
+      "lexeme_id": "SAMA-LEX/poema",
+      "sense_id": "SAMA-SENSE/poema/1",
+      "sama": "Mi lita poema.",
+      "ru": "Я читаю стихотворение."
+    },
+    {
+      "id": "SAMA-SENSE/poema/1/example/2",
+      "lexeme_id": "SAMA-LEX/poema",
+      "sense_id": "SAMA-SENSE/poema/1",
+      "sama": "Poema bi bali.",
+      "ru": "Стихотворение красивое."
+    },
+    {
+      "id": "SAMA-SENSE/nowela/1/example/1",
+      "lexeme_id": "SAMA-LEX/nowela",
+      "sense_id": "SAMA-SENSE/nowela/1",
+      "sama": "Mi lita nowela.",
+      "ru": "Я читаю роман."
+    },
+    {
+      "id": "SAMA-SENSE/nowela/1/example/2",
+      "lexeme_id": "SAMA-LEX/nowela",
+      "sense_id": "SAMA-SENSE/nowela/1",
+      "sama": "Nowela bi na mesa.",
+      "ru": "Роман на столе."
+    },
+    {
+      "id": "SAMA-SENSE/sitoli/1/example/1",
+      "lexeme_id": "SAMA-LEX/sitoli",
+      "sense_id": "SAMA-SENSE/sitoli/1",
+      "sama": "Mi lita sitoli.",
+      "ru": "Я читаю рассказ."
+    },
+    {
+      "id": "SAMA-SENSE/sitoli/1/example/2",
+      "lexeme_id": "SAMA-LEX/sitoli",
+      "sense_id": "SAMA-SENSE/sitoli/1",
+      "sama": "Sitoli bi bona.",
+      "ru": "Рассказ хороший."
+    },
+    {
+      "id": "SAMA-SENSE/akato/1/example/1",
+      "lexeme_id": "SAMA-LEX/akato",
+      "sense_id": "SAMA-SENSE/akato/1",
+      "sama": "Mi si akato.",
+      "ru": "Я вижу актёра."
+    },
+    {
+      "id": "SAMA-SENSE/akato/1/example/2",
+      "lexeme_id": "SAMA-LEX/akato",
+      "sense_id": "SAMA-SENSE/akato/1",
+      "sama": "Akato bi na teyato.",
+      "ru": "Актёр в театре."
+    },
+    {
+      "id": "SAMA-SENSE/dilekota/1/example/1",
+      "lexeme_id": "SAMA-LEX/dilekota",
+      "sense_id": "SAMA-SENSE/dilekota/1",
+      "sama": "Mi si dilekota.",
+      "ru": "Я вижу режиссёра."
+    },
+    {
+      "id": "SAMA-SENSE/dilekota/1/example/2",
+      "lexeme_id": "SAMA-LEX/dilekota",
+      "sense_id": "SAMA-SENSE/dilekota/1",
+      "sama": "Dilekota bi na sinema.",
+      "ru": "Режиссёр в кинотеатре."
+    },
+    {
+      "id": "SAMA-SENSE/sataya/1/example/1",
+      "lexeme_id": "SAMA-LEX/sataya",
+      "sense_id": "SAMA-SENSE/sataya/1",
+      "sama": "Mi si sataya.",
+      "ru": "Я вижу сцену."
+    },
+    {
+      "id": "SAMA-SENSE/sataya/1/example/2",
+      "lexeme_id": "SAMA-LEX/sataya",
+      "sense_id": "SAMA-SENSE/sataya/1",
+      "sama": "Sataya bi nana teyato.",
+      "ru": "Сцена в театре."
+    },
+    {
+      "id": "SAMA-SENSE/awadena/1/example/1",
+      "lexeme_id": "SAMA-LEX/awadena",
+      "sense_id": "SAMA-SENSE/awadena/1",
+      "sama": "Awadena bi na teyato.",
+      "ru": "Зрители в театре."
+    },
+    {
+      "id": "SAMA-SENSE/awadena/1/example/2",
+      "lexeme_id": "SAMA-LEX/awadena",
+      "sense_id": "SAMA-SENSE/awadena/1",
+      "sama": "Awadena bi daba.",
+      "ru": "Аудитория большая."
+    },
+    {
+      "id": "SAMA-SENSE/hesitiwala/1/example/1",
+      "lexeme_id": "SAMA-LEX/hesitiwala",
+      "sense_id": "SAMA-SENSE/hesitiwala/1",
+      "sama": "Hesitiwala bi na bano.",
+      "ru": "Фестиваль в городе."
+    },
+    {
+      "id": "SAMA-SENSE/hesitiwala/1/example/2",
+      "lexeme_id": "SAMA-LEX/hesitiwala",
+      "sense_id": "SAMA-SENSE/hesitiwala/1",
+      "sama": "Hesitiwala bi yoma.",
+      "ru": "Фестиваль важен."
+    },
+    {
+      "id": "SAMA-SENSE/hesitina/1/example/1",
+      "lexeme_id": "SAMA-LEX/hesitina",
+      "sense_id": "SAMA-SENSE/hesitina/1",
+      "sama": "Hesitina bi na doma.",
+      "ru": "Празднование дома."
+    },
+    {
+      "id": "SAMA-SENSE/hesitina/1/example/2",
+      "lexeme_id": "SAMA-LEX/hesitina",
+      "sense_id": "SAMA-SENSE/hesitina/1",
+      "sama": "Hesitina bi bona.",
+      "ru": "Празднование хорошее."
+    },
+    {
+      "id": "SAMA-SENSE/tadilona/1/example/1",
+      "lexeme_id": "SAMA-LEX/tadilona",
+      "sense_id": "SAMA-SENSE/tadilona/1",
+      "sama": "Tadilona bi yoma.",
+      "ru": "Традиция важна."
+    },
+    {
+      "id": "SAMA-SENSE/tadilona/1/example/2",
+      "lexeme_id": "SAMA-LEX/tadilona",
+      "sense_id": "SAMA-SENSE/tadilona/1",
+      "sama": "Mi mima tadilona.",
+      "ru": "Я помню традицию."
+    },
+    {
+      "id": "SAMA-SENSE/kusitoma/1/example/1",
+      "lexeme_id": "SAMA-LEX/kusitoma",
+      "sense_id": "SAMA-SENSE/kusitoma/1",
+      "sama": "Kusitoma bi na koma.",
+      "ru": "Обычай существует в сообществе."
+    },
+    {
+      "id": "SAMA-SENSE/kusitoma/1/example/2",
+      "lexeme_id": "SAMA-LEX/kusitoma",
+      "sense_id": "SAMA-SENSE/kusitoma/1",
+      "sama": "Kusitoma bi yoma.",
+      "ru": "Обычай важен."
+    },
+    {
+      "id": "SAMA-SENSE/hotona/1/example/1",
+      "lexeme_id": "SAMA-LEX/hotona",
+      "sense_id": "SAMA-SENSE/hotona/1",
+      "sama": "Mi si hotona.",
+      "ru": "Я вижу фотографию."
+    },
+    {
+      "id": "SAMA-SENSE/hotona/1/example/2",
+      "lexeme_id": "SAMA-LEX/hotona",
+      "sense_id": "SAMA-SENSE/hotona/1",
+      "sama": "Hotona bi na paka.",
+      "ru": "Фото на стене."
+    },
+    {
+      "id": "SAMA-SENSE/kamala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kamala",
+      "sense_id": "SAMA-SENSE/kamala/1",
+      "sama": "Mi si kamala.",
+      "ru": "Я вижу камеру."
+    },
+    {
+      "id": "SAMA-SENSE/kamala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kamala",
+      "sense_id": "SAMA-SENSE/kamala/1",
+      "sama": "Kamala bi na mesa.",
+      "ru": "Камера на столе."
+    },
+    {
+      "id": "SAMA-SENSE/hilima/1/example/1",
+      "lexeme_id": "SAMA-LEX/hilima",
+      "sense_id": "SAMA-SENSE/hilima/1",
+      "sama": "Mi si hilima.",
+      "ru": "Я смотрю фильм."
+    },
+    {
+      "id": "SAMA-SENSE/hilima/1/example/2",
+      "lexeme_id": "SAMA-LEX/hilima",
+      "sense_id": "SAMA-SENSE/hilima/1",
+      "sama": "Hilima bi bona.",
+      "ru": "Фильм хороший."
+    },
+    {
+      "id": "SAMA-SENSE/episoda/1/example/1",
+      "lexeme_id": "SAMA-LEX/episoda",
+      "sense_id": "SAMA-SENSE/episoda/1",
+      "sama": "Mi si episoda.",
+      "ru": "Я смотрю эпизод."
+    },
+    {
+      "id": "SAMA-SENSE/episoda/1/example/2",
+      "lexeme_id": "SAMA-LEX/episoda",
+      "sense_id": "SAMA-SENSE/episoda/1",
+      "sama": "Episoda bi nawa.",
+      "ru": "Эпизод новый."
+    },
+    {
+      "id": "SAMA-SENSE/hewala/1/example/1",
+      "lexeme_id": "SAMA-LEX/hewala",
+      "sense_id": "SAMA-SENSE/hewala/1",
+      "sama": "Meka tami hewala.",
+      "ru": "Врач проверяет жар."
+    },
+    {
+      "id": "SAMA-SENSE/hewala/1/example/2",
+      "lexeme_id": "SAMA-LEX/hewala",
+      "sense_id": "SAMA-SENSE/hewala/1",
+      "sama": "Hewala bi malo.",
+      "ru": "Жар плох."
+    },
+    {
+      "id": "SAMA-SENSE/kohala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kohala",
+      "sense_id": "SAMA-SENSE/kohala/1",
+      "sama": "Meka tami kohala.",
+      "ru": "Врач проверяет кашель."
+    },
+    {
+      "id": "SAMA-SENSE/kohala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kohala",
+      "sense_id": "SAMA-SENSE/kohala/1",
+      "sama": "Kohala bi kowa.",
+      "ru": "Кашель громкий."
+    },
+    {
+      "id": "SAMA-SENSE/hepiso/1/example/1",
+      "lexeme_id": "SAMA-LEX/hepiso",
+      "sense_id": "SAMA-SENSE/hepiso/1",
+      "sama": "Mi mima hepiso.",
+      "ru": "Я помню головную боль."
+    },
+    {
+      "id": "SAMA-SENSE/hepiso/1/example/2",
+      "lexeme_id": "SAMA-LEX/hepiso",
+      "sense_id": "SAMA-SENSE/hepiso/1",
+      "sama": "Hepiso bi malo.",
+      "ru": "Головная боль плоха."
+    },
+    {
+      "id": "SAMA-SENSE/nawisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/nawisa",
+      "sense_id": "SAMA-SENSE/nawisa/1",
+      "sama": "Nawisa bi malo.",
+      "ru": "Тошнота неприятна."
+    },
+    {
+      "id": "SAMA-SENSE/nawisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/nawisa",
+      "sense_id": "SAMA-SENSE/nawisa/1",
+      "sama": "Meka tami nawisa.",
+      "ru": "Врач проверяет тошноту."
+    },
+    {
+      "id": "SAMA-SENSE/disina/1/example/1",
+      "lexeme_id": "SAMA-LEX/disina",
+      "sense_id": "SAMA-SENSE/disina/1",
+      "sama": "Disina bi malo.",
+      "ru": "Головокружение неприятно."
+    },
+    {
+      "id": "SAMA-SENSE/disina/1/example/2",
+      "lexeme_id": "SAMA-LEX/disina",
+      "sense_id": "SAMA-SENSE/disina/1",
+      "sama": "Meka tami disina.",
+      "ru": "Врач проверяет головокружение."
+    },
+    {
+      "id": "SAMA-SENSE/lasana/1/example/1",
+      "lexeme_id": "SAMA-LEX/lasana",
+      "sense_id": "SAMA-SENSE/lasana/1",
+      "sama": "Meka si lasana.",
+      "ru": "Врач видит сыпь."
+    },
+    {
+      "id": "SAMA-SENSE/lasana/1/example/2",
+      "lexeme_id": "SAMA-LEX/lasana",
+      "sense_id": "SAMA-SENSE/lasana/1",
+      "sama": "Lasana bi na mona.",
+      "ru": "Сыпь на коже."
+    },
+    {
+      "id": "SAMA-SENSE/wasina/1/example/1",
+      "lexeme_id": "SAMA-LEX/wasina",
+      "sense_id": "SAMA-SENSE/wasina/1",
+      "sama": "Meka tami wasina.",
+      "ru": "Врач проверяет вакцину."
+    },
+    {
+      "id": "SAMA-SENSE/wasina/1/example/2",
+      "lexeme_id": "SAMA-LEX/wasina",
+      "sense_id": "SAMA-SENSE/wasina/1",
+      "sama": "Wasina bi na kilina.",
+      "ru": "Вакцина в поликлинике."
+    },
+    {
+      "id": "SAMA-SENSE/silina/1/example/1",
+      "lexeme_id": "SAMA-LEX/silina",
+      "sense_id": "SAMA-SENSE/silina/1",
+      "sama": "Meka tako silina.",
+      "ru": "Врач берёт шприц."
+    },
+    {
+      "id": "SAMA-SENSE/silina/1/example/2",
+      "lexeme_id": "SAMA-LEX/silina",
+      "sense_id": "SAMA-SENSE/silina/1",
+      "sama": "Silina bi na hosipita.",
+      "ru": "Шприц в больнице."
+    },
+    {
+      "id": "SAMA-SENSE/baneda/1/example/1",
+      "lexeme_id": "SAMA-LEX/baneda",
+      "sense_id": "SAMA-SENSE/baneda/1",
+      "sama": "Meka tako baneda.",
+      "ru": "Врач берёт бинт."
+    },
+    {
+      "id": "SAMA-SENSE/baneda/1/example/2",
+      "lexeme_id": "SAMA-LEX/baneda",
+      "sense_id": "SAMA-SENSE/baneda/1",
+      "sama": "Baneda bi na kilina.",
+      "ru": "Бинт в поликлинике."
+    },
+    {
+      "id": "SAMA-SENSE/kaluka/1/example/1",
+      "lexeme_id": "SAMA-LEX/kaluka",
+      "sense_id": "SAMA-SENSE/kaluka/1",
+      "sama": "Mi si kaluka.",
+      "ru": "Я вижу костыль."
+    },
+    {
+      "id": "SAMA-SENSE/kaluka/1/example/2",
+      "lexeme_id": "SAMA-LEX/kaluka",
+      "sense_id": "SAMA-SENSE/kaluka/1",
+      "sama": "Kaluka bi na hosipita.",
+      "ru": "Костыль в больнице."
+    },
+    {
+      "id": "SAMA-SENSE/wilisana/1/example/1",
+      "lexeme_id": "SAMA-LEX/wilisana",
+      "sense_id": "SAMA-SENSE/wilisana/1",
+      "sama": "Mi si wilisana.",
+      "ru": "Я вижу инвалидную коляску."
+    },
+    {
+      "id": "SAMA-SENSE/wilisana/1/example/2",
+      "lexeme_id": "SAMA-LEX/wilisana",
+      "sense_id": "SAMA-SENSE/wilisana/1",
+      "sama": "Wilisana bi na hosipita.",
+      "ru": "Коляска в больнице."
+    },
+    {
+      "id": "SAMA-SENSE/pulisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/pulisa",
+      "sense_id": "SAMA-SENSE/pulisa/1",
+      "sama": "Meka tami pulisa.",
+      "ru": "Врач проверяет пульс."
+    },
+    {
+      "id": "SAMA-SENSE/pulisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/pulisa",
+      "sense_id": "SAMA-SENSE/pulisa/1",
+      "sama": "Pulisa bi yoma.",
+      "ru": "Пульс важен."
+    },
+    {
+      "id": "SAMA-SENSE/sinosa/1/example/1",
+      "lexeme_id": "SAMA-LEX/sinosa",
+      "sense_id": "SAMA-SENSE/sinosa/1",
+      "sama": "Meka tami sinosa.",
+      "ru": "Врач проверяет дыхание."
+    },
+    {
+      "id": "SAMA-SENSE/sinosa/1/example/2",
+      "lexeme_id": "SAMA-LEX/sinosa",
+      "sense_id": "SAMA-SENSE/sinosa/1",
+      "sama": "Sinosa bi yoma.",
+      "ru": "Дыхание важно."
+    },
+    {
+      "id": "SAMA-SENSE/paletama/1/example/1",
+      "lexeme_id": "SAMA-LEX/paletama",
+      "sense_id": "SAMA-SENSE/paletama/1",
+      "sama": "Meka tami paletama.",
+      "ru": "Врач измеряет давление."
+    },
+    {
+      "id": "SAMA-SENSE/paletama/1/example/2",
+      "lexeme_id": "SAMA-LEX/paletama",
+      "sense_id": "SAMA-SENSE/paletama/1",
+      "sama": "Paletama bi yoma.",
+      "ru": "Давление важно."
+    },
+    {
+      "id": "SAMA-SENSE/halakuta/1/example/1",
+      "lexeme_id": "SAMA-LEX/halakuta",
+      "sense_id": "SAMA-SENSE/halakuta/1",
+      "sama": "Meka tami halakuta.",
+      "ru": "Врач проверяет перелом."
+    },
+    {
+      "id": "SAMA-SENSE/halakuta/1/example/2",
+      "lexeme_id": "SAMA-LEX/halakuta",
+      "sense_id": "SAMA-SENSE/halakuta/1",
+      "sama": "Halakuta bi malo.",
+      "ru": "Перелом плох."
+    },
+    {
+      "id": "SAMA-SENSE/emenasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/emenasa",
+      "sense_id": "SAMA-SENSE/emenasa/1",
+      "sama": "Emenasa bi yoma.",
+      "ru": "Экстренная помощь важна."
+    },
+    {
+      "id": "SAMA-SENSE/emenasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/emenasa",
+      "sense_id": "SAMA-SENSE/emenasa/1",
+      "sama": "Meka naka emenasa.",
+      "ru": "Врач оказывает экстренную помощь."
+    },
+    {
+      "id": "SAMA-SENSE/panekima/1/example/1",
+      "lexeme_id": "SAMA-LEX/panekima",
+      "sense_id": "SAMA-SENSE/panekima/1",
+      "sama": "Meka tami panekima.",
+      "ru": "Врач проверяет обезболивающее."
+    },
+    {
+      "id": "SAMA-SENSE/panekima/1/example/2",
+      "lexeme_id": "SAMA-LEX/panekima",
+      "sense_id": "SAMA-SENSE/panekima/1",
+      "sama": "Panekima bi na kilina.",
+      "ru": "Обезболивающее в поликлинике."
+    },
+    {
+      "id": "SAMA-SENSE/pasiyena/1/example/1",
+      "lexeme_id": "SAMA-LEX/pasiyena",
+      "sense_id": "SAMA-SENSE/pasiyena/1",
+      "sama": "Meka si pasiyena.",
+      "ru": "Врач видит пациента."
+    },
+    {
+      "id": "SAMA-SENSE/pasiyena/1/example/2",
+      "lexeme_id": "SAMA-LEX/pasiyena",
+      "sense_id": "SAMA-SENSE/pasiyena/1",
+      "sama": "Pasiyena bi na hosipita.",
+      "ru": "Пациент в больнице."
+    },
+    {
+      "id": "SAMA-SENSE/nusena/1/example/1",
+      "lexeme_id": "SAMA-LEX/nusena",
+      "sense_id": "SAMA-SENSE/nusena/1",
+      "sama": "Nusena kami pasiyena.",
+      "ru": "Медсестра помогает пациенту."
+    },
+    {
+      "id": "SAMA-SENSE/nusena/1/example/2",
+      "lexeme_id": "SAMA-LEX/nusena",
+      "sense_id": "SAMA-SENSE/nusena/1",
+      "sama": "Nusena bi na hosipita.",
+      "ru": "Медсестра в больнице."
+    },
+    {
+      "id": "SAMA-SENSE/lekuwa/1/example/1",
+      "lexeme_id": "SAMA-LEX/lekuwa",
+      "sense_id": "SAMA-SENSE/lekuwa/1",
+      "sama": "Lekuwa bi yoma.",
+      "ru": "Выздоровление важно."
+    },
+    {
+      "id": "SAMA-SENSE/lekuwa/1/example/2",
+      "lexeme_id": "SAMA-LEX/lekuwa",
+      "sense_id": "SAMA-SENSE/lekuwa/1",
+      "sama": "Meka tami lekuwa.",
+      "ru": "Врач оценивает выздоровление."
+    },
+    {
+      "id": "SAMA-SENSE/populasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/populasa",
+      "sense_id": "SAMA-SENSE/populasa/1",
+      "sama": "Populasa bi daba.",
+      "ru": "Население большое."
+    },
+    {
+      "id": "SAMA-SENSE/populasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/populasa",
+      "sense_id": "SAMA-SENSE/populasa/1",
+      "sama": "Mi tami populasa.",
+      "ru": "Я изучаю население."
+    },
+    {
+      "id": "SAMA-SENSE/sosiyeta/1/example/1",
+      "lexeme_id": "SAMA-LEX/sosiyeta",
+      "sense_id": "SAMA-SENSE/sosiyeta/1",
+      "sama": "Sosiyeta bi yoma.",
+      "ru": "Общество важно."
+    },
+    {
+      "id": "SAMA-SENSE/sosiyeta/1/example/2",
+      "lexeme_id": "SAMA-LEX/sosiyeta",
+      "sense_id": "SAMA-SENSE/sosiyeta/1",
+      "sama": "Mi tami sosiyeta.",
+      "ru": "Я изучаю общество."
+    },
+    {
+      "id": "SAMA-SENSE/palamena/1/example/1",
+      "lexeme_id": "SAMA-LEX/palamena",
+      "sense_id": "SAMA-SENSE/palamena/1",
+      "sama": "Palamena bi na bano.",
+      "ru": "Парламент в городе."
+    },
+    {
+      "id": "SAMA-SENSE/palamena/1/example/2",
+      "lexeme_id": "SAMA-LEX/palamena",
+      "sense_id": "SAMA-SENSE/palamena/1",
+      "sama": "Palamena bi yoma.",
+      "ru": "Парламент важен."
+    },
+    {
+      "id": "SAMA-SENSE/minalata/1/example/1",
+      "lexeme_id": "SAMA-LEX/minalata",
+      "sense_id": "SAMA-SENSE/minalata/1",
+      "sama": "Mi si minalata.",
+      "ru": "Я вижу министра."
+    },
+    {
+      "id": "SAMA-SENSE/minalata/1/example/2",
+      "lexeme_id": "SAMA-LEX/minalata",
+      "sense_id": "SAMA-SENSE/minalata/1",
+      "sama": "Minalata bi na kapo.",
+      "ru": "Министр в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/polesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/polesa",
+      "sense_id": "SAMA-SENSE/polesa/1",
+      "sama": "Polesa bi na bano.",
+      "ru": "Полиция в городе."
+    },
+    {
+      "id": "SAMA-SENSE/polesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/polesa",
+      "sense_id": "SAMA-SENSE/polesa/1",
+      "sama": "Polesa bi yoma.",
+      "ru": "Полиция важна."
+    },
+    {
+      "id": "SAMA-SENSE/salakina/1/example/1",
+      "lexeme_id": "SAMA-LEX/salakina",
+      "sense_id": "SAMA-SENSE/salakina/1",
+      "sama": "Salakina bi yoma.",
+      "ru": "Государственная услуга важна."
+    },
+    {
+      "id": "SAMA-SENSE/salakina/1/example/2",
+      "lexeme_id": "SAMA-LEX/salakina",
+      "sense_id": "SAMA-SENSE/salakina/1",
+      "sama": "Mi tami salakina.",
+      "ru": "Я проверяю услугу."
+    },
+    {
+      "id": "SAMA-SENSE/hawela/1/example/1",
+      "lexeme_id": "SAMA-LEX/hawela",
+      "sense_id": "SAMA-SENSE/hawela/1",
+      "sama": "Hawela bi yoma.",
+      "ru": "Право важно."
+    },
+    {
+      "id": "SAMA-SENSE/hawela/1/example/2",
+      "lexeme_id": "SAMA-LEX/hawela",
+      "sense_id": "SAMA-SENSE/hawela/1",
+      "sama": "Mi tami hawela.",
+      "ru": "Я анализирую право."
+    },
+    {
+      "id": "SAMA-SENSE/obila/1/example/1",
+      "lexeme_id": "SAMA-LEX/obila",
+      "sense_id": "SAMA-SENSE/obila/1",
+      "sama": "Obila bi yoma.",
+      "ru": "Юридическая обязанность важна."
+    },
+    {
+      "id": "SAMA-SENSE/obila/1/example/2",
+      "lexeme_id": "SAMA-LEX/obila",
+      "sense_id": "SAMA-SENSE/obila/1",
+      "sama": "Mi tami obila.",
+      "ru": "Я проверяю обязанность."
+    },
+    {
+      "id": "SAMA-SENSE/sosipana/1/example/1",
+      "lexeme_id": "SAMA-LEX/sosipana",
+      "sense_id": "SAMA-SENSE/sosipana/1",
+      "sama": "Sosipana bi yoma.",
+      "ru": "Страхование важно."
+    },
+    {
+      "id": "SAMA-SENSE/sosipana/1/example/2",
+      "lexeme_id": "SAMA-LEX/sosipana",
+      "sense_id": "SAMA-SENSE/sosipana/1",
+      "sama": "Mi tami sosipana.",
+      "ru": "Я проверяю страхование."
+    },
+    {
+      "id": "SAMA-SENSE/penesona/1/example/1",
+      "lexeme_id": "SAMA-LEX/penesona",
+      "sense_id": "SAMA-SENSE/penesona/1",
+      "sama": "Penesona bi yoma.",
+      "ru": "Пенсия важна."
+    },
+    {
+      "id": "SAMA-SENSE/penesona/1/example/2",
+      "lexeme_id": "SAMA-LEX/penesona",
+      "sense_id": "SAMA-SENSE/penesona/1",
+      "sama": "Mi tami penesona.",
+      "ru": "Я проверяю пенсию."
+    },
+    {
+      "id": "SAMA-SENSE/dewata/1/example/1",
+      "lexeme_id": "SAMA-LEX/dewata",
+      "sense_id": "SAMA-SENSE/dewata/1",
+      "sama": "Dewata bi yoma.",
+      "ru": "Социальная помощь важна."
+    },
+    {
+      "id": "SAMA-SENSE/dewata/1/example/2",
+      "lexeme_id": "SAMA-LEX/dewata",
+      "sense_id": "SAMA-SENSE/dewata/1",
+      "sama": "Mi tami dewata.",
+      "ru": "Я проверяю социальную помощь."
+    },
+    {
+      "id": "SAMA-SENSE/sulaya/1/example/1",
+      "lexeme_id": "SAMA-LEX/sulaya",
+      "sense_id": "SAMA-SENSE/sulaya/1",
+      "sama": "Mi lita sulaya.",
+      "ru": "Я читаю бюджет."
+    },
+    {
+      "id": "SAMA-SENSE/sulaya/1/example/2",
+      "lexeme_id": "SAMA-LEX/sulaya",
+      "sense_id": "SAMA-SENSE/sulaya/1",
+      "sama": "Mi tami sulaya.",
+      "ru": "Я проверяю бюджет."
+    },
+    {
+      "id": "SAMA-SENSE/weleta/1/example/1",
+      "lexeme_id": "SAMA-LEX/weleta",
+      "sense_id": "SAMA-SENSE/weleta/1",
+      "sama": "Weleta bi yoma.",
+      "ru": "Социальное благополучие важно."
+    },
+    {
+      "id": "SAMA-SENSE/weleta/1/example/2",
+      "lexeme_id": "SAMA-LEX/weleta",
+      "sense_id": "SAMA-SENSE/weleta/1",
+      "sama": "Mi tami weleta.",
+      "ru": "Я изучаю благополучие."
+    },
+    {
+      "id": "SAMA-SENSE/kasina/1/example/1",
+      "lexeme_id": "SAMA-LEX/kasina",
+      "sense_id": "SAMA-SENSE/kasina/1",
+      "sama": "Yudi tami kasina.",
+      "ru": "Судья изучает дело."
+    },
+    {
+      "id": "SAMA-SENSE/kasina/1/example/2",
+      "lexeme_id": "SAMA-LEX/kasina",
+      "sense_id": "SAMA-SENSE/kasina/1",
+      "sama": "Kasina bi na kota.",
+      "ru": "Дело находится в суде."
+    },
+    {
+      "id": "SAMA-SENSE/senatena/1/example/1",
+      "lexeme_id": "SAMA-LEX/senatena",
+      "sense_id": "SAMA-SENSE/senatena/1",
+      "sama": "Yudi wima senatena.",
+      "ru": "Судья пишет решение."
+    },
+    {
+      "id": "SAMA-SENSE/senatena/1/example/2",
+      "lexeme_id": "SAMA-LEX/senatena",
+      "sense_id": "SAMA-SENSE/senatena/1",
+      "sama": "Mi lita senatena.",
+      "ru": "Я читаю решение."
+    },
+    {
+      "id": "SAMA-SENSE/apela/1/example/1",
+      "lexeme_id": "SAMA-LEX/apela",
+      "sense_id": "SAMA-SENSE/apela/1",
+      "sama": "Mi wima apela.",
+      "ru": "Я пишу апелляцию."
+    },
+    {
+      "id": "SAMA-SENSE/apela/1/example/2",
+      "lexeme_id": "SAMA-LEX/apela",
+      "sense_id": "SAMA-SENSE/apela/1",
+      "sama": "Yudi lita apela.",
+      "ru": "Судья читает апелляцию."
+    },
+    {
+      "id": "SAMA-SENSE/wenaloma/1/example/1",
+      "lexeme_id": "SAMA-LEX/wenaloma",
+      "sense_id": "SAMA-SENSE/wenaloma/1",
+      "sama": "Yudi si wenaloma.",
+      "ru": "Судья видит свидетеля."
+    },
+    {
+      "id": "SAMA-SENSE/wenaloma/1/example/2",
+      "lexeme_id": "SAMA-LEX/wenaloma",
+      "sense_id": "SAMA-SENSE/wenaloma/1",
+      "sama": "Wenaloma bi na kota.",
+      "ru": "Свидетель в суде."
+    },
+    {
+      "id": "SAMA-SENSE/kulipa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kulipa",
+      "sense_id": "SAMA-SENSE/kulipa/1",
+      "sama": "Kulipa bi malo.",
+      "ru": "Преступление плохо."
+    },
+    {
+      "id": "SAMA-SENSE/kulipa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kulipa",
+      "sense_id": "SAMA-SENSE/kulipa/1",
+      "sama": "Yudi tami kulipa.",
+      "ru": "Судья рассматривает преступление."
+    },
+    {
+      "id": "SAMA-SENSE/hamalena/1/example/1",
+      "lexeme_id": "SAMA-LEX/hamalena",
+      "sense_id": "SAMA-SENSE/hamalena/1",
+      "sama": "Hamalena bi yoma.",
+      "ru": "Общественная норма важна."
+    },
+    {
+      "id": "SAMA-SENSE/hamalena/1/example/2",
+      "lexeme_id": "SAMA-LEX/hamalena",
+      "sense_id": "SAMA-SENSE/hamalena/1",
+      "sama": "Mi tami hamalena.",
+      "ru": "Я проверяю норму."
+    },
+    {
+      "id": "SAMA-SENSE/kawenata/1/example/1",
+      "lexeme_id": "SAMA-LEX/kawenata",
+      "sense_id": "SAMA-SENSE/kawenata/1",
+      "sama": "Mi bi na kawenata.",
+      "ru": "Я в общественном центре."
+    },
+    {
+      "id": "SAMA-SENSE/kawenata/1/example/2",
+      "lexeme_id": "SAMA-LEX/kawenata",
+      "sense_id": "SAMA-SENSE/kawenata/1",
+      "sama": "Kawenata bi na bano.",
+      "ru": "Центр в городе."
+    },
+    {
+      "id": "SAMA-SENSE/waihaya/1/example/1",
+      "lexeme_id": "SAMA-LEX/waihaya",
+      "sense_id": "SAMA-SENSE/waihaya/1",
+      "sama": "Mi tami waihaya.",
+      "ru": "Я проверяю сеть Wi-Fi."
+    },
+    {
+      "id": "SAMA-SENSE/waihaya/1/example/2",
+      "lexeme_id": "SAMA-LEX/waihaya",
+      "sense_id": "SAMA-SENSE/waihaya/1",
+      "sama": "Waihaya bi na kapo.",
+      "ru": "Wi-Fi есть в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/lutela/1/example/1",
+      "lexeme_id": "SAMA-LEX/lutela",
+      "sense_id": "SAMA-SENSE/lutela/1",
+      "sama": "Mi si lutela.",
+      "ru": "Я вижу маршрутизатор."
+    },
+    {
+      "id": "SAMA-SENSE/lutela/1/example/2",
+      "lexeme_id": "SAMA-LEX/lutela",
+      "sense_id": "SAMA-SENSE/lutela/1",
+      "sama": "Lutela bi na kapo.",
+      "ru": "Маршрутизатор в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/netala/1/example/1",
+      "lexeme_id": "SAMA-LEX/netala",
+      "sense_id": "SAMA-SENSE/netala/1",
+      "sama": "Mi tami netala.",
+      "ru": "Я проверяю сеть."
+    },
+    {
+      "id": "SAMA-SENSE/netala/1/example/2",
+      "lexeme_id": "SAMA-LEX/netala",
+      "sense_id": "SAMA-SENSE/netala/1",
+      "sama": "Netala bi yoma.",
+      "ru": "Сеть важна."
+    },
+    {
+      "id": "SAMA-SENSE/bawesela/1/example/1",
+      "lexeme_id": "SAMA-LEX/bawesela",
+      "sense_id": "SAMA-SENSE/bawesela/1",
+      "sama": "Mi tami bawesela.",
+      "ru": "Я проверяю браузер."
+    },
+    {
+      "id": "SAMA-SENSE/bawesela/1/example/2",
+      "lexeme_id": "SAMA-LEX/bawesela",
+      "sense_id": "SAMA-SENSE/bawesela/1",
+      "sama": "Bawesela bi na kome.",
+      "ru": "Браузер на компьютере."
+    },
+    {
+      "id": "SAMA-SENSE/webapana/1/example/1",
+      "lexeme_id": "SAMA-LEX/webapana",
+      "sense_id": "SAMA-SENSE/webapana/1",
+      "sama": "Mi lita webapana.",
+      "ru": "Я читаю веб-страницу."
+    },
+    {
+      "id": "SAMA-SENSE/webapana/1/example/2",
+      "lexeme_id": "SAMA-LEX/webapana",
+      "sense_id": "SAMA-SENSE/webapana/1",
+      "sama": "Webapana bi na neto.",
+      "ru": "Страница доступна в интернете."
+    },
+    {
+      "id": "SAMA-SENSE/webasita/1/example/1",
+      "lexeme_id": "SAMA-LEX/webasita",
+      "sense_id": "SAMA-SENSE/webasita/1",
+      "sama": "Mi tami webasita.",
+      "ru": "Я проверяю сайт."
+    },
+    {
+      "id": "SAMA-SENSE/webasita/1/example/2",
+      "lexeme_id": "SAMA-LEX/webasita",
+      "sense_id": "SAMA-SENSE/webasita/1",
+      "sama": "Webasita bi na neto.",
+      "ru": "Сайт в интернете."
+    },
+    {
+      "id": "SAMA-SENSE/apilika/1/example/1",
+      "lexeme_id": "SAMA-LEX/apilika",
+      "sense_id": "SAMA-SENSE/apilika/1",
+      "sama": "Mi tami apilika.",
+      "ru": "Я проверяю приложение."
+    },
+    {
+      "id": "SAMA-SENSE/apilika/1/example/2",
+      "lexeme_id": "SAMA-LEX/apilika",
+      "sense_id": "SAMA-SENSE/apilika/1",
+      "sama": "Apilika bi na kome.",
+      "ru": "Приложение на компьютере."
+    },
+    {
+      "id": "SAMA-SENSE/databasa/1/example/1",
+      "lexeme_id": "SAMA-LEX/databasa",
+      "sense_id": "SAMA-SENSE/databasa/1",
+      "sama": "Mi tami databasa.",
+      "ru": "Я проверяю базу данных."
+    },
+    {
+      "id": "SAMA-SENSE/databasa/1/example/2",
+      "lexeme_id": "SAMA-LEX/databasa",
+      "sense_id": "SAMA-SENSE/databasa/1",
+      "sama": "Databasa bi na sewa.",
+      "ru": "База данных на сервере."
+    },
+    {
+      "id": "SAMA-SENSE/opesitama/1/example/1",
+      "lexeme_id": "SAMA-LEX/opesitama",
+      "sense_id": "SAMA-SENSE/opesitama/1",
+      "sama": "Mi tami opesitama.",
+      "ru": "Я проверяю операционную систему."
+    },
+    {
+      "id": "SAMA-SENSE/opesitama/1/example/2",
+      "lexeme_id": "SAMA-LEX/opesitama",
+      "sense_id": "SAMA-SENSE/opesitama/1",
+      "sama": "Opesitama bi na kome.",
+      "ru": "Операционная система на компьютере."
+    },
+    {
+      "id": "SAMA-SENSE/posesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/posesa",
+      "sense_id": "SAMA-SENSE/posesa/1",
+      "sama": "Mi si posesa.",
+      "ru": "Я вижу процессор."
+    },
+    {
+      "id": "SAMA-SENSE/posesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/posesa",
+      "sense_id": "SAMA-SENSE/posesa/1",
+      "sama": "Posesa bi nana kome.",
+      "ru": "Процессор внутри компьютера."
+    },
+    {
+      "id": "SAMA-SENSE/memoli/1/example/1",
+      "lexeme_id": "SAMA-LEX/memoli",
+      "sense_id": "SAMA-SENSE/memoli/1",
+      "sama": "Mi tami memoli.",
+      "ru": "Я проверяю оперативную память."
+    },
+    {
+      "id": "SAMA-SENSE/memoli/1/example/2",
+      "lexeme_id": "SAMA-LEX/memoli",
+      "sense_id": "SAMA-SENSE/memoli/1",
+      "sama": "Memoli bi nana kome.",
+      "ru": "Память внутри компьютера."
+    },
+    {
+      "id": "SAMA-SENSE/satolena/1/example/1",
+      "lexeme_id": "SAMA-LEX/satolena",
+      "sense_id": "SAMA-SENSE/satolena/1",
+      "sama": "Mi tami satolena.",
+      "ru": "Я проверяю хранилище."
+    },
+    {
+      "id": "SAMA-SENSE/satolena/1/example/2",
+      "lexeme_id": "SAMA-LEX/satolena",
+      "sense_id": "SAMA-SENSE/satolena/1",
+      "sama": "Satolena bi nana kome.",
+      "ru": "Хранилище внутри компьютера."
+    },
+    {
+      "id": "SAMA-SENSE/inatawesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/inatawesa",
+      "sense_id": "SAMA-SENSE/inatawesa/1",
+      "sama": "Mi si inatawesa.",
+      "ru": "Я вижу интерфейс."
+    },
+    {
+      "id": "SAMA-SENSE/inatawesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/inatawesa",
+      "sense_id": "SAMA-SENSE/inatawesa/1",
+      "sama": "Mi tami inatawesa.",
+      "ru": "Я проверяю интерфейс."
+    },
+    {
+      "id": "SAMA-SENSE/kusola/1/example/1",
+      "lexeme_id": "SAMA-LEX/kusola",
+      "sense_id": "SAMA-SENSE/kusola/1",
+      "sama": "Mi si kusola.",
+      "ru": "Я вижу курсор."
+    },
+    {
+      "id": "SAMA-SENSE/kusola/1/example/2",
+      "lexeme_id": "SAMA-LEX/kusola",
+      "sense_id": "SAMA-SENSE/kusola/1",
+      "sama": "Kusola bi na sikina.",
+      "ru": "Курсор на экране."
+    },
+    {
+      "id": "SAMA-SENSE/mawesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/mawesa",
+      "sense_id": "SAMA-SENSE/mawesa/1",
+      "sama": "Mi si mawesa.",
+      "ru": "Я вижу компьютерную мышь."
+    },
+    {
+      "id": "SAMA-SENSE/mawesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/mawesa",
+      "sense_id": "SAMA-SENSE/mawesa/1",
+      "sama": "Mawesa bi na mesa.",
+      "ru": "Мышь на столе."
+    },
+    {
+      "id": "SAMA-SENSE/monitola/1/example/1",
+      "lexeme_id": "SAMA-LEX/monitola",
+      "sense_id": "SAMA-SENSE/monitola/1",
+      "sama": "Mi si monitola.",
+      "ru": "Я вижу монитор."
+    },
+    {
+      "id": "SAMA-SENSE/monitola/1/example/2",
+      "lexeme_id": "SAMA-LEX/monitola",
+      "sense_id": "SAMA-SENSE/monitola/1",
+      "sama": "Monitola bi na mesa.",
+      "ru": "Монитор на столе."
+    },
+    {
+      "id": "SAMA-SENSE/kabela/1/example/1",
+      "lexeme_id": "SAMA-LEX/kabela",
+      "sense_id": "SAMA-SENSE/kabela/1",
+      "sama": "Mi si kabela.",
+      "ru": "Я вижу кабель."
+    },
+    {
+      "id": "SAMA-SENSE/kabela/1/example/2",
+      "lexeme_id": "SAMA-LEX/kabela",
+      "sense_id": "SAMA-SENSE/kabela/1",
+      "sama": "Kabela bi na mesa.",
+      "ru": "Кабель на столе."
+    },
+    {
+      "id": "SAMA-SENSE/batela/1/example/1",
+      "lexeme_id": "SAMA-LEX/batela",
+      "sense_id": "SAMA-SENSE/batela/1",
+      "sama": "Mi si batela.",
+      "ru": "Я вижу аккумулятор."
+    },
+    {
+      "id": "SAMA-SENSE/batela/1/example/2",
+      "lexeme_id": "SAMA-LEX/batela",
+      "sense_id": "SAMA-SENSE/batela/1",
+      "sama": "Batela bi nana tele.",
+      "ru": "Аккумулятор внутри телефона."
+    },
+    {
+      "id": "SAMA-SENSE/saleyana/1/example/1",
+      "lexeme_id": "SAMA-LEX/saleyana",
+      "sense_id": "SAMA-SENSE/saleyana/1",
+      "sama": "Mi si saleyana.",
+      "ru": "Я вижу зарядное устройство."
+    },
+    {
+      "id": "SAMA-SENSE/saleyana/1/example/2",
+      "lexeme_id": "SAMA-LEX/saleyana",
+      "sense_id": "SAMA-SENSE/saleyana/1",
+      "sama": "Saleyana bi na mesa.",
+      "ru": "Зарядное устройство на столе."
+    },
+    {
+      "id": "SAMA-SENSE/sikinata/1/example/1",
+      "lexeme_id": "SAMA-LEX/sikinata",
+      "sense_id": "SAMA-SENSE/sikinata/1",
+      "sama": "Mi tami sikinata.",
+      "ru": "Я проверяю сигнал."
+    },
+    {
+      "id": "SAMA-SENSE/sikinata/1/example/2",
+      "lexeme_id": "SAMA-LEX/sikinata",
+      "sense_id": "SAMA-SENSE/sikinata/1",
+      "sama": "Sikinata bi yoma.",
+      "ru": "Сигнал важен."
+    },
+    {
+      "id": "SAMA-SENSE/matelia/1/example/1",
+      "lexeme_id": "SAMA-LEX/matelia",
+      "sense_id": "SAMA-SENSE/matelia/1",
+      "sama": "Mi tami matelia.",
+      "ru": "Я изучаю вещество."
+    },
+    {
+      "id": "SAMA-SENSE/matelia/1/example/2",
+      "lexeme_id": "SAMA-LEX/matelia",
+      "sense_id": "SAMA-SENSE/matelia/1",
+      "sama": "Matelia bi na duniya.",
+      "ru": "Вещество существует на Земле."
+    },
+    {
+      "id": "SAMA-SENSE/enehiya/1/example/1",
+      "lexeme_id": "SAMA-LEX/enehiya",
+      "sense_id": "SAMA-SENSE/enehiya/1",
+      "sama": "Enehiya bi yoma.",
+      "ru": "Энергия важна."
+    },
+    {
+      "id": "SAMA-SENSE/enehiya/1/example/2",
+      "lexeme_id": "SAMA-LEX/enehiya",
+      "sense_id": "SAMA-SENSE/enehiya/1",
+      "sama": "Mi tami enehiya.",
+      "ru": "Я изучаю энергию."
+    },
+    {
+      "id": "SAMA-SENSE/hosala/1/example/1",
+      "lexeme_id": "SAMA-LEX/hosala",
+      "sense_id": "SAMA-SENSE/hosala/1",
+      "sama": "Mi tami hosala.",
+      "ru": "Я исследую силу."
+    },
+    {
+      "id": "SAMA-SENSE/hosala/1/example/2",
+      "lexeme_id": "SAMA-LEX/hosala",
+      "sense_id": "SAMA-SENSE/hosala/1",
+      "sama": "Hosala bi yoma.",
+      "ru": "Сила важна."
+    },
+    {
+      "id": "SAMA-SENSE/wesita/1/example/1",
+      "lexeme_id": "SAMA-LEX/wesita",
+      "sense_id": "SAMA-SENSE/wesita/1",
+      "sama": "Mi tami wesita.",
+      "ru": "Я измеряю скорость."
+    },
+    {
+      "id": "SAMA-SENSE/wesita/1/example/2",
+      "lexeme_id": "SAMA-LEX/wesita",
+      "sense_id": "SAMA-SENSE/wesita/1",
+      "sama": "Wesita bi yoma.",
+      "ru": "Скорость важна."
+    },
+    {
+      "id": "SAMA-SENSE/masala/1/example/1",
+      "lexeme_id": "SAMA-LEX/masala",
+      "sense_id": "SAMA-SENSE/masala/1",
+      "sama": "Mi tami masala.",
+      "ru": "Я измеряю массу."
+    },
+    {
+      "id": "SAMA-SENSE/masala/1/example/2",
+      "lexeme_id": "SAMA-LEX/masala",
+      "sense_id": "SAMA-SENSE/masala/1",
+      "sama": "Masala bi yoma.",
+      "ru": "Масса важна."
+    },
+    {
+      "id": "SAMA-SENSE/woluma/1/example/1",
+      "lexeme_id": "SAMA-LEX/woluma",
+      "sense_id": "SAMA-SENSE/woluma/1",
+      "sama": "Mi tami woluma.",
+      "ru": "Я измеряю объём."
+    },
+    {
+      "id": "SAMA-SENSE/woluma/1/example/2",
+      "lexeme_id": "SAMA-LEX/woluma",
+      "sense_id": "SAMA-SENSE/woluma/1",
+      "sama": "Woluma bi yoma.",
+      "ru": "Объём важен."
+    },
+    {
+      "id": "SAMA-SENSE/disatana/1/example/1",
+      "lexeme_id": "SAMA-LEX/disatana",
+      "sense_id": "SAMA-SENSE/disatana/1",
+      "sama": "Mi tami disatana.",
+      "ru": "Я измеряю расстояние."
+    },
+    {
+      "id": "SAMA-SENSE/disatana/1/example/2",
+      "lexeme_id": "SAMA-LEX/disatana",
+      "sense_id": "SAMA-SENSE/disatana/1",
+      "sama": "Disatana bi yoma.",
+      "ru": "Расстояние важно."
+    },
+    {
+      "id": "SAMA-SENSE/unita/1/example/1",
+      "lexeme_id": "SAMA-LEX/unita",
+      "sense_id": "SAMA-SENSE/unita/1",
+      "sama": "Mi tami unita.",
+      "ru": "Я проверяю единицу измерения."
+    },
+    {
+      "id": "SAMA-SENSE/unita/1/example/2",
+      "lexeme_id": "SAMA-LEX/unita",
+      "sense_id": "SAMA-SENSE/unita/1",
+      "sama": "Unita bi yoma.",
+      "ru": "Единица важна."
+    },
+    {
+      "id": "SAMA-SENSE/mesulana/1/example/1",
+      "lexeme_id": "SAMA-LEX/mesulana",
+      "sense_id": "SAMA-SENSE/mesulana/1",
+      "sama": "Mesulana bi yoma.",
+      "ru": "Измерение важно."
+    },
+    {
+      "id": "SAMA-SENSE/mesulana/1/example/2",
+      "lexeme_id": "SAMA-LEX/mesulana",
+      "sense_id": "SAMA-SENSE/mesulana/1",
+      "sama": "Mi tami mesulana.",
+      "ru": "Я проверяю измерение."
+    },
+    {
+      "id": "SAMA-SENSE/ekasapela/1/example/1",
+      "lexeme_id": "SAMA-LEX/ekasapela",
+      "sense_id": "SAMA-SENSE/ekasapela/1",
+      "sama": "Mi naka ekasapela.",
+      "ru": "Я провожу эксперимент."
+    },
+    {
+      "id": "SAMA-SENSE/ekasapela/1/example/2",
+      "lexeme_id": "SAMA-LEX/ekasapela",
+      "sense_id": "SAMA-SENSE/ekasapela/1",
+      "sama": "Ekasapela bi yoma.",
+      "ru": "Эксперимент важен."
+    },
+    {
+      "id": "SAMA-SENSE/metoda/1/example/1",
+      "lexeme_id": "SAMA-LEX/metoda",
+      "sense_id": "SAMA-SENSE/metoda/1",
+      "sama": "Mi tami metoda.",
+      "ru": "Я проверяю метод."
+    },
+    {
+      "id": "SAMA-SENSE/metoda/1/example/2",
+      "lexeme_id": "SAMA-LEX/metoda",
+      "sense_id": "SAMA-SENSE/metoda/1",
+      "sama": "Metoda bi yoma.",
+      "ru": "Метод важен."
+    },
+    {
+      "id": "SAMA-SENSE/teyolia/1/example/1",
+      "lexeme_id": "SAMA-LEX/teyolia",
+      "sense_id": "SAMA-SENSE/teyolia/1",
+      "sama": "Mi lita teyolia.",
+      "ru": "Я читаю теорию."
+    },
+    {
+      "id": "SAMA-SENSE/teyolia/1/example/2",
+      "lexeme_id": "SAMA-LEX/teyolia",
+      "sense_id": "SAMA-SENSE/teyolia/1",
+      "sama": "Teyolia bi yoma.",
+      "ru": "Теория важна."
+    },
+    {
+      "id": "SAMA-SENSE/hipotesa/1/example/1",
+      "lexeme_id": "SAMA-LEX/hipotesa",
+      "sense_id": "SAMA-SENSE/hipotesa/1",
+      "sama": "Mi tami hipotesa.",
+      "ru": "Я проверяю гипотезу."
+    },
+    {
+      "id": "SAMA-SENSE/hipotesa/1/example/2",
+      "lexeme_id": "SAMA-LEX/hipotesa",
+      "sense_id": "SAMA-SENSE/hipotesa/1",
+      "sama": "Hipotesa bi yoma.",
+      "ru": "Гипотеза важна."
+    },
+    {
+      "id": "SAMA-SENSE/sapasena/1/example/1",
+      "lexeme_id": "SAMA-LEX/sapasena",
+      "sense_id": "SAMA-SENSE/sapasena/1",
+      "sama": "Mi tami sapasena.",
+      "ru": "Я проверяю выборку."
+    },
+    {
+      "id": "SAMA-SENSE/sapasena/1/example/2",
+      "lexeme_id": "SAMA-LEX/sapasena",
+      "sense_id": "SAMA-SENSE/sapasena/1",
+      "sama": "Sapasena bi yoma.",
+      "ru": "Выборка важна."
+    },
+    {
+      "id": "SAMA-SENSE/polobalita/1/example/1",
+      "lexeme_id": "SAMA-LEX/polobalita",
+      "sense_id": "SAMA-SENSE/polobalita/1",
+      "sama": "Mi tami polobalita.",
+      "ru": "Я проверяю вероятность."
+    },
+    {
+      "id": "SAMA-SENSE/polobalita/1/example/2",
+      "lexeme_id": "SAMA-LEX/polobalita",
+      "sense_id": "SAMA-SENSE/polobalita/1",
+      "sama": "Polobalita bi yoma.",
+      "ru": "Вероятность важна."
+    },
+    {
+      "id": "SAMA-SENSE/obesewa/1/example/1",
+      "lexeme_id": "SAMA-LEX/obesewa",
+      "sense_id": "SAMA-SENSE/obesewa/1",
+      "sama": "Mi naka obesewa.",
+      "ru": "Я выполняю наблюдение."
+    },
+    {
+      "id": "SAMA-SENSE/obesewa/1/example/2",
+      "lexeme_id": "SAMA-LEX/obesewa",
+      "sense_id": "SAMA-SENSE/obesewa/1",
+      "sama": "Obesewa bi yoma.",
+      "ru": "Наблюдение важно."
+    },
+    {
+      "id": "SAMA-SENSE/walibela/1/example/1",
+      "lexeme_id": "SAMA-LEX/walibela",
+      "sense_id": "SAMA-SENSE/walibela/1",
+      "sama": "Mi tami walibela.",
+      "ru": "Я проверяю переменную."
+    },
+    {
+      "id": "SAMA-SENSE/walibela/1/example/2",
+      "lexeme_id": "SAMA-LEX/walibela",
+      "sense_id": "SAMA-SENSE/walibela/1",
+      "sama": "Walibela bi na ekasapela.",
+      "ru": "Переменная в эксперименте."
+    },
+    {
+      "id": "SAMA-SENSE/ekuwasena/1/example/1",
+      "lexeme_id": "SAMA-LEX/ekuwasena",
+      "sense_id": "SAMA-SENSE/ekuwasena/1",
+      "sama": "Mi wima ekuwasena.",
+      "ru": "Я пишу уравнение."
+    },
+    {
+      "id": "SAMA-SENSE/ekuwasena/1/example/2",
+      "lexeme_id": "SAMA-LEX/ekuwasena",
+      "sense_id": "SAMA-SENSE/ekuwasena/1",
+      "sama": "Mi tami ekuwasena.",
+      "ru": "Я проверяю уравнение."
+    },
+    {
+      "id": "SAMA-SENSE/homula/1/example/1",
+      "lexeme_id": "SAMA-LEX/homula",
+      "sense_id": "SAMA-SENSE/homula/1",
+      "sama": "Mi wima homula.",
+      "ru": "Я записываю формулу."
+    },
+    {
+      "id": "SAMA-SENSE/homula/1/example/2",
+      "lexeme_id": "SAMA-LEX/homula",
+      "sense_id": "SAMA-SENSE/homula/1",
+      "sama": "Mi tami homula.",
+      "ru": "Я проверяю формулу."
+    },
+    {
+      "id": "SAMA-SENSE/atoma/1/example/1",
+      "lexeme_id": "SAMA-LEX/atoma",
+      "sense_id": "SAMA-SENSE/atoma/1",
+      "sama": "Mi tami atoma.",
+      "ru": "Я изучаю атом."
+    },
+    {
+      "id": "SAMA-SENSE/atoma/1/example/2",
+      "lexeme_id": "SAMA-LEX/atoma",
+      "sense_id": "SAMA-SENSE/atoma/1",
+      "sama": "Atoma bi nana matelia.",
+      "ru": "Атом находится внутри вещества."
+    },
+    {
+      "id": "SAMA-SENSE/dawila/1/example/1",
+      "lexeme_id": "SAMA-LEX/dawila",
+      "sense_id": "SAMA-SENSE/dawila/1",
+      "sama": "Mi dawila soma.",
+      "ru": "Я знакомлюсь с человеком."
+    },
+    {
+      "id": "SAMA-SENSE/dawila/1/example/2",
+      "lexeme_id": "SAMA-LEX/dawila",
+      "sense_id": "SAMA-SENSE/dawila/1",
+      "sama": "Yu pa dawila ami.",
+      "ru": "Ты познакомился с другом."
+    },
+    {
+      "id": "SAMA-SENSE/apolena/1/example/1",
+      "lexeme_id": "SAMA-LEX/apolena",
+      "sense_id": "SAMA-SENSE/apolena/1",
+      "sama": "Mi apolena.",
+      "ru": "Я извиняюсь."
+    },
+    {
+      "id": "SAMA-SENSE/apolena/1/example/2",
+      "lexeme_id": "SAMA-LEX/apolena",
+      "sense_id": "SAMA-SENSE/apolena/1",
+      "sama": "Ta pa apolena.",
+      "ru": "Он или она извинились."
+    },
+    {
+      "id": "SAMA-SENSE/helisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/helisa",
+      "sense_id": "SAMA-SENSE/helisa/1",
+      "sama": "Mi helisa.",
+      "ru": "Я смеюсь."
+    },
+    {
+      "id": "SAMA-SENSE/helisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/helisa",
+      "sense_id": "SAMA-SENSE/helisa/1",
+      "sama": "Nina helisa.",
+      "ru": "Ребёнок смеётся."
+    },
+    {
+      "id": "SAMA-SENSE/lomena/1/example/1",
+      "lexeme_id": "SAMA-LEX/lomena",
+      "sense_id": "SAMA-SENSE/lomena/1",
+      "sama": "Mi lomena.",
+      "ru": "Я улыбаюсь."
+    },
+    {
+      "id": "SAMA-SENSE/lomena/1/example/2",
+      "lexeme_id": "SAMA-LEX/lomena",
+      "sense_id": "SAMA-SENSE/lomena/1",
+      "sama": "Mama lomena.",
+      "ru": "Мама улыбается."
+    },
+    {
+      "id": "SAMA-SENSE/talina/1/example/1",
+      "lexeme_id": "SAMA-LEX/talina",
+      "sense_id": "SAMA-SENSE/talina/1",
+      "sama": "Nina talina.",
+      "ru": "Ребёнок плачет."
+    },
+    {
+      "id": "SAMA-SENSE/talina/1/example/2",
+      "lexeme_id": "SAMA-LEX/talina",
+      "sense_id": "SAMA-SENSE/talina/1",
+      "sama": "Mi pa talina.",
+      "ru": "Я плакал."
+    },
+    {
+      "id": "SAMA-SENSE/seliwa/1/example/1",
+      "lexeme_id": "SAMA-LEX/seliwa",
+      "sense_id": "SAMA-SENSE/seliwa/1",
+      "sama": "Mi seliwa yu.",
+      "ru": "Я обнимаю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/seliwa/1/example/2",
+      "lexeme_id": "SAMA-LEX/seliwa",
+      "sense_id": "SAMA-SENSE/seliwa/1",
+      "sama": "Mama seliwa nina.",
+      "ru": "Мама обнимает ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/kisena/1/example/1",
+      "lexeme_id": "SAMA-LEX/kisena",
+      "sense_id": "SAMA-SENSE/kisena/1",
+      "sama": "Mi kisena yu.",
+      "ru": "Я целую тебя."
+    },
+    {
+      "id": "SAMA-SENSE/kisena/1/example/2",
+      "lexeme_id": "SAMA-LEX/kisena",
+      "sense_id": "SAMA-SENSE/kisena/1",
+      "sama": "Mama kisena nina.",
+      "ru": "Мама целует ребёнка."
+    },
+    {
+      "id": "SAMA-SENSE/sopena/1/example/1",
+      "lexeme_id": "SAMA-LEX/sopena",
+      "sense_id": "SAMA-SENSE/sopena/1",
+      "sama": "Mi sopena yu.",
+      "ru": "Я поддерживаю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/sopena/1/example/2",
+      "lexeme_id": "SAMA-LEX/sopena",
+      "sense_id": "SAMA-SENSE/sopena/1",
+      "sama": "Ami sopena mi.",
+      "ru": "Друг поддерживает меня."
+    },
+    {
+      "id": "SAMA-SENSE/ponila/1/example/1",
+      "lexeme_id": "SAMA-LEX/ponila",
+      "sense_id": "SAMA-SENSE/ponila/1",
+      "sama": "Mi ponila yu.",
+      "ru": "Я доверяю тебе."
+    },
+    {
+      "id": "SAMA-SENSE/ponila/1/example/2",
+      "lexeme_id": "SAMA-LEX/ponila",
+      "sense_id": "SAMA-SENSE/ponila/1",
+      "sama": "Mama ponila mi.",
+      "ru": "Мама доверяет мне."
+    },
+    {
+      "id": "SAMA-SENSE/tihena/1/example/1",
+      "lexeme_id": "SAMA-LEX/tihena",
+      "sense_id": "SAMA-SENSE/tihena/1",
+      "sama": "Nina tihena siba.",
+      "ru": "Ребёнок боится собаки."
+    },
+    {
+      "id": "SAMA-SENSE/tihena/1/example/2",
+      "lexeme_id": "SAMA-LEX/tihena",
+      "sense_id": "SAMA-SENSE/tihena/1",
+      "sama": "Mi tihena tano.",
+      "ru": "Я боюсь горы."
+    },
+    {
+      "id": "SAMA-SENSE/milata/1/example/1",
+      "lexeme_id": "SAMA-LEX/milata",
+      "sense_id": "SAMA-SENSE/milata/1",
+      "sama": "Mi milata yu.",
+      "ru": "Я скучаю по тебе."
+    },
+    {
+      "id": "SAMA-SENSE/milata/1/example/2",
+      "lexeme_id": "SAMA-LEX/milata",
+      "sense_id": "SAMA-SENSE/milata/1",
+      "sama": "Mama milata nina.",
+      "ru": "Мама скучает по ребёнку."
+    },
+    {
+      "id": "SAMA-SENSE/delina/1/example/1",
+      "lexeme_id": "SAMA-LEX/delina",
+      "sense_id": "SAMA-SENSE/delina/1",
+      "sama": "Mi delina kaso ko yu.",
+      "ru": "Я делюсь с тобой книгой."
+    },
+    {
+      "id": "SAMA-SENSE/delina/1/example/2",
+      "lexeme_id": "SAMA-LEX/delina",
+      "sense_id": "SAMA-SENSE/delina/1",
+      "sama": "Ta delina pana ko mi.",
+      "ru": "Он делится со мной хлебом."
+    },
+    {
+      "id": "SAMA-SENSE/hinawa/1/example/1",
+      "lexeme_id": "SAMA-LEX/hinawa",
+      "sense_id": "SAMA-SENSE/hinawa/1",
+      "sama": "Mi hinawa yu.",
+      "ru": "Я приглашаю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/hinawa/1/example/2",
+      "lexeme_id": "SAMA-LEX/hinawa",
+      "sense_id": "SAMA-SENSE/hinawa/1",
+      "sama": "Mama pa hinawa ami.",
+      "ru": "Мама пригласила друга."
+    },
+    {
+      "id": "SAMA-SENSE/kemala/1/example/1",
+      "lexeme_id": "SAMA-LEX/kemala",
+      "sense_id": "SAMA-SENSE/kemala/1",
+      "sama": "Mi kemala yu.",
+      "ru": "Я благодарю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/kemala/1/example/2",
+      "lexeme_id": "SAMA-LEX/kemala",
+      "sense_id": "SAMA-SENSE/kemala/1",
+      "sama": "Dani kemala lenu.",
+      "ru": "Ученик благодарит учителя."
+    },
+    {
+      "id": "SAMA-SENSE/sakina/1/example/1",
+      "lexeme_id": "SAMA-LEX/sakina",
+      "sense_id": "SAMA-SENSE/sakina/1",
+      "sama": "Mi sakina saki.",
+      "ru": "Я задаю вопрос."
+    },
+    {
+      "id": "SAMA-SENSE/sakina/1/example/2",
+      "lexeme_id": "SAMA-LEX/sakina",
+      "sense_id": "SAMA-SENSE/sakina/1",
+      "sama": "Dani sakina saki.",
+      "ru": "Ученик задаёт вопрос."
+    },
+    {
+      "id": "SAMA-SENSE/nokela/1/example/1",
+      "lexeme_id": "SAMA-LEX/nokela",
+      "sense_id": "SAMA-SENSE/nokela/1",
+      "sama": "Mi nokela saki.",
+      "ru": "Я отвечаю на вопрос."
+    },
+    {
+      "id": "SAMA-SENSE/nokela/1/example/2",
+      "lexeme_id": "SAMA-LEX/nokela",
+      "sense_id": "SAMA-SENSE/nokela/1",
+      "sama": "Lenu nokela saki.",
+      "ru": "Учитель отвечает на вопрос."
+    },
+    {
+      "id": "SAMA-SENSE/lepina/1/example/1",
+      "lexeme_id": "SAMA-LEX/lepina",
+      "sense_id": "SAMA-SENSE/lepina/1",
+      "sama": "Mi lepina nelo.",
+      "ru": "Я объясняю идею."
+    },
+    {
+      "id": "SAMA-SENSE/lepina/1/example/2",
+      "lexeme_id": "SAMA-LEX/lepina",
+      "sense_id": "SAMA-SENSE/lepina/1",
+      "sama": "Lenu lepina temala.",
+      "ru": "Учитель объясняет предмет."
+    },
+    {
+      "id": "SAMA-SENSE/hasina/1/example/1",
+      "lexeme_id": "SAMA-LEX/hasina",
+      "sense_id": "SAMA-SENSE/hasina/1",
+      "sama": "Mi hasina pome.",
+      "ru": "Я рекомендую план."
+    },
+    {
+      "id": "SAMA-SENSE/hasina/1/example/2",
+      "lexeme_id": "SAMA-LEX/hasina",
+      "sense_id": "SAMA-SENSE/hasina/1",
+      "sama": "Lenu hasina pome.",
+      "ru": "Преподаватель рекомендует план."
+    },
+    {
+      "id": "SAMA-SENSE/atena/1/example/1",
+      "lexeme_id": "SAMA-LEX/atena",
+      "sense_id": "SAMA-SENSE/atena/1",
+      "sama": "Mi atena.",
+      "ru": "Я соглашаюсь."
+    },
+    {
+      "id": "SAMA-SENSE/atena/1/example/2",
+      "lexeme_id": "SAMA-LEX/atena",
+      "sense_id": "SAMA-SENSE/atena/1",
+      "sama": "Ta pa atena.",
+      "ru": "Он согласился."
+    },
+    {
+      "id": "SAMA-SENSE/disena/1/example/1",
+      "lexeme_id": "SAMA-LEX/disena",
+      "sense_id": "SAMA-SENSE/disena/1",
+      "sama": "Mi disena.",
+      "ru": "Я отказываюсь."
+    },
+    {
+      "id": "SAMA-SENSE/disena/1/example/2",
+      "lexeme_id": "SAMA-LEX/disena",
+      "sense_id": "SAMA-SENSE/disena/1",
+      "sama": "Yu pa disena.",
+      "ru": "Ты отказался."
+    },
+    {
+      "id": "SAMA-SENSE/wawina/1/example/1",
+      "lexeme_id": "SAMA-LEX/wawina",
+      "sense_id": "SAMA-SENSE/wawina/1",
+      "sama": "Mi wawina yu.",
+      "ru": "Я поздравляю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/wawina/1/example/2",
+      "lexeme_id": "SAMA-LEX/wawina",
+      "sense_id": "SAMA-SENSE/wawina/1",
+      "sama": "Ami wawina mi.",
+      "ru": "Друг поздравляет меня."
+    },
+    {
+      "id": "SAMA-SENSE/sitena/1/example/1",
+      "lexeme_id": "SAMA-LEX/sitena",
+      "sense_id": "SAMA-SENSE/sitena/1",
+      "sama": "Mi sitena delo.",
+      "ru": "Я обсуждаю задачу."
+    },
+    {
+      "id": "SAMA-SENSE/sitena/1/example/2",
+      "lexeme_id": "SAMA-LEX/sitena",
+      "sense_id": "SAMA-SENSE/sitena/1",
+      "sama": "Mado sitena pome.",
+      "ru": "Руководитель обсуждает план."
+    },
+    {
+      "id": "SAMA-SENSE/lihena/1/example/1",
+      "lexeme_id": "SAMA-LEX/lihena",
+      "sense_id": "SAMA-SENSE/lihena/1",
+      "sama": "Mi lihena yu.",
+      "ru": "Я уважаю тебя."
+    },
+    {
+      "id": "SAMA-SENSE/lihena/1/example/2",
+      "lexeme_id": "SAMA-LEX/lihena",
+      "sense_id": "SAMA-SENSE/lihena/1",
+      "sama": "Dani lihena lenu.",
+      "ru": "Ученик уважает учителя."
+    },
+    {
+      "id": "SAMA-SENSE/molita/1/example/1",
+      "lexeme_id": "SAMA-LEX/molita",
+      "sense_id": "SAMA-SENSE/molita/1",
+      "sama": "Mi molita kulipa.",
+      "ru": "Я ненавижу преступление."
+    },
+    {
+      "id": "SAMA-SENSE/molita/1/example/2",
+      "lexeme_id": "SAMA-LEX/molita",
+      "sense_id": "SAMA-SENSE/molita/1",
+      "sama": "Ta molita pome malo.",
+      "ru": "Он ненавидит плохой план."
+    },
+    {
+      "id": "SAMA-SENSE/lamina/1/example/1",
+      "lexeme_id": "SAMA-LEX/lamina",
+      "sense_id": "SAMA-SENSE/lamina/1",
+      "sama": "Mama lamina nina.",
+      "ru": "Мама заботится о ребёнке."
+    },
+    {
+      "id": "SAMA-SENSE/lamina/1/example/2",
+      "lexeme_id": "SAMA-LEX/lamina",
+      "sense_id": "SAMA-SENSE/lamina/1",
+      "sama": "Mi lamina baba.",
+      "ru": "Я забочусь о папе."
+    },
+    {
+      "id": "SAMA-SENSE/amilina/1/example/1",
+      "lexeme_id": "SAMA-LEX/amilina",
+      "sense_id": "SAMA-SENSE/amilina/1",
+      "sama": "Lenu bi amilina.",
+      "ru": "Учитель дружелюбный."
+    },
+    {
+      "id": "SAMA-SENSE/amilina/1/example/2",
+      "lexeme_id": "SAMA-LEX/amilina",
+      "sense_id": "SAMA-SENSE/amilina/1",
+      "sama": "Soma amilina bi na doma.",
+      "ru": "Дружелюбный человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/bonisa/1/example/1",
+      "lexeme_id": "SAMA-LEX/bonisa",
+      "sense_id": "SAMA-SENSE/bonisa/1",
+      "sama": "Mama bi bonisa.",
+      "ru": "Мама добрая."
+    },
+    {
+      "id": "SAMA-SENSE/bonisa/1/example/2",
+      "lexeme_id": "SAMA-LEX/bonisa",
+      "sense_id": "SAMA-SENSE/bonisa/1",
+      "sama": "Soma bonisa kami nina.",
+      "ru": "Добрый человек помогает ребёнку."
+    },
+    {
+      "id": "SAMA-SENSE/mulata/1/example/1",
+      "lexeme_id": "SAMA-LEX/mulata",
+      "sense_id": "SAMA-SENSE/mulata/1",
+      "sama": "Soma bi mulata.",
+      "ru": "Человек грубый."
+    },
+    {
+      "id": "SAMA-SENSE/mulata/1/example/2",
+      "lexeme_id": "SAMA-LEX/mulata",
+      "sense_id": "SAMA-SENSE/mulata/1",
+      "sama": "Soma mulata bi na bano.",
+      "ru": "Грубый человек в городе."
+    },
+    {
+      "id": "SAMA-SENSE/honaseta/1/example/1",
+      "lexeme_id": "SAMA-LEX/honaseta",
+      "sense_id": "SAMA-SENSE/honaseta/1",
+      "sama": "Ami bi honaseta.",
+      "ru": "Друг честный."
+    },
+    {
+      "id": "SAMA-SENSE/honaseta/1/example/2",
+      "lexeme_id": "SAMA-LEX/honaseta",
+      "sense_id": "SAMA-SENSE/honaseta/1",
+      "sama": "Soma honaseta bi na kapo.",
+      "ru": "Честный человек в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/siyala/1/example/1",
+      "lexeme_id": "SAMA-LEX/siyala",
+      "sense_id": "SAMA-SENSE/siyala/1",
+      "sama": "Nina bi siyala.",
+      "ru": "Ребёнок застенчивый."
+    },
+    {
+      "id": "SAMA-SENSE/siyala/1/example/2",
+      "lexeme_id": "SAMA-LEX/siyala",
+      "sense_id": "SAMA-SENSE/siyala/1",
+      "sama": "Soma siyala bi na lasoma.",
+      "ru": "Застенчивый человек в аудитории."
+    },
+    {
+      "id": "SAMA-SENSE/konahita/1/example/1",
+      "lexeme_id": "SAMA-LEX/konahita",
+      "sense_id": "SAMA-SENSE/konahita/1",
+      "sama": "Mi bi konahita.",
+      "ru": "Я уверен в себе."
+    },
+    {
+      "id": "SAMA-SENSE/konahita/1/example/2",
+      "lexeme_id": "SAMA-LEX/konahita",
+      "sense_id": "SAMA-SENSE/konahita/1",
+      "sama": "Lenu bi konahita.",
+      "ru": "Преподаватель уверен в себе."
+    },
+    {
+      "id": "SAMA-SENSE/lonela/1/example/1",
+      "lexeme_id": "SAMA-LEX/lonela",
+      "sense_id": "SAMA-SENSE/lonela/1",
+      "sama": "Mi bi lonela.",
+      "ru": "Я одинок."
+    },
+    {
+      "id": "SAMA-SENSE/lonela/1/example/2",
+      "lexeme_id": "SAMA-LEX/lonela",
+      "sense_id": "SAMA-SENSE/lonela/1",
+      "sama": "Soma lonela bi na doma.",
+      "ru": "Одинокий человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/kamaliya/1/example/1",
+      "lexeme_id": "SAMA-LEX/kamaliya",
+      "sense_id": "SAMA-SENSE/kamaliya/1",
+      "sama": "Mi bi kamaliya.",
+      "ru": "Я спокоен."
+    },
+    {
+      "id": "SAMA-SENSE/kamaliya/1/example/2",
+      "lexeme_id": "SAMA-LEX/kamaliya",
+      "sense_id": "SAMA-SENSE/kamaliya/1",
+      "sama": "Nina bi kamaliya.",
+      "ru": "Ребёнок спокоен."
+    },
+    {
+      "id": "SAMA-SENSE/anasina/1/example/1",
+      "lexeme_id": "SAMA-LEX/anasina",
+      "sense_id": "SAMA-SENSE/anasina/1",
+      "sama": "Mi bi anasina.",
+      "ru": "Я тревожусь."
+    },
+    {
+      "id": "SAMA-SENSE/anasina/1/example/2",
+      "lexeme_id": "SAMA-LEX/anasina",
+      "sense_id": "SAMA-SENSE/anasina/1",
+      "sama": "Soma anasina bi na kapo.",
+      "ru": "Тревожный человек в офисе."
+    },
+    {
+      "id": "SAMA-SENSE/anakala/1/example/1",
+      "lexeme_id": "SAMA-LEX/anakala",
+      "sense_id": "SAMA-SENSE/anakala/1",
+      "sama": "Mi bi anakala.",
+      "ru": "Я сердит."
+    },
+    {
+      "id": "SAMA-SENSE/anakala/1/example/2",
+      "lexeme_id": "SAMA-LEX/anakala",
+      "sense_id": "SAMA-SENSE/anakala/1",
+      "sama": "Ta bi anakala.",
+      "ru": "Он или она сердиты."
+    },
+    {
+      "id": "SAMA-SENSE/yelosa/1/example/1",
+      "lexeme_id": "SAMA-LEX/yelosa",
+      "sense_id": "SAMA-SENSE/yelosa/1",
+      "sama": "Mi bi yelosa.",
+      "ru": "Я ревнив."
+    },
+    {
+      "id": "SAMA-SENSE/yelosa/1/example/2",
+      "lexeme_id": "SAMA-LEX/yelosa",
+      "sense_id": "SAMA-SENSE/yelosa/1",
+      "sama": "Soma yelosa bi na doma.",
+      "ru": "Ревнивый человек дома."
+    },
+    {
+      "id": "SAMA-SENSE/sanila/1/example/1",
+      "lexeme_id": "SAMA-LEX/sanila",
+      "sense_id": "SAMA-SENSE/sanila/1",
+      "sama": "Mi bi sanila.",
+      "ru": "Я благодарен."
+    },
+    {
+      "id": "SAMA-SENSE/sanila/1/example/2",
+      "lexeme_id": "SAMA-LEX/sanila",
+      "sense_id": "SAMA-SENSE/sanila/1",
+      "sama": "Nina bi sanila.",
+      "ru": "Ребёнок благодарен."
+    },
+    {
+      "id": "SAMA-SENSE/kuliyosa/1/example/1",
+      "lexeme_id": "SAMA-LEX/kuliyosa",
+      "sense_id": "SAMA-SENSE/kuliyosa/1",
+      "sama": "Dani bi kuliyosa.",
+      "ru": "Ученик любознателен."
+    },
+    {
+      "id": "SAMA-SENSE/kuliyosa/1/example/2",
+      "lexeme_id": "SAMA-LEX/kuliyosa",
+      "sense_id": "SAMA-SENSE/kuliyosa/1",
+      "sama": "Nina kuliyosa sakina saki.",
+      "ru": "Любознательный ребёнок задаёт вопрос."
+    },
+    {
+      "id": "SAMA-SENSE/kenela/1/example/1",
+      "lexeme_id": "SAMA-LEX/kenela",
+      "sense_id": "SAMA-SENSE/kenela/1",
+      "sama": "Ami bi kenela.",
+      "ru": "Друг щедрый."
+    },
+    {
+      "id": "SAMA-SENSE/kenela/1/example/2",
+      "lexeme_id": "SAMA-LEX/kenela",
+      "sense_id": "SAMA-SENSE/kenela/1",
+      "sama": "Soma kenela pako pana to mi.",
+      "ru": "Щедрый человек даёт мне хлеб."
+    },
+    {
+      "id": "SAMA-SENSE/patisena/1/example/1",
+      "lexeme_id": "SAMA-LEX/patisena",
+      "sense_id": "SAMA-SENSE/patisena/1",
+      "sama": "Mi bi patisena.",
+      "ru": "Я терпелив."
+    },
+    {
+      "id": "SAMA-SENSE/patisena/1/example/2",
+      "lexeme_id": "SAMA-LEX/patisena",
+      "sense_id": "SAMA-SENSE/patisena/1",
+      "sama": "Meka bi patisena.",
+      "ru": "Врач терпелив."
     }
   ]
 }
