@@ -9,7 +9,7 @@
     "check": "npm run validate && tsc --noEmit -p tsconfig.json",
     "dev": "npm run build && node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "test": "node scripts/roadmap-test.mjs && node scripts/baseline09-test.mjs && npm run build && node scripts/smoke-test.mjs && node scripts/route-test.mjs && node scripts/phonetics-test.mjs && node scripts/language07-test.mjs && node scripts/language08-test.mjs && node scripts/language08-route-test.mjs && node scripts/language09-test.mjs && node scripts/language09-route-test.mjs"
+    "test": "node scripts/roadmap-test.mjs && node scripts/baseline09-test.mjs && node scripts/rule-crosswalk-test.mjs && npm run build && node scripts/smoke-test.mjs && node scripts/route-test.mjs && node scripts/phonetics-test.mjs && node scripts/language07-test.mjs && node scripts/language08-test.mjs && node scripts/language08-route-test.mjs && node scripts/language09-test.mjs && node scripts/language09-route-test.mjs"
   },
   "devDependencies": {
     "typescript": "5.8.3"

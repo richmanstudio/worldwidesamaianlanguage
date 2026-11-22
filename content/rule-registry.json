@@ -1,0 +1,2270 @@
+{
+  "version": "0.10-audit-draft",
+  "created": "2026-11-22",
+  "notice": "Crosswalk of historical positions, NOT adoption of experimental rules. Each topic has at most one primary 0.3 internal source; unresolved conflicts remain open.",
+  "counts": {
+    "total": 128,
+    "bySource": {
+      "spec03": 24,
+      "atlas05": 45,
+      "lab07": 15,
+      "lab08": 24,
+      "lab09": 20
+    },
+    "laboratory": 59,
+    "topics": 46,
+    "registered_conflicts": 12
+  },
+  "topics": [
+    {
+      "id": "SAMA-RULE/alphabet",
+      "topic": "alphabet",
+      "primary_internal_03": "spec03:alphabet-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:alphabet-core",
+        "atlas05:ipa"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/aspect",
+      "topic": "aspect",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:aspect",
+        "lab08:08-22",
+        "lab09:09-01",
+        "lab09:09-02",
+        "lab09:09-03",
+        "lab09:09-04",
+        "lab09:09-05",
+        "lab09:09-12"
+      ],
+      "conflicts": [
+        "CF-007"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/borrowings",
+      "topic": "borrowings",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:loanwords"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/causal-discourse",
+      "topic": "causal-discourse",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:purpose",
+        "lab09:09-14",
+        "lab09:09-15"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/comparison",
+      "topic": "comparison",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:comparison"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/compounds",
+      "topic": "compounds",
+      "primary_internal_03": "spec03:compounding-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:compounding-core",
+        "atlas05:compounding",
+        "atlas05:compounding-roles"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/conditionals",
+      "topic": "conditionals",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "spec03:conditional-core",
+        "atlas05:conditional",
+        "lab07:07-14",
+        "lab08:08-08",
+        "lab08:08-09"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/content-clauses",
+      "topic": "content-clauses",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "spec03:content-clause",
+        "atlas05:content",
+        "lab08:08-10"
+      ],
+      "conflicts": [
+        "CF-009"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/coordination",
+      "topic": "coordination",
+      "primary_internal_03": "spec03:coord-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:coord-core",
+        "atlas05:coord",
+        "atlas05:contrast",
+        "lab08:08-15",
+        "lab08:08-16"
+      ],
+      "conflicts": [
+        "CF-003",
+        "CF-006"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/copula",
+      "topic": "copula",
+      "primary_internal_03": "spec03:copula-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:copula-core",
+        "atlas05:copula",
+        "lab07:07-02",
+        "lab08:08-03"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/definiteness",
+      "topic": "definiteness",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:article"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/discourse",
+      "topic": "discourse",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:discourse"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/ellipsis",
+      "topic": "ellipsis",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:ellipsis"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/evidentiality",
+      "topic": "evidentiality",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:evidentiality",
+        "lab08:08-23"
+      ],
+      "conflicts": [
+        "CF-009"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/governance",
+      "topic": "governance",
+      "primary_internal_03": "spec03:status",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:status"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/imperatives",
+      "topic": "imperatives",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:commands"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/information-structure",
+      "topic": "information-structure",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:topics"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/legal",
+      "topic": "legal",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:legal"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/lexicon-policy",
+      "topic": "lexicon-policy",
+      "primary_internal_03": "spec03:lexicon-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:lexicon-core",
+        "atlas05:lex-status",
+        "lab09:09-19"
+      ],
+      "conflicts": [
+        "CF-012"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/limitations",
+      "topic": "limitations",
+      "primary_internal_03": "spec03:limitations-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:limitations-core"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/modality",
+      "topic": "modality",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "spec03:modals-core",
+        "atlas05:modality",
+        "lab08:08-17",
+        "lab09:09-06",
+        "lab09:09-07",
+        "lab09:09-08",
+        "lab09:09-11"
+      ],
+      "conflicts": [
+        "CF-002",
+        "CF-012",
+        "CF-007"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/negation",
+      "topic": "negation",
+      "primary_internal_03": "spec03:negation-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:negation-core",
+        "atlas05:negation",
+        "lab07:07-04",
+        "lab08:08-02",
+        "lab08:08-20",
+        "lab09:09-09",
+        "lab09:09-10",
+        "lab09:09-13",
+        "lab09:09-17"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/nounphrase",
+      "topic": "nounphrase",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:nounphrase"
+      ],
+      "conflicts": [
+        "CF-005"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/numbers",
+      "topic": "numbers",
+      "primary_internal_03": "spec03:numbers-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:numbers-core",
+        "atlas05:digits"
+      ],
+      "conflicts": [
+        "CF-004"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/orthography",
+      "topic": "orthography",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:punctuation",
+        "lab08:08-24"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/passive",
+      "topic": "passive",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:passive"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/plural",
+      "topic": "plural",
+      "primary_internal_03": "spec03:plural-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:plural-core",
+        "atlas05:plural",
+        "lab07:07-07",
+        "lab08:08-04"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/politeness",
+      "topic": "politeness",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:politeness"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/possession",
+      "topic": "possession",
+      "primary_internal_03": "spec03:possession-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:possession-core",
+        "atlas05:possession",
+        "lab07:07-08"
+      ],
+      "conflicts": [
+        "CF-008"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/pronouns",
+      "topic": "pronouns",
+      "primary_internal_03": "spec03:pronouns-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:pronouns-core",
+        "atlas05:pronouns",
+        "lab07:07-06",
+        "lab07:07-11",
+        "lab08:08-06"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/quality",
+      "topic": "quality",
+      "primary_internal_03": "spec03:adjectives-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:adjectives-core",
+        "atlas05:quality",
+        "lab07:07-10"
+      ],
+      "conflicts": [
+        "CF-005"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/quantifiers",
+      "topic": "quantifiers",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:quantifiers",
+        "lab08:08-21"
+      ],
+      "conflicts": [
+        "CF-004"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/questions",
+      "topic": "questions",
+      "primary_internal_03": "spec03:questions-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:questions-core",
+        "atlas05:polar",
+        "atlas05:wh",
+        "lab07:07-05",
+        "lab08:08-05",
+        "lab08:08-18"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/recursion",
+      "topic": "recursion",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "lab08:08-14",
+        "lab09:09-16",
+        "lab09:09-20"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/relatives",
+      "topic": "relatives",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "spec03:relative-core",
+        "atlas05:relative",
+        "lab08:08-12",
+        "lab08:08-13"
+      ],
+      "conflicts": [
+        "CF-001"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/releases",
+      "topic": "releases",
+      "primary_internal_03": "spec03:release-policy",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:release-policy"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/reported-speech",
+      "topic": "reported-speech",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:reported-speech",
+        "lab08:08-11"
+      ],
+      "conflicts": [
+        "CF-009"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/spatial",
+      "topic": "spatial",
+      "primary_internal_03": "spec03:spatial-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:spatial-core",
+        "atlas05:spatial",
+        "lab07:07-09"
+      ],
+      "conflicts": [
+        "CF-010"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/svo",
+      "topic": "svo",
+      "primary_internal_03": "spec03:sentence-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:sentence-core",
+        "atlas05:svo",
+        "lab07:07-01",
+        "lab08:08-01"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/syllables",
+      "topic": "syllables",
+      "primary_internal_03": "spec03:syllables-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:syllables-core",
+        "atlas05:stress",
+        "lab07:07-15"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/tense",
+      "topic": "tense",
+      "primary_internal_03": "spec03:tense-core",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:tense-core",
+        "atlas05:tense",
+        "lab07:07-03"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/testing",
+      "topic": "testing",
+      "primary_internal_03": "spec03:test-design",
+      "provisional_status": "inherited-working-internal",
+      "sources": [
+        "spec03:test-design",
+        "atlas05:language-testing"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/time-adverbs",
+      "topic": "time-adverbs",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:time-adverbs"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/transliteration",
+      "topic": "transliteration",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:transliteration"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/valency",
+      "topic": "valency",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:objects",
+        "lab07:07-12",
+        "lab07:07-13",
+        "lab08:08-07",
+        "lab08:08-19",
+        "lab09:09-18"
+      ],
+      "conflicts": [
+        "CF-011"
+      ],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    },
+    {
+      "id": "SAMA-RULE/wordclasses",
+      "topic": "wordclasses",
+      "primary_internal_03": null,
+      "provisional_status": "pending-unified-norm",
+      "sources": [
+        "atlas05:wordclasses"
+      ],
+      "conflicts": [],
+      "decision": "unreviewed-mapping; does not create a new normative rule"
+    }
+  ],
+  "positions": [
+    {
+      "ref": "spec03:status",
+      "source": "content/specification.json",
+      "source_id": "status",
+      "title": "Что такое стандарт 0.3",
+      "source_status": "core",
+      "topic": "governance",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:alphabet-core",
+      "source": "content/specification.json",
+      "source_id": "alphabet-core",
+      "title": "Письменность и фонемы",
+      "source_status": "core",
+      "topic": "alphabet",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:syllables-core",
+      "source": "content/specification.json",
+      "source_id": "syllables-core",
+      "title": "Слоги и ударение",
+      "source_status": "core",
+      "topic": "syllables",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:sentence-core",
+      "source": "content/specification.json",
+      "source_id": "sentence-core",
+      "title": "Структура предложения",
+      "source_status": "core",
+      "topic": "svo",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:pronouns-core",
+      "source": "content/specification.json",
+      "source_id": "pronouns-core",
+      "title": "Местоимения",
+      "source_status": "core",
+      "topic": "pronouns",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:copula-core",
+      "source": "content/specification.json",
+      "source_id": "copula-core",
+      "title": "Связка bi",
+      "source_status": "core",
+      "topic": "copula",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:negation-core",
+      "source": "content/specification.json",
+      "source_id": "negation-core",
+      "title": "Отрицание и область действия",
+      "source_status": "core",
+      "topic": "negation",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:tense-core",
+      "source": "content/specification.json",
+      "source_id": "tense-core",
+      "title": "Прошлое и будущее",
+      "source_status": "core",
+      "topic": "tense",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:questions-core",
+      "source": "content/specification.json",
+      "source_id": "questions-core",
+      "title": "Вопросы",
+      "source_status": "core",
+      "topic": "questions",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:plural-core",
+      "source": "content/specification.json",
+      "source_id": "plural-core",
+      "title": "Множественность",
+      "source_status": "core",
+      "topic": "plural",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:possession-core",
+      "source": "content/specification.json",
+      "source_id": "possession-core",
+      "title": "Принадлежность и связь de",
+      "source_status": "core",
+      "topic": "possession",
+      "relation": "foundational-internal",
+      "issues": [
+        "CF-008"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:spatial-core",
+      "source": "content/specification.json",
+      "source_id": "spatial-core",
+      "title": "Место, направление, совместность",
+      "source_status": "core",
+      "topic": "spatial",
+      "relation": "foundational-internal",
+      "issues": [
+        "CF-010"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:modals-core",
+      "source": "content/specification.json",
+      "source_id": "modals-core",
+      "title": "Желание, возможность, последовательные глаголы",
+      "source_status": "candidate",
+      "topic": "modality",
+      "relation": "legacy-candidate",
+      "issues": [
+        "CF-002"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:coord-core",
+      "source": "content/specification.json",
+      "source_id": "coord-core",
+      "title": "Соединение и противопоставление",
+      "source_status": "core",
+      "topic": "coordination",
+      "relation": "foundational-internal",
+      "issues": [
+        "CF-003",
+        "CF-006"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:content-clause",
+      "source": "content/specification.json",
+      "source_id": "content-clause",
+      "title": "Изъяснительное придаточное ke",
+      "source_status": "candidate",
+      "topic": "content-clauses",
+      "relation": "legacy-candidate",
+      "issues": [
+        "CF-009"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:conditional-core",
+      "source": "content/specification.json",
+      "source_id": "conditional-core",
+      "title": "Условное предложение ani",
+      "source_status": "candidate",
+      "topic": "conditionals",
+      "relation": "legacy-candidate",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:relative-core",
+      "source": "content/specification.json",
+      "source_id": "relative-core",
+      "title": "Относительное придаточное ye…ya",
+      "source_status": "candidate",
+      "topic": "relatives",
+      "relation": "legacy-candidate",
+      "issues": [
+        "CF-001"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:adjectives-core",
+      "source": "content/specification.json",
+      "source_id": "adjectives-core",
+      "title": "Качество и описание",
+      "source_status": "core",
+      "topic": "quality",
+      "relation": "foundational-internal",
+      "issues": [
+        "CF-005"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:numbers-core",
+      "source": "content/specification.json",
+      "source_id": "numbers-core",
+      "title": "Десятичные числа",
+      "source_status": "core",
+      "topic": "numbers",
+      "relation": "foundational-internal",
+      "issues": [
+        "CF-004"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:compounding-core",
+      "source": "content/specification.json",
+      "source_id": "compounding-core",
+      "title": "Составные слова и ограничения",
+      "source_status": "core",
+      "topic": "compounds",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:lexicon-core",
+      "source": "content/specification.json",
+      "source_id": "lexicon-core",
+      "title": "Лексикографическая дисциплина",
+      "source_status": "core",
+      "topic": "lexicon-policy",
+      "relation": "foundational-internal",
+      "issues": [
+        "CF-012"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:limitations-core",
+      "source": "content/specification.json",
+      "source_id": "limitations-core",
+      "title": "Что пока нельзя выразить однозначно",
+      "source_status": "core",
+      "topic": "limitations",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:test-design",
+      "source": "content/specification.json",
+      "source_id": "test-design",
+      "title": "Программа международной проверки",
+      "source_status": "core",
+      "topic": "testing",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "spec03:release-policy",
+      "source": "content/specification.json",
+      "source_id": "release-policy",
+      "title": "Как менять правила без хаоса",
+      "source_status": "core",
+      "topic": "releases",
+      "relation": "foundational-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:svo",
+      "source": "content/grammar-atlas.json",
+      "source_id": "svo",
+      "title": "Базовый порядок S–V–O",
+      "source_status": "core",
+      "topic": "svo",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:copula",
+      "source": "content/grammar-atlas.json",
+      "source_id": "copula",
+      "title": "Связка bi",
+      "source_status": "core",
+      "topic": "copula",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:pronouns",
+      "source": "content/grammar-atlas.json",
+      "source_id": "pronouns",
+      "title": "Шесть личных форм",
+      "source_status": "core",
+      "topic": "pronouns",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:wordclasses",
+      "source": "content/grammar-atlas.json",
+      "source_id": "wordclasses",
+      "title": "Части речи без флексии",
+      "source_status": "proposal",
+      "topic": "wordclasses",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:nounphrase",
+      "source": "content/grammar-atlas.json",
+      "source_id": "nounphrase",
+      "title": "Именная группа",
+      "source_status": "proposal",
+      "topic": "nounphrase",
+      "relation": "research-proposal",
+      "issues": [
+        "CF-005"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:plural",
+      "source": "content/grammar-atlas.json",
+      "source_id": "plural",
+      "title": "Маркер множественного числа li",
+      "source_status": "core",
+      "topic": "plural",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:possession",
+      "source": "content/grammar-atlas.json",
+      "source_id": "possession",
+      "title": "Принадлежность de",
+      "source_status": "core",
+      "topic": "possession",
+      "relation": "supporting-internal",
+      "issues": [
+        "CF-008"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:quality",
+      "source": "content/grammar-atlas.json",
+      "source_id": "quality",
+      "title": "Качественные определения",
+      "source_status": "core",
+      "topic": "quality",
+      "relation": "supporting-internal",
+      "issues": [
+        "CF-005"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:article",
+      "source": "content/grammar-atlas.json",
+      "source_id": "article",
+      "title": "Определённость и артикли",
+      "source_status": "proposal",
+      "topic": "definiteness",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:objects",
+      "source": "content/grammar-atlas.json",
+      "source_id": "objects",
+      "title": "Два участника действия",
+      "source_status": "core",
+      "topic": "valency",
+      "relation": "supporting-internal",
+      "issues": [
+        "CF-011"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:tense",
+      "source": "content/grammar-atlas.json",
+      "source_id": "tense",
+      "title": "Время pa / la",
+      "source_status": "core",
+      "topic": "tense",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:aspect",
+      "source": "content/grammar-atlas.json",
+      "source_id": "aspect",
+      "title": "Вид действия",
+      "source_status": "proposal",
+      "topic": "aspect",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:negation",
+      "source": "content/grammar-atlas.json",
+      "source_id": "negation",
+      "title": "Отрицание no",
+      "source_status": "core",
+      "topic": "negation",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:polar",
+      "source": "content/grammar-atlas.json",
+      "source_id": "polar",
+      "title": "Общий вопрос ka",
+      "source_status": "core",
+      "topic": "questions",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:wh",
+      "source": "content/grammar-atlas.json",
+      "source_id": "wh",
+      "title": "Специальные вопросы",
+      "source_status": "core",
+      "topic": "questions",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:spatial",
+      "source": "content/grammar-atlas.json",
+      "source_id": "spatial",
+      "title": "Предлоги na, to, ko",
+      "source_status": "core",
+      "topic": "spatial",
+      "relation": "supporting-internal",
+      "issues": [
+        "CF-010"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:coord",
+      "source": "content/grammar-atlas.json",
+      "source_id": "coord",
+      "title": "Соединение wa",
+      "source_status": "core",
+      "topic": "coordination",
+      "relation": "supporting-internal",
+      "issues": [
+        "CF-006"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:contrast",
+      "source": "content/grammar-atlas.json",
+      "source_id": "contrast",
+      "title": "Противопоставление aka",
+      "source_status": "proposal",
+      "topic": "coordination",
+      "relation": "research-proposal",
+      "issues": [
+        "CF-003"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:content",
+      "source": "content/grammar-atlas.json",
+      "source_id": "content",
+      "title": "Изъяснительное ke",
+      "source_status": "proposal",
+      "topic": "content-clauses",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:conditional",
+      "source": "content/grammar-atlas.json",
+      "source_id": "conditional",
+      "title": "Условие ani",
+      "source_status": "proposal",
+      "topic": "conditionals",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:relative",
+      "source": "content/grammar-atlas.json",
+      "source_id": "relative",
+      "title": "Относительное ye … ya",
+      "source_status": "proposal",
+      "topic": "relatives",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:topics",
+      "source": "content/grammar-atlas.json",
+      "source_id": "topics",
+      "title": "Тема и актуальное членение",
+      "source_status": "proposal",
+      "topic": "information-structure",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:politeness",
+      "source": "content/grammar-atlas.json",
+      "source_id": "politeness",
+      "title": "Вежливость без грамматического рода",
+      "source_status": "proposal",
+      "topic": "politeness",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:punctuation",
+      "source": "content/grammar-atlas.json",
+      "source_id": "punctuation",
+      "title": "Пунктуация и заглавные",
+      "source_status": "core",
+      "topic": "orthography",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:stress",
+      "source": "content/grammar-atlas.json",
+      "source_id": "stress",
+      "title": "Ударение и ритм",
+      "source_status": "core",
+      "topic": "syllables",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:ipa",
+      "source": "content/grammar-atlas.json",
+      "source_id": "ipa",
+      "title": "МФА и допущенные варианты",
+      "source_status": "core",
+      "topic": "alphabet",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:loanwords",
+      "source": "content/grammar-atlas.json",
+      "source_id": "loanwords",
+      "title": "Заимствования и имена",
+      "source_status": "proposal",
+      "topic": "borrowings",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:compounding",
+      "source": "content/grammar-atlas.json",
+      "source_id": "compounding",
+      "title": "Композиция и дефис",
+      "source_status": "core",
+      "topic": "compounds",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:lex-status",
+      "source": "content/grammar-atlas.json",
+      "source_id": "lex-status",
+      "title": "Статусы словаря",
+      "source_status": "core",
+      "topic": "lexicon-policy",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:comparison",
+      "source": "content/grammar-atlas.json",
+      "source_id": "comparison",
+      "title": "Сравнение и степени качества",
+      "source_status": "proposal",
+      "topic": "comparison",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:quantifiers",
+      "source": "content/grammar-atlas.json",
+      "source_id": "quantifiers",
+      "title": "Количество и неопределённость",
+      "source_status": "proposal",
+      "topic": "quantifiers",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:commands",
+      "source": "content/grammar-atlas.json",
+      "source_id": "commands",
+      "title": "Побудительные предложения",
+      "source_status": "proposal",
+      "topic": "imperatives",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:modality",
+      "source": "content/grammar-atlas.json",
+      "source_id": "modality",
+      "title": "Модальные значения",
+      "source_status": "proposal",
+      "topic": "modality",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:passive",
+      "source": "content/grammar-atlas.json",
+      "source_id": "passive",
+      "title": "Пассив и фокус на объекте",
+      "source_status": "proposal",
+      "topic": "passive",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:time-adverbs",
+      "source": "content/grammar-atlas.json",
+      "source_id": "time-adverbs",
+      "title": "Когда произошло событие",
+      "source_status": "proposal",
+      "topic": "time-adverbs",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:reported-speech",
+      "source": "content/grammar-atlas.json",
+      "source_id": "reported-speech",
+      "title": "Чужая речь",
+      "source_status": "proposal",
+      "topic": "reported-speech",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:purpose",
+      "source": "content/grammar-atlas.json",
+      "source_id": "purpose",
+      "title": "Цель и причина",
+      "source_status": "proposal",
+      "topic": "causal-discourse",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:ellipsis",
+      "source": "content/grammar-atlas.json",
+      "source_id": "ellipsis",
+      "title": "Пропуск известных слов",
+      "source_status": "proposal",
+      "topic": "ellipsis",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:discourse",
+      "source": "content/grammar-atlas.json",
+      "source_id": "discourse",
+      "title": "Связность из нескольких предложений",
+      "source_status": "proposal",
+      "topic": "discourse",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:evidentiality",
+      "source": "content/grammar-atlas.json",
+      "source_id": "evidentiality",
+      "title": "Источник информации",
+      "source_status": "proposal",
+      "topic": "evidentiality",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:legal",
+      "source": "content/grammar-atlas.json",
+      "source_id": "legal",
+      "title": "Точность в договорах и нормах",
+      "source_status": "proposal",
+      "topic": "legal",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:compounding-roles",
+      "source": "content/grammar-atlas.json",
+      "source_id": "compounding-roles",
+      "title": "Смысловая связь частей композита",
+      "source_status": "proposal",
+      "topic": "compounds",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:language-testing",
+      "source": "content/grammar-atlas.json",
+      "source_id": "language-testing",
+      "title": "Проверяемость правил",
+      "source_status": "core",
+      "topic": "testing",
+      "relation": "supporting-internal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:digits",
+      "source": "content/grammar-atlas.json",
+      "source_id": "digits",
+      "title": "Запись чисел и единиц",
+      "source_status": "proposal",
+      "topic": "numbers",
+      "relation": "research-proposal",
+      "issues": [
+        "CF-004"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "atlas05:transliteration",
+      "source": "content/grammar-atlas.json",
+      "source_id": "transliteration",
+      "title": "Романизация и другие письменности",
+      "source_status": "proposal",
+      "topic": "transliteration",
+      "relation": "research-proposal",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-01",
+      "source": "content/language-0.7.json",
+      "source_id": "07-01",
+      "title": "Действующее лицо, действие, дополнение",
+      "source_status": "core",
+      "topic": "svo",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-02",
+      "source": "content/language-0.7.json",
+      "source_id": "07-02",
+      "title": "Связка bi",
+      "source_status": "core",
+      "topic": "copula",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-03",
+      "source": "content/language-0.7.json",
+      "source_id": "07-03",
+      "title": "Временные маркеры pa и la",
+      "source_status": "core",
+      "topic": "tense",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-04",
+      "source": "content/language-0.7.json",
+      "source_id": "07-04",
+      "title": "Отрицание",
+      "source_status": "core",
+      "topic": "negation",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-05",
+      "source": "content/language-0.7.json",
+      "source_id": "07-05",
+      "title": "Общий вопрос",
+      "source_status": "core",
+      "topic": "questions",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-06",
+      "source": "content/language-0.7.json",
+      "source_id": "07-06",
+      "title": "Множественность в местоимениях",
+      "source_status": "core",
+      "topic": "pronouns",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-07",
+      "source": "content/language-0.7.json",
+      "source_id": "07-07",
+      "title": "Множественность дополнения",
+      "source_status": "core",
+      "topic": "plural",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-08",
+      "source": "content/language-0.7.json",
+      "source_id": "07-08",
+      "title": "Принадлежность",
+      "source_status": "core",
+      "topic": "possession",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-09",
+      "source": "content/language-0.7.json",
+      "source_id": "07-09",
+      "title": "Локативная связка",
+      "source_status": "core",
+      "topic": "spatial",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-10",
+      "source": "content/language-0.7.json",
+      "source_id": "07-10",
+      "title": "Качественное определение",
+      "source_status": "core",
+      "topic": "quality",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-11",
+      "source": "content/language-0.7.json",
+      "source_id": "07-11",
+      "title": "Отсутствие грамматического рода",
+      "source_status": "core",
+      "topic": "pronouns",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-12",
+      "source": "content/language-0.7.json",
+      "source_id": "07-12",
+      "title": "Объектная валентность",
+      "source_status": "core",
+      "topic": "valency",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-13",
+      "source": "content/language-0.7.json",
+      "source_id": "07-13",
+      "title": "Пить и есть",
+      "source_status": "core",
+      "topic": "valency",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-14",
+      "source": "content/language-0.7.json",
+      "source_id": "07-14",
+      "title": "Условие, изъяснение и относительная связь",
+      "source_status": "proposal",
+      "topic": "conditionals",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab07:07-15",
+      "source": "content/language-0.7.json",
+      "source_id": "07-15",
+      "title": "Стресс и варианты L/H/W",
+      "source_status": "core",
+      "topic": "syllables",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-01",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-01",
+      "title": "Предикат и роли",
+      "source_status": "core",
+      "topic": "svo",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-02",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-02",
+      "title": "Время и отрицание",
+      "source_status": "core",
+      "topic": "negation",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-03",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-03",
+      "title": "Связка и предикативное качество",
+      "source_status": "core",
+      "topic": "copula",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-04",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-04",
+      "title": "Множество и принадлежность",
+      "source_status": "core",
+      "topic": "plural",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-05",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-05",
+      "title": "Вопрос общего типа",
+      "source_status": "core",
+      "topic": "questions",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-06",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-06",
+      "title": "Негендерные формы",
+      "source_status": "core",
+      "topic": "pronouns",
+      "relation": "inherited",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-07",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-07",
+      "title": "Кандидатная валентность глагола",
+      "source_status": "experimental",
+      "topic": "valency",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-08",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-08",
+      "title": "Условие с ani",
+      "source_status": "experimental",
+      "topic": "conditionals",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-09",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-09",
+      "title": "Область времени внутри условия",
+      "source_status": "experimental",
+      "topic": "conditionals",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-10",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-10",
+      "title": "Изъяснение с ke",
+      "source_status": "experimental",
+      "topic": "content-clauses",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-11",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-11",
+      "title": "Фактичность сообщения",
+      "source_status": "unresolved",
+      "topic": "reported-speech",
+      "relation": "investigation-needed",
+      "issues": [
+        "CF-009"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-12",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-12",
+      "title": "Относительная клауза",
+      "source_status": "experimental",
+      "topic": "relatives",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-001"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-13",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-13",
+      "title": "Субъектная/объектная связь",
+      "source_status": "experimental",
+      "topic": "relatives",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-001"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-14",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-14",
+      "title": "Глубина вложения",
+      "source_status": "unresolved",
+      "topic": "recursion",
+      "relation": "investigation-needed",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-15",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-15",
+      "title": "Сочинение полных клауз",
+      "source_status": "experimental",
+      "topic": "coordination",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-006"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-16",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-16",
+      "title": "Противопоставление с aka",
+      "source_status": "experimental",
+      "topic": "coordination",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-003"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-17",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-17",
+      "title": "Возможность и желание",
+      "source_status": "experimental",
+      "topic": "modality",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-002",
+        "CF-012"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-18",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-18",
+      "title": "Вопросительные слова",
+      "source_status": "experimental",
+      "topic": "questions",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-19",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-19",
+      "title": "Получатель с to",
+      "source_status": "experimental",
+      "topic": "valency",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-011"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-20",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-20",
+      "title": "Область отрицания",
+      "source_status": "unresolved",
+      "topic": "negation",
+      "relation": "investigation-needed",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-21",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-21",
+      "title": "Количественность и точные числа",
+      "source_status": "unresolved",
+      "topic": "quantifiers",
+      "relation": "investigation-needed",
+      "issues": [
+        "CF-004"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-22",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-22",
+      "title": "Аспект, модальность необходимости",
+      "source_status": "unresolved",
+      "topic": "aspect",
+      "relation": "investigation-needed",
+      "issues": [
+        "CF-007"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-23",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-23",
+      "title": "Источники знания и речевые акты",
+      "source_status": "unresolved",
+      "topic": "evidentiality",
+      "relation": "investigation-needed",
+      "issues": [
+        "CF-009"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab08:08-24",
+      "source": "content/grammar-0.8.json",
+      "source_id": "08-24",
+      "title": "Единая орфография сложной фразы",
+      "source_status": "experimental",
+      "topic": "orthography",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-01",
+      "source": "content/language-0.9.json",
+      "source_id": "09-01",
+      "title": "Время и аспект",
+      "source_status": "experimental",
+      "topic": "aspect",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-007"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-02",
+      "source": "content/language-0.9.json",
+      "source_id": "09-02",
+      "title": "Значение hu",
+      "source_status": "experimental",
+      "topic": "aspect",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-03",
+      "source": "content/language-0.9.json",
+      "source_id": "09-03",
+      "title": "Значение te",
+      "source_status": "experimental",
+      "topic": "aspect",
+      "relation": "experimental-refinement",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-04",
+      "source": "content/language-0.9.json",
+      "source_id": "09-04",
+      "title": "Конкуренция аспектов",
+      "source_status": "experimental",
+      "topic": "aspect",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-05",
+      "source": "content/language-0.9.json",
+      "source_id": "09-05",
+      "title": "Видовая сочетаемость",
+      "source_status": "experimental",
+      "topic": "aspect",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-06",
+      "source": "content/language-0.9.json",
+      "source_id": "09-06",
+      "title": "Мочь: способность",
+      "source_status": "experimental",
+      "topic": "modality",
+      "relation": "experimental-refinement",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-07",
+      "source": "content/language-0.9.json",
+      "source_id": "09-07",
+      "title": "Хотеть: желание",
+      "source_status": "experimental",
+      "topic": "modality",
+      "relation": "experimental-refinement",
+      "issues": [
+        "CF-002"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-08",
+      "source": "content/language-0.9.json",
+      "source_id": "09-08",
+      "title": "Должен: предписание",
+      "source_status": "experimental",
+      "topic": "modality",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-007"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-09",
+      "source": "content/language-0.9.json",
+      "source_id": "09-09",
+      "title": "Отрицание всей модальности",
+      "source_status": "experimental",
+      "topic": "negation",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-10",
+      "source": "content/language-0.9.json",
+      "source_id": "09-10",
+      "title": "Отрицание вложенного действия",
+      "source_status": "experimental",
+      "topic": "negation",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-11",
+      "source": "content/language-0.9.json",
+      "source_id": "09-11",
+      "title": "Время модальности",
+      "source_status": "experimental",
+      "topic": "modality",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-12",
+      "source": "content/language-0.9.json",
+      "source_id": "09-12",
+      "title": "Модальность + аспект",
+      "source_status": "experimental",
+      "topic": "aspect",
+      "relation": "experimental-refinement",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-13",
+      "source": "content/language-0.9.json",
+      "source_id": "09-13",
+      "title": "Нейтральное отрицание",
+      "source_status": "experimental",
+      "topic": "negation",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-14",
+      "source": "content/language-0.9.json",
+      "source_id": "09-14",
+      "title": "Объясняющая причина kisa",
+      "source_status": "experimental",
+      "topic": "causal-discourse",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-15",
+      "source": "content/language-0.9.json",
+      "source_id": "09-15",
+      "title": "Причинность saka",
+      "source_status": "experimental",
+      "topic": "causal-discourse",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-16",
+      "source": "content/language-0.9.json",
+      "source_id": "09-16",
+      "title": "Граница клаузы",
+      "source_status": "experimental",
+      "topic": "recursion",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-17",
+      "source": "content/language-0.9.json",
+      "source_id": "09-17",
+      "title": "Сфера отрицания в сложной фразе",
+      "source_status": "experimental",
+      "topic": "negation",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-18",
+      "source": "content/language-0.9.json",
+      "source_id": "09-18",
+      "title": "Предикаты и валентность",
+      "source_status": "experimental",
+      "topic": "valency",
+      "relation": "conflict-needs-decision",
+      "issues": [
+        "CF-011"
+      ],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-19",
+      "source": "content/language-0.9.json",
+      "source_id": "09-19",
+      "title": "Запрет лексической подмены",
+      "source_status": "experimental",
+      "topic": "lexicon-policy",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    },
+    {
+      "ref": "lab09:09-20",
+      "source": "content/language-0.9.json",
+      "source_id": "09-20",
+      "title": "Граница версии 0.9",
+      "source_status": "experimental",
+      "topic": "recursion",
+      "relation": "research",
+      "issues": [],
+      "normative_promoted": false
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CF-001",
+      "type": "direct-construction-conflict",
+      "severity": "blocking",
+      "sources": [
+        "spec03:relative-core",
+        "lab08:08-12",
+        "lab08:08-13"
+      ],
+      "evidence": "0.3 предлагает N ye ta ... ya, а 0.8 N ye e ... ya с новой отсутствующей в лексиконе e. Референтная роль и правила связывания различны.",
+      "decision": "Нужен выбор одной модели с минимум 50 субъектными/объектными контрастами и миграцией примеров.",
+      "roadmap": "R05-04"
+    },
+    {
+      "id": "CF-002",
+      "type": "usage-vs-pilot-restriction",
+      "severity": "high",
+      "sources": [
+        "spec03:modals-core",
+        "lab08:08-17",
+        "lab09:09-07"
+      ],
+      "evidence": "Разговорник использует Mi kama su. — «Я хочу воды». 0.9 тестирует kama только как MODAL + VP (например, Mi kama pina su.). Это разные аргументные рамки.",
+      "decision": "Определить kama V и kama N как две допустимые валентности либо пометить первую архивной; не менять смысл без решения.",
+      "roadmap": "R01-13"
+    },
+    {
+      "id": "CF-003",
+      "type": "normative-chapter-with-noncore-lexemes",
+      "severity": "high",
+      "sources": [
+        "spec03:coord-core",
+        "atlas05:contrast",
+        "lab08:08-16"
+      ],
+      "evidence": "Глава coord-core с level=core содержит правила для aka (но) и o (или), хотя обе формы в lexicon.json имеют candidate.",
+      "decision": "Разделить нормативную часть wa и экспериментальные aka/o; не учить кандидатные союзы как безусловно core.",
+      "roadmap": "R01-05"
+    },
+    {
+      "id": "CF-004",
+      "type": "wording-and-coverage-gap",
+      "severity": "medium",
+      "sources": [
+        "spec03:numbers-core",
+        "atlas05:digits",
+        "lab08:08-21"
+      ],
+      "evidence": "Глава numbers-core называется «Десятичные числа», но примеры в основном про целые числа; примечания прямо исключают дроби и деньги. 0.8 признаёт проблему процентов и кванторов.",
+      "decision": "Уточнить название и пределы нормативных чисел. Дроби/проценты вынести в отдельный проект.",
+      "roadmap": "R03-08"
+    },
+    {
+      "id": "CF-005",
+      "type": "normative-guidance-vs-open-question",
+      "severity": "medium",
+      "sources": [
+        "spec03:adjectives-core",
+        "atlas05:quality",
+        "atlas05:nounphrase"
+      ],
+      "evidence": "Спецификация 0.3 закрепляет N + QUALITY (doma bona), в то время как атлас оставляет открытым вопрос «перед или после имени».",
+      "decision": "Определить единый порядок с отдельным тестом сложной NP; исправить устаревшую формулировку атласа.",
+      "roadmap": "R03-01"
+    },
+    {
+      "id": "CF-006",
+      "type": "clause-boundary-ambiguity",
+      "severity": "high",
+      "sources": [
+        "spec03:coord-core",
+        "atlas05:coord",
+        "lab08:08-15"
+      ],
+      "evidence": "wa соединяет слова и полные клаузы; однозначный алгоритм разграничения NP/CP и списков из 3+ частей отсутствует.",
+      "decision": "Формальные границы групп/клауз и AST-примеры с неоднозначными сегментациями.",
+      "roadmap": "R05-09"
+    },
+    {
+      "id": "CF-007",
+      "type": "candidate-phonology-not-norm",
+      "severity": "high",
+      "sources": [
+        "lab08:08-22",
+        "lab09:09-01",
+        "lab09:09-08"
+      ],
+      "evidence": "hu, te, musa, kisa и saka существуют только как гипотезы версии 0.9, в lexicon.json отсутствуют. Работоспособность парсера не является лексическим утверждением.",
+      "decision": "Оставить формы experimental и отдельно выполнить проверку их семантики и произношения.",
+      "roadmap": "R04-02"
+    },
+    {
+      "id": "CF-008",
+      "type": "semantic-scope-gap",
+      "severity": "high",
+      "sources": [
+        "spec03:possession-core",
+        "atlas05:possession"
+      ],
+      "evidence": "de выражает широкую родительную связь; юридическое право собственности нельзя выводить только из de.",
+      "decision": "Развести владение, отношение и юридический титул, ввести контрпримеры.",
+      "roadmap": "R03-05"
+    },
+    {
+      "id": "CF-009",
+      "type": "factivity-and-evidentiality",
+      "severity": "high",
+      "sources": [
+        "spec03:content-clause",
+        "lab08:08-11",
+        "lab08:08-23"
+      ],
+      "evidence": "ke связывает содержание, но nima (знает), misi (думает) и toka (сообщает) не имеют одной общей истинностной семантики.",
+      "decision": "Развести фактивность, сообщение и источник данных; отдельные тесты области no.",
+      "roadmap": "R06-04"
+    },
+    {
+      "id": "CF-010",
+      "type": "deictic-locality-gap",
+      "severity": "medium",
+      "sources": [
+        "spec03:spatial-core",
+        "atlas05:spatial"
+      ],
+      "evidence": "na может означать «в», «на», «у»; это допустимо контекстно, но не годится для точного пространственного предписания.",
+      "decision": "Спроектировать необязательные точные уточнители локализации.",
+      "roadmap": "R03-03"
+    },
+    {
+      "id": "CF-011",
+      "type": "recipient-valency-gap",
+      "severity": "high",
+      "sources": [
+        "lab08:08-19",
+        "lab09:09-18",
+        "atlas05:objects"
+      ],
+      "evidence": "to является направлением; использование to для получателя pako не закреплено как трёхвалентная передача.",
+      "decision": "Зафиксировать роли агент/тема/получатель и различить передачу vs движение.",
+      "roadmap": "R04-11"
+    },
+    {
+      "id": "CF-012",
+      "type": "pedagogical-lexicon-status",
+      "severity": "high",
+      "sources": [
+        "spec03:lexicon-core",
+        "lab08:08-17"
+      ],
+      "evidence": "Учебный разговорник использует слова-кандидаты (в частности kama, mosa, lita), не во всех примерах отмечая их редакционный статус.",
+      "decision": "Прогнать все фразы и уроки по статусам, пометить экспериментальные и заменить только после решения.",
+      "roadmap": "R10-02"
+    }
+  ]
+}
