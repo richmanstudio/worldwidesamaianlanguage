@@ -1,4 +1,4 @@
-> **Действующая нормативная основа: SAMA 0.16.0 — 1004 принятых слова.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
+> **Действующая нормативная основа: SAMA 0.16.0 — 1004 нормативные словарные статьи.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
 
 # SAMA — International Auxiliary Language
 
@@ -12,7 +12,7 @@
 
 [Начало обучения](https://richmanstudio.github.io/worldwidesamaianlanguage/#/start) · [Азбука](https://richmanstudio.github.io/worldwidesamaianlanguage/#/alphabet) · [Произношение](https://richmanstudio.github.io/worldwidesamaianlanguage/#/sounds) · [Грамматика](https://richmanstudio.github.io/worldwidesamaianlanguage/#/grammar) · [Словарь](https://richmanstudio.github.io/worldwidesamaianlanguage/#/dictionary) · [Уроки](https://richmanstudio.github.io/worldwidesamaianlanguage/#/lessons) · [Тренажёр](https://richmanstudio.github.io/worldwidesamaianlanguage/#/trainer).
 
-Нормативная редакция содержит 1004 индивидуально определённых слова и 25 правил действующего базового синтаксиса. Более сложная грамматика, человеческая озвучка и расширение до 5000 статей находятся в работе; старые исследования хранятся отдельно и не смешиваются с действующей нормой.
+Нормативная редакция содержит 1004 индивидуально определённые словарные статьи и 25 правил действующего базового синтаксиса. Более сложная грамматика, человеческая озвучка и расширение до 5000 статей находятся в работе; старые исследования хранятся отдельно и не смешиваются с действующей нормой.
 
 ---
 

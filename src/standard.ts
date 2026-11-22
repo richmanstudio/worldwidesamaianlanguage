@@ -27,8 +27,31 @@ function currentLesson(id:number){const l=CURRENT_LESSONS.lessons.find(x=>x.id==
 function currentReader(){currentPage('Тексты для чтения','Короткие связные тексты с построчным переводом.',CURRENT_READER.texts.map(t=>`<section><h2>${A(t.title)}</h2>${currentExamples(t.sentences)}</section>`).join(''));}
 function currentPhrases(){const forms=['sala','sayo','sani','palao','pina','pako','kama','mosa','musa'];const rows=CURRENT_LEXICON.entries.filter(x=>forms.includes(x.form)).flatMap(x=>x.senses[0].examples);currentPage('Разговорник SAMA','Приветствия, просьбы, желания и повседневные действия.',currentExamples(rows));}
 function currentTrainer(){currentPage('Практика SAMA','Составьте предложение и проверьте его по грамматике нормативной основы.',`
- <label for="standardSentence" class="field-label">Предложение на SAMA</label><textarea id="standardSentence" rows="3" style="width:100%;padding:12px">Mi si yu.</textarea><button class="plainbtn" data-action="standard-parse">Проверить предложение</button><div id="standardParseResult" role="status" aria-live="polite"></div><h2>Попробуйте</h2><ul><li>Измените время: Mi pa si yu.</li><li>Поменяйте участников: Yu si mi.</li><li>Добавьте отрицание: Mi no si yu.</li><li>Спросите: Yu si mi ka?</li></ul><p class="small muted">Проверка разбирает структуру принятой основы. Корректная форма сама по себе не доказывает истинность сообщения или точность любого перевода.</p>`);}
-function checkCurrentSentence(){const input=document.getElementById('standardSentence') as HTMLTextAreaElement|null,out=document.getElementById('standardParseResult');if(!input||!out)return;const result=parseSamaFoundation(input.value,CURRENT_LEXICON.entries);out.innerHTML=result.ok?'<div class="paper-note"><b>Предложение соответствует грамматике основы.</b> Проверьте, что выбранные слова выражают ваш смысл.</div>':`<div class="paper-note"><b>Нужна правка.</b> ${A(result.error.message)} <a href="#/grammar">Открыть правила →</a></div>`;}
+ <label for="standardSentence" class="field-label">Предложение на SAMA</label><textarea id="standardSentence" rows="3" style="width:100%;padding:12px">Mi si yu.</textarea><button class="plainbtn" data-action="standard-parse">Проверить предложение</button><div id="standardParseResult" role="status" aria-live="polite"></div><h2>Попробуйте</h2><ul><li>Измените время: Mi pa si yu.</li><li>Поменяйте участников: Yu si mi.</li><li>Добавьте отрицание: Mi no si yu.</li><li>Спросите: Yu si mi ka?</li></ul>
+ <h2>Все, некоторые или большинство?</h2><p>Проверьте разницу областей отрицания:</p>
+ ${currentExamples([{sama:'No tawa ami li wako.',ru:'Не все друзья идут.'},{sama:'Tawa ami li no wako.',ru:'Все друзья не идут.'},{sama:'No somi ami li wako.',ru:'Ни один друг не идёт.'},{sama:'Mowa ami li wako.',ru:'Большинство друзей идут.'}])}
+ <p><a href="#/grammar/chapter/quantifiers">Открыть правило кванторов →</a> · <a href="#/lesson/46">Пройти урок 46 →</a></p><p class="small muted">Проверка разбирает структуру принятой основы. Корректная форма сама по себе не доказывает истинность сообщения или точность любого перевода.</p>`);}
+function checkCurrentSentence(){
+ const input=document.getElementById('standardSentence') as HTMLTextAreaElement|null;
+ const out=document.getElementById('standardParseResult');
+ if(!input||!out)return;
+ const result=parseSamaFoundation(input.value,CURRENT_LEXICON.entries);
+ if(!result.ok){
+  out.innerHTML=`<div class="paper-note"><b>Нужна правка.</b> ${A(result.error.message)} <a href="#/grammar">Открыть правила →</a></div>`;
+  return;
+ }
+ const clause=(result.ast.clauses as SamaTree[]|undefined)?.[0];
+ const subject=clause?.subject as SamaTree|undefined;
+ const q=String(subject?.quantifier||'');
+ const meanings:Record<string,string>={tawa:'все участники',somi:'хотя бы один участник',mowa:'строго больше половины участников'};
+ const negative:Record<string,string>={tawa:'не все участники',somi:'ни один участник',mowa:'не большинство участников'};
+ let scope='';
+ if(meanings[q]){
+  const head=Boolean(subject?.quantifierNegated)?negative[q]:meanings[q];
+  scope=`<p><b>Область количества:</b> ${A(head)}.${clause?.outerNegation?' Отрицание после группы относится к действию каждого участника.':''}${subject?.exception?' Один указанный участник исключён из множества.':''}</p>`;
+ }
+ out.innerHTML=`<div class="paper-note"><b>Предложение соответствует грамматике основы.</b> Проверьте, что выбранные слова выражают ваш смысл.${scope}</div>`;
+}
 function currentAbout(){currentPage('О языке SAMA','SAMA — вспомогательный язык для общения людей с разными родными языками.',`
  <p>В основе языка — 17 букв, неизменяемые корни, порядок субъект–глагол–объект и отдельные служебные слова. Действующая редакция: <b>${A(CURRENT_RELEASE.version)}</b>.</p><h2>Действующие материалы</h2><p>Грамматика, словарь и курс на основных страницах читают один набор принятых данных: ${CURRENT_RULES.rules.length} правил и ${CURRENT_LEXICON.entries.length} слов.</p><h2>Развитие стандарта</h2><p>Цель полного выпуска 1.0 — законченная грамматика и минимум ${CURRENT_RELEASE.target_lexemes} обработанных слов. Текущая нормативная основа охватывает начальное общение. План и оставшийся объём доступны в репозитории.</p><ul>${CURRENT_RELEASE.open_work.map(x=>`<li>${A(x)}</li>`).join('')}</ul><p><a href="./standard.html">Грамматика без JavaScript</a> · <a href="./dictionary.html">Словарь без JavaScript</a> · <a href="https://github.com/richmanstudio/worldwidesamaianlanguage/blob/main/ROADMAP.md">Дорожная карта</a> · <a href="#/archive">История редакций</a></p>`);}
 function currentArchive(){currentPage('Архив редакций','Исторические материалы сохраняют прежние формулировки и статусы. Для изучения действующего SAMA используйте основные разделы.',table(['Редакция','Материалы'],[['0.11.0','<a href="./assets/standards/0.11.0/lexicon.json">Словарь первой нормативной основы · JSON</a> · <a href="./assets/standards/0.11.0/core.json">Правила · JSON</a>'],['0.3','<a href="#/archive/standard">Спецификация</a> · <a href="#/archive/core-dictionary">Словарь</a>'],['0.5','<a href="#/archive/grammar">Атлас грамматики</a> · <a href="#/archive/library">Статьи</a>'],['0.7–0.9','<a href="#/language07">Материалы 0.7</a> · <a href="#/language08">Материалы 0.8</a> · <a href="#/language09">Материалы 0.9</a>'],['Учебные материалы','<a href="#/archive/lessons">Прежний курс</a> · <a href="#/archive/phrases">Прежний разговорник</a>'],['Словарный корпус','<a href="#/wordbank">Исторический wordbank</a>']])+'<p>Архивные формы не включаются в число слов действующего словаря автоматически.</p>');}

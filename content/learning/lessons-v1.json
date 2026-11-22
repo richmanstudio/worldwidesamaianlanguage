@@ -1246,7 +1246,7 @@
         "SAMA-RULE/negation",
         "SAMA-RULE/svo"
       ],
-      "explanation": "No tawa ami li wako = неверно, что все друзья идут. Tawa ami li no wako = каждый друг не идёт. Позиция no меняет область отрицания. Пока не совмещайте оба отрицания в одной клауze.",
+      "explanation": "No tawa ami li wako = неверно, что все друзья идут. Tawa ami li no wako = каждый друг не идёт. Позиция no меняет область отрицания. Пока не совмещайте оба отрицания в одной клаузе.",
       "examples": [
         {
           "sama": "No tawa ami li wako.",
