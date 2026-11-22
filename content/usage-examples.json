@@ -10814,7 +10814,7 @@
       "id": "SAMA-SENSE/hemina/1/example/1",
       "lexeme_id": "SAMA-LEX/hemina",
       "sense_id": "SAMA-SENSE/hemina/1",
-      "sama": "Mi hemina kasa.",
+      "sama": "Mi hemina kaso.",
       "ru": "Я держу книгу."
     },
     {
@@ -11080,8 +11080,8 @@
       "id": "SAMA-SENSE/kamina/1/example/1",
       "lexeme_id": "SAMA-LEX/kamina",
       "sense_id": "SAMA-SENSE/kamina/1",
-      "sama": "Mi kamina pasa.",
-      "ru": "Я заказываю блюдо."
+      "sama": "Mi kamina salada.",
+      "ru": "Я заказываю салат."
     },
     {
       "id": "SAMA-SENSE/kamina/1/example/2",
@@ -11318,28 +11318,28 @@
       "id": "SAMA-SENSE/balina/1/example/1",
       "lexeme_id": "SAMA-LEX/balina",
       "sense_id": "SAMA-SENSE/balina/1",
-      "sama": "Nipa bi balina.",
+      "sama": "Noko bi balina.",
       "ru": "Нож острый."
     },
     {
       "id": "SAMA-SENSE/balina/1/example/2",
       "lexeme_id": "SAMA-LEX/balina",
       "sense_id": "SAMA-SENSE/balina/1",
-      "sama": "Nipa balina bi na mesa.",
+      "sama": "Noko balina bi na mesa.",
       "ru": "Острый нож на столе."
     },
     {
       "id": "SAMA-SENSE/munala/1/example/1",
       "lexeme_id": "SAMA-LEX/munala",
       "sense_id": "SAMA-SENSE/munala/1",
-      "sama": "Nipa bi munala.",
+      "sama": "Noko bi munala.",
       "ru": "Нож тупой."
     },
     {
       "id": "SAMA-SENSE/munala/1/example/2",
       "lexeme_id": "SAMA-LEX/munala",
       "sense_id": "SAMA-SENSE/munala/1",
-      "sama": "Nipa munala bi na mesa.",
+      "sama": "Noko munala bi na mesa.",
       "ru": "Тупой нож на столе."
     },
     {
