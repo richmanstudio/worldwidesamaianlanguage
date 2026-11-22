@@ -36,4 +36,4 @@ for(const conflict of r.conflicts){
 }
 const report=readFileSync('docs/rule-crosswalk.md','utf8');
 for(const row of r.positions)assert(report.includes(row.ref),'Crosswalk missing ref '+row.ref);
-console.log('✓ R01-03/R00-04: 128 linked historic positions (59 laboratory), '+r.topics.length+' provisional topics, '+r.conflicts.length+' open discrepancies');
+console.log('✓ R01-03/R00-04: 128 linked historic positions (59 laboratory), '+r.topics.length+' provisional topics, '+r.conflicts.filter(x=>!x.status||x.status==='open').length+' open discrepancies');

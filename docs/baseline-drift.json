@@ -3,7 +3,48 @@
   "source_baseline": "docs/baseline-0.9.json",
   "created": "2026-11-22",
   "notice": "Log all future accepted drift here with task_id, current_sha, reason and target_version. Never rewrite the historic 0.9 baseline.",
-  "file_changes": [],
+  "file_changes": [
+    {
+      "path": "content/specification.json",
+      "previous_sha": "9b76055d4d39e463999029c929e401e0563214f6",
+      "current_sha": "0c79d076189b8af1c875ae83ea7bb512e3374d0a",
+      "task_id": "R00-04 / R00-07",
+      "reason": "CF-001: align current relative pilot with ta and explicitly archive prior e/zero alternatives; no core promotion.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/grammar-atlas.json",
+      "previous_sha": "9c0381d47341f084c8433592c81d740ecb7e39f3",
+      "current_sha": "8c9ed3e038a7d331766b228eb22d69db724e499c",
+      "task_id": "R00-04 / R00-07",
+      "reason": "CF-001: align current relative pilot with ta and explicitly archive prior e/zero alternatives; no core promotion.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/grammar-0.8.json",
+      "previous_sha": "7681f12f9b0975c1327dcd7cf847cb65489f954d",
+      "current_sha": "98a2d9522e1f82241718254342e6f48318420673",
+      "task_id": "R00-04 / R00-07",
+      "reason": "CF-001: align current relative pilot with ta and explicitly archive prior e/zero alternatives; no core promotion.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/translation-corpus-0.8.json",
+      "previous_sha": "5b4125ad7bd99abb7516e2134f5b76a256cd490a",
+      "current_sha": "8f0c50ab64bcfb8fff454a628bd06c340715c795",
+      "task_id": "R00-04 / R00-07",
+      "reason": "CF-001: align current relative pilot with ta and explicitly archive prior e/zero alternatives; no core promotion.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/articles/standard-relative-core.json",
+      "previous_sha": "c8ee9a13ca39ee43ddc5f453ff741ebb3f7978d1",
+      "current_sha": "01c661601b011930012de5700a53bff44a00cd39",
+      "task_id": "R00-04 / R00-07",
+      "reason": "CF-001: align current relative pilot with ta and explicitly archive prior e/zero alternatives; no core promotion.",
+      "target_version": "0.10-pilot.1"
+    }
+  ],
   "current_counts": null,
   "added_articles": [],
   "removed_articles": []

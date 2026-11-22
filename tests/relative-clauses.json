@@ -1,0 +1,2262 @@
+{
+  "schema": "sama-relative-cases/v1",
+  "profile": "SAMA-RULE/relatives@0.10-pilot.1",
+  "status": "experimental",
+  "provenance": "Synthetic Cartesian matrix: five counterpart NPs × three tenses × two polarities × two verbs × two roles. Not independently validated translations.",
+  "human_participants": 0,
+  "lexical_status": {
+    "ye": "candidate",
+    "ya": "candidate",
+    "soma": "candidate",
+    "dani": "candidate",
+    "ta": "core",
+    "ami": "core",
+    "mama": "core",
+    "mi": "core",
+    "yu": "core",
+    "si": "core",
+    "ama": "core"
+  },
+  "pairs": [
+    {
+      "id": "REL-001",
+      "valid": "Soma ye ta si mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e si mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-002",
+      "valid": "Soma ye mi si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-003",
+      "valid": "Soma ye ta ama mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e ama mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-004",
+      "valid": "Soma ye mi ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-005",
+      "valid": "Soma ye ta no si mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no si mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-006",
+      "valid": "Soma ye mi no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-007",
+      "valid": "Soma ye ta no ama mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no ama mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-008",
+      "valid": "Soma ye mi no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-009",
+      "valid": "Soma ye ta pa si mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa si mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-010",
+      "valid": "Soma ye mi pa si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi pa si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-011",
+      "valid": "Soma ye ta pa ama mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa ama mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-012",
+      "valid": "Soma ye mi pa ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi pa ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-013",
+      "valid": "Soma ye ta pa no si mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no si mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-014",
+      "valid": "Soma ye mi pa no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi pa no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-015",
+      "valid": "Soma ye ta pa no ama mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no ama mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-016",
+      "valid": "Soma ye mi pa no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi pa no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-017",
+      "valid": "Soma ye ta la si mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la si mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-018",
+      "valid": "Soma ye mi la si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi la si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-019",
+      "valid": "Soma ye ta la ama mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la ama mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-020",
+      "valid": "Soma ye mi la ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi la ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-021",
+      "valid": "Soma ye ta la no si mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no si mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-022",
+      "valid": "Soma ye mi la no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi la no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-023",
+      "valid": "Soma ye ta la no ama mi ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mi",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no ama mi ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-024",
+      "valid": "Soma ye mi la no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mi",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mi la no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-025",
+      "valid": "Soma ye ta si yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e si yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-026",
+      "valid": "Soma ye yu si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-027",
+      "valid": "Soma ye ta ama yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e ama yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-028",
+      "valid": "Soma ye yu ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-029",
+      "valid": "Soma ye ta no si yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no si yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-030",
+      "valid": "Soma ye yu no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-031",
+      "valid": "Soma ye ta no ama yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no ama yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-032",
+      "valid": "Soma ye yu no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-033",
+      "valid": "Soma ye ta pa si yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa si yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-034",
+      "valid": "Soma ye yu pa si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu pa si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-035",
+      "valid": "Soma ye ta pa ama yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa ama yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-036",
+      "valid": "Soma ye yu pa ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu pa ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-037",
+      "valid": "Soma ye ta pa no si yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no si yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-038",
+      "valid": "Soma ye yu pa no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu pa no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-039",
+      "valid": "Soma ye ta pa no ama yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no ama yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-040",
+      "valid": "Soma ye yu pa no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu pa no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-041",
+      "valid": "Soma ye ta la si yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la si yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-042",
+      "valid": "Soma ye yu la si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu la si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-043",
+      "valid": "Soma ye ta la ama yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la ama yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-044",
+      "valid": "Soma ye yu la ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu la ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-045",
+      "valid": "Soma ye ta la no si yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no si yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-046",
+      "valid": "Soma ye yu la no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu la no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-047",
+      "valid": "Soma ye ta la no ama yu ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "yu",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no ama yu ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-048",
+      "valid": "Soma ye yu la no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "yu",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye yu la no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-049",
+      "valid": "Soma ye ta si ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e si ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-050",
+      "valid": "Soma ye ami si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-051",
+      "valid": "Soma ye ta ama ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e ama ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-052",
+      "valid": "Soma ye ami ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-053",
+      "valid": "Soma ye ta no si ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no si ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-054",
+      "valid": "Soma ye ami no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-055",
+      "valid": "Soma ye ta no ama ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no ama ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-056",
+      "valid": "Soma ye ami no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-057",
+      "valid": "Soma ye ta pa si ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa si ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-058",
+      "valid": "Soma ye ami pa si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami pa si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-059",
+      "valid": "Soma ye ta pa ama ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa ama ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-060",
+      "valid": "Soma ye ami pa ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami pa ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-061",
+      "valid": "Soma ye ta pa no si ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no si ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-062",
+      "valid": "Soma ye ami pa no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami pa no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-063",
+      "valid": "Soma ye ta pa no ama ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no ama ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-064",
+      "valid": "Soma ye ami pa no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami pa no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-065",
+      "valid": "Soma ye ta la si ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la si ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-066",
+      "valid": "Soma ye ami la si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami la si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-067",
+      "valid": "Soma ye ta la ama ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la ama ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-068",
+      "valid": "Soma ye ami la ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami la ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-069",
+      "valid": "Soma ye ta la no si ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no si ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-070",
+      "valid": "Soma ye ami la no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami la no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-071",
+      "valid": "Soma ye ta la no ama ami ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "ami",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no ama ami ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-072",
+      "valid": "Soma ye ami la no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ami",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye ami la no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-073",
+      "valid": "Soma ye ta si mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e si mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-074",
+      "valid": "Soma ye mama si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-075",
+      "valid": "Soma ye ta ama mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e ama mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-076",
+      "valid": "Soma ye mama ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-077",
+      "valid": "Soma ye ta no si mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no si mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-078",
+      "valid": "Soma ye mama no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-079",
+      "valid": "Soma ye ta no ama mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no ama mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-080",
+      "valid": "Soma ye mama no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-081",
+      "valid": "Soma ye ta pa si mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa si mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-082",
+      "valid": "Soma ye mama pa si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama pa si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-083",
+      "valid": "Soma ye ta pa ama mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa ama mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-084",
+      "valid": "Soma ye mama pa ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama pa ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-085",
+      "valid": "Soma ye ta pa no si mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no si mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-086",
+      "valid": "Soma ye mama pa no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama pa no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-087",
+      "valid": "Soma ye ta pa no ama mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no ama mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-088",
+      "valid": "Soma ye mama pa no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama pa no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-089",
+      "valid": "Soma ye ta la si mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la si mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-090",
+      "valid": "Soma ye mama la si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama la si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-091",
+      "valid": "Soma ye ta la ama mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la ama mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-092",
+      "valid": "Soma ye mama la ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama la ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-093",
+      "valid": "Soma ye ta la no si mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no si mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-094",
+      "valid": "Soma ye mama la no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama la no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-095",
+      "valid": "Soma ye ta la no ama mama ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "mama",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no ama mama ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-096",
+      "valid": "Soma ye mama la no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "mama",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye mama la no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-097",
+      "valid": "Soma ye ta si dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e si dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-098",
+      "valid": "Soma ye dani si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-099",
+      "valid": "Soma ye ta ama dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e ama dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-100",
+      "valid": "Soma ye dani ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-101",
+      "valid": "Soma ye ta no si dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no si dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-102",
+      "valid": "Soma ye dani no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "si",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-103",
+      "valid": "Soma ye ta no ama dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e no ama dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-104",
+      "valid": "Soma ye dani no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "ama",
+        "tense": null,
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-105",
+      "valid": "Soma ye ta pa si dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa si dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-106",
+      "valid": "Soma ye dani pa si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani pa si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-107",
+      "valid": "Soma ye ta pa ama dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa ama dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-108",
+      "valid": "Soma ye dani pa ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani pa ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-109",
+      "valid": "Soma ye ta pa no si dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no si dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-110",
+      "valid": "Soma ye dani pa no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "si",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani pa no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-111",
+      "valid": "Soma ye ta pa no ama dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e pa no ama dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-112",
+      "valid": "Soma ye dani pa no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "pa",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani pa no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-113",
+      "valid": "Soma ye ta la si dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la si dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-114",
+      "valid": "Soma ye dani la si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani la si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-115",
+      "valid": "Soma ye ta la ama dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la ama dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-116",
+      "valid": "Soma ye dani la ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": false,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani la ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-117",
+      "valid": "Soma ye ta la no si dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no si dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-118",
+      "valid": "Soma ye dani la no si ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "si",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani la no si e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-119",
+      "valid": "Soma ye ta la no ama dani ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "ta",
+        "object": "dani",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "subject"
+      },
+      "invalid": "Soma ye e la no ama dani ya bi na doma.",
+      "error": "ARCHIVED_E"
+    },
+    {
+      "id": "REL-120",
+      "valid": "Soma ye dani la no ama ta ya bi na doma.",
+      "expected": {
+        "head": "soma",
+        "subject": "dani",
+        "object": "ta",
+        "verb": "ama",
+        "tense": "la",
+        "negative": true,
+        "boundRole": "object"
+      },
+      "invalid": "Soma ye dani la no ama e ya bi na doma.",
+      "error": "ARCHIVED_E"
+    }
+  ],
+  "role_contrasts": [
+    {
+      "id": "ROLE-001",
+      "subject_case": "REL-001",
+      "object_case": "REL-002",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-002",
+      "subject_case": "REL-003",
+      "object_case": "REL-004",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-003",
+      "subject_case": "REL-005",
+      "object_case": "REL-006",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-004",
+      "subject_case": "REL-007",
+      "object_case": "REL-008",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-005",
+      "subject_case": "REL-009",
+      "object_case": "REL-010",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-006",
+      "subject_case": "REL-011",
+      "object_case": "REL-012",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-007",
+      "subject_case": "REL-013",
+      "object_case": "REL-014",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-008",
+      "subject_case": "REL-015",
+      "object_case": "REL-016",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-009",
+      "subject_case": "REL-017",
+      "object_case": "REL-018",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-010",
+      "subject_case": "REL-019",
+      "object_case": "REL-020",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-011",
+      "subject_case": "REL-021",
+      "object_case": "REL-022",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-012",
+      "subject_case": "REL-023",
+      "object_case": "REL-024",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-013",
+      "subject_case": "REL-025",
+      "object_case": "REL-026",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-014",
+      "subject_case": "REL-027",
+      "object_case": "REL-028",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-015",
+      "subject_case": "REL-029",
+      "object_case": "REL-030",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-016",
+      "subject_case": "REL-031",
+      "object_case": "REL-032",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-017",
+      "subject_case": "REL-033",
+      "object_case": "REL-034",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-018",
+      "subject_case": "REL-035",
+      "object_case": "REL-036",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-019",
+      "subject_case": "REL-037",
+      "object_case": "REL-038",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-020",
+      "subject_case": "REL-039",
+      "object_case": "REL-040",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-021",
+      "subject_case": "REL-041",
+      "object_case": "REL-042",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-022",
+      "subject_case": "REL-043",
+      "object_case": "REL-044",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-023",
+      "subject_case": "REL-045",
+      "object_case": "REL-046",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-024",
+      "subject_case": "REL-047",
+      "object_case": "REL-048",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-025",
+      "subject_case": "REL-049",
+      "object_case": "REL-050",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-026",
+      "subject_case": "REL-051",
+      "object_case": "REL-052",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-027",
+      "subject_case": "REL-053",
+      "object_case": "REL-054",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-028",
+      "subject_case": "REL-055",
+      "object_case": "REL-056",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-029",
+      "subject_case": "REL-057",
+      "object_case": "REL-058",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-030",
+      "subject_case": "REL-059",
+      "object_case": "REL-060",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-031",
+      "subject_case": "REL-061",
+      "object_case": "REL-062",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-032",
+      "subject_case": "REL-063",
+      "object_case": "REL-064",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-033",
+      "subject_case": "REL-065",
+      "object_case": "REL-066",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-034",
+      "subject_case": "REL-067",
+      "object_case": "REL-068",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-035",
+      "subject_case": "REL-069",
+      "object_case": "REL-070",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-036",
+      "subject_case": "REL-071",
+      "object_case": "REL-072",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-037",
+      "subject_case": "REL-073",
+      "object_case": "REL-074",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-038",
+      "subject_case": "REL-075",
+      "object_case": "REL-076",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-039",
+      "subject_case": "REL-077",
+      "object_case": "REL-078",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-040",
+      "subject_case": "REL-079",
+      "object_case": "REL-080",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-041",
+      "subject_case": "REL-081",
+      "object_case": "REL-082",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-042",
+      "subject_case": "REL-083",
+      "object_case": "REL-084",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-043",
+      "subject_case": "REL-085",
+      "object_case": "REL-086",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-044",
+      "subject_case": "REL-087",
+      "object_case": "REL-088",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-045",
+      "subject_case": "REL-089",
+      "object_case": "REL-090",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-046",
+      "subject_case": "REL-091",
+      "object_case": "REL-092",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-047",
+      "subject_case": "REL-093",
+      "object_case": "REL-094",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-048",
+      "subject_case": "REL-095",
+      "object_case": "REL-096",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-049",
+      "subject_case": "REL-097",
+      "object_case": "REL-098",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-050",
+      "subject_case": "REL-099",
+      "object_case": "REL-100",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-051",
+      "subject_case": "REL-101",
+      "object_case": "REL-102",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-052",
+      "subject_case": "REL-103",
+      "object_case": "REL-104",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-053",
+      "subject_case": "REL-105",
+      "object_case": "REL-106",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-054",
+      "subject_case": "REL-107",
+      "object_case": "REL-108",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-055",
+      "subject_case": "REL-109",
+      "object_case": "REL-110",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-056",
+      "subject_case": "REL-111",
+      "object_case": "REL-112",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-057",
+      "subject_case": "REL-113",
+      "object_case": "REL-114",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-058",
+      "subject_case": "REL-115",
+      "object_case": "REL-116",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-059",
+      "subject_case": "REL-117",
+      "object_case": "REL-118",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    },
+    {
+      "id": "ROLE-060",
+      "subject_case": "REL-119",
+      "object_case": "REL-120",
+      "distinction": "The head changes from actor to patient; matrix subject and relative tense/polarity remain unchanged."
+    }
+  ],
+  "negative_cases": [
+    {
+      "text": "Ami ye mi si ya bi na doma.",
+      "error": "BINDER_COUNT"
+    },
+    {
+      "text": "Ami ye ta si ta ya bi na doma.",
+      "error": "BINDER_COUNT"
+    },
+    {
+      "text": "Ami ye mi si yu ya bi na doma.",
+      "error": "BINDER_COUNT"
+    },
+    {
+      "text": "Ami ye ta si mi bi na doma.",
+      "error": "BOUNDARY"
+    },
+    {
+      "text": "Ami ye ta si mi ya ya bi na doma.",
+      "error": "BOUNDARY"
+    },
+    {
+      "text": "Ami ye ami ye ta si mi ya ya bi na doma.",
+      "error": "BOUNDARY"
+    },
+    {
+      "text": "Ami ya mi si ta ye bi na doma.",
+      "error": "HEAD"
+    },
+    {
+      "text": "Ami ye mi ta si ya bi na doma.",
+      "error": "ARGUMENT"
+    },
+    {
+      "text": "Ami ye ta no pa si mi ya bi na doma.",
+      "error": "CLAUSE_SHAPE"
+    },
+    {
+      "text": "Ami ye ta pa la si mi ya bi na doma.",
+      "error": "CLAUSE_SHAPE"
+    },
+    {
+      "text": "Ami ye ta si mi ya bi doma.",
+      "error": "MATRIX"
+    },
+    {
+      "text": "Ami ye ta si mi ya ta bi na doma.",
+      "error": "MATRIX"
+    },
+    {
+      "text": "Ami ye mi toka ko ta ya bi na doma.",
+      "error": "CLAUSE_SHAPE"
+    },
+    {
+      "text": "Ami ye ta pina mi ya bi na doma.",
+      "error": "VERB"
+    },
+    {
+      "text": "Ami ye ta si unknown ya bi na doma.",
+      "error": "ARGUMENT"
+    },
+    {
+      "text": "Mi ye ta si yu ya bi na doma.",
+      "error": "HEAD"
+    },
+    {
+      "text": "Ami ye ta si mi, bi na doma.",
+      "error": "ORTHOGRAPHY"
+    },
+    {
+      "text": "Ami ye ta si mi ya bi na doma",
+      "error": "ORTHOGRAPHY"
+    },
+    {
+      "text": "Ami ye ta si mi ya bi na doma..",
+      "error": "ORTHOGRAPHY"
+    }
+  ]
+}

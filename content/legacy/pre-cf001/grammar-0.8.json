@@ -1,0 +1,265 @@
+{
+  "version": "0.8-draft",
+  "issued": "2026-11-22",
+  "supersedes": "none; supplements 0.7 without changing core",
+  "external_validation": false,
+  "scope": "restricted one-level clause extensions; no declaration of a complete language",
+  "status_legend": {
+    "core": "inherited internal working rule",
+    "experimental": "new formal proposal; not approved",
+    "unresolved": "missing or conflicting semantics"
+  },
+  "rules": [
+    {
+      "id": "08-01",
+      "title": "Предикат и роли",
+      "status": "core",
+      "pattern": "S V O",
+      "principle": "В базовой фразе подлежащее стоит перед сказуемым, прямое дополнение после него.",
+      "example": "Mi si yu.",
+      "translation": "Я вижу тебя.",
+      "restriction": "Порядок не маркирует дательный и косвенный объект; два прямых имени после V не допускаются."
+    },
+    {
+      "id": "08-02",
+      "title": "Время и отрицание",
+      "status": "core",
+      "pattern": "S [pa|la] [no] V O",
+      "principle": "Время отдельно от вида; no перед сказуемым и после времени.",
+      "example": "Mi pa no si yu.",
+      "translation": "Я не видел тебя.",
+      "restriction": "Нет обязательных категорий совершенности, завершённости и длительности."
+    },
+    {
+      "id": "08-03",
+      "title": "Связка и предикативное качество",
+      "status": "core",
+      "pattern": "S bi (N|QUALITY|na N)",
+      "principle": "Связка bi используется в полном учебном высказывании.",
+      "example": "Doma bi nawa.",
+      "translation": "Дом новый.",
+      "restriction": "Без bi не обозначается отдельное предикативное утверждение."
+    },
+    {
+      "id": "08-04",
+      "title": "Множество и принадлежность",
+      "status": "core",
+      "pattern": "N li; N de X",
+      "principle": "li относится к предыдущему имени; de выражает отношение, но не юридический титул.",
+      "example": "ami de mama",
+      "translation": "друг мамы",
+      "restriction": "Для сложной именной группы область li и цепочки de пока не зафиксированы."
+    },
+    {
+      "id": "08-05",
+      "title": "Вопрос общего типа",
+      "status": "core",
+      "pattern": "S [TAM] V O ka?",
+      "principle": "Ka находится в конце самостоятельного вопроса.",
+      "example": "Yu si mi ka?",
+      "translation": "Ты видишь меня?",
+      "restriction": "Встроенные полярные вопросы пока не нормированы."
+    },
+    {
+      "id": "08-06",
+      "title": "Негендерные формы",
+      "status": "core",
+      "pattern": "mi, yu, ta",
+      "principle": "Пол говорящего и третьего лица грамматически не маркируется.",
+      "example": "Ta ama mama.",
+      "translation": "Он/она любит маму.",
+      "restriction": "Русский перевод должен не приписывать полу указание, отсутствующее в SAMA."
+    },
+    {
+      "id": "08-07",
+      "title": "Кандидатная валентность глагола",
+      "status": "experimental",
+      "pattern": "V + [O]",
+      "principle": "У каждого предлагаемого глагола будущая словарная статья должна фиксировать обязательные аргументы.",
+      "example": "Mi lita kaso.",
+      "translation": "Я читаю книгу.",
+      "restriction": "lita, kaso — лексические кандидаты; правила не доказывают их пригодность."
+    },
+    {
+      "id": "08-08",
+      "title": "Условие с ani",
+      "status": "experimental",
+      "pattern": "ani CLAUSE , MAIN-CLAUSE",
+      "principle": "Фронтальная условная часть отделяется запятой; не допускается опускание подлежащего.",
+      "example": "Ani yu si mi, mi si yu.",
+      "translation": "Если ты меня видишь, я вижу тебя.",
+      "restriction": "Это только обычное фактическое условие, не контрфактическое «если бы»."
+    },
+    {
+      "id": "08-09",
+      "title": "Область времени внутри условия",
+      "status": "experimental",
+      "pattern": "ani S [pa|la] V, S [pa|la] V",
+      "principle": "У каждой клаузы собственные частицы времени, временные отношения не выводятся автоматически.",
+      "example": "Ani yu la wako to doma, mi la wako to doma.",
+      "translation": "Если ты пойдёшь к дому, я пойду к дому.",
+      "restriction": "Предложения с 'будущее в прошедшем' не поддерживаются."
+    },
+    {
+      "id": "08-10",
+      "title": "Изъяснение с ke",
+      "status": "experimental",
+      "pattern": "S COGNITION-VERB ke S V [O]",
+      "principle": "Ke вводит одну конечную изъяснительную клаузу справа от глагола мысли/речи.",
+      "example": "Mi nima ke yu bi na doma.",
+      "translation": "Я знаю, что ты дома.",
+      "restriction": "Без специального маркера конца не допускается несколько вложенных ke."
+    },
+    {
+      "id": "08-11",
+      "title": "Фактичность сообщения",
+      "status": "unresolved",
+      "pattern": "nima ke P / misi ke P / toka ke P",
+      "principle": "Требуется различать знание, мнение и переданное сообщение; частицы не делают P истинным.",
+      "example": "Ta toka ke doma bi daba.",
+      "translation": "Он/она говорит, что дом большой.",
+      "restriction": "В русском 'говорит, что' не гарантирует истинность утверждения. Отрицание внешней клаузы не отрицает вложенное."
+    },
+    {
+      "id": "08-12",
+      "title": "Относительная клауза",
+      "status": "experimental",
+      "pattern": "N ye CLAUSE(e) ya",
+      "principle": "Ye начинает, ya завершает относительное определение; e обозначает роль определяемого имени внутри.",
+      "example": "Ami ye mi si e ya bi na doma.",
+      "translation": "Друг, которого я вижу, находится дома.",
+      "restriction": "Относительные конструкции без e или с двумя e запрещены в экспериментальной учебной модели."
+    },
+    {
+      "id": "08-13",
+      "title": "Субъектная/объектная связь",
+      "status": "experimental",
+      "pattern": "N ye e V O ya / N ye S V e ya",
+      "principle": "Позиция e внутри относительной клаузы отличает определяемого субъекта от объекта.",
+      "example": "Ami ye e si mi ya bi na doma.",
+      "translation": "Друг, который видит меня, дома.",
+      "restriction": "e — новое экспериментальное слово-пустышка; не утверждено международно."
+    },
+    {
+      "id": "08-14",
+      "title": "Глубина вложения",
+      "status": "unresolved",
+      "pattern": "max nesting depth = 1 (pilot)",
+      "principle": "Учебный парсер должен отвергать вложенные друг в друга ke и ye/ya.",
+      "example": "—",
+      "translation": "—",
+      "restriction": "Рекурсия и однозначный общий маркер конца придаточного ещё не определены."
+    },
+    {
+      "id": "08-15",
+      "title": "Сочинение полных клауз",
+      "status": "experimental",
+      "pattern": "S V O wa S V O",
+      "principle": "Для двух полных клауз оба подлежащих выражаются; wa пока не делает однозначными все именные группы.",
+      "example": "Ta pina su wa ta kula pana.",
+      "translation": "Он/она пьёт воду и ест хлеб.",
+      "restriction": "Это же wa может соединять слова и группы; требуется формальный синтаксический анализ."
+    },
+    {
+      "id": "08-16",
+      "title": "Противопоставление с aka",
+      "status": "experimental",
+      "pattern": "S V O aka S [no] V O",
+      "principle": "Aka связывает противопоставленные самостоятельные предложения.",
+      "example": "Mi ama yu aka mi no si yu.",
+      "translation": "Я люблю тебя, но не вижу тебя.",
+      "restriction": "aka пока кандидат; значение 'однако' не обязано означать причинную связь."
+    },
+    {
+      "id": "08-17",
+      "title": "Возможность и желание",
+      "status": "experimental",
+      "pattern": "S [pa|la] [no] (mosa|kama) V O",
+      "principle": "Модальное слово берёт глагольную группу без второго времени. No перед модальностью отрицает возможность/желание.",
+      "example": "Yu mosa kami mi ka?",
+      "translation": "Ты можешь помочь мне?",
+      "restriction": "mosa/kama — кандидаты; отдельное отрицание вложенного действия пока не утверждено."
+    },
+    {
+      "id": "08-18",
+      "title": "Вопросительные слова",
+      "status": "experimental",
+      "pattern": "ki V O? / S V ku? / S V kamo?",
+      "principle": "Вопросительное слово может занимать место неизвестного участника; позиция обстоятельств требует уточнений.",
+      "example": "Ki lita kaso?",
+      "translation": "Кто читает книгу?",
+      "restriction": "Не все позиции для kate/kasa/kalo проверены; ka не является обязательным в специальном вопросе."
+    },
+    {
+      "id": "08-19",
+      "title": "Получатель с to",
+      "status": "experimental",
+      "pattern": "S pako OBJECT to RECIPIENT",
+      "principle": "To связывает цель/направление; употребление как адресата передачи — отдельная гипотеза.",
+      "example": "Mi pako kaso to ami.",
+      "translation": "Я даю книгу другу.",
+      "restriction": "Нужно различить физическое движение, передачу собственности и адресата сообщения."
+    },
+    {
+      "id": "08-20",
+      "title": "Область отрицания",
+      "status": "unresolved",
+      "pattern": "no + highest predicate",
+      "principle": "No перед основным сказуемым не должен автоматически отрицать вложенную клаузу.",
+      "example": "Mi no nima ke ta bi na doma.",
+      "translation": "Я не знаю, что он/она дома.",
+      "restriction": "Не равно «Я знаю, что он/она не дома». Семантика фактивности и пресуппозиции ещё не стандартизирована."
+    },
+    {
+      "id": "08-21",
+      "title": "Количественность и точные числа",
+      "status": "unresolved",
+      "pattern": "quantifiers pending",
+      "principle": "Нужны числа, меры, единицы, доли, проценты и область действия «все», «некоторые», «кроме».",
+      "example": "—",
+      "translation": "—",
+      "restriction": "Записи числами в словаре не заменяют формальных правил квантификации."
+    },
+    {
+      "id": "08-22",
+      "title": "Аспект, модальность необходимости",
+      "status": "unresolved",
+      "pattern": "aspect/deontic pending",
+      "principle": "Требуется различать сделал/делал, должен/может/рекомендуется, запрет и разрешение.",
+      "example": "—",
+      "translation": "—",
+      "restriction": "Это блокер точного научного, юридического и повседневного перевода."
+    },
+    {
+      "id": "08-23",
+      "title": "Источники знания и речевые акты",
+      "status": "unresolved",
+      "pattern": "evidentiality pending",
+      "principle": "Нужно выразить собственное наблюдение, чужую речь, гипотезу, приказ, просьбу.",
+      "example": "—",
+      "translation": "—",
+      "restriction": "Различия между утверждением и доказанным фактом сейчас теряются."
+    },
+    {
+      "id": "08-24",
+      "title": "Единая орфография сложной фразы",
+      "status": "experimental",
+      "pattern": "SAMA 17-letter alphabet + punctuation",
+      "principle": "Регистр не смыслоразличителен; дефис связывает только кандидаты-композиты; запятая при ani обязательна в пилотных тестах.",
+      "example": "Ani yu si mi, mi si yu.",
+      "translation": "Если ты видишь меня, я вижу тебя.",
+      "restriction": "Примеры не заменяют полноценную автоматическую проверку синтаксиса."
+    }
+  ],
+  "open_questions": [
+    "Неоднозначность ke при вложении",
+    "Границы полной клаузы с wa и aka",
+    "Согласованная модель определений с множественностью",
+    "Семантические роли у pako и предлога to",
+    "Единая система аспекта и контрфактуальности",
+    "Процентная арифметика и квантификация",
+    "Юридические отношения и источники доказательств",
+    "Независимые акустические и межъязыковые испытания"
+  ],
+  "lexicon_policy": "No experimental token or draft root becomes core without individual lexicographic review."
+}

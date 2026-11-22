@@ -1,7 +1,7 @@
 {
   "version": "0.10-audit-draft",
   "created": "2026-11-22",
-  "notice": "Crosswalk of historical positions, NOT adoption of experimental rules. Each topic has at most one primary 0.3 internal source; unresolved conflicts remain open.",
+  "notice": "Historical crosswalk plus explicit revisions. Historical source status is provenance, never automatic adoption. Only one active revision per global rule ID; unresolved topics have none.",
   "counts": {
     "total": 128,
     "bySource": {
@@ -13,7 +13,8 @@
     },
     "laboratory": 59,
     "topics": 46,
-    "registered_conflicts": 12
+    "registered_conflicts": 12,
+    "open_conflicts": 11
   },
   "topics": [
     {
@@ -26,7 +27,9 @@
         "atlas05:ipa"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/aspect",
@@ -46,7 +49,9 @@
       "conflicts": [
         "CF-007"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/borrowings",
@@ -57,7 +62,9 @@
         "atlas05:loanwords"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/causal-discourse",
@@ -70,7 +77,9 @@
         "lab09:09-15"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/comparison",
@@ -81,7 +90,9 @@
         "atlas05:comparison"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/compounds",
@@ -94,7 +105,9 @@
         "atlas05:compounding-roles"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/conditionals",
@@ -109,7 +122,9 @@
         "lab08:08-09"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/content-clauses",
@@ -124,7 +139,9 @@
       "conflicts": [
         "CF-009"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/coordination",
@@ -142,7 +159,9 @@
         "CF-003",
         "CF-006"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/copula",
@@ -156,7 +175,9 @@
         "lab08:08-03"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/definiteness",
@@ -167,7 +188,9 @@
         "atlas05:article"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/discourse",
@@ -178,7 +201,9 @@
         "atlas05:discourse"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/ellipsis",
@@ -189,7 +214,9 @@
         "atlas05:ellipsis"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/evidentiality",
@@ -203,7 +230,9 @@
       "conflicts": [
         "CF-009"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/governance",
@@ -214,7 +243,9 @@
         "spec03:status"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/imperatives",
@@ -225,7 +256,9 @@
         "atlas05:commands"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/information-structure",
@@ -236,7 +269,9 @@
         "atlas05:topics"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/legal",
@@ -247,7 +282,9 @@
         "atlas05:legal"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/lexicon-policy",
@@ -262,7 +299,9 @@
       "conflicts": [
         "CF-012"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/limitations",
@@ -273,7 +312,9 @@
         "spec03:limitations-core"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/modality",
@@ -294,7 +335,9 @@
         "CF-012",
         "CF-007"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/negation",
@@ -313,7 +356,9 @@
         "lab09:09-17"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/nounphrase",
@@ -326,7 +371,9 @@
       "conflicts": [
         "CF-005"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/numbers",
@@ -340,7 +387,9 @@
       "conflicts": [
         "CF-004"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/orthography",
@@ -352,7 +401,9 @@
         "lab08:08-24"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/passive",
@@ -363,7 +414,9 @@
         "atlas05:passive"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/plural",
@@ -377,7 +430,9 @@
         "lab08:08-04"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/politeness",
@@ -388,7 +443,9 @@
         "atlas05:politeness"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/possession",
@@ -403,7 +460,9 @@
       "conflicts": [
         "CF-008"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/pronouns",
@@ -418,7 +477,9 @@
         "lab08:08-06"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/quality",
@@ -433,7 +494,9 @@
       "conflicts": [
         "CF-005"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/quantifiers",
@@ -447,7 +510,9 @@
       "conflicts": [
         "CF-004"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/questions",
@@ -463,7 +528,9 @@
         "lab08:08-18"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/recursion",
@@ -476,13 +543,15 @@
         "lab09:09-20"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/relatives",
       "topic": "relatives",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "selected-experimental-pilot",
       "sources": [
         "spec03:relative-core",
         "atlas05:relative",
@@ -492,7 +561,17 @@
       "conflicts": [
         "CF-001"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "ADR-0001: ta selected for bounded pilot; e and zero-resumption archived. No core promotion.",
+      "active_revision": "SAMA-RULE/relatives@0.10-pilot.1",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/relatives@0.10-pilot.1",
+          "status": "experimental",
+          "active": true,
+          "path": "content/rules/relative-pilot.json",
+          "decision": "docs/decisions/0001-relative-binding.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/releases",
@@ -503,7 +582,9 @@
         "spec03:release-policy"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/reported-speech",
@@ -517,7 +598,9 @@
       "conflicts": [
         "CF-009"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/spatial",
@@ -532,7 +615,9 @@
       "conflicts": [
         "CF-010"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/svo",
@@ -546,7 +631,9 @@
         "lab08:08-01"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/syllables",
@@ -559,7 +646,9 @@
         "lab07:07-15"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/tense",
@@ -572,7 +661,9 @@
         "lab07:07-03"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/testing",
@@ -584,7 +675,9 @@
         "atlas05:language-testing"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/time-adverbs",
@@ -595,7 +688,9 @@
         "atlas05:time-adverbs"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/transliteration",
@@ -606,7 +701,9 @@
         "atlas05:transliteration"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/valency",
@@ -624,7 +721,9 @@
       "conflicts": [
         "CF-011"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     },
     {
       "id": "SAMA-RULE/wordclasses",
@@ -635,7 +734,9 @@
         "atlas05:wordclasses"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule"
+      "decision": "unreviewed-mapping; does not create a new normative rule",
+      "active_revision": null,
+      "revisions": []
     }
   ],
   "positions": [
@@ -2119,12 +2220,14 @@
       "severity": "blocking",
       "sources": [
         "spec03:relative-core",
+        "atlas05:relative",
         "lab08:08-12",
         "lab08:08-13"
       ],
-      "evidence": "0.3 предлагает N ye ta ... ya, а 0.8 N ye e ... ya с новой отсутствующей в лексиконе e. Референтная роль и правила связывания различны.",
-      "decision": "Нужен выбор одной модели с минимум 50 субъектными/объектными контрастами и миграцией примеров.",
-      "roadmap": "R05-04"
+      "evidence": "0.3 предлагает N ye ta ... ya, а 0.8 N ye e ... ya с новой отсутствующей в лексиконе e. Референтная роль и правила связывания различны. Атлас 0.5 добавлял третью модель ami ye mi si ya без повторного аргумента.",
+      "decision": "ADR-0001: один ta в субъектной/объектной позиции; альтернативы e и пропуск архивированы. Международная понятность не проверена.",
+      "roadmap": "R05-04",
+      "status": "resolved-for-pilot"
     },
     {
       "id": "CF-002",
@@ -2266,5 +2369,6 @@
       "decision": "Прогнать все фразы и уроки по статусам, пометить экспериментальные и заменить только после решения.",
       "roadmap": "R10-02"
     }
-  ]
+  ],
+  "schema": "sama-rule-registry/v2"
 }

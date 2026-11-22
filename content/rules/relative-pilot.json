@@ -1,0 +1,39 @@
+{
+  "schema": "sama-relative-pilot/v1",
+  "id": "SAMA-RULE/relatives@0.10-pilot.1",
+  "status": "experimental",
+  "decision": "docs/decisions/0001-relative-binding.md",
+  "pattern": "HEAD ye (ta | ARG) [pa | la] [no] (si | ama) (ARG | ta) ya bi na doma.",
+  "heads": [
+    "ami",
+    "soma"
+  ],
+  "arguments": [
+    "ta",
+    "mi",
+    "yu",
+    "ami",
+    "mama",
+    "dani"
+  ],
+  "tense": [
+    "pa",
+    "la"
+  ],
+  "verbs": [
+    "si",
+    "ama"
+  ],
+  "binding": "Exactly one ta in the relative clause refers to the immediately preceding head. Other third-person reference requires a separate sentence in this pilot.",
+  "excluded": [
+    "e",
+    "zero resumptive",
+    "nested clauses",
+    "prepositional relatives",
+    "multiple ta",
+    "coordination",
+    "unlisted main predicates"
+  ],
+  "human_validation": false,
+  "notice": "The parser verifies this bounded profile only. ye/ya and soma/dani remain candidate lexemes; no core promotion. Unmarked tense is unspecified, not necessarily present."
+}
