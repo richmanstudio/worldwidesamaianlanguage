@@ -5,7 +5,7 @@
 ## Work protocol
 
 1. Assign one or more stable **Rxx-yy** IDs from the roadmap to every nontrivial task. If a requested change is absent, propose a roadmap amendment before/alongside changing content.
-2. If a source frozen in `docs/baseline-0.9.json` changes, document the current Git blob SHA, R-ID, reason and new version in `docs/baseline-drift.json`; never overwrite historical baseline. Check phase dependencies and precise exit criteria. Do not implement ahead of prerequisites without explicit experimental labels.
+2. If a source frozen in `docs/baseline-0.9.json` changes, document the current Git blob SHA, R-ID, reason and new version in `docs/baseline-drift.json`; never overwrite historical baseline. Check phase dependencies and precise exit criteria. Accepted scoped normative editions may proceed under the owner mandate in ADR-0003; record missing coverage explicitly and do not claim full gates or 1.0 prematurely.
 3. Maintain data provenance and statuses: `core` is only internal working norm; `candidate`/`proposal`/`experimental` are **not** independently validated. The 5,000-row corpus includes 4,683 algorithmic compounds. Do not invent human results or unearned completeness percentages.
 4. For lexicon and grammar edits, update examples, schema, tests, changelog and migration notes; include contrasting and negative tests. Preserve quarantine history and old documents.
 5. For human validation, require authentic participant data, consent, methods, limitations. CI tests, mock DOM and synthetic examples are **not** native-speaker validation.
@@ -22,3 +22,7 @@
 - Tests: `npm test`; changes to orthography/lexicon/norms require focused validations beyond static site render tests.
 
 **A user instruction can change priorities, but never silently promote unreviewed data or claim a human study occurred.**
+
+## Current owner mandate (2026-11-22)
+
+Build a completed SAMA 1.0 with at least 5000 individually defined accepted words. ADR-0003 delegates normative authorship to the editor; adopted entries belong in separate canonical v1 datasets, not mass-promoted legacy JSON. Public learning routes use accepted content; historic laboratories remain archived. Human validation is a separate evidence field, not a fabricated prerequisite authority. Read docs/core-scope.md and docs/versioning.md along with ROADMAP.
