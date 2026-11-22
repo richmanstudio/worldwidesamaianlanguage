@@ -5,7 +5,7 @@
 ## Work protocol
 
 1. Assign one or more stable **Rxx-yy** IDs from the roadmap to every nontrivial task. If a requested change is absent, propose a roadmap amendment before/alongside changing content.
-2. Check phase dependencies and precise exit criteria. Do not implement ahead of prerequisites without explicit experimental labels.
+2. If a source frozen in `docs/baseline-0.9.json` changes, document the current Git blob SHA, R-ID, reason and new version in `docs/baseline-drift.json`; never overwrite historical baseline. Check phase dependencies and precise exit criteria. Do not implement ahead of prerequisites without explicit experimental labels.
 3. Maintain data provenance and statuses: `core` is only internal working norm; `candidate`/`proposal`/`experimental` are **not** independently validated. The 5,000-row corpus includes 4,683 algorithmic compounds. Do not invent human results or unearned completeness percentages.
 4. For lexicon and grammar edits, update examples, schema, tests, changelog and migration notes; include contrasting and negative tests. Preserve quarantine history and old documents.
 5. For human validation, require authentic participant data, consent, methods, limitations. CI tests, mock DOM and synthetic examples are **not** native-speaker validation.

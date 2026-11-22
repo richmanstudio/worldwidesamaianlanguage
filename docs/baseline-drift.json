@@ -1,0 +1,10 @@
+{
+  "schema": "sama-baseline-drift/v1",
+  "source_baseline": "docs/baseline-0.9.json",
+  "created": "2026-11-22",
+  "notice": "Log all future accepted drift here with task_id, current_sha, reason and target_version. Never rewrite the historic 0.9 baseline.",
+  "file_changes": [],
+  "current_counts": null,
+  "added_articles": [],
+  "removed_articles": []
+}

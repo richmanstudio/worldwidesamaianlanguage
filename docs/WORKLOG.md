@@ -13,3 +13,9 @@
 **Done:** R00-09. CI успешно прошёл [GitHub Actions run 44988897537](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44988897537); ROADMAP, README, AGENTS, PR template и status структурно проверяются. Для будущей навигации создан [Master Roadmap issue #1](https://github.com/richmanstudio/worldwidesamaianlanguage/issues/1).
 
 **Не проверялось:** независимая лингвистическая экспертиза, человеческие исследования или утверждение новой лексики. **Next:** R00-01, R00-02, R00-04 / R01-03.
+
+## 2026-11-22 · Первый исследовательский цикл ROADMAP
+
+**Завершены:** R00-01 (инвентаризация), R00-02 (замороженный baseline), R00-03 (модель статусов), R01-03 (сопоставление 59 пунктов). **В работе:** R00-04, R00-07. Источники: `docs/source-register.md`, `docs/baseline-0.9.json`, `docs/status-model.md`, `content/rule-registry.json`, `docs/rule-crosswalk.md`, `docs/conflicts.md`. Коммиты: `2ccc742`, `3dbc56e`; GitHub Actions: [44989466448](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44989466448), [44989557553](https://github.com/richmanstudio/worldwidesamaianlanguage/actions/runs/44989557553). Найдено 12 открытых расхождений, норму не изменяли.
+
+**Нерешено:** предметная дедупликация 46 тем; конфликт относительных конструкций `ta`/`e`, валентность `kama`, единый статус союза `aka`. **Next:** CF-001 → R00-04/R00-07; human validation не проводилась.

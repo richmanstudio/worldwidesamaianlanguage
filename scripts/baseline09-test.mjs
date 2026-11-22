@@ -9,13 +9,26 @@ const v07=read('content/language-0.7.json'),v08=read('content/grammar-0.8.json')
 const report=read('content/wordbank-report.json'),audit=read('content/audit.json'),quarantine=read('content/legacy/quarantine.json');
 const articleNames=readdirSync('content/articles').filter(x=>x.endsWith('.json')).sort();
 const current={letters:letters.length,vowels:letters.filter(x=>'AEIOU'.includes(x.char)).length,lexemes:lex.length,core:lex.filter(x=>x.status==='core').length,candidate:lex.filter(x=>x.status==='candidate').length,wordbank:bank.length,proposals:bank.filter(x=>x.status==='proposal').length,specification:spec.length,spec_core:spec.filter(x=>x.level==='core').length,spec_candidate:spec.filter(x=>x.level==='candidate').length,grammar_atlas:atlas.chapters.length,atlas_core:atlas.chapters.filter(x=>x.status==='core').length,atlas_proposal:atlas.chapters.filter(x=>x.status==='proposal').length,atlas_rules:atlas.chapters.reduce((n,x)=>n+x.rules.length,0),lab07:v07.rules.length,lab07_curated:v07.curated.length,lab07_benchmark:v07.metrics.benchmark,lab08:v08.rules.length,lab08_corpus:read('content/translation-corpus-0.8.json').items.length,lab09:v09.rules.length,lab09_new_morphemes:v09.morphemes.length,lab09_contrast_pairs:v09.contrasts.length,lab09_blocked:v09.blocked.length,articles:articleNames.length,lessons:read('content/lessons.json').length,phrases:read('content/phrases.json').length,historical_conflicts:audit.conflicts.length,quarantined:quarantine.length};
-assert.deepEqual(c,current,'Frozen 0.9 counts differ. Record intentional version drift, never rewrite historical baseline');
+const drift=read('docs/baseline-drift.json');
+if(JSON.stringify(c)!==JSON.stringify(current)){
+ assert.deepEqual(drift.current_counts,current,'Updated corpus counts require a documented current_counts in baseline-drift.json');
+ assert(drift.file_changes.length>0,'Metric drift without any recorded source changes');
+} else assert.equal(drift.current_counts,null,'Unexpected count override without a change');
 assert.equal(report.compositional_proposals,c.proposals);
 assert.equal(b.external_human_validation,false);
 const sha=p=>{const x=readFileSync(p);return createHash('sha1').update('blob '+x.length+'\0').update(x).digest('hex');};
-for(const [path,fingerprint] of Object.entries(b.fingerprints))assert.equal(sha(path),fingerprint,'Changed baseline source: '+path);
-assert.deepEqual(articleNames,b.article_manifest.map(x=>x.path.replace('content/articles/','')).sort());
-for(const {path,sha:fingerprint} of b.article_manifest)assert.equal(sha(path),fingerprint,'Changed article: '+path);
+function checkSource(path,fingerprint){
+ const live=sha(path);if(live===fingerprint)return;
+ const delta=drift.file_changes.find(x=>x.path===path&&x.current_sha===live);
+ assert(delta&&typeof delta.task_id==='string'&&delta.task_id.startsWith('R')&&delta.reason?.length>20&&delta.target_version,'Undocumented baseline source drift: '+path);
+}
+for(const [path,fingerprint] of Object.entries(b.fingerprints))checkSource(path,fingerprint);
+const oldNames=b.article_manifest.map(x=>x.path.replace('content/articles/','')).sort();
+assert.deepEqual(articleNames.filter(x=>!oldNames.includes(x)),drift.added_articles,'Undocumented new articles');
+assert.deepEqual(oldNames.filter(x=>!articleNames.includes(x)),drift.removed_articles,'Undocumented removed articles');
+for(const {path,sha:fingerprint} of b.article_manifest){
+ if(!drift.removed_articles.includes(path.replace('content/articles/','')))checkSource(path,fingerprint);
+}
 const reg=readFileSync('docs/source-register.md','utf8');
 for(const path of Object.keys(b.fingerprints))assert(reg.includes(path),'Unregistered source: '+path);
 for(const {path} of b.article_manifest)assert(reg.includes(path),'Unregistered article: '+path);
