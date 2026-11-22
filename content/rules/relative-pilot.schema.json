@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SAMA CF-001 bounded experimental relative profile",
+  "type": "object",
+  "required": ["schema", "id", "status", "decision", "pattern", "heads", "arguments", "tense", "verbs", "binding", "excluded", "human_validation", "notice"],
+  "properties": {
+    "schema": {"const": "sama-relative-pilot/v1"},
+    "id": {"const": "SAMA-RULE/relatives@0.10-pilot.1"},
+    "status": {"const": "experimental"},
+    "decision": {"const": "docs/decisions/0001-relative-binding.md"},
+    "pattern": {"type": "string", "minLength": 30},
+    "heads": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "arguments": {"type": "array", "minItems": 2, "uniqueItems": true, "contains": {"const": "ta"}, "items": {"type": "string"}},
+    "tense": {"const": ["pa", "la"]},
+    "verbs": {"const": ["si", "ama"]},
+    "binding": {"type": "string", "minLength": 50},
+    "excluded": {"type": "array", "minItems": 5, "uniqueItems": true, "items": {"type": "string"}},
+    "human_validation": {"const": false},
+    "notice": {"type": "string", "minLength": 50}
+  },
+  "additionalProperties": false
+}

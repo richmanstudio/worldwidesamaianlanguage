@@ -62,3 +62,14 @@ assert.ok(spec.includes('ke +')||spec.includes('ke'), 'Не загружены �
 console.log(`✓ Проверено: ${routes.length} маршрутов, ${articleIds.length} статей, ${words.length} карточек слов`);
 console.log('✓ Проверены фильтр статуса, поиск по словарю и журнал ошибок');
 console.log(`✓ Всего проверено ${routes.length+articleIds.length+words.length+45} маршрутов (без визуального браузера)`);
+
+const phrasePage=checkRoute('/phrases','Разговорник');
+assert(phrasePage.includes('data-editorial-status="historical"')&&phrasePage.includes('CF-002'));
+assert(phrasePage.includes('Mi kama su.')&&phrasePage.includes('Я хочу воды.'));
+const shopIndex=JSON.parse(evalIn('JSON.stringify(LESSONS.findIndex(x=>x.title===\"В магазине\"))'));
+const shopPage=checkRoute('/lesson/'+shopIndex,'В магазине');
+assert(shopPage.includes('ИСТОРИЧЕСКИЙ МАТЕРИАЛ')&&shopPage.includes('CF-002'));
+assert(shopPage.includes('Mi kama su.'));
+const grammarPage=checkRoute('/grammar','Грамматика');
+assert(!grammarPage.includes('${GRAMMAR_ATLAS'));
+console.log('✓ CF-002: archival notices visible next to phrase and lesson content in built routes');

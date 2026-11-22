@@ -132,7 +132,7 @@
       "meaning": "kama выражает желание действующего лица, не событие.",
       "example": "Mi kama pina su.",
       "ru": "Я хочу пить воду.",
-      "restriction": "Желание не влечёт действия; kama пока кандидат.",
+      "restriction": "Желание не влечёт действия; kama пока кандидат. CF-002 / ADR-0002: номинальная рамка kama + NP историческая, не принимается VP-пилотом.",
       "status": "experimental",
       "source": "design proposal 0.9; no independent validation"
     },

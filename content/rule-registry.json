@@ -14,7 +14,7 @@
     "laboratory": 59,
     "topics": 46,
     "registered_conflicts": 12,
-    "open_conflicts": 11
+    "open_conflicts": 10
   },
   "topics": [
     {
@@ -2239,8 +2239,9 @@
         "lab09:09-07"
       ],
       "evidence": "Разговорник использует Mi kama su. — «Я хочу воды». 0.9 тестирует kama только как MODAL + VP (например, Mi kama pina su.). Это разные аргументные рамки.",
-      "decision": "Определить kama V и kama N как две допустимые валентности либо пометить первую архивной; не менять смысл без решения.",
-      "roadmap": "R01-13"
+      "decision": "ADR-0002: только kama + VP в текущем эксперименте; все найденные учебные kama + NP исторически помечены без изменения смысла. Остальные модальные вопросы открыты.",
+      "roadmap": "R01-13",
+      "status": "resolved-by-archival-scope"
     },
     {
       "id": "CF-003",

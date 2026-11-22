@@ -113,3 +113,12 @@ assert.equal(web.version,'0.9-draft','Production bundle missing new laboratory')
 console.log('✓ SAMA 0.9: 20 contrast pairs parsed, 16 invalid forms rejected');
 console.log('✓ SAMA 0.9: five quarantined morphemes, 12 valency descriptions, 12 blocked prompts');
 console.log('✓ Scope for negation and causation differentiated; no false independent-review claims');
+
+// CF-002: desire for an object must not be silently parsed as desire to drink it.
+assert.equal(parse('Mi kama su.'),null);
+const desire=parse('Mi kama pina su.');
+assert.equal(desire.modal,'kama');assert.equal(desire.verb,'pina');assert.equal(desire.object,'su');
+const absenceOfDesire=parse('Mi no kama pina su.'),negativeDesire=parse('Mi kama no pina su.');
+assert(absenceOfDesire.outerNo&&!absenceOfDesire.innerNo);
+assert(!negativeDesire.outerNo&&negativeDesire.innerNo);
+console.log('✓ CF-002: nominal kama rejected by VP pilot; no kama / kama no retain distinct scopes');

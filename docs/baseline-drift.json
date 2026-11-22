@@ -43,6 +43,86 @@
       "task_id": "R00-04 / R00-07",
       "reason": "CF-001: align current relative pilot with ta and explicitly archive prior e/zero alternatives; no core promotion.",
       "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/specification.json",
+      "previous_sha": "0c79d076189b8af1c875ae83ea7bb512e3374d0a",
+      "current_sha": "79cd5026d5359a99b9307f0b84751a8ec062caf1",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/grammar-atlas.json",
+      "previous_sha": "8c9ed3e038a7d331766b228eb22d69db724e499c",
+      "current_sha": "016fd3905a9b4807afd060df91227b29a12c6985",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/grammar-0.8.json",
+      "previous_sha": "98a2d9522e1f82241718254342e6f48318420673",
+      "current_sha": "20cbbc4a5a0a8ada4aaf19d645e94fc8dc960bbb",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/language-0.9.json",
+      "previous_sha": "efbe6f2e8bfecaa696dd6423b951842ec96d1c9b",
+      "current_sha": "ca017dea56f32c8037926698e65486a4ef6ed7e1",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/lessons.json",
+      "previous_sha": "f8a1e1f677f67bb5fc3cf1006f57bda084ec2b5e",
+      "current_sha": "9a47512e21bcdaaec75eedd379724226e1601ce7",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/phrases.json",
+      "previous_sha": "506072b2fe00ce18049fca80b01f1febb1cd0db5",
+      "current_sha": "1e571176b0513f6308f35288ccb82a72ca828da3",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/articles/food-vocabulary.json",
+      "previous_sha": "fd5d398f329aeb2f49e6c757f4554ca108105028",
+      "current_sha": "59c24c427b38e3469515ce1c0b04864df4607ea0",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/articles/modality.json",
+      "previous_sha": "17b5fd7660d4af1199fa144c8cee1fd76bf4c458",
+      "current_sha": "509103ae04df0d21b75d24bbd5307b3da731e7e7",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/articles/standard-modals-core.json",
+      "previous_sha": "f78a1c51e17bc227417a9d70de508eeb9fe50c1b",
+      "current_sha": "be09ce3e21d1fc21365d33c3e15c5bd6458c2df5",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
+    },
+    {
+      "path": "content/articles/standard-negation-core.json",
+      "previous_sha": "e39838367f40df0e56b78622fd8e115b0cf11c37",
+      "current_sha": "68e04655e689490e20c433c20d098f7142ea7b04",
+      "task_id": "R01-13 / R00-07",
+      "reason": "CF-002: explicitly archive nominal kama examples without rewriting their meanings, align VP-pilot restrictions and expose editorial notices.",
+      "target_version": "0.10-pilot.1"
     }
   ],
   "current_counts": null,

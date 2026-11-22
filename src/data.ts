@@ -1,8 +1,9 @@
 /* SAMA 0.3 — типы данных для TypeScript. Данные хранятся отдельно в content/*.json. */
 interface Letter { char: string; ipa: string; how: string; example: string; hint: string; }
 interface Lexeme { w: string; ru: string; tag: string; proposed: boolean; status: 'core'|'candidate'; note?: string; }
-interface Phrase { sama: string; ru: string; topic: string; }
-interface Lesson { title: string; level: string; intro: string; rules: string[]; examples: [string,string][]; task: string; answer: string; }
+interface EditorialNote { editorial_status?: "historical"|"experimental"; editorial_note?: string; }
+interface Phrase extends EditorialNote { sama: string; ru: string; topic: string; }
+interface Lesson extends EditorialNote { title: string; level: string; intro: string; rules: string[]; examples: [string,string][]; task: string; answer: string; }
 interface Article { id: string; title: string; area: string; desc: string; paragraphs: string[]; examples?: [string,string][]; related?: string[]; edition?: string; status?: string; }
 interface QuizItem { q: string; options: string[]; correct: number; explain: string; }
 interface HandbookChapter {id:string;title:string;level:'core'|'candidate';summary:string;rules:string[];examples:{sama:string;ru:string}[];notes:string[];area:string;}

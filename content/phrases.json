@@ -137,12 +137,16 @@
   {
     "sama": "Mi no kama wako.",
     "ru": "Я не хочу идти.",
-    "topic": "Движение"
+    "topic": "Движение",
+    "editorial_status": "experimental",
+    "editorial_note": "CF-002 · Эксперимент kama + VP; kama — candidate, не core. Желание не означает совершение действия."
   },
   {
     "sama": "Mi kama su.",
     "ru": "Я хочу воды.",
-    "topic": "Еда"
+    "topic": "Еда",
+    "editorial_status": "historical",
+    "editorial_note": "CF-002 · Историческая NP-рамка kama + существительное; вне текущего VP-пилота. «Хочу воды» не равно «хочу пить воду». Исходный перевод сохранён; см. ADR-0002."
   },
   {
     "sama": "Mi pina su.",
@@ -247,6 +251,8 @@
   {
     "sama": "Mi kama lena.",
     "ru": "Я хочу учиться.",
-    "topic": "Обучение"
+    "topic": "Обучение",
+    "editorial_status": "experimental",
+    "editorial_note": "CF-002 · Эксперимент kama + VP; kama — candidate, не core. Желание не означает совершение действия."
   }
 ]

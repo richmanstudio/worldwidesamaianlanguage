@@ -18,3 +18,5 @@
 ## Решения
 
 - [0001 — Связывание относительной клаузы](0001-relative-binding.md): selected-for-pilot, experimental.
+
+- [0002 — Дополнение kama](0002-kama-complement.md): selected-for-pilot; NP-рамка историческая, VP экспериментальное.
