@@ -1,0 +1,158 @@
+{
+  "version": "0.11.0",
+  "verbs": [
+    {
+      "form": "si",
+      "sense_id": "SAMA-SENSE/si/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "ama",
+      "sense_id": "SAMA-SENSE/ama/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "pina",
+      "sense_id": "SAMA-SENSE/pina/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "kula",
+      "sense_id": "SAMA-SENSE/kula/1",
+      "minimum_objects": 0,
+      "maximum_objects": 1,
+      "roles": [
+        "agent",
+        "optional_theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "lena",
+      "sense_id": "SAMA-SENSE/lena/1",
+      "minimum_objects": 0,
+      "maximum_objects": 1,
+      "roles": [
+        "agent",
+        "optional_theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "lita",
+      "sense_id": "SAMA-SENSE/lita/1",
+      "minimum_objects": 0,
+      "maximum_objects": 1,
+      "roles": [
+        "agent",
+        "optional_theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "wima",
+      "sense_id": "SAMA-SENSE/wima/1",
+      "minimum_objects": 0,
+      "maximum_objects": 1,
+      "roles": [
+        "agent",
+        "optional_theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "wako",
+      "sense_id": "SAMA-SENSE/wako/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "lako",
+      "sense_id": "SAMA-SENSE/lako/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "toka",
+      "sense_id": "SAMA-SENSE/toka/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "tako",
+      "sense_id": "SAMA-SENSE/tako/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "pako",
+      "sense_id": "SAMA-SENSE/pako/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent",
+        "theme",
+        "recipient"
+      ],
+      "required_adpositions": [
+        "to"
+      ]
+    },
+    {
+      "form": "nima",
+      "sense_id": "SAMA-SENSE/nima/1",
+      "minimum_objects": 1,
+      "maximum_objects": 1,
+      "roles": [
+        "agent_or_experiencer",
+        "theme"
+      ],
+      "required_adpositions": []
+    },
+    {
+      "form": "misi",
+      "sense_id": "SAMA-SENSE/misi/1",
+      "minimum_objects": 0,
+      "maximum_objects": 0,
+      "roles": [
+        "agent_or_experiencer"
+      ],
+      "required_adpositions": []
+    }
+  ]
+}

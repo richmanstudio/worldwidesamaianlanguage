@@ -44,10 +44,10 @@ for(const topic of reg.topics){
  assert.equal(new Set(topic.revisions.map(x=>x.id)).size,topic.revisions.length);
  for(const rev of topic.revisions){
   assert(rev.id.startsWith(topic.id+'@'));assert(['core','experimental','unresolved','deprecated'].includes(rev.status));
-  const source=read(rev.path);assert.equal(source.id,rev.id);assert.equal(source.status,rev.status);
+  const file=read(rev.path),source=rev.selector?file.rules.find(x=>x.id===rev.selector):file;assert.equal(source.revision||source.id,rev.id);assert.equal(source.status,rev.status);
  }
 }
-assert.equal(reg.topics.find(x=>x.topic==='relatives').active_revision,profile.id);
+assert.equal(reg.topics.find(x=>x.topic==='relatives').active_revision,'SAMA-RULE/relatives@0.11.0');
 const spec=read('content/specification.json').find(x=>x.id==='relative-core');
 const atlas=read('content/grammar-atlas.json').chapters.find(x=>x.id==='relative');
 const article=read('content/articles/standard-relative-core.json');

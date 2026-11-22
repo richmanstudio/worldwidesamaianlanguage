@@ -14,28 +14,38 @@
     "laboratory": 59,
     "topics": 46,
     "registered_conflicts": 12,
-    "open_conflicts": 10
+    "open_conflicts": 8,
+    "active_rules": 24
   },
   "topics": [
     {
       "id": "SAMA-RULE/alphabet",
       "topic": "alphabet",
       "primary_internal_03": "spec03:alphabet-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:alphabet-core",
         "atlas05:ipa"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/alphabet@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/alphabet@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/alphabet",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/aspect",
       "topic": "aspect",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:aspect",
         "lab08:08-22",
@@ -49,9 +59,18 @@
       "conflicts": [
         "CF-007"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/aspect@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/aspect@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/aspect",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/borrowings",
@@ -113,7 +132,7 @@
       "id": "SAMA-RULE/conditionals",
       "topic": "conditionals",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:conditional-core",
         "atlas05:conditional",
@@ -122,9 +141,18 @@
         "lab08:08-09"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/conditionals@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/conditionals@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/conditionals",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/content-clauses",
@@ -147,7 +175,7 @@
       "id": "SAMA-RULE/coordination",
       "topic": "coordination",
       "primary_internal_03": "spec03:coord-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:coord-core",
         "atlas05:coord",
@@ -159,15 +187,24 @@
         "CF-003",
         "CF-006"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/coordination@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/coordination@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/coordination",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/copula",
       "topic": "copula",
       "primary_internal_03": "spec03:copula-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:copula-core",
         "atlas05:copula",
@@ -175,22 +212,40 @@
         "lab08:08-03"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/copula@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/copula@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/copula",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/definiteness",
       "topic": "definiteness",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:article"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/definiteness@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/definiteness@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/definiteness",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/discourse",
@@ -320,7 +375,7 @@
       "id": "SAMA-RULE/modality",
       "topic": "modality",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:modals-core",
         "atlas05:modality",
@@ -335,15 +390,24 @@
         "CF-012",
         "CF-007"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/modality@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/modality@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/modality",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/negation",
       "topic": "negation",
       "primary_internal_03": "spec03:negation-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:negation-core",
         "atlas05:negation",
@@ -356,30 +420,48 @@
         "lab09:09-17"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/negation@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/negation@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/negation",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/nounphrase",
       "topic": "nounphrase",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:nounphrase"
       ],
       "conflicts": [
         "CF-005"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/nounphrase@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/nounphrase@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/nounphrase",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/numbers",
       "topic": "numbers",
       "primary_internal_03": "spec03:numbers-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:numbers-core",
         "atlas05:digits"
@@ -387,23 +469,41 @@
       "conflicts": [
         "CF-004"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/numbers@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/numbers@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/numbers",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/orthography",
       "topic": "orthography",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:punctuation",
         "lab08:08-24"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/orthography@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/orthography@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/orthography",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/passive",
@@ -422,7 +522,7 @@
       "id": "SAMA-RULE/plural",
       "topic": "plural",
       "primary_internal_03": "spec03:plural-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:plural-core",
         "atlas05:plural",
@@ -430,28 +530,46 @@
         "lab08:08-04"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/plural@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/plural@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/plural",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/politeness",
       "topic": "politeness",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:politeness"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/politeness@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/politeness@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/politeness",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/possession",
       "topic": "possession",
       "primary_internal_03": "spec03:possession-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:possession-core",
         "atlas05:possession",
@@ -460,15 +578,24 @@
       "conflicts": [
         "CF-008"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/possession@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/possession@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/possession",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/pronouns",
       "topic": "pronouns",
       "primary_internal_03": "spec03:pronouns-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:pronouns-core",
         "atlas05:pronouns",
@@ -477,15 +604,24 @@
         "lab08:08-06"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/pronouns@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/pronouns@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/pronouns",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/quality",
       "topic": "quality",
       "primary_internal_03": "spec03:adjectives-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:adjectives-core",
         "atlas05:quality",
@@ -494,9 +630,18 @@
       "conflicts": [
         "CF-005"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/quality@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/quality@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/quality",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/quantifiers",
@@ -518,7 +663,7 @@
       "id": "SAMA-RULE/questions",
       "topic": "questions",
       "primary_internal_03": "spec03:questions-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:questions-core",
         "atlas05:polar",
@@ -528,9 +673,18 @@
         "lab08:08-18"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/questions@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/questions@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/questions",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/recursion",
@@ -551,7 +705,7 @@
       "id": "SAMA-RULE/relatives",
       "topic": "relatives",
       "primary_internal_03": null,
-      "provisional_status": "selected-experimental-pilot",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:relative-core",
         "atlas05:relative",
@@ -561,15 +715,23 @@
       "conflicts": [
         "CF-001"
       ],
-      "decision": "ADR-0001: ta selected for bounded pilot; e and zero-resumption archived. No core promotion.",
-      "active_revision": "SAMA-RULE/relatives@0.10-pilot.1",
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/relatives@0.11.0",
       "revisions": [
         {
           "id": "SAMA-RULE/relatives@0.10-pilot.1",
           "status": "experimental",
-          "active": true,
+          "active": false,
           "path": "content/rules/relative-pilot.json",
           "decision": "docs/decisions/0001-relative-binding.md"
+        },
+        {
+          "id": "SAMA-RULE/relatives@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/relatives",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
         }
       ]
     },
@@ -606,7 +768,7 @@
       "id": "SAMA-RULE/spatial",
       "topic": "spatial",
       "primary_internal_03": "spec03:spatial-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:spatial-core",
         "atlas05:spatial",
@@ -615,15 +777,24 @@
       "conflicts": [
         "CF-010"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/spatial@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/spatial@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/spatial",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/svo",
       "topic": "svo",
       "primary_internal_03": "spec03:sentence-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:sentence-core",
         "atlas05:svo",
@@ -631,39 +802,66 @@
         "lab08:08-01"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/svo@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/svo@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/svo",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/syllables",
       "topic": "syllables",
       "primary_internal_03": "spec03:syllables-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:syllables-core",
         "atlas05:stress",
         "lab07:07-15"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/syllables@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/syllables@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/syllables",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/tense",
       "topic": "tense",
       "primary_internal_03": "spec03:tense-core",
-      "provisional_status": "inherited-working-internal",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "spec03:tense-core",
         "atlas05:tense",
         "lab07:07-03"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/tense@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/tense@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/tense",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/testing",
@@ -709,7 +907,7 @@
       "id": "SAMA-RULE/valency",
       "topic": "valency",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:objects",
         "lab07:07-12",
@@ -721,22 +919,40 @@
       "conflicts": [
         "CF-011"
       ],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/valency@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/valency@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/valency",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     },
     {
       "id": "SAMA-RULE/wordclasses",
       "topic": "wordclasses",
       "primary_internal_03": null,
-      "provisional_status": "pending-unified-norm",
+      "provisional_status": "adopted-scoped-standard",
       "sources": [
         "atlas05:wordclasses"
       ],
       "conflicts": [],
-      "decision": "unreviewed-mapping; does not create a new normative rule",
-      "active_revision": null,
-      "revisions": []
+      "decision": "ADR-0004: one adopted 0.11.0 edition. Historical positions are provenance, not concurrent norms.",
+      "active_revision": "SAMA-RULE/wordclasses@0.11.0",
+      "revisions": [
+        {
+          "id": "SAMA-RULE/wordclasses@0.11.0",
+          "status": "core",
+          "active": true,
+          "path": "content/rules/core.json",
+          "selector": "SAMA-RULE/wordclasses",
+          "decision": "docs/decisions/0004-adopted-foundation.md"
+        }
+      ]
     }
   ],
   "positions": [
@@ -749,7 +965,9 @@
       "topic": "governance",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "spec03:alphabet-core",
@@ -760,7 +978,9 @@
       "topic": "alphabet",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/alphabet@0.11.0"
     },
     {
       "ref": "spec03:syllables-core",
@@ -771,7 +991,9 @@
       "topic": "syllables",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/syllables@0.11.0"
     },
     {
       "ref": "spec03:sentence-core",
@@ -782,7 +1004,9 @@
       "topic": "svo",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/svo@0.11.0"
     },
     {
       "ref": "spec03:pronouns-core",
@@ -793,7 +1017,9 @@
       "topic": "pronouns",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/pronouns@0.11.0"
     },
     {
       "ref": "spec03:copula-core",
@@ -804,7 +1030,9 @@
       "topic": "copula",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/copula@0.11.0"
     },
     {
       "ref": "spec03:negation-core",
@@ -815,7 +1043,9 @@
       "topic": "negation",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "spec03:tense-core",
@@ -826,7 +1056,9 @@
       "topic": "tense",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/tense@0.11.0"
     },
     {
       "ref": "spec03:questions-core",
@@ -837,7 +1069,9 @@
       "topic": "questions",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/questions@0.11.0"
     },
     {
       "ref": "spec03:plural-core",
@@ -848,7 +1082,9 @@
       "topic": "plural",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/plural@0.11.0"
     },
     {
       "ref": "spec03:possession-core",
@@ -861,7 +1097,9 @@
       "issues": [
         "CF-008"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/possession@0.11.0"
     },
     {
       "ref": "spec03:spatial-core",
@@ -874,7 +1112,9 @@
       "issues": [
         "CF-010"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/spatial@0.11.0"
     },
     {
       "ref": "spec03:modals-core",
@@ -887,7 +1127,9 @@
       "issues": [
         "CF-002"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "spec03:coord-core",
@@ -901,7 +1143,9 @@
         "CF-003",
         "CF-006"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/coordination@0.11.0"
     },
     {
       "ref": "spec03:content-clause",
@@ -914,7 +1158,9 @@
       "issues": [
         "CF-009"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "spec03:conditional-core",
@@ -925,7 +1171,9 @@
       "topic": "conditionals",
       "relation": "legacy-candidate",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/conditionals@0.11.0"
     },
     {
       "ref": "spec03:relative-core",
@@ -938,7 +1186,9 @@
       "issues": [
         "CF-001"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/relatives@0.11.0"
     },
     {
       "ref": "spec03:adjectives-core",
@@ -951,7 +1201,9 @@
       "issues": [
         "CF-005"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/quality@0.11.0"
     },
     {
       "ref": "spec03:numbers-core",
@@ -964,7 +1216,9 @@
       "issues": [
         "CF-004"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/numbers@0.11.0"
     },
     {
       "ref": "spec03:compounding-core",
@@ -975,7 +1229,9 @@
       "topic": "compounds",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "spec03:lexicon-core",
@@ -988,7 +1244,9 @@
       "issues": [
         "CF-012"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "spec03:limitations-core",
@@ -999,7 +1257,9 @@
       "topic": "limitations",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "spec03:test-design",
@@ -1010,7 +1270,9 @@
       "topic": "testing",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "spec03:release-policy",
@@ -1021,7 +1283,9 @@
       "topic": "releases",
       "relation": "foundational-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:svo",
@@ -1032,7 +1296,9 @@
       "topic": "svo",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/svo@0.11.0"
     },
     {
       "ref": "atlas05:copula",
@@ -1043,7 +1309,9 @@
       "topic": "copula",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/copula@0.11.0"
     },
     {
       "ref": "atlas05:pronouns",
@@ -1054,7 +1322,9 @@
       "topic": "pronouns",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/pronouns@0.11.0"
     },
     {
       "ref": "atlas05:wordclasses",
@@ -1065,7 +1335,9 @@
       "topic": "wordclasses",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/wordclasses@0.11.0"
     },
     {
       "ref": "atlas05:nounphrase",
@@ -1078,7 +1350,9 @@
       "issues": [
         "CF-005"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/nounphrase@0.11.0"
     },
     {
       "ref": "atlas05:plural",
@@ -1089,7 +1363,9 @@
       "topic": "plural",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/plural@0.11.0"
     },
     {
       "ref": "atlas05:possession",
@@ -1102,7 +1378,9 @@
       "issues": [
         "CF-008"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/possession@0.11.0"
     },
     {
       "ref": "atlas05:quality",
@@ -1115,7 +1393,9 @@
       "issues": [
         "CF-005"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/quality@0.11.0"
     },
     {
       "ref": "atlas05:article",
@@ -1126,7 +1406,9 @@
       "topic": "definiteness",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/definiteness@0.11.0"
     },
     {
       "ref": "atlas05:objects",
@@ -1139,7 +1421,9 @@
       "issues": [
         "CF-011"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/valency@0.11.0"
     },
     {
       "ref": "atlas05:tense",
@@ -1150,7 +1434,9 @@
       "topic": "tense",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/tense@0.11.0"
     },
     {
       "ref": "atlas05:aspect",
@@ -1161,7 +1447,9 @@
       "topic": "aspect",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "atlas05:negation",
@@ -1172,7 +1460,9 @@
       "topic": "negation",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "atlas05:polar",
@@ -1183,7 +1473,9 @@
       "topic": "questions",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/questions@0.11.0"
     },
     {
       "ref": "atlas05:wh",
@@ -1194,7 +1486,9 @@
       "topic": "questions",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/questions@0.11.0"
     },
     {
       "ref": "atlas05:spatial",
@@ -1207,7 +1501,9 @@
       "issues": [
         "CF-010"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/spatial@0.11.0"
     },
     {
       "ref": "atlas05:coord",
@@ -1220,7 +1516,9 @@
       "issues": [
         "CF-006"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/coordination@0.11.0"
     },
     {
       "ref": "atlas05:contrast",
@@ -1233,7 +1531,9 @@
       "issues": [
         "CF-003"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/coordination@0.11.0"
     },
     {
       "ref": "atlas05:content",
@@ -1244,7 +1544,9 @@
       "topic": "content-clauses",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:conditional",
@@ -1255,7 +1557,9 @@
       "topic": "conditionals",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/conditionals@0.11.0"
     },
     {
       "ref": "atlas05:relative",
@@ -1266,7 +1570,9 @@
       "topic": "relatives",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/relatives@0.11.0"
     },
     {
       "ref": "atlas05:topics",
@@ -1277,7 +1583,9 @@
       "topic": "information-structure",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:politeness",
@@ -1288,7 +1596,9 @@
       "topic": "politeness",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/politeness@0.11.0"
     },
     {
       "ref": "atlas05:punctuation",
@@ -1299,7 +1609,9 @@
       "topic": "orthography",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/orthography@0.11.0"
     },
     {
       "ref": "atlas05:stress",
@@ -1310,7 +1622,9 @@
       "topic": "syllables",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/syllables@0.11.0"
     },
     {
       "ref": "atlas05:ipa",
@@ -1321,7 +1635,9 @@
       "topic": "alphabet",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/alphabet@0.11.0"
     },
     {
       "ref": "atlas05:loanwords",
@@ -1332,7 +1648,9 @@
       "topic": "borrowings",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:compounding",
@@ -1343,7 +1661,9 @@
       "topic": "compounds",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:lex-status",
@@ -1354,7 +1674,9 @@
       "topic": "lexicon-policy",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:comparison",
@@ -1365,7 +1687,9 @@
       "topic": "comparison",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:quantifiers",
@@ -1376,7 +1700,9 @@
       "topic": "quantifiers",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:commands",
@@ -1387,7 +1713,9 @@
       "topic": "imperatives",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:modality",
@@ -1398,7 +1726,9 @@
       "topic": "modality",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "atlas05:passive",
@@ -1409,7 +1739,9 @@
       "topic": "passive",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:time-adverbs",
@@ -1420,7 +1752,9 @@
       "topic": "time-adverbs",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:reported-speech",
@@ -1431,7 +1765,9 @@
       "topic": "reported-speech",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:purpose",
@@ -1442,7 +1778,9 @@
       "topic": "causal-discourse",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:ellipsis",
@@ -1453,7 +1791,9 @@
       "topic": "ellipsis",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:discourse",
@@ -1464,7 +1804,9 @@
       "topic": "discourse",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:evidentiality",
@@ -1475,7 +1817,9 @@
       "topic": "evidentiality",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:legal",
@@ -1486,7 +1830,9 @@
       "topic": "legal",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:compounding-roles",
@@ -1497,7 +1843,9 @@
       "topic": "compounds",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:language-testing",
@@ -1508,7 +1856,9 @@
       "topic": "testing",
       "relation": "supporting-internal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "atlas05:digits",
@@ -1521,7 +1871,9 @@
       "issues": [
         "CF-004"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/numbers@0.11.0"
     },
     {
       "ref": "atlas05:transliteration",
@@ -1532,7 +1884,9 @@
       "topic": "transliteration",
       "relation": "research-proposal",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab07:07-01",
@@ -1543,7 +1897,9 @@
       "topic": "svo",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/svo@0.11.0"
     },
     {
       "ref": "lab07:07-02",
@@ -1554,7 +1910,9 @@
       "topic": "copula",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/copula@0.11.0"
     },
     {
       "ref": "lab07:07-03",
@@ -1565,7 +1923,9 @@
       "topic": "tense",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/tense@0.11.0"
     },
     {
       "ref": "lab07:07-04",
@@ -1576,7 +1936,9 @@
       "topic": "negation",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab07:07-05",
@@ -1587,7 +1949,9 @@
       "topic": "questions",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/questions@0.11.0"
     },
     {
       "ref": "lab07:07-06",
@@ -1598,7 +1962,9 @@
       "topic": "pronouns",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/pronouns@0.11.0"
     },
     {
       "ref": "lab07:07-07",
@@ -1609,7 +1975,9 @@
       "topic": "plural",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/plural@0.11.0"
     },
     {
       "ref": "lab07:07-08",
@@ -1620,7 +1988,9 @@
       "topic": "possession",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/possession@0.11.0"
     },
     {
       "ref": "lab07:07-09",
@@ -1631,7 +2001,9 @@
       "topic": "spatial",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/spatial@0.11.0"
     },
     {
       "ref": "lab07:07-10",
@@ -1642,7 +2014,9 @@
       "topic": "quality",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/quality@0.11.0"
     },
     {
       "ref": "lab07:07-11",
@@ -1653,7 +2027,9 @@
       "topic": "pronouns",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/pronouns@0.11.0"
     },
     {
       "ref": "lab07:07-12",
@@ -1664,7 +2040,9 @@
       "topic": "valency",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/valency@0.11.0"
     },
     {
       "ref": "lab07:07-13",
@@ -1675,7 +2053,9 @@
       "topic": "valency",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/valency@0.11.0"
     },
     {
       "ref": "lab07:07-14",
@@ -1686,7 +2066,9 @@
       "topic": "conditionals",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/conditionals@0.11.0"
     },
     {
       "ref": "lab07:07-15",
@@ -1697,7 +2079,9 @@
       "topic": "syllables",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/syllables@0.11.0"
     },
     {
       "ref": "lab08:08-01",
@@ -1708,7 +2092,9 @@
       "topic": "svo",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/svo@0.11.0"
     },
     {
       "ref": "lab08:08-02",
@@ -1719,7 +2105,9 @@
       "topic": "negation",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab08:08-03",
@@ -1730,7 +2118,9 @@
       "topic": "copula",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/copula@0.11.0"
     },
     {
       "ref": "lab08:08-04",
@@ -1741,7 +2131,9 @@
       "topic": "plural",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/plural@0.11.0"
     },
     {
       "ref": "lab08:08-05",
@@ -1752,7 +2144,9 @@
       "topic": "questions",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/questions@0.11.0"
     },
     {
       "ref": "lab08:08-06",
@@ -1763,7 +2157,9 @@
       "topic": "pronouns",
       "relation": "inherited",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/pronouns@0.11.0"
     },
     {
       "ref": "lab08:08-07",
@@ -1774,7 +2170,9 @@
       "topic": "valency",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/valency@0.11.0"
     },
     {
       "ref": "lab08:08-08",
@@ -1785,7 +2183,9 @@
       "topic": "conditionals",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/conditionals@0.11.0"
     },
     {
       "ref": "lab08:08-09",
@@ -1796,7 +2196,9 @@
       "topic": "conditionals",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/conditionals@0.11.0"
     },
     {
       "ref": "lab08:08-10",
@@ -1807,7 +2209,9 @@
       "topic": "content-clauses",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab08:08-11",
@@ -1820,7 +2224,9 @@
       "issues": [
         "CF-009"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab08:08-12",
@@ -1833,7 +2239,9 @@
       "issues": [
         "CF-001"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/relatives@0.11.0"
     },
     {
       "ref": "lab08:08-13",
@@ -1846,7 +2254,9 @@
       "issues": [
         "CF-001"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/relatives@0.11.0"
     },
     {
       "ref": "lab08:08-14",
@@ -1857,7 +2267,9 @@
       "topic": "recursion",
       "relation": "investigation-needed",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab08:08-15",
@@ -1870,7 +2282,9 @@
       "issues": [
         "CF-006"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/coordination@0.11.0"
     },
     {
       "ref": "lab08:08-16",
@@ -1883,7 +2297,9 @@
       "issues": [
         "CF-003"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/coordination@0.11.0"
     },
     {
       "ref": "lab08:08-17",
@@ -1897,7 +2313,9 @@
         "CF-002",
         "CF-012"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "lab08:08-18",
@@ -1908,7 +2326,9 @@
       "topic": "questions",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/questions@0.11.0"
     },
     {
       "ref": "lab08:08-19",
@@ -1921,7 +2341,9 @@
       "issues": [
         "CF-011"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/valency@0.11.0"
     },
     {
       "ref": "lab08:08-20",
@@ -1932,7 +2354,9 @@
       "topic": "negation",
       "relation": "investigation-needed",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab08:08-21",
@@ -1945,7 +2369,9 @@
       "issues": [
         "CF-004"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab08:08-22",
@@ -1958,7 +2384,9 @@
       "issues": [
         "CF-007"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab08:08-23",
@@ -1971,7 +2399,9 @@
       "issues": [
         "CF-009"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab08:08-24",
@@ -1982,7 +2412,9 @@
       "topic": "orthography",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/orthography@0.11.0"
     },
     {
       "ref": "lab09:09-01",
@@ -1995,7 +2427,9 @@
       "issues": [
         "CF-007"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab09:09-02",
@@ -2006,7 +2440,9 @@
       "topic": "aspect",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab09:09-03",
@@ -2017,7 +2453,9 @@
       "topic": "aspect",
       "relation": "experimental-refinement",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab09:09-04",
@@ -2028,7 +2466,9 @@
       "topic": "aspect",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab09:09-05",
@@ -2039,7 +2479,9 @@
       "topic": "aspect",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab09:09-06",
@@ -2050,7 +2492,9 @@
       "topic": "modality",
       "relation": "experimental-refinement",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "lab09:09-07",
@@ -2063,7 +2507,9 @@
       "issues": [
         "CF-002"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "lab09:09-08",
@@ -2076,7 +2522,9 @@
       "issues": [
         "CF-007"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "lab09:09-09",
@@ -2087,7 +2535,9 @@
       "topic": "negation",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab09:09-10",
@@ -2098,7 +2548,9 @@
       "topic": "negation",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab09:09-11",
@@ -2109,7 +2561,9 @@
       "topic": "modality",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/modality@0.11.0"
     },
     {
       "ref": "lab09:09-12",
@@ -2120,7 +2574,9 @@
       "topic": "aspect",
       "relation": "experimental-refinement",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/aspect@0.11.0"
     },
     {
       "ref": "lab09:09-13",
@@ -2131,7 +2587,9 @@
       "topic": "negation",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab09:09-14",
@@ -2142,7 +2600,9 @@
       "topic": "causal-discourse",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab09:09-15",
@@ -2153,7 +2613,9 @@
       "topic": "causal-discourse",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab09:09-16",
@@ -2164,7 +2626,9 @@
       "topic": "recursion",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab09:09-17",
@@ -2175,7 +2639,9 @@
       "topic": "negation",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/negation@0.11.0"
     },
     {
       "ref": "lab09:09-18",
@@ -2188,7 +2654,9 @@
       "issues": [
         "CF-011"
       ],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": "SAMA-RULE/valency@0.11.0"
     },
     {
       "ref": "lab09:09-19",
@@ -2199,7 +2667,9 @@
       "topic": "lexicon-policy",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     },
     {
       "ref": "lab09:09-20",
@@ -2210,7 +2680,9 @@
       "topic": "recursion",
       "relation": "research",
       "issues": [],
-      "normative_promoted": false
+      "normative_promoted": false,
+      "canonical_status": "historical-source",
+      "effective_replacement": null
     }
   ],
   "conflicts": [
@@ -2253,8 +2725,9 @@
         "lab08:08-16"
       ],
       "evidence": "Глава coord-core с level=core содержит правила для aka (но) и o (или), хотя обе формы в lexicon.json имеют candidate.",
-      "decision": "Разделить нормативную часть wa и экспериментальные aka/o; не учить кандидатные союзы как безусловно core.",
-      "roadmap": "R01-05"
+      "decision": "ADR-0004: core.json and lexicon-v1.json adopt one scoped normative treatment; historical source statuses are retained only as archive provenance.",
+      "roadmap": "R01-05",
+      "status": "resolved-in-standard-0.11"
     },
     {
       "id": "CF-004",
@@ -2279,8 +2752,9 @@
         "atlas05:nounphrase"
       ],
       "evidence": "Спецификация 0.3 закрепляет N + QUALITY (doma bona), в то время как атлас оставляет открытым вопрос «перед или после имени».",
-      "decision": "Определить единый порядок с отдельным тестом сложной NP; исправить устаревшую формулировку атласа.",
-      "roadmap": "R03-01"
+      "decision": "ADR-0004: core.json and lexicon-v1.json adopt one scoped normative treatment; historical source statuses are retained only as archive provenance.",
+      "roadmap": "R03-01",
+      "status": "resolved-in-standard-0.11"
     },
     {
       "id": "CF-006",

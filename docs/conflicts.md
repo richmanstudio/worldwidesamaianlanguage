@@ -6,9 +6,9 @@
 |---|---|---|---|
 | CF-001 | resolved-for-pilot (ADR-0001) | снят для пилота | R05-04 остаётся открыт |
 | CF-002 | resolved-by-archival-scope (ADR-0002) | снят в учебной инструкции | R01-13 |
-| CF-003 | normative-chapter-with-noncore-lexemes | high | R01-05 |
+| CF-003 | resolved-in-standard-0.11 | снят | R01-05 |
 | CF-004 | wording-and-coverage-gap | medium | R03-08 |
-| CF-005 | normative-guidance-vs-open-question | medium | R03-01 |
+| CF-005 | resolved-in-standard-0.11 | снят | R03-01 |
 | CF-006 | clause-boundary-ambiguity | high | R05-09 |
 | CF-007 | candidate-phonology-not-norm | high | R04-02 |
 | CF-008 | semantic-scope-gap | high | R03-05 |
@@ -143,3 +143,7 @@
 ### Что уже не считается выполненным
 
 Открытых разногласий = 10. CF-001 снят для текущего экспериментального профиля посредством ADR-0001 и миграции объяснений. Это не утверждение core и не независимая проверка; CF-002 ограничен и мигрирован по ADR-0002; остальные 10 случаев остаются открытыми. Следующее решение — CF-003 о статусах aka/o.
+
+## Решения нормативной основы 0.11.0
+
+ADR-0004 принимает aka/o с точными значениями и N + качество. CF-003/CF-005 закрыты в текущей норме, прежние карточки выше сохранены как история. Открытых случаев 8. Новая норма находится в core.json и lexicon-v1.json; история specification/atlas больше не является параллельной нормой.

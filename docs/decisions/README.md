@@ -20,3 +20,6 @@
 - [0001 — Связывание относительной клаузы](0001-relative-binding.md): selected-for-pilot, experimental.
 
 - [0002 — Дополнение kama](0002-kama-complement.md): selected-for-pilot; NP-рамка историческая, VP экспериментальное.
+
+- [0003 — Полномочия принятия стандарта](0003-standard-authority.md): accepted-internal.
+- [0004 — Нормативная основа 0.11.0](0004-adopted-foundation.md): 24 core-правила и 94 принятых слова.

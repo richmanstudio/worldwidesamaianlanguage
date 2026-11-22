@@ -1,0 +1,159 @@
+{
+  "schema": "sama-phonology/v1",
+  "version": "0.11.0",
+  "status": "core",
+  "letters": [
+    {
+      "letter": "A",
+      "name": "a",
+      "phoneme": "a",
+      "variants": [
+        "a"
+      ]
+    },
+    {
+      "letter": "B",
+      "name": "ba",
+      "phoneme": "b",
+      "variants": [
+        "b"
+      ]
+    },
+    {
+      "letter": "D",
+      "name": "da",
+      "phoneme": "d",
+      "variants": [
+        "d"
+      ]
+    },
+    {
+      "letter": "E",
+      "name": "e",
+      "phoneme": "e",
+      "variants": [
+        "e"
+      ]
+    },
+    {
+      "letter": "H",
+      "name": "ha",
+      "phoneme": "h",
+      "variants": [
+        "h",
+        "x"
+      ]
+    },
+    {
+      "letter": "I",
+      "name": "i",
+      "phoneme": "i",
+      "variants": [
+        "i"
+      ]
+    },
+    {
+      "letter": "K",
+      "name": "ka",
+      "phoneme": "k",
+      "variants": [
+        "k"
+      ]
+    },
+    {
+      "letter": "L",
+      "name": "la",
+      "phoneme": "l",
+      "variants": [
+        "l",
+        "ɾ"
+      ]
+    },
+    {
+      "letter": "M",
+      "name": "ma",
+      "phoneme": "m",
+      "variants": [
+        "m"
+      ]
+    },
+    {
+      "letter": "N",
+      "name": "na",
+      "phoneme": "n",
+      "variants": [
+        "n"
+      ]
+    },
+    {
+      "letter": "O",
+      "name": "o",
+      "phoneme": "o",
+      "variants": [
+        "o"
+      ]
+    },
+    {
+      "letter": "P",
+      "name": "pa",
+      "phoneme": "p",
+      "variants": [
+        "p"
+      ]
+    },
+    {
+      "letter": "S",
+      "name": "sa",
+      "phoneme": "s",
+      "variants": [
+        "s"
+      ]
+    },
+    {
+      "letter": "T",
+      "name": "ta",
+      "phoneme": "t",
+      "variants": [
+        "t"
+      ]
+    },
+    {
+      "letter": "U",
+      "name": "u",
+      "phoneme": "u",
+      "variants": [
+        "u"
+      ]
+    },
+    {
+      "letter": "W",
+      "name": "wa",
+      "phoneme": "w",
+      "variants": [
+        "w",
+        "ʋ"
+      ]
+    },
+    {
+      "letter": "Y",
+      "name": "ya",
+      "phoneme": "j",
+      "variants": [
+        "j"
+      ]
+    }
+  ],
+  "syllable": "(C)V",
+  "vowels": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u"
+  ],
+  "hiatus": "Each written vowel is a distinct syllable nucleus.",
+  "stress": "Penultimate syllable; monosyllables have a single syllable.",
+  "compound_stress": "Primary on the last component; secondary on preceding components.",
+  "orthography": "Latin letters; no consonant clusters or final consonants in ordinary roots.",
+  "decision": "ADR-0004"
+}

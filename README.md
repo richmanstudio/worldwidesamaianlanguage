@@ -1,3 +1,5 @@
+> **Действующая нормативная основа: SAMA 0.11.0.** [Правила](docs/core-reference.md) · [Принятый словарь](content/lexicon-v1.json) · [Область и оставшиеся работы](content/standard-release.json). Цель 1.0: полный язык и минимум 5000 обработанных слов.
+
 # SAMA — International Auxiliary Language
 
 > 🧭 **[ОФИЦИАЛЬНЫЙ ROADMAP / ГЕНЕРАЛЬНЫЙ ПЛАН SAMA](ROADMAP.md)** · [Текущая работа и блокеры](docs/ROADMAP-STATUS.md) · [Журнал изменений](docs/WORKLOG.md) · [Master Roadmap #1](https://github.com/richmanstudio/worldwidesamaianlanguage/issues/1) · [Правила вкладов и ИИ-помощников](AGENTS.md)

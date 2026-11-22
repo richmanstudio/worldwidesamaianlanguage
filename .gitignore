@@ -2,3 +2,5 @@ node_modules/
 .sama-build/
 .DS_Store
 npm-debug.log*
+
+dist/

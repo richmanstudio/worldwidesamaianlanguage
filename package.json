@@ -2,16 +2,17 @@
   "name": "sama-encyclopedia",
   "version": "0.9.0",
   "private": true,
-  "description": "SAMA Encyclopedia: 5000-entry experimental corpus, IPA reference and language 0.9 research laboratory",
+  "description": "SAMA: adopted language standard, dictionary, learning materials and historical archive",
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "build": "npm run validate && tsc -p tsconfig.json && node scripts/build.mjs",
     "check": "npm run validate && tsc --noEmit -p tsconfig.json",
     "dev": "npm run build && node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "test": "node scripts/roadmap-test.mjs && node scripts/baseline09-test.mjs && node scripts/rule-crosswalk-test.mjs && node scripts/relative-test.mjs && node scripts/phrase-migration-test.mjs && npm run build && node scripts/smoke-test.mjs && node scripts/route-test.mjs && node scripts/phonetics-test.mjs && node scripts/language07-test.mjs && node scripts/language08-test.mjs && node scripts/language08-route-test.mjs && node scripts/language09-test.mjs && node scripts/language09-route-test.mjs"
+    "test": "node scripts/standard-test.mjs && node scripts/roadmap-test.mjs && node scripts/baseline09-test.mjs && node scripts/rule-crosswalk-test.mjs && node scripts/relative-test.mjs && node scripts/phrase-migration-test.mjs && npm run build && node scripts/smoke-test.mjs && node scripts/route-test.mjs && node scripts/phonetics-test.mjs && node scripts/language07-test.mjs && node scripts/language08-test.mjs && node scripts/language08-route-test.mjs && node scripts/language09-test.mjs && node scripts/language09-route-test.mjs"
   },
   "devDependencies": {
+    "ajv": "8.17.1",
     "typescript": "5.8.3"
   },
   "license": "MIT"

@@ -1,0 +1,223 @@
+{
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "sama-lexicon/v1"
+    },
+    "version": {
+      "const": "0.11.0"
+    },
+    "authority": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^SAMA-LEX/"
+          },
+          "form": {
+            "type": "string",
+            "pattern": "^[abdehiklmnopstuwy]+(-[abdehiklmnopstuwy]+)*$"
+          },
+          "ipa": {
+            "type": "string",
+            "pattern": "^/.+/$"
+          },
+          "status": {
+            "const": "core"
+          },
+          "accepted_in": {
+            "const": "0.11.0"
+          },
+          "decision": {
+            "const": "ADR-0004"
+          },
+          "senses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^SAMA-SENSE/[a-z-]+/[0-9]+$"
+                },
+                "part_of_speech": {
+                  "enum": [
+                    "pronoun",
+                    "copula",
+                    "tense",
+                    "negator",
+                    "question",
+                    "plural",
+                    "adposition",
+                    "coordinator",
+                    "relative_open",
+                    "relative_close",
+                    "conditional",
+                    "interrogative",
+                    "modal",
+                    "aspect",
+                    "reflexive",
+                    "response",
+                    "interjection",
+                    "politeness",
+                    "verb",
+                    "adjective",
+                    "demonstrative",
+                    "noun",
+                    "numeral"
+                  ]
+                },
+                "gloss": {
+                  "type": "object",
+                  "properties": {
+                    "ru": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "en": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "ru",
+                    "en"
+                  ],
+                  "additionalProperties": false
+                },
+                "definition": {
+                  "type": "object",
+                  "properties": {
+                    "ru": {
+                      "type": "string",
+                      "minLength": 20
+                    },
+                    "en": {
+                      "type": "string",
+                      "minLength": 20
+                    }
+                  },
+                  "required": [
+                    "ru",
+                    "en"
+                  ],
+                  "additionalProperties": false
+                },
+                "examples": {
+                  "type": "array",
+                  "minItems": 2,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "sama": {
+                        "type": "string",
+                        "minLength": 2
+                      },
+                      "ru": {
+                        "type": "string",
+                        "minLength": 2
+                      }
+                    },
+                    "required": [
+                      "sama",
+                      "ru"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "frame": {
+                  "type": "object",
+                  "properties": {
+                    "minimum_objects": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "maximum_objects": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "roles": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required_adpositions": {
+                      "type": "array",
+                      "minItems": 0,
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "required": [
+                    "minimum_objects",
+                    "maximum_objects",
+                    "roles",
+                    "required_adpositions"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "id",
+                "part_of_speech",
+                "gloss",
+                "definition",
+                "examples"
+              ],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "part_of_speech": {
+                        "const": "verb"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "frame"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "form",
+          "ipa",
+          "status",
+          "accepted_in",
+          "decision",
+          "senses"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "version",
+    "authority",
+    "entries"
+  ],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
