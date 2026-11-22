@@ -23,8 +23,8 @@ const context=vm.createContext({document,window,location,localStorage:{getItem()
 vm.runInContext(source,context,{timeout:12000});
 const evalIn=(s)=>vm.runInContext(s,context,{timeout:12000});
 const routes=[
- ['/', 'Миллиарды'],['/start','С чего начать'],['/alphabet','Букварь'],
- ['/sounds','Атлас звуков'],['/grammar','Грамматика'],['/dictionary','Словарь SAMA'],
+ ['/', 'энциклопедия международного языка'],['/start','С чего начать'],['/alphabet','Букварь'],
+ ['/sounds','Звукарь SAMA'],['/grammar','Грамматика'],['/dictionary','Словарь SAMA'],
  ['/phrases','Разговорник'],['/numbers','Числа'],['/lessons','Самоучитель'],
  ['/lesson/0','01.'],['/library','Энциклопедия'],['/article/svo','Порядок'],
  ['/trainer','Тренажёр'],['/favorites','Избранное'],['/about','О проекте'],
