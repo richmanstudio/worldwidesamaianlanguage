@@ -79,8 +79,8 @@ for(const lesson of lessons.lessons){
  for(const sample of [...lesson.examples,{sama:lesson.exercise.answer}]){assert(parse(sample.sama).ok,lesson.title+' '+sample.sama);learningSamples++;}
 }
 for(const text of reader.texts)for(const sample of text.sentences){assert(parse(sample.sama).ok,sample.sama);learningSamples++;}
-assert.equal(taught.size,rules.rules.length);assert.equal(lessons.lessons.length,20);
-console.log('✓ Learning: 20 lessons cover all adopted rule IDs; '+learningSamples+' course/reader sentences checked');
+assert.equal(taught.size,rules.rules.length);assert.equal(lessons.lessons.length,25);
+console.log('✓ Learning: 25 lessons cover all adopted rule IDs; '+learningSamples+' course/reader sentences checked');
 
 // Lexical role restrictions apply to se; a modal may select a copular VP.
 for(const text of ['Mi wako ko se.','Mi si ami de se.','Mi wa se si yu.'])assert.equal(parse(text).ok,false,text);
