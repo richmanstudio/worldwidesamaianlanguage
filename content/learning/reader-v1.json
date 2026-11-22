@@ -1,5 +1,5 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "texts": [
     {
       "id": 1,
@@ -856,6 +856,84 @@
         {
           "sama": "Mi lita senatena.",
           "ru": "Я читаю судебное решение."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Кто идёт пешком",
+      "sentences": [
+        {
+          "sama": "Somi ami li wako.",
+          "ru": "Некоторые друзья идут пешком."
+        },
+        {
+          "sama": "Mowa ami li wako.",
+          "ru": "Большинство друзей идут пешком."
+        },
+        {
+          "sama": "No tawa ami li wako.",
+          "ru": "Не все друзья идут пешком."
+        },
+        {
+          "sama": "Somi ami li no wako.",
+          "ru": "Некоторые друзья не идут пешком."
+        },
+        {
+          "sama": "Mowa ami li bi bona.",
+          "ru": "Большинство друзей хорошие."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Группа студентов",
+      "sentences": [
+        {
+          "sama": "Tawa dani li bi na lasoma.",
+          "ru": "Все учащиеся в аудитории."
+        },
+        {
+          "sama": "Somi dani li lita kaso.",
+          "ru": "Некоторые учащиеся читают книги."
+        },
+        {
+          "sama": "No mowa dani li lita kaso.",
+          "ru": "Неверно, что большинство учащихся читают книги."
+        },
+        {
+          "sama": "Tawa dani li si lenu.",
+          "ru": "Все учащиеся видят преподавателя."
+        },
+        {
+          "sama": "Mowa dani li no wako.",
+          "ru": "Большинство учащихся не идут пешком."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Кроме одного друга",
+      "sentences": [
+        {
+          "sama": "Ta bi ami.",
+          "ru": "Он или она — друг."
+        },
+        {
+          "sama": "Ta bi na doma.",
+          "ru": "Он или она дома."
+        },
+        {
+          "sama": "Tawa ami li sule ta wako.",
+          "ru": "Все друзья, кроме него или неё, идут пешком."
+        },
+        {
+          "sama": "No tawa ami li wako.",
+          "ru": "Не все друзья идут пешком."
+        },
+        {
+          "sama": "Somi ami li wako.",
+          "ru": "Некоторые друзья идут пешком."
         }
       ]
     }
