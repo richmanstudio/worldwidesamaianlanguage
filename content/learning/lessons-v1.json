@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.14.0",
   "lessons": [
     {
       "id": 1,
@@ -668,6 +668,276 @@
         "answer": "Mi lita konata."
       },
       "contrast": "lawiya не обязательно адвокат; ewida не утверждает процессуальную допустимость доказательства."
+    },
+    {
+      "id": 26,
+      "version": "0.14.0",
+      "title": "Природа и погода",
+      "goal": "Описывать рельеф и погодные изменения.",
+      "rules": [
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/quality"
+      ],
+      "explanation": "halima — холм, walema — долина, wadala — водопад, kilima — климат, wetala — погода, sunato — закат; не смешивай короткое состояние погоды и длительный климат.",
+      "examples": [
+        {
+          "sama": "Wada bi na walema.",
+          "ru": "Река находится в долине."
+        },
+        {
+          "sama": "Mi si sunato.",
+          "ru": "Я вижу закат."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «На поле идёт дождь».",
+        "answer": "Nume bi na pelina."
+      },
+      "contrast": "wetala относится к конкретному месту и моменту, kilima описывает многолетние условия."
+    },
+    {
+      "id": 27,
+      "version": "0.14.0",
+      "title": "Растения и животные",
+      "goal": "Называть части растений, культуры и животных.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/valency"
+      ],
+      "explanation": "semila — семя, lamota — корень, satema — стебель, witana — пшеница, hokisa — лиса, labita — кролик, butelina — бабочка.",
+      "examples": [
+        {
+          "sama": "Witana bi na pelina.",
+          "ru": "Пшеница в поле."
+        },
+        {
+          "sama": "Hokisa bi na lima.",
+          "ru": "Лиса в лесу."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу бабочку».",
+        "answer": "Mi si butelina."
+      },
+      "contrast": "Семя semila и корень lamota не являются одним и тем же органом растения."
+    },
+    {
+      "id": 28,
+      "version": "0.14.0",
+      "title": "Еда и кухня",
+      "goal": "Различать блюда, продукты, посуду и помещения.",
+      "rules": [
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial"
+      ],
+      "explanation": "kesina — сыр, ewana — яйцо, polisa — каша, kulala — кухня, ketela — чайник, tamola — вилка.",
+      "examples": [
+        {
+          "sama": "Mi kula kesina.",
+          "ru": "Я ем сыр."
+        },
+        {
+          "sama": "Ketela bi na kulala.",
+          "ru": "Чайник на кухне."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я беру вилку».",
+        "answer": "Mi tako tamola."
+      },
+      "contrast": "paniya — сковорода, paneka — кастрюля; назначение и форма отличаются."
+    },
+    {
+      "id": 29,
+      "version": "0.14.0",
+      "title": "Дом и одежда",
+      "goal": "Описывать жильё и личные вещи.",
+      "rules": [
+        "SAMA-RULE/nounphrase",
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/quality"
+      ],
+      "explanation": "salona — гостиная, kamena — ванная, kalema — шкаф, kulasa — одеяло, suweta — свитер, hatena — шляпа.",
+      "examples": [
+        {
+          "sama": "Kulasa bi na beto.",
+          "ru": "Одеяло на кровати."
+        },
+        {
+          "sama": "Hatena bi nana balo.",
+          "ru": "Шляпа в сумке."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу свитер».",
+        "answer": "Mi si suweta."
+      },
+      "contrast": "kalema — шкаф для хранения, salona — комната для отдыха; это не предметы одного вида."
+    },
+    {
+      "id": 30,
+      "version": "0.14.0",
+      "title": "Город и транспорт",
+      "goal": "Говорить об улице, транспорте и поездках.",
+      "rules": [
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/valency",
+        "SAMA-RULE/nounphrase"
+      ],
+      "explanation": "sitalina — улица, bilida — мост, libala — библиотека, busa — автобус, bisikela — велосипед, tiketa — билет.",
+      "examples": [
+        {
+          "sama": "Busa bi na sitalina.",
+          "ru": "Автобус на улице."
+        },
+        {
+          "sama": "Mi bi na libala.",
+          "ru": "Я в библиотеке."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу велосипед».",
+        "answer": "Mi si bisikela."
+      },
+      "contrast": "Автобус busa перевозит пассажиров, а билет tiketa лишь подтверждает право на поездку."
+    },
+    {
+      "id": 31,
+      "version": "0.14.0",
+      "title": "Учёба и работа",
+      "goal": "Читать учебные и деловые документы.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/possession",
+        "SAMA-RULE/wordclasses"
+      ],
+      "explanation": "notela — тетрадь, esaya — эссе, silabusa — учебный план, lepota — отчёт, lewana — коллега, limana — крайний срок.",
+      "examples": [
+        {
+          "sama": "Dani wima esaya.",
+          "ru": "Ученик пишет эссе."
+        },
+        {
+          "sama": "Lewana bi na kapo.",
+          "ru": "Коллега в офисе."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я читаю отчёт».",
+        "answer": "Mi lita lepota."
+      },
+      "contrast": "limana означает срок завершения работы, а timetala — расписание занятий."
+    },
+    {
+      "id": 32,
+      "version": "0.14.0",
+      "title": "Общение и культура",
+      "goal": "Писать письма и говорить о произведениях искусства.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/quality"
+      ],
+      "explanation": "imeila — электронное письмо, enewala — бумажный конверт, dikasona — словарь, musika — музыка, pinetela — картина, nowela — роман.",
+      "examples": [
+        {
+          "sama": "Mi lita imeila.",
+          "ru": "Я читаю электронное письмо."
+        },
+        {
+          "sama": "Mi saya musika.",
+          "ru": "Я слушаю музыку."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я вижу картину».",
+        "answer": "Mi si pinetela."
+      },
+      "contrast": "imeila — цифровое письмо; letela — физическое письмо, часто в конверте enewala."
+    },
+    {
+      "id": 33,
+      "version": "0.14.0",
+      "title": "Здоровье и общество",
+      "goal": "Описывать медицинские и правовые ситуации.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/spatial",
+        "SAMA-RULE/wordclasses"
+      ],
+      "explanation": "hewala — жар, pulisa — пульс, nusena — медсестра, kasina — дело в суде, senatena — судебное решение, apela — апелляция.",
+      "examples": [
+        {
+          "sama": "Meka tami pulisa.",
+          "ru": "Врач проверяет пульс."
+        },
+        {
+          "sama": "Yudi lita senatena.",
+          "ru": "Судья читает решение."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я читаю апелляционную жалобу».",
+        "answer": "Mi lita apela."
+      },
+      "contrast": "Медицинская и юридическая лексика не заменяет профессиональное толкование диагноза или закона."
+    },
+    {
+      "id": 34,
+      "version": "0.14.0",
+      "title": "Технологии и наука",
+      "goal": "Различать цифровые устройства и научные понятия.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/wordclasses",
+        "SAMA-RULE/possession"
+      ],
+      "explanation": "lutela — маршрутизатор, databasa — база данных, bawesela — браузер, homula — формула, hipotesa — гипотеза, ekasapela — эксперимент.",
+      "examples": [
+        {
+          "sama": "Mi tami databasa.",
+          "ru": "Я проверяю базу данных."
+        },
+        {
+          "sama": "Mi wima homula.",
+          "ru": "Я записываю формулу."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я проверяю гипотезу».",
+        "answer": "Mi tami hipotesa."
+      },
+      "contrast": "hipotesa является проверяемым предположением, teyolia — научной объяснительной системой."
+    },
+    {
+      "id": 35,
+      "version": "0.14.0",
+      "title": "Отношения и эмоции",
+      "goal": "Использовать новые глаголы общения и качества.",
+      "rules": [
+        "SAMA-RULE/valency",
+        "SAMA-RULE/quality",
+        "SAMA-RULE/aspect"
+      ],
+      "explanation": "dawila — знакомиться, kemala — благодарить, ponila — доверять, helisa — смеяться, bonisa — добрый, kamaliya — спокойный. hu допускается с helisa, но не с ponila.",
+      "examples": [
+        {
+          "sama": "Mi kemala yu.",
+          "ru": "Я благодарю тебя."
+        },
+        {
+          "sama": "Mama bi bonisa.",
+          "ru": "Мама добрая."
+        }
+      ],
+      "exercise": {
+        "prompt": "Скажи: «Я смеюсь (в процессе)».",
+        "answer": "Mi hu helisa."
+      },
+      "contrast": "Mi hu helisa допустимо; Mi hu ponila yu неверно из-за несовместимости вида со статическим состоянием доверия."
     }
   ]
 }
