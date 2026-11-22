@@ -1,0 +1,1529 @@
+{
+  "schema": "sama-law-candidate-lexicon/v1",
+  "version": "0.1.0",
+  "date": "2026-11-22",
+  "standard_reference": "SAMA 0.16.0",
+  "authority": "editorial proposals for constitutional use; NOT adopted SAMA",
+  "counts": {
+    "proposed": 81,
+    "rejected_invalid": 1,
+    "rejected_collisions": 3
+  },
+  "entries": [
+    {
+      "id": "SAMA-LEGAL-CAND/konitusa",
+      "chapter": "01",
+      "form": "konitusa",
+      "ipa": "/ko.ni.ˈtu.sa/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "конституция",
+        "en": "constitution"
+      },
+      "definition": {
+        "ru": "Основной правовой акт, определяющий устройство публичной власти и гарантии основных прав.",
+        "en": "A foundational legal instrument establishing public authority and protecting fundamental rights."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lepubika",
+      "chapter": "01",
+      "form": "lepubika",
+      "ipa": "/le.pu.ˈbi.ka/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "республика",
+        "en": "republic"
+      },
+      "definition": {
+        "ru": "Государственное устройство с не наследуемыми высшими должностями; само по себе не гарантирует демократию.",
+        "en": "A polity with nonhereditary supreme offices; the name alone does not establish democracy."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/esitata",
+      "chapter": "01",
+      "form": "esitata",
+      "ipa": "/e.si.ˈta.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "государство",
+        "en": "state"
+      },
+      "definition": {
+        "ru": "Публично-правовая территориальная организация, которую нельзя отождествлять с сетевым клубом.",
+        "en": "A territorial public-law polity, distinct from an online association."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/suwelena",
+      "chapter": "01",
+      "form": "suwelena",
+      "ipa": "/su.we.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "суверенитет",
+        "en": "sovereignty"
+      },
+      "definition": {
+        "ru": "Полнота государственных полномочий в пределах юрисдикции и независимость во внешних делах.",
+        "en": "Supreme authority within jurisdiction and independence in external affairs, subject to international law."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/demokata",
+      "chapter": "01",
+      "form": "demokata",
+      "ipa": "/de.mo.ˈka.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "демократия",
+        "en": "democracy"
+      },
+      "definition": {
+        "ru": "Устройство власти на основе участия граждан, подотчётности избранных органов и гарантий прав.",
+        "en": "Government based on citizen participation, accountable representation and rights safeguards."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/mawena",
+      "chapter": "01",
+      "form": "mawena",
+      "ipa": "/ma.ˈwe.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "публичная власть",
+        "en": "public authority"
+      },
+      "definition": {
+        "ru": "Юридически установленные полномочия управлять общими делами, в отличие от личного влияния.",
+        "en": "Lawfully conferred capacity to govern public matters, unlike personal influence."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lawitela",
+      "chapter": "01",
+      "form": "lawitela",
+      "ipa": "/la.wi.ˈte.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "верховенство права",
+        "en": "rule of law"
+      },
+      "definition": {
+        "ru": "Принцип подчинения власти предсказуемым законам, правам человека и независимому суду.",
+        "en": "Public power constrained by clear law, human rights and independent adjudication."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lawisama",
+      "chapter": "01",
+      "form": "lawisama",
+      "ipa": "/la.wi.ˈsa.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "равенство перед законом",
+        "en": "equality before law"
+      },
+      "definition": {
+        "ru": "Равная правовая защита без необоснованных различий, не тождественная равенству имущества.",
+        "en": "Equal legal protection without unjustified distinction; not equality of wealth."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/telitola",
+      "chapter": "01",
+      "form": "telitola",
+      "ipa": "/te.li.ˈto.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "территория",
+        "en": "territory"
+      },
+      "definition": {
+        "ru": "Географическая область с определённым статусом; цифровой сервер территорией не является.",
+        "en": "A geographical area with a defined legal status, unlike a server."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/dilewa",
+      "chapter": "02",
+      "form": "dilewa",
+      "ipa": "/di.ˈle.wa/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "субъективное право",
+        "en": "legal entitlement"
+      },
+      "definition": {
+        "ru": "Юридически защищённая возможность действовать или требовать действия, отличная от разрешения.",
+        "en": "An enforceable entitlement to act or claim performance, not merely permission."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/libeta",
+      "chapter": "02",
+      "form": "libeta",
+      "ipa": "/li.ˈbe.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "свобода",
+        "en": "liberty"
+      },
+      "definition": {
+        "ru": "Защищённая сфера автономии лица от неоправданного вмешательства.",
+        "en": "An individual's protected sphere of autonomy against unjustified interference."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/dinitasa",
+      "chapter": "02",
+      "form": "dinitasa",
+      "ipa": "/di.ni.ˈta.sa/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "достоинство личности",
+        "en": "human dignity"
+      },
+      "definition": {
+        "ru": "Признаваемая ценность каждого человека, лежащая в основе фундаментальных прав.",
+        "en": "Inherent worth of every human being forming a foundation for rights."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/nomasena",
+      "chapter": "02",
+      "form": "nomasena",
+      "ipa": "/no.ma.ˈse.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "недискриминация",
+        "en": "non-discrimination"
+      },
+      "definition": {
+        "ru": "Запрет необоснованного неблагоприятного отношения по защищаемому признаку.",
+        "en": "Prohibition of unjustified adverse treatment on a protected ground."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/piwatesa",
+      "chapter": "02",
+      "form": "piwatesa",
+      "ipa": "/pi.wa.ˈte.sa/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "частная жизнь",
+        "en": "privacy"
+      },
+      "definition": {
+        "ru": "Личная и семейная сфера, защищённая от неправомерного вмешательства и раскрытия сведений.",
+        "en": "Private and family sphere protected from unlawful intrusion or disclosure."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/poloposena",
+      "chapter": "02",
+      "form": "poloposena",
+      "ipa": "/po.lo.po.ˈse.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "соразмерность",
+        "en": "proportionality"
+      },
+      "definition": {
+        "ru": "Требование необходимых и не чрезмерных ограничений ради законной цели.",
+        "en": "Requirement that restrictions for a lawful aim are necessary and not excessive."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lemidena",
+      "chapter": "02",
+      "form": "lemidena",
+      "ipa": "/le.mi.ˈde.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "эффективная правовая защита",
+        "en": "effective legal remedy"
+      },
+      "definition": {
+        "ru": "Процедура, реально позволяющая прекратить нарушение права или возместить ущерб.",
+        "en": "Process capable of ending a rights violation or delivering redress."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/popetala",
+      "chapter": "02",
+      "form": "popetala",
+      "ipa": "/po.pe.ˈta.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "собственность",
+        "en": "property"
+      },
+      "definition": {
+        "ru": "Юридически охраняемая связь лица с имуществом с установленными законом пределами.",
+        "en": "Lawfully protected interest in assets subject to defined legal limitations."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/sitawena",
+      "chapter": "03",
+      "form": "sitawena",
+      "ipa": "/si.ta.ˈwe.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "гражданство",
+        "en": "citizenship"
+      },
+      "definition": {
+        "ru": "Публично-правовая принадлежность государству; членство цифровой Альбы до суверенитета отличается.",
+        "en": "Public-law membership of a state, distinct from Alba's pre-state membership."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lesidena",
+      "chapter": "03",
+      "form": "lesidena",
+      "ipa": "/le.si.ˈde.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "резидент",
+        "en": "resident"
+      },
+      "definition": {
+        "ru": "Лицо с юридически определённым статусом проживания или участия, не обязательно гражданин.",
+        "en": "Person holding a legally defined residence or participation status, not necessarily a citizen."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/apileta",
+      "chapter": "03",
+      "form": "apileta",
+      "ipa": "/a.pi.ˈle.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "заявитель",
+        "en": "applicant"
+      },
+      "definition": {
+        "ru": "Лицо, направившее заявление для формального рассмотрения компетентным органом.",
+        "en": "A person who files an application for formal consideration by a competent body."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/setipika",
+      "chapter": "03",
+      "form": "setipika",
+      "ipa": "/se.ti.ˈpi.ka/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "свидетельство",
+        "en": "certificate"
+      },
+      "definition": {
+        "ru": "Подписанный документ, удостоверяющий конкретный зарегистрированный факт или статус.",
+        "en": "Authenticated document attesting to a particular recorded fact or status."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/pasapota",
+      "chapter": "03",
+      "form": "pasapota",
+      "ipa": "/pa.sa.ˈpo.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "паспорт",
+        "en": "passport"
+      },
+      "definition": {
+        "ru": "Документ для удостоверения личности и государственной принадлежности, а не членская карточка.",
+        "en": "A state identity and nationality document, not an association membership card."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lehiseta",
+      "chapter": "03",
+      "form": "lehiseta",
+      "ipa": "/le.hi.ˈse.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "реестр",
+        "en": "register"
+      },
+      "definition": {
+        "ru": "Упорядоченная система записей с регламентами регистрации, исправления и доступа.",
+        "en": "Structured record system with registration, correction and access rules."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/pesidena",
+      "chapter": "04",
+      "form": "pesidena",
+      "ipa": "/pe.si.ˈde.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "президент",
+        "en": "president"
+      },
+      "definition": {
+        "ru": "Глава Республики, наделённый точно определёнными конституцией полномочиями.",
+        "en": "Head of the Republic exercising powers expressly conferred by constitutional law."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/manadatima",
+      "chapter": "04",
+      "form": "manadatima",
+      "ipa": "/ma.na.da.ˈti.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "срок полномочий",
+        "en": "term of office"
+      },
+      "definition": {
+        "ru": "Определённый период законного исполнения выборной должности, не пожизненный мандат.",
+        "en": "Defined duration of lawful service in an office, not a perpetual mandate."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/elekapala",
+      "chapter": "04",
+      "form": "elekapala",
+      "ipa": "/e.le.ka.ˈpa.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "переизбрание",
+        "en": "reelection"
+      },
+      "definition": {
+        "ru": "Избрание должностного лица на новый срок, не тождественное продлению прежнего срока.",
+        "en": "Election to a further term, distinct from automatic extension of the existing term."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/kanidato",
+      "chapter": "04",
+      "form": "kanidato",
+      "ipa": "/ka.ni.ˈda.to/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "кандидат",
+        "en": "candidate"
+      },
+      "definition": {
+        "ru": "Допущенное по закону лицо, претендующее на выборную должность.",
+        "en": "Person lawfully admitted to compete for an elected office."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/deketa",
+      "chapter": "04",
+      "form": "deketa",
+      "ipa": "/de.ˈke.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "указ президента",
+        "en": "presidential decree"
+      },
+      "definition": {
+        "ru": "Нормативный или индивидуальный акт президента, ограниченный его компетенцией.",
+        "en": "Normative or individual presidential act limited by delegated legal competence."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/imipitama",
+      "chapter": "04",
+      "form": "imipitama",
+      "ipa": "/i.mi.pi.ˈta.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "отрешение от должности",
+        "en": "removal from office"
+      },
+      "definition": {
+        "ru": "Прекращение должностных полномочий по особой законной процедуре.",
+        "en": "Termination of official powers through a prescribed lawful procedure."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/inawilena",
+      "chapter": "04",
+      "form": "inawilena",
+      "ipa": "/i.na.wi.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "вступление в должность",
+        "en": "assumption of office"
+      },
+      "definition": {
+        "ru": "Юридически установленный момент начала осуществления полномочий должности.",
+        "en": "Legally established commencement of exercise of official powers."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/olama",
+      "chapter": "04",
+      "form": "olama",
+      "ipa": "/o.ˈla.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "присяга",
+        "en": "oath of office"
+      },
+      "definition": {
+        "ru": "Публичное обязательство должностного лица соблюдать закон и возложенные обязанности.",
+        "en": "A formal public promise by an officer to fulfill lawful duties."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/diputato",
+      "chapter": "05",
+      "form": "diputato",
+      "ipa": "/di.pu.ˈta.to/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "депутат",
+        "en": "legislator"
+      },
+      "definition": {
+        "ru": "Избранный представитель граждан в законодательном органе.",
+        "en": "Elected representative of citizens in a legislative body."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lawipota",
+      "chapter": "05",
+      "form": "lawipota",
+      "ipa": "/la.wi.ˈpo.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "законопроект",
+        "en": "bill"
+      },
+      "definition": {
+        "ru": "Текст предлагаемого закона без обязательной силы принятого акта.",
+        "en": "Draft legislative text lacking the binding force of an enacted statute."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/kuwoluma",
+      "chapter": "05",
+      "form": "kuwoluma",
+      "ipa": "/ku.wo.ˈlu.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "кворум",
+        "en": "quorum"
+      },
+      "definition": {
+        "ru": "Минимальная численность участников заседания для действительности его решений.",
+        "en": "Minimum attendance required for a body's valid decisions."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/komitena",
+      "chapter": "05",
+      "form": "komitena",
+      "ipa": "/ko.mi.ˈte.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "парламентская комиссия",
+        "en": "parliamentary committee"
+      },
+      "definition": {
+        "ru": "Коллегия депутатов с порученными подготовительными или контрольными задачами.",
+        "en": "Group of legislators assigned defined preparation or oversight tasks."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/oposita",
+      "chapter": "05",
+      "form": "oposita",
+      "ipa": "/o.po.ˈsi.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "политическая оппозиция",
+        "en": "political opposition"
+      },
+      "definition": {
+        "ru": "Участники политики, оспаривающие курс правящего большинства, сохраняя равные права.",
+        "en": "Political actors contesting the governing majority while retaining basic rights."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/miniseta",
+      "chapter": "06",
+      "form": "miniseta",
+      "ipa": "/mi.ni.ˈse.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "министр",
+        "en": "minister"
+      },
+      "definition": {
+        "ru": "Лицо, назначенное руководить определённым направлением исполнительной власти.",
+        "en": "An official appointed to lead a specified executive portfolio."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/kaboneta",
+      "chapter": "06",
+      "form": "kaboneta",
+      "ipa": "/ka.bo.ˈne.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "кабинет министров",
+        "en": "cabinet"
+      },
+      "definition": {
+        "ru": "Коллегиальный орган руководителей министерств для совместных решений.",
+        "en": "Collective council of executive ministers for shared decisions."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/adelena",
+      "chapter": "06",
+      "form": "adelena",
+      "ipa": "/a.de.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "ведомство",
+        "en": "government agency"
+      },
+      "definition": {
+        "ru": "Административный орган с правовыми пределами функций и ответственности.",
+        "en": "Administrative institution with legally prescribed tasks and accountability."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/akutema",
+      "chapter": "06",
+      "form": "akutema",
+      "ipa": "/a.ku.ˈte.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "подотчётность",
+        "en": "accountability"
+      },
+      "definition": {
+        "ru": "Обязанность объяснять решения и нести ответственность при нарушениях.",
+        "en": "Duty to explain decisions and answer for breaches of legal duties."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/sudena",
+      "chapter": "07",
+      "form": "sudena",
+      "ipa": "/su.ˈde.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "суд",
+        "en": "court"
+      },
+      "definition": {
+        "ru": "Независимый орган разрешения споров в пределах законной компетенции.",
+        "en": "An independent forum adjudicating disputes under lawful competence."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/sudeno",
+      "chapter": "07",
+      "form": "sudeno",
+      "ipa": "/su.ˈde.no/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "судья",
+        "en": "judge"
+      },
+      "definition": {
+        "ru": "Должностное лицо суда, уполномоченное беспристрастно решать споры.",
+        "en": "A judicial officer authorized to decide disputes impartially."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/yulisena",
+      "chapter": "07",
+      "form": "yulisena",
+      "ipa": "/ju.li.ˈse.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "юрисдикция",
+        "en": "jurisdiction"
+      },
+      "definition": {
+        "ru": "Пределы правомочия органа по предмету, месту и участникам.",
+        "en": "Extent of lawful power over subject matter, territory and persons."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/sudotima",
+      "chapter": "07",
+      "form": "sudotima",
+      "ipa": "/su.do.ˈti.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "судебное разбирательство",
+        "en": "judicial hearing"
+      },
+      "definition": {
+        "ru": "Формальная процедура рассмотрения требований, возражений и доказательств.",
+        "en": "Formal process for hearing claims, defenses and evidence."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/poselena",
+      "chapter": "07",
+      "form": "poselena",
+      "ipa": "/po.se.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "надлежащая правовая процедура",
+        "en": "due process"
+      },
+      "definition": {
+        "ru": "Гарантии уведомления, беспристрастности, участия и возможности пересмотра.",
+        "en": "Safeguards for notice, impartiality, participation and review."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/pulewama",
+      "chapter": "07",
+      "form": "pulewama",
+      "ipa": "/pu.le.ˈwa.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "бремя доказывания",
+        "en": "burden of proof"
+      },
+      "definition": {
+        "ru": "Распределение риска недоказанности юридически значимого факта.",
+        "en": "Assignment of the risk of failing to establish a legally relevant fact."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lemisuda",
+      "chapter": "07",
+      "form": "lemisuda",
+      "ipa": "/le.mi.ˈsu.da/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "конституционный контроль",
+        "en": "constitutional review"
+      },
+      "definition": {
+        "ru": "Проверка актов на соответствие конституции уполномоченным органом.",
+        "en": "Competent body's review of measures for compliance with a constitution."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lehelena",
+      "chapter": "08",
+      "form": "lehelena",
+      "ipa": "/le.he.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "референдум",
+        "en": "referendum"
+      },
+      "definition": {
+        "ru": "Голосование граждан по определённому вопросу с установленными последствиями.",
+        "en": "Citizen vote on a defined question with prescribed legal consequences."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/wotano",
+      "chapter": "08",
+      "form": "wotano",
+      "ipa": "/wo.ˈta.no/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "избиратель",
+        "en": "voter"
+      },
+      "definition": {
+        "ru": "Лицо, обладающее правом подать голос на конкретных выборах.",
+        "en": "Person eligible to cast a vote in a particular election."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/wotalapa",
+      "chapter": "08",
+      "form": "wotalapa",
+      "ipa": "/wo.ta.ˈla.pa/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "избирательный бюллетень",
+        "en": "ballot"
+      },
+      "definition": {
+        "ru": "Носитель зафиксированного выбора гражданина при соблюдении тайны голосования.",
+        "en": "Medium recording a voter's choice under secrecy protections."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/komisena",
+      "chapter": "08",
+      "form": "komisena",
+      "ipa": "/ko.mi.ˈse.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "избирательная комиссия",
+        "en": "election commission"
+      },
+      "definition": {
+        "ru": "Независимый орган организации и контроля выборов.",
+        "en": "Independent body administering and supervising elections."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/budeta",
+      "chapter": "09",
+      "form": "budeta",
+      "ipa": "/bu.ˈde.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "бюджет",
+        "en": "budget"
+      },
+      "definition": {
+        "ru": "Юридически утверждённый план публичных доходов и расходов на период.",
+        "en": "Lawfully approved plan of public income and expenditure for a period."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/tesolena",
+      "chapter": "09",
+      "form": "tesolena",
+      "ipa": "/te.so.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "казначейство",
+        "en": "treasury"
+      },
+      "definition": {
+        "ru": "Орган исполнения и учёта бюджета; не автоматически банк для вкладов.",
+        "en": "Institution executing and recording a budget, not automatically a deposit bank."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/banaka",
+      "chapter": "09",
+      "form": "banaka",
+      "ipa": "/ba.ˈna.ka/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "банк",
+        "en": "bank"
+      },
+      "definition": {
+        "ru": "Финансовая организация с лицензией на определённые банковские операции.",
+        "en": "Licensed financial institution conducting authorized banking operations."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/senatabanaka",
+      "chapter": "09",
+      "form": "senatabanaka",
+      "ipa": "/se.na.ta.ba.ˈna.ka/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "центральный банк",
+        "en": "central bank"
+      },
+      "definition": {
+        "ru": "Публичный денежно-кредитный орган государства с полномочиями по закону.",
+        "en": "A state's public monetary authority with powers conferred by law."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/walutapina",
+      "chapter": "09",
+      "form": "walutapina",
+      "ipa": "/wa.lu.ta.ˈpi.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "фиатная валюта",
+        "en": "fiat currency"
+      },
+      "definition": {
+        "ru": "Общепринятая денежная единица без фиксированной товарной конвертации, не игровой токен.",
+        "en": "Money not fixed to redeemable commodities; not a fictional game token."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/deposita",
+      "chapter": "09",
+      "form": "deposita",
+      "ipa": "/de.po.ˈsi.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "банковский вклад",
+        "en": "bank deposit"
+      },
+      "definition": {
+        "ru": "Денежное требование вкладчика к лицензированному банку, не то же что электронные деньги.",
+        "en": "Depositor's monetary claim against a licensed bank, unlike electronic money."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/audita",
+      "chapter": "09",
+      "form": "audita",
+      "ipa": "/a.u.ˈdi.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "финансовый аудит",
+        "en": "financial audit"
+      },
+      "definition": {
+        "ru": "Независимая проверка финансовой отчётности по раскрытым критериям.",
+        "en": "Independent assessment of financial reporting against disclosed criteria."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/datana",
+      "chapter": "10",
+      "form": "datana",
+      "ipa": "/da.ˈta.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "персональные данные",
+        "en": "personal data"
+      },
+      "definition": {
+        "ru": "Сведения о прямо либо косвенно определяемом физическом лице.",
+        "en": "Information about an identified or identifiable natural person."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/sihinala",
+      "chapter": "10",
+      "form": "sihinala",
+      "ipa": "/si.hi.ˈna.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "электронная подпись",
+        "en": "electronic signature"
+      },
+      "definition": {
+        "ru": "Электронные данные, используемые для подтверждения подписи лица на документе.",
+        "en": "Electronic information used to express a person's signature on a record."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/enikilepa",
+      "chapter": "10",
+      "form": "enikilepa",
+      "ipa": "/e.ni.ki.ˈle.pa/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "шифрование",
+        "en": "encryption"
+      },
+      "definition": {
+        "ru": "Криптографическое преобразование информации против неправомерного прочтения.",
+        "en": "Cryptographic transformation of information against unauthorized reading."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/sipewena",
+      "chapter": "10",
+      "form": "sipewena",
+      "ipa": "/si.pe.ˈwe.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "кибербезопасность",
+        "en": "cybersecurity"
+      },
+      "definition": {
+        "ru": "Защита программ, сетей и данных от атак и злоупотреблений.",
+        "en": "Protection of software, networks and data against attacks and abuse."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/datalawena",
+      "chapter": "10",
+      "form": "datalawena",
+      "ipa": "/da.ta.la.ˈwe.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "защита данных",
+        "en": "data protection"
+      },
+      "definition": {
+        "ru": "Правовые и технические гарантии законной обработки личных сведений.",
+        "en": "Legal and technical safeguards for lawful processing of personal information."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/hedeleya",
+      "chapter": "11",
+      "form": "hedeleya",
+      "ipa": "/he.de.ˈle.ja/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "федерация",
+        "en": "federation"
+      },
+      "definition": {
+        "ru": "Система власти с конституционно закреплёнными субъектами и распределением компетенций.",
+        "en": "Government with constitutionally defined constituent units and divided powers."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/awutona",
+      "chapter": "11",
+      "form": "awutona",
+      "ipa": "/a.wu.ˈto.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "автономия",
+        "en": "autonomy"
+      },
+      "definition": {
+        "ru": "Самостоятельность решений в пределах законно установленной компетенции.",
+        "en": "Power of independent decision-making within legally defined limits."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/kapitala",
+      "chapter": "11",
+      "form": "kapitala",
+      "ipa": "/ka.pi.ˈta.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "столица",
+        "en": "capital"
+      },
+      "definition": {
+        "ru": "Город либо специальная территория постоянного пребывания центральной власти.",
+        "en": "City or designated district hosting central public institutions."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/tiletata",
+      "chapter": "12",
+      "form": "tiletata",
+      "ipa": "/ti.le.ˈta.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "международный договор",
+        "en": "international treaty"
+      },
+      "definition": {
+        "ru": "Соглашение субъектов международного права, регулируемое международным правом.",
+        "en": "Agreement between international legal subjects governed by international law."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/latihika",
+      "chapter": "12",
+      "form": "latihika",
+      "ipa": "/la.ti.ˈhi.ka/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "ратификация",
+        "en": "ratification"
+      },
+      "definition": {
+        "ru": "Формальное выражение согласия государства на обязательность договора.",
+        "en": "Formal act expressing a state's consent to be bound by a treaty."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lekonita",
+      "chapter": "12",
+      "form": "lekonita",
+      "ipa": "/le.ko.ˈni.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "международное признание",
+        "en": "international recognition"
+      },
+      "definition": {
+        "ru": "Признание статуса государства другими государствами, не регистрация клуба.",
+        "en": "Recognition of statehood by other states, not registration of a club."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/dilomasi",
+      "chapter": "12",
+      "form": "dilomasi",
+      "ipa": "/di.lo.ˈma.si/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "дипломатия",
+        "en": "diplomacy"
+      },
+      "definition": {
+        "ru": "Мирное согласование интересов государств посредством официальных переговоров.",
+        "en": "Peaceful coordination of state interests through formal negotiation."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/seteminata",
+      "chapter": "12",
+      "form": "seteminata",
+      "ipa": "/se.te.mi.ˈna.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "самоопределение",
+        "en": "self-determination"
+      },
+      "definition": {
+        "ru": "Принцип свободного выбора народом политического статуса в международном праве.",
+        "en": "Principle of a people's free determination of political status in international law."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/abusama",
+      "chapter": "13",
+      "form": "abusama",
+      "ipa": "/a.bu.ˈsa.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "злоупотребление властью",
+        "en": "abuse of power"
+      },
+      "definition": {
+        "ru": "Использование должностных полномочий вопреки правовым пределам и целям.",
+        "en": "Use of official powers contrary to their legal limits or purpose."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/ameneda",
+      "chapter": "14",
+      "form": "ameneda",
+      "ipa": "/a.me.ˈne.da/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "конституционная поправка",
+        "en": "constitutional amendment"
+      },
+      "definition": {
+        "ru": "Формальное изменение конституции через специальную процедуру.",
+        "en": "Formal change to constitutional text through a prescribed special procedure."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/asitama",
+      "chapter": "14",
+      "form": "asitama",
+      "ipa": "/a.si.ˈta.ma/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "учредительное собрание",
+        "en": "constituent assembly"
+      },
+      "definition": {
+        "ru": "Собрание представителей для разработки либо принятия конституционного акта.",
+        "en": "Assembly of representatives convened to draft or adopt a constitutional act."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/pubilita",
+      "chapter": "14",
+      "form": "pubilita",
+      "ipa": "/pu.bi.ˈli.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "официальное опубликование",
+        "en": "official publication"
+      },
+      "definition": {
+        "ru": "Обязательное размещение принятого акта в определённом источнике.",
+        "en": "Required release of an adopted instrument through a designated channel."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/enitulena",
+      "chapter": "14",
+      "form": "enitulena",
+      "ipa": "/e.ni.tu.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "вступление в силу",
+        "en": "entry into force"
+      },
+      "definition": {
+        "ru": "Момент начала юридического действия нормативного акта.",
+        "en": "Moment from which a legal instrument produces legal effects."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/tanasena",
+      "chapter": "14",
+      "form": "tanasena",
+      "ipa": "/ta.na.ˈse.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "переходное положение",
+        "en": "transitional provision"
+      },
+      "definition": {
+        "ru": "Временная норма, обеспечивающая переход между правовыми режимами.",
+        "en": "Temporary provision governing transition between legal regimes."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/lepelena",
+      "chapter": "14",
+      "form": "lepelena",
+      "ipa": "/le.pe.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "отмена нормативного акта",
+        "en": "repeal"
+      },
+      "definition": {
+        "ru": "Прекращение действия нормы по решению компетентного органа.",
+        "en": "Termination of a legal provision by competent authority."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/takisala",
+      "chapter": "09",
+      "form": "takisala",
+      "ipa": "/ta.ki.ˈsa.la/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "налог",
+        "en": "tax"
+      },
+      "definition": {
+        "ru": "Обязательный публично-правовой платёж, установленный законной властью; не добровольный членский взнос.",
+        "en": "Compulsory public-law levy imposed by lawful authority, not a voluntary membership contribution."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/emewalena",
+      "chapter": "13",
+      "form": "emewalena",
+      "ipa": "/e.me.wa.ˈle.na/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "чрезвычайное положение",
+        "en": "state of emergency"
+      },
+      "definition": {
+        "ru": "Временный специальный правовой режим для серьёзной угрозы с контролем и гарантиями прав.",
+        "en": "A temporary exceptional legal regime for serious threats with oversight and rights safeguards."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    },
+    {
+      "id": "SAMA-LEGAL-CAND/halamita",
+      "chapter": "13",
+      "form": "halamita",
+      "ipa": "/ha.la.ˈmi.ta/",
+      "status": "candidate",
+      "gloss": {
+        "ru": "фундаментальная гарантия",
+        "en": "fundamental safeguard"
+      },
+      "definition": {
+        "ru": "Правовой механизм защиты от произвольного вмешательства власти, включая периоды кризисов.",
+        "en": "A legal protection against arbitrary state action, including during an emergency."
+      },
+      "semantic_review": "pending",
+      "grammar_review": "pending",
+      "human_validation": "not conducted"
+    }
+  ],
+  "excluded": {
+    "invalid": [
+      "galamita"
+    ],
+    "collisions": [
+      "palamena — already adopted parliament",
+      "takisa — already taxi",
+      "emelena — already emergency hotline"
+    ]
+  },
+  "contrast_pairs": [
+    {
+      "left": "takisala",
+      "right": "takisa",
+      "issue": "tax vs taxi; distinct fiscal and transport meanings"
+    },
+    {
+      "left": "emewalena",
+      "right": "emelena",
+      "issue": "state of emergency vs emergency telephone hotline"
+    },
+    {
+      "left": "dilewa",
+      "right": "paku",
+      "issue": "enforceable right vs permission"
+    },
+    {
+      "left": "sitawena",
+      "right": "sitano",
+      "issue": "citizenship status vs individual citizen"
+    },
+    {
+      "left": "lawitela",
+      "right": "lawi",
+      "issue": "rule of law vs individual statute"
+    },
+    {
+      "left": "pasapota",
+      "right": "doku",
+      "issue": "state passport vs generic document"
+    },
+    {
+      "left": "senatabanaka",
+      "right": "banaka",
+      "issue": "central bank vs commercial bank"
+    },
+    {
+      "left": "enitulena",
+      "right": "pubilita",
+      "issue": "entry into force vs official publication"
+    },
+    {
+      "left": "lepubika",
+      "right": "demokata",
+      "issue": "republic vs democracy"
+    }
+  ]
+}
