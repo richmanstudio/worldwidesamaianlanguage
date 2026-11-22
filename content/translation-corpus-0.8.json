@@ -1,0 +1,1020 @@
+{
+  "version": "0.8-draft",
+  "created": "2026-11-22",
+  "classification": "100 individually authored Russian prompts with provisional SAMA renderings, NOT 100 independent certified translations",
+  "reviewers": 1,
+  "reviewed_by_native_speakers": 0,
+  "experimental_tokens": [
+    "e",
+    "ye",
+    "ya"
+  ],
+  "items": [
+    {
+      "id": "T001",
+      "category": "Основное общение",
+      "ru": "Я вижу тебя.",
+      "sama": "Mi si yu.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T002",
+      "category": "Основное общение",
+      "ru": "Ты видишь меня.",
+      "sama": "Yu si mi.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T003",
+      "category": "Основное общение",
+      "ru": "Он или она видит меня.",
+      "sama": "Ta si mi.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T004",
+      "category": "Основное общение",
+      "ru": "Я люблю тебя.",
+      "sama": "Mi ama yu.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T005",
+      "category": "Основное общение",
+      "ru": "Ты любишь друга.",
+      "sama": "Yu ama ami.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T006",
+      "category": "Основное общение",
+      "ru": "Мы любим друзей.",
+      "sama": "Mi li ama ami li.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T007",
+      "category": "Основное общение",
+      "ru": "Они видят дом.",
+      "sama": "Ta li si doma.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T008",
+      "category": "Основное общение",
+      "ru": "Я пью воду.",
+      "sama": "Mi pina su.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T009",
+      "category": "Основное общение",
+      "ru": "Он или она ест хлеб.",
+      "sama": "Ta kula pana.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T010",
+      "category": "Основное общение",
+      "ru": "Ты пьёшь кофе.",
+      "sama": "Yu pina kawa.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Контролируемая рамка с ранее закреплёнными служебными словами; стилистические нюансы русского не всегда кодируются.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T011",
+      "category": "Время и отрицание",
+      "ru": "Я не вижу тебя.",
+      "sama": "Mi no si yu.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T012",
+      "category": "Время и отрицание",
+      "ru": "Я видел тебя.",
+      "sama": "Mi pa si yu.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T013",
+      "category": "Время и отрицание",
+      "ru": "Я увижу тебя.",
+      "sama": "Mi la si yu.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T014",
+      "category": "Время и отрицание",
+      "ru": "Я не видел друга.",
+      "sama": "Mi pa no si ami.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T015",
+      "category": "Время и отрицание",
+      "ru": "Ты увидишь друга?",
+      "sama": "Yu la si ami ka?",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T016",
+      "category": "Время и отрицание",
+      "ru": "Мы не пьём кофе.",
+      "sama": "Mi li no pina kawa.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T017",
+      "category": "Время и отрицание",
+      "ru": "Он или она будет есть хлеб.",
+      "sama": "Ta la kula pana.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T018",
+      "category": "Время и отрицание",
+      "ru": "Я не буду пить воду.",
+      "sama": "Mi la no pina su.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T019",
+      "category": "Время и отрицание",
+      "ru": "Вы (несколько человек) видели дом.",
+      "sama": "Yu li pa si doma.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T020",
+      "category": "Время и отрицание",
+      "ru": "Они не любят кофе.",
+      "sama": "Ta li no ama kawa.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "pa/la выражают только относительное прошлое/будущее, но не вид и завершённость.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T021",
+      "category": "Описание и принадлежность",
+      "ru": "Дом хороший.",
+      "sama": "Doma bi bona.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T022",
+      "category": "Описание и принадлежность",
+      "ru": "Дом плохой.",
+      "sama": "Doma bi malo.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T023",
+      "category": "Описание и принадлежность",
+      "ru": "Дом большой.",
+      "sama": "Doma bi daba.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T024",
+      "category": "Описание и принадлежность",
+      "ru": "Дом маленький.",
+      "sama": "Doma bi mini.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T025",
+      "category": "Описание и принадлежность",
+      "ru": "Дом новый.",
+      "sama": "Doma bi nawa.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T026",
+      "category": "Описание и принадлежность",
+      "ru": "Я дома.",
+      "sama": "Mi bi na doma.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T027",
+      "category": "Описание и принадлежность",
+      "ru": "Ты дома?",
+      "sama": "Yu bi na doma ka?",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T028",
+      "category": "Описание и принадлежность",
+      "ru": "Они дома.",
+      "sama": "Ta li bi na doma.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T029",
+      "category": "Описание и принадлежность",
+      "ru": "Мы друзья.",
+      "sama": "Mi li bi ami li.",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T030",
+      "category": "Описание и принадлежность",
+      "ru": "Это друг моей мамы (именная группа).",
+      "sama": "ami de mama",
+      "status": "core",
+      "review": "one-author draft; not independently validated",
+      "note": "Ограниченная учебная схема; род, артикли и юридический тип владения не определены.",
+      "meaning_preserved": "basic-approximate"
+    },
+    {
+      "id": "T031",
+      "category": "Предметы и действия",
+      "ru": "Я читаю книгу.",
+      "sama": "Mi lita kaso.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T032",
+      "category": "Предметы и действия",
+      "ru": "Мама читает книгу.",
+      "sama": "Mama lita kaso.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T033",
+      "category": "Предметы и действия",
+      "ru": "Он или она пишет имя.",
+      "sama": "Ta wima nami.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T034",
+      "category": "Предметы и действия",
+      "ru": "Я помню друга.",
+      "sama": "Mi mima ami.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T035",
+      "category": "Предметы и действия",
+      "ru": "Ты забыл имя.",
+      "sama": "Yu pa nemo nami.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T036",
+      "category": "Предметы и действия",
+      "ru": "Я слушаю тебя.",
+      "sama": "Mi saya yu.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T037",
+      "category": "Предметы и действия",
+      "ru": "Врач помогает ребёнку.",
+      "sama": "Meka kami nina.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T038",
+      "category": "Предметы и действия",
+      "ru": "Ребёнок спит.",
+      "sama": "Nina lako.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T039",
+      "category": "Предметы и действия",
+      "ru": "Она закрывает дверь.",
+      "sama": "Ta paki peta.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T040",
+      "category": "Предметы и действия",
+      "ru": "Я открываю дверь.",
+      "sama": "Mi nipa peta.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Включает неутверждённые корни из словаря кандидатов; значения и валентности нуждаются в редактуре.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T041",
+      "category": "Потребности и описания",
+      "ru": "Я хочу воды.",
+      "sama": "Mi kama su.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T042",
+      "category": "Потребности и описания",
+      "ru": "Книга новая.",
+      "sama": "Kaso bi nawa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T043",
+      "category": "Потребности и описания",
+      "ru": "Ребёнок маленький.",
+      "sama": "Nina bi mini.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T044",
+      "category": "Потребности и описания",
+      "ru": "Семья большая.",
+      "sama": "Lami bi daba.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T045",
+      "category": "Потребности и описания",
+      "ru": "Город большой.",
+      "sama": "Bano bi daba.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T046",
+      "category": "Потребности и описания",
+      "ru": "Я вижу птицу.",
+      "sama": "Mi si nini.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T047",
+      "category": "Потребности и описания",
+      "ru": "Мы ждём друга.",
+      "sama": "Mi li sopa ami.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T048",
+      "category": "Потребности и описания",
+      "ru": "Я изучаю язык.",
+      "sama": "Mi lena basa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T049",
+      "category": "Потребности и описания",
+      "ru": "Она проверяет книгу.",
+      "sama": "Ta tami kaso.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T050",
+      "category": "Потребности и описания",
+      "ru": "Мы идём к дому.",
+      "sama": "Mi li wako to doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Перевод использует кандидатные корни; не подтверждена доступность и семантика.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T051",
+      "category": "Вопросы и модальность",
+      "ru": "Кто читает книгу?",
+      "sama": "Ki lita kaso?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T052",
+      "category": "Вопросы и модальность",
+      "ru": "Что ты читаешь?",
+      "sama": "Yu lita ku?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T053",
+      "category": "Вопросы и модальность",
+      "ru": "Где врач?",
+      "sama": "Meka bi kalo?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T054",
+      "category": "Вопросы и модальность",
+      "ru": "Когда ребёнок спит?",
+      "sama": "Nina lako kate?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T055",
+      "category": "Вопросы и модальность",
+      "ru": "Почему ты ждёшь?",
+      "sama": "Yu sopa kasa?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T056",
+      "category": "Вопросы и модальность",
+      "ru": "Как ты говоришь?",
+      "sama": "Yu toka kamo?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T057",
+      "category": "Вопросы и модальность",
+      "ru": "Можешь ли ты помочь мне?",
+      "sama": "Yu mosa kami mi ka?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T058",
+      "category": "Вопросы и модальность",
+      "ru": "Я хочу прочитать книгу (буквально: хочу читать книгу).",
+      "sama": "Mi kama lita kaso.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T059",
+      "category": "Вопросы и модальность",
+      "ru": "Он или она может открыть дверь.",
+      "sama": "Ta mosa nipa peta.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T060",
+      "category": "Вопросы и модальность",
+      "ru": "Я не хочу пить кофе.",
+      "sama": "Mi no kama pina kawa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "Позиции специальных вопросов и вложенная модальность — проектная гипотеза.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T061",
+      "category": "Условные отношения",
+      "ru": "Если ты видишь меня, я вижу тебя.",
+      "sama": "Ani yu si mi, mi si yu.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T062",
+      "category": "Условные отношения",
+      "ru": "Если ты не видишь меня, я пойду к дому.",
+      "sama": "Ani yu no si mi, mi la wako to doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T063",
+      "category": "Условные отношения",
+      "ru": "Если дом большой, я вижу дом.",
+      "sama": "Ani doma bi daba, mi si doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T064",
+      "category": "Условные отношения",
+      "ru": "Если мы дома, мы читаем книги.",
+      "sama": "Ani mi li bi na doma, mi li lita kaso li.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T065",
+      "category": "Условные отношения",
+      "ru": "Если ребёнок спит, мама читает.",
+      "sama": "Ani nina lako, mama lita.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T066",
+      "category": "Условные отношения",
+      "ru": "Если ты любишь кофе, я пью кофе.",
+      "sama": "Ani yu ama kawa, mi pina kawa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T067",
+      "category": "Условные отношения",
+      "ru": "Если ты пойдёшь к дому, я тоже пойду к дому (без выражения «тоже»).",
+      "sama": "Ani yu la wako to doma, mi la wako to doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T068",
+      "category": "Условные отношения",
+      "ru": "Если он или она врач, он или она помогает детям.",
+      "sama": "Ani ta bi meka, ta kami nina li.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T069",
+      "category": "Условные отношения",
+      "ru": "Если я знаю имя, я напишу имя.",
+      "sama": "Ani mi nima nami, mi la wima nami.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T070",
+      "category": "Условные отношения",
+      "ru": "Если он или она не может помочь, мы подождём.",
+      "sama": "Ani ta no mosa kami, mi li la sopa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ani+условие, затем запятая и главное предложение — неутверждённая схема; в некоторых примерах перевод намеренно буквальный.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T071",
+      "category": "Изъяснительные придаточные",
+      "ru": "Я знаю, что ты дома.",
+      "sama": "Mi nima ke yu bi na doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T072",
+      "category": "Изъяснительные придаточные",
+      "ru": "Я думаю, что дом новый.",
+      "sama": "Mi misi ke doma bi nawa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T073",
+      "category": "Изъяснительные придаточные",
+      "ru": "Он или она знает, что я люблю кофе.",
+      "sama": "Ta nima ke mi ama kawa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T074",
+      "category": "Изъяснительные придаточные",
+      "ru": "Мы знаем, что они друзья.",
+      "sama": "Mi li nima ke ta li bi ami li.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T075",
+      "category": "Изъяснительные придаточные",
+      "ru": "Я помню, что ты видел меня.",
+      "sama": "Mi mima ke yu pa si mi.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T076",
+      "category": "Изъяснительные придаточные",
+      "ru": "Он или она говорит, что дом большой.",
+      "sama": "Ta toka ke doma bi daba.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T077",
+      "category": "Изъяснительные придаточные",
+      "ru": "Мама знает, что ребёнок спит.",
+      "sama": "Mama nima ke nina lako.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T078",
+      "category": "Изъяснительные придаточные",
+      "ru": "Я думаю, что ты не видел друга.",
+      "sama": "Mi misi ke yu pa no si ami.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T079",
+      "category": "Изъяснительные придаточные",
+      "ru": "Я не знаю, что он или она дома.",
+      "sama": "Mi no nima ke ta bi na doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T080",
+      "category": "Изъяснительные придаточные",
+      "ru": "Ты знаешь, что мы дома?",
+      "sama": "Yu nima ke mi li bi na doma ka?",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ke вводит единственную конечную клаузу; отсутствие закрывающего маркера запрещает сложное вложение.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T081",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Друг, которого я вижу, находится дома.",
+      "sama": "Ami ye mi si e ya bi na doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T082",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Друг, который видит меня, находится дома.",
+      "sama": "Ami ye e si mi ya bi na doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T083",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Ребёнок, которого любит мама, спит.",
+      "sama": "Nina ye mama ama e ya lako.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T084",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Дом, который я видел, большой.",
+      "sama": "Doma ye mi pa si e ya bi daba.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T085",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Книга, которую я читаю, новая.",
+      "sama": "Kaso ye mi lita e ya bi nawa.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T086",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Врач, который помогает детям, дома.",
+      "sama": "Meka ye e kami nina li ya bi na doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T087",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Мама, которую я люблю, дома.",
+      "sama": "Mama ye mi ama e ya bi na doma.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T088",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Друг, которого мы видели, читает.",
+      "sama": "Ami ye mi li pa si e ya lita.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T089",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Я люблю тебя, но не вижу тебя.",
+      "sama": "Mi ama yu aka mi no si yu.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T090",
+      "category": "Относительные и сочинённые конструкции",
+      "ru": "Он или она пьёт воду и ест хлеб.",
+      "sama": "Ta pina su wa ta kula pana.",
+      "status": "draft",
+      "review": "one-author draft; not independently validated",
+      "note": "ye…ya с заполнителем e и aka/wa — предложения, которые требуют проверки роли, границ и вложения.",
+      "meaning_preserved": "needs-review"
+    },
+    {
+      "id": "T091",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Я закончил читать книгу ровно за двадцать минут.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T092",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Если бы я знал это вчера, то поступил бы иначе.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T093",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Суд установил причинно-следственную связь между действиями и вредом.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T094",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Договор считается незаключённым при несогласовании существенных условий.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T095",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Научная гипотеза подтверждена независимым воспроизводимым экспериментом.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T096",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Вероятность события составляет семь целых пять десятых процента.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T097",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Это не обязанность, а лишь рекомендация.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T098",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Он утверждает, что слышал об этом от другого лица, но сам не видел.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T099",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Все студенты, кроме двух, сдали экзамен.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    },
+    {
+      "id": "T100",
+      "category": "Неустранимые смысловые пробелы",
+      "ru": "Мы встретились позавчера за четверть часа до полуночи.",
+      "sama": null,
+      "status": "blocked",
+      "review": "one-author draft; not independently validated",
+      "note": "Отсутствуют закреплённые средства точной передачи соответствующей семантики, поэтому перевода намеренно нет.",
+      "meaning_preserved": "not-translated"
+    }
+  ],
+  "metrics": {
+    "total": 100,
+    "core": 30,
+    "draft": 60,
+    "blocked": 10
+  }
+}
